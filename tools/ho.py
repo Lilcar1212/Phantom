@@ -538,3 +538,19 @@ def publish_group(objs, asset_name, category, phase='Phase1', grid=None, notes='
     manifest_add(entry)
     print('PUBLISHED', json.dumps(entry))
     return entry
+
+
+def split_by_axis(ob, axis=1, names=('_Front', '_Back')):
+    """Split a mesh into two objects by face-centroid sign on `axis` (1 = Y: front (+Y) / back (-Y))."""
+    out = []
+    for keep_pos, suffix in ((True, names[0]), (False, names[1])):
+        cp = ob.copy(); cp.data = ob.data.copy(); link(cp)
+        cp.name = cp.data.name = ob.name + suffix
+        bm = bmesh.new(); bm.from_mesh(cp.data)
+        dele = [f for f in bm.faces if (f.calc_center_median()[axis] >= 0) != keep_pos]
+        bmesh.ops.delete(bm, geom=dele, context='FACES')
+        bmesh.ops.delete(bm, geom=[v for v in bm.verts if not v.link_faces], context='VERTS')
+        bm.to_mesh(cp.data); bm.free()
+        out.append(cp)
+    bpy.data.objects.remove(ob, do_unlink=True)
+    return out

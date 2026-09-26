@@ -20,6 +20,8 @@ for name in which:
     ob = ho.mesh_from_bm(asset, b.bm, [ho.material(m) for m in MATS])
     ho.finalize(ob, recalc_normals=False)
     parts = ho.split_by_material(ob, {'_Tiles': ['RoofTile_Clay'], '_Frame': None})
+    if ho.tri_count(parts[0]) > 18000:          # keep every mesh safely under Roblox's 20k limit
+        parts = ho.split_by_axis(parts[0], 1, ('Front', 'Back')) + parts[1:]
     p = SIZES[name]
     ho.publish_group(parts, asset, 'Roofs', grid=4, footprint=(p['W'], p['D']), render=render,
                      views=('three_quarter', 'front', 'side', 'under'), samples=40,

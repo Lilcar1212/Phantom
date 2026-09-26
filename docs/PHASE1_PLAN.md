@@ -18,8 +18,8 @@ Status: ✅ done · 🔨 in progress · ⬜ to do
 
 ## 2b. Roofs (top priority)
 - ✅ Irimoya S (16×12), M (24×16), L (32×24): curved cover-tile rows, stepped pan courses, disc eave tiles, stacked ridges + onigawara, upturned corners, rafters / brackets / purlin / corner beams, plaster gable with timber pattern, barge boards, gegyo
-- ⬜ Kirizuma gable roof ×2
-- ⬜ Hisashi pent roof / shop awning (4 / 8 / 12 wide)
+- ✅ Kirizuma gable roof S (12×12), L (20×16)
+- ✅ Hisashi pent roof / shop awning 4 / 8 / 12 wide
 - ⬜ Chidori gable, Karahafu (castle)
 - ⬜ Snap pieces: straight ridge (4/8 studs), ridge end, eave corner, eave straight (4/8)
 
