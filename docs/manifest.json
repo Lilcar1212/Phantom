@@ -1,0 +1,39 @@
+[
+ {
+  "name": "HO_Test_ScaleCube_1x1x1",
+  "phase": "Phase0",
+  "category": "Test",
+  "type": "Mesh",
+  "file": "assets/Phase0/Test/HO_Test_ScaleCube_1x1x1.fbx",
+  "tris": 12,
+  "textures": [
+   "Debug_Faces"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "name": "HO_Test_ScaleCube_1x1x1",
+   "tris": 12,
+   "under_limit": true,
+   "dims": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "parts": 1,
+   "floating": 0,
+   "closed_parts": 1,
+   "open_parts": 0,
+   "inverted_parts": 0,
+   "textures": [
+    "Debug_Faces"
+   ],
+   "textures_ok": true,
+   "pivot_bottom_center": true
+  },
+  "renders": [
+   "renders/Phase0/Test/HO_Test_ScaleCube_1x1x1_three_quarter.png",
+   "renders/Phase0/Test/HO_Test_ScaleCube_1x1x1_front.png"
+  ],
+  "notes": "Scale/orientation check: must import as Size 1,1,1 with FRONT facing -Z"
+ }
+]
