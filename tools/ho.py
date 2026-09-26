@@ -41,6 +41,7 @@ FBX_SETTINGS = dict(
 
 # ----------------------------------------------------------------------------- scene
 def reset():
+    TEXSETS.clear()
     bpy.ops.wm.read_factory_settings(use_empty=True)
     s = bpy.context.scene
     s.unit_settings.system = 'METRIC'
@@ -283,8 +284,14 @@ def check(ob, grid=None, notes=''):
         for pth in texset_paths(t).values():
             im = bpy.data.images.load(pth, check_existing=True)
             if max(im.size) > TEX_LIMIT: tex_ok = False
+    me = ob.data
+    per_mat = {}
+    for lt in me.loop_triangles:
+        m = me.materials[me.polygons[lt.polygon_index].material_index]
+        k = (m.get('ho_texset') if m else None) or 'none'
+        per_mat[k] = per_mat.get(k, 0) + 1
     res = dict(
-        name=ob.name, tris=tris, under_limit=tris <= TRI_LIMIT,
+        name=ob.name, tris=tris, tris_per_material=per_mat, under_limit=tris <= TRI_LIMIT,
         dims=[round(d, 3) for d in dims], parts=parts, floating=flo,
         closed_parts=closed, open_parts=open_, inverted_parts=inv,
         textures=texs, textures_ok=tex_ok,
@@ -397,6 +404,8 @@ def render_previews(objs, name, subdir='', views=('three_quarter', 'front'), sam
         'back': Vector((-0.5, -1.0, 0.5)),
         'top': Vector((0.0, 0.001, 1.0)),
         'under': Vector((0.55, 0.9, -0.28)),
+        'side': Vector((1.0, 0.25, 0.3)),
+        'low': Vector((0.7, 1.0, 0.2)),
     }
     if extra_views:
         dirs.update(extra_views)
@@ -408,6 +417,8 @@ def render_previews(objs, name, subdir='', views=('three_quarter', 'front'), sam
         dist = (size * 0.5) / math.tan(fov / 2) * 1.08
         cam.location = ctr + d * dist
         _look_at(cam, ctr)
+        if ground:
+            helpers[2].hide_render = (v == 'under')
         p = os.path.join(RENDER_DIR, subdir, f'{name}_{v}.png')
         scene.render.filepath = p
         bpy.ops.render.render(write_still=True)
@@ -466,6 +477,64 @@ def publish(ob, category, phase='Phase1', grid=None, notes='', type_='Mesh', ren
                               samples=samples) if render else []
     entry = dict(name=ob.name, phase=phase, category=category, type=type_, file=rel, tris=c['tris'],
                  textures=c['textures'], pivot='bottom-centre', checks=c, renders=renders, notes=notes)
+    manifest_add(entry)
+    print('PUBLISHED', json.dumps(entry))
+    return entry
+
+
+def split_by_material(ob, groups):
+    """Split `ob` into several objects. groups = {suffix: [texset names]} (a None entry catches the rest)."""
+    out = []
+    for suffix, sets in groups.items():
+        cp = ob.copy(); cp.data = ob.data.copy(); link(cp)
+        cp.name = cp.data.name = ob.name + suffix
+        bm = bmesh.new(); bm.from_mesh(cp.data)
+        keep_idx = set()
+        for i, m in enumerate(cp.data.materials):
+            ts = m.get('ho_texset') if m else None
+            if sets is None:
+                others = {t for v in groups.values() if v for t in v}
+                if ts not in others: keep_idx.add(i)
+            elif ts in sets:
+                keep_idx.add(i)
+        bmesh.ops.delete(bm, geom=[f for f in bm.faces if f.material_index not in keep_idx], context='FACES')
+        bmesh.ops.delete(bm, geom=[v for v in bm.verts if not v.link_faces], context='VERTS')
+        bm.to_mesh(cp.data); bm.free()
+        # drop unused material slots
+        used = sorted({p.material_index for p in cp.data.polygons})
+        mats = [cp.data.materials[i] for i in used]
+        remap = {o: n for n, o in enumerate(used)}
+        idx = [remap[p.material_index] for p in cp.data.polygons]
+        cp.data.materials.clear()
+        for m in mats: cp.data.materials.append(m)
+        cp.data.polygons.foreach_set('material_index', idx)
+        cp.data.update()
+        out.append(cp)
+    bpy.data.objects.remove(ob, do_unlink=True)
+    return out
+
+
+def publish_group(objs, asset_name, category, phase='Phase1', grid=None, notes='', type_='Mesh group', render=True,
+                  views=('three_quarter', 'front'), samples=64, footprint=None):
+    """Export several meshes (sharing one pivot) as one FBX asset; each mesh checked against the limits."""
+    checks = []
+    for o in objs:
+        if footprint: o['ho_footprint'] = footprint
+        checks.append(check(o, grid=grid))
+    rel = export_fbx(objs, f'{phase}/{category}/{asset_name}.fbx')
+    renders = render_previews(objs, asset_name, subdir=f'{phase}/{category}', views=views, samples=samples) if render else []
+    lo, hi = world_bbox(objs)
+    agg = dict(under_limit=all(c['under_limit'] for c in checks), floating=sum(c['floating'] for c in checks),
+               inverted_parts=sum(c['inverted_parts'] for c in checks), dims=[round(d, 3) for d in (hi - lo)],
+               meshes={c['name']: c['tris'] for c in checks},
+               pivot_bottom_center=abs(lo.z) < 1e-3 and abs(lo.x + hi.x) < 1e-3 and abs(lo.y + hi.y) < 1e-3)
+    if grid:
+        agg['grid_ok'] = all(c.get('grid_ok', True) for c in checks)
+    tex = sorted({t for c in checks for t in c['textures']})
+    entry = dict(name=asset_name, phase=phase, category=category, type=type_, file=rel,
+                 tris=sum(c['tris'] for c in checks), textures=tex, pivot='bottom-centre', checks=agg,
+                 mesh_checks=checks, renders=renders,
+                 notes=notes + ' | meshes: ' + ', '.join(f"{c['name']} ({c['tris']})" for c in checks))
     manifest_add(entry)
     print('PUBLISHED', json.dumps(entry))
     return entry
