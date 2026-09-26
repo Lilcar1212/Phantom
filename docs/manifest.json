@@ -181,6 +181,101 @@
   "notes": "8 studs wide, projects 3 studs; back (-Z in Roblox = rear) face mounts flush on a wall face, typically 7-8 studs above street level"
  },
  {
+  "name": "HO_Roof_Irimoya_Large",
+  "phase": "Phase1",
+  "category": "Roofs",
+  "type": "Mesh group",
+  "file": "assets/Phase1/Roofs/HO_Roof_Irimoya_Large.fbx",
+  "tris": 31084,
+  "textures": [
+   "Gold_Leaf",
+   "Plaster_White",
+   "RoofTile_Clay",
+   "Timber_Dark",
+   "Timber_Light"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "under_limit": false,
+   "floating": 0,
+   "inverted_parts": 0,
+   "dims": [
+    42.144,
+    34.144,
+    14.371
+   ],
+   "meshes": {
+    "HO_Roof_Irimoya_Large_Tiles": 21594,
+    "HO_Roof_Irimoya_Large_Frame": 9490
+   },
+   "pivot_bottom_center": true,
+   "grid_ok": true
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Roof_Irimoya_Large_Tiles",
+    "tris": 21594,
+    "tris_per_material": {
+     "RoofTile_Clay": 21594
+    },
+    "under_limit": false,
+    "dims": [
+     42.144,
+     34.144,
+     14.371
+    ],
+    "parts": 309,
+    "floating": 0,
+    "closed_parts": 187,
+    "open_parts": 148,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": true,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Roof_Irimoya_Large_Frame",
+    "tris": 9490,
+    "tris_per_material": {
+     "Timber_Light": 2788,
+     "Timber_Dark": 6334,
+     "Plaster_White": 160,
+     "Gold_Leaf": 208
+    },
+    "under_limit": true,
+    "dims": [
+     42.144,
+     34.144,
+     14.371
+    ],
+    "parts": 275,
+    "floating": 0,
+    "closed_parts": 121,
+    "open_parts": 154,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf",
+     "Plaster_White",
+     "Timber_Dark",
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": true,
+    "grid_ok": true
+   }
+  ],
+  "renders": [
+   "renders/Phase1/Roofs/HO_Roof_Irimoya_Large_three_quarter.png",
+   "renders/Phase1/Roofs/HO_Roof_Irimoya_Large_front.png",
+   "renders/Phase1/Roofs/HO_Roof_Irimoya_Large_side.png",
+   "renders/Phase1/Roofs/HO_Roof_Irimoya_Large_under.png"
+  ],
+  "notes": "Footprint 32x24 studs (outer wall faces); place on wall top; eave overhang 3.5 | meshes: HO_Roof_Irimoya_Large_Tiles (21594), HO_Roof_Irimoya_Large_Frame (9490)"
+ },
+ {
   "name": "HO_Roof_Irimoya_Medium",
   "phase": "Phase1",
   "category": "Roofs",
@@ -267,8 +362,200 @@
     "grid_ok": true
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Roofs/HO_Roof_Irimoya_Medium_three_quarter.png",
+   "renders/Phase1/Roofs/HO_Roof_Irimoya_Medium_front.png",
+   "renders/Phase1/Roofs/HO_Roof_Irimoya_Medium_side.png",
+   "renders/Phase1/Roofs/HO_Roof_Irimoya_Medium_under.png"
+  ],
   "notes": "Footprint 24x16 studs (outer wall faces); place on wall top; eave overhang 3.0 | meshes: HO_Roof_Irimoya_Medium_Tiles (14698), HO_Roof_Irimoya_Medium_Frame (6810)"
+ },
+ {
+  "name": "HO_Roof_Irimoya_Small",
+  "phase": "Phase1",
+  "category": "Roofs",
+  "type": "Mesh group",
+  "file": "assets/Phase1/Roofs/HO_Roof_Irimoya_Small.fbx",
+  "tris": 15900,
+  "textures": [
+   "Gold_Leaf",
+   "Plaster_White",
+   "RoofTile_Clay",
+   "Timber_Dark",
+   "Timber_Light"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "inverted_parts": 0,
+   "dims": [
+    22.915,
+    18.915,
+    10.01
+   ],
+   "meshes": {
+    "HO_Roof_Irimoya_Small_Tiles": 10786,
+    "HO_Roof_Irimoya_Small_Frame": 5114
+   },
+   "pivot_bottom_center": true,
+   "grid_ok": true
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Roof_Irimoya_Small_Tiles",
+    "tris": 10786,
+    "tris_per_material": {
+     "RoofTile_Clay": 10786
+    },
+    "under_limit": true,
+    "dims": [
+     22.915,
+     18.915,
+     10.01
+    ],
+    "parts": 193,
+    "floating": 0,
+    "closed_parts": 123,
+    "open_parts": 84,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": true,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Roof_Irimoya_Small_Frame",
+    "tris": 5114,
+    "tris_per_material": {
+     "Timber_Light": 840,
+     "Timber_Dark": 3906,
+     "Plaster_White": 160,
+     "Gold_Leaf": 208
+    },
+    "under_limit": true,
+    "dims": [
+     22.915,
+     18.915,
+     10.01
+    ],
+    "parts": 155,
+    "floating": 0,
+    "closed_parts": 73,
+    "open_parts": 82,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf",
+     "Plaster_White",
+     "Timber_Dark",
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": true,
+    "grid_ok": true
+   }
+  ],
+  "renders": [
+   "renders/Phase1/Roofs/HO_Roof_Irimoya_Small_three_quarter.png",
+   "renders/Phase1/Roofs/HO_Roof_Irimoya_Small_front.png",
+   "renders/Phase1/Roofs/HO_Roof_Irimoya_Small_side.png",
+   "renders/Phase1/Roofs/HO_Roof_Irimoya_Small_under.png"
+  ],
+  "notes": "Footprint 16x12 studs (outer wall faces); place on wall top; eave overhang 2.5 | meshes: HO_Roof_Irimoya_Small_Tiles (10786), HO_Roof_Irimoya_Small_Frame (5114)"
+ },
+ {
+  "name": "HO_Roof_Kirizuma_Large",
+  "phase": "Phase1",
+  "category": "Roofs",
+  "type": "Mesh group",
+  "file": "assets/Phase1/Roofs/HO_Roof_Kirizuma_Large.fbx",
+  "tris": 10160,
+  "textures": [
+   "Plaster_White",
+   "RoofTile_Clay",
+   "Timber_Dark",
+   "Timber_Light"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "inverted_parts": 0,
+   "dims": [
+    22.929,
+    21.854,
+    9.994
+   ],
+   "meshes": {
+    "HO_Roof_Kirizuma_Large_Tiles": 7870,
+    "HO_Roof_Kirizuma_Large_Frame": 2290
+   },
+   "pivot_bottom_center": true,
+   "grid_ok": true
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Roof_Kirizuma_Large_Tiles",
+    "tris": 7870,
+    "tris_per_material": {
+     "RoofTile_Clay": 7870
+    },
+    "under_limit": true,
+    "dims": [
+     22.929,
+     21.854,
+     9.994
+    ],
+    "parts": 102,
+    "floating": 0,
+    "closed_parts": 73,
+    "open_parts": 51,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": true,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Roof_Kirizuma_Large_Frame",
+    "tris": 2290,
+    "tris_per_material": {
+     "Timber_Light": 740,
+     "Timber_Dark": 1430,
+     "Plaster_White": 120
+    },
+    "under_limit": true,
+    "dims": [
+     22.929,
+     21.854,
+     9.994
+    ],
+    "parts": 71,
+    "floating": 0,
+    "closed_parts": 23,
+    "open_parts": 51,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White",
+     "Timber_Dark",
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": true,
+    "grid_ok": true
+   }
+  ],
+  "renders": [
+   "renders/Phase1/Roofs/HO_Roof_Kirizuma_Large_three_quarter.png",
+   "renders/Phase1/Roofs/HO_Roof_Kirizuma_Large_front.png",
+   "renders/Phase1/Roofs/HO_Roof_Kirizuma_Large_side.png",
+   "renders/Phase1/Roofs/HO_Roof_Kirizuma_Large_under.png"
+  ],
+  "notes": "Footprint 20x16 (outer wall faces); gable ends include the plaster gable walls; eave overhang 2.5 | meshes: HO_Roof_Kirizuma_Large_Tiles (7870), HO_Roof_Kirizuma_Large_Frame (2290)"
  },
  {
   "name": "HO_Roof_Kirizuma_Small",
@@ -354,7 +641,12 @@
     "grid_ok": true
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Roofs/HO_Roof_Kirizuma_Small_three_quarter.png",
+   "renders/Phase1/Roofs/HO_Roof_Kirizuma_Small_front.png",
+   "renders/Phase1/Roofs/HO_Roof_Kirizuma_Small_side.png",
+   "renders/Phase1/Roofs/HO_Roof_Kirizuma_Small_under.png"
+  ],
   "notes": "Footprint 12x12 (outer wall faces); gable ends include the plaster gable walls; eave overhang 2.0 | meshes: HO_Roof_Kirizuma_Small_Tiles (5118), HO_Roof_Kirizuma_Small_Frame (1548)"
  }
 ]
