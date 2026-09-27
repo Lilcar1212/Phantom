@@ -1,0 +1,921 @@
+{
+ "HO_Weapon_IronKatana": {
+  "kind": "weapon",
+  "meshes": {
+   "HO_Weapon_IronKatana__Gold_Leaf": {
+    "offset": [
+     0.0,
+     0.0,
+     -0.615
+    ]
+   },
+   "HO_Weapon_IronKatana__Iron_Wrought": {
+    "offset": [
+     0.0,
+     0.0,
+     0.005
+    ]
+   },
+   "HO_Weapon_IronKatana__Steel_Blade": {
+    "offset": [
+     0.0,
+     0.0457,
+     -1.845
+    ]
+   },
+   "HO_Weapon_IronKatana__Tsuka_Wrap": {
+    "offset": [
+     0.0,
+     0.005,
+     -0.0
+    ]
+   }
+  }
+ },
+ "HO_Weapon_IronKatana_Saya": {
+  "kind": "weapon",
+  "meshes": {
+   "HO_Weapon_IronKatana_Saya__Black_Lacquer": {
+    "offset": [
+     0.0,
+     0.0417,
+     -1.8275
+    ]
+   },
+   "HO_Weapon_IronKatana_Saya__Cloth_Crimson": {
+    "offset": [
+     0.1615,
+     -0.1933,
+     -1.4355
+    ]
+   },
+   "HO_Weapon_IronKatana_Saya__Iron_Wrought": {
+    "offset": [
+     0.0,
+     0.0145,
+     -1.8875
+    ]
+   }
+  }
+ },
+ "HO_Weapon_TemperedKatana": {
+  "kind": "weapon",
+  "meshes": {
+   "HO_Weapon_TemperedKatana__Gold_Leaf": {
+    "offset": [
+     0.0,
+     0.0,
+     -0.035
+    ]
+   },
+   "HO_Weapon_TemperedKatana__Iron_Wrought": {
+    "offset": [
+     0.0,
+     0.0,
+     -0.545
+    ]
+   },
+   "HO_Weapon_TemperedKatana__Steel_Blade": {
+    "offset": [
+     0.0,
+     0.065,
+     -1.895
+    ]
+   },
+   "HO_Weapon_TemperedKatana__Tsuka_Wrap": {
+    "offset": [
+     0.0,
+     0.005,
+     -0.0
+    ]
+   }
+  }
+ },
+ "HO_Weapon_TemperedKatana_Saya": {
+  "kind": "weapon",
+  "meshes": {
+   "HO_Weapon_TemperedKatana_Saya__Black_Lacquer": {
+    "offset": [
+     0.0,
+     0.0598,
+     -1.876
+    ]
+   },
+   "HO_Weapon_TemperedKatana_Saya__Cloth_Crimson": {
+    "offset": [
+     0.1615,
+     -0.1927,
+     -1.4475
+    ]
+   },
+   "HO_Weapon_TemperedKatana_Saya__Gold_Leaf": {
+    "offset": [
+     0.0,
+     0.0302,
+     -1.936
+    ]
+   }
+  }
+ },
+ "HO_Weapon_AshfallSword": {
+  "kind": "weapon",
+  "meshes": {
+   "HO_Weapon_AshfallSword__Gold_Leaf": {
+    "offset": [
+     0.0,
+     0.0,
+     -0.645
+    ]
+   },
+   "HO_Weapon_AshfallSword__Iron_Wrought": {
+    "offset": [
+     0.0,
+     0.0,
+     -0.01
+    ]
+   },
+   "HO_Weapon_AshfallSword__Steel_Dark": {
+    "offset": [
+     0.0,
+     0.0142,
+     -1.995
+    ]
+   },
+   "HO_Weapon_AshfallSword__Tsuka_Wrap": {
+    "offset": [
+     0.0,
+     0.005,
+     -0.0
+    ]
+   },
+   "HO_Weapon_AshfallSword_Glow": {
+    "offset": [
+     0.0,
+     0.032,
+     -1.8262
+    ]
+   }
+  }
+ },
+ "HO_Weapon_AshfallSword_Saya": {
+  "kind": "weapon",
+  "meshes": {
+   "HO_Weapon_AshfallSword_Saya__Black_Lacquer": {
+    "offset": [
+     0.0,
+     0.0108,
+     -1.973
+    ]
+   },
+   "HO_Weapon_AshfallSword_Saya__Cloth_Crimson": {
+    "offset": [
+     0.1615,
+     -0.194,
+     -1.4715
+    ]
+   },
+   "HO_Weapon_AshfallSword_Saya__Iron_Wrought": {
+    "offset": [
+     0.0,
+     0.0,
+     -2.033
+    ]
+   }
+  }
+ },
+ "HO_Weapon_CrimsonOath": {
+  "kind": "weapon",
+  "meshes": {
+   "HO_Weapon_CrimsonOath__Gold_Leaf": {
+    "offset": [
+     0.0,
+     0.0,
+     -0.035
+    ]
+   },
+   "HO_Weapon_CrimsonOath__Steel_Blade": {
+    "offset": [
+     0.0,
+     0.0743,
+     -1.945
+    ]
+   },
+   "HO_Weapon_CrimsonOath__Tsuka_Wrap": {
+    "offset": [
+     0.0,
+     0.005,
+     -0.0
+    ]
+   },
+   "HO_Weapon_CrimsonOath_Glow": {
+    "offset": [
+     0.0,
+     0.0632,
+     -1.945
+    ]
+   }
+  }
+ },
+ "HO_Weapon_CrimsonOath_Saya": {
+  "kind": "weapon",
+  "meshes": {
+   "HO_Weapon_CrimsonOath_Saya__Gold_Leaf": {
+    "offset": [
+     0.0449,
+     -0.1282,
+     -1.9845
+    ]
+   },
+   "HO_Weapon_CrimsonOath_Saya__Red_Lacquer": {
+    "offset": [
+     0.0,
+     0.0685,
+     -1.9245
+    ]
+   }
+  }
+ },
+ "HO_Weapon_MoonlitEdge": {
+  "kind": "weapon",
+  "meshes": {
+   "HO_Weapon_MoonlitEdge__Gold_Leaf": {
+    "offset": [
+     0.0,
+     0.0,
+     -0.615
+    ]
+   },
+   "HO_Weapon_MoonlitEdge__Iron_Wrought": {
+    "offset": [
+     0.0,
+     0.0,
+     -0.001
+    ]
+   },
+   "HO_Weapon_MoonlitEdge__Steel_Blade": {
+    "offset": [
+     0.0,
+     0.0607,
+     -1.945
+    ]
+   },
+   "HO_Weapon_MoonlitEdge__Tsuka_Wrap": {
+    "offset": [
+     0.0,
+     0.005,
+     -0.0
+    ]
+   },
+   "HO_Weapon_MoonlitEdge_Glow": {
+    "offset": [
+     0.0,
+     0.0497,
+     -1.945
+    ]
+   }
+  }
+ },
+ "HO_Weapon_MoonlitEdge_Saya": {
+  "kind": "weapon",
+  "meshes": {
+   "HO_Weapon_MoonlitEdge_Saya__Cloth_Crimson": {
+    "offset": [
+     0.1615,
+     -0.1928,
+     -1.4595
+    ]
+   },
+   "HO_Weapon_MoonlitEdge_Saya__Iron_Wrought": {
+    "offset": [
+     0.0,
+     0.0286,
+     -1.9845
+    ]
+   },
+   "HO_Weapon_MoonlitEdge_Saya__Navy_Lacquer": {
+    "offset": [
+     0.0,
+     0.0558,
+     -1.9245
+    ]
+   }
+  }
+ },
+ "HO_Armor_Ashigaru": {
+  "kind": "armour",
+  "meshes": {
+   "HO_Armor_Ashigaru_Torso__Black_Lacquer": {
+    "part": "Torso",
+    "offset": [
+     0.0,
+     -0.26,
+     -0.034
+    ]
+   },
+   "HO_Armor_Ashigaru_Torso__Cloth_Navy": {
+    "part": "Torso",
+    "offset": [
+     0.0,
+     -0.16,
+     -0.73
+    ]
+   },
+   "HO_Armor_Ashigaru_Torso__Iron_Wrought": {
+    "part": "Torso",
+    "offset": [
+     0.0,
+     1.07,
+     -0.09
+    ]
+   },
+   "HO_Armor_Ashigaru_RightArm__Black_Lacquer": {
+    "part": "Right Arm",
+    "offset": [
+     0.085,
+     0.08,
+     -0.0
+    ]
+   },
+   "HO_Armor_Ashigaru_RightArm__Cloth_Navy": {
+    "part": "Right Arm",
+    "offset": [
+     0.65,
+     0.42,
+     -0.0
+    ]
+   },
+   "HO_Armor_Ashigaru_RightArm__Iron_Wrought": {
+    "part": "Right Arm",
+    "offset": [
+     0.0,
+     0.07,
+     -0.0
+    ]
+   },
+   "HO_Armor_Ashigaru_LeftArm__Black_Lacquer": {
+    "part": "Left Arm",
+    "offset": [
+     -0.085,
+     0.08,
+     -0.0
+    ]
+   },
+   "HO_Armor_Ashigaru_LeftArm__Cloth_Navy": {
+    "part": "Left Arm",
+    "offset": [
+     -0.65,
+     0.42,
+     -0.0
+    ]
+   },
+   "HO_Armor_Ashigaru_LeftArm__Iron_Wrought": {
+    "part": "Left Arm",
+    "offset": [
+     0.0,
+     0.07,
+     -0.0
+    ]
+   },
+   "HO_Armor_Ashigaru_RightLeg__Black_Lacquer": {
+    "part": "Right Leg",
+    "offset": [
+     0.0,
+     0.0,
+     -0.15
+    ]
+   },
+   "HO_Armor_Ashigaru_RightLeg__Iron_Wrought": {
+    "part": "Right Leg",
+    "offset": [
+     0.0,
+     -0.23,
+     -0.54
+    ]
+   },
+   "HO_Armor_Ashigaru_LeftLeg__Black_Lacquer": {
+    "part": "Left Leg",
+    "offset": [
+     0.0,
+     0.0,
+     -0.15
+    ]
+   },
+   "HO_Armor_Ashigaru_LeftLeg__Iron_Wrought": {
+    "part": "Left Leg",
+    "offset": [
+     0.0,
+     -0.23,
+     -0.54
+    ]
+   },
+   "HO_Armor_Ashigaru_Helmet__Black_Lacquer": {
+    "part": "Head",
+    "offset": [
+     0.0,
+     0.7,
+     -0.0
+    ]
+   },
+   "HO_Armor_Ashigaru_Helmet__Iron_Wrought": {
+    "part": "Head",
+    "offset": [
+     0.0,
+     0.355,
+     -0.0
+    ]
+   }
+  }
+ },
+ "HO_Armor_Samurai": {
+  "kind": "armour",
+  "meshes": {
+   "HO_Armor_Samurai_Torso__Black_Lacquer": {
+    "part": "Torso",
+    "offset": [
+     0.0,
+     -0.14,
+     -0.037
+    ]
+   },
+   "HO_Armor_Samurai_Torso__Cloth_Crimson": {
+    "part": "Torso",
+    "offset": [
+     0.0,
+     -0.16,
+     -0.73
+    ]
+   },
+   "HO_Armor_Samurai_Torso__Gold_Leaf": {
+    "part": "Torso",
+    "offset": [
+     0.0,
+     0.7034,
+     -0.11
+    ]
+   },
+   "HO_Armor_Samurai_Torso__Red_Lacquer": {
+    "part": "Torso",
+    "offset": [
+     0.0,
+     -0.325,
+     -0.034
+    ]
+   },
+   "HO_Armor_Samurai_RightArm__Black_Lacquer": {
+    "part": "Right Arm",
+    "offset": [
+     0.075,
+     -0.04,
+     -0.0
+    ]
+   },
+   "HO_Armor_Samurai_RightArm__Cloth_Crimson": {
+    "part": "Right Arm",
+    "offset": [
+     0.65,
+     0.42,
+     -0.0
+    ]
+   },
+   "HO_Armor_Samurai_RightArm__Gold_Leaf": {
+    "part": "Right Arm",
+    "offset": [
+     0.0,
+     0.07,
+     -0.0
+    ]
+   },
+   "HO_Armor_Samurai_RightArm__Red_Lacquer": {
+    "part": "Right Arm",
+    "offset": [
+     0.085,
+     0.18,
+     -0.0
+    ]
+   },
+   "HO_Armor_Samurai_LeftArm__Black_Lacquer": {
+    "part": "Left Arm",
+    "offset": [
+     -0.075,
+     -0.04,
+     -0.0
+    ]
+   },
+   "HO_Armor_Samurai_LeftArm__Cloth_Crimson": {
+    "part": "Left Arm",
+    "offset": [
+     -0.65,
+     0.42,
+     -0.0
+    ]
+   },
+   "HO_Armor_Samurai_LeftArm__Gold_Leaf": {
+    "part": "Left Arm",
+    "offset": [
+     0.0,
+     0.07,
+     -0.0
+    ]
+   },
+   "HO_Armor_Samurai_LeftArm__Red_Lacquer": {
+    "part": "Left Arm",
+    "offset": [
+     -0.085,
+     0.18,
+     -0.0
+    ]
+   },
+   "HO_Armor_Samurai_RightLeg__Black_Lacquer": {
+    "part": "Right Leg",
+    "offset": [
+     0.005,
+     -0.13,
+     -0.15
+    ]
+   },
+   "HO_Armor_Samurai_RightLeg__Gold_Leaf": {
+    "part": "Right Leg",
+    "offset": [
+     0.0,
+     -0.23,
+     -0.54
+    ]
+   },
+   "HO_Armor_Samurai_RightLeg__Red_Lacquer": {
+    "part": "Right Leg",
+    "offset": [
+     0.0,
+     0.0,
+     -0.54
+    ]
+   },
+   "HO_Armor_Samurai_LeftLeg__Black_Lacquer": {
+    "part": "Left Leg",
+    "offset": [
+     -0.005,
+     -0.13,
+     -0.15
+    ]
+   },
+   "HO_Armor_Samurai_LeftLeg__Gold_Leaf": {
+    "part": "Left Leg",
+    "offset": [
+     0.0,
+     -0.23,
+     -0.54
+    ]
+   },
+   "HO_Armor_Samurai_LeftLeg__Red_Lacquer": {
+    "part": "Left Leg",
+    "offset": [
+     0.0,
+     0.0,
+     -0.54
+    ]
+   },
+   "HO_Armor_Samurai_Helmet__Black_Lacquer": {
+    "part": "Head",
+    "offset": [
+     0.0,
+     0.3,
+     -0.0
+    ]
+   },
+   "HO_Armor_Samurai_Helmet__Gold_Leaf": {
+    "part": "Head",
+    "offset": [
+     0.0,
+     0.8524,
+     -0.7298
+    ]
+   },
+   "HO_Armor_Samurai_Helmet__Red_Lacquer": {
+    "part": "Head",
+    "offset": [
+     0.0,
+     0.07,
+     -0.0
+    ]
+   }
+  }
+ },
+ "HO_Armor_Oathguard": {
+  "kind": "armour",
+  "meshes": {
+   "HO_Armor_Oathguard_Torso__Cloth_White": {
+    "part": "Torso",
+    "offset": [
+     0.0,
+     -0.16,
+     -0.73
+    ]
+   },
+   "HO_Armor_Oathguard_Torso__Gold_Leaf": {
+    "part": "Torso",
+    "offset": [
+     0.0,
+     0.61,
+     -0.09
+    ]
+   },
+   "HO_Armor_Oathguard_Torso__Navy_Lacquer": {
+    "part": "Torso",
+    "offset": [
+     0.0,
+     -0.26,
+     -0.079
+    ]
+   },
+   "HO_Armor_Oathguard_RightArm__Cloth_White": {
+    "part": "Right Arm",
+    "offset": [
+     0.65,
+     0.42,
+     -0.0
+    ]
+   },
+   "HO_Armor_Oathguard_RightArm__Gold_Leaf": {
+    "part": "Right Arm",
+    "offset": [
+     0.0,
+     0.07,
+     -0.0
+    ]
+   },
+   "HO_Armor_Oathguard_RightArm__Navy_Lacquer": {
+    "part": "Right Arm",
+    "offset": [
+     0.085,
+     0.08,
+     -0.0
+    ]
+   },
+   "HO_Armor_Oathguard_LeftArm__Cloth_White": {
+    "part": "Left Arm",
+    "offset": [
+     -0.65,
+     0.42,
+     -0.0
+    ]
+   },
+   "HO_Armor_Oathguard_LeftArm__Gold_Leaf": {
+    "part": "Left Arm",
+    "offset": [
+     0.0,
+     0.07,
+     -0.0
+    ]
+   },
+   "HO_Armor_Oathguard_LeftArm__Navy_Lacquer": {
+    "part": "Left Arm",
+    "offset": [
+     -0.085,
+     0.08,
+     -0.0
+    ]
+   },
+   "HO_Armor_Oathguard_RightLeg__Gold_Leaf": {
+    "part": "Right Leg",
+    "offset": [
+     0.0,
+     -0.23,
+     -0.54
+    ]
+   },
+   "HO_Armor_Oathguard_RightLeg__Navy_Lacquer": {
+    "part": "Right Leg",
+    "offset": [
+     0.0,
+     0.0,
+     -0.15
+    ]
+   },
+   "HO_Armor_Oathguard_LeftLeg__Gold_Leaf": {
+    "part": "Left Leg",
+    "offset": [
+     0.0,
+     -0.23,
+     -0.54
+    ]
+   },
+   "HO_Armor_Oathguard_LeftLeg__Navy_Lacquer": {
+    "part": "Left Leg",
+    "offset": [
+     0.0,
+     0.0,
+     -0.15
+    ]
+   },
+   "HO_Armor_Oathguard_Helmet__Gold_Leaf": {
+    "part": "Head",
+    "offset": [
+     0.0,
+     0.6,
+     -0.7
+    ]
+   },
+   "HO_Armor_Oathguard_Helmet__Navy_Lacquer": {
+    "part": "Head",
+    "offset": [
+     0.0,
+     0.3,
+     -0.0
+    ]
+   }
+  }
+ },
+ "HO_Hero_StoneFist_Right": {
+  "kind": "weapon",
+  "meshes": {
+   "HO_Hero_StoneFist_Right": {
+    "offset": [
+     0.1901,
+     -0.0777,
+     0.8228
+    ]
+   },
+   "HO_Hero_StoneFist_Right_Glow": {
+    "offset": [
+     -0.0064,
+     0.0033,
+     0.4128
+    ]
+   }
+  }
+ },
+ "HO_Hero_StoneFist_Left": {
+  "kind": "weapon",
+  "meshes": {
+   "HO_Hero_StoneFist_Left": {
+    "offset": [
+     -0.1812,
+     -0.0777,
+     0.8228
+    ]
+   },
+   "HO_Hero_StoneFist_Left_Glow": {
+    "offset": [
+     0.0126,
+     0.0104,
+     0.3752
+    ]
+   }
+  }
+ },
+ "HO_Char_EarthGolem": {
+  "kind": "character",
+  "scale": 2.4,
+  "meshes": {
+   "HO_Char_EarthGolem_Torso": {
+    "part": "Torso",
+    "offset": [
+     0.0121,
+     -0.2085,
+     -0.1824
+    ]
+   },
+   "HO_Char_EarthGolem_Torso_Glow": {
+    "part": "Torso",
+    "offset": [
+     0.0,
+     -0.75,
+     -1.085
+    ]
+   },
+   "HO_Char_EarthGolem_Head": {
+    "part": "Head",
+    "offset": [
+     -0.0006,
+     -0.2733,
+     -0.1232
+    ]
+   },
+   "HO_Char_EarthGolem_Head_Glow": {
+    "part": "Head",
+    "offset": [
+     0.0,
+     0.25,
+     -1.2
+    ]
+   },
+   "HO_Char_EarthGolem_RightArm": {
+    "part": "Right Arm",
+    "offset": [
+     0.2346,
+     -0.2685,
+     0.0428
+    ]
+   },
+   "HO_Char_EarthGolem_LeftArm": {
+    "part": "Left Arm",
+    "offset": [
+     -0.2441,
+     -0.2808,
+     -0.0493
+    ]
+   },
+   "HO_Char_EarthGolem_RightLeg": {
+    "part": "Right Leg",
+    "offset": [
+     -0.0037,
+     -0.22,
+     -0.4454
+    ]
+   },
+   "HO_Char_EarthGolem_LeftLeg": {
+    "part": "Left Leg",
+    "offset": [
+     -0.0074,
+     -0.1951,
+     -0.4379
+    ]
+   }
+  }
+ },
+ "HO_Char_Hollow": {
+  "kind": "character",
+  "scale": 1.0,
+  "meshes": {
+   "HO_Char_Hollow_Torso": {
+    "part": "Torso",
+    "offset": [
+     -0.0166,
+     -0.3319,
+     0.0807
+    ]
+   },
+   "HO_Char_Hollow_Torso_Glow": {
+    "part": "Torso",
+    "offset": [
+     0.0384,
+     0.2743,
+     -0.387
+    ]
+   },
+   "HO_Char_Hollow_Head": {
+    "part": "Head",
+    "offset": [
+     0.0011,
+     0.2398,
+     0.1281
+    ]
+   },
+   "HO_Char_Hollow_Head_Glow": {
+    "part": "Head",
+    "offset": [
+     0.0,
+     0.1,
+     -0.585
+    ]
+   },
+   "HO_Char_Hollow_RightArm": {
+    "part": "Right Arm",
+    "offset": [
+     0.008,
+     -0.3037,
+     -0.0751
+    ]
+   },
+   "HO_Char_Hollow_RightArm_Glow": {
+    "part": "Right Arm",
+    "offset": [
+     0.185,
+     -0.1007,
+     -0.2499
+    ]
+   },
+   "HO_Char_Hollow_LeftArm": {
+    "part": "Left Arm",
+    "offset": [
+     -0.0125,
+     -0.3025,
+     -0.0745
+    ]
+   },
+   "HO_Char_Hollow_LeftArm_Glow": {
+    "part": "Left Arm",
+    "offset": [
+     -0.185,
+     -0.1007,
+     -0.2499
+    ]
+   },
+   "HO_Char_Hollow_RightLeg": {
+    "part": "Right Leg",
+    "offset": [
+     0.01,
+     0.0468,
+     -0.2524
+    ]
+   },
+   "HO_Char_Hollow_LeftLeg": {
+    "part": "Left Leg",
+    "offset": [
+     -0.0117,
+     0.0269,
+     -0.2428
+    ]
+   }
+  }
+ }
+}

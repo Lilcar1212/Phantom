@@ -26122,7 +26122,10 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase3/VFX/HO_VFX_EnergySphere_three_quarter.png",
+   "renders/Phase3/VFX/HO_VFX_EnergySphere_front.png"
+  ],
   "notes": "UV: U along the effect (scroll this for motion), V across (0 inner/bottom, 1 outer/top). Double-sided. Texture: HO_VFXT_Energy.png. Three nested shells (Outer r4, Middle r2.8, Core r1.6) sharing one centre; rotate them in opposite directions. | meshes: HO_VFX_EnergySphere_Outer (528), HO_VFX_EnergySphere_Middle (440), HO_VFX_EnergySphere_Core (352)"
  },
  {
@@ -26167,7 +26170,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase3/VFX/HO_VFX_FirePillar_three_quarter.png",
+   "renders/Phase3/VFX/HO_VFX_FirePillar_front.png"
+  ],
   "notes": "UV: U along the effect (scroll this for motion), V across (0 inner/bottom, 1 outer/top). Double-sided. Texture: HO_VFXT_Fire.png scrolling along V (up). Open tapered cylinder 18 tall."
  },
  {
@@ -26212,7 +26218,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase3/VFX/HO_VFX_FireRing_Segment_three_quarter.png",
+   "renders/Phase3/VFX/HO_VFX_FireRing_Segment_front.png"
+  ],
   "notes": "UV: U along the effect (scroll this for motion), V across (0 inner/bottom, 1 outer/top). Double-sided. Texture: HO_VFXT_Fire.png. 45-deg flame wall segment of a radius-10 ring (8 = full ring; rotate each by 45 deg)."
  },
  {
@@ -26221,7 +26230,7 @@
   "category": "VFX",
   "type": "Mesh group",
   "file": "assets/Phase3/VFX/HO_VFX_RockShards.fbx",
-  "tris": 200,
+  "tris": 800,
   "textures": [
    "Stone_Granite",
    "VFX_Energy",
@@ -26236,21 +26245,21 @@
    "parts": 10,
    "inverted_parts": 0,
    "dims": [
-    18.274,
-    6.378,
+    18.571,
+    6.396,
     4.702
    ],
    "meshes": {
-    "HO_VFX_RockShard_01": 20,
-    "HO_VFX_RockShard_02": 20,
-    "HO_VFX_RockShard_03": 20,
-    "HO_VFX_RockShard_04": 20,
-    "HO_VFX_RockShard_05": 20,
-    "HO_VFX_RockShard_06": 20,
-    "HO_VFX_RockShard_07": 20,
-    "HO_VFX_RockShard_08": 20,
-    "HO_VFX_RockShard_09": 20,
-    "HO_VFX_RockShard_10": 20
+    "HO_VFX_RockShard_01": 80,
+    "HO_VFX_RockShard_02": 80,
+    "HO_VFX_RockShard_03": 80,
+    "HO_VFX_RockShard_04": 80,
+    "HO_VFX_RockShard_05": 80,
+    "HO_VFX_RockShard_06": 80,
+    "HO_VFX_RockShard_07": 80,
+    "HO_VFX_RockShard_08": 80,
+    "HO_VFX_RockShard_09": 80,
+    "HO_VFX_RockShard_10": 80
    },
    "pivot_bottom_center": false,
    "pivot_z0": false
@@ -26258,14 +26267,14 @@
   "mesh_checks": [
    {
     "name": "HO_VFX_RockShard_01",
-    "tris": 20,
+    "tris": 80,
     "tris_per_material": {
-     "Stone_Granite": 20
+     "Stone_Granite": 80
     },
     "under_limit": true,
     "dims": [
-     0.741,
-     1.08,
+     0.801,
+     1.139,
      2.3
     ],
     "parts": 1,
@@ -26285,15 +26294,15 @@
    },
    {
     "name": "HO_VFX_RockShard_02",
-    "tris": 20,
+    "tris": 80,
     "tris_per_material": {
-     "Stone_Granite": 20
+     "Stone_Granite": 80
     },
     "under_limit": true,
     "dims": [
-     1.31,
-     1.282,
-     0.905
+     1.395,
+     1.41,
+     0.908
     ],
     "parts": 1,
     "floating": 0,
@@ -26312,14 +26321,14 @@
    },
    {
     "name": "HO_VFX_RockShard_03",
-    "tris": 20,
+    "tris": 80,
     "tris_per_material": {
-     "Stone_Granite": 20
+     "Stone_Granite": 80
     },
     "under_limit": true,
     "dims": [
-     1.078,
-     1.347,
+     1.177,
+     1.401,
      2.426
     ],
     "parts": 1,
@@ -26339,14 +26348,14 @@
    },
    {
     "name": "HO_VFX_RockShard_04",
-    "tris": 20,
+    "tris": 80,
     "tris_per_material": {
-     "Stone_Granite": 20
+     "Stone_Granite": 80
     },
     "under_limit": true,
     "dims": [
-     1.255,
-     1.131,
+     1.385,
+     1.231,
      1.532
     ],
     "parts": 1,
@@ -26366,15 +26375,15 @@
    },
    {
     "name": "HO_VFX_RockShard_05",
-    "tris": 20,
+    "tris": 80,
     "tris_per_material": {
-     "Stone_Granite": 20
+     "Stone_Granite": 80
     },
     "under_limit": true,
     "dims": [
-     1.66,
-     1.897,
-     4.221
+     1.685,
+     1.946,
+     4.311
     ],
     "parts": 1,
     "floating": 0,
@@ -26393,15 +26402,15 @@
    },
    {
     "name": "HO_VFX_RockShard_06",
-    "tris": 20,
+    "tris": 80,
     "tris_per_material": {
-     "Stone_Granite": 20
+     "Stone_Granite": 80
     },
     "under_limit": true,
     "dims": [
-     2.004,
-     2.214,
-     2.022
+     2.152,
+     2.249,
+     2.042
     ],
     "parts": 1,
     "floating": 0,
@@ -26420,14 +26429,14 @@
    },
    {
     "name": "HO_VFX_RockShard_07",
-    "tris": 20,
+    "tris": 80,
     "tris_per_material": {
-     "Stone_Granite": 20
+     "Stone_Granite": 80
     },
     "under_limit": true,
     "dims": [
-     1.719,
-     1.635,
+     2.057,
+     1.743,
      4.702
     ],
     "parts": 1,
@@ -26447,15 +26456,15 @@
    },
    {
     "name": "HO_VFX_RockShard_08",
-    "tris": 20,
+    "tris": 80,
     "tris_per_material": {
-     "Stone_Granite": 20
+     "Stone_Granite": 80
     },
     "under_limit": true,
     "dims": [
-     1.743,
-     2.708,
-     1.91
+     2.113,
+     2.837,
+     1.96
     ],
     "parts": 1,
     "floating": 0,
@@ -26474,13 +26483,13 @@
    },
    {
     "name": "HO_VFX_RockShard_09",
-    "tris": 20,
+    "tris": 80,
     "tris_per_material": {
-     "Stone_Granite": 20
+     "Stone_Granite": 80
     },
     "under_limit": true,
     "dims": [
-     2.317,
+     2.507,
      2.492,
      3.639
     ],
@@ -26501,14 +26510,14 @@
    },
    {
     "name": "HO_VFX_RockShard_10",
-    "tris": 20,
+    "tris": 80,
     "tris_per_material": {
-     "Stone_Granite": 20
+     "Stone_Granite": 80
     },
     "under_limit": true,
     "dims": [
-     2.608,
-     2.185,
+     2.856,
+     2.592,
      2.987
     ],
     "parts": 1,
@@ -26527,8 +26536,11 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
-  "notes": "10 rock shards/chunks (Stone_Granite), sizes 0.6-1.7, laid out on a grid - use each MeshPart on its own (debris, earth spikes). | meshes: HO_VFX_RockShard_01 (20), HO_VFX_RockShard_02 (20), HO_VFX_RockShard_03 (20), HO_VFX_RockShard_04 (20), HO_VFX_RockShard_05 (20), HO_VFX_RockShard_06 (20), HO_VFX_RockShard_07 (20), HO_VFX_RockShard_08 (20), HO_VFX_RockShard_09 (20), HO_VFX_RockShard_10 (20)"
+  "renders": [
+   "renders/Phase3/VFX/HO_VFX_RockShards_three_quarter.png",
+   "renders/Phase3/VFX/HO_VFX_RockShards_front.png"
+  ],
+  "notes": "10 rock shards/chunks (Stone_Granite), sizes 0.6-1.7, laid out on a grid - use each MeshPart on its own (debris, earth spikes). | meshes: HO_VFX_RockShard_01 (80), HO_VFX_RockShard_02 (80), HO_VFX_RockShard_03 (80), HO_VFX_RockShard_04 (80), HO_VFX_RockShard_05 (80), HO_VFX_RockShard_06 (80), HO_VFX_RockShard_07 (80), HO_VFX_RockShard_08 (80), HO_VFX_RockShard_09 (80), HO_VFX_RockShard_10 (80)"
  },
  {
   "name": "HO_VFX_Shockwave_Dome",
@@ -26572,7 +26584,10 @@
    "textures_ok": true,
    "pivot_bottom_center": true
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase3/VFX/HO_VFX_Shockwave_Dome_three_quarter.png",
+   "renders/Phase3/VFX/HO_VFX_Shockwave_Dome_front.png"
+  ],
   "notes": "UV: U along the effect (scroll this for motion), V across (0 inner/bottom, 1 outer/top). Double-sided. Texture: HO_VFXT_Energy.png. Hemisphere shell R 6."
  },
  {
@@ -26617,7 +26632,10 @@
    "textures_ok": true,
    "pivot_bottom_center": true
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase3/VFX/HO_VFX_Shockwave_Flat_three_quarter.png",
+   "renders/Phase3/VFX/HO_VFX_Shockwave_Flat_front.png"
+  ],
   "notes": "UV: U along the effect (scroll this for motion), V across (0 inner/bottom, 1 outer/top). Double-sided. Texture: HO_VFXT_Energy.png. Flat ring R 8 (scale it up over time)."
  },
  {
@@ -26662,7 +26680,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase3/VFX/HO_VFX_Slash_Heavy_three_quarter.png",
+   "renders/Phase3/VFX/HO_VFX_Slash_Heavy_front.png"
+  ],
   "notes": "UV: U along the effect (scroll this for motion), V across (0 inner/bottom, 1 outer/top). Double-sided. Texture: HO_VFXT_Slash.png. Radius 8.5, wide 3.4, sweep 230 deg."
  },
  {
@@ -26707,7 +26728,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase3/VFX/HO_VFX_Slash_Medium_three_quarter.png",
+   "renders/Phase3/VFX/HO_VFX_Slash_Medium_front.png"
+  ],
   "notes": "UV: U along the effect (scroll this for motion), V across (0 inner/bottom, 1 outer/top). Double-sided. Texture: HO_VFXT_Slash.png. Radius 6.5, sweep 200 deg."
  },
  {
@@ -26752,7 +26776,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase3/VFX/HO_VFX_Slash_Thin_three_quarter.png",
+   "renders/Phase3/VFX/HO_VFX_Slash_Thin_front.png"
+  ],
   "notes": "UV: U along the effect (scroll this for motion), V across (0 inner/bottom, 1 outer/top). Double-sided. Texture: HO_VFXT_Slash.png. Crescent radius 5, sweep 170 deg, lies flat (XY) around the origin (= the character)."
  },
  {
@@ -26797,7 +26824,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase3/VFX/HO_VFX_SpiralCone_three_quarter.png",
+   "renders/Phase3/VFX/HO_VFX_SpiralCone_front.png"
+  ],
   "notes": "UV: U along the effect (scroll this for motion), V across (0 inner/bottom, 1 outer/top). Double-sided. Texture: HO_VFXT_Energy.png. Helical ribbon winding up a cone, 10 tall."
  },
  {
@@ -26842,7 +26872,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase3/VFX/HO_VFX_StoneDrill_three_quarter.png",
+   "renders/Phase3/VFX/HO_VFX_StoneDrill_front.png"
+  ],
   "notes": "Stone drill cone with raised spiral ridges (Stone_Granite), 6 tall; spin it about its axis."
  },
  {
@@ -26887,7 +26920,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase3/VFX/HO_VFX_Vortex_three_quarter.png",
+   "renders/Phase3/VFX/HO_VFX_Vortex_front.png"
+  ],
   "notes": "UV: U along the effect (scroll this for motion), V across (0 inner/bottom, 1 outer/top). Double-sided. Texture: HO_VFXT_Energy.png (or Water/Fire). Twisted flaring tornado shell, 16 tall."
  },
  {
@@ -26896,7 +26932,7 @@
   "category": "VFX",
   "type": "Mesh",
   "file": "assets/Phase3/VFX/HO_VFX_WaterDragon.fbx",
-  "tris": 1044,
+  "tris": 2040,
   "textures": [
    "Stone_Granite",
    "VFX_Energy",
@@ -26907,20 +26943,20 @@
   "pivot": "bottom-centre",
   "checks": {
    "name": "HO_VFX_WaterDragon",
-   "tris": 1044,
+   "tris": 2040,
    "tris_per_material": {
-    "VFX_Water": 1044
+    "VFX_Water": 2040
    },
    "under_limit": true,
    "dims": [
-    7.982,
-    43.216,
-    7.819
+    7.997,
+    43.221,
+    7.865
    ],
-   "parts": 31,
+   "parts": 35,
    "floating": 0,
    "closed_parts": 6,
-   "open_parts": 25,
+   "open_parts": 29,
    "inverted_parts": 0,
    "textures": [
     "Stone_Granite",
@@ -26932,7 +26968,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase3/VFX/HO_VFX_WaterDragon_three_quarter.png",
+   "renders/Phase3/VFX/HO_VFX_WaterDragon_front.png"
+  ],
   "notes": "Serpentine water dragon (~40 long) for Twin Dragons: body U runs tail->neck (0..4) - scroll HO_VFXT_Water.png along U; head with horns, whiskers, dorsal fins. Head faces front (-Z)."
  },
  {
@@ -27325,7 +27364,11 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase4/Armour/HO_Armor_Ashigaru_three_quarter.png",
+   "renders/Phase4/Armour/HO_Armor_Ashigaru_front.png",
+   "renders/Phase4/Armour/HO_Armor_Ashigaru_back.png"
+  ],
   "notes": "Ashigaru foot-soldier set: black lacquer lames, navy lacing, iron trim, conical jingasa hat. One mesh per R6 body part, each modelled in that part's local space (part centre = origin). Weld each MeshPart to its body part with the offset listed in roblox/HO_RigBuilder.lua (ARMOUR table) - HO_RigBuilder.EquipArmor(character, \"Ashigaru\") does it. | meshes: HO_Armor_Ashigaru_Torso__Black_Lacquer (592), HO_Armor_Ashigaru_Torso__Cloth_Navy (180), HO_Armor_Ashigaru_Torso__Iron_Wrought (12), HO_Armor_Ashigaru_RightArm__Black_Lacquer (108), HO_Armor_Ashigaru_RightArm__Cloth_Navy (60), HO_Armor_Ashigaru_RightArm__Iron_Wrought (24), HO_Armor_Ashigaru_LeftArm__Black_Lacquer (108), HO_Armor_Ashigaru_LeftArm__Cloth_Navy (60), HO_Armor_Ashigaru_LeftArm__Iron_Wrought (24), HO_Armor_Ashigaru_RightLeg__Black_Lacquer (108), HO_Armor_Ashigaru_RightLeg__Iron_Wrought (12), HO_Armor_Ashigaru_LeftLeg__Black_Lacquer (108), HO_Armor_Ashigaru_LeftLeg__Iron_Wrought (12), HO_Armor_Ashigaru_Helmet__Black_Lacquer (94), HO_Armor_Ashigaru_Helmet__Iron_Wrought (96)"
  },
  {
@@ -27718,7 +27761,11 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase4/Armour/HO_Armor_Oathguard_three_quarter.png",
+   "renders/Phase4/Armour/HO_Armor_Oathguard_front.png",
+   "renders/Phase4/Armour/HO_Armor_Oathguard_back.png"
+  ],
   "notes": "Oathguard (elite) set: navy lacquer, white lacing, gold trim, kabuto with gold ring crest. One mesh per R6 body part, each modelled in that part's local space (part centre = origin). Weld each MeshPart to its body part with the offset listed in roblox/HO_RigBuilder.lua (ARMOUR table) - HO_RigBuilder.EquipArmor(character, \"Oathguard\") does it. | meshes: HO_Armor_Oathguard_Torso__Cloth_White (180), HO_Armor_Oathguard_Torso__Gold_Leaf (88), HO_Armor_Oathguard_Torso__Navy_Lacquer (668), HO_Armor_Oathguard_RightArm__Cloth_White (60), HO_Armor_Oathguard_RightArm__Gold_Leaf (24), HO_Armor_Oathguard_RightArm__Navy_Lacquer (108), HO_Armor_Oathguard_LeftArm__Cloth_White (60), HO_Armor_Oathguard_LeftArm__Gold_Leaf (24), HO_Armor_Oathguard_LeftArm__Navy_Lacquer (108), HO_Armor_Oathguard_RightLeg__Gold_Leaf (12), HO_Armor_Oathguard_RightLeg__Navy_Lacquer (108), HO_Armor_Oathguard_LeftLeg__Gold_Leaf (12), HO_Armor_Oathguard_LeftLeg__Navy_Lacquer (108), HO_Armor_Oathguard_Helmet__Gold_Leaf (88), HO_Armor_Oathguard_Helmet__Navy_Lacquer (278)"
  },
  {
@@ -28256,7 +28303,11 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase4/Armour/HO_Armor_Samurai_three_quarter.png",
+   "renders/Phase4/Armour/HO_Armor_Samurai_front.png",
+   "renders/Phase4/Armour/HO_Armor_Samurai_back.png"
+  ],
   "notes": "Samurai set: red lacquer plates, black lames, crimson lacing, gold trim, kabuto with kuwagata horns. One mesh per R6 body part, each modelled in that part's local space (part centre = origin). Weld each MeshPart to its body part with the offset listed in roblox/HO_RigBuilder.lua (ARMOUR table) - HO_RigBuilder.EquipArmor(character, \"Samurai\") does it. | meshes: HO_Armor_Samurai_Torso__Black_Lacquer (232), HO_Armor_Samurai_Torso__Cloth_Crimson (180), HO_Armor_Samurai_Torso__Gold_Leaf (48), HO_Armor_Samurai_Torso__Red_Lacquer (360), HO_Armor_Samurai_RightArm__Black_Lacquer (48), HO_Armor_Samurai_RightArm__Cloth_Crimson (60), HO_Armor_Samurai_RightArm__Gold_Leaf (24), HO_Armor_Samurai_RightArm__Red_Lacquer (60), HO_Armor_Samurai_LeftArm__Black_Lacquer (48), HO_Armor_Samurai_LeftArm__Cloth_Crimson (60), HO_Armor_Samurai_LeftArm__Gold_Leaf (24), HO_Armor_Samurai_LeftArm__Red_Lacquer (60), HO_Armor_Samurai_RightLeg__Black_Lacquer (48), HO_Armor_Samurai_RightLeg__Gold_Leaf (12), HO_Armor_Samurai_RightLeg__Red_Lacquer (60), HO_Armor_Samurai_LeftLeg__Black_Lacquer (48), HO_Armor_Samurai_LeftLeg__Gold_Leaf (12), HO_Armor_Samurai_LeftLeg__Red_Lacquer (60), HO_Armor_Samurai_Helmet__Black_Lacquer (190), HO_Armor_Samurai_Helmet__Gold_Leaf (64), HO_Armor_Samurai_Helmet__Red_Lacquer (88)"
  },
  {
@@ -28265,7 +28316,7 @@
   "category": "Characters",
   "type": "Mesh group",
   "file": "assets/Phase4/Characters/HO_Char_EarthGolem.fbx",
-  "tris": 3240,
+  "tris": 3320,
   "textures": [
    "Black_Lacquer",
    "Cloth_Crimson",
@@ -28290,8 +28341,8 @@
   "pivot": "feet (ground) centre",
   "checks": {
    "under_limit": true,
-   "floating": 5,
-   "parts": 39,
+   "floating": 0,
+   "parts": 40,
    "inverted_parts": 0,
    "dims": [
     11.438,
@@ -28301,7 +28352,7 @@
    "meshes": {
     "HO_Char_EarthGolem_Torso": 480,
     "HO_Char_EarthGolem_Torso_Glow": 48,
-    "HO_Char_EarthGolem_Head": 240,
+    "HO_Char_EarthGolem_Head": 320,
     "HO_Char_EarthGolem_Head_Glow": 72,
     "HO_Char_EarthGolem_RightArm": 880,
     "HO_Char_EarthGolem_LeftArm": 880,
@@ -28381,19 +28432,19 @@
    },
    {
     "name": "HO_Char_EarthGolem_Head",
-    "tris": 240,
+    "tris": 320,
     "tris_per_material": {
-     "Stone_Granite": 240
+     "Stone_Granite": 320
     },
     "under_limit": true,
     "dims": [
      3.123,
      2.664,
-     2.355
+     2.967
     ],
-    "parts": 3,
+    "parts": 4,
     "floating": 0,
-    "closed_parts": 3,
+    "closed_parts": 4,
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
@@ -28611,8 +28662,12 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
-  "notes": "Earth Golem at rig scale 2.4 (about 12 studs tall): stacked granite blocks, boulder shoulders, huge block fists, glowing yellow eyes and amber chest cracks. Meshes are in character space (feet at y=0, HumanoidRootPart centre at y=7.2). HO_RigBuilder.BuildCharacter(model, \"HO_Char_EarthGolem\") adds a HumanoidRootPart, invisible R6 body parts with Motor6Ds (classic R6 C0/C1 x scale) and welds the meshes on, so the Phase 2 KeyframeSequences (Golem_* / Hollow_*) play directly. | meshes: HO_Char_EarthGolem_Torso (480), HO_Char_EarthGolem_Torso_Glow (48), HO_Char_EarthGolem_Head (240), HO_Char_EarthGolem_Head_Glow (72), HO_Char_EarthGolem_RightArm (880), HO_Char_EarthGolem_LeftArm (880), HO_Char_EarthGolem_RightLeg (320), HO_Char_EarthGolem_LeftLeg (320)"
+  "renders": [
+   "renders/Phase4/Characters/HO_Char_EarthGolem_three_quarter.png",
+   "renders/Phase4/Characters/HO_Char_EarthGolem_front.png",
+   "renders/Phase4/Characters/HO_Char_EarthGolem_back.png"
+  ],
+  "notes": "Earth Golem at rig scale 2.4 (about 12 studs tall): stacked granite blocks, boulder shoulders, huge block fists, glowing yellow eyes and amber chest cracks. Meshes are in character space (feet at y=0, HumanoidRootPart centre at y=7.2). HO_RigBuilder.BuildCharacter(model, \"HO_Char_EarthGolem\") adds a HumanoidRootPart, invisible R6 body parts with Motor6Ds (classic R6 C0/C1 x scale) and welds the meshes on, so the Phase 2 KeyframeSequences (Golem_* / Hollow_*) play directly. | meshes: HO_Char_EarthGolem_Torso (480), HO_Char_EarthGolem_Torso_Glow (48), HO_Char_EarthGolem_Head (320), HO_Char_EarthGolem_Head_Glow (72), HO_Char_EarthGolem_RightArm (880), HO_Char_EarthGolem_LeftArm (880), HO_Char_EarthGolem_RightLeg (320), HO_Char_EarthGolem_LeftLeg (320)"
  },
  {
   "name": "HO_Char_Hollow",
@@ -28620,7 +28675,7 @@
   "category": "Characters",
   "type": "Mesh group",
   "file": "assets/Phase4/Characters/HO_Char_Hollow.fbx",
-  "tris": 1752,
+  "tris": 3252,
   "textures": [
    "Black_Lacquer",
    "Cloth_Crimson",
@@ -28645,25 +28700,25 @@
   "pivot": "feet (ground) centre",
   "checks": {
    "under_limit": true,
-   "floating": 8,
-   "parts": 43,
+   "floating": 0,
+   "parts": 66,
    "inverted_parts": 0,
    "dims": [
-    3.986,
-    1.566,
-    5.727
+    3.995,
+    1.765,
+    5.64
    ],
    "meshes": {
-    "HO_Char_Hollow_Torso": 452,
+    "HO_Char_Hollow_Torso": 836,
     "HO_Char_Hollow_Torso_Glow": 316,
     "HO_Char_Hollow_Head": 384,
     "HO_Char_Hollow_Head_Glow": 40,
-    "HO_Char_Hollow_RightArm": 184,
+    "HO_Char_Hollow_RightArm": 424,
     "HO_Char_Hollow_RightArm_Glow": 20,
-    "HO_Char_Hollow_LeftArm": 184,
+    "HO_Char_Hollow_LeftArm": 424,
     "HO_Char_Hollow_LeftArm_Glow": 20,
-    "HO_Char_Hollow_RightLeg": 76,
-    "HO_Char_Hollow_LeftLeg": 76
+    "HO_Char_Hollow_RightLeg": 394,
+    "HO_Char_Hollow_LeftLeg": 394
    },
    "pivot_bottom_center": false,
    "pivot_z0": false
@@ -28671,19 +28726,19 @@
   "mesh_checks": [
    {
     "name": "HO_Char_Hollow_Torso",
-    "tris": 452,
+    "tris": 836,
     "tris_per_material": {
-     "Shadow_Black": 452
+     "Shadow_Black": 836
     },
     "under_limit": true,
     "dims": [
      2.193,
-     1.3,
-     3.023
+     1.441,
+     2.934
     ],
-    "parts": 12,
+    "parts": 17,
     "floating": 0,
-    "closed_parts": 2,
+    "closed_parts": 7,
     "open_parts": 10,
     "inverted_parts": 0,
     "textures": [
@@ -28805,19 +28860,19 @@
    },
    {
     "name": "HO_Char_Hollow_RightArm",
-    "tris": 184,
+    "tris": 424,
     "tris_per_material": {
-     "Shadow_Black": 184
+     "Shadow_Black": 424
     },
     "under_limit": true,
     "dims": [
-     0.966,
-     1.061,
-     2.495
+     0.976,
+     1.095,
+     2.899
     ],
-    "parts": 7,
+    "parts": 10,
     "floating": 0,
-    "closed_parts": 5,
+    "closed_parts": 8,
     "open_parts": 2,
     "inverted_parts": 0,
     "textures": [
@@ -28852,9 +28907,9 @@
     },
     "under_limit": true,
     "dims": [
-     0.103,
-     0.139,
-     1.007
+     0.12,
+     0.15,
+     1.405
     ],
     "parts": 1,
     "floating": 0,
@@ -28872,19 +28927,19 @@
    },
    {
     "name": "HO_Char_Hollow_LeftArm",
-    "tris": 184,
+    "tris": 424,
     "tris_per_material": {
-     "Shadow_Black": 184
+     "Shadow_Black": 424
     },
     "under_limit": true,
     "dims": [
-     0.86,
-     1.061,
-     2.495
+     0.972,
+     1.096,
+     2.901
     ],
-    "parts": 7,
+    "parts": 10,
     "floating": 0,
-    "closed_parts": 5,
+    "closed_parts": 8,
     "open_parts": 2,
     "inverted_parts": 0,
     "textures": [
@@ -28919,9 +28974,9 @@
     },
     "under_limit": true,
     "dims": [
-     0.103,
-     0.139,
-     1.007
+     0.12,
+     0.15,
+     1.405
     ],
     "parts": 1,
     "floating": 0,
@@ -28939,19 +28994,19 @@
    },
    {
     "name": "HO_Char_Hollow_RightLeg",
-    "tris": 76,
+    "tris": 394,
     "tris_per_material": {
-     "Shadow_Black": 76
+     "Shadow_Black": 394
     },
     "under_limit": true,
     "dims": [
-     0.84,
-     0.839,
-     2.072
+     0.874,
+     1.217,
+     2.154
     ],
-    "parts": 1,
+    "parts": 7,
     "floating": 0,
-    "closed_parts": 1,
+    "closed_parts": 7,
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
@@ -28980,19 +29035,19 @@
    },
    {
     "name": "HO_Char_Hollow_LeftLeg",
-    "tris": 76,
+    "tris": 394,
     "tris_per_material": {
-     "Shadow_Black": 76
+     "Shadow_Black": 394
     },
     "under_limit": true,
     "dims": [
-     0.84,
-     0.839,
-     2.072
+     0.841,
+     1.237,
+     2.118
     ],
-    "parts": 1,
+    "parts": 7,
     "floating": 0,
-    "closed_parts": 1,
+    "closed_parts": 7,
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
@@ -29020,8 +29075,12 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
-  "notes": "The Hollow (R6 size): black shadow body, glowing red slit-pupil eye in the chest with red cracks, swept horns, clawed hands, tattered shadow wisps. Meshes are in character space (feet at y=0, HumanoidRootPart centre at y=3). HO_RigBuilder.BuildCharacter(model, \"HO_Char_Hollow\") adds a HumanoidRootPart, invisible R6 body parts with Motor6Ds (classic R6 C0/C1 x scale) and welds the meshes on, so the Phase 2 KeyframeSequences (Golem_* / Hollow_*) play directly. | meshes: HO_Char_Hollow_Torso (452), HO_Char_Hollow_Torso_Glow (316), HO_Char_Hollow_Head (384), HO_Char_Hollow_Head_Glow (40), HO_Char_Hollow_RightArm (184), HO_Char_Hollow_RightArm_Glow (20), HO_Char_Hollow_LeftArm (184), HO_Char_Hollow_LeftArm_Glow (20), HO_Char_Hollow_RightLeg (76), HO_Char_Hollow_LeftLeg (76)"
+  "renders": [
+   "renders/Phase4/Characters/HO_Char_Hollow_three_quarter.png",
+   "renders/Phase4/Characters/HO_Char_Hollow_front.png",
+   "renders/Phase4/Characters/HO_Char_Hollow_back.png"
+  ],
+  "notes": "The Hollow (R6 size): black shadow body, glowing red slit-pupil eye in the chest with red cracks, swept horns, clawed hands, tattered shadow wisps. Meshes are in character space (feet at y=0, HumanoidRootPart centre at y=3). HO_RigBuilder.BuildCharacter(model, \"HO_Char_Hollow\") adds a HumanoidRootPart, invisible R6 body parts with Motor6Ds (classic R6 C0/C1 x scale) and welds the meshes on, so the Phase 2 KeyframeSequences (Golem_* / Hollow_*) play directly. | meshes: HO_Char_Hollow_Torso (836), HO_Char_Hollow_Torso_Glow (316), HO_Char_Hollow_Head (384), HO_Char_Hollow_Head_Glow (40), HO_Char_Hollow_RightArm (424), HO_Char_Hollow_RightArm_Glow (20), HO_Char_Hollow_LeftArm (424), HO_Char_Hollow_LeftArm_Glow (20), HO_Char_Hollow_RightLeg (394), HO_Char_Hollow_LeftLeg (394)"
  },
  {
   "name": "HO_Hero_StoneFist_Left",
@@ -29120,7 +29179,7 @@
     "under_limit": true,
     "dims": [
      1.768,
-     3.309,
+     3.267,
      1.65
     ],
     "parts": 14,
@@ -29138,7 +29197,11 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase4/Heroes/HO_Hero_StoneFist_Left_three_quarter.png",
+   "renders/Phase4/Heroes/HO_Hero_StoneFist_Left_front.png",
+   "renders/Phase4/Heroes/HO_Hero_StoneFist_Left_side.png"
+  ],
   "notes": "Floating carved-stone left fist punching toward FRONT (-Z), glowing amber cracks and knuckle joints (_Glow, set Material Neon or a PointLight). Origin = centre of the fist; broken forearm stump trails behind (+Z). ~2.6 wide x 4.7 long. | meshes: HO_Hero_StoneFist_Left (1840), HO_Hero_StoneFist_Left_Glow (424)"
  },
  {
@@ -29256,8 +29319,57 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase4/Heroes/HO_Hero_StoneFist_Right_three_quarter.png",
+   "renders/Phase4/Heroes/HO_Hero_StoneFist_Right_front.png",
+   "renders/Phase4/Heroes/HO_Hero_StoneFist_Right_side.png"
+  ],
   "notes": "Floating carved-stone right fist punching toward FRONT (-Z), glowing amber cracks and knuckle joints (_Glow, set Material Neon or a PointLight). Origin = centre of the fist; broken forearm stump trails behind (+Z). ~2.6 wide x 4.7 long. | meshes: HO_Hero_StoneFist_Right (1840), HO_Hero_StoneFist_Right_Glow (424)"
+ },
+ {
+  "name": "HO_Icon_Magic_Earth",
+  "phase": "Phase4",
+  "category": "Icons",
+  "type": "Image 512x512 PNG (alpha)",
+  "file": "assets/Phase4/Icons/HO_Icon_Magic_Earth.png",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase4/Icons/HO_Icon_Magic_sheet.png"
+  ],
+  "notes": "Earth magic emblem: navy disc, gold rims, 16-rune band, glowing mountain peaks over a cracked slab. Upload as an Image/Decal for ImageLabels (transparent outside the circle)."
+ },
+ {
+  "name": "HO_Icon_Magic_Fire",
+  "phase": "Phase4",
+  "category": "Icons",
+  "type": "Image 512x512 PNG (alpha)",
+  "file": "assets/Phase4/Icons/HO_Icon_Magic_Fire.png",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase4/Icons/HO_Icon_Magic_sheet.png"
+  ],
+  "notes": "Fire magic emblem: navy disc, gold rims, 16-rune band, glowing three-tongue flame. Upload as an Image/Decal for ImageLabels (transparent outside the circle)."
+ },
+ {
+  "name": "HO_Icon_Magic_Water",
+  "phase": "Phase4",
+  "category": "Icons",
+  "type": "Image 512x512 PNG (alpha)",
+  "file": "assets/Phase4/Icons/HO_Icon_Magic_Water.png",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase4/Icons/HO_Icon_Magic_sheet.png"
+  ],
+  "notes": "Water magic emblem: navy disc, gold rims, 16-rune band, glowing droplet over waves. Upload as an Image/Decal for ImageLabels (transparent outside the circle)."
  },
  {
   "name": "HO_Weapon_AshfallSword",
@@ -29281,7 +29393,7 @@
    "under_limit": true,
    "floating": 0,
    "parts": 8,
-   "inverted_parts": 1,
+   "inverted_parts": 0,
    "dims": [
     0.776,
     3.98,
@@ -29337,7 +29449,7 @@
     "floating": 1,
     "closed_parts": 3,
     "open_parts": 0,
-    "inverted_parts": 1,
+    "inverted_parts": 0,
     "textures": [
      "Iron_Wrought"
     ],
@@ -29417,7 +29529,11 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase4/Weapons/HO_Weapon_AshfallSword_three_quarter.png",
+   "renders/Phase4/Weapons/HO_Weapon_AshfallSword_side.png",
+   "renders/Phase4/Weapons/HO_Weapon_AshfallSword_front.png"
+  ],
   "notes": "Ashfall Sword: broad dark-steel blade, heavy octagonal tsuba, smouldering amber edge (_Glow). Origin = centre of the grip (hand position). Blade points FRONT (-Z), cutting edge DOWN (-Y); as a Tool handle it works with Tool.Grip = identity. Blade 2.8 long. Scabbard = HO_Weapon_AshfallSword_Saya. | meshes: HO_Weapon_AshfallSword__Gold_Leaf (46), HO_Weapon_AshfallSword__Iron_Wrought (144), HO_Weapon_AshfallSword__Steel_Dark (206), HO_Weapon_AshfallSword__Tsuka_Wrap (44), HO_Weapon_AshfallSword_Glow (136)"
  },
  {
@@ -29522,7 +29638,10 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase4/Weapons/HO_Weapon_AshfallSword_Saya_three_quarter.png",
+   "renders/Phase4/Weapons/HO_Weapon_AshfallSword_Saya_side.png"
+  ],
   "notes": "Scabbard for HO_Weapon_AshfallSword, same origin frame: at the same CFrame as the sword the blade sits inside it (sheathed). Weld to the Torso/hip for the sheathed look. | meshes: HO_Weapon_AshfallSword_Saya__Black_Lacquer (336), HO_Weapon_AshfallSword_Saya__Cloth_Crimson (36), HO_Weapon_AshfallSword_Saya__Iron_Wrought (86)"
  },
  {
@@ -29546,7 +29665,7 @@
    "under_limit": true,
    "floating": 0,
    "parts": 8,
-   "inverted_parts": 1,
+   "inverted_parts": 0,
    "dims": [
     0.857,
     3.88,
@@ -29578,7 +29697,7 @@
     "floating": 1,
     "closed_parts": 5,
     "open_parts": 0,
-    "inverted_parts": 1,
+    "inverted_parts": 0,
     "textures": [
      "Gold_Leaf"
     ],
@@ -29658,7 +29777,11 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase4/Weapons/HO_Weapon_CrimsonOath_three_quarter.png",
+   "renders/Phase4/Weapons/HO_Weapon_CrimsonOath_side.png",
+   "renders/Phase4/Weapons/HO_Weapon_CrimsonOath_front.png"
+  ],
   "notes": "Crimson Oath: ornate gold mokko (flower) tsuba, red lacquer saya, glowing red edge (_Glow). Origin = centre of the grip (hand position). Blade points FRONT (-Z), cutting edge DOWN (-Y); as a Tool handle it works with Tool.Grip = identity. Blade 2.7 long. Scabbard = HO_Weapon_CrimsonOath_Saya. | meshes: HO_Weapon_CrimsonOath__Gold_Leaf (538), HO_Weapon_CrimsonOath__Steel_Blade (206), HO_Weapon_CrimsonOath__Tsuka_Wrap (44), HO_Weapon_CrimsonOath_Glow (122)"
  },
  {
@@ -29738,7 +29861,10 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase4/Weapons/HO_Weapon_CrimsonOath_Saya_three_quarter.png",
+   "renders/Phase4/Weapons/HO_Weapon_CrimsonOath_Saya_side.png"
+  ],
   "notes": "Scabbard for HO_Weapon_CrimsonOath, same origin frame: at the same CFrame as the sword the blade sits inside it (sheathed). Weld to the Torso/hip for the sheathed look. | meshes: HO_Weapon_CrimsonOath_Saya__Gold_Leaf (122), HO_Weapon_CrimsonOath_Saya__Red_Lacquer (336)"
  },
  {
@@ -29759,7 +29885,7 @@
    "under_limit": true,
    "floating": 0,
    "parts": 6,
-   "inverted_parts": 1,
+   "inverted_parts": 0,
    "dims": [
     0.68,
     3.68,
@@ -29814,7 +29940,7 @@
     "floating": 1,
     "closed_parts": 3,
     "open_parts": 0,
-    "inverted_parts": 1,
+    "inverted_parts": 0,
     "textures": [
      "Iron_Wrought"
     ],
@@ -29868,7 +29994,11 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase4/Weapons/HO_Weapon_IronKatana_three_quarter.png",
+   "renders/Phase4/Weapons/HO_Weapon_IronKatana_side.png",
+   "renders/Phase4/Weapons/HO_Weapon_IronKatana_front.png"
+  ],
   "notes": "Iron Katana (starter): plain round iron tsuba, black saya. Origin = centre of the grip (hand position). Blade points FRONT (-Z), cutting edge DOWN (-Y); as a Tool handle it works with Tool.Grip = identity. Blade 2.5 long. Scabbard = HO_Weapon_IronKatana_Saya. | meshes: HO_Weapon_IronKatana__Gold_Leaf (46), HO_Weapon_IronKatana__Iron_Wrought (192), HO_Weapon_IronKatana__Steel_Blade (206), HO_Weapon_IronKatana__Tsuka_Wrap (44)"
  },
  {
@@ -29973,7 +30103,10 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase4/Weapons/HO_Weapon_IronKatana_Saya_three_quarter.png",
+   "renders/Phase4/Weapons/HO_Weapon_IronKatana_Saya_side.png"
+  ],
   "notes": "Scabbard for HO_Weapon_IronKatana, same origin frame: at the same CFrame as the sword the blade sits inside it (sheathed). Weld to the Torso/hip for the sheathed look. | meshes: HO_Weapon_IronKatana_Saya__Black_Lacquer (336), HO_Weapon_IronKatana_Saya__Cloth_Crimson (36), HO_Weapon_IronKatana_Saya__Iron_Wrought (86)"
  },
  {
@@ -29998,7 +30131,7 @@
    "under_limit": true,
    "floating": 0,
    "parts": 8,
-   "inverted_parts": 1,
+   "inverted_parts": 0,
    "dims": [
     0.694,
     3.88,
@@ -30054,7 +30187,7 @@
     "floating": 1,
     "closed_parts": 4,
     "open_parts": 0,
-    "inverted_parts": 1,
+    "inverted_parts": 0,
     "textures": [
      "Iron_Wrought"
     ],
@@ -30134,7 +30267,11 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase4/Weapons/HO_Weapon_MoonlitEdge_three_quarter.png",
+   "renders/Phase4/Weapons/HO_Weapon_MoonlitEdge_side.png",
+   "renders/Phase4/Weapons/HO_Weapon_MoonlitEdge_front.png"
+  ],
   "notes": "Moonlit Edge: crescent-notched tsuba, navy saya, pale blue glowing edge (_Glow). Origin = centre of the grip (hand position). Blade points FRONT (-Z), cutting edge DOWN (-Y); as a Tool handle it works with Tool.Grip = identity. Blade 2.7 long. Scabbard = HO_Weapon_MoonlitEdge_Saya. | meshes: HO_Weapon_MoonlitEdge__Gold_Leaf (46), HO_Weapon_MoonlitEdge__Iron_Wrought (332), HO_Weapon_MoonlitEdge__Steel_Blade (206), HO_Weapon_MoonlitEdge__Tsuka_Wrap (44), HO_Weapon_MoonlitEdge_Glow (122)"
  },
  {
@@ -30239,7 +30376,10 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase4/Weapons/HO_Weapon_MoonlitEdge_Saya_three_quarter.png",
+   "renders/Phase4/Weapons/HO_Weapon_MoonlitEdge_Saya_side.png"
+  ],
   "notes": "Scabbard for HO_Weapon_MoonlitEdge, same origin frame: at the same CFrame as the sword the blade sits inside it (sheathed). Weld to the Torso/hip for the sheathed look. | meshes: HO_Weapon_MoonlitEdge_Saya__Cloth_Crimson (36), HO_Weapon_MoonlitEdge_Saya__Iron_Wrought (86), HO_Weapon_MoonlitEdge_Saya__Navy_Lacquer (336)"
  },
  {
@@ -30260,7 +30400,7 @@
    "under_limit": true,
    "floating": 0,
    "parts": 6,
-   "inverted_parts": 1,
+   "inverted_parts": 0,
    "dims": [
     0.646,
     3.78,
@@ -30292,7 +30432,7 @@
     "floating": 0,
     "closed_parts": 3,
     "open_parts": 0,
-    "inverted_parts": 1,
+    "inverted_parts": 0,
     "textures": [
      "Gold_Leaf"
     ],
@@ -30369,7 +30509,11 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase4/Weapons/HO_Weapon_TemperedKatana_three_quarter.png",
+   "renders/Phase4/Weapons/HO_Weapon_TemperedKatana_side.png",
+   "renders/Phase4/Weapons/HO_Weapon_TemperedKatana_front.png"
+  ],
   "notes": "Tempered Katana: longer, deeper curve, squared tsuba with gold fittings. Origin = centre of the grip (hand position). Blade points FRONT (-Z), cutting edge DOWN (-Y); as a Tool handle it works with Tool.Grip = identity. Blade 2.6 long. Scabbard = HO_Weapon_TemperedKatana_Saya. | meshes: HO_Weapon_TemperedKatana__Gold_Leaf (162), HO_Weapon_TemperedKatana__Iron_Wrought (92), HO_Weapon_TemperedKatana__Steel_Blade (206), HO_Weapon_TemperedKatana__Tsuka_Wrap (44)"
  },
  {
@@ -30474,7 +30618,10 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase4/Weapons/HO_Weapon_TemperedKatana_Saya_three_quarter.png",
+   "renders/Phase4/Weapons/HO_Weapon_TemperedKatana_Saya_side.png"
+  ],
   "notes": "Scabbard for HO_Weapon_TemperedKatana, same origin frame: at the same CFrame as the sword the blade sits inside it (sheathed). Weld to the Torso/hip for the sheathed look. | meshes: HO_Weapon_TemperedKatana_Saya__Black_Lacquer (336), HO_Weapon_TemperedKatana_Saya__Cloth_Crimson (36), HO_Weapon_TemperedKatana_Saya__Gold_Leaf (86)"
  }
 ]

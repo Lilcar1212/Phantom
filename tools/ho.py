@@ -158,6 +158,18 @@ def material(name, emission=None, emission_strength=0.0, tint=None):
     nm = N.new('ShaderNodeNormalMap')
     L.new(img('Normal', True).outputs['Color'], nm.inputs['Color'])
     L.new(nm.outputs['Normal'], bsdf.inputs['Normal'])
+    if name.startswith('VFX_'):                  # scrolling effect textures: glow, see-through where dark
+        glow = {'VFX_Energy': (0.35, 0.75, 1.0), 'VFX_Slash': (0.75, 0.88, 1.0), 'VFX_Water': (0.3, 0.62, 1.0)}.get(name, (1, 1, 1))
+        gm = N.new('ShaderNodeMix'); gm.data_type = 'RGBA'; gm.blend_type = 'MULTIPLY'; gm.inputs['Factor'].default_value = 1.0
+        L.new(col.outputs['Color'], gm.inputs[6]); gm.inputs[7].default_value = (*glow, 1)
+        L.new(gm.outputs[2], bsdf.inputs['Emission Color'])
+        bsdf.inputs['Base Color'].default_value = (0, 0, 0, 1)
+        for lk in list(bsdf.inputs['Base Color'].links): L.remove(lk)
+        bsdf.inputs['Emission Strength'].default_value = 4.0
+        bw = N.new('ShaderNodeRGBToBW'); L.new(col.outputs['Color'], bw.inputs['Color'])
+        ramp = N.new('ShaderNodeMapRange'); ramp.inputs['From Max'].default_value = 0.35
+        L.new(bw.outputs['Val'], ramp.inputs['Value']); L.new(ramp.outputs['Result'], bsdf.inputs['Alpha'])
+        if hasattr(m, 'blend_method'): m.blend_method = 'BLEND'
     if emission is not None:
         bsdf.inputs['Emission Color'].default_value = (*emission, 1)
         bsdf.inputs['Emission Strength'].default_value = emission_strength
@@ -575,8 +587,11 @@ def publish_group(objs, asset_name, category, phase='Phase1', grid=None, notes='
         if footprint: o['ho_footprint'] = footprint
         checks.append(check(o, grid=grid))
     rel = export_fbx(objs, f'{phase}/{category}/{asset_name}.fbx')
+    if render and render_objs:                  # preview a re-placed copy: hide the export meshes meanwhile
+        for o in objs: o.hide_render = True
     renders = render_previews(render_objs or objs, asset_name, subdir=f'{phase}/{category}', views=views,
                               samples=samples, cams=cams) if render else []
+    for o in objs: o.hide_render = False
     lo, hi = world_bbox(objs)
     # floating parts are judged on the whole assembly (a part may rest on geometry in another mesh)
     tmp = [o.copy() for o in objs]
