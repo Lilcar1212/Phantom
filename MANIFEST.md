@@ -18,6 +18,24 @@ Textures live in `textures/<Set>/HO_T_<Set>_{Color,Normal,Roughness,Metalness}.p
 | HO_Bldg_Machiya_F | Mesh group | `assets/Phase1/Buildings/HO_Bldg_Machiya_F.fbx` | 21286 | 13.538 × 25.667 × 29.961 | Cloth_Indigo, Earth_Packed, Iron_Wrought, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ grid ✅ | 12x20 footprint, 2 storey(s), koshi front, Indigo noren; ground-floor interior (doma, shop floor, tatami room, stair chest); SignFace mesh = blank board for a SurfaceGui | meshes: HO_Bldg_Machiya_F_Structure__Plaster_White (1152), HO_Bldg_Machiya_F_Structure__Shoji_Paper (156), HO_Bldg_Machiya_F_Structure__Stone_Granite (4152), HO_Bldg_Machiya_F_Structure__Timber_Dark (1944), HO_Bldg_Machiya_F_Structure__Timber_Light (1344), HO_Bldg_Machiya_F_Door1__Shoji_Paper (12), HO_Bldg_Machiya_F_Door1__Timber_Dark (156), HO_Bldg_Machiya_F_Door1__Timber_Light (120), HO_Bldg_Machiya_F_Door2__Shoji_Paper (12), HO_Bldg_Machiya_F_Door2__Timber_Light (132), HO_Bldg_Machiya_F_Door3__Shoji_Paper (12), HO_Bldg_Machiya_F_Door3__Timber_Light (132), HO_Bldg_Machiya_F_Interior__Earth_Packed (10), HO_Bldg_Machiya_F_Interior__Iron_Wrought (348), HO_Bldg_Machiya_F_Interior__Plaster_White (24), HO_Bldg_Machiya_F_Interior__Shoji_Paper (204), HO_Bldg_Machiya_F_Interior__Stone_Granite (12), HO_Bldg_Machiya_F_Interior__Tatami (10), HO_Bldg_Machiya_F_Interior__Timber_Dark (450), HO_Bldg_Machiya_F_Interior__Timber_Light (862), HO_Bldg_Machiya_F_Interior__Wood_Planks (20), HO_Bldg_Machiya_F_Front__Cloth_Indigo (504), HO_Bldg_Machiya_F_Front__Iron_Wrought (48), HO_Bldg_Machiya_F_Front__RoofTile_Clay (1398), HO_Bldg_Machiya_F_Front__Timber_Dark (524), HO_Bldg_Machiya_F_Front__Timber_Light (56), HO_Bldg_Machiya_F_RoofTiles (5790), HO_Bldg_Machiya_F_RoofFrame__Plaster_White (120), HO_Bldg_Machiya_F_RoofFrame__Timber_Dark (1122), HO_Bldg_Machiya_F_RoofFrame__Timber_Light (460) |
 | HO_Bldg_MagicStall | Mesh group | `assets/Phase1/Buildings/HO_Bldg_MagicStall.fbx` | 3662 | 8.8 × 13.63 × 9.7 | Black_Lacquer, Cloth_Crimson, Cloth_Indigo, Cloth_Navy, Earth_Packed, Magic_Glow, Red_Lacquer, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ grid ✅ | 8x12 footprint. Pivot = footprint centre at ground level; front faces -Z (street). Open market stall: canopy, counter, tiered shelves with glowing orbs + crystals, paper lanterns, charms. Glow mesh = orbs/crystals/lanterns (Neon + PointLight). | meshes: HO_Bldg_MagicStall_Canopy__Cloth_Indigo (304), HO_Bldg_MagicStall_Canopy__Cloth_Navy (100), HO_Bldg_MagicStall_Structure_GF__Black_Lacquer (1134), HO_Bldg_MagicStall_Structure_GF__Cloth_Crimson (40), HO_Bldg_MagicStall_Structure_GF__Earth_Packed (130), HO_Bldg_MagicStall_Structure_GF__Red_Lacquer (96), HO_Bldg_MagicStall_Structure_GF__Shoji_Paper (84), HO_Bldg_MagicStall_Structure_GF__Stone_Granite (12), HO_Bldg_MagicStall_Structure_GF__Timber_Dark (222), HO_Bldg_MagicStall_Structure_GF__Timber_Light (96), HO_Bldg_MagicStall_Structure_GF__Wood_Planks (10), HO_Bldg_MagicStall_Glow__Magic_Glow (1242), HO_Bldg_MagicStall_Glow__Shoji_Paper (192) |
 | HO_Bldg_TidewatchInn | Mesh group | `assets/Phase1/Buildings/HO_Bldg_TidewatchInn.fbx` | 77562 | 49.054 × 33.054 × 33.272 | Black_Lacquer, Cloth_Crimson, Cloth_Indigo, Cloth_Navy, Cloth_White, Earth_Packed, Ember, Gold_Leaf, Iron_Wrought, Magic_Glow, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Granite, Straw, Tatami, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ grid ✅ | 40x24 footprint. Pivot = footprint centre at ground level; front faces -Z (street). 2 storeys. GF: genkan, lobby w/ reception counter + key board, dining hall, stair. 2F: corridor + 6 guest rooms (tatami, futon, low table, cushions, andon, tansu, sliding door = Door_Room1..6 meshes). Glow mesh = lanterns. | meshes: HO_Bldg_TidewatchInn_Structure (8232), HO_Bldg_TidewatchInn_Structure_GF__Plaster_White (972), HO_Bldg_TidewatchInn_Structure_GF__Shoji_Paper (312), HO_Bldg_TidewatchInn_Structure_GF__Timber_Dark (2760), HO_Bldg_TidewatchInn_Structure_GF__Timber_Light (2880), HO_Bldg_TidewatchInn_Door1__Shoji_Paper (12), HO_Bldg_TidewatchInn_Door1__Timber_Dark (156), HO_Bldg_TidewatchInn_Door1__Timber_Light (120), HO_Bldg_TidewatchInn_Door2__Shoji_Paper (12), HO_Bldg_TidewatchInn_Door2__Timber_Dark (156), HO_Bldg_TidewatchInn_Door2__Timber_Light (120), HO_Bldg_TidewatchInn_Structure_2F__Plaster_White (1632), HO_Bldg_TidewatchInn_Structure_2F__Shoji_Paper (576), HO_Bldg_TidewatchInn_Structure_2F__Timber_Dark (3384), HO_Bldg_TidewatchInn_Structure_2F__Timber_Light (4608), HO_Bldg_TidewatchInn_Interior_GF__Cloth_Crimson (480), HO_Bldg_TidewatchInn_Interior_GF__Cloth_White (136), HO_Bldg_TidewatchInn_Interior_GF__Earth_Packed (140), HO_Bldg_TidewatchInn_Interior_GF__Iron_Wrought (240), HO_Bldg_TidewatchInn_Interior_GF__Plaster_White (12), HO_Bldg_TidewatchInn_Interior_GF__Shoji_Paper (96), HO_Bldg_TidewatchInn_Interior_GF__Stone_Granite (12), HO_Bldg_TidewatchInn_Interior_GF__Straw (136), HO_Bldg_TidewatchInn_Interior_GF__Tatami (10), HO_Bldg_TidewatchInn_Interior_GF__Timber_Dark (996), HO_Bldg_TidewatchInn_Interior_GF__Timber_Light (1200), HO_Bldg_TidewatchInn_Interior_GF__Wood_Planks (186), HO_Bldg_TidewatchInn_Glow (312), HO_Bldg_TidewatchInn_Interior_2F__Cloth_Crimson (960), HO_Bldg_TidewatchInn_Interior_2F__Cloth_Indigo (120), HO_Bldg_TidewatchInn_Interior_2F__Cloth_Navy (360), HO_Bldg_TidewatchInn_Interior_2F__Cloth_White (504), HO_Bldg_TidewatchInn_Interior_2F__Iron_Wrought (864), HO_Bldg_TidewatchInn_Interior_2F__Plaster_White (144), HO_Bldg_TidewatchInn_Interior_2F__Shoji_Paper (204), HO_Bldg_TidewatchInn_Interior_2F__Tatami (60), HO_Bldg_TidewatchInn_Interior_2F__Timber_Dark (1704), HO_Bldg_TidewatchInn_Interior_2F__Timber_Light (2820), HO_Bldg_TidewatchInn_Interior_2F__Wood_Planks (80), HO_Bldg_TidewatchInn_Door_Room1__Shoji_Paper (12), HO_Bldg_TidewatchInn_Door_Room1__Timber_Light (132), HO_Bldg_TidewatchInn_Door_Room2__Shoji_Paper (12), HO_Bldg_TidewatchInn_Door_Room2__Timber_Light (132), HO_Bldg_TidewatchInn_Door_Room3__Shoji_Paper (12), HO_Bldg_TidewatchInn_Door_Room3__Timber_Light (132), HO_Bldg_TidewatchInn_Door_Room4__Shoji_Paper (12), HO_Bldg_TidewatchInn_Door_Room4__Timber_Light (132), HO_Bldg_TidewatchInn_Door_Room5__Shoji_Paper (12), HO_Bldg_TidewatchInn_Door_Room5__Timber_Light (132), HO_Bldg_TidewatchInn_Door_Room6__Shoji_Paper (12), HO_Bldg_TidewatchInn_Door_Room6__Timber_Light (132), HO_Bldg_TidewatchInn_Front__Black_Lacquer (144), HO_Bldg_TidewatchInn_Front__Cloth_Crimson (24), HO_Bldg_TidewatchInn_Front__Cloth_Navy (832), HO_Bldg_TidewatchInn_Front__Iron_Wrought (132), HO_Bldg_TidewatchInn_Front__RoofTile_Clay (3030), HO_Bldg_TidewatchInn_Front__Timber_Dark (1300), HO_Bldg_TidewatchInn_Front__Timber_Light (200), HO_Bldg_TidewatchInn_SignFace (12), HO_Bldg_TidewatchInn_RoofFrame__Gold_Leaf (208), HO_Bldg_TidewatchInn_RoofFrame__Plaster_White (160), HO_Bldg_TidewatchInn_RoofFrame__Timber_Dark (6770), HO_Bldg_TidewatchInn_RoofFrame__Timber_Light (2928), HO_Bldg_TidewatchInn_RoofTilesA (11673), HO_Bldg_TidewatchInn_RoofTilesB (11577) |
+| HO_Castle_AcademyHall | Mesh group | `assets/Phase1/Castle/HO_Castle_AcademyHall.fbx` | 65048 | 54.286 × 39.343 × 27.739 | Black_Lacquer, Cloth_Crimson, Cloth_White, Ember, Gold_Leaf, Iron_Wrought, Magic_Glow, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | 44x28 Sword Academy dojo (+2.6 veranda all round): raised floor at +3, front steps, shoji doors in the centre bays, interior with kamidana shelf, weapon + spear racks, sword stands, taiko drum, lanterns (Glow). Pivot = footprint centre at ground. | meshes: HO_Castle_AcademyHall_Door1__Shoji_Paper (12), HO_Castle_AcademyHall_Door1__Timber_Light (132), HO_Castle_AcademyHall_Door2__Shoji_Paper (12), HO_Castle_AcademyHall_Door2__Timber_Light (132), HO_Castle_AcademyHall_Door3__Shoji_Paper (12), HO_Castle_AcademyHall_Door3__Timber_Light (132), HO_Castle_AcademyHall_Door4__Shoji_Paper (12), HO_Castle_AcademyHall_Door4__Timber_Light (132), HO_Castle_AcademyHall_Door5__Shoji_Paper (12), HO_Castle_AcademyHall_Door5__Timber_Light (132), HO_Castle_AcademyHall_Door6__Shoji_Paper (12), HO_Castle_AcademyHall_Door6__Timber_Light (132), HO_Castle_AcademyHall_Interior__Black_Lacquer (1872), HO_Castle_AcademyHall_Interior__Cloth_Crimson (16), HO_Castle_AcademyHall_Interior__Cloth_White (1440), HO_Castle_AcademyHall_Interior__Gold_Leaf (872), HO_Castle_AcademyHall_Interior__Iron_Wrought (308), HO_Castle_AcademyHall_Interior__Red_Lacquer (136), HO_Castle_AcademyHall_Interior__RoofTile_Clay (8), HO_Castle_AcademyHall_Interior__Shoji_Paper (60), HO_Castle_AcademyHall_Interior__Timber_Dark (656), HO_Castle_AcademyHall_Interior__Timber_Light (480), HO_Castle_AcademyHall_Glow (36), HO_Castle_AcademyHall_RoofFrame__Gold_Leaf (208), HO_Castle_AcademyHall_RoofFrame__Plaster_White (160), HO_Castle_AcademyHall_RoofFrame__Timber_Dark (7474), HO_Castle_AcademyHall_RoofFrame__Timber_Light (3940), HO_Castle_AcademyHall_StructureA__Plaster_White (718), HO_Castle_AcademyHall_StructureA__Shoji_Paper (204), HO_Castle_AcademyHall_StructureA__Stone_Fitted (10), HO_Castle_AcademyHall_StructureA__Stone_Granite (4564), HO_Castle_AcademyHall_StructureA__Timber_Dark (2114), HO_Castle_AcademyHall_StructureA__Timber_Light (1632), HO_Castle_AcademyHall_StructureA__Wood_Planks (70), HO_Castle_AcademyHall_StructureB__Plaster_White (722), HO_Castle_AcademyHall_StructureB__Shoji_Paper (204), HO_Castle_AcademyHall_StructureB__Stone_Fitted (2), HO_Castle_AcademyHall_StructureB__Stone_Granite (4564), HO_Castle_AcademyHall_StructureB__Timber_Dark (2072), HO_Castle_AcademyHall_StructureB__Timber_Light (1632), HO_Castle_AcademyHall_StructureB__Wood_Planks (24), HO_Castle_AcademyHall_RoofTilesA (14049), HO_Castle_AcademyHall_RoofTilesB (13937) |
+| HO_Castle_Gatehouse | Mesh group | `assets/Phase1/Castle/HO_Castle_Gatehouse.fbx` | 35418 | 36.168 × 20.168 × 32.29 | Black_Lacquer, Cloth_Navy, Cloth_White, Gold_Leaf, Iron_Wrought, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | 28x12 gate: stone gate towers, 12-wide passage, iron-strapped doors (Door1/Door2 groups swing on the hinge posts at x = +-6), upper floor, castle roof, navy crest banners. Pivot = footprint centre at ground; front faces -Z. | meshes: HO_Castle_Gatehouse_Base__Stone_Fitted (20), HO_Castle_Gatehouse_Base__Stone_Granite (6736), HO_Castle_Gatehouse_Structure__Stone_Fitted (10), HO_Castle_Gatehouse_Structure__Stone_Granite (12), HO_Castle_Gatehouse_Structure__Timber_Dark (120), HO_Castle_Gatehouse_Structure__Wood_Planks (12), HO_Castle_Gatehouse_Door1__Iron_Wrought (756), HO_Castle_Gatehouse_Door1__Timber_Dark (60), HO_Castle_Gatehouse_Door2__Iron_Wrought (756), HO_Castle_Gatehouse_Door2__Timber_Dark (60), HO_Castle_Gatehouse_Upper__Plaster_White (768), HO_Castle_Gatehouse_Upper__Shoji_Paper (192), HO_Castle_Gatehouse_Upper__Timber_Dark (1992), HO_Castle_Gatehouse_Upper__Timber_Light (1536), HO_Castle_Gatehouse_RoofTiles (14554), HO_Castle_Gatehouse_RoofFrame__Black_Lacquer (80), HO_Castle_Gatehouse_RoofFrame__Gold_Leaf (588), HO_Castle_Gatehouse_RoofFrame__Plaster_White (6582), HO_Castle_Gatehouse_Banners__Black_Lacquer (80), HO_Castle_Gatehouse_Banners__Cloth_Navy (264), HO_Castle_Gatehouse_Banners__Cloth_White (240) |
+| HO_Castle_Keep | Mesh group | `assets/Phase1/Castle/HO_Castle_Keep.fbx` | 144866 | 50.338 × 42.342 × 77.423 | Black_Lacquer, Cloth_Navy, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | Five-tier keep on a 16-tall ishigaki base (base top 44x36, foot 50x42). Origin = bottom centre of the stone base; front (karahafu gable) faces -Z. Tiers: white walls + lattice windows, tiled skirts, karahafu (tier 1), chidori (tiers 2-3), red-railed balcony + gold shachihoko on top. Also exported per part: HO_Castle_Keep_Base / _Tier1 .. _Tier5. | meshes: HO_Castle_Keep_Base_Front (5672), HO_Castle_Keep_Base_Back (5512), HO_Castle_Keep_Base_Right (4872), HO_Castle_Keep_Base_Left (4680), HO_Castle_Keep_Tier1_RoofTiles (13768), HO_Castle_Keep_Tier2_RoofTiles (12552), HO_Castle_Keep_Tier3_RoofTiles (10952), HO_Castle_Keep_Tier4_RoofTiles (10216), HO_Castle_Keep_Tier5_RoofTiles (15530), HO_Castle_Keep_Base_Top__Stone_Fitted (10), HO_Castle_Keep_Base_Top__Stone_Granite (8), HO_Castle_Keep_Tier1_Walls__Plaster_White (1512), HO_Castle_Keep_Tier1_Walls__Shoji_Paper (432), HO_Castle_Keep_Tier1_Walls__Timber_Dark (3960), HO_Castle_Keep_Tier1_Walls__Timber_Light (3456), HO_Castle_Keep_Tier1_Walls__Wood_Planks (12), HO_Castle_Keep_Tier1_RoofFrame__Plaster_White (1672), HO_Castle_Keep_Tier1_RoofFrame__Timber_Dark (272), HO_Castle_Keep_Tier1_Gable__Gold_Leaf (36), HO_Castle_Keep_Tier1_Gable__Plaster_White (502), HO_Castle_Keep_Tier1_Gable__RoofTile_Clay (960), HO_Castle_Keep_Tier2_Walls__Plaster_White (1272), HO_Castle_Keep_Tier2_Walls__Shoji_Paper (336), HO_Castle_Keep_Tier2_Walls__Timber_Dark (3288), HO_Castle_Keep_Tier2_Walls__Timber_Light (2688), HO_Castle_Keep_Tier2_Walls__Wood_Planks (12), HO_Castle_Keep_Tier2_RoofFrame__Plaster_White (1528), HO_Castle_Keep_Tier2_RoofFrame__Timber_Dark (248), HO_Castle_Keep_Tier2_Gable__Gold_Leaf (32), HO_Castle_Keep_Tier2_Gable__Plaster_White (696), HO_Castle_Keep_Tier2_Gable__RoofTile_Clay (1944), HO_Castle_Keep_Tier3_Walls__Plaster_White (1176), HO_Castle_Keep_Tier3_Walls__Shoji_Paper (336), HO_Castle_Keep_Tier3_Walls__Timber_Dark (3120), HO_Castle_Keep_Tier3_Walls__Timber_Light (2688), HO_Castle_Keep_Tier3_Walls__Wood_Planks (12), HO_Castle_Keep_Tier3_RoofFrame__Plaster_White (1384), HO_Castle_Keep_Tier3_RoofFrame__Timber_Dark (224), HO_Castle_Keep_Tier3_Gable__Gold_Leaf (32), HO_Castle_Keep_Tier3_Gable__Plaster_White (640), HO_Castle_Keep_Tier3_Gable__RoofTile_Clay (1880), HO_Castle_Keep_Tier4_Walls__Plaster_White (936), HO_Castle_Keep_Tier4_Walls__Shoji_Paper (240), HO_Castle_Keep_Tier4_Walls__Timber_Dark (2448), HO_Castle_Keep_Tier4_Walls__Timber_Light (1920), HO_Castle_Keep_Tier4_Walls__Wood_Planks (12), HO_Castle_Keep_Tier4_RoofFrame__Plaster_White (1288), HO_Castle_Keep_Tier4_RoofFrame__Timber_Dark (208), HO_Castle_Keep_Tier5_Walls__Plaster_White (1200), HO_Castle_Keep_Tier5_Walls__Shoji_Paper (480), HO_Castle_Keep_Tier5_Walls__Timber_Dark (3720), HO_Castle_Keep_Tier5_Walls__Timber_Light (3840), HO_Castle_Keep_Tier5_Walls__Wood_Planks (12), HO_Castle_Keep_Tier5_Balcony__Red_Lacquer (984), HO_Castle_Keep_Tier5_Balcony__Wood_Planks (48), HO_Castle_Keep_Tier5_RoofFrame__Gold_Leaf (256), HO_Castle_Keep_Tier5_RoofFrame__Plaster_White (6740), HO_Castle_Keep_Tier5_Gable__Black_Lacquer (80), HO_Castle_Keep_Tier5_Gable__Gold_Leaf (332) |
+| HO_Castle_Keep_Base | Mesh group | `assets/Phase1/Castle/HO_Castle_Keep_Base.fbx` | 20754 | 50.338 × 42.342 × 16.06 | Black_Lacquer, Cloth_Navy, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | Keep part exported on its own: shares the keep origin, place at the SAME CFrame as the other keep parts (they stack automatically). | meshes: HO_Castle_Keep_Base_Front (5672), HO_Castle_Keep_Base_Back (5512), HO_Castle_Keep_Base_Right (4872), HO_Castle_Keep_Base_Left (4680), HO_Castle_Keep_Base_Top__Stone_Fitted (10), HO_Castle_Keep_Base_Top__Stone_Granite (8) |
+| HO_Castle_Keep_Tier1 | Mesh group | `assets/Phase1/Castle/HO_Castle_Keep_Tier1.fbx` | 26582 | 48.103 × 40.103 × 12.299 | Gold_Leaf, Plaster_White, RoofTile_Clay, Shoji_Paper, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | Keep part exported on its own: shares the keep origin, place at the SAME CFrame as the other keep parts (they stack automatically). | meshes: HO_Castle_Keep_Tier1_Walls__Plaster_White (1512), HO_Castle_Keep_Tier1_Walls__Shoji_Paper (432), HO_Castle_Keep_Tier1_Walls__Timber_Dark (3960), HO_Castle_Keep_Tier1_Walls__Timber_Light (3456), HO_Castle_Keep_Tier1_Walls__Wood_Planks (12), HO_Castle_Keep_Tier1_RoofTiles (13768), HO_Castle_Keep_Tier1_RoofFrame__Plaster_White (1672), HO_Castle_Keep_Tier1_RoofFrame__Timber_Dark (272), HO_Castle_Keep_Tier1_Gable__Gold_Leaf (36), HO_Castle_Keep_Tier1_Gable__Plaster_White (502), HO_Castle_Keep_Tier1_Gable__RoofTile_Clay (960) |
+| HO_Castle_Keep_Tier2 | Mesh group | `assets/Phase1/Castle/HO_Castle_Keep_Tier2.fbx` | 24596 | 43.903 × 35.903 × 14.404 | Gold_Leaf, Plaster_White, RoofTile_Clay, Shoji_Paper, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | Keep part exported on its own: shares the keep origin, place at the SAME CFrame as the other keep parts (they stack automatically). | meshes: HO_Castle_Keep_Tier2_Walls__Plaster_White (1272), HO_Castle_Keep_Tier2_Walls__Shoji_Paper (336), HO_Castle_Keep_Tier2_Walls__Timber_Dark (3288), HO_Castle_Keep_Tier2_Walls__Timber_Light (2688), HO_Castle_Keep_Tier2_Walls__Wood_Planks (12), HO_Castle_Keep_Tier2_RoofTiles (12552), HO_Castle_Keep_Tier2_RoofFrame__Plaster_White (1528), HO_Castle_Keep_Tier2_RoofFrame__Timber_Dark (248), HO_Castle_Keep_Tier2_Gable__Gold_Leaf (32), HO_Castle_Keep_Tier2_Gable__Plaster_White (696), HO_Castle_Keep_Tier2_Gable__RoofTile_Clay (1944) |
+| HO_Castle_Keep_Tier3 | Mesh group | `assets/Phase1/Castle/HO_Castle_Keep_Tier3.fbx` | 22444 | 38.863 × 30.863 × 13.804 | Gold_Leaf, Plaster_White, RoofTile_Clay, Shoji_Paper, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | Keep part exported on its own: shares the keep origin, place at the SAME CFrame as the other keep parts (they stack automatically). | meshes: HO_Castle_Keep_Tier3_Walls__Plaster_White (1176), HO_Castle_Keep_Tier3_Walls__Shoji_Paper (336), HO_Castle_Keep_Tier3_Walls__Timber_Dark (3120), HO_Castle_Keep_Tier3_Walls__Timber_Light (2688), HO_Castle_Keep_Tier3_Walls__Wood_Planks (12), HO_Castle_Keep_Tier3_RoofTiles (10952), HO_Castle_Keep_Tier3_RoofFrame__Plaster_White (1384), HO_Castle_Keep_Tier3_RoofFrame__Timber_Dark (224), HO_Castle_Keep_Tier3_Gable__Gold_Leaf (32), HO_Castle_Keep_Tier3_Gable__Plaster_White (640), HO_Castle_Keep_Tier3_Gable__RoofTile_Clay (1880) |
+| HO_Castle_Keep_Tier4 | Mesh group | `assets/Phase1/Castle/HO_Castle_Keep_Tier4.fbx` | 17268 | 34.664 × 26.664 × 12.017 | Plaster_White, RoofTile_Clay, Shoji_Paper, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | Keep part exported on its own: shares the keep origin, place at the SAME CFrame as the other keep parts (they stack automatically). | meshes: HO_Castle_Keep_Tier4_Walls__Plaster_White (936), HO_Castle_Keep_Tier4_Walls__Shoji_Paper (240), HO_Castle_Keep_Tier4_Walls__Timber_Dark (2448), HO_Castle_Keep_Tier4_Walls__Timber_Light (1920), HO_Castle_Keep_Tier4_Walls__Wood_Planks (12), HO_Castle_Keep_Tier4_RoofTiles (10216), HO_Castle_Keep_Tier4_RoofFrame__Plaster_White (1288), HO_Castle_Keep_Tier4_RoofFrame__Timber_Dark (208) |
+| HO_Castle_Keep_Tier5 | Mesh group | `assets/Phase1/Castle/HO_Castle_Keep_Tier5.fbx` | 33222 | 32.964 × 24.964 × 25.363 | Black_Lacquer, Gold_Leaf, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | Keep part exported on its own: shares the keep origin, place at the SAME CFrame as the other keep parts (they stack automatically). | meshes: HO_Castle_Keep_Tier5_Walls__Plaster_White (1200), HO_Castle_Keep_Tier5_Walls__Shoji_Paper (480), HO_Castle_Keep_Tier5_Walls__Timber_Dark (3720), HO_Castle_Keep_Tier5_Walls__Timber_Light (3840), HO_Castle_Keep_Tier5_Walls__Wood_Planks (12), HO_Castle_Keep_Tier5_Balcony__Red_Lacquer (984), HO_Castle_Keep_Tier5_Balcony__Wood_Planks (48), HO_Castle_Keep_Tier5_RoofTiles (15530), HO_Castle_Keep_Tier5_RoofFrame__Gold_Leaf (256), HO_Castle_Keep_Tier5_RoofFrame__Plaster_White (6740), HO_Castle_Keep_Tier5_Gable__Black_Lacquer (80), HO_Castle_Keep_Tier5_Gable__Gold_Leaf (332) |
+| HO_Castle_Yagura | Mesh group | `assets/Phase1/Castle/HO_Castle_Yagura.fbx` | 35014 | 22.265 × 18.265 × 29.968 | Black_Lacquer, Gold_Leaf, Iron_Wrought, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | 16x12 two-tier watchtower on a stone plinth; pivot = footprint centre at ground; front faces -Z. | meshes: HO_Castle_Yagura_Structure (3736), HO_Castle_Yagura_Tier1__Plaster_White (552), HO_Castle_Yagura_Tier1__Shoji_Paper (144), HO_Castle_Yagura_Tier1__Timber_Dark (1488), HO_Castle_Yagura_Tier1__Timber_Light (1152), HO_Castle_Yagura_Tier1_RoofTiles (8064), HO_Castle_Yagura_Tier1_RoofFrame__Gold_Leaf (16), HO_Castle_Yagura_Tier1_RoofFrame__Plaster_White (1268), HO_Castle_Yagura_Tier1_RoofFrame__Timber_Dark (156), HO_Castle_Yagura_Tier2__Plaster_White (600), HO_Castle_Yagura_Tier2__Shoji_Paper (240), HO_Castle_Yagura_Tier2__Timber_Dark (1968), HO_Castle_Yagura_Tier2__Timber_Light (1920), HO_Castle_Yagura_Tier2_RoofTiles (9058), HO_Castle_Yagura_Tier2_RoofFrame__Black_Lacquer (80), HO_Castle_Yagura_Tier2_RoofFrame__Gold_Leaf (588), HO_Castle_Yagura_Tier2_RoofFrame__Plaster_White (3984) |
+| HO_Wall_Castle_Corner | Mesh | `assets/Phase1/Castle/HO_Wall_Castle_Corner.fbx` | 4032 | 18.093 × 18.093 × 8.99 | Black_Lacquer, Plaster_White, RoofTile_Clay, Stone_Fitted, Timber_Dark | bottom-centre | ✅ | L-shaped corner: legs 16 long toward -X and toward +Z (back); origin = the corner on the wall centre lines. | meshes: HO_Wall_Castle_Corner__Black_Lacquer (24), HO_Wall_Castle_Corner__Plaster_White (1164), HO_Wall_Castle_Corner__RoofTile_Clay (2652), HO_Wall_Castle_Corner__Stone_Fitted (24), HO_Wall_Castle_Corner__Timber_Dark (168) |
+| HO_Wall_Castle_End_16 | Mesh | `assets/Phase1/Castle/HO_Wall_Castle_End_16.fbx` | 2034 | 17 × 3.586 × 8.99 | Black_Lacquer, Plaster_White, RoofTile_Clay, Stone_Fitted, Timber_Dark | bottom-centre | ✅ | As straight, with a capped end pillar at +X. | meshes: HO_Wall_Castle_End_16__Black_Lacquer (12), HO_Wall_Castle_End_16__Plaster_White (588), HO_Wall_Castle_End_16__RoofTile_Clay (1338), HO_Wall_Castle_End_16__Stone_Fitted (12), HO_Wall_Castle_End_16__Timber_Dark (84) |
+| HO_Wall_Castle_Straight_16 | Mesh | `assets/Phase1/Castle/HO_Wall_Castle_Straight_16.fbx` | 2010 | 16.6 × 3.586 × 8.99 | Black_Lacquer, Plaster_White, RoofTile_Clay, Stone_Fitted, Timber_Dark | bottom-centre | ✅ | Castle wall (dobei) 16 long x 1.6 thick: stone footing, white plaster, loopholes, tiled coping. Origin = bottom centre on the wall centre line; outside face = front (-Z). | meshes: HO_Wall_Castle_Straight_16__Black_Lacquer (12), HO_Wall_Castle_Straight_16__Plaster_White (576), HO_Wall_Castle_Straight_16__RoofTile_Clay (1326), HO_Wall_Castle_Straight_16__Stone_Fitted (12), HO_Wall_Castle_Straight_16__Timber_Dark (84) |
+| HO_Wall_Ishigaki_Corner_Inner | Mesh | `assets/Phase1/Castle/HO_Wall_Ishigaki_Corner_Inner.fbx` | 4016 | 20 × 20 × 16 | Black_Lacquer, Cloth_Navy, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | Concave corner, 16 each way; origin = the re-entrant corner of the top edge. Height 16. |
+| HO_Wall_Ishigaki_Corner_Outer | Mesh | `assets/Phase1/Castle/HO_Wall_Ishigaki_Corner_Outer.fbx` | 4496 | 19.156 × 19.094 × 16 | Black_Lacquer, Cloth_Navy, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | Convex corner, 16 each way; origin = the corner of the top edge; platform lies behind (+Z) and left (-X); interlocking corner stones. Height 16. |
+| HO_Wall_Ishigaki_Stepped_16 | Mesh | `assets/Phase1/Castle/HO_Wall_Ishigaki_Stepped_16.fbx` | 1872 | 16 × 7.058 × 16 | Black_Lacquer, Cloth_Navy, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | 16 long; left half 16 tall, right half 12 tall (steps down 4). Origin = bottom of the wall directly below the TOP edge of the stone face (the terrace edge); the battered base flares out toward the front (-Z) by 3 studs; solid fill 4 studs behind. Height 16. |
+| HO_Wall_Ishigaki_Straight_16 | Mesh | `assets/Phase1/Castle/HO_Wall_Ishigaki_Straight_16.fbx` | 2280 | 16 × 7.151 × 16 | Black_Lacquer, Cloth_Navy, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | 16 long. Origin = bottom of the wall directly below the TOP edge of the stone face (the terrace edge); the battered base flares out toward the front (-Z) by 3 studs; solid fill 4 studs behind. Height 16. |
+| HO_Wall_Ishigaki_Straight_8 | Mesh | `assets/Phase1/Castle/HO_Wall_Ishigaki_Straight_8.fbx` | 1256 | 8 × 7.164 × 16 | Black_Lacquer, Cloth_Navy, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | 8 long. Origin = bottom of the wall directly below the TOP edge of the stone face (the terrace edge); the battered base flares out toward the front (-Z) by 3 studs; solid fill 4 studs behind. Height 16. |
 | HO_Found_Plinth_12 | Mesh | `assets/Phase1/Foundations/HO_Found_Plinth_12.fbx` | 740 | 12 × 1.6 × 1 | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | L x 1.6 x 1 stone plinth under walls (walls start at z = 1); centred on the wall centre line |
 | HO_Found_Plinth_16 | Mesh | `assets/Phase1/Foundations/HO_Found_Plinth_16.fbx` | 1048 | 16 × 1.6 × 1 | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | L x 1.6 x 1 stone plinth under walls (walls start at z = 1); centred on the wall centre line |
 | HO_Found_Plinth_4 | Mesh | `assets/Phase1/Foundations/HO_Found_Plinth_4.fbx` | 292 | 4 × 1.6 × 1 | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | L x 1.6 x 1 stone plinth under walls (walls start at z = 1); centred on the wall centre line |
@@ -445,6 +463,225 @@ Every mesh object uses exactly ONE texture set: give its MeshPart one SurfaceApp
 | HO_Bldg_TidewatchInn | `HO_Bldg_TidewatchInn_RoofFrame__Timber_Light` | Timber_Light | 2928 |
 | HO_Bldg_TidewatchInn | `HO_Bldg_TidewatchInn_RoofTilesA` | RoofTile_Clay | 11673 |
 | HO_Bldg_TidewatchInn | `HO_Bldg_TidewatchInn_RoofTilesB` | RoofTile_Clay | 11577 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_Door1__Shoji_Paper` | Shoji_Paper | 12 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_Door1__Timber_Light` | Timber_Light | 132 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_Door2__Shoji_Paper` | Shoji_Paper | 12 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_Door2__Timber_Light` | Timber_Light | 132 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_Door3__Shoji_Paper` | Shoji_Paper | 12 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_Door3__Timber_Light` | Timber_Light | 132 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_Door4__Shoji_Paper` | Shoji_Paper | 12 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_Door4__Timber_Light` | Timber_Light | 132 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_Door5__Shoji_Paper` | Shoji_Paper | 12 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_Door5__Timber_Light` | Timber_Light | 132 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_Door6__Shoji_Paper` | Shoji_Paper | 12 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_Door6__Timber_Light` | Timber_Light | 132 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_Interior__Black_Lacquer` | Black_Lacquer | 1872 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_Interior__Cloth_Crimson` | Cloth_Crimson | 16 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_Interior__Cloth_White` | Cloth_White | 1440 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_Interior__Gold_Leaf` | Gold_Leaf | 872 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_Interior__Iron_Wrought` | Iron_Wrought | 308 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_Interior__Red_Lacquer` | Red_Lacquer | 136 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_Interior__RoofTile_Clay` | RoofTile_Clay | 8 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_Interior__Shoji_Paper` | Shoji_Paper | 60 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_Interior__Timber_Dark` | Timber_Dark | 656 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_Interior__Timber_Light` | Timber_Light | 480 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_Glow` | Ember, Magic_Glow, Shoji_Paper | 36 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_RoofFrame__Gold_Leaf` | Gold_Leaf | 208 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_RoofFrame__Plaster_White` | Plaster_White | 160 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_RoofFrame__Timber_Dark` | Timber_Dark | 7474 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_RoofFrame__Timber_Light` | Timber_Light | 3940 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_StructureA__Plaster_White` | Plaster_White | 718 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_StructureA__Shoji_Paper` | Shoji_Paper | 204 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_StructureA__Stone_Fitted` | Stone_Fitted | 10 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_StructureA__Stone_Granite` | Stone_Granite | 4564 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_StructureA__Timber_Dark` | Timber_Dark | 2114 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_StructureA__Timber_Light` | Timber_Light | 1632 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_StructureA__Wood_Planks` | Wood_Planks | 70 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_StructureB__Plaster_White` | Plaster_White | 722 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_StructureB__Shoji_Paper` | Shoji_Paper | 204 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_StructureB__Stone_Fitted` | Stone_Fitted | 2 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_StructureB__Stone_Granite` | Stone_Granite | 4564 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_StructureB__Timber_Dark` | Timber_Dark | 2072 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_StructureB__Timber_Light` | Timber_Light | 1632 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_StructureB__Wood_Planks` | Wood_Planks | 24 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_RoofTilesA` | RoofTile_Clay | 14049 |
+| HO_Castle_AcademyHall | `HO_Castle_AcademyHall_RoofTilesB` | RoofTile_Clay | 13937 |
+| HO_Castle_Gatehouse | `HO_Castle_Gatehouse_Base__Stone_Fitted` | Stone_Fitted | 20 |
+| HO_Castle_Gatehouse | `HO_Castle_Gatehouse_Base__Stone_Granite` | Stone_Granite | 6736 |
+| HO_Castle_Gatehouse | `HO_Castle_Gatehouse_Structure__Stone_Fitted` | Stone_Fitted | 10 |
+| HO_Castle_Gatehouse | `HO_Castle_Gatehouse_Structure__Stone_Granite` | Stone_Granite | 12 |
+| HO_Castle_Gatehouse | `HO_Castle_Gatehouse_Structure__Timber_Dark` | Timber_Dark | 120 |
+| HO_Castle_Gatehouse | `HO_Castle_Gatehouse_Structure__Wood_Planks` | Wood_Planks | 12 |
+| HO_Castle_Gatehouse | `HO_Castle_Gatehouse_Door1__Iron_Wrought` | Iron_Wrought | 756 |
+| HO_Castle_Gatehouse | `HO_Castle_Gatehouse_Door1__Timber_Dark` | Timber_Dark | 60 |
+| HO_Castle_Gatehouse | `HO_Castle_Gatehouse_Door2__Iron_Wrought` | Iron_Wrought | 756 |
+| HO_Castle_Gatehouse | `HO_Castle_Gatehouse_Door2__Timber_Dark` | Timber_Dark | 60 |
+| HO_Castle_Gatehouse | `HO_Castle_Gatehouse_Upper__Plaster_White` | Plaster_White | 768 |
+| HO_Castle_Gatehouse | `HO_Castle_Gatehouse_Upper__Shoji_Paper` | Shoji_Paper | 192 |
+| HO_Castle_Gatehouse | `HO_Castle_Gatehouse_Upper__Timber_Dark` | Timber_Dark | 1992 |
+| HO_Castle_Gatehouse | `HO_Castle_Gatehouse_Upper__Timber_Light` | Timber_Light | 1536 |
+| HO_Castle_Gatehouse | `HO_Castle_Gatehouse_RoofTiles` | RoofTile_Clay | 14554 |
+| HO_Castle_Gatehouse | `HO_Castle_Gatehouse_RoofFrame__Black_Lacquer` | Black_Lacquer | 80 |
+| HO_Castle_Gatehouse | `HO_Castle_Gatehouse_RoofFrame__Gold_Leaf` | Gold_Leaf | 588 |
+| HO_Castle_Gatehouse | `HO_Castle_Gatehouse_RoofFrame__Plaster_White` | Plaster_White | 6582 |
+| HO_Castle_Gatehouse | `HO_Castle_Gatehouse_Banners__Black_Lacquer` | Black_Lacquer | 80 |
+| HO_Castle_Gatehouse | `HO_Castle_Gatehouse_Banners__Cloth_Navy` | Cloth_Navy | 264 |
+| HO_Castle_Gatehouse | `HO_Castle_Gatehouse_Banners__Cloth_White` | Cloth_White | 240 |
+| HO_Castle_Keep | `HO_Castle_Keep_Base_Front` | Black_Lacquer, Cloth_Navy, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 5672 |
+| HO_Castle_Keep | `HO_Castle_Keep_Base_Back` | Black_Lacquer, Cloth_Navy, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 5512 |
+| HO_Castle_Keep | `HO_Castle_Keep_Base_Right` | Black_Lacquer, Cloth_Navy, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 4872 |
+| HO_Castle_Keep | `HO_Castle_Keep_Base_Left` | Black_Lacquer, Cloth_Navy, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 4680 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier1_RoofTiles` | RoofTile_Clay | 13768 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier2_RoofTiles` | RoofTile_Clay | 12552 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier3_RoofTiles` | RoofTile_Clay | 10952 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier4_RoofTiles` | RoofTile_Clay | 10216 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier5_RoofTiles` | RoofTile_Clay | 15530 |
+| HO_Castle_Keep | `HO_Castle_Keep_Base_Top__Stone_Fitted` | Stone_Fitted | 10 |
+| HO_Castle_Keep | `HO_Castle_Keep_Base_Top__Stone_Granite` | Stone_Granite | 8 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier1_Walls__Plaster_White` | Plaster_White | 1512 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier1_Walls__Shoji_Paper` | Shoji_Paper | 432 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier1_Walls__Timber_Dark` | Timber_Dark | 3960 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier1_Walls__Timber_Light` | Timber_Light | 3456 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier1_Walls__Wood_Planks` | Wood_Planks | 12 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier1_RoofFrame__Plaster_White` | Plaster_White | 1672 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier1_RoofFrame__Timber_Dark` | Timber_Dark | 272 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier1_Gable__Gold_Leaf` | Gold_Leaf | 36 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier1_Gable__Plaster_White` | Plaster_White | 502 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier1_Gable__RoofTile_Clay` | RoofTile_Clay | 960 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier2_Walls__Plaster_White` | Plaster_White | 1272 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier2_Walls__Shoji_Paper` | Shoji_Paper | 336 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier2_Walls__Timber_Dark` | Timber_Dark | 3288 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier2_Walls__Timber_Light` | Timber_Light | 2688 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier2_Walls__Wood_Planks` | Wood_Planks | 12 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier2_RoofFrame__Plaster_White` | Plaster_White | 1528 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier2_RoofFrame__Timber_Dark` | Timber_Dark | 248 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier2_Gable__Gold_Leaf` | Gold_Leaf | 32 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier2_Gable__Plaster_White` | Plaster_White | 696 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier2_Gable__RoofTile_Clay` | RoofTile_Clay | 1944 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier3_Walls__Plaster_White` | Plaster_White | 1176 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier3_Walls__Shoji_Paper` | Shoji_Paper | 336 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier3_Walls__Timber_Dark` | Timber_Dark | 3120 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier3_Walls__Timber_Light` | Timber_Light | 2688 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier3_Walls__Wood_Planks` | Wood_Planks | 12 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier3_RoofFrame__Plaster_White` | Plaster_White | 1384 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier3_RoofFrame__Timber_Dark` | Timber_Dark | 224 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier3_Gable__Gold_Leaf` | Gold_Leaf | 32 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier3_Gable__Plaster_White` | Plaster_White | 640 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier3_Gable__RoofTile_Clay` | RoofTile_Clay | 1880 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier4_Walls__Plaster_White` | Plaster_White | 936 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier4_Walls__Shoji_Paper` | Shoji_Paper | 240 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier4_Walls__Timber_Dark` | Timber_Dark | 2448 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier4_Walls__Timber_Light` | Timber_Light | 1920 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier4_Walls__Wood_Planks` | Wood_Planks | 12 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier4_RoofFrame__Plaster_White` | Plaster_White | 1288 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier4_RoofFrame__Timber_Dark` | Timber_Dark | 208 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier5_Walls__Plaster_White` | Plaster_White | 1200 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier5_Walls__Shoji_Paper` | Shoji_Paper | 480 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier5_Walls__Timber_Dark` | Timber_Dark | 3720 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier5_Walls__Timber_Light` | Timber_Light | 3840 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier5_Walls__Wood_Planks` | Wood_Planks | 12 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier5_Balcony__Red_Lacquer` | Red_Lacquer | 984 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier5_Balcony__Wood_Planks` | Wood_Planks | 48 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier5_RoofFrame__Gold_Leaf` | Gold_Leaf | 256 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier5_RoofFrame__Plaster_White` | Plaster_White | 6740 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier5_Gable__Black_Lacquer` | Black_Lacquer | 80 |
+| HO_Castle_Keep | `HO_Castle_Keep_Tier5_Gable__Gold_Leaf` | Gold_Leaf | 332 |
+| HO_Castle_Keep_Base | `HO_Castle_Keep_Base_Front` | Black_Lacquer, Cloth_Navy, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 5672 |
+| HO_Castle_Keep_Base | `HO_Castle_Keep_Base_Back` | Black_Lacquer, Cloth_Navy, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 5512 |
+| HO_Castle_Keep_Base | `HO_Castle_Keep_Base_Right` | Black_Lacquer, Cloth_Navy, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 4872 |
+| HO_Castle_Keep_Base | `HO_Castle_Keep_Base_Left` | Black_Lacquer, Cloth_Navy, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 4680 |
+| HO_Castle_Keep_Base | `HO_Castle_Keep_Base_Top__Stone_Fitted` | Stone_Fitted | 10 |
+| HO_Castle_Keep_Base | `HO_Castle_Keep_Base_Top__Stone_Granite` | Stone_Granite | 8 |
+| HO_Castle_Keep_Tier1 | `HO_Castle_Keep_Tier1_Walls__Plaster_White` | Plaster_White | 1512 |
+| HO_Castle_Keep_Tier1 | `HO_Castle_Keep_Tier1_Walls__Shoji_Paper` | Shoji_Paper | 432 |
+| HO_Castle_Keep_Tier1 | `HO_Castle_Keep_Tier1_Walls__Timber_Dark` | Timber_Dark | 3960 |
+| HO_Castle_Keep_Tier1 | `HO_Castle_Keep_Tier1_Walls__Timber_Light` | Timber_Light | 3456 |
+| HO_Castle_Keep_Tier1 | `HO_Castle_Keep_Tier1_Walls__Wood_Planks` | Wood_Planks | 12 |
+| HO_Castle_Keep_Tier1 | `HO_Castle_Keep_Tier1_RoofTiles` | RoofTile_Clay | 13768 |
+| HO_Castle_Keep_Tier1 | `HO_Castle_Keep_Tier1_RoofFrame__Plaster_White` | Plaster_White | 1672 |
+| HO_Castle_Keep_Tier1 | `HO_Castle_Keep_Tier1_RoofFrame__Timber_Dark` | Timber_Dark | 272 |
+| HO_Castle_Keep_Tier1 | `HO_Castle_Keep_Tier1_Gable__Gold_Leaf` | Gold_Leaf | 36 |
+| HO_Castle_Keep_Tier1 | `HO_Castle_Keep_Tier1_Gable__Plaster_White` | Plaster_White | 502 |
+| HO_Castle_Keep_Tier1 | `HO_Castle_Keep_Tier1_Gable__RoofTile_Clay` | RoofTile_Clay | 960 |
+| HO_Castle_Keep_Tier2 | `HO_Castle_Keep_Tier2_Walls__Plaster_White` | Plaster_White | 1272 |
+| HO_Castle_Keep_Tier2 | `HO_Castle_Keep_Tier2_Walls__Shoji_Paper` | Shoji_Paper | 336 |
+| HO_Castle_Keep_Tier2 | `HO_Castle_Keep_Tier2_Walls__Timber_Dark` | Timber_Dark | 3288 |
+| HO_Castle_Keep_Tier2 | `HO_Castle_Keep_Tier2_Walls__Timber_Light` | Timber_Light | 2688 |
+| HO_Castle_Keep_Tier2 | `HO_Castle_Keep_Tier2_Walls__Wood_Planks` | Wood_Planks | 12 |
+| HO_Castle_Keep_Tier2 | `HO_Castle_Keep_Tier2_RoofTiles` | RoofTile_Clay | 12552 |
+| HO_Castle_Keep_Tier2 | `HO_Castle_Keep_Tier2_RoofFrame__Plaster_White` | Plaster_White | 1528 |
+| HO_Castle_Keep_Tier2 | `HO_Castle_Keep_Tier2_RoofFrame__Timber_Dark` | Timber_Dark | 248 |
+| HO_Castle_Keep_Tier2 | `HO_Castle_Keep_Tier2_Gable__Gold_Leaf` | Gold_Leaf | 32 |
+| HO_Castle_Keep_Tier2 | `HO_Castle_Keep_Tier2_Gable__Plaster_White` | Plaster_White | 696 |
+| HO_Castle_Keep_Tier2 | `HO_Castle_Keep_Tier2_Gable__RoofTile_Clay` | RoofTile_Clay | 1944 |
+| HO_Castle_Keep_Tier3 | `HO_Castle_Keep_Tier3_Walls__Plaster_White` | Plaster_White | 1176 |
+| HO_Castle_Keep_Tier3 | `HO_Castle_Keep_Tier3_Walls__Shoji_Paper` | Shoji_Paper | 336 |
+| HO_Castle_Keep_Tier3 | `HO_Castle_Keep_Tier3_Walls__Timber_Dark` | Timber_Dark | 3120 |
+| HO_Castle_Keep_Tier3 | `HO_Castle_Keep_Tier3_Walls__Timber_Light` | Timber_Light | 2688 |
+| HO_Castle_Keep_Tier3 | `HO_Castle_Keep_Tier3_Walls__Wood_Planks` | Wood_Planks | 12 |
+| HO_Castle_Keep_Tier3 | `HO_Castle_Keep_Tier3_RoofTiles` | RoofTile_Clay | 10952 |
+| HO_Castle_Keep_Tier3 | `HO_Castle_Keep_Tier3_RoofFrame__Plaster_White` | Plaster_White | 1384 |
+| HO_Castle_Keep_Tier3 | `HO_Castle_Keep_Tier3_RoofFrame__Timber_Dark` | Timber_Dark | 224 |
+| HO_Castle_Keep_Tier3 | `HO_Castle_Keep_Tier3_Gable__Gold_Leaf` | Gold_Leaf | 32 |
+| HO_Castle_Keep_Tier3 | `HO_Castle_Keep_Tier3_Gable__Plaster_White` | Plaster_White | 640 |
+| HO_Castle_Keep_Tier3 | `HO_Castle_Keep_Tier3_Gable__RoofTile_Clay` | RoofTile_Clay | 1880 |
+| HO_Castle_Keep_Tier4 | `HO_Castle_Keep_Tier4_Walls__Plaster_White` | Plaster_White | 936 |
+| HO_Castle_Keep_Tier4 | `HO_Castle_Keep_Tier4_Walls__Shoji_Paper` | Shoji_Paper | 240 |
+| HO_Castle_Keep_Tier4 | `HO_Castle_Keep_Tier4_Walls__Timber_Dark` | Timber_Dark | 2448 |
+| HO_Castle_Keep_Tier4 | `HO_Castle_Keep_Tier4_Walls__Timber_Light` | Timber_Light | 1920 |
+| HO_Castle_Keep_Tier4 | `HO_Castle_Keep_Tier4_Walls__Wood_Planks` | Wood_Planks | 12 |
+| HO_Castle_Keep_Tier4 | `HO_Castle_Keep_Tier4_RoofTiles` | RoofTile_Clay | 10216 |
+| HO_Castle_Keep_Tier4 | `HO_Castle_Keep_Tier4_RoofFrame__Plaster_White` | Plaster_White | 1288 |
+| HO_Castle_Keep_Tier4 | `HO_Castle_Keep_Tier4_RoofFrame__Timber_Dark` | Timber_Dark | 208 |
+| HO_Castle_Keep_Tier5 | `HO_Castle_Keep_Tier5_Walls__Plaster_White` | Plaster_White | 1200 |
+| HO_Castle_Keep_Tier5 | `HO_Castle_Keep_Tier5_Walls__Shoji_Paper` | Shoji_Paper | 480 |
+| HO_Castle_Keep_Tier5 | `HO_Castle_Keep_Tier5_Walls__Timber_Dark` | Timber_Dark | 3720 |
+| HO_Castle_Keep_Tier5 | `HO_Castle_Keep_Tier5_Walls__Timber_Light` | Timber_Light | 3840 |
+| HO_Castle_Keep_Tier5 | `HO_Castle_Keep_Tier5_Walls__Wood_Planks` | Wood_Planks | 12 |
+| HO_Castle_Keep_Tier5 | `HO_Castle_Keep_Tier5_Balcony__Red_Lacquer` | Red_Lacquer | 984 |
+| HO_Castle_Keep_Tier5 | `HO_Castle_Keep_Tier5_Balcony__Wood_Planks` | Wood_Planks | 48 |
+| HO_Castle_Keep_Tier5 | `HO_Castle_Keep_Tier5_RoofTiles` | RoofTile_Clay | 15530 |
+| HO_Castle_Keep_Tier5 | `HO_Castle_Keep_Tier5_RoofFrame__Gold_Leaf` | Gold_Leaf | 256 |
+| HO_Castle_Keep_Tier5 | `HO_Castle_Keep_Tier5_RoofFrame__Plaster_White` | Plaster_White | 6740 |
+| HO_Castle_Keep_Tier5 | `HO_Castle_Keep_Tier5_Gable__Black_Lacquer` | Black_Lacquer | 80 |
+| HO_Castle_Keep_Tier5 | `HO_Castle_Keep_Tier5_Gable__Gold_Leaf` | Gold_Leaf | 332 |
+| HO_Castle_Yagura | `HO_Castle_Yagura_Structure` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 3736 |
+| HO_Castle_Yagura | `HO_Castle_Yagura_Tier1__Plaster_White` | Plaster_White | 552 |
+| HO_Castle_Yagura | `HO_Castle_Yagura_Tier1__Shoji_Paper` | Shoji_Paper | 144 |
+| HO_Castle_Yagura | `HO_Castle_Yagura_Tier1__Timber_Dark` | Timber_Dark | 1488 |
+| HO_Castle_Yagura | `HO_Castle_Yagura_Tier1__Timber_Light` | Timber_Light | 1152 |
+| HO_Castle_Yagura | `HO_Castle_Yagura_Tier1_RoofTiles` | RoofTile_Clay | 8064 |
+| HO_Castle_Yagura | `HO_Castle_Yagura_Tier1_RoofFrame__Gold_Leaf` | Gold_Leaf | 16 |
+| HO_Castle_Yagura | `HO_Castle_Yagura_Tier1_RoofFrame__Plaster_White` | Plaster_White | 1268 |
+| HO_Castle_Yagura | `HO_Castle_Yagura_Tier1_RoofFrame__Timber_Dark` | Timber_Dark | 156 |
+| HO_Castle_Yagura | `HO_Castle_Yagura_Tier2__Plaster_White` | Plaster_White | 600 |
+| HO_Castle_Yagura | `HO_Castle_Yagura_Tier2__Shoji_Paper` | Shoji_Paper | 240 |
+| HO_Castle_Yagura | `HO_Castle_Yagura_Tier2__Timber_Dark` | Timber_Dark | 1968 |
+| HO_Castle_Yagura | `HO_Castle_Yagura_Tier2__Timber_Light` | Timber_Light | 1920 |
+| HO_Castle_Yagura | `HO_Castle_Yagura_Tier2_RoofTiles` | RoofTile_Clay | 9058 |
+| HO_Castle_Yagura | `HO_Castle_Yagura_Tier2_RoofFrame__Black_Lacquer` | Black_Lacquer | 80 |
+| HO_Castle_Yagura | `HO_Castle_Yagura_Tier2_RoofFrame__Gold_Leaf` | Gold_Leaf | 588 |
+| HO_Castle_Yagura | `HO_Castle_Yagura_Tier2_RoofFrame__Plaster_White` | Plaster_White | 3984 |
+| HO_Wall_Castle_Corner | `HO_Wall_Castle_Corner__Black_Lacquer` | Black_Lacquer | 24 |
+| HO_Wall_Castle_Corner | `HO_Wall_Castle_Corner__Plaster_White` | Plaster_White | 1164 |
+| HO_Wall_Castle_Corner | `HO_Wall_Castle_Corner__RoofTile_Clay` | RoofTile_Clay | 2652 |
+| HO_Wall_Castle_Corner | `HO_Wall_Castle_Corner__Stone_Fitted` | Stone_Fitted | 24 |
+| HO_Wall_Castle_Corner | `HO_Wall_Castle_Corner__Timber_Dark` | Timber_Dark | 168 |
+| HO_Wall_Castle_End_16 | `HO_Wall_Castle_End_16__Black_Lacquer` | Black_Lacquer | 12 |
+| HO_Wall_Castle_End_16 | `HO_Wall_Castle_End_16__Plaster_White` | Plaster_White | 588 |
+| HO_Wall_Castle_End_16 | `HO_Wall_Castle_End_16__RoofTile_Clay` | RoofTile_Clay | 1338 |
+| HO_Wall_Castle_End_16 | `HO_Wall_Castle_End_16__Stone_Fitted` | Stone_Fitted | 12 |
+| HO_Wall_Castle_End_16 | `HO_Wall_Castle_End_16__Timber_Dark` | Timber_Dark | 84 |
+| HO_Wall_Castle_Straight_16 | `HO_Wall_Castle_Straight_16__Black_Lacquer` | Black_Lacquer | 12 |
+| HO_Wall_Castle_Straight_16 | `HO_Wall_Castle_Straight_16__Plaster_White` | Plaster_White | 576 |
+| HO_Wall_Castle_Straight_16 | `HO_Wall_Castle_Straight_16__RoofTile_Clay` | RoofTile_Clay | 1326 |
+| HO_Wall_Castle_Straight_16 | `HO_Wall_Castle_Straight_16__Stone_Fitted` | Stone_Fitted | 12 |
+| HO_Wall_Castle_Straight_16 | `HO_Wall_Castle_Straight_16__Timber_Dark` | Timber_Dark | 84 |
+| HO_Wall_Ishigaki_Corner_Inner | `HO_Wall_Ishigaki_Corner_Inner` | Black_Lacquer, Cloth_Navy, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 4016 |
+| HO_Wall_Ishigaki_Corner_Outer | `HO_Wall_Ishigaki_Corner_Outer` | Black_Lacquer, Cloth_Navy, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 4496 |
+| HO_Wall_Ishigaki_Stepped_16 | `HO_Wall_Ishigaki_Stepped_16` | Black_Lacquer, Cloth_Navy, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 1872 |
+| HO_Wall_Ishigaki_Straight_16 | `HO_Wall_Ishigaki_Straight_16` | Black_Lacquer, Cloth_Navy, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 2280 |
+| HO_Wall_Ishigaki_Straight_8 | `HO_Wall_Ishigaki_Straight_8` | Black_Lacquer, Cloth_Navy, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 1256 |
 | HO_Found_Plinth_12 | `HO_Found_Plinth_12` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 740 |
 | HO_Found_Plinth_16 | `HO_Found_Plinth_16` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 1048 |
 | HO_Found_Plinth_4 | `HO_Found_Plinth_4` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 292 |
