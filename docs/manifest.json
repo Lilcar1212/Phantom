@@ -10082,6 +10082,6137 @@
   "notes": "40x24 footprint. Pivot = footprint centre at ground level; front faces -Z (street). 2 storeys. GF: genkan, lobby w/ reception counter + key board, dining hall, stair. 2F: corridor + 6 guest rooms (tatami, futon, low table, cushions, andon, tansu, sliding door = Door_Room1..6 meshes). Glow mesh = lanterns. | meshes: HO_Bldg_TidewatchInn_Structure (8232), HO_Bldg_TidewatchInn_Structure_GF__Plaster_White (972), HO_Bldg_TidewatchInn_Structure_GF__Shoji_Paper (312), HO_Bldg_TidewatchInn_Structure_GF__Timber_Dark (2760), HO_Bldg_TidewatchInn_Structure_GF__Timber_Light (2880), HO_Bldg_TidewatchInn_Door1__Shoji_Paper (12), HO_Bldg_TidewatchInn_Door1__Timber_Dark (156), HO_Bldg_TidewatchInn_Door1__Timber_Light (120), HO_Bldg_TidewatchInn_Door2__Shoji_Paper (12), HO_Bldg_TidewatchInn_Door2__Timber_Dark (156), HO_Bldg_TidewatchInn_Door2__Timber_Light (120), HO_Bldg_TidewatchInn_Structure_2F__Plaster_White (1632), HO_Bldg_TidewatchInn_Structure_2F__Shoji_Paper (576), HO_Bldg_TidewatchInn_Structure_2F__Timber_Dark (3384), HO_Bldg_TidewatchInn_Structure_2F__Timber_Light (4608), HO_Bldg_TidewatchInn_Interior_GF__Cloth_Crimson (480), HO_Bldg_TidewatchInn_Interior_GF__Cloth_White (136), HO_Bldg_TidewatchInn_Interior_GF__Earth_Packed (140), HO_Bldg_TidewatchInn_Interior_GF__Iron_Wrought (240), HO_Bldg_TidewatchInn_Interior_GF__Plaster_White (12), HO_Bldg_TidewatchInn_Interior_GF__Shoji_Paper (96), HO_Bldg_TidewatchInn_Interior_GF__Stone_Granite (12), HO_Bldg_TidewatchInn_Interior_GF__Straw (136), HO_Bldg_TidewatchInn_Interior_GF__Tatami (10), HO_Bldg_TidewatchInn_Interior_GF__Timber_Dark (996), HO_Bldg_TidewatchInn_Interior_GF__Timber_Light (1200), HO_Bldg_TidewatchInn_Interior_GF__Wood_Planks (186), HO_Bldg_TidewatchInn_Glow (312), HO_Bldg_TidewatchInn_Interior_2F__Cloth_Crimson (960), HO_Bldg_TidewatchInn_Interior_2F__Cloth_Indigo (120), HO_Bldg_TidewatchInn_Interior_2F__Cloth_Navy (360), HO_Bldg_TidewatchInn_Interior_2F__Cloth_White (504), HO_Bldg_TidewatchInn_Interior_2F__Iron_Wrought (864), HO_Bldg_TidewatchInn_Interior_2F__Plaster_White (144), HO_Bldg_TidewatchInn_Interior_2F__Shoji_Paper (204), HO_Bldg_TidewatchInn_Interior_2F__Tatami (60), HO_Bldg_TidewatchInn_Interior_2F__Timber_Dark (1704), HO_Bldg_TidewatchInn_Interior_2F__Timber_Light (2820), HO_Bldg_TidewatchInn_Interior_2F__Wood_Planks (80), HO_Bldg_TidewatchInn_Door_Room1__Shoji_Paper (12), HO_Bldg_TidewatchInn_Door_Room1__Timber_Light (132), HO_Bldg_TidewatchInn_Door_Room2__Shoji_Paper (12), HO_Bldg_TidewatchInn_Door_Room2__Timber_Light (132), HO_Bldg_TidewatchInn_Door_Room3__Shoji_Paper (12), HO_Bldg_TidewatchInn_Door_Room3__Timber_Light (132), HO_Bldg_TidewatchInn_Door_Room4__Shoji_Paper (12), HO_Bldg_TidewatchInn_Door_Room4__Timber_Light (132), HO_Bldg_TidewatchInn_Door_Room5__Shoji_Paper (12), HO_Bldg_TidewatchInn_Door_Room5__Timber_Light (132), HO_Bldg_TidewatchInn_Door_Room6__Shoji_Paper (12), HO_Bldg_TidewatchInn_Door_Room6__Timber_Light (132), HO_Bldg_TidewatchInn_Front__Black_Lacquer (144), HO_Bldg_TidewatchInn_Front__Cloth_Crimson (24), HO_Bldg_TidewatchInn_Front__Cloth_Navy (832), HO_Bldg_TidewatchInn_Front__Iron_Wrought (132), HO_Bldg_TidewatchInn_Front__RoofTile_Clay (3030), HO_Bldg_TidewatchInn_Front__Timber_Dark (1300), HO_Bldg_TidewatchInn_Front__Timber_Light (200), HO_Bldg_TidewatchInn_SignFace (12), HO_Bldg_TidewatchInn_RoofFrame__Gold_Leaf (208), HO_Bldg_TidewatchInn_RoofFrame__Plaster_White (160), HO_Bldg_TidewatchInn_RoofFrame__Timber_Dark (6770), HO_Bldg_TidewatchInn_RoofFrame__Timber_Light (2928), HO_Bldg_TidewatchInn_RoofTilesA (11673), HO_Bldg_TidewatchInn_RoofTilesB (11577)"
  },
  {
+  "name": "HO_Castle_AcademyHall",
+  "phase": "Phase1",
+  "category": "Castle",
+  "type": "Mesh group",
+  "file": "assets/Phase1/Castle/HO_Castle_AcademyHall.fbx",
+  "tris": 65048,
+  "textures": [
+   "Black_Lacquer",
+   "Cloth_Crimson",
+   "Cloth_White",
+   "Ember",
+   "Gold_Leaf",
+   "Iron_Wrought",
+   "Magic_Glow",
+   "Plaster_White",
+   "Red_Lacquer",
+   "RoofTile_Clay",
+   "Shoji_Paper",
+   "Stone_Fitted",
+   "Stone_Granite",
+   "Timber_Dark",
+   "Timber_Light",
+   "Wood_Planks"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 1985,
+   "inverted_parts": 0,
+   "dims": [
+    54.286,
+    39.343,
+    27.739
+   ],
+   "meshes": {
+    "HO_Castle_AcademyHall_Door1__Shoji_Paper": 12,
+    "HO_Castle_AcademyHall_Door1__Timber_Light": 132,
+    "HO_Castle_AcademyHall_Door2__Shoji_Paper": 12,
+    "HO_Castle_AcademyHall_Door2__Timber_Light": 132,
+    "HO_Castle_AcademyHall_Door3__Shoji_Paper": 12,
+    "HO_Castle_AcademyHall_Door3__Timber_Light": 132,
+    "HO_Castle_AcademyHall_Door4__Shoji_Paper": 12,
+    "HO_Castle_AcademyHall_Door4__Timber_Light": 132,
+    "HO_Castle_AcademyHall_Door5__Shoji_Paper": 12,
+    "HO_Castle_AcademyHall_Door5__Timber_Light": 132,
+    "HO_Castle_AcademyHall_Door6__Shoji_Paper": 12,
+    "HO_Castle_AcademyHall_Door6__Timber_Light": 132,
+    "HO_Castle_AcademyHall_Interior__Black_Lacquer": 1872,
+    "HO_Castle_AcademyHall_Interior__Cloth_Crimson": 16,
+    "HO_Castle_AcademyHall_Interior__Cloth_White": 1440,
+    "HO_Castle_AcademyHall_Interior__Gold_Leaf": 872,
+    "HO_Castle_AcademyHall_Interior__Iron_Wrought": 308,
+    "HO_Castle_AcademyHall_Interior__Red_Lacquer": 136,
+    "HO_Castle_AcademyHall_Interior__RoofTile_Clay": 8,
+    "HO_Castle_AcademyHall_Interior__Shoji_Paper": 60,
+    "HO_Castle_AcademyHall_Interior__Timber_Dark": 656,
+    "HO_Castle_AcademyHall_Interior__Timber_Light": 480,
+    "HO_Castle_AcademyHall_Glow": 36,
+    "HO_Castle_AcademyHall_RoofFrame__Gold_Leaf": 208,
+    "HO_Castle_AcademyHall_RoofFrame__Plaster_White": 160,
+    "HO_Castle_AcademyHall_RoofFrame__Timber_Dark": 7474,
+    "HO_Castle_AcademyHall_RoofFrame__Timber_Light": 3940,
+    "HO_Castle_AcademyHall_StructureA__Plaster_White": 718,
+    "HO_Castle_AcademyHall_StructureA__Shoji_Paper": 204,
+    "HO_Castle_AcademyHall_StructureA__Stone_Fitted": 10,
+    "HO_Castle_AcademyHall_StructureA__Stone_Granite": 4564,
+    "HO_Castle_AcademyHall_StructureA__Timber_Dark": 2114,
+    "HO_Castle_AcademyHall_StructureA__Timber_Light": 1632,
+    "HO_Castle_AcademyHall_StructureA__Wood_Planks": 70,
+    "HO_Castle_AcademyHall_StructureB__Plaster_White": 722,
+    "HO_Castle_AcademyHall_StructureB__Shoji_Paper": 204,
+    "HO_Castle_AcademyHall_StructureB__Stone_Fitted": 2,
+    "HO_Castle_AcademyHall_StructureB__Stone_Granite": 4564,
+    "HO_Castle_AcademyHall_StructureB__Timber_Dark": 2072,
+    "HO_Castle_AcademyHall_StructureB__Timber_Light": 1632,
+    "HO_Castle_AcademyHall_StructureB__Wood_Planks": 24,
+    "HO_Castle_AcademyHall_RoofTilesA": 14049,
+    "HO_Castle_AcademyHall_RoofTilesB": 13937
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": true
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Castle_AcademyHall_Door1__Shoji_Paper",
+    "tris": 12,
+    "tris_per_material": {
+     "Shoji_Paper": 12
+    },
+    "under_limit": true,
+    "dims": [
+     1.65,
+     0.16,
+     6.5
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_Door1__Timber_Light",
+    "tris": 132,
+    "tris_per_material": {
+     "Timber_Light": 132
+    },
+    "under_limit": true,
+    "dims": [
+     1.65,
+     0.16,
+     6.5
+    ],
+    "parts": 8,
+    "floating": 0,
+    "closed_parts": 7,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_Door2__Shoji_Paper",
+    "tris": 12,
+    "tris_per_material": {
+     "Shoji_Paper": 12
+    },
+    "under_limit": true,
+    "dims": [
+     1.65,
+     0.16,
+     6.5
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_Door2__Timber_Light",
+    "tris": 132,
+    "tris_per_material": {
+     "Timber_Light": 132
+    },
+    "under_limit": true,
+    "dims": [
+     1.65,
+     0.16,
+     6.5
+    ],
+    "parts": 8,
+    "floating": 0,
+    "closed_parts": 7,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_Door3__Shoji_Paper",
+    "tris": 12,
+    "tris_per_material": {
+     "Shoji_Paper": 12
+    },
+    "under_limit": true,
+    "dims": [
+     1.65,
+     0.16,
+     6.5
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_Door3__Timber_Light",
+    "tris": 132,
+    "tris_per_material": {
+     "Timber_Light": 132
+    },
+    "under_limit": true,
+    "dims": [
+     1.65,
+     0.16,
+     6.5
+    ],
+    "parts": 8,
+    "floating": 0,
+    "closed_parts": 7,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_Door4__Shoji_Paper",
+    "tris": 12,
+    "tris_per_material": {
+     "Shoji_Paper": 12
+    },
+    "under_limit": true,
+    "dims": [
+     1.65,
+     0.16,
+     6.5
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_Door4__Timber_Light",
+    "tris": 132,
+    "tris_per_material": {
+     "Timber_Light": 132
+    },
+    "under_limit": true,
+    "dims": [
+     1.65,
+     0.16,
+     6.5
+    ],
+    "parts": 8,
+    "floating": 0,
+    "closed_parts": 7,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_Door5__Shoji_Paper",
+    "tris": 12,
+    "tris_per_material": {
+     "Shoji_Paper": 12
+    },
+    "under_limit": true,
+    "dims": [
+     1.65,
+     0.16,
+     6.5
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_Door5__Timber_Light",
+    "tris": 132,
+    "tris_per_material": {
+     "Timber_Light": 132
+    },
+    "under_limit": true,
+    "dims": [
+     1.65,
+     0.16,
+     6.5
+    ],
+    "parts": 8,
+    "floating": 0,
+    "closed_parts": 7,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_Door6__Shoji_Paper",
+    "tris": 12,
+    "tris_per_material": {
+     "Shoji_Paper": 12
+    },
+    "under_limit": true,
+    "dims": [
+     1.65,
+     0.16,
+     6.5
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_Door6__Timber_Light",
+    "tris": 132,
+    "tris_per_material": {
+     "Timber_Light": 132
+    },
+    "under_limit": true,
+    "dims": [
+     1.65,
+     0.16,
+     6.5
+    ],
+    "parts": 8,
+    "floating": 0,
+    "closed_parts": 7,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_Interior__Black_Lacquer",
+    "tris": 1872,
+    "tris_per_material": {
+     "Black_Lacquer": 1872
+    },
+    "under_limit": true,
+    "dims": [
+     43.34,
+     25.4,
+     9.2
+    ],
+    "parts": 63,
+    "floating": 30,
+    "closed_parts": 51,
+    "open_parts": 12,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_Interior__Cloth_Crimson",
+    "tris": 16,
+    "tris_per_material": {
+     "Cloth_Crimson": 16
+    },
+    "under_limit": true,
+    "dims": [
+     43.34,
+     25.4,
+     9.2
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Cloth_Crimson"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_Interior__Cloth_White",
+    "tris": 1440,
+    "tris_per_material": {
+     "Cloth_White": 1440
+    },
+    "under_limit": true,
+    "dims": [
+     43.34,
+     25.4,
+     9.2
+    ],
+    "parts": 120,
+    "floating": 110,
+    "closed_parts": 120,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Cloth_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_Interior__Gold_Leaf",
+    "tris": 872,
+    "tris_per_material": {
+     "Gold_Leaf": 872
+    },
+    "under_limit": true,
+    "dims": [
+     43.34,
+     25.4,
+     9.2
+    ],
+    "parts": 34,
+    "floating": 32,
+    "closed_parts": 34,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_Interior__Iron_Wrought",
+    "tris": 308,
+    "tris_per_material": {
+     "Iron_Wrought": 308
+    },
+    "under_limit": true,
+    "dims": [
+     43.34,
+     25.4,
+     9.2
+    ],
+    "parts": 16,
+    "floating": 10,
+    "closed_parts": 16,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_Interior__Red_Lacquer",
+    "tris": 136,
+    "tris_per_material": {
+     "Red_Lacquer": 136
+    },
+    "under_limit": true,
+    "dims": [
+     43.34,
+     25.4,
+     9.2
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Red_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_Interior__RoofTile_Clay",
+    "tris": 8,
+    "tris_per_material": {
+     "RoofTile_Clay": 8
+    },
+    "under_limit": true,
+    "dims": [
+     43.34,
+     25.4,
+     9.2
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_Interior__Shoji_Paper",
+    "tris": 60,
+    "tris_per_material": {
+     "Shoji_Paper": 60
+    },
+    "under_limit": true,
+    "dims": [
+     43.34,
+     25.4,
+     9.2
+    ],
+    "parts": 5,
+    "floating": 0,
+    "closed_parts": 5,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_Interior__Timber_Dark",
+    "tris": 656,
+    "tris_per_material": {
+     "Timber_Dark": 656
+    },
+    "under_limit": true,
+    "dims": [
+     43.34,
+     25.4,
+     9.2
+    ],
+    "parts": 36,
+    "floating": 6,
+    "closed_parts": 48,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_Interior__Timber_Light",
+    "tris": 480,
+    "tris_per_material": {
+     "Timber_Light": 480
+    },
+    "under_limit": true,
+    "dims": [
+     43.34,
+     25.4,
+     9.2
+    ],
+    "parts": 40,
+    "floating": 28,
+    "closed_parts": 40,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_Glow",
+    "tris": 36,
+    "tris_per_material": {
+     "Shoji_Paper": 36
+    },
+    "under_limit": true,
+    "dims": [
+     40.46,
+     24.46,
+     1.75
+    ],
+    "parts": 3,
+    "floating": 0,
+    "closed_parts": 3,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Ember",
+     "Magic_Glow",
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_RoofFrame__Gold_Leaf",
+    "tris": 208,
+    "tris_per_material": {
+     "Gold_Leaf": 208
+    },
+    "under_limit": true,
+    "dims": [
+     54.286,
+     38.286,
+     13.606
+    ],
+    "parts": 14,
+    "floating": 10,
+    "closed_parts": 14,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_RoofFrame__Plaster_White",
+    "tris": 160,
+    "tris_per_material": {
+     "Plaster_White": 160
+    },
+    "under_limit": true,
+    "dims": [
+     54.286,
+     38.286,
+     13.606
+    ],
+    "parts": 3,
+    "floating": 2,
+    "closed_parts": 2,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_RoofFrame__Timber_Dark",
+    "tris": 7474,
+    "tris_per_material": {
+     "Timber_Dark": 7474
+    },
+    "under_limit": true,
+    "dims": [
+     54.286,
+     38.286,
+     13.606
+    ],
+    "parts": 317,
+    "floating": 313,
+    "closed_parts": 134,
+    "open_parts": 183,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_RoofFrame__Timber_Light",
+    "tris": 3940,
+    "tris_per_material": {
+     "Timber_Light": 3940
+    },
+    "under_limit": true,
+    "dims": [
+     54.286,
+     38.286,
+     13.606
+    ],
+    "parts": 3,
+    "floating": 2,
+    "closed_parts": 1,
+    "open_parts": 2,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_StructureA__Plaster_White",
+    "tris": 718,
+    "tris_per_material": {
+     "Plaster_White": 718
+    },
+    "under_limit": true,
+    "dims": [
+     49.2,
+     36.8,
+     12.0
+    ],
+    "parts": 36,
+    "floating": 19,
+    "closed_parts": 25,
+    "open_parts": 11,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_StructureA__Shoji_Paper",
+    "tris": 204,
+    "tris_per_material": {
+     "Shoji_Paper": 204
+    },
+    "under_limit": true,
+    "dims": [
+     49.2,
+     36.8,
+     12.0
+    ],
+    "parts": 18,
+    "floating": 0,
+    "closed_parts": 16,
+    "open_parts": 2,
+    "inverted_parts": 0,
+    "textures": [
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_StructureA__Stone_Fitted",
+    "tris": 10,
+    "tris_per_material": {
+     "Stone_Fitted": 10
+    },
+    "under_limit": true,
+    "dims": [
+     49.2,
+     36.8,
+     12.0
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Stone_Fitted"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_StructureA__Stone_Granite",
+    "tris": 4564,
+    "tris_per_material": {
+     "Stone_Granite": 4564
+    },
+    "under_limit": true,
+    "dims": [
+     49.2,
+     36.8,
+     12.0
+    ],
+    "parts": 171,
+    "floating": 0,
+    "closed_parts": 163,
+    "open_parts": 8,
+    "inverted_parts": 0,
+    "textures": [
+     "Stone_Granite"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_StructureA__Timber_Dark",
+    "tris": 2114,
+    "tris_per_material": {
+     "Timber_Dark": 2114
+    },
+    "under_limit": true,
+    "dims": [
+     49.2,
+     36.8,
+     12.0
+    ],
+    "parts": 138,
+    "floating": 6,
+    "closed_parts": 115,
+    "open_parts": 23,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_StructureA__Timber_Light",
+    "tris": 1632,
+    "tris_per_material": {
+     "Timber_Light": 1632
+    },
+    "under_limit": true,
+    "dims": [
+     49.2,
+     36.8,
+     12.0
+    ],
+    "parts": 86,
+    "floating": 0,
+    "closed_parts": 68,
+    "open_parts": 18,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_StructureA__Wood_Planks",
+    "tris": 70,
+    "tris_per_material": {
+     "Wood_Planks": 70
+    },
+    "under_limit": true,
+    "dims": [
+     49.2,
+     36.8,
+     12.0
+    ],
+    "parts": 3,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 3,
+    "inverted_parts": 0,
+    "textures": [
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_StructureB__Plaster_White",
+    "tris": 722,
+    "tris_per_material": {
+     "Plaster_White": 722
+    },
+    "under_limit": true,
+    "dims": [
+     30.6,
+     36.8,
+     12.0
+    ],
+    "parts": 36,
+    "floating": 19,
+    "closed_parts": 25,
+    "open_parts": 11,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_StructureB__Shoji_Paper",
+    "tris": 204,
+    "tris_per_material": {
+     "Shoji_Paper": 204
+    },
+    "under_limit": true,
+    "dims": [
+     30.6,
+     36.8,
+     12.0
+    ],
+    "parts": 18,
+    "floating": 0,
+    "closed_parts": 16,
+    "open_parts": 2,
+    "inverted_parts": 0,
+    "textures": [
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_StructureB__Stone_Fitted",
+    "tris": 2,
+    "tris_per_material": {
+     "Stone_Fitted": 2
+    },
+    "under_limit": true,
+    "dims": [
+     30.6,
+     36.8,
+     12.0
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Stone_Fitted"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_StructureB__Stone_Granite",
+    "tris": 4564,
+    "tris_per_material": {
+     "Stone_Granite": 4564
+    },
+    "under_limit": true,
+    "dims": [
+     30.6,
+     36.8,
+     12.0
+    ],
+    "parts": 171,
+    "floating": 0,
+    "closed_parts": 163,
+    "open_parts": 8,
+    "inverted_parts": 0,
+    "textures": [
+     "Stone_Granite"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_StructureB__Timber_Dark",
+    "tris": 2072,
+    "tris_per_material": {
+     "Timber_Dark": 2072
+    },
+    "under_limit": true,
+    "dims": [
+     30.6,
+     36.8,
+     12.0
+    ],
+    "parts": 138,
+    "floating": 0,
+    "closed_parts": 115,
+    "open_parts": 23,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_StructureB__Timber_Light",
+    "tris": 1632,
+    "tris_per_material": {
+     "Timber_Light": 1632
+    },
+    "under_limit": true,
+    "dims": [
+     30.6,
+     36.8,
+     12.0
+    ],
+    "parts": 86,
+    "floating": 0,
+    "closed_parts": 68,
+    "open_parts": 18,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_StructureB__Wood_Planks",
+    "tris": 24,
+    "tris_per_material": {
+     "Wood_Planks": 24
+    },
+    "under_limit": true,
+    "dims": [
+     30.6,
+     36.8,
+     12.0
+    ],
+    "parts": 3,
+    "floating": 2,
+    "closed_parts": 0,
+    "open_parts": 5,
+    "inverted_parts": 0,
+    "textures": [
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_RoofTilesA",
+    "tris": 14049,
+    "tris_per_material": {
+     "RoofTile_Clay": 14049
+    },
+    "under_limit": true,
+    "dims": [
+     27.667,
+     37.687,
+     14.225
+    ],
+    "parts": 184,
+    "floating": 0,
+    "closed_parts": 109,
+    "open_parts": 94,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_AcademyHall_RoofTilesB",
+    "tris": 13937,
+    "tris_per_material": {
+     "RoofTile_Clay": 13937
+    },
+    "under_limit": true,
+    "dims": [
+     26.844,
+     37.687,
+     14.225
+    ],
+    "parts": 184,
+    "floating": 0,
+    "closed_parts": 109,
+    "open_parts": 94,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [],
+  "notes": "44x28 Sword Academy dojo (+2.6 veranda all round): raised floor at +3, front steps, shoji doors in the centre bays, interior with kamidana shelf, weapon + spear racks, sword stands, taiko drum, lanterns (Glow). Pivot = footprint centre at ground. | meshes: HO_Castle_AcademyHall_Door1__Shoji_Paper (12), HO_Castle_AcademyHall_Door1__Timber_Light (132), HO_Castle_AcademyHall_Door2__Shoji_Paper (12), HO_Castle_AcademyHall_Door2__Timber_Light (132), HO_Castle_AcademyHall_Door3__Shoji_Paper (12), HO_Castle_AcademyHall_Door3__Timber_Light (132), HO_Castle_AcademyHall_Door4__Shoji_Paper (12), HO_Castle_AcademyHall_Door4__Timber_Light (132), HO_Castle_AcademyHall_Door5__Shoji_Paper (12), HO_Castle_AcademyHall_Door5__Timber_Light (132), HO_Castle_AcademyHall_Door6__Shoji_Paper (12), HO_Castle_AcademyHall_Door6__Timber_Light (132), HO_Castle_AcademyHall_Interior__Black_Lacquer (1872), HO_Castle_AcademyHall_Interior__Cloth_Crimson (16), HO_Castle_AcademyHall_Interior__Cloth_White (1440), HO_Castle_AcademyHall_Interior__Gold_Leaf (872), HO_Castle_AcademyHall_Interior__Iron_Wrought (308), HO_Castle_AcademyHall_Interior__Red_Lacquer (136), HO_Castle_AcademyHall_Interior__RoofTile_Clay (8), HO_Castle_AcademyHall_Interior__Shoji_Paper (60), HO_Castle_AcademyHall_Interior__Timber_Dark (656), HO_Castle_AcademyHall_Interior__Timber_Light (480), HO_Castle_AcademyHall_Glow (36), HO_Castle_AcademyHall_RoofFrame__Gold_Leaf (208), HO_Castle_AcademyHall_RoofFrame__Plaster_White (160), HO_Castle_AcademyHall_RoofFrame__Timber_Dark (7474), HO_Castle_AcademyHall_RoofFrame__Timber_Light (3940), HO_Castle_AcademyHall_StructureA__Plaster_White (718), HO_Castle_AcademyHall_StructureA__Shoji_Paper (204), HO_Castle_AcademyHall_StructureA__Stone_Fitted (10), HO_Castle_AcademyHall_StructureA__Stone_Granite (4564), HO_Castle_AcademyHall_StructureA__Timber_Dark (2114), HO_Castle_AcademyHall_StructureA__Timber_Light (1632), HO_Castle_AcademyHall_StructureA__Wood_Planks (70), HO_Castle_AcademyHall_StructureB__Plaster_White (722), HO_Castle_AcademyHall_StructureB__Shoji_Paper (204), HO_Castle_AcademyHall_StructureB__Stone_Fitted (2), HO_Castle_AcademyHall_StructureB__Stone_Granite (4564), HO_Castle_AcademyHall_StructureB__Timber_Dark (2072), HO_Castle_AcademyHall_StructureB__Timber_Light (1632), HO_Castle_AcademyHall_StructureB__Wood_Planks (24), HO_Castle_AcademyHall_RoofTilesA (14049), HO_Castle_AcademyHall_RoofTilesB (13937)"
+ },
+ {
+  "name": "HO_Castle_Gatehouse",
+  "phase": "Phase1",
+  "category": "Castle",
+  "type": "Mesh group",
+  "file": "assets/Phase1/Castle/HO_Castle_Gatehouse.fbx",
+  "tris": 35418,
+  "textures": [
+   "Black_Lacquer",
+   "Cloth_Navy",
+   "Cloth_White",
+   "Gold_Leaf",
+   "Iron_Wrought",
+   "Plaster_White",
+   "RoofTile_Clay",
+   "Shoji_Paper",
+   "Stone_Fitted",
+   "Stone_Granite",
+   "Timber_Dark",
+   "Timber_Light",
+   "Wood_Planks"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 1103,
+   "inverted_parts": 0,
+   "dims": [
+    36.168,
+    20.168,
+    32.29
+   ],
+   "meshes": {
+    "HO_Castle_Gatehouse_Base__Stone_Fitted": 20,
+    "HO_Castle_Gatehouse_Base__Stone_Granite": 6736,
+    "HO_Castle_Gatehouse_Structure__Stone_Fitted": 10,
+    "HO_Castle_Gatehouse_Structure__Stone_Granite": 12,
+    "HO_Castle_Gatehouse_Structure__Timber_Dark": 120,
+    "HO_Castle_Gatehouse_Structure__Wood_Planks": 12,
+    "HO_Castle_Gatehouse_Door1__Iron_Wrought": 756,
+    "HO_Castle_Gatehouse_Door1__Timber_Dark": 60,
+    "HO_Castle_Gatehouse_Door2__Iron_Wrought": 756,
+    "HO_Castle_Gatehouse_Door2__Timber_Dark": 60,
+    "HO_Castle_Gatehouse_Upper__Plaster_White": 768,
+    "HO_Castle_Gatehouse_Upper__Shoji_Paper": 192,
+    "HO_Castle_Gatehouse_Upper__Timber_Dark": 1992,
+    "HO_Castle_Gatehouse_Upper__Timber_Light": 1536,
+    "HO_Castle_Gatehouse_RoofTiles": 14554,
+    "HO_Castle_Gatehouse_RoofFrame__Black_Lacquer": 80,
+    "HO_Castle_Gatehouse_RoofFrame__Gold_Leaf": 588,
+    "HO_Castle_Gatehouse_RoofFrame__Plaster_White": 6582,
+    "HO_Castle_Gatehouse_Banners__Black_Lacquer": 80,
+    "HO_Castle_Gatehouse_Banners__Cloth_Navy": 264,
+    "HO_Castle_Gatehouse_Banners__Cloth_White": 240
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": false
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Castle_Gatehouse_Base__Stone_Fitted",
+    "tris": 20,
+    "tris_per_material": {
+     "Stone_Fitted": 20
+    },
+    "under_limit": true,
+    "dims": [
+     30.707,
+     14.717,
+     10.06
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 2,
+    "inverted_parts": 0,
+    "textures": [
+     "Stone_Fitted"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Gatehouse_Base__Stone_Granite",
+    "tris": 6736,
+    "tris_per_material": {
+     "Stone_Granite": 6736
+    },
+    "under_limit": true,
+    "dims": [
+     30.707,
+     14.717,
+     10.06
+    ],
+    "parts": 210,
+    "floating": 0,
+    "closed_parts": 208,
+    "open_parts": 2,
+    "inverted_parts": 0,
+    "textures": [
+     "Stone_Granite"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Gatehouse_Structure__Stone_Fitted",
+    "tris": 10,
+    "tris_per_material": {
+     "Stone_Fitted": 10
+    },
+    "under_limit": true,
+    "dims": [
+     16.0,
+     12.0,
+     10.02
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Stone_Fitted"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Gatehouse_Structure__Stone_Granite",
+    "tris": 12,
+    "tris_per_material": {
+     "Stone_Granite": 12
+    },
+    "under_limit": true,
+    "dims": [
+     16.0,
+     12.0,
+     10.02
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Stone_Granite"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Gatehouse_Structure__Timber_Dark",
+    "tris": 120,
+    "tris_per_material": {
+     "Timber_Dark": 120
+    },
+    "under_limit": true,
+    "dims": [
+     16.0,
+     12.0,
+     10.02
+    ],
+    "parts": 10,
+    "floating": 8,
+    "closed_parts": 10,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Gatehouse_Structure__Wood_Planks",
+    "tris": 12,
+    "tris_per_material": {
+     "Wood_Planks": 12
+    },
+    "under_limit": true,
+    "dims": [
+     16.0,
+     12.0,
+     10.02
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Gatehouse_Door1__Iron_Wrought",
+    "tris": 756,
+    "tris_per_material": {
+     "Iron_Wrought": 756
+    },
+    "under_limit": true,
+    "dims": [
+     5.3,
+     1.24,
+     7.8
+    ],
+    "parts": 59,
+    "floating": 40,
+    "closed_parts": 59,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Gatehouse_Door1__Timber_Dark",
+    "tris": 60,
+    "tris_per_material": {
+     "Timber_Dark": 60
+    },
+    "under_limit": true,
+    "dims": [
+     5.3,
+     1.24,
+     7.8
+    ],
+    "parts": 5,
+    "floating": 0,
+    "closed_parts": 5,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Gatehouse_Door2__Iron_Wrought",
+    "tris": 756,
+    "tris_per_material": {
+     "Iron_Wrought": 756
+    },
+    "under_limit": true,
+    "dims": [
+     5.3,
+     1.24,
+     7.8
+    ],
+    "parts": 59,
+    "floating": 40,
+    "closed_parts": 59,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Gatehouse_Door2__Timber_Dark",
+    "tris": 60,
+    "tris_per_material": {
+     "Timber_Dark": 60
+    },
+    "under_limit": true,
+    "dims": [
+     5.3,
+     1.24,
+     7.8
+    ],
+    "parts": 5,
+    "floating": 0,
+    "closed_parts": 5,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Gatehouse_Upper__Plaster_White",
+    "tris": 768,
+    "tris_per_material": {
+     "Plaster_White": 768
+    },
+    "under_limit": true,
+    "dims": [
+     28.4,
+     12.4,
+     9.0
+    ],
+    "parts": 40,
+    "floating": 20,
+    "closed_parts": 32,
+    "open_parts": 8,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Gatehouse_Upper__Shoji_Paper",
+    "tris": 192,
+    "tris_per_material": {
+     "Shoji_Paper": 192
+    },
+    "under_limit": true,
+    "dims": [
+     28.4,
+     12.4,
+     9.0
+    ],
+    "parts": 16,
+    "floating": 0,
+    "closed_parts": 16,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Gatehouse_Upper__Timber_Dark",
+    "tris": 1992,
+    "tris_per_material": {
+     "Timber_Dark": 1992
+    },
+    "under_limit": true,
+    "dims": [
+     28.4,
+     12.4,
+     9.0
+    ],
+    "parts": 124,
+    "floating": 0,
+    "closed_parts": 110,
+    "open_parts": 14,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Gatehouse_Upper__Timber_Light",
+    "tris": 1536,
+    "tris_per_material": {
+     "Timber_Light": 1536
+    },
+    "under_limit": true,
+    "dims": [
+     28.4,
+     12.4,
+     9.0
+    ],
+    "parts": 80,
+    "floating": 0,
+    "closed_parts": 64,
+    "open_parts": 16,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Gatehouse_RoofTiles",
+    "tris": 14554,
+    "tris_per_material": {
+     "RoofTile_Clay": 14554
+    },
+    "under_limit": true,
+    "dims": [
+     35.974,
+     19.974,
+     8.619
+    ],
+    "parts": 247,
+    "floating": 0,
+    "closed_parts": 155,
+    "open_parts": 120,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Gatehouse_RoofFrame__Black_Lacquer",
+    "tris": 80,
+    "tris_per_material": {
+     "Black_Lacquer": 80
+    },
+    "under_limit": true,
+    "dims": [
+     36.168,
+     20.168,
+     13.27
+    ],
+    "parts": 4,
+    "floating": 0,
+    "closed_parts": 4,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Gatehouse_RoofFrame__Gold_Leaf",
+    "tris": 588,
+    "tris_per_material": {
+     "Gold_Leaf": 588
+    },
+    "under_limit": true,
+    "dims": [
+     36.168,
+     20.168,
+     13.27
+    ],
+    "parts": 30,
+    "floating": 26,
+    "closed_parts": 30,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Gatehouse_RoofFrame__Plaster_White",
+    "tris": 6582,
+    "tris_per_material": {
+     "Plaster_White": 6582
+    },
+    "under_limit": true,
+    "dims": [
+     36.168,
+     20.168,
+     13.27
+    ],
+    "parts": 195,
+    "floating": 0,
+    "closed_parts": 77,
+    "open_parts": 118,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Gatehouse_Banners__Black_Lacquer",
+    "tris": 80,
+    "tris_per_material": {
+     "Black_Lacquer": 80
+    },
+    "under_limit": true,
+    "dims": [
+     16.74,
+     0.28,
+     12.0
+    ],
+    "parts": 4,
+    "floating": 0,
+    "closed_parts": 4,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Gatehouse_Banners__Cloth_Navy",
+    "tris": 264,
+    "tris_per_material": {
+     "Cloth_Navy": 264
+    },
+    "under_limit": true,
+    "dims": [
+     16.74,
+     0.28,
+     12.0
+    ],
+    "parts": 6,
+    "floating": 0,
+    "closed_parts": 6,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Cloth_Navy"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Gatehouse_Banners__Cloth_White",
+    "tris": 240,
+    "tris_per_material": {
+     "Cloth_White": 240
+    },
+    "under_limit": true,
+    "dims": [
+     16.74,
+     0.28,
+     12.0
+    ],
+    "parts": 4,
+    "floating": 0,
+    "closed_parts": 4,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Cloth_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [],
+  "notes": "28x12 gate: stone gate towers, 12-wide passage, iron-strapped doors (Door1/Door2 groups swing on the hinge posts at x = +-6), upper floor, castle roof, navy crest banners. Pivot = footprint centre at ground; front faces -Z. | meshes: HO_Castle_Gatehouse_Base__Stone_Fitted (20), HO_Castle_Gatehouse_Base__Stone_Granite (6736), HO_Castle_Gatehouse_Structure__Stone_Fitted (10), HO_Castle_Gatehouse_Structure__Stone_Granite (12), HO_Castle_Gatehouse_Structure__Timber_Dark (120), HO_Castle_Gatehouse_Structure__Wood_Planks (12), HO_Castle_Gatehouse_Door1__Iron_Wrought (756), HO_Castle_Gatehouse_Door1__Timber_Dark (60), HO_Castle_Gatehouse_Door2__Iron_Wrought (756), HO_Castle_Gatehouse_Door2__Timber_Dark (60), HO_Castle_Gatehouse_Upper__Plaster_White (768), HO_Castle_Gatehouse_Upper__Shoji_Paper (192), HO_Castle_Gatehouse_Upper__Timber_Dark (1992), HO_Castle_Gatehouse_Upper__Timber_Light (1536), HO_Castle_Gatehouse_RoofTiles (14554), HO_Castle_Gatehouse_RoofFrame__Black_Lacquer (80), HO_Castle_Gatehouse_RoofFrame__Gold_Leaf (588), HO_Castle_Gatehouse_RoofFrame__Plaster_White (6582), HO_Castle_Gatehouse_Banners__Black_Lacquer (80), HO_Castle_Gatehouse_Banners__Cloth_Navy (264), HO_Castle_Gatehouse_Banners__Cloth_White (240)"
+ },
+ {
+  "name": "HO_Castle_Keep",
+  "phase": "Phase1",
+  "category": "Castle",
+  "type": "Mesh group",
+  "file": "assets/Phase1/Castle/HO_Castle_Keep.fbx",
+  "tris": 144866,
+  "textures": [
+   "Black_Lacquer",
+   "Cloth_Navy",
+   "Cloth_White",
+   "Earth_Packed",
+   "Gold_Leaf",
+   "Iron_Wrought",
+   "Namako_Wall",
+   "Plaster_White",
+   "Red_Lacquer",
+   "RoofTile_Clay",
+   "Shoji_Paper",
+   "Stone_Fitted",
+   "Stone_Granite",
+   "Tatami",
+   "Timber_Dark",
+   "Timber_Light",
+   "Wood_Planks"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 4788,
+   "inverted_parts": 0,
+   "dims": [
+    50.338,
+    42.342,
+    77.423
+   ],
+   "meshes": {
+    "HO_Castle_Keep_Base_Front": 5672,
+    "HO_Castle_Keep_Base_Back": 5512,
+    "HO_Castle_Keep_Base_Right": 4872,
+    "HO_Castle_Keep_Base_Left": 4680,
+    "HO_Castle_Keep_Tier1_RoofTiles": 13768,
+    "HO_Castle_Keep_Tier2_RoofTiles": 12552,
+    "HO_Castle_Keep_Tier3_RoofTiles": 10952,
+    "HO_Castle_Keep_Tier4_RoofTiles": 10216,
+    "HO_Castle_Keep_Tier5_RoofTiles": 15530,
+    "HO_Castle_Keep_Base_Top__Stone_Fitted": 10,
+    "HO_Castle_Keep_Base_Top__Stone_Granite": 8,
+    "HO_Castle_Keep_Tier1_Walls__Plaster_White": 1512,
+    "HO_Castle_Keep_Tier1_Walls__Shoji_Paper": 432,
+    "HO_Castle_Keep_Tier1_Walls__Timber_Dark": 3960,
+    "HO_Castle_Keep_Tier1_Walls__Timber_Light": 3456,
+    "HO_Castle_Keep_Tier1_Walls__Wood_Planks": 12,
+    "HO_Castle_Keep_Tier1_RoofFrame__Plaster_White": 1672,
+    "HO_Castle_Keep_Tier1_RoofFrame__Timber_Dark": 272,
+    "HO_Castle_Keep_Tier1_Gable__Gold_Leaf": 36,
+    "HO_Castle_Keep_Tier1_Gable__Plaster_White": 502,
+    "HO_Castle_Keep_Tier1_Gable__RoofTile_Clay": 960,
+    "HO_Castle_Keep_Tier2_Walls__Plaster_White": 1272,
+    "HO_Castle_Keep_Tier2_Walls__Shoji_Paper": 336,
+    "HO_Castle_Keep_Tier2_Walls__Timber_Dark": 3288,
+    "HO_Castle_Keep_Tier2_Walls__Timber_Light": 2688,
+    "HO_Castle_Keep_Tier2_Walls__Wood_Planks": 12,
+    "HO_Castle_Keep_Tier2_RoofFrame__Plaster_White": 1528,
+    "HO_Castle_Keep_Tier2_RoofFrame__Timber_Dark": 248,
+    "HO_Castle_Keep_Tier2_Gable__Gold_Leaf": 32,
+    "HO_Castle_Keep_Tier2_Gable__Plaster_White": 696,
+    "HO_Castle_Keep_Tier2_Gable__RoofTile_Clay": 1944,
+    "HO_Castle_Keep_Tier3_Walls__Plaster_White": 1176,
+    "HO_Castle_Keep_Tier3_Walls__Shoji_Paper": 336,
+    "HO_Castle_Keep_Tier3_Walls__Timber_Dark": 3120,
+    "HO_Castle_Keep_Tier3_Walls__Timber_Light": 2688,
+    "HO_Castle_Keep_Tier3_Walls__Wood_Planks": 12,
+    "HO_Castle_Keep_Tier3_RoofFrame__Plaster_White": 1384,
+    "HO_Castle_Keep_Tier3_RoofFrame__Timber_Dark": 224,
+    "HO_Castle_Keep_Tier3_Gable__Gold_Leaf": 32,
+    "HO_Castle_Keep_Tier3_Gable__Plaster_White": 640,
+    "HO_Castle_Keep_Tier3_Gable__RoofTile_Clay": 1880,
+    "HO_Castle_Keep_Tier4_Walls__Plaster_White": 936,
+    "HO_Castle_Keep_Tier4_Walls__Shoji_Paper": 240,
+    "HO_Castle_Keep_Tier4_Walls__Timber_Dark": 2448,
+    "HO_Castle_Keep_Tier4_Walls__Timber_Light": 1920,
+    "HO_Castle_Keep_Tier4_Walls__Wood_Planks": 12,
+    "HO_Castle_Keep_Tier4_RoofFrame__Plaster_White": 1288,
+    "HO_Castle_Keep_Tier4_RoofFrame__Timber_Dark": 208,
+    "HO_Castle_Keep_Tier5_Walls__Plaster_White": 1200,
+    "HO_Castle_Keep_Tier5_Walls__Shoji_Paper": 480,
+    "HO_Castle_Keep_Tier5_Walls__Timber_Dark": 3720,
+    "HO_Castle_Keep_Tier5_Walls__Timber_Light": 3840,
+    "HO_Castle_Keep_Tier5_Walls__Wood_Planks": 12,
+    "HO_Castle_Keep_Tier5_Balcony__Red_Lacquer": 984,
+    "HO_Castle_Keep_Tier5_Balcony__Wood_Planks": 48,
+    "HO_Castle_Keep_Tier5_RoofFrame__Gold_Leaf": 256,
+    "HO_Castle_Keep_Tier5_RoofFrame__Plaster_White": 6740,
+    "HO_Castle_Keep_Tier5_Gable__Black_Lacquer": 80,
+    "HO_Castle_Keep_Tier5_Gable__Gold_Leaf": 332
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": true
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Castle_Keep_Base_Front",
+    "tris": 5672,
+    "tris_per_material": {
+     "Stone_Granite": 5672
+    },
+    "under_limit": true,
+    "dims": [
+     49.052,
+     8.172,
+     16.0
+    ],
+    "parts": 177,
+    "floating": 0,
+    "closed_parts": 177,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer",
+     "Cloth_Navy",
+     "Cloth_White",
+     "Earth_Packed",
+     "Gold_Leaf",
+     "Iron_Wrought",
+     "Namako_Wall",
+     "Plaster_White",
+     "Red_Lacquer",
+     "RoofTile_Clay",
+     "Shoji_Paper",
+     "Stone_Fitted",
+     "Stone_Granite",
+     "Tatami",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Base_Back",
+    "tris": 5512,
+    "tris_per_material": {
+     "Stone_Granite": 5512
+    },
+    "under_limit": true,
+    "dims": [
+     49.052,
+     8.171,
+     16.0
+    ],
+    "parts": 172,
+    "floating": 1,
+    "closed_parts": 172,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer",
+     "Cloth_Navy",
+     "Cloth_White",
+     "Earth_Packed",
+     "Gold_Leaf",
+     "Iron_Wrought",
+     "Namako_Wall",
+     "Plaster_White",
+     "Red_Lacquer",
+     "RoofTile_Clay",
+     "Shoji_Paper",
+     "Stone_Fitted",
+     "Stone_Granite",
+     "Tatami",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Base_Right",
+    "tris": 4872,
+    "tris_per_material": {
+     "Stone_Granite": 4872
+    },
+    "under_limit": true,
+    "dims": [
+     8.183,
+     39.623,
+     16.0
+    ],
+    "parts": 152,
+    "floating": 2,
+    "closed_parts": 152,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer",
+     "Cloth_Navy",
+     "Cloth_White",
+     "Earth_Packed",
+     "Gold_Leaf",
+     "Iron_Wrought",
+     "Namako_Wall",
+     "Plaster_White",
+     "Red_Lacquer",
+     "RoofTile_Clay",
+     "Shoji_Paper",
+     "Stone_Fitted",
+     "Stone_Granite",
+     "Tatami",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Base_Left",
+    "tris": 4680,
+    "tris_per_material": {
+     "Stone_Granite": 4680
+    },
+    "under_limit": true,
+    "dims": [
+     8.155,
+     39.623,
+     16.0
+    ],
+    "parts": 146,
+    "floating": 0,
+    "closed_parts": 146,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer",
+     "Cloth_Navy",
+     "Cloth_White",
+     "Earth_Packed",
+     "Gold_Leaf",
+     "Iron_Wrought",
+     "Namako_Wall",
+     "Plaster_White",
+     "Red_Lacquer",
+     "RoofTile_Clay",
+     "Shoji_Paper",
+     "Stone_Fitted",
+     "Stone_Granite",
+     "Tatami",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier1_RoofTiles",
+    "tris": 13768,
+    "tris_per_material": {
+     "RoofTile_Clay": 13768
+    },
+    "under_limit": true,
+    "dims": [
+     48.103,
+     40.103,
+     3.385
+    ],
+    "parts": 346,
+    "floating": 0,
+    "closed_parts": 184,
+    "open_parts": 165,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier2_RoofTiles",
+    "tris": 12552,
+    "tris_per_material": {
+     "RoofTile_Clay": 12552
+    },
+    "under_limit": true,
+    "dims": [
+     43.903,
+     35.903,
+     3.408
+    ],
+    "parts": 314,
+    "floating": 0,
+    "closed_parts": 168,
+    "open_parts": 149,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier3_RoofTiles",
+    "tris": 10952,
+    "tris_per_material": {
+     "RoofTile_Clay": 10952
+    },
+    "under_limit": true,
+    "dims": [
+     38.863,
+     30.863,
+     3.233
+    ],
+    "parts": 266,
+    "floating": 0,
+    "closed_parts": 144,
+    "open_parts": 125,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier4_RoofTiles",
+    "tris": 10216,
+    "tris_per_material": {
+     "RoofTile_Clay": 10216
+    },
+    "under_limit": true,
+    "dims": [
+     34.664,
+     26.664,
+     3.267
+    ],
+    "parts": 250,
+    "floating": 0,
+    "closed_parts": 136,
+    "open_parts": 117,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier5_RoofTiles",
+    "tris": 15530,
+    "tris_per_material": {
+     "RoofTile_Clay": 15530
+    },
+    "under_limit": true,
+    "dims": [
+     32.619,
+     24.619,
+     10.403
+    ],
+    "parts": 253,
+    "floating": 0,
+    "closed_parts": 155,
+    "open_parts": 120,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Base_Top__Stone_Fitted",
+    "tris": 10,
+    "tris_per_material": {
+     "Stone_Fitted": 10
+    },
+    "under_limit": true,
+    "dims": [
+     43.6,
+     35.6,
+     0.31
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Stone_Fitted"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Base_Top__Stone_Granite",
+    "tris": 8,
+    "tris_per_material": {
+     "Stone_Granite": 8
+    },
+    "under_limit": true,
+    "dims": [
+     34.2,
+     26.2,
+     15.65
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Stone_Granite"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": true
+   },
+   {
+    "name": "HO_Castle_Keep_Tier1_Walls__Plaster_White",
+    "tris": 1512,
+    "tris_per_material": {
+     "Plaster_White": 1512
+    },
+    "under_limit": true,
+    "dims": [
+     39.76,
+     31.76,
+     7.8
+    ],
+    "parts": 72,
+    "floating": 36,
+    "closed_parts": 54,
+    "open_parts": 18,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier1_Walls__Shoji_Paper",
+    "tris": 432,
+    "tris_per_material": {
+     "Shoji_Paper": 432
+    },
+    "under_limit": true,
+    "dims": [
+     38.7,
+     30.7,
+     3.2
+    ],
+    "parts": 36,
+    "floating": 0,
+    "closed_parts": 36,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier1_Walls__Timber_Dark",
+    "tris": 3960,
+    "tris_per_material": {
+     "Timber_Dark": 3960
+    },
+    "under_limit": true,
+    "dims": [
+     40.4,
+     32.4,
+     9.0
+    ],
+    "parts": 246,
+    "floating": 0,
+    "closed_parts": 218,
+    "open_parts": 28,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier1_Walls__Timber_Light",
+    "tris": 3456,
+    "tris_per_material": {
+     "Timber_Light": 3456
+    },
+    "under_limit": true,
+    "dims": [
+     38.78,
+     30.78,
+     3.2
+    ],
+    "parts": 180,
+    "floating": 0,
+    "closed_parts": 144,
+    "open_parts": 36,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier1_Walls__Wood_Planks",
+    "tris": 12,
+    "tris_per_material": {
+     "Wood_Planks": 12
+    },
+    "under_limit": true,
+    "dims": [
+     38.0,
+     30.0,
+     0.5
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier1_RoofFrame__Plaster_White",
+    "tris": 1672,
+    "tris_per_material": {
+     "Plaster_White": 1672
+    },
+    "under_limit": true,
+    "dims": [
+     47.06,
+     39.06,
+     2.437
+    ],
+    "parts": 6,
+    "floating": 0,
+    "closed_parts": 4,
+    "open_parts": 2,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier1_RoofFrame__Timber_Dark",
+    "tris": 272,
+    "tris_per_material": {
+     "Timber_Dark": 272
+    },
+    "under_limit": true,
+    "dims": [
+     47.06,
+     39.06,
+     1.653
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier1_Gable__Gold_Leaf",
+    "tris": 36,
+    "tris_per_material": {
+     "Gold_Leaf": 36
+    },
+    "under_limit": true,
+    "dims": [
+     12.0,
+     0.08,
+     2.563
+    ],
+    "parts": 3,
+    "floating": 1,
+    "closed_parts": 3,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier1_Gable__Plaster_White",
+    "tris": 502,
+    "tris_per_material": {
+     "Plaster_White": 502
+    },
+    "under_limit": true,
+    "dims": [
+     12.007,
+     4.68,
+     4.435
+    ],
+    "parts": 3,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier1_Gable__RoofTile_Clay",
+    "tris": 960,
+    "tris_per_material": {
+     "RoofTile_Clay": 960
+    },
+    "under_limit": true,
+    "dims": [
+     12.0,
+     4.545,
+     3.199
+    ],
+    "parts": 25,
+    "floating": 0,
+    "closed_parts": 12,
+    "open_parts": 13,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier2_Walls__Plaster_White",
+    "tris": 1272,
+    "tris_per_material": {
+     "Plaster_White": 1272
+    },
+    "under_limit": true,
+    "dims": [
+     35.76,
+     27.76,
+     7.8
+    ],
+    "parts": 64,
+    "floating": 32,
+    "closed_parts": 50,
+    "open_parts": 14,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier2_Walls__Shoji_Paper",
+    "tris": 336,
+    "tris_per_material": {
+     "Shoji_Paper": 336
+    },
+    "under_limit": true,
+    "dims": [
+     34.7,
+     26.7,
+     3.2
+    ],
+    "parts": 28,
+    "floating": 0,
+    "closed_parts": 28,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier2_Walls__Timber_Dark",
+    "tris": 3288,
+    "tris_per_material": {
+     "Timber_Dark": 3288
+    },
+    "under_limit": true,
+    "dims": [
+     36.4,
+     28.4,
+     9.0
+    ],
+    "parts": 202,
+    "floating": 0,
+    "closed_parts": 178,
+    "open_parts": 24,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier2_Walls__Timber_Light",
+    "tris": 2688,
+    "tris_per_material": {
+     "Timber_Light": 2688
+    },
+    "under_limit": true,
+    "dims": [
+     34.78,
+     26.78,
+     3.2
+    ],
+    "parts": 140,
+    "floating": 0,
+    "closed_parts": 112,
+    "open_parts": 28,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier2_Walls__Wood_Planks",
+    "tris": 12,
+    "tris_per_material": {
+     "Wood_Planks": 12
+    },
+    "under_limit": true,
+    "dims": [
+     34.0,
+     26.0,
+     0.5
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier2_RoofFrame__Plaster_White",
+    "tris": 1528,
+    "tris_per_material": {
+     "Plaster_White": 1528
+    },
+    "under_limit": true,
+    "dims": [
+     42.86,
+     34.86,
+     2.461
+    ],
+    "parts": 6,
+    "floating": 0,
+    "closed_parts": 4,
+    "open_parts": 2,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier2_RoofFrame__Timber_Dark",
+    "tris": 248,
+    "tris_per_material": {
+     "Timber_Dark": 248
+    },
+    "under_limit": true,
+    "dims": [
+     42.86,
+     34.86,
+     1.733
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier2_Gable__Gold_Leaf",
+    "tris": 32,
+    "tris_per_material": {
+     "Gold_Leaf": 32
+    },
+    "under_limit": true,
+    "dims": [
+     1.4,
+     33.48,
+     1.0
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier2_Gable__Plaster_White",
+    "tris": 696,
+    "tris_per_material": {
+     "Plaster_White": 696
+    },
+    "under_limit": true,
+    "dims": [
+     11.256,
+     33.2,
+     4.384
+    ],
+    "parts": 10,
+    "floating": 0,
+    "closed_parts": 6,
+    "open_parts": 4,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier2_Gable__RoofTile_Clay",
+    "tris": 1944,
+    "tris_per_material": {
+     "RoofTile_Clay": 1944
+    },
+    "under_limit": true,
+    "dims": [
+     11.758,
+     34.064,
+     5.304
+    ],
+    "parts": 48,
+    "floating": 0,
+    "closed_parts": 26,
+    "open_parts": 22,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier3_Walls__Plaster_White",
+    "tris": 1176,
+    "tris_per_material": {
+     "Plaster_White": 1176
+    },
+    "under_limit": true,
+    "dims": [
+     31.76,
+     23.76,
+     7.8
+    ],
+    "parts": 56,
+    "floating": 28,
+    "closed_parts": 42,
+    "open_parts": 14,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier3_Walls__Shoji_Paper",
+    "tris": 336,
+    "tris_per_material": {
+     "Shoji_Paper": 336
+    },
+    "under_limit": true,
+    "dims": [
+     30.7,
+     22.7,
+     3.2
+    ],
+    "parts": 28,
+    "floating": 0,
+    "closed_parts": 28,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier3_Walls__Timber_Dark",
+    "tris": 3120,
+    "tris_per_material": {
+     "Timber_Dark": 3120
+    },
+    "under_limit": true,
+    "dims": [
+     32.4,
+     24.4,
+     9.0
+    ],
+    "parts": 194,
+    "floating": 0,
+    "closed_parts": 172,
+    "open_parts": 22,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier3_Walls__Timber_Light",
+    "tris": 2688,
+    "tris_per_material": {
+     "Timber_Light": 2688
+    },
+    "under_limit": true,
+    "dims": [
+     30.78,
+     22.78,
+     3.2
+    ],
+    "parts": 140,
+    "floating": 0,
+    "closed_parts": 112,
+    "open_parts": 28,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier3_Walls__Wood_Planks",
+    "tris": 12,
+    "tris_per_material": {
+     "Wood_Planks": 12
+    },
+    "under_limit": true,
+    "dims": [
+     30.0,
+     22.0,
+     0.5
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier3_RoofFrame__Plaster_White",
+    "tris": 1384,
+    "tris_per_material": {
+     "Plaster_White": 1384
+    },
+    "under_limit": true,
+    "dims": [
+     37.82,
+     29.82,
+     2.288
+    ],
+    "parts": 6,
+    "floating": 0,
+    "closed_parts": 4,
+    "open_parts": 2,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier3_RoofFrame__Timber_Dark",
+    "tris": 224,
+    "tris_per_material": {
+     "Timber_Dark": 224
+    },
+    "under_limit": true,
+    "dims": [
+     37.82,
+     29.82,
+     1.756
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier3_Gable__Gold_Leaf",
+    "tris": 32,
+    "tris_per_material": {
+     "Gold_Leaf": 32
+    },
+    "under_limit": true,
+    "dims": [
+     37.08,
+     1.4,
+     1.0
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier3_Gable__Plaster_White",
+    "tris": 640,
+    "tris_per_material": {
+     "Plaster_White": 640
+    },
+    "under_limit": true,
+    "dims": [
+     36.8,
+     9.257,
+     3.804
+    ],
+    "parts": 10,
+    "floating": 0,
+    "closed_parts": 6,
+    "open_parts": 4,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier3_Gable__RoofTile_Clay",
+    "tris": 1880,
+    "tris_per_material": {
+     "RoofTile_Clay": 1880
+    },
+    "under_limit": true,
+    "dims": [
+     37.664,
+     9.762,
+     4.704
+    ],
+    "parts": 48,
+    "floating": 0,
+    "closed_parts": 26,
+    "open_parts": 22,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier4_Walls__Plaster_White",
+    "tris": 936,
+    "tris_per_material": {
+     "Plaster_White": 936
+    },
+    "under_limit": true,
+    "dims": [
+     27.76,
+     19.76,
+     7.8
+    ],
+    "parts": 48,
+    "floating": 24,
+    "closed_parts": 38,
+    "open_parts": 10,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier4_Walls__Shoji_Paper",
+    "tris": 240,
+    "tris_per_material": {
+     "Shoji_Paper": 240
+    },
+    "under_limit": true,
+    "dims": [
+     26.7,
+     18.7,
+     3.2
+    ],
+    "parts": 20,
+    "floating": 0,
+    "closed_parts": 20,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier4_Walls__Timber_Dark",
+    "tris": 2448,
+    "tris_per_material": {
+     "Timber_Dark": 2448
+    },
+    "under_limit": true,
+    "dims": [
+     28.4,
+     20.4,
+     9.0
+    ],
+    "parts": 150,
+    "floating": 0,
+    "closed_parts": 132,
+    "open_parts": 18,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier4_Walls__Timber_Light",
+    "tris": 1920,
+    "tris_per_material": {
+     "Timber_Light": 1920
+    },
+    "under_limit": true,
+    "dims": [
+     26.78,
+     18.78,
+     3.2
+    ],
+    "parts": 100,
+    "floating": 0,
+    "closed_parts": 80,
+    "open_parts": 20,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier4_Walls__Wood_Planks",
+    "tris": 12,
+    "tris_per_material": {
+     "Wood_Planks": 12
+    },
+    "under_limit": true,
+    "dims": [
+     26.0,
+     18.0,
+     0.5
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier4_RoofFrame__Plaster_White",
+    "tris": 1288,
+    "tris_per_material": {
+     "Plaster_White": 1288
+    },
+    "under_limit": true,
+    "dims": [
+     33.62,
+     25.62,
+     2.324
+    ],
+    "parts": 6,
+    "floating": 0,
+    "closed_parts": 4,
+    "open_parts": 2,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier4_RoofFrame__Timber_Dark",
+    "tris": 208,
+    "tris_per_material": {
+     "Timber_Dark": 208
+    },
+    "under_limit": true,
+    "dims": [
+     33.62,
+     25.62,
+     1.821
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier5_Walls__Plaster_White",
+    "tris": 1200,
+    "tris_per_material": {
+     "Plaster_White": 1200
+    },
+    "under_limit": true,
+    "dims": [
+     23.76,
+     15.76,
+     7.8
+    ],
+    "parts": 40,
+    "floating": 20,
+    "closed_parts": 20,
+    "open_parts": 20,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier5_Walls__Shoji_Paper",
+    "tris": 480,
+    "tris_per_material": {
+     "Shoji_Paper": 480
+    },
+    "under_limit": true,
+    "dims": [
+     22.7,
+     14.7,
+     3.2
+    ],
+    "parts": 40,
+    "floating": 0,
+    "closed_parts": 40,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier5_Walls__Timber_Dark",
+    "tris": 3720,
+    "tris_per_material": {
+     "Timber_Dark": 3720
+    },
+    "under_limit": true,
+    "dims": [
+     24.4,
+     16.4,
+     9.0
+    ],
+    "parts": 232,
+    "floating": 0,
+    "closed_parts": 206,
+    "open_parts": 26,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier5_Walls__Timber_Light",
+    "tris": 3840,
+    "tris_per_material": {
+     "Timber_Light": 3840
+    },
+    "under_limit": true,
+    "dims": [
+     22.78,
+     14.78,
+     3.2
+    ],
+    "parts": 200,
+    "floating": 0,
+    "closed_parts": 160,
+    "open_parts": 40,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier5_Walls__Wood_Planks",
+    "tris": 12,
+    "tris_per_material": {
+     "Wood_Planks": 12
+    },
+    "under_limit": true,
+    "dims": [
+     22.0,
+     14.0,
+     0.5
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier5_Balcony__Red_Lacquer",
+    "tris": 984,
+    "tris_per_material": {
+     "Red_Lacquer": 984
+    },
+    "under_limit": true,
+    "dims": [
+     27.04,
+     19.04,
+     2.7
+    ],
+    "parts": 82,
+    "floating": 0,
+    "closed_parts": 82,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Red_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier5_Balcony__Wood_Planks",
+    "tris": 48,
+    "tris_per_material": {
+     "Wood_Planks": 48
+    },
+    "under_limit": true,
+    "dims": [
+     27.2,
+     19.2,
+     0.3
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier5_RoofFrame__Gold_Leaf",
+    "tris": 256,
+    "tris_per_material": {
+     "Gold_Leaf": 256
+    },
+    "under_limit": true,
+    "dims": [
+     32.964,
+     24.964,
+     7.247
+    ],
+    "parts": 18,
+    "floating": 14,
+    "closed_parts": 18,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier5_RoofFrame__Plaster_White",
+    "tris": 6740,
+    "tris_per_material": {
+     "Plaster_White": 6740
+    },
+    "under_limit": true,
+    "dims": [
+     32.77,
+     24.77,
+     9.96
+    ],
+    "parts": 193,
+    "floating": 0,
+    "closed_parts": 79,
+    "open_parts": 114,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier5_Gable__Black_Lacquer",
+    "tris": 80,
+    "tris_per_material": {
+     "Black_Lacquer": 80
+    },
+    "under_limit": true,
+    "dims": [
+     20.512,
+     1.2,
+     0.249
+    ],
+    "parts": 4,
+    "floating": 0,
+    "closed_parts": 4,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier5_Gable__Gold_Leaf",
+    "tris": 332,
+    "tris_per_material": {
+     "Gold_Leaf": 332
+    },
+    "under_limit": true,
+    "dims": [
+     24.784,
+     1.44,
+     5.26
+    ],
+    "parts": 12,
+    "floating": 0,
+    "closed_parts": 12,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [],
+  "notes": "Five-tier keep on a 16-tall ishigaki base (base top 44x36, foot 50x42). Origin = bottom centre of the stone base; front (karahafu gable) faces -Z. Tiers: white walls + lattice windows, tiled skirts, karahafu (tier 1), chidori (tiers 2-3), red-railed balcony + gold shachihoko on top. Also exported per part: HO_Castle_Keep_Base / _Tier1 .. _Tier5. | meshes: HO_Castle_Keep_Base_Front (5672), HO_Castle_Keep_Base_Back (5512), HO_Castle_Keep_Base_Right (4872), HO_Castle_Keep_Base_Left (4680), HO_Castle_Keep_Tier1_RoofTiles (13768), HO_Castle_Keep_Tier2_RoofTiles (12552), HO_Castle_Keep_Tier3_RoofTiles (10952), HO_Castle_Keep_Tier4_RoofTiles (10216), HO_Castle_Keep_Tier5_RoofTiles (15530), HO_Castle_Keep_Base_Top__Stone_Fitted (10), HO_Castle_Keep_Base_Top__Stone_Granite (8), HO_Castle_Keep_Tier1_Walls__Plaster_White (1512), HO_Castle_Keep_Tier1_Walls__Shoji_Paper (432), HO_Castle_Keep_Tier1_Walls__Timber_Dark (3960), HO_Castle_Keep_Tier1_Walls__Timber_Light (3456), HO_Castle_Keep_Tier1_Walls__Wood_Planks (12), HO_Castle_Keep_Tier1_RoofFrame__Plaster_White (1672), HO_Castle_Keep_Tier1_RoofFrame__Timber_Dark (272), HO_Castle_Keep_Tier1_Gable__Gold_Leaf (36), HO_Castle_Keep_Tier1_Gable__Plaster_White (502), HO_Castle_Keep_Tier1_Gable__RoofTile_Clay (960), HO_Castle_Keep_Tier2_Walls__Plaster_White (1272), HO_Castle_Keep_Tier2_Walls__Shoji_Paper (336), HO_Castle_Keep_Tier2_Walls__Timber_Dark (3288), HO_Castle_Keep_Tier2_Walls__Timber_Light (2688), HO_Castle_Keep_Tier2_Walls__Wood_Planks (12), HO_Castle_Keep_Tier2_RoofFrame__Plaster_White (1528), HO_Castle_Keep_Tier2_RoofFrame__Timber_Dark (248), HO_Castle_Keep_Tier2_Gable__Gold_Leaf (32), HO_Castle_Keep_Tier2_Gable__Plaster_White (696), HO_Castle_Keep_Tier2_Gable__RoofTile_Clay (1944), HO_Castle_Keep_Tier3_Walls__Plaster_White (1176), HO_Castle_Keep_Tier3_Walls__Shoji_Paper (336), HO_Castle_Keep_Tier3_Walls__Timber_Dark (3120), HO_Castle_Keep_Tier3_Walls__Timber_Light (2688), HO_Castle_Keep_Tier3_Walls__Wood_Planks (12), HO_Castle_Keep_Tier3_RoofFrame__Plaster_White (1384), HO_Castle_Keep_Tier3_RoofFrame__Timber_Dark (224), HO_Castle_Keep_Tier3_Gable__Gold_Leaf (32), HO_Castle_Keep_Tier3_Gable__Plaster_White (640), HO_Castle_Keep_Tier3_Gable__RoofTile_Clay (1880), HO_Castle_Keep_Tier4_Walls__Plaster_White (936), HO_Castle_Keep_Tier4_Walls__Shoji_Paper (240), HO_Castle_Keep_Tier4_Walls__Timber_Dark (2448), HO_Castle_Keep_Tier4_Walls__Timber_Light (1920), HO_Castle_Keep_Tier4_Walls__Wood_Planks (12), HO_Castle_Keep_Tier4_RoofFrame__Plaster_White (1288), HO_Castle_Keep_Tier4_RoofFrame__Timber_Dark (208), HO_Castle_Keep_Tier5_Walls__Plaster_White (1200), HO_Castle_Keep_Tier5_Walls__Shoji_Paper (480), HO_Castle_Keep_Tier5_Walls__Timber_Dark (3720), HO_Castle_Keep_Tier5_Walls__Timber_Light (3840), HO_Castle_Keep_Tier5_Walls__Wood_Planks (12), HO_Castle_Keep_Tier5_Balcony__Red_Lacquer (984), HO_Castle_Keep_Tier5_Balcony__Wood_Planks (48), HO_Castle_Keep_Tier5_RoofFrame__Gold_Leaf (256), HO_Castle_Keep_Tier5_RoofFrame__Plaster_White (6740), HO_Castle_Keep_Tier5_Gable__Black_Lacquer (80), HO_Castle_Keep_Tier5_Gable__Gold_Leaf (332)"
+ },
+ {
+  "name": "HO_Castle_Keep_Base",
+  "phase": "Phase1",
+  "category": "Castle",
+  "type": "Mesh group",
+  "file": "assets/Phase1/Castle/HO_Castle_Keep_Base.fbx",
+  "tris": 20754,
+  "textures": [
+   "Black_Lacquer",
+   "Cloth_Navy",
+   "Cloth_White",
+   "Earth_Packed",
+   "Gold_Leaf",
+   "Iron_Wrought",
+   "Namako_Wall",
+   "Plaster_White",
+   "Red_Lacquer",
+   "RoofTile_Clay",
+   "Shoji_Paper",
+   "Stone_Fitted",
+   "Stone_Granite",
+   "Tatami",
+   "Timber_Dark",
+   "Timber_Light",
+   "Wood_Planks"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 649,
+   "inverted_parts": 0,
+   "dims": [
+    50.338,
+    42.342,
+    16.06
+   ],
+   "meshes": {
+    "HO_Castle_Keep_Base_Front": 5672,
+    "HO_Castle_Keep_Base_Back": 5512,
+    "HO_Castle_Keep_Base_Right": 4872,
+    "HO_Castle_Keep_Base_Left": 4680,
+    "HO_Castle_Keep_Base_Top__Stone_Fitted": 10,
+    "HO_Castle_Keep_Base_Top__Stone_Granite": 8
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": true
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Castle_Keep_Base_Front",
+    "tris": 5672,
+    "tris_per_material": {
+     "Stone_Granite": 5672
+    },
+    "under_limit": true,
+    "dims": [
+     49.052,
+     8.172,
+     16.0
+    ],
+    "parts": 177,
+    "floating": 0,
+    "closed_parts": 177,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer",
+     "Cloth_Navy",
+     "Cloth_White",
+     "Earth_Packed",
+     "Gold_Leaf",
+     "Iron_Wrought",
+     "Namako_Wall",
+     "Plaster_White",
+     "Red_Lacquer",
+     "RoofTile_Clay",
+     "Shoji_Paper",
+     "Stone_Fitted",
+     "Stone_Granite",
+     "Tatami",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Base_Back",
+    "tris": 5512,
+    "tris_per_material": {
+     "Stone_Granite": 5512
+    },
+    "under_limit": true,
+    "dims": [
+     49.052,
+     8.171,
+     16.0
+    ],
+    "parts": 172,
+    "floating": 1,
+    "closed_parts": 172,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer",
+     "Cloth_Navy",
+     "Cloth_White",
+     "Earth_Packed",
+     "Gold_Leaf",
+     "Iron_Wrought",
+     "Namako_Wall",
+     "Plaster_White",
+     "Red_Lacquer",
+     "RoofTile_Clay",
+     "Shoji_Paper",
+     "Stone_Fitted",
+     "Stone_Granite",
+     "Tatami",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Base_Right",
+    "tris": 4872,
+    "tris_per_material": {
+     "Stone_Granite": 4872
+    },
+    "under_limit": true,
+    "dims": [
+     8.183,
+     39.623,
+     16.0
+    ],
+    "parts": 152,
+    "floating": 2,
+    "closed_parts": 152,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer",
+     "Cloth_Navy",
+     "Cloth_White",
+     "Earth_Packed",
+     "Gold_Leaf",
+     "Iron_Wrought",
+     "Namako_Wall",
+     "Plaster_White",
+     "Red_Lacquer",
+     "RoofTile_Clay",
+     "Shoji_Paper",
+     "Stone_Fitted",
+     "Stone_Granite",
+     "Tatami",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Base_Left",
+    "tris": 4680,
+    "tris_per_material": {
+     "Stone_Granite": 4680
+    },
+    "under_limit": true,
+    "dims": [
+     8.155,
+     39.623,
+     16.0
+    ],
+    "parts": 146,
+    "floating": 0,
+    "closed_parts": 146,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer",
+     "Cloth_Navy",
+     "Cloth_White",
+     "Earth_Packed",
+     "Gold_Leaf",
+     "Iron_Wrought",
+     "Namako_Wall",
+     "Plaster_White",
+     "Red_Lacquer",
+     "RoofTile_Clay",
+     "Shoji_Paper",
+     "Stone_Fitted",
+     "Stone_Granite",
+     "Tatami",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Base_Top__Stone_Fitted",
+    "tris": 10,
+    "tris_per_material": {
+     "Stone_Fitted": 10
+    },
+    "under_limit": true,
+    "dims": [
+     43.6,
+     35.6,
+     16.06
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Stone_Fitted"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": true
+   },
+   {
+    "name": "HO_Castle_Keep_Base_Top__Stone_Granite",
+    "tris": 8,
+    "tris_per_material": {
+     "Stone_Granite": 8
+    },
+    "under_limit": true,
+    "dims": [
+     43.6,
+     35.6,
+     16.06
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Stone_Granite"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": true
+   }
+  ],
+  "renders": [],
+  "notes": "Keep part exported on its own: shares the keep origin, place at the SAME CFrame as the other keep parts (they stack automatically). | meshes: HO_Castle_Keep_Base_Front (5672), HO_Castle_Keep_Base_Back (5512), HO_Castle_Keep_Base_Right (4872), HO_Castle_Keep_Base_Left (4680), HO_Castle_Keep_Base_Top__Stone_Fitted (10), HO_Castle_Keep_Base_Top__Stone_Granite (8)"
+ },
+ {
+  "name": "HO_Castle_Keep_Tier1",
+  "phase": "Phase1",
+  "category": "Castle",
+  "type": "Mesh group",
+  "file": "assets/Phase1/Castle/HO_Castle_Keep_Tier1.fbx",
+  "tris": 26582,
+  "textures": [
+   "Gold_Leaf",
+   "Plaster_White",
+   "RoofTile_Clay",
+   "Shoji_Paper",
+   "Timber_Dark",
+   "Timber_Light",
+   "Wood_Planks"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 919,
+   "inverted_parts": 0,
+   "dims": [
+    48.103,
+    40.103,
+    12.299
+   ],
+   "meshes": {
+    "HO_Castle_Keep_Tier1_Walls__Plaster_White": 1512,
+    "HO_Castle_Keep_Tier1_Walls__Shoji_Paper": 432,
+    "HO_Castle_Keep_Tier1_Walls__Timber_Dark": 3960,
+    "HO_Castle_Keep_Tier1_Walls__Timber_Light": 3456,
+    "HO_Castle_Keep_Tier1_Walls__Wood_Planks": 12,
+    "HO_Castle_Keep_Tier1_RoofTiles": 13768,
+    "HO_Castle_Keep_Tier1_RoofFrame__Plaster_White": 1672,
+    "HO_Castle_Keep_Tier1_RoofFrame__Timber_Dark": 272,
+    "HO_Castle_Keep_Tier1_Gable__Gold_Leaf": 36,
+    "HO_Castle_Keep_Tier1_Gable__Plaster_White": 502,
+    "HO_Castle_Keep_Tier1_Gable__RoofTile_Clay": 960
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": false
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Castle_Keep_Tier1_Walls__Plaster_White",
+    "tris": 1512,
+    "tris_per_material": {
+     "Plaster_White": 1512
+    },
+    "under_limit": true,
+    "dims": [
+     40.4,
+     32.4,
+     9.0
+    ],
+    "parts": 72,
+    "floating": 36,
+    "closed_parts": 54,
+    "open_parts": 18,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier1_Walls__Shoji_Paper",
+    "tris": 432,
+    "tris_per_material": {
+     "Shoji_Paper": 432
+    },
+    "under_limit": true,
+    "dims": [
+     40.4,
+     32.4,
+     9.0
+    ],
+    "parts": 36,
+    "floating": 0,
+    "closed_parts": 36,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier1_Walls__Timber_Dark",
+    "tris": 3960,
+    "tris_per_material": {
+     "Timber_Dark": 3960
+    },
+    "under_limit": true,
+    "dims": [
+     40.4,
+     32.4,
+     9.0
+    ],
+    "parts": 246,
+    "floating": 0,
+    "closed_parts": 218,
+    "open_parts": 28,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier1_Walls__Timber_Light",
+    "tris": 3456,
+    "tris_per_material": {
+     "Timber_Light": 3456
+    },
+    "under_limit": true,
+    "dims": [
+     40.4,
+     32.4,
+     9.0
+    ],
+    "parts": 180,
+    "floating": 0,
+    "closed_parts": 144,
+    "open_parts": 36,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier1_Walls__Wood_Planks",
+    "tris": 12,
+    "tris_per_material": {
+     "Wood_Planks": 12
+    },
+    "under_limit": true,
+    "dims": [
+     40.4,
+     32.4,
+     9.0
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier1_RoofTiles",
+    "tris": 13768,
+    "tris_per_material": {
+     "RoofTile_Clay": 13768
+    },
+    "under_limit": true,
+    "dims": [
+     48.103,
+     40.103,
+     3.385
+    ],
+    "parts": 346,
+    "floating": 0,
+    "closed_parts": 184,
+    "open_parts": 165,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier1_RoofFrame__Plaster_White",
+    "tris": 1672,
+    "tris_per_material": {
+     "Plaster_White": 1672
+    },
+    "under_limit": true,
+    "dims": [
+     47.06,
+     39.06,
+     2.99
+    ],
+    "parts": 6,
+    "floating": 0,
+    "closed_parts": 4,
+    "open_parts": 2,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier1_RoofFrame__Timber_Dark",
+    "tris": 272,
+    "tris_per_material": {
+     "Timber_Dark": 272
+    },
+    "under_limit": true,
+    "dims": [
+     47.06,
+     39.06,
+     2.99
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier1_Gable__Gold_Leaf",
+    "tris": 36,
+    "tris_per_material": {
+     "Gold_Leaf": 36
+    },
+    "under_limit": true,
+    "dims": [
+     12.007,
+     4.78,
+     4.599
+    ],
+    "parts": 3,
+    "floating": 1,
+    "closed_parts": 3,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier1_Gable__Plaster_White",
+    "tris": 502,
+    "tris_per_material": {
+     "Plaster_White": 502
+    },
+    "under_limit": true,
+    "dims": [
+     12.007,
+     4.78,
+     4.599
+    ],
+    "parts": 3,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier1_Gable__RoofTile_Clay",
+    "tris": 960,
+    "tris_per_material": {
+     "RoofTile_Clay": 960
+    },
+    "under_limit": true,
+    "dims": [
+     12.007,
+     4.78,
+     4.599
+    ],
+    "parts": 25,
+    "floating": 0,
+    "closed_parts": 12,
+    "open_parts": 13,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [],
+  "notes": "Keep part exported on its own: shares the keep origin, place at the SAME CFrame as the other keep parts (they stack automatically). | meshes: HO_Castle_Keep_Tier1_Walls__Plaster_White (1512), HO_Castle_Keep_Tier1_Walls__Shoji_Paper (432), HO_Castle_Keep_Tier1_Walls__Timber_Dark (3960), HO_Castle_Keep_Tier1_Walls__Timber_Light (3456), HO_Castle_Keep_Tier1_Walls__Wood_Planks (12), HO_Castle_Keep_Tier1_RoofTiles (13768), HO_Castle_Keep_Tier1_RoofFrame__Plaster_White (1672), HO_Castle_Keep_Tier1_RoofFrame__Timber_Dark (272), HO_Castle_Keep_Tier1_Gable__Gold_Leaf (36), HO_Castle_Keep_Tier1_Gable__Plaster_White (502), HO_Castle_Keep_Tier1_Gable__RoofTile_Clay (960)"
+ },
+ {
+  "name": "HO_Castle_Keep_Tier2",
+  "phase": "Phase1",
+  "category": "Castle",
+  "type": "Mesh group",
+  "file": "assets/Phase1/Castle/HO_Castle_Keep_Tier2.fbx",
+  "tris": 24596,
+  "textures": [
+   "Gold_Leaf",
+   "Plaster_White",
+   "RoofTile_Clay",
+   "Shoji_Paper",
+   "Timber_Dark",
+   "Timber_Light",
+   "Wood_Planks"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 816,
+   "inverted_parts": 0,
+   "dims": [
+    43.903,
+    35.903,
+    14.404
+   ],
+   "meshes": {
+    "HO_Castle_Keep_Tier2_Walls__Plaster_White": 1272,
+    "HO_Castle_Keep_Tier2_Walls__Shoji_Paper": 336,
+    "HO_Castle_Keep_Tier2_Walls__Timber_Dark": 3288,
+    "HO_Castle_Keep_Tier2_Walls__Timber_Light": 2688,
+    "HO_Castle_Keep_Tier2_Walls__Wood_Planks": 12,
+    "HO_Castle_Keep_Tier2_RoofTiles": 12552,
+    "HO_Castle_Keep_Tier2_RoofFrame__Plaster_White": 1528,
+    "HO_Castle_Keep_Tier2_RoofFrame__Timber_Dark": 248,
+    "HO_Castle_Keep_Tier2_Gable__Gold_Leaf": 32,
+    "HO_Castle_Keep_Tier2_Gable__Plaster_White": 696,
+    "HO_Castle_Keep_Tier2_Gable__RoofTile_Clay": 1944
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": false
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Castle_Keep_Tier2_Walls__Plaster_White",
+    "tris": 1272,
+    "tris_per_material": {
+     "Plaster_White": 1272
+    },
+    "under_limit": true,
+    "dims": [
+     36.4,
+     28.4,
+     9.0
+    ],
+    "parts": 64,
+    "floating": 32,
+    "closed_parts": 50,
+    "open_parts": 14,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier2_Walls__Shoji_Paper",
+    "tris": 336,
+    "tris_per_material": {
+     "Shoji_Paper": 336
+    },
+    "under_limit": true,
+    "dims": [
+     36.4,
+     28.4,
+     9.0
+    ],
+    "parts": 28,
+    "floating": 0,
+    "closed_parts": 28,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier2_Walls__Timber_Dark",
+    "tris": 3288,
+    "tris_per_material": {
+     "Timber_Dark": 3288
+    },
+    "under_limit": true,
+    "dims": [
+     36.4,
+     28.4,
+     9.0
+    ],
+    "parts": 202,
+    "floating": 0,
+    "closed_parts": 178,
+    "open_parts": 24,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier2_Walls__Timber_Light",
+    "tris": 2688,
+    "tris_per_material": {
+     "Timber_Light": 2688
+    },
+    "under_limit": true,
+    "dims": [
+     36.4,
+     28.4,
+     9.0
+    ],
+    "parts": 140,
+    "floating": 0,
+    "closed_parts": 112,
+    "open_parts": 28,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier2_Walls__Wood_Planks",
+    "tris": 12,
+    "tris_per_material": {
+     "Wood_Planks": 12
+    },
+    "under_limit": true,
+    "dims": [
+     36.4,
+     28.4,
+     9.0
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier2_RoofTiles",
+    "tris": 12552,
+    "tris_per_material": {
+     "RoofTile_Clay": 12552
+    },
+    "under_limit": true,
+    "dims": [
+     43.903,
+     35.903,
+     3.408
+    ],
+    "parts": 314,
+    "floating": 0,
+    "closed_parts": 168,
+    "open_parts": 149,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier2_RoofFrame__Plaster_White",
+    "tris": 1528,
+    "tris_per_material": {
+     "Plaster_White": 1528
+    },
+    "under_limit": true,
+    "dims": [
+     42.86,
+     34.86,
+     3.014
+    ],
+    "parts": 6,
+    "floating": 0,
+    "closed_parts": 4,
+    "open_parts": 2,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier2_RoofFrame__Timber_Dark",
+    "tris": 248,
+    "tris_per_material": {
+     "Timber_Dark": 248
+    },
+    "under_limit": true,
+    "dims": [
+     42.86,
+     34.86,
+     3.014
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier2_Gable__Gold_Leaf",
+    "tris": 32,
+    "tris_per_material": {
+     "Gold_Leaf": 32
+    },
+    "under_limit": true,
+    "dims": [
+     11.758,
+     34.064,
+     5.304
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier2_Gable__Plaster_White",
+    "tris": 696,
+    "tris_per_material": {
+     "Plaster_White": 696
+    },
+    "under_limit": true,
+    "dims": [
+     11.758,
+     34.064,
+     5.304
+    ],
+    "parts": 10,
+    "floating": 0,
+    "closed_parts": 6,
+    "open_parts": 4,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier2_Gable__RoofTile_Clay",
+    "tris": 1944,
+    "tris_per_material": {
+     "RoofTile_Clay": 1944
+    },
+    "under_limit": true,
+    "dims": [
+     11.758,
+     34.064,
+     5.304
+    ],
+    "parts": 48,
+    "floating": 0,
+    "closed_parts": 26,
+    "open_parts": 22,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [],
+  "notes": "Keep part exported on its own: shares the keep origin, place at the SAME CFrame as the other keep parts (they stack automatically). | meshes: HO_Castle_Keep_Tier2_Walls__Plaster_White (1272), HO_Castle_Keep_Tier2_Walls__Shoji_Paper (336), HO_Castle_Keep_Tier2_Walls__Timber_Dark (3288), HO_Castle_Keep_Tier2_Walls__Timber_Light (2688), HO_Castle_Keep_Tier2_Walls__Wood_Planks (12), HO_Castle_Keep_Tier2_RoofTiles (12552), HO_Castle_Keep_Tier2_RoofFrame__Plaster_White (1528), HO_Castle_Keep_Tier2_RoofFrame__Timber_Dark (248), HO_Castle_Keep_Tier2_Gable__Gold_Leaf (32), HO_Castle_Keep_Tier2_Gable__Plaster_White (696), HO_Castle_Keep_Tier2_Gable__RoofTile_Clay (1944)"
+ },
+ {
+  "name": "HO_Castle_Keep_Tier3",
+  "phase": "Phase1",
+  "category": "Castle",
+  "type": "Mesh group",
+  "file": "assets/Phase1/Castle/HO_Castle_Keep_Tier3.fbx",
+  "tris": 22444,
+  "textures": [
+   "Gold_Leaf",
+   "Plaster_White",
+   "RoofTile_Clay",
+   "Shoji_Paper",
+   "Timber_Dark",
+   "Timber_Light",
+   "Wood_Planks"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 752,
+   "inverted_parts": 0,
+   "dims": [
+    38.863,
+    30.863,
+    13.804
+   ],
+   "meshes": {
+    "HO_Castle_Keep_Tier3_Walls__Plaster_White": 1176,
+    "HO_Castle_Keep_Tier3_Walls__Shoji_Paper": 336,
+    "HO_Castle_Keep_Tier3_Walls__Timber_Dark": 3120,
+    "HO_Castle_Keep_Tier3_Walls__Timber_Light": 2688,
+    "HO_Castle_Keep_Tier3_Walls__Wood_Planks": 12,
+    "HO_Castle_Keep_Tier3_RoofTiles": 10952,
+    "HO_Castle_Keep_Tier3_RoofFrame__Plaster_White": 1384,
+    "HO_Castle_Keep_Tier3_RoofFrame__Timber_Dark": 224,
+    "HO_Castle_Keep_Tier3_Gable__Gold_Leaf": 32,
+    "HO_Castle_Keep_Tier3_Gable__Plaster_White": 640,
+    "HO_Castle_Keep_Tier3_Gable__RoofTile_Clay": 1880
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": false
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Castle_Keep_Tier3_Walls__Plaster_White",
+    "tris": 1176,
+    "tris_per_material": {
+     "Plaster_White": 1176
+    },
+    "under_limit": true,
+    "dims": [
+     32.4,
+     24.4,
+     9.0
+    ],
+    "parts": 56,
+    "floating": 28,
+    "closed_parts": 42,
+    "open_parts": 14,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier3_Walls__Shoji_Paper",
+    "tris": 336,
+    "tris_per_material": {
+     "Shoji_Paper": 336
+    },
+    "under_limit": true,
+    "dims": [
+     32.4,
+     24.4,
+     9.0
+    ],
+    "parts": 28,
+    "floating": 0,
+    "closed_parts": 28,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier3_Walls__Timber_Dark",
+    "tris": 3120,
+    "tris_per_material": {
+     "Timber_Dark": 3120
+    },
+    "under_limit": true,
+    "dims": [
+     32.4,
+     24.4,
+     9.0
+    ],
+    "parts": 194,
+    "floating": 0,
+    "closed_parts": 172,
+    "open_parts": 22,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier3_Walls__Timber_Light",
+    "tris": 2688,
+    "tris_per_material": {
+     "Timber_Light": 2688
+    },
+    "under_limit": true,
+    "dims": [
+     32.4,
+     24.4,
+     9.0
+    ],
+    "parts": 140,
+    "floating": 0,
+    "closed_parts": 112,
+    "open_parts": 28,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier3_Walls__Wood_Planks",
+    "tris": 12,
+    "tris_per_material": {
+     "Wood_Planks": 12
+    },
+    "under_limit": true,
+    "dims": [
+     32.4,
+     24.4,
+     9.0
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier3_RoofTiles",
+    "tris": 10952,
+    "tris_per_material": {
+     "RoofTile_Clay": 10952
+    },
+    "under_limit": true,
+    "dims": [
+     38.863,
+     30.863,
+     3.233
+    ],
+    "parts": 266,
+    "floating": 0,
+    "closed_parts": 144,
+    "open_parts": 125,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier3_RoofFrame__Plaster_White",
+    "tris": 1384,
+    "tris_per_material": {
+     "Plaster_White": 1384
+    },
+    "under_limit": true,
+    "dims": [
+     37.82,
+     29.82,
+     2.877
+    ],
+    "parts": 6,
+    "floating": 0,
+    "closed_parts": 4,
+    "open_parts": 2,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier3_RoofFrame__Timber_Dark",
+    "tris": 224,
+    "tris_per_material": {
+     "Timber_Dark": 224
+    },
+    "under_limit": true,
+    "dims": [
+     37.82,
+     29.82,
+     2.877
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier3_Gable__Gold_Leaf",
+    "tris": 32,
+    "tris_per_material": {
+     "Gold_Leaf": 32
+    },
+    "under_limit": true,
+    "dims": [
+     37.664,
+     9.762,
+     4.704
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier3_Gable__Plaster_White",
+    "tris": 640,
+    "tris_per_material": {
+     "Plaster_White": 640
+    },
+    "under_limit": true,
+    "dims": [
+     37.664,
+     9.762,
+     4.704
+    ],
+    "parts": 10,
+    "floating": 0,
+    "closed_parts": 6,
+    "open_parts": 4,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier3_Gable__RoofTile_Clay",
+    "tris": 1880,
+    "tris_per_material": {
+     "RoofTile_Clay": 1880
+    },
+    "under_limit": true,
+    "dims": [
+     37.664,
+     9.762,
+     4.704
+    ],
+    "parts": 48,
+    "floating": 0,
+    "closed_parts": 26,
+    "open_parts": 22,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [],
+  "notes": "Keep part exported on its own: shares the keep origin, place at the SAME CFrame as the other keep parts (they stack automatically). | meshes: HO_Castle_Keep_Tier3_Walls__Plaster_White (1176), HO_Castle_Keep_Tier3_Walls__Shoji_Paper (336), HO_Castle_Keep_Tier3_Walls__Timber_Dark (3120), HO_Castle_Keep_Tier3_Walls__Timber_Light (2688), HO_Castle_Keep_Tier3_Walls__Wood_Planks (12), HO_Castle_Keep_Tier3_RoofTiles (10952), HO_Castle_Keep_Tier3_RoofFrame__Plaster_White (1384), HO_Castle_Keep_Tier3_RoofFrame__Timber_Dark (224), HO_Castle_Keep_Tier3_Gable__Gold_Leaf (32), HO_Castle_Keep_Tier3_Gable__Plaster_White (640), HO_Castle_Keep_Tier3_Gable__RoofTile_Clay (1880)"
+ },
+ {
+  "name": "HO_Castle_Keep_Tier4",
+  "phase": "Phase1",
+  "category": "Castle",
+  "type": "Mesh group",
+  "file": "assets/Phase1/Castle/HO_Castle_Keep_Tier4.fbx",
+  "tris": 17268,
+  "textures": [
+   "Plaster_White",
+   "RoofTile_Clay",
+   "Shoji_Paper",
+   "Timber_Dark",
+   "Timber_Light",
+   "Wood_Planks"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 576,
+   "inverted_parts": 0,
+   "dims": [
+    34.664,
+    26.664,
+    12.017
+   ],
+   "meshes": {
+    "HO_Castle_Keep_Tier4_Walls__Plaster_White": 936,
+    "HO_Castle_Keep_Tier4_Walls__Shoji_Paper": 240,
+    "HO_Castle_Keep_Tier4_Walls__Timber_Dark": 2448,
+    "HO_Castle_Keep_Tier4_Walls__Timber_Light": 1920,
+    "HO_Castle_Keep_Tier4_Walls__Wood_Planks": 12,
+    "HO_Castle_Keep_Tier4_RoofTiles": 10216,
+    "HO_Castle_Keep_Tier4_RoofFrame__Plaster_White": 1288,
+    "HO_Castle_Keep_Tier4_RoofFrame__Timber_Dark": 208
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": false
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Castle_Keep_Tier4_Walls__Plaster_White",
+    "tris": 936,
+    "tris_per_material": {
+     "Plaster_White": 936
+    },
+    "under_limit": true,
+    "dims": [
+     28.4,
+     20.4,
+     9.0
+    ],
+    "parts": 48,
+    "floating": 24,
+    "closed_parts": 38,
+    "open_parts": 10,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier4_Walls__Shoji_Paper",
+    "tris": 240,
+    "tris_per_material": {
+     "Shoji_Paper": 240
+    },
+    "under_limit": true,
+    "dims": [
+     28.4,
+     20.4,
+     9.0
+    ],
+    "parts": 20,
+    "floating": 0,
+    "closed_parts": 20,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier4_Walls__Timber_Dark",
+    "tris": 2448,
+    "tris_per_material": {
+     "Timber_Dark": 2448
+    },
+    "under_limit": true,
+    "dims": [
+     28.4,
+     20.4,
+     9.0
+    ],
+    "parts": 150,
+    "floating": 0,
+    "closed_parts": 132,
+    "open_parts": 18,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier4_Walls__Timber_Light",
+    "tris": 1920,
+    "tris_per_material": {
+     "Timber_Light": 1920
+    },
+    "under_limit": true,
+    "dims": [
+     28.4,
+     20.4,
+     9.0
+    ],
+    "parts": 100,
+    "floating": 0,
+    "closed_parts": 80,
+    "open_parts": 20,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier4_Walls__Wood_Planks",
+    "tris": 12,
+    "tris_per_material": {
+     "Wood_Planks": 12
+    },
+    "under_limit": true,
+    "dims": [
+     28.4,
+     20.4,
+     9.0
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier4_RoofTiles",
+    "tris": 10216,
+    "tris_per_material": {
+     "RoofTile_Clay": 10216
+    },
+    "under_limit": true,
+    "dims": [
+     34.664,
+     26.664,
+     3.267
+    ],
+    "parts": 250,
+    "floating": 0,
+    "closed_parts": 136,
+    "open_parts": 117,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier4_RoofFrame__Plaster_White",
+    "tris": 1288,
+    "tris_per_material": {
+     "Plaster_White": 1288
+    },
+    "under_limit": true,
+    "dims": [
+     33.62,
+     25.62,
+     2.913
+    ],
+    "parts": 6,
+    "floating": 0,
+    "closed_parts": 4,
+    "open_parts": 2,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier4_RoofFrame__Timber_Dark",
+    "tris": 208,
+    "tris_per_material": {
+     "Timber_Dark": 208
+    },
+    "under_limit": true,
+    "dims": [
+     33.62,
+     25.62,
+     2.913
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [],
+  "notes": "Keep part exported on its own: shares the keep origin, place at the SAME CFrame as the other keep parts (they stack automatically). | meshes: HO_Castle_Keep_Tier4_Walls__Plaster_White (936), HO_Castle_Keep_Tier4_Walls__Shoji_Paper (240), HO_Castle_Keep_Tier4_Walls__Timber_Dark (2448), HO_Castle_Keep_Tier4_Walls__Timber_Light (1920), HO_Castle_Keep_Tier4_Walls__Wood_Planks (12), HO_Castle_Keep_Tier4_RoofTiles (10216), HO_Castle_Keep_Tier4_RoofFrame__Plaster_White (1288), HO_Castle_Keep_Tier4_RoofFrame__Timber_Dark (208)"
+ },
+ {
+  "name": "HO_Castle_Keep_Tier5",
+  "phase": "Phase1",
+  "category": "Castle",
+  "type": "Mesh group",
+  "file": "assets/Phase1/Castle/HO_Castle_Keep_Tier5.fbx",
+  "tris": 33222,
+  "textures": [
+   "Black_Lacquer",
+   "Gold_Leaf",
+   "Plaster_White",
+   "Red_Lacquer",
+   "RoofTile_Clay",
+   "Shoji_Paper",
+   "Timber_Dark",
+   "Timber_Light",
+   "Wood_Planks"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 1076,
+   "inverted_parts": 0,
+   "dims": [
+    32.964,
+    24.964,
+    25.363
+   ],
+   "meshes": {
+    "HO_Castle_Keep_Tier5_Walls__Plaster_White": 1200,
+    "HO_Castle_Keep_Tier5_Walls__Shoji_Paper": 480,
+    "HO_Castle_Keep_Tier5_Walls__Timber_Dark": 3720,
+    "HO_Castle_Keep_Tier5_Walls__Timber_Light": 3840,
+    "HO_Castle_Keep_Tier5_Walls__Wood_Planks": 12,
+    "HO_Castle_Keep_Tier5_Balcony__Red_Lacquer": 984,
+    "HO_Castle_Keep_Tier5_Balcony__Wood_Planks": 48,
+    "HO_Castle_Keep_Tier5_RoofTiles": 15530,
+    "HO_Castle_Keep_Tier5_RoofFrame__Gold_Leaf": 256,
+    "HO_Castle_Keep_Tier5_RoofFrame__Plaster_White": 6740,
+    "HO_Castle_Keep_Tier5_Gable__Black_Lacquer": 80,
+    "HO_Castle_Keep_Tier5_Gable__Gold_Leaf": 332
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": false
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Castle_Keep_Tier5_Walls__Plaster_White",
+    "tris": 1200,
+    "tris_per_material": {
+     "Plaster_White": 1200
+    },
+    "under_limit": true,
+    "dims": [
+     24.4,
+     16.4,
+     9.0
+    ],
+    "parts": 40,
+    "floating": 20,
+    "closed_parts": 20,
+    "open_parts": 20,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier5_Walls__Shoji_Paper",
+    "tris": 480,
+    "tris_per_material": {
+     "Shoji_Paper": 480
+    },
+    "under_limit": true,
+    "dims": [
+     24.4,
+     16.4,
+     9.0
+    ],
+    "parts": 40,
+    "floating": 0,
+    "closed_parts": 40,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier5_Walls__Timber_Dark",
+    "tris": 3720,
+    "tris_per_material": {
+     "Timber_Dark": 3720
+    },
+    "under_limit": true,
+    "dims": [
+     24.4,
+     16.4,
+     9.0
+    ],
+    "parts": 232,
+    "floating": 0,
+    "closed_parts": 206,
+    "open_parts": 26,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier5_Walls__Timber_Light",
+    "tris": 3840,
+    "tris_per_material": {
+     "Timber_Light": 3840
+    },
+    "under_limit": true,
+    "dims": [
+     24.4,
+     16.4,
+     9.0
+    ],
+    "parts": 200,
+    "floating": 0,
+    "closed_parts": 160,
+    "open_parts": 40,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier5_Walls__Wood_Planks",
+    "tris": 12,
+    "tris_per_material": {
+     "Wood_Planks": 12
+    },
+    "under_limit": true,
+    "dims": [
+     24.4,
+     16.4,
+     9.0
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier5_Balcony__Red_Lacquer",
+    "tris": 984,
+    "tris_per_material": {
+     "Red_Lacquer": 984
+    },
+    "under_limit": true,
+    "dims": [
+     27.2,
+     19.2,
+     3.0
+    ],
+    "parts": 82,
+    "floating": 0,
+    "closed_parts": 82,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Red_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier5_Balcony__Wood_Planks",
+    "tris": 48,
+    "tris_per_material": {
+     "Wood_Planks": 48
+    },
+    "under_limit": true,
+    "dims": [
+     27.2,
+     19.2,
+     3.0
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier5_RoofTiles",
+    "tris": 15530,
+    "tris_per_material": {
+     "RoofTile_Clay": 15530
+    },
+    "under_limit": true,
+    "dims": [
+     32.619,
+     24.619,
+     10.403
+    ],
+    "parts": 253,
+    "floating": 0,
+    "closed_parts": 155,
+    "open_parts": 120,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier5_RoofFrame__Gold_Leaf",
+    "tris": 256,
+    "tris_per_material": {
+     "Gold_Leaf": 256
+    },
+    "under_limit": true,
+    "dims": [
+     32.964,
+     24.964,
+     9.96
+    ],
+    "parts": 18,
+    "floating": 14,
+    "closed_parts": 18,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier5_RoofFrame__Plaster_White",
+    "tris": 6740,
+    "tris_per_material": {
+     "Plaster_White": 6740
+    },
+    "under_limit": true,
+    "dims": [
+     32.964,
+     24.964,
+     9.96
+    ],
+    "parts": 193,
+    "floating": 0,
+    "closed_parts": 79,
+    "open_parts": 114,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier5_Gable__Black_Lacquer",
+    "tris": 80,
+    "tris_per_material": {
+     "Black_Lacquer": 80
+    },
+    "under_limit": true,
+    "dims": [
+     24.784,
+     1.44,
+     5.26
+    ],
+    "parts": 4,
+    "floating": 0,
+    "closed_parts": 4,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Keep_Tier5_Gable__Gold_Leaf",
+    "tris": 332,
+    "tris_per_material": {
+     "Gold_Leaf": 332
+    },
+    "under_limit": true,
+    "dims": [
+     24.784,
+     1.44,
+     5.26
+    ],
+    "parts": 12,
+    "floating": 0,
+    "closed_parts": 12,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [],
+  "notes": "Keep part exported on its own: shares the keep origin, place at the SAME CFrame as the other keep parts (they stack automatically). | meshes: HO_Castle_Keep_Tier5_Walls__Plaster_White (1200), HO_Castle_Keep_Tier5_Walls__Shoji_Paper (480), HO_Castle_Keep_Tier5_Walls__Timber_Dark (3720), HO_Castle_Keep_Tier5_Walls__Timber_Light (3840), HO_Castle_Keep_Tier5_Walls__Wood_Planks (12), HO_Castle_Keep_Tier5_Balcony__Red_Lacquer (984), HO_Castle_Keep_Tier5_Balcony__Wood_Planks (48), HO_Castle_Keep_Tier5_RoofTiles (15530), HO_Castle_Keep_Tier5_RoofFrame__Gold_Leaf (256), HO_Castle_Keep_Tier5_RoofFrame__Plaster_White (6740), HO_Castle_Keep_Tier5_Gable__Black_Lacquer (80), HO_Castle_Keep_Tier5_Gable__Gold_Leaf (332)"
+ },
+ {
+  "name": "HO_Castle_Yagura",
+  "phase": "Phase1",
+  "category": "Castle",
+  "type": "Mesh group",
+  "file": "assets/Phase1/Castle/HO_Castle_Yagura.fbx",
+  "tris": 35014,
+  "textures": [
+   "Black_Lacquer",
+   "Gold_Leaf",
+   "Iron_Wrought",
+   "Plaster_White",
+   "RoofTile_Clay",
+   "Shoji_Paper",
+   "Stone_Granite",
+   "Timber_Dark",
+   "Timber_Light",
+   "Wood_Planks"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 1101,
+   "inverted_parts": 0,
+   "dims": [
+    22.265,
+    18.265,
+    29.968
+   ],
+   "meshes": {
+    "HO_Castle_Yagura_Structure": 3736,
+    "HO_Castle_Yagura_Tier1__Plaster_White": 552,
+    "HO_Castle_Yagura_Tier1__Shoji_Paper": 144,
+    "HO_Castle_Yagura_Tier1__Timber_Dark": 1488,
+    "HO_Castle_Yagura_Tier1__Timber_Light": 1152,
+    "HO_Castle_Yagura_Tier1_RoofTiles": 8064,
+    "HO_Castle_Yagura_Tier1_RoofFrame__Gold_Leaf": 16,
+    "HO_Castle_Yagura_Tier1_RoofFrame__Plaster_White": 1268,
+    "HO_Castle_Yagura_Tier1_RoofFrame__Timber_Dark": 156,
+    "HO_Castle_Yagura_Tier2__Plaster_White": 600,
+    "HO_Castle_Yagura_Tier2__Shoji_Paper": 240,
+    "HO_Castle_Yagura_Tier2__Timber_Dark": 1968,
+    "HO_Castle_Yagura_Tier2__Timber_Light": 1920,
+    "HO_Castle_Yagura_Tier2_RoofTiles": 9058,
+    "HO_Castle_Yagura_Tier2_RoofFrame__Black_Lacquer": 80,
+    "HO_Castle_Yagura_Tier2_RoofFrame__Gold_Leaf": 588,
+    "HO_Castle_Yagura_Tier2_RoofFrame__Plaster_White": 3984
+   },
+   "pivot_bottom_center": true,
+   "pivot_z0": true
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Castle_Yagura_Structure",
+    "tris": 3736,
+    "tris_per_material": {
+     "Stone_Granite": 3736
+    },
+    "under_limit": true,
+    "dims": [
+     16.6,
+     12.6,
+     1.0
+    ],
+    "parts": 138,
+    "floating": 0,
+    "closed_parts": 138,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": true
+   },
+   {
+    "name": "HO_Castle_Yagura_Tier1__Plaster_White",
+    "tris": 552,
+    "tris_per_material": {
+     "Plaster_White": 552
+    },
+    "under_limit": true,
+    "dims": [
+     16.4,
+     12.4,
+     9.0
+    ],
+    "parts": 28,
+    "floating": 14,
+    "closed_parts": 22,
+    "open_parts": 6,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Yagura_Tier1__Shoji_Paper",
+    "tris": 144,
+    "tris_per_material": {
+     "Shoji_Paper": 144
+    },
+    "under_limit": true,
+    "dims": [
+     16.4,
+     12.4,
+     9.0
+    ],
+    "parts": 12,
+    "floating": 0,
+    "closed_parts": 12,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Yagura_Tier1__Timber_Dark",
+    "tris": 1488,
+    "tris_per_material": {
+     "Timber_Dark": 1488
+    },
+    "under_limit": true,
+    "dims": [
+     16.4,
+     12.4,
+     9.0
+    ],
+    "parts": 94,
+    "floating": 0,
+    "closed_parts": 84,
+    "open_parts": 10,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Yagura_Tier1__Timber_Light",
+    "tris": 1152,
+    "tris_per_material": {
+     "Timber_Light": 1152
+    },
+    "under_limit": true,
+    "dims": [
+     16.4,
+     12.4,
+     9.0
+    ],
+    "parts": 60,
+    "floating": 0,
+    "closed_parts": 48,
+    "open_parts": 12,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Yagura_Tier1_RoofTiles",
+    "tris": 8064,
+    "tris_per_material": {
+     "RoofTile_Clay": 8064
+    },
+    "under_limit": true,
+    "dims": [
+     22.265,
+     18.265,
+     4.854
+    ],
+    "parts": 190,
+    "floating": 0,
+    "closed_parts": 107,
+    "open_parts": 86,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Yagura_Tier1_RoofFrame__Gold_Leaf",
+    "tris": 16,
+    "tris_per_material": {
+     "Gold_Leaf": 16
+    },
+    "under_limit": true,
+    "dims": [
+     21.22,
+     17.22,
+     4.225
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Yagura_Tier1_RoofFrame__Plaster_White",
+    "tris": 1268,
+    "tris_per_material": {
+     "Plaster_White": 1268
+    },
+    "under_limit": true,
+    "dims": [
+     21.22,
+     17.22,
+     4.225
+    ],
+    "parts": 11,
+    "floating": 0,
+    "closed_parts": 7,
+    "open_parts": 4,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Yagura_Tier1_RoofFrame__Timber_Dark",
+    "tris": 156,
+    "tris_per_material": {
+     "Timber_Dark": 156
+    },
+    "under_limit": true,
+    "dims": [
+     21.22,
+     17.22,
+     4.225
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Yagura_Tier2__Plaster_White",
+    "tris": 600,
+    "tris_per_material": {
+     "Plaster_White": 600
+    },
+    "under_limit": true,
+    "dims": [
+     12.4,
+     8.4,
+     9.0
+    ],
+    "parts": 20,
+    "floating": 10,
+    "closed_parts": 10,
+    "open_parts": 10,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Yagura_Tier2__Shoji_Paper",
+    "tris": 240,
+    "tris_per_material": {
+     "Shoji_Paper": 240
+    },
+    "under_limit": true,
+    "dims": [
+     12.4,
+     8.4,
+     9.0
+    ],
+    "parts": 20,
+    "floating": 0,
+    "closed_parts": 20,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Yagura_Tier2__Timber_Dark",
+    "tris": 1968,
+    "tris_per_material": {
+     "Timber_Dark": 1968
+    },
+    "under_limit": true,
+    "dims": [
+     12.4,
+     8.4,
+     9.0
+    ],
+    "parts": 122,
+    "floating": 0,
+    "closed_parts": 108,
+    "open_parts": 14,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Yagura_Tier2__Timber_Light",
+    "tris": 1920,
+    "tris_per_material": {
+     "Timber_Light": 1920
+    },
+    "under_limit": true,
+    "dims": [
+     12.4,
+     8.4,
+     9.0
+    ],
+    "parts": 100,
+    "floating": 0,
+    "closed_parts": 80,
+    "open_parts": 20,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Yagura_Tier2_RoofTiles",
+    "tris": 9058,
+    "tris_per_material": {
+     "RoofTile_Clay": 9058
+    },
+    "under_limit": true,
+    "dims": [
+     18.911,
+     14.911,
+     6.919
+    ],
+    "parts": 162,
+    "floating": 0,
+    "closed_parts": 107,
+    "open_parts": 68,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Yagura_Tier2_RoofFrame__Black_Lacquer",
+    "tris": 80,
+    "tris_per_material": {
+     "Black_Lacquer": 80
+    },
+    "under_limit": true,
+    "dims": [
+     18.936,
+     14.936,
+     10.968
+    ],
+    "parts": 4,
+    "floating": 0,
+    "closed_parts": 4,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Yagura_Tier2_RoofFrame__Gold_Leaf",
+    "tris": 588,
+    "tris_per_material": {
+     "Gold_Leaf": 588
+    },
+    "under_limit": true,
+    "dims": [
+     18.936,
+     14.936,
+     10.968
+    ],
+    "parts": 30,
+    "floating": 26,
+    "closed_parts": 30,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Castle_Yagura_Tier2_RoofFrame__Plaster_White",
+    "tris": 3984,
+    "tris_per_material": {
+     "Plaster_White": 3984
+    },
+    "under_limit": true,
+    "dims": [
+     18.936,
+     14.936,
+     10.968
+    ],
+    "parts": 108,
+    "floating": 0,
+    "closed_parts": 43,
+    "open_parts": 66,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [],
+  "notes": "16x12 two-tier watchtower on a stone plinth; pivot = footprint centre at ground; front faces -Z. | meshes: HO_Castle_Yagura_Structure (3736), HO_Castle_Yagura_Tier1__Plaster_White (552), HO_Castle_Yagura_Tier1__Shoji_Paper (144), HO_Castle_Yagura_Tier1__Timber_Dark (1488), HO_Castle_Yagura_Tier1__Timber_Light (1152), HO_Castle_Yagura_Tier1_RoofTiles (8064), HO_Castle_Yagura_Tier1_RoofFrame__Gold_Leaf (16), HO_Castle_Yagura_Tier1_RoofFrame__Plaster_White (1268), HO_Castle_Yagura_Tier1_RoofFrame__Timber_Dark (156), HO_Castle_Yagura_Tier2__Plaster_White (600), HO_Castle_Yagura_Tier2__Shoji_Paper (240), HO_Castle_Yagura_Tier2__Timber_Dark (1968), HO_Castle_Yagura_Tier2__Timber_Light (1920), HO_Castle_Yagura_Tier2_RoofTiles (9058), HO_Castle_Yagura_Tier2_RoofFrame__Black_Lacquer (80), HO_Castle_Yagura_Tier2_RoofFrame__Gold_Leaf (588), HO_Castle_Yagura_Tier2_RoofFrame__Plaster_White (3984)"
+ },
+ {
+  "name": "HO_Wall_Castle_Corner",
+  "phase": "Phase1",
+  "category": "Castle",
+  "type": "Mesh",
+  "file": "assets/Phase1/Castle/HO_Wall_Castle_Corner.fbx",
+  "tris": 4032,
+  "textures": [
+   "Black_Lacquer",
+   "Plaster_White",
+   "RoofTile_Clay",
+   "Stone_Fitted",
+   "Timber_Dark"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 120,
+   "inverted_parts": 0,
+   "dims": [
+    18.093,
+    18.093,
+    8.99
+   ],
+   "meshes": {
+    "HO_Wall_Castle_Corner__Black_Lacquer": 24,
+    "HO_Wall_Castle_Corner__Plaster_White": 1164,
+    "HO_Wall_Castle_Corner__RoofTile_Clay": 2652,
+    "HO_Wall_Castle_Corner__Stone_Fitted": 24,
+    "HO_Wall_Castle_Corner__Timber_Dark": 168
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": true
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Wall_Castle_Corner__Black_Lacquer",
+    "tris": 24,
+    "tris_per_material": {
+     "Black_Lacquer": 24
+    },
+    "under_limit": true,
+    "dims": [
+     18.093,
+     18.093,
+     8.99
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Wall_Castle_Corner__Plaster_White",
+    "tris": 1164,
+    "tris_per_material": {
+     "Plaster_White": 1164
+    },
+    "under_limit": true,
+    "dims": [
+     18.093,
+     18.093,
+     8.99
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Wall_Castle_Corner__RoofTile_Clay",
+    "tris": 2652,
+    "tris_per_material": {
+     "RoofTile_Clay": 2652
+    },
+    "under_limit": true,
+    "dims": [
+     18.093,
+     18.093,
+     8.99
+    ],
+    "parts": 100,
+    "floating": 0,
+    "closed_parts": 130,
+    "open_parts": 2,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Wall_Castle_Corner__Stone_Fitted",
+    "tris": 24,
+    "tris_per_material": {
+     "Stone_Fitted": 24
+    },
+    "under_limit": true,
+    "dims": [
+     18.093,
+     18.093,
+     8.99
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Stone_Fitted"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Wall_Castle_Corner__Timber_Dark",
+    "tris": 168,
+    "tris_per_material": {
+     "Timber_Dark": 168
+    },
+    "under_limit": true,
+    "dims": [
+     18.093,
+     18.093,
+     8.99
+    ],
+    "parts": 14,
+    "floating": 8,
+    "closed_parts": 14,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [],
+  "notes": "L-shaped corner: legs 16 long toward -X and toward +Z (back); origin = the corner on the wall centre lines. | meshes: HO_Wall_Castle_Corner__Black_Lacquer (24), HO_Wall_Castle_Corner__Plaster_White (1164), HO_Wall_Castle_Corner__RoofTile_Clay (2652), HO_Wall_Castle_Corner__Stone_Fitted (24), HO_Wall_Castle_Corner__Timber_Dark (168)"
+ },
+ {
+  "name": "HO_Wall_Castle_End_16",
+  "phase": "Phase1",
+  "category": "Castle",
+  "type": "Mesh",
+  "file": "assets/Phase1/Castle/HO_Wall_Castle_End_16.fbx",
+  "tris": 2034,
+  "textures": [
+   "Black_Lacquer",
+   "Plaster_White",
+   "RoofTile_Clay",
+   "Stone_Fitted",
+   "Timber_Dark"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 62,
+   "inverted_parts": 0,
+   "dims": [
+    17.0,
+    3.586,
+    8.99
+   ],
+   "meshes": {
+    "HO_Wall_Castle_End_16__Black_Lacquer": 12,
+    "HO_Wall_Castle_End_16__Plaster_White": 588,
+    "HO_Wall_Castle_End_16__RoofTile_Clay": 1338,
+    "HO_Wall_Castle_End_16__Stone_Fitted": 12,
+    "HO_Wall_Castle_End_16__Timber_Dark": 84
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": true
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Wall_Castle_End_16__Black_Lacquer",
+    "tris": 12,
+    "tris_per_material": {
+     "Black_Lacquer": 12
+    },
+    "under_limit": true,
+    "dims": [
+     17.0,
+     3.586,
+     8.99
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Wall_Castle_End_16__Plaster_White",
+    "tris": 588,
+    "tris_per_material": {
+     "Plaster_White": 588
+    },
+    "under_limit": true,
+    "dims": [
+     17.0,
+     3.586,
+     8.99
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Wall_Castle_End_16__RoofTile_Clay",
+    "tris": 1338,
+    "tris_per_material": {
+     "RoofTile_Clay": 1338
+    },
+    "under_limit": true,
+    "dims": [
+     17.0,
+     3.586,
+     8.99
+    ],
+    "parts": 51,
+    "floating": 0,
+    "closed_parts": 66,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Wall_Castle_End_16__Stone_Fitted",
+    "tris": 12,
+    "tris_per_material": {
+     "Stone_Fitted": 12
+    },
+    "under_limit": true,
+    "dims": [
+     17.0,
+     3.586,
+     8.99
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Stone_Fitted"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Wall_Castle_End_16__Timber_Dark",
+    "tris": 84,
+    "tris_per_material": {
+     "Timber_Dark": 84
+    },
+    "under_limit": true,
+    "dims": [
+     17.0,
+     3.586,
+     8.99
+    ],
+    "parts": 7,
+    "floating": 4,
+    "closed_parts": 7,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [],
+  "notes": "As straight, with a capped end pillar at +X. | meshes: HO_Wall_Castle_End_16__Black_Lacquer (12), HO_Wall_Castle_End_16__Plaster_White (588), HO_Wall_Castle_End_16__RoofTile_Clay (1338), HO_Wall_Castle_End_16__Stone_Fitted (12), HO_Wall_Castle_End_16__Timber_Dark (84)"
+ },
+ {
+  "name": "HO_Wall_Castle_Straight_16",
+  "phase": "Phase1",
+  "category": "Castle",
+  "type": "Mesh",
+  "file": "assets/Phase1/Castle/HO_Wall_Castle_Straight_16.fbx",
+  "tris": 2010,
+  "textures": [
+   "Black_Lacquer",
+   "Plaster_White",
+   "RoofTile_Clay",
+   "Stone_Fitted",
+   "Timber_Dark"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 60,
+   "inverted_parts": 0,
+   "dims": [
+    16.6,
+    3.586,
+    8.99
+   ],
+   "meshes": {
+    "HO_Wall_Castle_Straight_16__Black_Lacquer": 12,
+    "HO_Wall_Castle_Straight_16__Plaster_White": 576,
+    "HO_Wall_Castle_Straight_16__RoofTile_Clay": 1326,
+    "HO_Wall_Castle_Straight_16__Stone_Fitted": 12,
+    "HO_Wall_Castle_Straight_16__Timber_Dark": 84
+   },
+   "pivot_bottom_center": true,
+   "pivot_z0": true
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Wall_Castle_Straight_16__Black_Lacquer",
+    "tris": 12,
+    "tris_per_material": {
+     "Black_Lacquer": 12
+    },
+    "under_limit": true,
+    "dims": [
+     16.6,
+     3.586,
+     8.99
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": true
+   },
+   {
+    "name": "HO_Wall_Castle_Straight_16__Plaster_White",
+    "tris": 576,
+    "tris_per_material": {
+     "Plaster_White": 576
+    },
+    "under_limit": true,
+    "dims": [
+     16.6,
+     3.586,
+     8.99
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": true
+   },
+   {
+    "name": "HO_Wall_Castle_Straight_16__RoofTile_Clay",
+    "tris": 1326,
+    "tris_per_material": {
+     "RoofTile_Clay": 1326
+    },
+    "under_limit": true,
+    "dims": [
+     16.6,
+     3.586,
+     8.99
+    ],
+    "parts": 50,
+    "floating": 0,
+    "closed_parts": 65,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": true
+   },
+   {
+    "name": "HO_Wall_Castle_Straight_16__Stone_Fitted",
+    "tris": 12,
+    "tris_per_material": {
+     "Stone_Fitted": 12
+    },
+    "under_limit": true,
+    "dims": [
+     16.6,
+     3.586,
+     8.99
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Stone_Fitted"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": true
+   },
+   {
+    "name": "HO_Wall_Castle_Straight_16__Timber_Dark",
+    "tris": 84,
+    "tris_per_material": {
+     "Timber_Dark": 84
+    },
+    "under_limit": true,
+    "dims": [
+     16.6,
+     3.586,
+     8.99
+    ],
+    "parts": 7,
+    "floating": 4,
+    "closed_parts": 7,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": true
+   }
+  ],
+  "renders": [],
+  "notes": "Castle wall (dobei) 16 long x 1.6 thick: stone footing, white plaster, loopholes, tiled coping. Origin = bottom centre on the wall centre line; outside face = front (-Z). | meshes: HO_Wall_Castle_Straight_16__Black_Lacquer (12), HO_Wall_Castle_Straight_16__Plaster_White (576), HO_Wall_Castle_Straight_16__RoofTile_Clay (1326), HO_Wall_Castle_Straight_16__Stone_Fitted (12), HO_Wall_Castle_Straight_16__Timber_Dark (84)"
+ },
+ {
+  "name": "HO_Wall_Ishigaki_Corner_Inner",
+  "phase": "Phase1",
+  "category": "Castle",
+  "type": "Mesh",
+  "file": "assets/Phase1/Castle/HO_Wall_Ishigaki_Corner_Inner.fbx",
+  "tris": 4016,
+  "textures": [
+   "Black_Lacquer",
+   "Cloth_Navy",
+   "Cloth_White",
+   "Earth_Packed",
+   "Gold_Leaf",
+   "Iron_Wrought",
+   "Namako_Wall",
+   "Plaster_White",
+   "Red_Lacquer",
+   "RoofTile_Clay",
+   "Shoji_Paper",
+   "Stone_Fitted",
+   "Stone_Granite",
+   "Tatami",
+   "Timber_Dark",
+   "Timber_Light",
+   "Wood_Planks"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "name": "HO_Wall_Ishigaki_Corner_Inner",
+   "tris": 4016,
+   "tris_per_material": {
+    "Stone_Granite": 4016
+   },
+   "under_limit": true,
+   "dims": [
+    20.0,
+    20.0,
+    16.0
+   ],
+   "parts": 125,
+   "floating": 0,
+   "closed_parts": 125,
+   "open_parts": 0,
+   "inverted_parts": 0,
+   "textures": [
+    "Black_Lacquer",
+    "Cloth_Navy",
+    "Cloth_White",
+    "Earth_Packed",
+    "Gold_Leaf",
+    "Iron_Wrought",
+    "Namako_Wall",
+    "Plaster_White",
+    "Red_Lacquer",
+    "RoofTile_Clay",
+    "Shoji_Paper",
+    "Stone_Fitted",
+    "Stone_Granite",
+    "Tatami",
+    "Timber_Dark",
+    "Timber_Light",
+    "Wood_Planks"
+   ],
+   "textures_ok": true,
+   "pivot_bottom_center": false
+  },
+  "renders": [],
+  "notes": "Concave corner, 16 each way; origin = the re-entrant corner of the top edge. Height 16."
+ },
+ {
+  "name": "HO_Wall_Ishigaki_Corner_Outer",
+  "phase": "Phase1",
+  "category": "Castle",
+  "type": "Mesh",
+  "file": "assets/Phase1/Castle/HO_Wall_Ishigaki_Corner_Outer.fbx",
+  "tris": 4496,
+  "textures": [
+   "Black_Lacquer",
+   "Cloth_Navy",
+   "Cloth_White",
+   "Earth_Packed",
+   "Gold_Leaf",
+   "Iron_Wrought",
+   "Namako_Wall",
+   "Plaster_White",
+   "Red_Lacquer",
+   "RoofTile_Clay",
+   "Shoji_Paper",
+   "Stone_Fitted",
+   "Stone_Granite",
+   "Tatami",
+   "Timber_Dark",
+   "Timber_Light",
+   "Wood_Planks"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "name": "HO_Wall_Ishigaki_Corner_Outer",
+   "tris": 4496,
+   "tris_per_material": {
+    "Stone_Granite": 4496
+   },
+   "under_limit": true,
+   "dims": [
+    19.156,
+    19.094,
+    16.0
+   ],
+   "parts": 140,
+   "floating": 0,
+   "closed_parts": 140,
+   "open_parts": 0,
+   "inverted_parts": 0,
+   "textures": [
+    "Black_Lacquer",
+    "Cloth_Navy",
+    "Cloth_White",
+    "Earth_Packed",
+    "Gold_Leaf",
+    "Iron_Wrought",
+    "Namako_Wall",
+    "Plaster_White",
+    "Red_Lacquer",
+    "RoofTile_Clay",
+    "Shoji_Paper",
+    "Stone_Fitted",
+    "Stone_Granite",
+    "Tatami",
+    "Timber_Dark",
+    "Timber_Light",
+    "Wood_Planks"
+   ],
+   "textures_ok": true,
+   "pivot_bottom_center": false
+  },
+  "renders": [],
+  "notes": "Convex corner, 16 each way; origin = the corner of the top edge; platform lies behind (+Z) and left (-X); interlocking corner stones. Height 16."
+ },
+ {
+  "name": "HO_Wall_Ishigaki_Stepped_16",
+  "phase": "Phase1",
+  "category": "Castle",
+  "type": "Mesh",
+  "file": "assets/Phase1/Castle/HO_Wall_Ishigaki_Stepped_16.fbx",
+  "tris": 1872,
+  "textures": [
+   "Black_Lacquer",
+   "Cloth_Navy",
+   "Cloth_White",
+   "Earth_Packed",
+   "Gold_Leaf",
+   "Iron_Wrought",
+   "Namako_Wall",
+   "Plaster_White",
+   "Red_Lacquer",
+   "RoofTile_Clay",
+   "Shoji_Paper",
+   "Stone_Fitted",
+   "Stone_Granite",
+   "Tatami",
+   "Timber_Dark",
+   "Timber_Light",
+   "Wood_Planks"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "name": "HO_Wall_Ishigaki_Stepped_16",
+   "tris": 1872,
+   "tris_per_material": {
+    "Stone_Granite": 1872
+   },
+   "under_limit": true,
+   "dims": [
+    16.0,
+    7.058,
+    16.0
+   ],
+   "parts": 62,
+   "floating": 0,
+   "closed_parts": 63,
+   "open_parts": 0,
+   "inverted_parts": 0,
+   "textures": [
+    "Black_Lacquer",
+    "Cloth_Navy",
+    "Cloth_White",
+    "Earth_Packed",
+    "Gold_Leaf",
+    "Iron_Wrought",
+    "Namako_Wall",
+    "Plaster_White",
+    "Red_Lacquer",
+    "RoofTile_Clay",
+    "Shoji_Paper",
+    "Stone_Fitted",
+    "Stone_Granite",
+    "Tatami",
+    "Timber_Dark",
+    "Timber_Light",
+    "Wood_Planks"
+   ],
+   "textures_ok": true,
+   "pivot_bottom_center": false
+  },
+  "renders": [],
+  "notes": "16 long; left half 16 tall, right half 12 tall (steps down 4). Origin = bottom of the wall directly below the TOP edge of the stone face (the terrace edge); the battered base flares out toward the front (-Z) by 3 studs; solid fill 4 studs behind. Height 16."
+ },
+ {
+  "name": "HO_Wall_Ishigaki_Straight_16",
+  "phase": "Phase1",
+  "category": "Castle",
+  "type": "Mesh",
+  "file": "assets/Phase1/Castle/HO_Wall_Ishigaki_Straight_16.fbx",
+  "tris": 2280,
+  "textures": [
+   "Black_Lacquer",
+   "Cloth_Navy",
+   "Cloth_White",
+   "Earth_Packed",
+   "Gold_Leaf",
+   "Iron_Wrought",
+   "Namako_Wall",
+   "Plaster_White",
+   "Red_Lacquer",
+   "RoofTile_Clay",
+   "Shoji_Paper",
+   "Stone_Fitted",
+   "Stone_Granite",
+   "Tatami",
+   "Timber_Dark",
+   "Timber_Light",
+   "Wood_Planks"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "name": "HO_Wall_Ishigaki_Straight_16",
+   "tris": 2280,
+   "tris_per_material": {
+    "Stone_Granite": 2280
+   },
+   "under_limit": true,
+   "dims": [
+    16.0,
+    7.151,
+    16.0
+   ],
+   "parts": 71,
+   "floating": 0,
+   "closed_parts": 71,
+   "open_parts": 0,
+   "inverted_parts": 0,
+   "textures": [
+    "Black_Lacquer",
+    "Cloth_Navy",
+    "Cloth_White",
+    "Earth_Packed",
+    "Gold_Leaf",
+    "Iron_Wrought",
+    "Namako_Wall",
+    "Plaster_White",
+    "Red_Lacquer",
+    "RoofTile_Clay",
+    "Shoji_Paper",
+    "Stone_Fitted",
+    "Stone_Granite",
+    "Tatami",
+    "Timber_Dark",
+    "Timber_Light",
+    "Wood_Planks"
+   ],
+   "textures_ok": true,
+   "pivot_bottom_center": false
+  },
+  "renders": [],
+  "notes": "16 long. Origin = bottom of the wall directly below the TOP edge of the stone face (the terrace edge); the battered base flares out toward the front (-Z) by 3 studs; solid fill 4 studs behind. Height 16."
+ },
+ {
+  "name": "HO_Wall_Ishigaki_Straight_8",
+  "phase": "Phase1",
+  "category": "Castle",
+  "type": "Mesh",
+  "file": "assets/Phase1/Castle/HO_Wall_Ishigaki_Straight_8.fbx",
+  "tris": 1256,
+  "textures": [
+   "Black_Lacquer",
+   "Cloth_Navy",
+   "Cloth_White",
+   "Earth_Packed",
+   "Gold_Leaf",
+   "Iron_Wrought",
+   "Namako_Wall",
+   "Plaster_White",
+   "Red_Lacquer",
+   "RoofTile_Clay",
+   "Shoji_Paper",
+   "Stone_Fitted",
+   "Stone_Granite",
+   "Tatami",
+   "Timber_Dark",
+   "Timber_Light",
+   "Wood_Planks"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "name": "HO_Wall_Ishigaki_Straight_8",
+   "tris": 1256,
+   "tris_per_material": {
+    "Stone_Granite": 1256
+   },
+   "under_limit": true,
+   "dims": [
+    8.0,
+    7.164,
+    16.0
+   ],
+   "parts": 39,
+   "floating": 0,
+   "closed_parts": 39,
+   "open_parts": 0,
+   "inverted_parts": 0,
+   "textures": [
+    "Black_Lacquer",
+    "Cloth_Navy",
+    "Cloth_White",
+    "Earth_Packed",
+    "Gold_Leaf",
+    "Iron_Wrought",
+    "Namako_Wall",
+    "Plaster_White",
+    "Red_Lacquer",
+    "RoofTile_Clay",
+    "Shoji_Paper",
+    "Stone_Fitted",
+    "Stone_Granite",
+    "Tatami",
+    "Timber_Dark",
+    "Timber_Light",
+    "Wood_Planks"
+   ],
+   "textures_ok": true,
+   "pivot_bottom_center": false
+  },
+  "renders": [],
+  "notes": "8 long. Origin = bottom of the wall directly below the TOP edge of the stone face (the terrace edge); the battered base flares out toward the front (-Z) by 3 studs; solid fill 4 studs behind. Height 16."
+ },
+ {
   "name": "HO_Found_Plinth_12",
   "phase": "Phase1",
   "category": "Foundations",

@@ -22,7 +22,7 @@ Status: ✅ done · 🔨 in progress · ⬜ to do
 - ✅ Irimoya S (16×12), M (24×16), L (32×24): curved cover-tile rows, stepped pan courses, disc eave tiles, stacked ridges + onigawara, upturned corners, rafters / brackets / purlin / corner beams, plaster gable with timber pattern, barge boards, gegyo
 - ✅ Kirizuma gable roof S (12×12), L (20×16)
 - ✅ Hisashi pent roof / shop awning 4 / 8 / 12 wide
-- ⬜ Chidori gable, Karahafu (castle)
+- ✅ Chidori gable, Karahafu, tiered skirt roofs, gold shachihoko (castle; in tools/castlekit.py)
 - ⬜ Snap pieces: straight ridge (4/8 studs), ridge end, eave corner, eave straight (4/8)
 
 ## 2c. Walls & fronts (8 / 12 / 16 wide, 9-stud floors)
@@ -37,10 +37,10 @@ Status: ✅ done · 🔨 in progress · ⬜ to do
 - ✅ Props library: futon, low table, andon, tansu, barrels, komodaru, tawara, sacks, jars, crates, shelves, counter, katana, sword racks, samurai armour, spear rack, anvil, forge, bellows, quench trough, tool rack, orbs, crystals, ofuda, chochin
 
 ## 2e. Castle & fortifications
-- ⬜ Ishigaki modules (straight / corner / stepped, fitted stones)
-- ⬜ Castle wall (straight / corner / end), yagura, gatehouse
-- ⬜ Keep: 5 tiers, exported per tier, with shachihoko
-- ⬜ Academy Hall (dojo + interior)
+- ✅ Ishigaki modules: Straight 16/8, Corner Outer/Inner (sangi-zumi interlock), Stepped 16 (fitted stones, fan-slope batter)
+- ✅ Castle wall (dobei): straight 16, end, corner (stone footing, plaster, loopholes, tiled coping); yagura (2 tiers); gatehouse (iron-strapped doors, banners)
+- ✅ Keep: 5 tiers on a 16-tall ishigaki base, exported whole + per part (Base, Tier1-5), karahafu/chidori gables, balcony, gold shachihoko
+- ✅ Academy Hall (raised dojo, veranda, shoji doors; interior: kamidana, weapon racks, taiko, lanterns)
 
 ## 2f. Harbour & props
 - ⬜ Quay wall + steps, pier modules, 2 boats, lighthouse, arched bridge, stone stairs, torii, tōrō, chōchin, banner poles, carts, barrels, crates, sake jars, sacks, market stalls, benches, well, bamboo fences, pines ×3, cliff rocks ×3

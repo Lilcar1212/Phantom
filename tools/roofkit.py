@@ -131,7 +131,7 @@ class Irimoya:
                 b.face(q, 'RoofTile_Clay', uv, out=eave_dir if same else up)
                 if not same:
                     qb = [bv[i][j], bv[i][j + 1], bv[i + 1][j + 1], bv[i + 1][j]]
-                    b.face(qb, 'Timber_Light', uv, out=-up)
+                    b.face(qb, getattr(self, 'soffit', 'Timber_Light'), uv, out=-up)
         # eave edge + ridge edge
         for row, out, mat in ((0, eave_dir, 'RoofTile_Clay'), (len(tv) - 1, -eave_dir, 'Timber_Dark')):
             for j in range(n_across):

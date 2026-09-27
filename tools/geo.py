@@ -232,3 +232,43 @@ def lathe(b, center, profile, segs, mat, smooth=True, uvd=UVD, axis='z', cap_bot
             b.face(list(ring), mat, [(0.5 + 0.5 * math.cos(2 * math.pi * i / segs), 0.5 + 0.5 * math.sin(2 * math.pi * i / segs))
                                      for i in range(segs)], out=Vector((0, 0, sign)))
     return rings
+
+
+def loft(b, sections, mat, uvd=UVD, caps=True, smooth=False):
+    """Loft closed cross-sections. sections = [[Vector, ...], ...] (same vertex count, consistent order).
+    Faces point away from the loft's centre line (per-face check), so any convex-ish section works."""
+    rings = [[b.bm.verts.new(p) for p in sec] for sec in sections]
+    m = len(sections[0])
+    centres = [sum(sec, Vector()) / m for sec in sections]
+    for k in range(len(rings) - 1):
+        for j in range(m):
+            q = [rings[k][j], rings[k][(j + 1) % m], rings[k + 1][(j + 1) % m], rings[k + 1][j]]
+            ctr = sum((v.co for v in q), Vector()) / 4
+            axis = (centres[k + 1] - centres[k])
+            c = centres[k].lerp(centres[k + 1], 0.5)
+            outv = ctr - c
+            if axis.length > 1e-9:
+                an = axis.normalized(); outv -= an * outv.dot(an)
+            uvs = [(v.co.x * uvd + v.co.y * uvd * 0.5, v.co.z * uvd) for v in q]
+            b.face(q, mat, uvs, out=outv, smooth=smooth)
+    if caps:
+        for idx, sign in ((0, -1), (len(rings) - 1, 1)):
+            a = centres[1] - centres[0] if idx == 0 else centres[-1] - centres[-2]
+            b.face(list(rings[idx]), mat, [(v.co.x * uvd, v.co.z * uvd) for v in rings[idx]], out=a * sign)
+    return rings
+
+
+def tube(b, path, radii, segs, mat, up=Vector((0, 0, 1)), smooth=True, caps=True, uvd=UVD, squash=1.0):
+    """Tube with a per-point radius along a polyline (circular section, optionally squashed vertically)."""
+    path = [Vector(p) for p in path]
+    secs = []
+    n = len(path)
+    for i, p in enumerate(path):
+        d = (path[min(i + 1, n - 1)] - path[max(i - 1, 0)]).normalized()
+        side = d.cross(up)
+        if side.length < 1e-6: side = d.cross(Vector((0, 1, 0)))
+        side.normalize(); u = side.cross(d).normalized()
+        r = max(radii[i], 1e-3)
+        secs.append([p + side * (r * math.cos(2 * math.pi * k / segs)) + u * (r * squash * math.sin(2 * math.pi * k / segs))
+                     for k in range(segs)])
+    return loft(b, secs, mat, uvd=uvd, caps=caps, smooth=smooth)

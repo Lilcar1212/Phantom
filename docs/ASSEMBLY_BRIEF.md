@@ -97,6 +97,13 @@ If a lot's size doesn't match a roof exactly, use the closest roof that is **not
 **Special buildings**: `assets/Phase1/Buildings/`. Same pivot and facing rules; see `docs/AI_WORKPLAN.md` Phases D–E for placement and gameplay hookup:
 `HO_Bldg_TidewatchInn` (40×24), `HO_Bldg_Blacksmith` (20×24), `HO_Bldg_Armory` (16×20), `HO_Bldg_GeneralStore` (20×16), `HO_Bldg_MagicStall` (8×12), `HO_Bldg_Kura` (20×24). The `_Glow` meshes (lanterns, embers, orbs) should be Neon with a PointLight.
 
+**Castle**: `assets/Phase1/Castle/`
+- `HO_Castle_Keep`: origin = bottom centre of its stone base; place at the keep position on the Hon-maru (+80), front facing S. `HO_Castle_Keep_Base / _Tier1 … _Tier5` are the same keep split into parts. They share the keep origin, so place them all at the same CFrame (use either the whole keep or the parts, not both).
+- `HO_Castle_Yagura` (16×12), `HO_Castle_Gatehouse` (28×12), `HO_Castle_AcademyHall` (44×28 + veranda): pivot = footprint centre at ground; the builder script places them at the yagura, gate and academy positions.
+- The gatehouse doors are part groups `…_Door1__*` and `…_Door2__*`. Swing them around the hinge posts at local x = ±6.
+- **Ishigaki modules** `HO_Wall_Ishigaki_*` (16 tall): origin = bottom of the wall, directly below the top edge of the stone face. Put the origin at the terrace edge at the lower level, facing out over the drop. The base flares 3 studs outward. Use them to dress the terrain terrace edges (Straight_16/8 along edges, Corner_Outer/Inner at corners, Stepped_16 where the top height changes).
+- **Castle walls** `HO_Wall_Castle_*`: 1.6 thick, 9 tall; origin = bottom centre on the wall centre line. Run them along the top of every castle bailey edge (replacing the builder's white wall parts).
+
 **Wall kit** (`assets/Phase1/Walls`, `Fronts`, `Foundations`), for custom buildings:
 
 - Every wall is exactly **L × 1 × 9** (L = 4/8/12/16). The pivot is at the bottom-centre of the wall. The **outside face is the front (−Z)**. Put the wall's centre line **0.5 stud inside** the footprint edge. The wall runs along the footprint edge with its full outer length; walls on adjacent sides overlap at the corners.
