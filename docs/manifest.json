@@ -2686,6 +2686,7 @@
   "checks": {
    "under_limit": true,
    "floating": 0,
+   "parts": 42,
    "inverted_parts": 0,
    "dims": [
     8.0,
@@ -2696,7 +2697,8 @@
     "HO_Wall_Front_Koshi_8": 396,
     "HO_Wall_Front_Koshi_8_Door": 288
    },
-   "pivot_bottom_center": true
+   "pivot_bottom_center": true,
+   "pivot_z0": true
   },
   "mesh_checks": [
    {
@@ -2763,7 +2765,10 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Fronts/HO_Wall_Front_Koshi_8_three_quarter.png",
+   "renders/Phase1/Fronts/HO_Wall_Front_Koshi_8_front.png"
+  ],
   "notes": "L x 1 x 9 studs; outside face = front (-Z); centre line 0.5 inside the footprint edge; koshi lattice shop front with sliding lattice door (7-stud opening) | door panels are separate meshes (slide along local X to open) | meshes: HO_Wall_Front_Koshi_8 (396), HO_Wall_Front_Koshi_8_Door (288)"
  },
  {
@@ -2865,7 +2870,10 @@
    "textures_ok": true,
    "pivot_bottom_center": true
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Fronts/HO_Wall_Front_OpenShop_8_three_quarter.png",
+   "renders/Phase1/Fronts/HO_Wall_Front_OpenShop_8_front.png"
+  ],
   "notes": "L x 1 x 9 studs; outside face = front (-Z); centre line 0.5 inside the footprint edge; open shop front with counter; hang noren under the door band (z = 7)"
  },
  {
@@ -3988,7 +3996,10 @@
    "textures_ok": true,
    "pivot_bottom_center": true
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Walls/HO_Wall_Plaster_Lattice_8_three_quarter.png",
+   "renders/Phase1/Walls/HO_Wall_Plaster_Lattice_8_front.png"
+  ],
   "notes": "L x 1 x 9 studs; outside face = front (-Z); centre line 0.5 inside the footprint edge; lattice windows"
  },
  {
@@ -4199,7 +4210,10 @@
    "textures_ok": true,
    "pivot_bottom_center": true
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Walls/HO_Wall_Plaster_Window_12_three_quarter.png",
+   "renders/Phase1/Walls/HO_Wall_Plaster_Window_12_front.png"
+  ],
   "notes": "L x 1 x 9 studs; outside face = front (-Z); centre line 0.5 inside the footprint edge; shoji windows"
  },
  {
@@ -4358,7 +4372,10 @@
    "textures_ok": true,
    "pivot_bottom_center": true
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Walls/HO_Wall_Upper_Mushiko_8_three_quarter.png",
+   "renders/Phase1/Walls/HO_Wall_Upper_Mushiko_8_front.png"
+  ],
   "notes": "L x 1 x 9 studs; outside face = front (-Z); centre line 0.5 inside the footprint edge; upper floor, mushiko slat windows"
  }
 ]
