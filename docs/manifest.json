@@ -11158,7 +11158,11 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Castle/HO_Castle_AcademyHall_three_quarter.png",
+   "renders/Phase1/Castle/HO_Castle_AcademyHall_front.png",
+   "renders/Phase1/Castle/HO_Castle_AcademyHall_interior.png"
+  ],
   "notes": "44x28 Sword Academy dojo (+2.6 veranda all round): raised floor at +3, front steps, shoji doors in the centre bays, interior with kamidana shelf, weapon + spear racks, sword stands, taiko drum, lanterns (Glow). Pivot = footprint centre at ground. | meshes: HO_Castle_AcademyHall_Door1__Shoji_Paper (12), HO_Castle_AcademyHall_Door1__Timber_Light (132), HO_Castle_AcademyHall_Door2__Shoji_Paper (12), HO_Castle_AcademyHall_Door2__Timber_Light (132), HO_Castle_AcademyHall_Door3__Shoji_Paper (12), HO_Castle_AcademyHall_Door3__Timber_Light (132), HO_Castle_AcademyHall_Door4__Shoji_Paper (12), HO_Castle_AcademyHall_Door4__Timber_Light (132), HO_Castle_AcademyHall_Door5__Shoji_Paper (12), HO_Castle_AcademyHall_Door5__Timber_Light (132), HO_Castle_AcademyHall_Door6__Shoji_Paper (12), HO_Castle_AcademyHall_Door6__Timber_Light (132), HO_Castle_AcademyHall_Interior__Black_Lacquer (1872), HO_Castle_AcademyHall_Interior__Cloth_Crimson (16), HO_Castle_AcademyHall_Interior__Cloth_White (1440), HO_Castle_AcademyHall_Interior__Gold_Leaf (872), HO_Castle_AcademyHall_Interior__Iron_Wrought (308), HO_Castle_AcademyHall_Interior__Red_Lacquer (136), HO_Castle_AcademyHall_Interior__RoofTile_Clay (8), HO_Castle_AcademyHall_Interior__Shoji_Paper (60), HO_Castle_AcademyHall_Interior__Timber_Dark (656), HO_Castle_AcademyHall_Interior__Timber_Light (480), HO_Castle_AcademyHall_Glow (36), HO_Castle_AcademyHall_RoofFrame__Gold_Leaf (208), HO_Castle_AcademyHall_RoofFrame__Plaster_White (160), HO_Castle_AcademyHall_RoofFrame__Timber_Dark (7474), HO_Castle_AcademyHall_RoofFrame__Timber_Light (3940), HO_Castle_AcademyHall_StructureA__Plaster_White (718), HO_Castle_AcademyHall_StructureA__Shoji_Paper (204), HO_Castle_AcademyHall_StructureA__Stone_Fitted (10), HO_Castle_AcademyHall_StructureA__Stone_Granite (4564), HO_Castle_AcademyHall_StructureA__Timber_Dark (2114), HO_Castle_AcademyHall_StructureA__Timber_Light (1632), HO_Castle_AcademyHall_StructureA__Wood_Planks (70), HO_Castle_AcademyHall_StructureB__Plaster_White (722), HO_Castle_AcademyHall_StructureB__Shoji_Paper (204), HO_Castle_AcademyHall_StructureB__Stone_Fitted (2), HO_Castle_AcademyHall_StructureB__Stone_Granite (4564), HO_Castle_AcademyHall_StructureB__Timber_Dark (2072), HO_Castle_AcademyHall_StructureB__Timber_Light (1632), HO_Castle_AcademyHall_StructureB__Wood_Planks (24), HO_Castle_AcademyHall_RoofTilesA (14049), HO_Castle_AcademyHall_RoofTilesB (13937)"
  },
  {
@@ -11705,7 +11709,10 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Castle/HO_Castle_Gatehouse_three_quarter.png",
+   "renders/Phase1/Castle/HO_Castle_Gatehouse_front.png"
+  ],
   "notes": "28x12 gate: stone gate towers, 12-wide passage, iron-strapped doors (Door1/Door2 groups swing on the hinge posts at x = +-6), upper floor, castle roof, navy crest banners. Pivot = footprint centre at ground; front faces -Z. | meshes: HO_Castle_Gatehouse_Base__Stone_Fitted (20), HO_Castle_Gatehouse_Base__Stone_Granite (6736), HO_Castle_Gatehouse_Structure__Stone_Fitted (10), HO_Castle_Gatehouse_Structure__Stone_Granite (12), HO_Castle_Gatehouse_Structure__Timber_Dark (120), HO_Castle_Gatehouse_Structure__Wood_Planks (12), HO_Castle_Gatehouse_Door1__Iron_Wrought (756), HO_Castle_Gatehouse_Door1__Timber_Dark (60), HO_Castle_Gatehouse_Door2__Iron_Wrought (756), HO_Castle_Gatehouse_Door2__Timber_Dark (60), HO_Castle_Gatehouse_Upper__Plaster_White (768), HO_Castle_Gatehouse_Upper__Shoji_Paper (192), HO_Castle_Gatehouse_Upper__Timber_Dark (1992), HO_Castle_Gatehouse_Upper__Timber_Light (1536), HO_Castle_Gatehouse_RoofTiles (14554), HO_Castle_Gatehouse_RoofFrame__Black_Lacquer (80), HO_Castle_Gatehouse_RoofFrame__Gold_Leaf (588), HO_Castle_Gatehouse_RoofFrame__Plaster_White (6582), HO_Castle_Gatehouse_Banners__Black_Lacquer (80), HO_Castle_Gatehouse_Banners__Cloth_Navy (264), HO_Castle_Gatehouse_Banners__Cloth_White (240)"
  },
  {
@@ -13232,7 +13239,10 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Castle/HO_Castle_Keep_three_quarter.png",
+   "renders/Phase1/Castle/HO_Castle_Keep_front.png"
+  ],
   "notes": "Five-tier keep on a 16-tall ishigaki base (base top 44x36, foot 50x42). Origin = bottom centre of the stone base; front (karahafu gable) faces -Z. Tiers: white walls + lattice windows, tiled skirts, karahafu (tier 1), chidori (tiers 2-3), red-railed balcony + gold shachihoko on top. Also exported per part: HO_Castle_Keep_Base / _Tier1 .. _Tier5. | meshes: HO_Castle_Keep_Base_Front (5672), HO_Castle_Keep_Base_Back (5512), HO_Castle_Keep_Base_Right (4872), HO_Castle_Keep_Base_Left (4680), HO_Castle_Keep_Tier1_RoofTiles (13768), HO_Castle_Keep_Tier2_RoofTiles (12552), HO_Castle_Keep_Tier3_RoofTiles (10952), HO_Castle_Keep_Tier4_RoofTiles (10216), HO_Castle_Keep_Tier5_RoofTiles (15530), HO_Castle_Keep_Base_Top__Stone_Fitted (10), HO_Castle_Keep_Base_Top__Stone_Granite (8), HO_Castle_Keep_Tier1_Walls__Plaster_White (1512), HO_Castle_Keep_Tier1_Walls__Shoji_Paper (432), HO_Castle_Keep_Tier1_Walls__Timber_Dark (3960), HO_Castle_Keep_Tier1_Walls__Timber_Light (3456), HO_Castle_Keep_Tier1_Walls__Wood_Planks (12), HO_Castle_Keep_Tier1_RoofFrame__Plaster_White (1672), HO_Castle_Keep_Tier1_RoofFrame__Timber_Dark (272), HO_Castle_Keep_Tier1_Gable__Gold_Leaf (36), HO_Castle_Keep_Tier1_Gable__Plaster_White (502), HO_Castle_Keep_Tier1_Gable__RoofTile_Clay (960), HO_Castle_Keep_Tier2_Walls__Plaster_White (1272), HO_Castle_Keep_Tier2_Walls__Shoji_Paper (336), HO_Castle_Keep_Tier2_Walls__Timber_Dark (3288), HO_Castle_Keep_Tier2_Walls__Timber_Light (2688), HO_Castle_Keep_Tier2_Walls__Wood_Planks (12), HO_Castle_Keep_Tier2_RoofFrame__Plaster_White (1528), HO_Castle_Keep_Tier2_RoofFrame__Timber_Dark (248), HO_Castle_Keep_Tier2_Gable__Gold_Leaf (32), HO_Castle_Keep_Tier2_Gable__Plaster_White (696), HO_Castle_Keep_Tier2_Gable__RoofTile_Clay (1944), HO_Castle_Keep_Tier3_Walls__Plaster_White (1176), HO_Castle_Keep_Tier3_Walls__Shoji_Paper (336), HO_Castle_Keep_Tier3_Walls__Timber_Dark (3120), HO_Castle_Keep_Tier3_Walls__Timber_Light (2688), HO_Castle_Keep_Tier3_Walls__Wood_Planks (12), HO_Castle_Keep_Tier3_RoofFrame__Plaster_White (1384), HO_Castle_Keep_Tier3_RoofFrame__Timber_Dark (224), HO_Castle_Keep_Tier3_Gable__Gold_Leaf (32), HO_Castle_Keep_Tier3_Gable__Plaster_White (640), HO_Castle_Keep_Tier3_Gable__RoofTile_Clay (1880), HO_Castle_Keep_Tier4_Walls__Plaster_White (936), HO_Castle_Keep_Tier4_Walls__Shoji_Paper (240), HO_Castle_Keep_Tier4_Walls__Timber_Dark (2448), HO_Castle_Keep_Tier4_Walls__Timber_Light (1920), HO_Castle_Keep_Tier4_Walls__Wood_Planks (12), HO_Castle_Keep_Tier4_RoofFrame__Plaster_White (1288), HO_Castle_Keep_Tier4_RoofFrame__Timber_Dark (208), HO_Castle_Keep_Tier5_Walls__Plaster_White (1200), HO_Castle_Keep_Tier5_Walls__Shoji_Paper (480), HO_Castle_Keep_Tier5_Walls__Timber_Dark (3720), HO_Castle_Keep_Tier5_Walls__Timber_Light (3840), HO_Castle_Keep_Tier5_Walls__Wood_Planks (12), HO_Castle_Keep_Tier5_Balcony__Red_Lacquer (984), HO_Castle_Keep_Tier5_Balcony__Wood_Planks (48), HO_Castle_Keep_Tier5_RoofFrame__Gold_Leaf (256), HO_Castle_Keep_Tier5_RoofFrame__Plaster_White (6740), HO_Castle_Keep_Tier5_Gable__Black_Lacquer (80), HO_Castle_Keep_Tier5_Gable__Gold_Leaf (332)"
  },
  {
@@ -15399,7 +15409,10 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Castle/HO_Castle_Yagura_three_quarter.png",
+   "renders/Phase1/Castle/HO_Castle_Yagura_front.png"
+  ],
   "notes": "16x12 two-tier watchtower on a stone plinth; pivot = footprint centre at ground; front faces -Z. | meshes: HO_Castle_Yagura_Structure (3736), HO_Castle_Yagura_Tier1__Plaster_White (552), HO_Castle_Yagura_Tier1__Shoji_Paper (144), HO_Castle_Yagura_Tier1__Timber_Dark (1488), HO_Castle_Yagura_Tier1__Timber_Light (1152), HO_Castle_Yagura_Tier1_RoofTiles (8064), HO_Castle_Yagura_Tier1_RoofFrame__Gold_Leaf (16), HO_Castle_Yagura_Tier1_RoofFrame__Plaster_White (1268), HO_Castle_Yagura_Tier1_RoofFrame__Timber_Dark (156), HO_Castle_Yagura_Tier2__Plaster_White (600), HO_Castle_Yagura_Tier2__Shoji_Paper (240), HO_Castle_Yagura_Tier2__Timber_Dark (1968), HO_Castle_Yagura_Tier2__Timber_Light (1920), HO_Castle_Yagura_Tier2_RoofTiles (9058), HO_Castle_Yagura_Tier2_RoofFrame__Black_Lacquer (80), HO_Castle_Yagura_Tier2_RoofFrame__Gold_Leaf (588), HO_Castle_Yagura_Tier2_RoofFrame__Plaster_White (3984)"
  },
  {
@@ -15554,7 +15567,10 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Castle/HO_Wall_Castle_Corner_three_quarter.png",
+   "renders/Phase1/Castle/HO_Wall_Castle_Corner_front.png"
+  ],
   "notes": "L-shaped corner: legs 16 long toward -X and toward +Z (back); origin = the corner on the wall centre lines. | meshes: HO_Wall_Castle_Corner__Black_Lacquer (24), HO_Wall_Castle_Corner__Plaster_White (1164), HO_Wall_Castle_Corner__RoofTile_Clay (2652), HO_Wall_Castle_Corner__Stone_Fitted (24), HO_Wall_Castle_Corner__Timber_Dark (168)"
  },
  {
@@ -15709,7 +15725,10 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Castle/HO_Wall_Castle_End_16_three_quarter.png",
+   "renders/Phase1/Castle/HO_Wall_Castle_End_16_front.png"
+  ],
   "notes": "As straight, with a capped end pillar at +X. | meshes: HO_Wall_Castle_End_16__Black_Lacquer (12), HO_Wall_Castle_End_16__Plaster_White (588), HO_Wall_Castle_End_16__RoofTile_Clay (1338), HO_Wall_Castle_End_16__Stone_Fitted (12), HO_Wall_Castle_End_16__Timber_Dark (84)"
  },
  {
@@ -15864,7 +15883,10 @@
     "pivot_bottom_center": true
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Castle/HO_Wall_Castle_Straight_16_three_quarter.png",
+   "renders/Phase1/Castle/HO_Wall_Castle_Straight_16_front.png"
+  ],
   "notes": "Castle wall (dobei) 16 long x 1.6 thick: stone footing, white plaster, loopholes, tiled coping. Origin = bottom centre on the wall centre line; outside face = front (-Z). | meshes: HO_Wall_Castle_Straight_16__Black_Lacquer (12), HO_Wall_Castle_Straight_16__Plaster_White (576), HO_Wall_Castle_Straight_16__RoofTile_Clay (1326), HO_Wall_Castle_Straight_16__Stone_Fitted (12), HO_Wall_Castle_Straight_16__Timber_Dark (84)"
  },
  {
@@ -15933,7 +15955,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Castle/HO_Wall_Ishigaki_Corner_Inner_three_quarter.png",
+   "renders/Phase1/Castle/HO_Wall_Ishigaki_Corner_Inner_front.png"
+  ],
   "notes": "Concave corner, 16 each way; origin = the re-entrant corner of the top edge. Height 16."
  },
  {
@@ -15971,8 +15996,8 @@
    },
    "under_limit": true,
    "dims": [
-    19.156,
-    19.094,
+    19.16,
+    19.165,
     16.0
    ],
    "parts": 140,
@@ -16002,7 +16027,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Castle/HO_Wall_Ishigaki_Corner_Outer_three_quarter.png",
+   "renders/Phase1/Castle/HO_Wall_Ishigaki_Corner_Outer_front.png"
+  ],
   "notes": "Convex corner, 16 each way; origin = the corner of the top edge; platform lies behind (+Z) and left (-X); interlocking corner stones. Height 16."
  },
  {
@@ -16011,7 +16039,7 @@
   "category": "Castle",
   "type": "Mesh",
   "file": "assets/Phase1/Castle/HO_Wall_Ishigaki_Stepped_16.fbx",
-  "tris": 1872,
+  "tris": 1884,
   "textures": [
    "Black_Lacquer",
    "Cloth_Navy",
@@ -16034,19 +16062,19 @@
   "pivot": "bottom-centre",
   "checks": {
    "name": "HO_Wall_Ishigaki_Stepped_16",
-   "tris": 1872,
+   "tris": 1884,
    "tris_per_material": {
-    "Stone_Granite": 1872
+    "Stone_Granite": 1884
    },
    "under_limit": true,
    "dims": [
     16.0,
-    7.058,
+    7.082,
     16.0
    ],
-   "parts": 62,
+   "parts": 63,
    "floating": 0,
-   "closed_parts": 63,
+   "closed_parts": 64,
    "open_parts": 0,
    "inverted_parts": 0,
    "textures": [
@@ -16071,7 +16099,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Castle/HO_Wall_Ishigaki_Stepped_16_three_quarter.png",
+   "renders/Phase1/Castle/HO_Wall_Ishigaki_Stepped_16_front.png"
+  ],
   "notes": "16 long; left half 16 tall, right half 12 tall (steps down 4). Origin = bottom of the wall directly below the TOP edge of the stone face (the terrace edge); the battered base flares out toward the front (-Z) by 3 studs; solid fill 4 studs behind. Height 16."
  },
  {
@@ -16110,7 +16141,7 @@
    "under_limit": true,
    "dims": [
     16.0,
-    7.151,
+    7.17,
     16.0
    ],
    "parts": 71,
@@ -16140,7 +16171,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Castle/HO_Wall_Ishigaki_Straight_16_three_quarter.png",
+   "renders/Phase1/Castle/HO_Wall_Ishigaki_Straight_16_front.png"
+  ],
   "notes": "16 long. Origin = bottom of the wall directly below the TOP edge of the stone face (the terrace edge); the battered base flares out toward the front (-Z) by 3 studs; solid fill 4 studs behind. Height 16."
  },
  {
@@ -16179,7 +16213,7 @@
    "under_limit": true,
    "dims": [
     8.0,
-    7.164,
+    7.159,
     16.0
    ],
    "parts": 39,
@@ -16209,7 +16243,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Castle/HO_Wall_Ishigaki_Straight_8_three_quarter.png",
+   "renders/Phase1/Castle/HO_Wall_Ishigaki_Straight_8_front.png"
+  ],
   "notes": "8 long. Origin = bottom of the wall directly below the TOP edge of the stone face (the terrace edge); the battered base flares out toward the front (-Z) by 3 studs; solid fill 4 studs behind. Height 16."
  },
  {
