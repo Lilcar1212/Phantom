@@ -497,7 +497,11 @@
     "grid_ok": true
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Buildings/HO_Bldg_Armory_three_quarter.png",
+   "renders/Phase1/Buildings/HO_Bldg_Armory_front.png",
+   "renders/Phase1/Buildings/HO_Bldg_Armory_interior.png"
+  ],
   "notes": "16x20 footprint. Pivot = footprint centre at ground level; front faces -Z (street). 2 storeys. Four lacquered samurai armour stands, spear rack, katana stands + wall racks, counter; crates upstairs. | meshes: HO_Bldg_Armory_Structure (4768), HO_Bldg_Armory_Structure_GF (2352), HO_Bldg_Armory_Door1 (288), HO_Bldg_Armory_Door2 (288), HO_Bldg_Armory_Structure_2F (2640), HO_Bldg_Armory_Interior_GF (9384), HO_Bldg_Armory_Glow (12), HO_Bldg_Armory_Interior_2F (1170), HO_Bldg_Armory_Front (3328), HO_Bldg_Armory_SignFace (12), HO_Bldg_Armory_RoofTiles (6958), HO_Bldg_Armory_RoofFrame (2028)"
  },
  {
@@ -821,7 +825,11 @@
     "grid_ok": true
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Buildings/HO_Bldg_Blacksmith_three_quarter.png",
+   "renders/Phase1/Buildings/HO_Bldg_Blacksmith_front.png",
+   "renders/Phase1/Buildings/HO_Bldg_Blacksmith_interior.png"
+  ],
   "notes": "20x24 footprint. Pivot = footprint centre at ground level; front faces -Z (street). Open front. Forge + chimney, bellows, anvil, quench trough, wall + standing sword racks, tool rack. Glow mesh = forge embers. | meshes: HO_Bldg_Blacksmith_Structure (5744), HO_Bldg_Blacksmith_Structure_GF (3408), HO_Bldg_Blacksmith_Interior_GF (3246), HO_Bldg_Blacksmith_Glow (12), HO_Bldg_Blacksmith_Front (968), HO_Bldg_Blacksmith_SignFace (24), HO_Bldg_Blacksmith_RoofTiles (8838), HO_Bldg_Blacksmith_RoofFrame (2610)"
  },
  {
@@ -1337,7 +1345,11 @@
     "grid_ok": true
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Buildings/HO_Bldg_GeneralStore_three_quarter.png",
+   "renders/Phase1/Buildings/HO_Bldg_GeneralStore_front.png",
+   "renders/Phase1/Buildings/HO_Bldg_GeneralStore_interior.png"
+  ],
   "notes": "20x16 footprint. Pivot = footprint centre at ground level; front faces -Z (street). 2 storeys, open shop front with counter. Shelves of jars, rice bales, sacks, sake casks, barrels, crates, scale + abacus. | meshes: HO_Bldg_GeneralStore_Structure (4768), HO_Bldg_GeneralStore_Structure_GF (1524), HO_Bldg_GeneralStore_Door1 (144), HO_Bldg_GeneralStore_Door2 (144), HO_Bldg_GeneralStore_Door3 (144), HO_Bldg_GeneralStore_Door4 (144), HO_Bldg_GeneralStore_Structure_2F (3744), HO_Bldg_GeneralStore_Interior_GF (9318), HO_Bldg_GeneralStore_Glow (12), HO_Bldg_GeneralStore_Interior_2F (102), HO_Bldg_GeneralStore_Front (4564), HO_Bldg_GeneralStore_SignFace (12), HO_Bldg_GeneralStore_RoofTiles (7406), HO_Bldg_GeneralStore_RoofFrame (2168)"
  },
  {
@@ -1568,7 +1580,10 @@
     "grid_ok": true
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Buildings/HO_Bldg_Kura_three_quarter.png",
+   "renders/Phase1/Buildings/HO_Bldg_Kura_front.png"
+  ],
   "notes": "20x24 footprint. Pivot = footprint centre at ground level; front faces -Z (street). Fire-proof storehouse: 1.6-thick plaster walls, namako tile-lattice lower walls, heavy plaster doors (open) + inner lattice door (Door1), barred windows, crest on gables. | meshes: HO_Bldg_Kura_Structure_GF (1586), HO_Bldg_Kura_Interior_GF (3738), HO_Bldg_Kura_Door1 (132), HO_Bldg_Kura_RoofTiles (8734), HO_Bldg_Kura_RoofFrame (2482)"
  },
  {
@@ -3648,7 +3663,10 @@
     "grid_ok": true
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Buildings/HO_Bldg_MagicStall_three_quarter.png",
+   "renders/Phase1/Buildings/HO_Bldg_MagicStall_front.png"
+  ],
   "notes": "8x12 footprint. Pivot = footprint centre at ground level; front faces -Z (street). Open market stall: canopy, counter, tiered shelves with glowing orbs + crystals, paper lanterns, charms. Glow mesh = orbs/crystals/lanterns (Neon + PointLight). | meshes: HO_Bldg_MagicStall_Canopy (404), HO_Bldg_MagicStall_Structure_GF (1824), HO_Bldg_MagicStall_Glow (1434)"
  },
  {
@@ -3685,7 +3703,7 @@
   "pivot": "bottom-centre",
   "checks": {
    "under_limit": true,
-   "floating": 6,
+   "floating": 0,
    "parts": 2758,
    "inverted_parts": 0,
    "dims": [
@@ -3982,7 +4000,7 @@
      10.3
     ],
     "parts": 429,
-    "floating": 6,
+    "floating": 0,
     "closed_parts": 426,
     "open_parts": 27,
     "inverted_parts": 0,
@@ -4350,7 +4368,12 @@
     "grid_ok": true
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Buildings/HO_Bldg_TidewatchInn_three_quarter.png",
+   "renders/Phase1/Buildings/HO_Bldg_TidewatchInn_front.png",
+   "renders/Phase1/Buildings/HO_Bldg_TidewatchInn_lobby.png",
+   "renders/Phase1/Buildings/HO_Bldg_TidewatchInn_room.png"
+  ],
   "notes": "40x24 footprint. Pivot = footprint centre at ground level; front faces -Z (street). 2 storeys. GF: genkan, lobby w/ reception counter + key board, dining hall, stair. 2F: corridor + 6 guest rooms (tatami, futon, low table, cushions, andon, tansu, sliding door = Door_Room1..6 meshes). Glow mesh = lanterns. | meshes: HO_Bldg_TidewatchInn_Structure (8232), HO_Bldg_TidewatchInn_Structure_GF (6924), HO_Bldg_TidewatchInn_Door1 (288), HO_Bldg_TidewatchInn_Door2 (288), HO_Bldg_TidewatchInn_Structure_2F (10200), HO_Bldg_TidewatchInn_Interior_GF (3644), HO_Bldg_TidewatchInn_Glow (312), HO_Bldg_TidewatchInn_Interior_2F (7820), HO_Bldg_TidewatchInn_Door_Room1 (144), HO_Bldg_TidewatchInn_Door_Room2 (144), HO_Bldg_TidewatchInn_Door_Room3 (144), HO_Bldg_TidewatchInn_Door_Room4 (144), HO_Bldg_TidewatchInn_Door_Room5 (144), HO_Bldg_TidewatchInn_Door_Room6 (144), HO_Bldg_TidewatchInn_Front (5662), HO_Bldg_TidewatchInn_SignFace (12), HO_Bldg_TidewatchInn_RoofFrame (10066), HO_Bldg_TidewatchInn_RoofTilesA (11673), HO_Bldg_TidewatchInn_RoofTilesB (11577)"
  },
  {
