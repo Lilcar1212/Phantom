@@ -27,6 +27,8 @@ local DATA = {tiers={{name="Harbour Promenade",elev=4,poly={{732,40},{772,40},{7
 
 local BOUNDS = {HO_Test_ScaleCube_1x1x1={c={0.0,0.5,0.0},s={1.0,1.0,1.0}},HO_Bldg_Machiya_D={c={0.0,15.109,-0.2},s={21.54,30.218,26.068}},HO_Bldg_Machiya_C={c={0.0,14.98,-0.4},s={17.538,29.961,25.667}},HO_Bldg_Machiya_A={c={0.0,9.191,0.0},s={13.514,18.382,16.834}},HO_Bldg_Machiya_E={c={0.0,15.109,-0.2},s={25.54,30.218,26.068}},HO_Bldg_Armory={c={0.0,15.045,-0.3},s={17.539,30.089,25.867}},HO_Bldg_MagicStall={c={0.0,4.85,-0.815},s={8.8,9.7,13.63}},HO_Bldg_Machiya_F={c={0.0,14.98,-0.4},s={13.538,29.961,25.667}},HO_Bldg_TidewatchInn={c={0.0,16.636,0.0},s={49.054,33.272,33.054}},HO_Bldg_Kura={c={0.0,15.36,-0.709},s={22.147,30.72,29.482}},HO_Bldg_Blacksmith={c={-0.287,12.709,-0.029},s={23.126,25.418,29.743}},HO_Bldg_Machiya_B={c={0.0,14.98,-0.4},s={17.538,29.961,25.667}},HO_Bldg_GeneralStore={c={0.0,14.465,-0.204},s={21.528,28.929,22.06}},HO_Found_Plinth_4={c={0.0,0.5,0.0},s={4.0,1.0,1.6}},HO_Found_Plinth_8={c={0.0,0.5,0.0},s={8.0,1.0,1.6}},HO_Found_Plinth_12={c={0.0,0.5,0.0},s={12.0,1.0,1.6}},HO_Found_Plinth_Corner={c={0.0,0.5,0.0},s={1.6,1.0,1.6}},HO_Found_Plinth_16={c={0.0,0.5,0.0},s={16.0,1.0,1.6}},HO_Roof_Irimoya_Medium={c={0.0,5.747,0.0},s={32.334,11.495,24.334}},HO_Roof_Hisashi_8={c={0.0,1.645,0.0},s={8.066,3.291,3.549}},HO_Roof_Kirizuma_Small={c={0.0,4.191,0.0},s={14.714,8.382,16.834}},HO_Roof_Irimoya_Large={c={0.0,7.185,0.0},s={42.144,14.371,34.144}},HO_Roof_Hisashi_12={c={0.0,1.645,0.0},s={12.066,3.291,3.549}},HO_Roof_Irimoya_Small={c={0.0,5.005,0.0},s={22.915,10.01,18.915}},HO_Roof_Kirizuma_Large={c={0.0,4.997,0.0},s={22.929,9.994,21.854}},HO_Roof_Hisashi_4={c={0.0,1.645,0.0},s={4.066,3.291,3.549}},HO_Wall_Front_OpenShop_12={c={0.0,4.5,0.0},s={12.0,9.0,1.0}},HO_Wall_Door_Shoji_4={c={0.0,4.5,0.0},s={4.0,9.0,1.0}},HO_Wall_Front_Koshi_12={c={0.0,4.5,0.0},s={12.0,9.0,1.0}},HO_Wall_Door_Shoji_8={c={0.0,4.5,0.0},s={8.0,9.0,1.0}},HO_Wall_Balcony_8={c={0.0,2.391,0.0},s={8.0,4.782,2.52}},HO_Wall_Balcony_12={c={0.0,2.391,0.0},s={12.0,4.782,2.52}},HO_Wall_Front_OpenShop_8={c={0.0,4.5,0.0},s={8.0,9.0,1.0}},HO_Wall_Front_Koshi_8={c={0.0,4.5,0.0},s={8.0,9.0,1.0}},HO_Prop_Noren_4_Indigo={c={0.0,1.72,0.0},s={4.5,3.44,0.25}},HO_Prop_Signboard_Hanging={c={0.0,1.65,0.0},s={0.4,3.3,1.936}},HO_Prop_Signboard_Roof={c={0.0,0.925,0.0},s={5.1,1.85,0.95}},HO_Prop_Noren_8_Ochre={c={0.0,1.72,0.0},s={8.5,3.44,0.25}},HO_Prop_Signboard_Standing={c={0.0,2.25,0.0},s={2.2,4.5,1.1}},HO_Prop_Noren_8_Crimson={c={0.0,1.72,0.0},s={8.5,3.44,0.25}},HO_Prop_Noren_8_Indigo={c={0.0,1.72,0.0},s={8.5,3.44,0.25}},HO_Prop_Noren_4_Ochre={c={0.0,1.72,0.0},s={4.5,3.44,0.25}},HO_Prop_Noren_4_Navy={c={0.0,1.72,0.0},s={4.5,3.44,0.25}},HO_Prop_Noren_4_Crimson={c={0.0,1.72,0.0},s={4.5,3.44,0.25}},HO_Prop_Noren_8_Navy={c={0.0,1.72,0.0},s={8.5,3.44,0.25}},HO_Wall_Plaster_Solid_16={c={0.0,4.5,0.0},s={16.0,9.0,1.0}},HO_Wall_Plaster_Lattice_8={c={0.0,4.5,0.0},s={8.0,9.0,1.0}},HO_Wall_Upper_Mushiko_8={c={0.0,4.5,0.0},s={8.0,9.0,1.0}},HO_Wall_Plaster_Window_12={c={0.0,4.5,0.0},s={12.0,9.0,1.0}},HO_Wall_Plaster_Window_8={c={0.0,4.5,0.0},s={8.0,9.0,1.0}},HO_Wall_Plaster_Solid_8={c={0.0,4.5,0.0},s={8.0,9.0,1.0}},HO_Wall_Upper_Mushiko_12={c={0.0,4.5,0.0},s={12.0,9.0,1.0}},HO_Wall_Plaster_Lattice_12={c={0.0,4.5,0.0},s={12.0,9.0,1.0}},HO_Wall_CornerPost={c={0.0,4.5,0.0},s={1.4,9.0,1.4}},HO_Wall_Plaster_Solid_12={c={0.0,4.5,0.0},s={12.0,9.0,1.0}}}
 
+local MESH_SET = {HO_Test_ScaleCube_1x1x1="Debug_Faces",HO_Bldg_Armory_SignFace="Timber_Light",HO_Bldg_Armory_RoofTiles="RoofTile_Clay",HO_Bldg_Blacksmith_SignFace="Timber_Light",HO_Bldg_Blacksmith_RoofTiles="RoofTile_Clay",HO_Bldg_GeneralStore_SignFace="Timber_Light",HO_Bldg_GeneralStore_RoofTiles="RoofTile_Clay",HO_Bldg_Kura_RoofTiles="RoofTile_Clay",HO_Bldg_Machiya_A_SignFace="Timber_Light",HO_Bldg_Machiya_A_RoofTiles="RoofTile_Clay",HO_Bldg_Machiya_B_SignFace="Timber_Light",HO_Bldg_Machiya_B_RoofTiles="RoofTile_Clay",HO_Bldg_Machiya_C_SignFace="Timber_Light",HO_Bldg_Machiya_C_RoofTiles="RoofTile_Clay",HO_Bldg_Machiya_D_SignFace="Timber_Light",HO_Bldg_Machiya_D_RoofTiles="RoofTile_Clay",HO_Bldg_Machiya_E_SignFace="Timber_Light",HO_Bldg_Machiya_E_RoofTiles="RoofTile_Clay",HO_Bldg_Machiya_F_RoofTiles="RoofTile_Clay",HO_Bldg_TidewatchInn_SignFace="Timber_Light",HO_Bldg_TidewatchInn_RoofTilesA="RoofTile_Clay",HO_Bldg_TidewatchInn_RoofTilesB="RoofTile_Clay",HO_Prop_Signboard_Hanging_Face="Timber_Light",HO_Prop_Signboard_Roof_Face="Timber_Light",HO_Prop_Signboard_Standing_Face="Timber_Light",HO_Roof_Irimoya_Large_TilesFront="RoofTile_Clay",HO_Roof_Irimoya_Large_TilesBack="RoofTile_Clay",HO_Roof_Irimoya_Medium_Tiles="RoofTile_Clay",HO_Roof_Irimoya_Small_Tiles="RoofTile_Clay",HO_Roof_Kirizuma_Large_Tiles="RoofTile_Clay",HO_Roof_Kirizuma_Small_Tiles="RoofTile_Clay"}
+
 local ServerStorage = game:GetService("ServerStorage")
 local Lighting = game:GetService("Lighting")
 local Terrain = workspace.Terrain
@@ -546,26 +548,57 @@ function Builder.Build(opts)
 	return root
 end
 
--- Adds SurfaceAppearances to imported MeshParts whose name (or parent model name) mentions a texture set.
-function Builder.ApplyTextures()
-	local lib = ServerStorage:FindFirstChild("HO_Assets")
-	if not lib then warn("No ServerStorage.HO_Assets folder"); return end
-	local count = 0
-	for _, d in ipairs(lib:GetDescendants()) do
-		if d:IsA("MeshPart") and not d:FindFirstChildOfClass("SurfaceAppearance") then
-			for set, ids in pairs(TEXTURES) do
-				if string.find(d.Name, set, 1, true) then
-					local sa = Instance.new("SurfaceAppearance")
+-- Gives every imported MeshPart its ONE SurfaceAppearance. The texture set comes from the part name
+-- ("<Object>__<Set>") or, for single-material parts, from MESH_SET (generated from the manifest).
+-- Source: ReplicatedStorage.HO_Materials.<Set> (a SurfaceAppearance template) if present, else TEXTURES ids.
+function Builder.ApplyTextures(root)
+	root = root or ServerStorage:FindFirstChild("HO_Assets")
+	if not root then warn("No ServerStorage.HO_Assets folder"); return end
+	local lib = game:GetService("ReplicatedStorage"):FindFirstChild("HO_Materials")
+	local count, missing = 0, {}
+	for _, d in ipairs(root:GetDescendants()) do
+		if d:IsA("MeshPart") then
+			local set = string.match(d.Name, "__([%w_]+)$") or MESH_SET[d.Name]
+			local old = d:FindFirstChildOfClass("SurfaceAppearance")
+			if set then
+				local sa
+				if lib and lib:FindFirstChild(set) then
+					sa = lib[set]:Clone()
+				elseif TEXTURES[set] then
+					local ids = TEXTURES[set]
+					sa = Instance.new("SurfaceAppearance")
 					sa.ColorMap = ids.Color or ""; sa.NormalMap = ids.Normal or ""
 					sa.RoughnessMap = ids.Roughness or ""; sa.MetalnessMap = ids.Metalness or ""
+				end
+				if sa then
+					if old then old:Destroy() end
+					sa.Name = set
 					sa.Parent = d
 					count = count + 1
-					break
+				else
+					missing[set] = true
 				end
+			else
+				missing["(unknown set for " .. d.Name .. ")"] = true
 			end
 		end
 	end
-	print("[HO_CityBuilder] SurfaceAppearances added:", count)
+	print("[HO_CityBuilder] SurfaceAppearances applied:", count)
+	for k in pairs(missing) do warn("[HO_CityBuilder] no texture source for", k) end
+end
+
+-- Parts that belong together (e.g. a sliding door split into Door1__Timber_Light + Door1__Shoji_Paper)
+-- share the name before "__". Returns {baseName = {parts}} for a model, handy for door/glow scripts.
+function Builder.GroupParts(model)
+	local groups = {}
+	for _, d in ipairs(model:GetDescendants()) do
+		if d:IsA("BasePart") then
+			local base = string.match(d.Name, "^(.-)__[%w_]+$") or d.Name
+			groups[base] = groups[base] or {}
+			table.insert(groups[base], d)
+		end
+	end
+	return groups
 end
 
 return Builder
