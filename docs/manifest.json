@@ -4038,7 +4038,10 @@
    "textures_ok": true,
    "pivot_bottom_center": true
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Walls/HO_Wall_Plaster_Solid_12_three_quarter.png",
+   "renders/Phase1/Walls/HO_Wall_Plaster_Solid_12_front.png"
+  ],
   "notes": "L x 1 x 9 studs; outside face = front (-Z); centre line 0.5 inside the footprint edge"
  },
  {
@@ -4088,7 +4091,10 @@
    "textures_ok": true,
    "pivot_bottom_center": true
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Walls/HO_Wall_Plaster_Solid_16_three_quarter.png",
+   "renders/Phase1/Walls/HO_Wall_Plaster_Solid_16_front.png"
+  ],
   "notes": "L x 1 x 9 studs; outside face = front (-Z); centre line 0.5 inside the footprint edge"
  },
  {
@@ -4245,7 +4251,10 @@
    "textures_ok": true,
    "pivot_bottom_center": true
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Walls/HO_Wall_Plaster_Window_8_three_quarter.png",
+   "renders/Phase1/Walls/HO_Wall_Plaster_Window_8_front.png"
+  ],
   "notes": "L x 1 x 9 studs; outside face = front (-Z); centre line 0.5 inside the footprint edge; shoji windows"
  },
  {
