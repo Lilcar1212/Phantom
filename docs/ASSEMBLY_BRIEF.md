@@ -60,7 +60,7 @@ Put the JSON into a ModuleScript that returns the string, and decode it with `Ht
 | `streets` | Paths of given `width` along `path` points. Main/cross streets use Cobblestone; alleys use packed dirt. |
 | `stairs` | Stone stairs at centre `c`, footprint `size`, rising between the two tier heights in `rise` (e.g. "32→20"). Steps ~1 stud high. |
 | `key_buildings` | Special buildings (centre `c`, footprint `size`, `facing`, `elev`). **Placeholder:** a block of the footprint size + a proper roof module on top, with a `BillboardGui` label showing its `label` until the real building arrives. |
-| `machiya_lots` | 363 townhouse lots: centre `x,y`, width `w`, depth `d`, `facing`, `storeys` (1–2), `elev`, `asset` (HO_Bldg_Machiya_A–F, still in production). **Placeholder:** walls 9 studs per storey (white-plaster colour, dark wood trim) + the matching roof (below). |
+| `machiya_lots` | 363 townhouse lots: centre `x,y`, width `w`, depth `d`, `facing`, `elev`, `asset`. **Use the finished `HO_Bldg_Machiya_*` buildings (Step 4b).** Use Machiya A where `d` = 12. Ignore the `storeys` field: each variant has a fixed height. |
 | `torii`, `gates`, `yagura` | Red torii, castle gatehouses, corner watchtowers (placeholders for now). |
 | `piers` | Wooden piers from x0 = 772 heading east (`length` 92, `width` 12) at plan-y `y`, with a T-end. Deck at +4. |
 | `bridge`, `causeway` | Arched bridge over the canal; stone causeway from the quay to the lighthouse rock. |
@@ -80,6 +80,28 @@ A roof covers exactly its **footprint** (the outer faces of the walls). Its pivo
 | `HO_Roof_Hisashi_4 / _8 / _12` | 4 / 8 / 12 wide, 3 deep | awning over shop fronts; back face flush on the front wall, bottom ~7–8 studs above the street |
 
 If a lot's size doesn't match a roof exactly, use the closest roof that is **not smaller** than the footprint. Only if needed, stretch it along X by at most 25% (`Model:ScaleTo` is not allowed; resize the placeholder walls instead). Report any footprints that need a new roof size.
+
+## Step 4b: finished buildings (use instead of placeholders)
+
+**Machiya townhouses**: `assets/Phase1/Buildings/HO_Bldg_Machiya_A…F.fbx`. Each one is complete: stone plinth, walls, doors, ground-floor interior, awning, noren, sign and roof.
+
+- **Pivot = centre of the footprint at ground level.** Place each at `planToWorld(lot.x, lot.y, lot.elev)`, rotated by `FACING_YAW[lot.facing]`. The street side is the building's front (−Z). The roof, awning and noren overhang the footprint; that's intended.
+- Sizes (W × D): A 12×12 (1 storey), B 16×20, C 16×20, D 20×20, E 24×20, F 12×20 (2 storeys). The layout's `asset` field already names the right variant by width. **For lots with `d` = 12, use Machiya A** (the others are 20 deep).
+- Mesh parts: `_Structure`, `_Interior`, `_Front`, `_RoofTiles`, `_RoofFrame`, `_SignFace`, `_Door1…n`.
+  - `_Door*` are sliding doors. To open one, tween it along its local X by its own width (about 1.8–2 studs).
+  - `_SignFace` is the blank sign board: put a SurfaceGui on it with the shop name.
+  - Add a warm PointLight (Range 14, Brightness 1.5) at the andon lantern in the back room, and one in the doma.
+- Collision: give `_Structure` and `_Interior` `CollisionFidelity = PreciseConvexDecomposition`. That keeps walls, floors and the doorway walkable. Make the other parts non-collidable. Doors: CanCollide on, toggled off while open.
+
+**Wall kit** (`assets/Phase1/Walls`, `Fronts`, `Foundations`), for custom buildings:
+
+- Every wall is exactly **L × 1 × 9** (L = 4/8/12/16). The pivot is at the bottom-centre of the wall. The **outside face is the front (−Z)**. Put the wall's centre line **0.5 stud inside** the footprint edge. The wall runs along the footprint edge with its full outer length; walls on adjacent sides overlap at the corners.
+- Put `HO_Wall_CornerPost` (1.4 × 1.4 × 9) centred 0.5 inside both edges at every corner. It hides the corner overlap.
+- Stack: `HO_Found_Plinth_*` (1 stud tall, same placement as the walls; corner blocks at corners), then ground floor walls starting at y = 1, then upper walls at y = 10, then the roof at the top wall height.
+- Types: `Plaster_Solid`, `Plaster_Window` (shoji windows), `Plaster_Lattice`, `Upper_Mushiko` (upper-floor slat windows), `Front_Koshi` (lattice shop front with sliding door), `Front_OpenShop` (open front with counter), `Door_Shoji` (sliding panels are separate meshes).
+- `HO_Wall_Balcony_8/12`: the back face goes on the wall; the deck top is pivot + 1.6.
+- `HO_Prop_Noren_4/8_<Colour>`: hang the rod just under the door band (7 studs above the floor), 0.3 stud out from the wall.
+- `HO_Prop_Signboard_Hanging / Roof / Standing`: each has a `_Face` mesh for the text.
 
 ## Step 5: look & lighting (golden hour)
 

@@ -51,7 +51,7 @@ class Builder:
         return self.sweep(pts, prof, mat, up=up, caps=caps, skip_sides=[names.index(s) for s in skip],
                           uv_off=uv_off, smooth=False)
 
-    def box(self, lo, hi, mat, skip=(), uvd=UVD, uv_off=(0, 0)):
+    def box(self, lo, hi, mat, skip=(), uvd=UVD, uv_off=(0, 0), uvv=None):
         lo, hi = Vector(lo), Vector(hi)
         c = [Vector((x, y, z)) for z in (lo.z, hi.z) for y in (lo.y, hi.y) for x in (lo.x, hi.x)]
         v = self.verts(c)
@@ -59,6 +59,7 @@ class Builder:
         quads = {'-z': (0, 1, 3, 2), '+z': (4, 5, 7, 6), '-y': (0, 1, 5, 4), '+y': (2, 3, 7, 6), '-x': (0, 2, 6, 4),
                  '+x': (1, 3, 7, 5)}
         out = []
+        vd = uvd if uvv is None else uvv
         for k, q in quads.items():
             if k in skip: continue
             vs = [v[i] for i in q]
@@ -67,8 +68,8 @@ class Builder:
             for vv in vs:
                 p = vv.co
                 if ax == 2: uvs.append((p.x * uvd + uv_off[0], p.y * uvd + uv_off[1]))
-                elif ax == 1: uvs.append((p.x * uvd + uv_off[0], p.z * uvd + uv_off[1]))
-                else: uvs.append((p.y * uvd + uv_off[0], p.z * uvd + uv_off[1]))
+                elif ax == 1: uvs.append((p.x * uvd + uv_off[0], p.z * vd + uv_off[1]))
+                else: uvs.append((p.y * uvd + uv_off[0], p.z * vd + uv_off[1]))
             n = Vector((0, 0, 0)); n[ax] = 1 if k[0] == '+' else -1
             out.append(self.face(vs, mat, uvs, out=n))
         return out
@@ -102,6 +103,7 @@ class Builder:
         along = [0.0]
         for i in range(1, n): along.append(along[-1] + (path[i] - path[i - 1]).length)
         pc = Vector((sum(x for x, _ in profile) / m, sum(y for _, y in profile) / m))
+        ccw = sum(profile[k][0] * profile[(k + 1) % m][1] - profile[(k + 1) % m][0] * profile[k][1] for k in range(m)) > 0
         for i in range(n - 1):
             for j in range(m):
                 if j in skip_sides: continue
@@ -111,8 +113,7 @@ class Builder:
                 mid2 = (Vector(profile[j]) + Vector(profile[(j + 1) % m])) / 2 - pc
                 # outward = 2D edge normal of the profile, mapped into 3D
                 e = Vector(profile[(j + 1) % m]) - Vector(profile[j])
-                en = Vector((e.y, -e.x))
-                if en.dot(mid2) < 0: en = -en
+                en = Vector((e.y, -e.x)) if ccw else Vector((-e.y, e.x))   # outward from the winding (works for concave)
                 outv = s0 * en.x + u0 * en.y
                 uvs = [(along[i] * uvd + uv_off[0], per[j] * uvd + uv_off[1]),
                        (along[i] * uvd + uv_off[0], per[j + 1] * uvd + uv_off[1]),
@@ -173,3 +174,23 @@ class Builder:
     def deform(self, fn):
         for v in self.bm.verts:
             v.co = fn(v.co)
+
+
+    def beam_box(self, lo, hi, mat, along='x', uv_seed=0.0, skip=()):
+        """Axis-aligned timber box whose wood grain (texture U) runs along its long axis."""
+        lo, hi = Vector(lo), Vector(hi)
+        ax = {'x': 0, 'y': 1, 'z': 2}[along]
+        c = [Vector((x, y, z)) for z in (lo.z, hi.z) for y in (lo.y, hi.y) for x in (lo.x, hi.x)]
+        v = self.verts(c)
+        quads = {'-z': (0, 1, 3, 2), '+z': (4, 5, 7, 6), '-y': (0, 1, 5, 4), '+y': (2, 3, 7, 6), '-x': (0, 2, 6, 4),
+                 '+x': (1, 3, 7, 5)}
+        for k, q in quads.items():
+            if k in skip: continue
+            fa = 'xyz'.index(k[1])
+            vs = [v[i] for i in q]
+            other = [i for i in range(3) if i not in (fa, ax)]
+            o = other[0] if other else (fa + 1) % 3
+            uvs = [(p.co[ax] * UVD + uv_seed, p.co[o] * UVD + uv_seed * 0.37) if ax != fa else
+                   (p.co[(fa + 1) % 3] * UVD + uv_seed, p.co[(fa + 2) % 3] * UVD) for p in vs]
+            n = Vector((0, 0, 0)); n[fa] = 1 if k[0] == '+' else -1
+            self.face(vs, mat, uvs, out=n)

@@ -383,7 +383,7 @@ def _look_at(cam, target):
 
 
 def render_previews(objs, name, subdir='', views=('three_quarter', 'front'), samples=64,
-                    res=(1280, 960), ground=True, extra_views=None):
+                    res=(1280, 960), ground=True, extra_views=None, cams=None):
     scene = bpy.context.scene
     setup_render(scene, res, samples)
     _world_golden(scene)
@@ -423,6 +423,23 @@ def render_previews(objs, name, subdir='', views=('three_quarter', 'front'), sam
         scene.render.filepath = p
         bpy.ops.render.render(write_still=True)
         out.append(os.path.relpath(p, ROOT))
+    for cname, spec in (cams or {}).items():
+        loc, target, lens = spec[:3]
+        lamps = []
+        for lp in (spec[3] if len(spec) > 3 else []):
+            ld = bpy.data.lights.new('Lamp', 'POINT'); ld.energy = 900; ld.color = (1.0, 0.72, 0.45)
+            ld.shadow_soft_size = 0.6
+            lo_ = bpy.data.objects.new('Lamp', ld); link(lo_); lo_.location = Vector(lp); lamps.append(lo_)
+        cam.location = Vector(loc); cam_d.lens = lens
+        _look_at(cam, Vector(target))
+        if ground: helpers[2].hide_render = False
+        p = os.path.join(RENDER_DIR, subdir, f'{name}_{cname}.png')
+        scene.render.filepath = p
+        bpy.ops.render.render(write_still=True)
+        out.append(os.path.relpath(p, ROOT))
+        cam_d.lens = 50
+        for l_ in lamps:
+            bpy.data.objects.remove(l_, do_unlink=True)
     for h in helpers + [cam]:
         bpy.data.objects.remove(h, do_unlink=True)
     return out
@@ -515,19 +532,28 @@ def split_by_material(ob, groups):
 
 
 def publish_group(objs, asset_name, category, phase='Phase1', grid=None, notes='', type_='Mesh group', render=True,
-                  views=('three_quarter', 'front'), samples=64, footprint=None):
+                  views=('three_quarter', 'front'), samples=64, footprint=None, cams=None):
     """Export several meshes (sharing one pivot) as one FBX asset; each mesh checked against the limits."""
     checks = []
     for o in objs:
         if footprint: o['ho_footprint'] = footprint
         checks.append(check(o, grid=grid))
     rel = export_fbx(objs, f'{phase}/{category}/{asset_name}.fbx')
-    renders = render_previews(objs, asset_name, subdir=f'{phase}/{category}', views=views, samples=samples) if render else []
+    renders = render_previews(objs, asset_name, subdir=f'{phase}/{category}', views=views, samples=samples,
+                              cams=cams) if render else []
     lo, hi = world_bbox(objs)
-    agg = dict(under_limit=all(c['under_limit'] for c in checks), floating=sum(c['floating'] for c in checks),
+    # floating parts are judged on the whole assembly (a part may rest on geometry in another mesh)
+    tmp = [o.copy() for o in objs]
+    for t, o in zip(tmp, objs):
+        t.data = o.data.copy(); link(t)
+    joined = join(tmp, '_assembly_check')
+    flo_total, parts_total = floating_parts(joined)
+    bpy.data.objects.remove(joined, do_unlink=True)
+    agg = dict(under_limit=all(c['under_limit'] for c in checks), floating=flo_total, parts=parts_total,
                inverted_parts=sum(c['inverted_parts'] for c in checks), dims=[round(d, 3) for d in (hi - lo)],
                meshes={c['name']: c['tris'] for c in checks},
-               pivot_bottom_center=abs(lo.z) < 1e-3 and abs(lo.x + hi.x) < 1e-3 and abs(lo.y + hi.y) < 1e-3)
+               pivot_bottom_center=abs(lo.z) < 1e-3 and abs(lo.x + hi.x) < 1e-3 and abs(lo.y + hi.y) < 1e-3,
+               pivot_z0=abs(lo.z) < 1e-3)
     if grid:
         agg['grid_ok'] = all(c.get('grid_ok', True) for c in checks)
     tex = sorted({t for c in checks for t in c['textures']})
@@ -554,3 +580,25 @@ def split_by_axis(ob, axis=1, names=('_Front', '_Back')):
         out.append(cp)
     bpy.data.objects.remove(ob, do_unlink=True)
     return out
+
+
+def builder_obj(name, b, weld=True):
+    """Builder -> Blender object with its materials."""
+    if weld:
+        bmesh.ops.remove_doubles(b.bm, verts=b.bm.verts, dist=1e-5)
+    b.mark_sharp()
+    return mesh_from_bm(name, b.bm, [material(m) for m in b.mat_names])
+
+
+def finalize_group(objs, pivot=None):
+    """Apply transforms and move all objects' data so the group's bottom-centre (or `pivot`) is the origin."""
+    for o in objs:
+        apply_transforms(o)
+    if pivot is None:
+        lo, hi = world_bbox(objs)
+        pivot = Vector(((lo.x + hi.x) / 2, (lo.y + hi.y) / 2, lo.z))
+    for o in objs:
+        o.data.transform(Matrix.Translation(o.location - Vector(pivot)))
+        o.location = (0, 0, 0)
+        o.data.update()
+    return objs

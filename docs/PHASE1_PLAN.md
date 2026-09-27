@@ -14,7 +14,8 @@ Status: ✅ done · 🔨 in progress · ⬜ to do
 
 ## 2a. Materials (shared texture library)
 - ✅ RoofTile_Clay, Timber_Dark, Timber_Light, Plaster_White, Stone_Granite, Stone_Fitted, Cobblestone, Wood_Planks, Gold_Leaf, Iron_Wrought, Shoji_Paper
-- ⬜ Tatami, Cloth (noren / banner, tintable), Red_Lacquer (torii), Bamboo, Pine needles / bark, Rope, Sail cloth
+- ✅ Tatami, Cloth (White/Navy/Indigo/Crimson/Ochre), Red_Lacquer, Earth_Packed
+- ⬜ Bamboo, Pine needles / bark, Rope, Sail cloth
 
 ## 2b. Roofs (top priority)
 - ✅ Irimoya S (16×12), M (24×16), L (32×24): curved cover-tile rows, stepped pan courses, disc eave tiles, stacked ridges + onigawara, upturned corners, rafters / brackets / purlin / corner beams, plaster gable with timber pattern, barge boards, gegyo
@@ -24,12 +25,12 @@ Status: ✅ done · 🔨 in progress · ⬜ to do
 - ⬜ Snap pieces: straight ridge (4/8 studs), ridge end, eave corner, eave straight (4/8)
 
 ## 2c. Walls & fronts (8 / 12 / 16 wide, 9-stud floors)
-- ⬜ Plaster + timber frame: solid / window / lattice window
-- ⬜ Koshi lattice shop front, open shop front + counter, shoji doors, noren (colours), blank signboards
-- ⬜ 2nd-floor balcony + railing, mushiko windows, stone foundation plinths
+- ✅ Plaster + timber frame: solid (8/12/16) / window (8/12) / lattice window (8/12), corner post
+- ✅ Koshi lattice shop front (8/12, sliding door), open shop front + counter (8/12), shoji doors (4/8), noren 4/8 × 4 colours, blank signboards (hanging / over-door / standing)
+- ✅ 2nd-floor balcony + railing (8/12), mushiko windows (8/12), stone foundation plinths (4/8/12/16 + corner)
 
 ## 2d. Buildings (kit assemblies, also exported whole)
-- ⬜ Machiya A–F (12–24 wide, 1–2 storeys, ground-floor interiors)
+- ✅ Machiya A–F (12–24 wide, 1–2 storeys, ground-floor interiors: doma, kamado, shop floor, shelves, tatami room, shoji partition, stair chest)
 - ⬜ Tidewatch Inn (lobby, corridor, 6 rooms)
 - ⬜ Blacksmith, Armory, General Store, Magic Stall, Kura warehouse
 

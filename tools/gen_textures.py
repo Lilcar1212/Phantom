@@ -294,6 +294,54 @@ def uv_check():
     save('Debug_Grid', col, np.zeros((N, N)), 0.6, 0.0)
 
 
+def cloth(name, base, seed=121):
+    """Woven cotton (noren / banners): fine weave, soft folds, faded edges. base = RGB."""
+    wu = (np.sin(xx * N * np.pi * 0.5) * 0.5 + 0.5)
+    wv = (np.sin(yy * N * np.pi * 0.5) * 0.5 + 0.5)
+    weave = (wu * 0.5 + wv * 0.5)
+    m1 = fnoise(seed, 2.4); m2 = fnoise(seed + 1, 1.2)
+    fade = smooth(0.55, 0.9, fnoise(seed + 2, 2.0))
+    col = np.array(base, float)[None, None, :] * (0.86 + 0.14 * m1[..., None]) * (0.94 + 0.06 * weave[..., None])
+    col = lerp(col, np.minimum(np.array(base) * 1.25 + 25, 255), fade * 0.25)
+    h = weave * 0.5 + m2 * 0.3
+    save(name, col, h, 0.9 - weave * 0.05, 0.0, 1.2)
+
+
+def tatami():
+    """Tatami mat surface: woven igusa rush running along V, 3x6-stud mat = one texture tile (UV 1/3 x 1/6)."""
+    rows = (np.sin(yy * N * np.pi / 3.0) * 0.5 + 0.5)
+    fib = fnoise(131, 0.8, aniso=(1.0, 30.0))
+    m1 = fnoise(132, 2.4)
+    col = lerp((168, 164, 104), (198, 190, 128), rows * 0.4 + fib * 0.4 + m1 * 0.2)
+    # heri (cloth border) along the long edges: dark indigo band
+    band = np.maximum(smooth(0.035, 0.03, xx), smooth(0.965, 0.97, xx))
+    col = lerp(col, (38, 44, 58), band)
+    h = rows * 0.4 + fib * 0.3 - band * 0.2
+    save('Tatami', col, h, 0.75 + band * 0.1, 0.0, 2.2)
+
+
+def red_lacquer():
+    m1 = fnoise(141, 2.4); m2 = fnoise(142, 1.0)
+    wear = smooth(0.72, 0.86, fnoise(143, 2.2))
+    col = lerp((168, 36, 26), (196, 52, 34), m1)
+    col = lerp(col, (60, 34, 26), wear * 0.55)          # dark wood showing through
+    col = lerp(col, (120, 110, 98), smooth(0.85, 0.95, fnoise(144, 2.0)) * 0.3)
+    h = m2 * 0.3 + wear * 0.2
+    save('Red_Lacquer', col, h, 0.34 + m1 * 0.1 + wear * 0.35, 0.0, 1.0)
+
+
+
+def earth():
+    """Packed earth (doma floors, paths): compacted clay with grit and faint sweep marks."""
+    m1 = fnoise(151, 2.6); m2 = fnoise(152, 1.0); grit = fnoise(153, 0.0)
+    sweep = fnoise(154, 1.6, aniso=(6.0, 1.0))
+    col = lerp((112, 92, 70), (146, 122, 94), m1 * 0.7 + sweep * 0.3)
+    col = lerp(col, (84, 70, 56), smooth(0.8, 0.95, grit) * 0.6)
+    col = lerp(col, (170, 150, 120), smooth(0.15, 0.05, grit) * 0.4)
+    h = m2 * 0.4 + grit * 0.2 + sweep * 0.15
+    save('Earth_Packed', col, h, 0.88, 0.0, 1.6)
+
+
 if __name__ == '__main__':
     which = sys.argv[1:] or ['roof_tile', 'timber_dark', 'timber_light', 'plaster', 'granite', 'fitted_stone',
                              'cobble', 'planks', 'gold', 'iron', 'shoji', 'uv_check']
@@ -302,5 +350,9 @@ if __name__ == '__main__':
             timber('Timber_Dark', (34, 24, 18), (80, 58, 42), 101, 0.62)
         elif w == 'timber_light':
             timber('Timber_Light', (128, 96, 64), (196, 160, 116), 111, 0.68)
+        elif w == 'cloths':
+            cloth('Cloth_White', (236, 232, 222), 121); cloth('Cloth_Navy', (30, 44, 82), 122)
+            cloth('Cloth_Indigo', (44, 62, 108), 123); cloth('Cloth_Crimson', (140, 32, 34), 124)
+            cloth('Cloth_Ochre', (176, 124, 46), 125)
         else:
             globals()[w]()

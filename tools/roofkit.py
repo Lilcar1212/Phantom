@@ -500,8 +500,7 @@ class Kirizuma(Irimoya):
         for sg in (1, -1):
             ys = [-D2 + self.D * i / 10 for i in range(11)]
             outline = [(-D2, 0.0), (D2, 0.0)] + [(y, self.H(abs(y) / Ye) - self.T + 0.02) for y in reversed(ys)]
-            b.prism(outline, Vector((sg * (W2 - 1.0) if sg > 0 else -(W2 - 1.0), 0, 0)) if False else
-                    Vector((sg * W2 - (1.0 if sg > 0 else -1.0), 0, 0)), Vector((0, 1, 0)), Vector((0, 0, 1)),
+            b.prism(outline, Vector((sg * W2 - (1.0 if sg > 0 else -1.0), 0, 0)), Vector((0, 1, 0)), Vector((0, 0, 1)),
                     Vector((sg, 0, 0)), 1.0, 'Plaster_White')
             xf = sg * W2
             lo = lambda y0, z0: (min(xf, xf + sg * 0.12), y0, z0)
