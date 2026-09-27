@@ -2,7 +2,7 @@
 per MeshPart). Usage: python3 tools/verify_fbx.py"""
 import glob, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from fbx_inspect import load, find, summary
+from fbx_inspect import load, find, summary, mesh_materials
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 files = sorted(glob.glob(os.path.join(ROOT, 'assets', '**', '*.fbx'), recursive=True))
@@ -26,6 +26,9 @@ for f in files:
         if len(idx) > 1:
             n_multi += 1
             problems.append(f'{rel}: {g[1][1].split(chr(0))[0]} uses {len(idx)} materials')
+    for mesh, mats in mesh_materials(f).items():                 # exactly one material slot per mesh
+        if len(mats) != 1:
+            problems.append(f'{rel}: {mesh} has {len(mats)} material slots')
 print(f'{n_assets} mesh assets, {n_mesh} meshes, {n_multi} multi-material, {len(problems)} problems')
 for p in problems[:30]: print('  ', p)
 sys.exit(1 if problems else 0)

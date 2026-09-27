@@ -4,7 +4,7 @@ placeholders automatically.
 
 Run:  python3 tools/gen_roblox_builder.py
 """
-import json, os, sys, glob
+import json, re, os, sys, glob
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import fbx_inspect
 
@@ -45,12 +45,20 @@ data = dict(
 )
 src = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'roblox_builder_template.lua')).read()
 # mesh object -> texture set, for single-material parts whose names carry no "__<Set>" suffix
+# (read from the exported FBX files themselves, so every mesh Roblox sees is covered)
 mesh_set = {}
-man = json.load(open(os.path.join(ROOT, 'docs', 'manifest.json')))
-for e in man:
-    for c in (e.get('mesh_checks') or [e.get('checks', {})]):
-        if c.get('name') and len(c.get('textures', [])) == 1 and '__' not in c['name']:
-            mesh_set[c['name']] = c['textures'][0]
+unresolved = []
+for f in glob.glob(os.path.join(ROOT, 'assets', '**', '*.fbx'), recursive=True):
+    if os.sep + 'Animations' + os.sep in f: continue          # animation files: R6 proxy meshes only
+    for mesh, mats in fbx_inspect.mesh_materials(f).items():
+        if not mats or '__' in mesh: continue
+        sets = {re.sub(r'(_[0-9a-f]{6})?(\.\d+)?$', '', m[len('HO_M_'):]) for m in mats if m.startswith('HO_M_')}
+        if len(sets) == 1 and os.path.isdir(os.path.join(ROOT, 'textures', next(iter(sets)))):
+            mesh_set[mesh] = sets.pop()
+        else:
+            unresolved.append((mesh, mats))
+if unresolved:
+    print('WARNING meshes without a single texture set:', unresolved[:10])
 src = src.replace('--[[DATA]]', 'local DATA = ' + lua(data)).replace('--[[BOUNDS]]', 'local BOUNDS = ' + lua(bounds))
 src = src.replace('--[[MESHSET]]', 'local MESH_SET = ' + lua(mesh_set))
 with open(os.path.join(OUT, 'HO_CityBuilder.lua'), 'w') as f:

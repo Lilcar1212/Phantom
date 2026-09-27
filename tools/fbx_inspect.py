@@ -90,6 +90,19 @@ def summary(path):
     return out
 
 
+
+def mesh_materials(path):
+    """{mesh Model name: [material names]} from the FBX object connections."""
+    _, nodes = load(path)
+    nm = lambda n: n[1][1].split('\x00')[0]
+    models = {n[1][0]: nm(n) for n in find(nodes, 'Model') if n[1][2] == 'Mesh'}
+    mats = {n[1][0]: nm(n) for n in find(nodes, 'Material')}
+    out = {name: [] for name in models.values()}
+    for c in find(nodes, 'C'):
+        if c[1][0] == 'OO' and c[1][1] in mats and c[1][2] in models:
+            out[models[c[1][2]]].append(mats[c[1][1]])
+    return out
+
 if __name__ == '__main__':
     import json
     print(json.dumps(summary(sys.argv[1]), indent=1))

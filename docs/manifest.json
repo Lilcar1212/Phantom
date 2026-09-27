@@ -1,5 +1,138 @@
 [
  {
+  "name": "HO_Test_Orientation",
+  "phase": "Phase0",
+  "category": "Test",
+  "type": "Mesh",
+  "file": "assets/Phase0/Test/HO_Test_Orientation.fbx",
+  "tris": 56,
+  "textures": [
+   "Cloth_Ochre",
+   "Plaster_White",
+   "Red_Lacquer",
+   "Stone_Granite"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 5,
+   "inverted_parts": 0,
+   "dims": [
+    6.0,
+    6.0,
+    4.4
+   ],
+   "meshes": {
+    "HO_Test_Orientation__Cloth_Ochre": 12,
+    "HO_Test_Orientation__Plaster_White": 12,
+    "HO_Test_Orientation__Red_Lacquer": 20,
+    "HO_Test_Orientation__Stone_Granite": 12
+   },
+   "pivot_bottom_center": true,
+   "pivot_z0": true
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Test_Orientation__Cloth_Ochre",
+    "tris": 12,
+    "tris_per_material": {
+     "Cloth_Ochre": 12
+    },
+    "under_limit": true,
+    "dims": [
+     0.8,
+     1.0,
+     1.2
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Cloth_Ochre"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Test_Orientation__Plaster_White",
+    "tris": 12,
+    "tris_per_material": {
+     "Plaster_White": 12
+    },
+    "under_limit": true,
+    "dims": [
+     0.8,
+     0.8,
+     4.0
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Test_Orientation__Red_Lacquer",
+    "tris": 20,
+    "tris_per_material": {
+     "Red_Lacquer": 20
+    },
+    "under_limit": true,
+    "dims": [
+     2.8,
+     4.7,
+     0.4
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Red_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Test_Orientation__Stone_Granite",
+    "tris": 12,
+    "tris_per_material": {
+     "Stone_Granite": 12
+    },
+    "under_limit": true,
+    "dims": [
+     6.0,
+     6.0,
+     0.4
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Stone_Granite"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": true
+   }
+  ],
+  "renders": [
+   "renders/Phase0/Test/HO_Test_Orientation_three_quarter.png",
+   "renders/Phase0/Test/HO_Test_Orientation_front.png"
+  ],
+  "notes": "Orientation check (multi-mesh). In Studio the RED ARROW must point to -Z (the Front face / LookVector of an unrotated part), the WHITE POST must be at +Z and the YELLOW block at +X. If the arrow points +Z instead, report it: the importer is turning multi-mesh files. | meshes: HO_Test_Orientation__Cloth_Ochre (12), HO_Test_Orientation__Plaster_White (12), HO_Test_Orientation__Red_Lacquer (20), HO_Test_Orientation__Stone_Granite (12)"
+ },
+ {
   "name": "HO_Test_ScaleCube_1x1x1",
   "phase": "Phase0",
   "category": "Test",
@@ -51,10 +184,8 @@
    "Cloth_Crimson",
    "Cloth_Navy",
    "Cloth_White",
-   "Ember",
    "Gold_Leaf",
    "Iron_Wrought",
-   "Magic_Glow",
    "Plaster_White",
    "Red_Lacquer",
    "RoofTile_Clay",
@@ -141,13 +272,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Iron_Wrought",
-     "Plaster_White",
-     "Shoji_Paper",
-     "Stone_Granite",
-     "Timber_Dark",
-     "Timber_Light",
-     "Wood_Planks"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": true,
@@ -723,8 +848,6 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Ember",
-     "Magic_Glow",
      "Shoji_Paper"
     ],
     "textures_ok": true,
@@ -1114,7 +1237,6 @@
    "Ember",
    "Gold_Leaf",
    "Iron_Wrought",
-   "Magic_Glow",
    "Plaster_White",
    "RoofTile_Clay",
    "Shoji_Paper",
@@ -1186,13 +1308,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Iron_Wrought",
-     "Plaster_White",
-     "Shoji_Paper",
-     "Stone_Granite",
-     "Timber_Dark",
-     "Timber_Light",
-     "Wood_Planks"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": true,
@@ -1576,9 +1692,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Ember",
-     "Magic_Glow",
-     "Shoji_Paper"
+     "Ember"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false,
@@ -1796,9 +1910,7 @@
    "Cloth_Ochre",
    "Cloth_White",
    "Earth_Packed",
-   "Ember",
    "Iron_Wrought",
-   "Magic_Glow",
    "Plaster_White",
    "RoofTile_Clay",
    "Shoji_Paper",
@@ -1885,13 +1997,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Iron_Wrought",
-     "Plaster_White",
-     "Shoji_Paper",
-     "Stone_Granite",
-     "Timber_Dark",
-     "Timber_Light",
-     "Wood_Planks"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": true,
@@ -2539,8 +2645,6 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Ember",
-     "Magic_Glow",
      "Shoji_Paper"
     ],
     "textures_ok": true,
@@ -2882,7 +2986,6 @@
    "Namako_Wall",
    "Plaster_White",
    "RoofTile_Clay",
-   "Shoji_Paper",
    "Stone_Fitted",
    "Stone_Granite",
    "Straw",
@@ -3281,13 +3384,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Iron_Wrought",
-     "Plaster_White",
-     "Shoji_Paper",
-     "Stone_Granite",
-     "Timber_Dark",
-     "Timber_Light",
-     "Wood_Planks"
+     "Timber_Dark"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false,
@@ -8407,10 +8504,8 @@
    "Cloth_Navy",
    "Cloth_White",
    "Earth_Packed",
-   "Ember",
    "Gold_Leaf",
    "Iron_Wrought",
-   "Magic_Glow",
    "Plaster_White",
    "RoofTile_Clay",
    "Shoji_Paper",
@@ -8522,13 +8617,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Iron_Wrought",
-     "Plaster_White",
-     "Shoji_Paper",
-     "Stone_Granite",
-     "Timber_Dark",
-     "Timber_Light",
-     "Wood_Planks"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": true,
@@ -9176,8 +9265,6 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Ember",
-     "Magic_Glow",
      "Shoji_Paper"
     ],
     "textures_ok": true,
@@ -10092,10 +10179,8 @@
    "Black_Lacquer",
    "Cloth_Crimson",
    "Cloth_White",
-   "Ember",
    "Gold_Leaf",
    "Iron_Wrought",
-   "Magic_Glow",
    "Plaster_White",
    "Red_Lacquer",
    "RoofTile_Clay",
@@ -10690,8 +10775,6 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Ember",
-     "Magic_Glow",
      "Shoji_Paper"
     ],
     "textures_ok": true,
@@ -11724,19 +11807,13 @@
   "tris": 144866,
   "textures": [
    "Black_Lacquer",
-   "Cloth_Navy",
-   "Cloth_White",
-   "Earth_Packed",
    "Gold_Leaf",
-   "Iron_Wrought",
-   "Namako_Wall",
    "Plaster_White",
    "Red_Lacquer",
    "RoofTile_Clay",
    "Shoji_Paper",
    "Stone_Fitted",
    "Stone_Granite",
-   "Tatami",
    "Timber_Dark",
    "Timber_Light",
    "Wood_Planks"
@@ -11835,23 +11912,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Black_Lacquer",
-     "Cloth_Navy",
-     "Cloth_White",
-     "Earth_Packed",
-     "Gold_Leaf",
-     "Iron_Wrought",
-     "Namako_Wall",
-     "Plaster_White",
-     "Red_Lacquer",
-     "RoofTile_Clay",
-     "Shoji_Paper",
-     "Stone_Fitted",
-     "Stone_Granite",
-     "Tatami",
-     "Timber_Dark",
-     "Timber_Light",
-     "Wood_Planks"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -11874,23 +11935,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Black_Lacquer",
-     "Cloth_Navy",
-     "Cloth_White",
-     "Earth_Packed",
-     "Gold_Leaf",
-     "Iron_Wrought",
-     "Namako_Wall",
-     "Plaster_White",
-     "Red_Lacquer",
-     "RoofTile_Clay",
-     "Shoji_Paper",
-     "Stone_Fitted",
-     "Stone_Granite",
-     "Tatami",
-     "Timber_Dark",
-     "Timber_Light",
-     "Wood_Planks"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -11913,23 +11958,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Black_Lacquer",
-     "Cloth_Navy",
-     "Cloth_White",
-     "Earth_Packed",
-     "Gold_Leaf",
-     "Iron_Wrought",
-     "Namako_Wall",
-     "Plaster_White",
-     "Red_Lacquer",
-     "RoofTile_Clay",
-     "Shoji_Paper",
-     "Stone_Fitted",
-     "Stone_Granite",
-     "Tatami",
-     "Timber_Dark",
-     "Timber_Light",
-     "Wood_Planks"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -11952,23 +11981,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Black_Lacquer",
-     "Cloth_Navy",
-     "Cloth_White",
-     "Earth_Packed",
-     "Gold_Leaf",
-     "Iron_Wrought",
-     "Namako_Wall",
-     "Plaster_White",
-     "Red_Lacquer",
-     "RoofTile_Clay",
-     "Shoji_Paper",
-     "Stone_Fitted",
-     "Stone_Granite",
-     "Tatami",
-     "Timber_Dark",
-     "Timber_Light",
-     "Wood_Planks"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -13253,23 +13266,8 @@
   "file": "assets/Phase1/Castle/HO_Castle_Keep_Base.fbx",
   "tris": 20754,
   "textures": [
-   "Black_Lacquer",
-   "Cloth_Navy",
-   "Cloth_White",
-   "Earth_Packed",
-   "Gold_Leaf",
-   "Iron_Wrought",
-   "Namako_Wall",
-   "Plaster_White",
-   "Red_Lacquer",
-   "RoofTile_Clay",
-   "Shoji_Paper",
    "Stone_Fitted",
-   "Stone_Granite",
-   "Tatami",
-   "Timber_Dark",
-   "Timber_Light",
-   "Wood_Planks"
+   "Stone_Granite"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -13312,23 +13310,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Black_Lacquer",
-     "Cloth_Navy",
-     "Cloth_White",
-     "Earth_Packed",
-     "Gold_Leaf",
-     "Iron_Wrought",
-     "Namako_Wall",
-     "Plaster_White",
-     "Red_Lacquer",
-     "RoofTile_Clay",
-     "Shoji_Paper",
-     "Stone_Fitted",
-     "Stone_Granite",
-     "Tatami",
-     "Timber_Dark",
-     "Timber_Light",
-     "Wood_Planks"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -13351,23 +13333,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Black_Lacquer",
-     "Cloth_Navy",
-     "Cloth_White",
-     "Earth_Packed",
-     "Gold_Leaf",
-     "Iron_Wrought",
-     "Namako_Wall",
-     "Plaster_White",
-     "Red_Lacquer",
-     "RoofTile_Clay",
-     "Shoji_Paper",
-     "Stone_Fitted",
-     "Stone_Granite",
-     "Tatami",
-     "Timber_Dark",
-     "Timber_Light",
-     "Wood_Planks"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -13390,23 +13356,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Black_Lacquer",
-     "Cloth_Navy",
-     "Cloth_White",
-     "Earth_Packed",
-     "Gold_Leaf",
-     "Iron_Wrought",
-     "Namako_Wall",
-     "Plaster_White",
-     "Red_Lacquer",
-     "RoofTile_Clay",
-     "Shoji_Paper",
-     "Stone_Fitted",
-     "Stone_Granite",
-     "Tatami",
-     "Timber_Dark",
-     "Timber_Light",
-     "Wood_Planks"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -13429,23 +13379,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Black_Lacquer",
-     "Cloth_Navy",
-     "Cloth_White",
-     "Earth_Packed",
-     "Gold_Leaf",
-     "Iron_Wrought",
-     "Namako_Wall",
-     "Plaster_White",
-     "Red_Lacquer",
-     "RoofTile_Clay",
-     "Shoji_Paper",
-     "Stone_Fitted",
-     "Stone_Granite",
-     "Tatami",
-     "Timber_Dark",
-     "Timber_Light",
-     "Wood_Planks"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -14968,14 +14902,12 @@
   "textures": [
    "Black_Lacquer",
    "Gold_Leaf",
-   "Iron_Wrought",
    "Plaster_White",
    "RoofTile_Clay",
    "Shoji_Paper",
    "Stone_Granite",
    "Timber_Dark",
-   "Timber_Light",
-   "Wood_Planks"
+   "Timber_Light"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -15029,13 +14961,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Iron_Wrought",
-     "Plaster_White",
-     "Shoji_Paper",
-     "Stone_Granite",
-     "Timber_Dark",
-     "Timber_Light",
-     "Wood_Planks"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": true
@@ -15897,23 +15823,7 @@
   "file": "assets/Phase1/Castle/HO_Wall_Ishigaki_Corner_Inner.fbx",
   "tris": 4016,
   "textures": [
-   "Black_Lacquer",
-   "Cloth_Navy",
-   "Cloth_White",
-   "Earth_Packed",
-   "Gold_Leaf",
-   "Iron_Wrought",
-   "Namako_Wall",
-   "Plaster_White",
-   "Red_Lacquer",
-   "RoofTile_Clay",
-   "Shoji_Paper",
-   "Stone_Fitted",
-   "Stone_Granite",
-   "Tatami",
-   "Timber_Dark",
-   "Timber_Light",
-   "Wood_Planks"
+   "Stone_Granite"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -15934,23 +15844,7 @@
    "open_parts": 0,
    "inverted_parts": 0,
    "textures": [
-    "Black_Lacquer",
-    "Cloth_Navy",
-    "Cloth_White",
-    "Earth_Packed",
-    "Gold_Leaf",
-    "Iron_Wrought",
-    "Namako_Wall",
-    "Plaster_White",
-    "Red_Lacquer",
-    "RoofTile_Clay",
-    "Shoji_Paper",
-    "Stone_Fitted",
-    "Stone_Granite",
-    "Tatami",
-    "Timber_Dark",
-    "Timber_Light",
-    "Wood_Planks"
+    "Stone_Granite"
    ],
    "textures_ok": true,
    "pivot_bottom_center": false
@@ -15969,23 +15863,7 @@
   "file": "assets/Phase1/Castle/HO_Wall_Ishigaki_Corner_Outer.fbx",
   "tris": 4496,
   "textures": [
-   "Black_Lacquer",
-   "Cloth_Navy",
-   "Cloth_White",
-   "Earth_Packed",
-   "Gold_Leaf",
-   "Iron_Wrought",
-   "Namako_Wall",
-   "Plaster_White",
-   "Red_Lacquer",
-   "RoofTile_Clay",
-   "Shoji_Paper",
-   "Stone_Fitted",
-   "Stone_Granite",
-   "Tatami",
-   "Timber_Dark",
-   "Timber_Light",
-   "Wood_Planks"
+   "Stone_Granite"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -15996,8 +15874,8 @@
    },
    "under_limit": true,
    "dims": [
-    19.16,
-    19.165,
+    19.175,
+    19.162,
     16.0
    ],
    "parts": 140,
@@ -16006,23 +15884,7 @@
    "open_parts": 0,
    "inverted_parts": 0,
    "textures": [
-    "Black_Lacquer",
-    "Cloth_Navy",
-    "Cloth_White",
-    "Earth_Packed",
-    "Gold_Leaf",
-    "Iron_Wrought",
-    "Namako_Wall",
-    "Plaster_White",
-    "Red_Lacquer",
-    "RoofTile_Clay",
-    "Shoji_Paper",
-    "Stone_Fitted",
-    "Stone_Granite",
-    "Tatami",
-    "Timber_Dark",
-    "Timber_Light",
-    "Wood_Planks"
+    "Stone_Granite"
    ],
    "textures_ok": true,
    "pivot_bottom_center": false
@@ -16039,62 +15901,30 @@
   "category": "Castle",
   "type": "Mesh",
   "file": "assets/Phase1/Castle/HO_Wall_Ishigaki_Stepped_16.fbx",
-  "tris": 1884,
+  "tris": 1872,
   "textures": [
-   "Black_Lacquer",
-   "Cloth_Navy",
-   "Cloth_White",
-   "Earth_Packed",
-   "Gold_Leaf",
-   "Iron_Wrought",
-   "Namako_Wall",
-   "Plaster_White",
-   "Red_Lacquer",
-   "RoofTile_Clay",
-   "Shoji_Paper",
-   "Stone_Fitted",
-   "Stone_Granite",
-   "Tatami",
-   "Timber_Dark",
-   "Timber_Light",
-   "Wood_Planks"
+   "Stone_Granite"
   ],
   "pivot": "bottom-centre",
   "checks": {
    "name": "HO_Wall_Ishigaki_Stepped_16",
-   "tris": 1884,
+   "tris": 1872,
    "tris_per_material": {
-    "Stone_Granite": 1884
+    "Stone_Granite": 1872
    },
    "under_limit": true,
    "dims": [
     16.0,
-    7.082,
+    7.081,
     16.0
    ],
-   "parts": 63,
+   "parts": 62,
    "floating": 0,
-   "closed_parts": 64,
+   "closed_parts": 63,
    "open_parts": 0,
    "inverted_parts": 0,
    "textures": [
-    "Black_Lacquer",
-    "Cloth_Navy",
-    "Cloth_White",
-    "Earth_Packed",
-    "Gold_Leaf",
-    "Iron_Wrought",
-    "Namako_Wall",
-    "Plaster_White",
-    "Red_Lacquer",
-    "RoofTile_Clay",
-    "Shoji_Paper",
-    "Stone_Fitted",
-    "Stone_Granite",
-    "Tatami",
-    "Timber_Dark",
-    "Timber_Light",
-    "Wood_Planks"
+    "Stone_Granite"
    ],
    "textures_ok": true,
    "pivot_bottom_center": false
@@ -16113,23 +15943,7 @@
   "file": "assets/Phase1/Castle/HO_Wall_Ishigaki_Straight_16.fbx",
   "tris": 2280,
   "textures": [
-   "Black_Lacquer",
-   "Cloth_Navy",
-   "Cloth_White",
-   "Earth_Packed",
-   "Gold_Leaf",
-   "Iron_Wrought",
-   "Namako_Wall",
-   "Plaster_White",
-   "Red_Lacquer",
-   "RoofTile_Clay",
-   "Shoji_Paper",
-   "Stone_Fitted",
-   "Stone_Granite",
-   "Tatami",
-   "Timber_Dark",
-   "Timber_Light",
-   "Wood_Planks"
+   "Stone_Granite"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -16141,7 +15955,7 @@
    "under_limit": true,
    "dims": [
     16.0,
-    7.17,
+    7.126,
     16.0
    ],
    "parts": 71,
@@ -16150,23 +15964,7 @@
    "open_parts": 0,
    "inverted_parts": 0,
    "textures": [
-    "Black_Lacquer",
-    "Cloth_Navy",
-    "Cloth_White",
-    "Earth_Packed",
-    "Gold_Leaf",
-    "Iron_Wrought",
-    "Namako_Wall",
-    "Plaster_White",
-    "Red_Lacquer",
-    "RoofTile_Clay",
-    "Shoji_Paper",
-    "Stone_Fitted",
-    "Stone_Granite",
-    "Tatami",
-    "Timber_Dark",
-    "Timber_Light",
-    "Wood_Planks"
+    "Stone_Granite"
    ],
    "textures_ok": true,
    "pivot_bottom_center": false
@@ -16185,23 +15983,7 @@
   "file": "assets/Phase1/Castle/HO_Wall_Ishigaki_Straight_8.fbx",
   "tris": 1256,
   "textures": [
-   "Black_Lacquer",
-   "Cloth_Navy",
-   "Cloth_White",
-   "Earth_Packed",
-   "Gold_Leaf",
-   "Iron_Wrought",
-   "Namako_Wall",
-   "Plaster_White",
-   "Red_Lacquer",
-   "RoofTile_Clay",
-   "Shoji_Paper",
-   "Stone_Fitted",
-   "Stone_Granite",
-   "Tatami",
-   "Timber_Dark",
-   "Timber_Light",
-   "Wood_Planks"
+   "Stone_Granite"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -16213,7 +15995,7 @@
    "under_limit": true,
    "dims": [
     8.0,
-    7.159,
+    7.098,
     16.0
    ],
    "parts": 39,
@@ -16222,23 +16004,7 @@
    "open_parts": 0,
    "inverted_parts": 0,
    "textures": [
-    "Black_Lacquer",
-    "Cloth_Navy",
-    "Cloth_White",
-    "Earth_Packed",
-    "Gold_Leaf",
-    "Iron_Wrought",
-    "Namako_Wall",
-    "Plaster_White",
-    "Red_Lacquer",
-    "RoofTile_Clay",
-    "Shoji_Paper",
-    "Stone_Fitted",
-    "Stone_Granite",
-    "Tatami",
-    "Timber_Dark",
-    "Timber_Light",
-    "Wood_Planks"
+    "Stone_Granite"
    ],
    "textures_ok": true,
    "pivot_bottom_center": false
@@ -16257,13 +16023,7 @@
   "file": "assets/Phase1/Foundations/HO_Found_Plinth_12.fbx",
   "tris": 740,
   "textures": [
-   "Iron_Wrought",
-   "Plaster_White",
-   "Shoji_Paper",
-   "Stone_Granite",
-   "Timber_Dark",
-   "Timber_Light",
-   "Wood_Planks"
+   "Stone_Granite"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -16284,13 +16044,7 @@
    "open_parts": 0,
    "inverted_parts": 0,
    "textures": [
-    "Iron_Wrought",
-    "Plaster_White",
-    "Shoji_Paper",
-    "Stone_Granite",
-    "Timber_Dark",
-    "Timber_Light",
-    "Wood_Planks"
+    "Stone_Granite"
    ],
    "textures_ok": true,
    "pivot_bottom_center": true
@@ -16309,13 +16063,7 @@
   "file": "assets/Phase1/Foundations/HO_Found_Plinth_16.fbx",
   "tris": 1048,
   "textures": [
-   "Iron_Wrought",
-   "Plaster_White",
-   "Shoji_Paper",
-   "Stone_Granite",
-   "Timber_Dark",
-   "Timber_Light",
-   "Wood_Planks"
+   "Stone_Granite"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -16336,13 +16084,7 @@
    "open_parts": 0,
    "inverted_parts": 0,
    "textures": [
-    "Iron_Wrought",
-    "Plaster_White",
-    "Shoji_Paper",
-    "Stone_Granite",
-    "Timber_Dark",
-    "Timber_Light",
-    "Wood_Planks"
+    "Stone_Granite"
    ],
    "textures_ok": true,
    "pivot_bottom_center": true
@@ -16361,13 +16103,7 @@
   "file": "assets/Phase1/Foundations/HO_Found_Plinth_4.fbx",
   "tris": 292,
   "textures": [
-   "Iron_Wrought",
-   "Plaster_White",
-   "Shoji_Paper",
-   "Stone_Granite",
-   "Timber_Dark",
-   "Timber_Light",
-   "Wood_Planks"
+   "Stone_Granite"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -16388,13 +16124,7 @@
    "open_parts": 0,
    "inverted_parts": 0,
    "textures": [
-    "Iron_Wrought",
-    "Plaster_White",
-    "Shoji_Paper",
-    "Stone_Granite",
-    "Timber_Dark",
-    "Timber_Light",
-    "Wood_Planks"
+    "Stone_Granite"
    ],
    "textures_ok": true,
    "pivot_bottom_center": true
@@ -16413,13 +16143,7 @@
   "file": "assets/Phase1/Foundations/HO_Found_Plinth_8.fbx",
   "tris": 516,
   "textures": [
-   "Iron_Wrought",
-   "Plaster_White",
-   "Shoji_Paper",
-   "Stone_Granite",
-   "Timber_Dark",
-   "Timber_Light",
-   "Wood_Planks"
+   "Stone_Granite"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -16440,13 +16164,7 @@
    "open_parts": 0,
    "inverted_parts": 0,
    "textures": [
-    "Iron_Wrought",
-    "Plaster_White",
-    "Shoji_Paper",
-    "Stone_Granite",
-    "Timber_Dark",
-    "Timber_Light",
-    "Wood_Planks"
+    "Stone_Granite"
    ],
    "textures_ok": true,
    "pivot_bottom_center": true
@@ -16465,13 +16183,7 @@
   "file": "assets/Phase1/Foundations/HO_Found_Plinth_Corner.fbx",
   "tris": 40,
   "textures": [
-   "Iron_Wrought",
-   "Plaster_White",
-   "Shoji_Paper",
-   "Stone_Granite",
-   "Timber_Dark",
-   "Timber_Light",
-   "Wood_Planks"
+   "Stone_Granite"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -16492,13 +16204,7 @@
    "open_parts": 0,
    "inverted_parts": 0,
    "textures": [
-    "Iron_Wrought",
-    "Plaster_White",
-    "Shoji_Paper",
-    "Stone_Granite",
-    "Timber_Dark",
-    "Timber_Light",
-    "Wood_Planks"
+    "Stone_Granite"
    ],
    "textures_ok": true,
    "pivot_bottom_center": true
@@ -18417,9 +18123,7 @@
   "tris": 820,
   "textures": [
    "Black_Lacquer",
-   "Ember",
    "Gold_Leaf",
-   "Magic_Glow",
    "Plaster_White",
    "Red_Lacquer",
    "RoofTile_Clay",
@@ -18656,8 +18360,6 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Ember",
-     "Magic_Glow",
      "Shoji_Paper"
     ],
     "textures_ok": true,
@@ -19005,7 +18707,7 @@
    "inverted_parts": 0,
    "dims": [
     16.0,
-    3.925,
+    3.937,
     8.6
    ],
    "meshes": {
@@ -19048,7 +18750,7 @@
     "under_limit": true,
     "dims": [
      16.0,
-     3.925,
+     3.937,
      8.0
     ],
     "parts": 37,
@@ -19160,32 +18862,7 @@
   "file": "assets/Phase1/Nature/HO_Rock_Cliff_L.fbx",
   "tris": 6400,
   "textures": [
-   "Bamboo",
-   "Black_Lacquer",
-   "Cloth_Crimson",
-   "Cloth_Indigo",
-   "Cloth_Navy",
-   "Cloth_Ochre",
-   "Cloth_White",
-   "Earth_Packed",
-   "Gold_Leaf",
-   "Iron_Wrought",
-   "Namako_Wall",
-   "Pine_Bark",
-   "Pine_Needles",
-   "Plaster_White",
-   "Red_Lacquer",
-   "RoofTile_Clay",
-   "Rope",
-   "Sail_Canvas",
-   "Shoji_Paper",
-   "Stone_Fitted",
-   "Stone_Granite",
-   "Straw",
-   "Tatami",
-   "Timber_Dark",
-   "Timber_Light",
-   "Wood_Planks"
+   "Stone_Granite"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -19206,32 +18883,7 @@
    "open_parts": 0,
    "inverted_parts": 0,
    "textures": [
-    "Bamboo",
-    "Black_Lacquer",
-    "Cloth_Crimson",
-    "Cloth_Indigo",
-    "Cloth_Navy",
-    "Cloth_Ochre",
-    "Cloth_White",
-    "Earth_Packed",
-    "Gold_Leaf",
-    "Iron_Wrought",
-    "Namako_Wall",
-    "Pine_Bark",
-    "Pine_Needles",
-    "Plaster_White",
-    "Red_Lacquer",
-    "RoofTile_Clay",
-    "Rope",
-    "Sail_Canvas",
-    "Shoji_Paper",
-    "Stone_Fitted",
-    "Stone_Granite",
-    "Straw",
-    "Tatami",
-    "Timber_Dark",
-    "Timber_Light",
-    "Wood_Planks"
+    "Stone_Granite"
    ],
    "textures_ok": true,
    "pivot_bottom_center": false
@@ -19250,32 +18902,7 @@
   "file": "assets/Phase1/Nature/HO_Rock_Cliff_M.fbx",
   "tris": 1600,
   "textures": [
-   "Bamboo",
-   "Black_Lacquer",
-   "Cloth_Crimson",
-   "Cloth_Indigo",
-   "Cloth_Navy",
-   "Cloth_Ochre",
-   "Cloth_White",
-   "Earth_Packed",
-   "Gold_Leaf",
-   "Iron_Wrought",
-   "Namako_Wall",
-   "Pine_Bark",
-   "Pine_Needles",
-   "Plaster_White",
-   "Red_Lacquer",
-   "RoofTile_Clay",
-   "Rope",
-   "Sail_Canvas",
-   "Shoji_Paper",
-   "Stone_Fitted",
-   "Stone_Granite",
-   "Straw",
-   "Tatami",
-   "Timber_Dark",
-   "Timber_Light",
-   "Wood_Planks"
+   "Stone_Granite"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -19296,32 +18923,7 @@
    "open_parts": 0,
    "inverted_parts": 0,
    "textures": [
-    "Bamboo",
-    "Black_Lacquer",
-    "Cloth_Crimson",
-    "Cloth_Indigo",
-    "Cloth_Navy",
-    "Cloth_Ochre",
-    "Cloth_White",
-    "Earth_Packed",
-    "Gold_Leaf",
-    "Iron_Wrought",
-    "Namako_Wall",
-    "Pine_Bark",
-    "Pine_Needles",
-    "Plaster_White",
-    "Red_Lacquer",
-    "RoofTile_Clay",
-    "Rope",
-    "Sail_Canvas",
-    "Shoji_Paper",
-    "Stone_Fitted",
-    "Stone_Granite",
-    "Straw",
-    "Tatami",
-    "Timber_Dark",
-    "Timber_Light",
-    "Wood_Planks"
+    "Stone_Granite"
    ],
    "textures_ok": true,
    "pivot_bottom_center": false
@@ -19340,32 +18942,7 @@
   "file": "assets/Phase1/Nature/HO_Rock_Cliff_S.fbx",
   "tris": 1600,
   "textures": [
-   "Bamboo",
-   "Black_Lacquer",
-   "Cloth_Crimson",
-   "Cloth_Indigo",
-   "Cloth_Navy",
-   "Cloth_Ochre",
-   "Cloth_White",
-   "Earth_Packed",
-   "Gold_Leaf",
-   "Iron_Wrought",
-   "Namako_Wall",
-   "Pine_Bark",
-   "Pine_Needles",
-   "Plaster_White",
-   "Red_Lacquer",
-   "RoofTile_Clay",
-   "Rope",
-   "Sail_Canvas",
-   "Shoji_Paper",
-   "Stone_Fitted",
-   "Stone_Granite",
-   "Straw",
-   "Tatami",
-   "Timber_Dark",
-   "Timber_Light",
-   "Wood_Planks"
+   "Stone_Granite"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -19386,32 +18963,7 @@
    "open_parts": 0,
    "inverted_parts": 0,
    "textures": [
-    "Bamboo",
-    "Black_Lacquer",
-    "Cloth_Crimson",
-    "Cloth_Indigo",
-    "Cloth_Navy",
-    "Cloth_Ochre",
-    "Cloth_White",
-    "Earth_Packed",
-    "Gold_Leaf",
-    "Iron_Wrought",
-    "Namako_Wall",
-    "Pine_Bark",
-    "Pine_Needles",
-    "Plaster_White",
-    "Red_Lacquer",
-    "RoofTile_Clay",
-    "Rope",
-    "Sail_Canvas",
-    "Shoji_Paper",
-    "Stone_Fitted",
-    "Stone_Granite",
-    "Straw",
-    "Tatami",
-    "Timber_Dark",
-    "Timber_Light",
-    "Wood_Planks"
+    "Stone_Granite"
    ],
    "textures_ok": true,
    "pivot_bottom_center": false
@@ -20561,9 +20113,7 @@
   "tris": 240,
   "textures": [
    "Black_Lacquer",
-   "Ember",
    "Iron_Wrought",
-   "Magic_Glow",
    "Rope",
    "Shoji_Paper"
   ],
@@ -20675,8 +20225,6 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Ember",
-     "Magic_Glow",
      "Shoji_Paper"
     ],
     "textures_ok": true,
@@ -20697,9 +20245,7 @@
   "file": "assets/Phase1/Props/HO_Prop_Chochin_Red.fbx",
   "tris": 240,
   "textures": [
-   "Ember",
    "Iron_Wrought",
-   "Magic_Glow",
    "Red_Lacquer",
    "Rope",
    "Shoji_Paper"
@@ -20812,8 +20358,6 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Ember",
-     "Magic_Glow",
      "Shoji_Paper"
     ],
     "textures_ok": true,
@@ -22878,34 +22422,8 @@
   "file": "assets/Phase1/Props/HO_Prop_StoneLantern.fbx",
   "tris": 248,
   "textures": [
-   "Bamboo",
-   "Black_Lacquer",
-   "Cloth_Crimson",
-   "Cloth_Indigo",
-   "Cloth_Navy",
-   "Cloth_Ochre",
-   "Cloth_White",
-   "Earth_Packed",
-   "Ember",
-   "Gold_Leaf",
-   "Iron_Wrought",
-   "Magic_Glow",
-   "Namako_Wall",
-   "Pine_Bark",
-   "Pine_Needles",
-   "Plaster_White",
-   "Red_Lacquer",
-   "RoofTile_Clay",
-   "Rope",
-   "Sail_Canvas",
    "Shoji_Paper",
-   "Stone_Fitted",
-   "Stone_Granite",
-   "Straw",
-   "Tatami",
-   "Timber_Dark",
-   "Timber_Light",
-   "Wood_Planks"
+   "Stone_Granite"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -22944,32 +22462,7 @@
     "open_parts": 1,
     "inverted_parts": 0,
     "textures": [
-     "Bamboo",
-     "Black_Lacquer",
-     "Cloth_Crimson",
-     "Cloth_Indigo",
-     "Cloth_Navy",
-     "Cloth_Ochre",
-     "Cloth_White",
-     "Earth_Packed",
-     "Gold_Leaf",
-     "Iron_Wrought",
-     "Namako_Wall",
-     "Pine_Bark",
-     "Pine_Needles",
-     "Plaster_White",
-     "Red_Lacquer",
-     "RoofTile_Clay",
-     "Rope",
-     "Sail_Canvas",
-     "Shoji_Paper",
-     "Stone_Fitted",
-     "Stone_Granite",
-     "Straw",
-     "Tatami",
-     "Timber_Dark",
-     "Timber_Light",
-     "Wood_Planks"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": true
@@ -22992,8 +22485,6 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Ember",
-     "Magic_Glow",
      "Shoji_Paper"
     ],
     "textures_ok": true,
@@ -24663,13 +24154,7 @@
   "file": "assets/Phase1/Walls/HO_Wall_CornerPost.fbx",
   "tris": 36,
   "textures": [
-   "Iron_Wrought",
-   "Plaster_White",
-   "Shoji_Paper",
-   "Stone_Granite",
-   "Timber_Dark",
-   "Timber_Light",
-   "Wood_Planks"
+   "Timber_Dark"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -24690,13 +24175,7 @@
    "open_parts": 0,
    "inverted_parts": 0,
    "textures": [
-    "Iron_Wrought",
-    "Plaster_White",
-    "Shoji_Paper",
-    "Stone_Granite",
-    "Timber_Dark",
-    "Timber_Light",
-    "Wood_Planks"
+    "Timber_Dark"
    ],
    "textures_ok": true,
    "pivot_bottom_center": true
@@ -26659,11 +26138,7 @@
   "file": "assets/Phase3/VFX/HO_VFX_EnergySphere.fbx",
   "tris": 1320,
   "textures": [
-   "Stone_Granite",
-   "VFX_Energy",
-   "VFX_Fire",
-   "VFX_Slash",
-   "VFX_Water"
+   "VFX_Energy"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -26703,11 +26178,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Stone_Granite",
-     "VFX_Energy",
-     "VFX_Fire",
-     "VFX_Slash",
-     "VFX_Water"
+     "VFX_Energy"
     ],
     "textures_ok": true,
     "pivot_bottom_center": true
@@ -26730,11 +26201,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Stone_Granite",
-     "VFX_Energy",
-     "VFX_Fire",
-     "VFX_Slash",
-     "VFX_Water"
+     "VFX_Energy"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -26757,11 +26224,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Stone_Granite",
-     "VFX_Energy",
-     "VFX_Fire",
-     "VFX_Slash",
-     "VFX_Water"
+     "VFX_Energy"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -26781,11 +26244,7 @@
   "file": "assets/Phase3/VFX/HO_VFX_FirePillar.fbx",
   "tris": 768,
   "textures": [
-   "Stone_Granite",
-   "VFX_Energy",
-   "VFX_Fire",
-   "VFX_Slash",
-   "VFX_Water"
+   "VFX_Fire"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -26806,11 +26265,7 @@
    "open_parts": 2,
    "inverted_parts": 0,
    "textures": [
-    "Stone_Granite",
-    "VFX_Energy",
-    "VFX_Fire",
-    "VFX_Slash",
-    "VFX_Water"
+    "VFX_Fire"
    ],
    "textures_ok": true,
    "pivot_bottom_center": false
@@ -26829,11 +26284,7 @@
   "file": "assets/Phase3/VFX/HO_VFX_FireRing_Segment.fbx",
   "tris": 160,
   "textures": [
-   "Stone_Granite",
-   "VFX_Energy",
-   "VFX_Fire",
-   "VFX_Slash",
-   "VFX_Water"
+   "VFX_Fire"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -26854,11 +26305,7 @@
    "open_parts": 2,
    "inverted_parts": 0,
    "textures": [
-    "Stone_Granite",
-    "VFX_Energy",
-    "VFX_Fire",
-    "VFX_Slash",
-    "VFX_Water"
+    "VFX_Fire"
    ],
    "textures_ok": true,
    "pivot_bottom_center": false
@@ -26877,11 +26324,7 @@
   "file": "assets/Phase3/VFX/HO_VFX_RockShards.fbx",
   "tris": 800,
   "textures": [
-   "Stone_Granite",
-   "VFX_Energy",
-   "VFX_Fire",
-   "VFX_Slash",
-   "VFX_Water"
+   "Stone_Granite"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -26928,11 +26371,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Stone_Granite",
-     "VFX_Energy",
-     "VFX_Fire",
-     "VFX_Slash",
-     "VFX_Water"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -26955,11 +26394,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Stone_Granite",
-     "VFX_Energy",
-     "VFX_Fire",
-     "VFX_Slash",
-     "VFX_Water"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -26982,11 +26417,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Stone_Granite",
-     "VFX_Energy",
-     "VFX_Fire",
-     "VFX_Slash",
-     "VFX_Water"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -27009,11 +26440,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Stone_Granite",
-     "VFX_Energy",
-     "VFX_Fire",
-     "VFX_Slash",
-     "VFX_Water"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -27036,11 +26463,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Stone_Granite",
-     "VFX_Energy",
-     "VFX_Fire",
-     "VFX_Slash",
-     "VFX_Water"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -27063,11 +26486,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Stone_Granite",
-     "VFX_Energy",
-     "VFX_Fire",
-     "VFX_Slash",
-     "VFX_Water"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -27090,11 +26509,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Stone_Granite",
-     "VFX_Energy",
-     "VFX_Fire",
-     "VFX_Slash",
-     "VFX_Water"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -27117,11 +26532,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Stone_Granite",
-     "VFX_Energy",
-     "VFX_Fire",
-     "VFX_Slash",
-     "VFX_Water"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -27144,11 +26555,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Stone_Granite",
-     "VFX_Energy",
-     "VFX_Fire",
-     "VFX_Slash",
-     "VFX_Water"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -27171,11 +26578,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Stone_Granite",
-     "VFX_Energy",
-     "VFX_Fire",
-     "VFX_Slash",
-     "VFX_Water"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -27195,11 +26598,7 @@
   "file": "assets/Phase3/VFX/HO_VFX_Shockwave_Dome.fbx",
   "tris": 1280,
   "textures": [
-   "Stone_Granite",
-   "VFX_Energy",
-   "VFX_Fire",
-   "VFX_Slash",
-   "VFX_Water"
+   "VFX_Energy"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -27220,11 +26619,7 @@
    "open_parts": 2,
    "inverted_parts": 0,
    "textures": [
-    "Stone_Granite",
-    "VFX_Energy",
-    "VFX_Fire",
-    "VFX_Slash",
-    "VFX_Water"
+    "VFX_Energy"
    ],
    "textures_ok": true,
    "pivot_bottom_center": true
@@ -27243,11 +26638,7 @@
   "file": "assets/Phase3/VFX/HO_VFX_Shockwave_Flat.fbx",
   "tris": 384,
   "textures": [
-   "Stone_Granite",
-   "VFX_Energy",
-   "VFX_Fire",
-   "VFX_Slash",
-   "VFX_Water"
+   "VFX_Energy"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -27268,11 +26659,7 @@
    "open_parts": 2,
    "inverted_parts": 0,
    "textures": [
-    "Stone_Granite",
-    "VFX_Energy",
-    "VFX_Fire",
-    "VFX_Slash",
-    "VFX_Water"
+    "VFX_Energy"
    ],
    "textures_ok": true,
    "pivot_bottom_center": true
@@ -27291,11 +26678,7 @@
   "file": "assets/Phase3/VFX/HO_VFX_Slash_Heavy.fbx",
   "tris": 512,
   "textures": [
-   "Stone_Granite",
-   "VFX_Energy",
-   "VFX_Fire",
-   "VFX_Slash",
-   "VFX_Water"
+   "VFX_Slash"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -27316,11 +26699,7 @@
    "open_parts": 2,
    "inverted_parts": 0,
    "textures": [
-    "Stone_Granite",
-    "VFX_Energy",
-    "VFX_Fire",
-    "VFX_Slash",
-    "VFX_Water"
+    "VFX_Slash"
    ],
    "textures_ok": true,
    "pivot_bottom_center": false
@@ -27339,11 +26718,7 @@
   "file": "assets/Phase3/VFX/HO_VFX_Slash_Medium.fbx",
   "tris": 512,
   "textures": [
-   "Stone_Granite",
-   "VFX_Energy",
-   "VFX_Fire",
-   "VFX_Slash",
-   "VFX_Water"
+   "VFX_Slash"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -27364,11 +26739,7 @@
    "open_parts": 2,
    "inverted_parts": 0,
    "textures": [
-    "Stone_Granite",
-    "VFX_Energy",
-    "VFX_Fire",
-    "VFX_Slash",
-    "VFX_Water"
+    "VFX_Slash"
    ],
    "textures_ok": true,
    "pivot_bottom_center": false
@@ -27387,11 +26758,7 @@
   "file": "assets/Phase3/VFX/HO_VFX_Slash_Thin.fbx",
   "tris": 512,
   "textures": [
-   "Stone_Granite",
-   "VFX_Energy",
-   "VFX_Fire",
-   "VFX_Slash",
-   "VFX_Water"
+   "VFX_Slash"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -27412,11 +26779,7 @@
    "open_parts": 2,
    "inverted_parts": 0,
    "textures": [
-    "Stone_Granite",
-    "VFX_Energy",
-    "VFX_Fire",
-    "VFX_Slash",
-    "VFX_Water"
+    "VFX_Slash"
    ],
    "textures_ok": true,
    "pivot_bottom_center": false
@@ -27435,11 +26798,7 @@
   "file": "assets/Phase3/VFX/HO_VFX_SpiralCone.fbx",
   "tris": 768,
   "textures": [
-   "Stone_Granite",
-   "VFX_Energy",
-   "VFX_Fire",
-   "VFX_Slash",
-   "VFX_Water"
+   "VFX_Energy"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -27460,11 +26819,7 @@
    "open_parts": 2,
    "inverted_parts": 0,
    "textures": [
-    "Stone_Granite",
-    "VFX_Energy",
-    "VFX_Fire",
-    "VFX_Slash",
-    "VFX_Water"
+    "VFX_Energy"
    ],
    "textures_ok": true,
    "pivot_bottom_center": false
@@ -27483,11 +26838,7 @@
   "file": "assets/Phase3/VFX/HO_VFX_StoneDrill.fbx",
   "tris": 692,
   "textures": [
-   "Stone_Granite",
-   "VFX_Energy",
-   "VFX_Fire",
-   "VFX_Slash",
-   "VFX_Water"
+   "Stone_Granite"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -27508,11 +26859,7 @@
    "open_parts": 0,
    "inverted_parts": 0,
    "textures": [
-    "Stone_Granite",
-    "VFX_Energy",
-    "VFX_Fire",
-    "VFX_Slash",
-    "VFX_Water"
+    "Stone_Granite"
    ],
    "textures_ok": true,
    "pivot_bottom_center": false
@@ -27531,11 +26878,7 @@
   "file": "assets/Phase3/VFX/HO_VFX_Vortex.fbx",
   "tris": 1536,
   "textures": [
-   "Stone_Granite",
-   "VFX_Energy",
-   "VFX_Fire",
-   "VFX_Slash",
-   "VFX_Water"
+   "VFX_Energy"
   ],
   "pivot": "bottom-centre",
   "checks": {
@@ -27556,11 +26899,7 @@
    "open_parts": 2,
    "inverted_parts": 0,
    "textures": [
-    "Stone_Granite",
-    "VFX_Energy",
-    "VFX_Fire",
-    "VFX_Slash",
-    "VFX_Water"
+    "VFX_Energy"
    ],
    "textures_ok": true,
    "pivot_bottom_center": false
@@ -27579,10 +26918,6 @@
   "file": "assets/Phase3/VFX/HO_VFX_WaterDragon.fbx",
   "tris": 2040,
   "textures": [
-   "Stone_Granite",
-   "VFX_Energy",
-   "VFX_Fire",
-   "VFX_Slash",
    "VFX_Water"
   ],
   "pivot": "bottom-centre",
@@ -27604,10 +26939,6 @@
    "open_parts": 29,
    "inverted_parts": 0,
    "textures": [
-    "Stone_Granite",
-    "VFX_Energy",
-    "VFX_Fire",
-    "VFX_Slash",
     "VFX_Water"
    ],
    "textures_ok": true,
@@ -28963,25 +28294,9 @@
   "file": "assets/Phase4/Characters/HO_Char_EarthGolem.fbx",
   "tris": 3320,
   "textures": [
-   "Black_Lacquer",
-   "Cloth_Crimson",
-   "Cloth_Navy",
-   "Cloth_White",
    "Glow_Amber",
-   "Glow_Blue",
-   "Glow_Red",
    "Glow_Yellow",
-   "Gold_Leaf",
-   "Iron_Wrought",
-   "Navy_Lacquer",
-   "Red_Lacquer",
-   "Shadow_Black",
-   "Steel_Blade",
-   "Steel_Dark",
-   "Stone_Fitted",
-   "Stone_Granite",
-   "Timber_Dark",
-   "Tsuka_Wrap"
+   "Stone_Granite"
   ],
   "pivot": "feet (ground) centre",
   "checks": {
@@ -29026,25 +28341,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Black_Lacquer",
-     "Cloth_Crimson",
-     "Cloth_Navy",
-     "Cloth_White",
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
-     "Glow_Yellow",
-     "Gold_Leaf",
-     "Iron_Wrought",
-     "Navy_Lacquer",
-     "Red_Lacquer",
-     "Shadow_Black",
-     "Steel_Blade",
-     "Steel_Dark",
-     "Stone_Fitted",
-     "Stone_Granite",
-     "Timber_Dark",
-     "Tsuka_Wrap"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -29067,10 +28364,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
-     "Glow_Yellow"
+     "Glow_Amber"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -29093,25 +28387,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Black_Lacquer",
-     "Cloth_Crimson",
-     "Cloth_Navy",
-     "Cloth_White",
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
-     "Glow_Yellow",
-     "Gold_Leaf",
-     "Iron_Wrought",
-     "Navy_Lacquer",
-     "Red_Lacquer",
-     "Shadow_Black",
-     "Steel_Blade",
-     "Steel_Dark",
-     "Stone_Fitted",
-     "Stone_Granite",
-     "Timber_Dark",
-     "Tsuka_Wrap"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -29134,9 +28410,6 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
      "Glow_Yellow"
     ],
     "textures_ok": true,
@@ -29160,25 +28433,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Black_Lacquer",
-     "Cloth_Crimson",
-     "Cloth_Navy",
-     "Cloth_White",
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
-     "Glow_Yellow",
-     "Gold_Leaf",
-     "Iron_Wrought",
-     "Navy_Lacquer",
-     "Red_Lacquer",
-     "Shadow_Black",
-     "Steel_Blade",
-     "Steel_Dark",
-     "Stone_Fitted",
-     "Stone_Granite",
-     "Timber_Dark",
-     "Tsuka_Wrap"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -29201,25 +28456,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Black_Lacquer",
-     "Cloth_Crimson",
-     "Cloth_Navy",
-     "Cloth_White",
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
-     "Glow_Yellow",
-     "Gold_Leaf",
-     "Iron_Wrought",
-     "Navy_Lacquer",
-     "Red_Lacquer",
-     "Shadow_Black",
-     "Steel_Blade",
-     "Steel_Dark",
-     "Stone_Fitted",
-     "Stone_Granite",
-     "Timber_Dark",
-     "Tsuka_Wrap"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -29242,25 +28479,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Black_Lacquer",
-     "Cloth_Crimson",
-     "Cloth_Navy",
-     "Cloth_White",
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
-     "Glow_Yellow",
-     "Gold_Leaf",
-     "Iron_Wrought",
-     "Navy_Lacquer",
-     "Red_Lacquer",
-     "Shadow_Black",
-     "Steel_Blade",
-     "Steel_Dark",
-     "Stone_Fitted",
-     "Stone_Granite",
-     "Timber_Dark",
-     "Tsuka_Wrap"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -29283,25 +28502,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Black_Lacquer",
-     "Cloth_Crimson",
-     "Cloth_Navy",
-     "Cloth_White",
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
-     "Glow_Yellow",
-     "Gold_Leaf",
-     "Iron_Wrought",
-     "Navy_Lacquer",
-     "Red_Lacquer",
-     "Shadow_Black",
-     "Steel_Blade",
-     "Steel_Dark",
-     "Stone_Fitted",
-     "Stone_Granite",
-     "Timber_Dark",
-     "Tsuka_Wrap"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -29322,25 +28523,8 @@
   "file": "assets/Phase4/Characters/HO_Char_Hollow.fbx",
   "tris": 3252,
   "textures": [
-   "Black_Lacquer",
-   "Cloth_Crimson",
-   "Cloth_Navy",
-   "Cloth_White",
-   "Glow_Amber",
-   "Glow_Blue",
    "Glow_Red",
-   "Glow_Yellow",
-   "Gold_Leaf",
-   "Iron_Wrought",
-   "Navy_Lacquer",
-   "Red_Lacquer",
-   "Shadow_Black",
-   "Steel_Blade",
-   "Steel_Dark",
-   "Stone_Fitted",
-   "Stone_Granite",
-   "Timber_Dark",
-   "Tsuka_Wrap"
+   "Shadow_Black"
   ],
   "pivot": "feet (ground) centre",
   "checks": {
@@ -29387,25 +28571,7 @@
     "open_parts": 10,
     "inverted_parts": 0,
     "textures": [
-     "Black_Lacquer",
-     "Cloth_Crimson",
-     "Cloth_Navy",
-     "Cloth_White",
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
-     "Glow_Yellow",
-     "Gold_Leaf",
-     "Iron_Wrought",
-     "Navy_Lacquer",
-     "Red_Lacquer",
-     "Shadow_Black",
-     "Steel_Blade",
-     "Steel_Dark",
-     "Stone_Fitted",
-     "Stone_Granite",
-     "Timber_Dark",
-     "Tsuka_Wrap"
+     "Shadow_Black"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -29428,10 +28594,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
-     "Glow_Yellow"
+     "Glow_Red"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -29454,25 +28617,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Black_Lacquer",
-     "Cloth_Crimson",
-     "Cloth_Navy",
-     "Cloth_White",
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
-     "Glow_Yellow",
-     "Gold_Leaf",
-     "Iron_Wrought",
-     "Navy_Lacquer",
-     "Red_Lacquer",
-     "Shadow_Black",
-     "Steel_Blade",
-     "Steel_Dark",
-     "Stone_Fitted",
-     "Stone_Granite",
-     "Timber_Dark",
-     "Tsuka_Wrap"
+     "Shadow_Black"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -29495,10 +28640,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
-     "Glow_Yellow"
+     "Glow_Red"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -29521,25 +28663,7 @@
     "open_parts": 2,
     "inverted_parts": 0,
     "textures": [
-     "Black_Lacquer",
-     "Cloth_Crimson",
-     "Cloth_Navy",
-     "Cloth_White",
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
-     "Glow_Yellow",
-     "Gold_Leaf",
-     "Iron_Wrought",
-     "Navy_Lacquer",
-     "Red_Lacquer",
-     "Shadow_Black",
-     "Steel_Blade",
-     "Steel_Dark",
-     "Stone_Fitted",
-     "Stone_Granite",
-     "Timber_Dark",
-     "Tsuka_Wrap"
+     "Shadow_Black"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -29562,10 +28686,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
-     "Glow_Yellow"
+     "Glow_Red"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -29588,25 +28709,7 @@
     "open_parts": 2,
     "inverted_parts": 0,
     "textures": [
-     "Black_Lacquer",
-     "Cloth_Crimson",
-     "Cloth_Navy",
-     "Cloth_White",
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
-     "Glow_Yellow",
-     "Gold_Leaf",
-     "Iron_Wrought",
-     "Navy_Lacquer",
-     "Red_Lacquer",
-     "Shadow_Black",
-     "Steel_Blade",
-     "Steel_Dark",
-     "Stone_Fitted",
-     "Stone_Granite",
-     "Timber_Dark",
-     "Tsuka_Wrap"
+     "Shadow_Black"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -29629,10 +28732,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
-     "Glow_Yellow"
+     "Glow_Red"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -29655,25 +28755,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Black_Lacquer",
-     "Cloth_Crimson",
-     "Cloth_Navy",
-     "Cloth_White",
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
-     "Glow_Yellow",
-     "Gold_Leaf",
-     "Iron_Wrought",
-     "Navy_Lacquer",
-     "Red_Lacquer",
-     "Shadow_Black",
-     "Steel_Blade",
-     "Steel_Dark",
-     "Stone_Fitted",
-     "Stone_Granite",
-     "Timber_Dark",
-     "Tsuka_Wrap"
+     "Shadow_Black"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -29696,25 +28778,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Black_Lacquer",
-     "Cloth_Crimson",
-     "Cloth_Navy",
-     "Cloth_White",
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
-     "Glow_Yellow",
-     "Gold_Leaf",
-     "Iron_Wrought",
-     "Navy_Lacquer",
-     "Red_Lacquer",
-     "Shadow_Black",
-     "Steel_Blade",
-     "Steel_Dark",
-     "Stone_Fitted",
-     "Stone_Granite",
-     "Timber_Dark",
-     "Tsuka_Wrap"
+     "Shadow_Black"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -29735,25 +28799,8 @@
   "file": "assets/Phase4/Heroes/HO_Hero_StoneFist_Left.fbx",
   "tris": 2264,
   "textures": [
-   "Black_Lacquer",
-   "Cloth_Crimson",
-   "Cloth_Navy",
-   "Cloth_White",
    "Glow_Amber",
-   "Glow_Blue",
-   "Glow_Red",
-   "Glow_Yellow",
-   "Gold_Leaf",
-   "Iron_Wrought",
-   "Navy_Lacquer",
-   "Red_Lacquer",
-   "Shadow_Black",
-   "Steel_Blade",
-   "Steel_Dark",
-   "Stone_Fitted",
-   "Stone_Granite",
-   "Timber_Dark",
-   "Tsuka_Wrap"
+   "Stone_Granite"
   ],
   "pivot": "fist centre",
   "checks": {
@@ -29792,25 +28839,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Black_Lacquer",
-     "Cloth_Crimson",
-     "Cloth_Navy",
-     "Cloth_White",
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
-     "Glow_Yellow",
-     "Gold_Leaf",
-     "Iron_Wrought",
-     "Navy_Lacquer",
-     "Red_Lacquer",
-     "Shadow_Black",
-     "Steel_Blade",
-     "Steel_Dark",
-     "Stone_Fitted",
-     "Stone_Granite",
-     "Timber_Dark",
-     "Tsuka_Wrap"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -29833,10 +28862,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
-     "Glow_Yellow"
+     "Glow_Amber"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -29857,25 +28883,8 @@
   "file": "assets/Phase4/Heroes/HO_Hero_StoneFist_Right.fbx",
   "tris": 2264,
   "textures": [
-   "Black_Lacquer",
-   "Cloth_Crimson",
-   "Cloth_Navy",
-   "Cloth_White",
    "Glow_Amber",
-   "Glow_Blue",
-   "Glow_Red",
-   "Glow_Yellow",
-   "Gold_Leaf",
-   "Iron_Wrought",
-   "Navy_Lacquer",
-   "Red_Lacquer",
-   "Shadow_Black",
-   "Steel_Blade",
-   "Steel_Dark",
-   "Stone_Fitted",
-   "Stone_Granite",
-   "Timber_Dark",
-   "Tsuka_Wrap"
+   "Stone_Granite"
   ],
   "pivot": "fist centre",
   "checks": {
@@ -29914,25 +28923,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Black_Lacquer",
-     "Cloth_Crimson",
-     "Cloth_Navy",
-     "Cloth_White",
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
-     "Glow_Yellow",
-     "Gold_Leaf",
-     "Iron_Wrought",
-     "Navy_Lacquer",
-     "Red_Lacquer",
-     "Shadow_Black",
-     "Steel_Blade",
-     "Steel_Dark",
-     "Stone_Fitted",
-     "Stone_Granite",
-     "Timber_Dark",
-     "Tsuka_Wrap"
+     "Stone_Granite"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -29955,10 +28946,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
-     "Glow_Yellow"
+     "Glow_Amber"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -30025,9 +29013,6 @@
   "tris": 576,
   "textures": [
    "Glow_Amber",
-   "Glow_Blue",
-   "Glow_Red",
-   "Glow_Yellow",
    "Gold_Leaf",
    "Iron_Wrought",
    "Steel_Dark",
@@ -30165,10 +29150,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
-     "Glow_Yellow"
+     "Glow_Amber"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -30297,10 +29279,7 @@
   "file": "assets/Phase4/Weapons/HO_Weapon_CrimsonOath.fbx",
   "tris": 910,
   "textures": [
-   "Glow_Amber",
-   "Glow_Blue",
    "Glow_Red",
-   "Glow_Yellow",
    "Gold_Leaf",
    "Steel_Blade",
    "Tsuka_Wrap"
@@ -30413,10 +29392,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
-     "Glow_Yellow"
+     "Glow_Red"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
@@ -30762,10 +29738,7 @@
   "file": "assets/Phase4/Weapons/HO_Weapon_MoonlitEdge.fbx",
   "tris": 750,
   "textures": [
-   "Glow_Amber",
    "Glow_Blue",
-   "Glow_Red",
-   "Glow_Yellow",
    "Gold_Leaf",
    "Iron_Wrought",
    "Steel_Blade",
@@ -30903,10 +29876,7 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Glow_Amber",
-     "Glow_Blue",
-     "Glow_Red",
-     "Glow_Yellow"
+     "Glow_Blue"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false

@@ -18,6 +18,9 @@ You are the Roblox Studio builder for **Hollow Oath**, an Edo-Japan-inspired ani
 2. In the import settings set **File Dimensions → Scale Unit = Stud**. Leave "Set Pivot to Origin" off.
 3. The MeshPart **Size must read 1, 1, 1**. The red **FRONT** face must point along the part's LookVector (−Z). **TOP** is +Y, the green **RIGHT** face is +X.
 4. If the size is anything else, **stop and report the exact Size shown**. Never rescale meshes in Roblox to compensate. The Blender side will fix the export.
+5. **Orientation test:** import `assets/Phase0/Test/HO_Test_Orientation.fbx` (a multi-mesh model: a 6×6 plate, a red arrow, a white post and a yellow block). The **red arrow must point −Z**, the **white post must be at +Z**, and the **yellow block must be at +X**. Report the result. If the arrow points +Z, multi-mesh files are being turned by the importer, and every non-building asset needs the same fix the buildings got.
+
+> **Buildings (`HO_Bldg_*`)** are re-exported so their fronts arrive on −Z in Studio (the first import showed them on +Z). Turn `Builder.FLIP_BUILDINGS` off (it's `false` in the new `HO_CityBuilder.lua`) after importing the new building files. Re-import all of them; old copies still need the flip.
 
 ## Step 2: import rules (every asset)
 

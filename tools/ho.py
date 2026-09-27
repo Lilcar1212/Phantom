@@ -20,6 +20,8 @@ MANIFEST_MD = os.path.join(ROOT, 'MANIFEST.md')
 TRI_LIMIT = 20000
 TEX_LIMIT = 1024
 
+FLIP_EXPORT_PREFIXES = ('HO_Bldg_',)   # exported turned 180 deg about up (see export_fbx)
+
 FBX_SETTINGS = dict(
     use_selection=True,
     object_types={'MESH', 'ARMATURE', 'EMPTY'},
@@ -327,7 +329,15 @@ def export_fbx(objs, rel_path):
     for o in objs:
         o.select_set(True)
     bpy.context.view_layer.objects.active = objs[0]
+    # Roblox import report: HO_Bldg_* arrived with their fronts on +Z, so building files are turned 180 deg
+    # about the up axis on export (the Blender scene, checks and previews keep front = +Y).
+    flip = os.path.basename(rel_path).startswith(FLIP_EXPORT_PREFIXES)
+    turn = Matrix.Rotation(math.pi, 4, 'Z')
+    if flip:
+        for o in objs: o.data.transform(turn); o.data.update()
     bpy.ops.export_scene.fbx(filepath=path, **FBX_SETTINGS)
+    if flip:
+        for o in objs: o.data.transform(turn); o.data.update()
     return os.path.relpath(path, ROOT)
 
 
@@ -516,6 +526,7 @@ def publish(ob, category, phase='Phase1', grid=None, notes='', type_='Mesh', ren
                              render=render, views=views, samples=samples, footprint=footprint)
     if footprint:
         ob['ho_footprint'] = footprint
+    strip_unused_slots(ob)
     c = check(ob, grid=grid)
     rel = export_fbx([ob], f'{phase}/{category}/{ob.name}.fbx')
     renders = render_previews([ob, *extra_objs], ob.name, subdir=f'{phase}/{category}', views=views,
@@ -563,6 +574,21 @@ def used_sets(ob):
     return sorted({(ob.data.materials[p.material_index].get('ho_texset') or 'none') for p in ob.data.polygons})
 
 
+def strip_unused_slots(o):
+    """Single-set object: keep only the material slot its faces use (stray empty slots from kit builders
+    otherwise travel into the FBX and confuse the one-SurfaceAppearance-per-MeshPart mapping)."""
+    me = o.data
+    if len(me.materials) <= 1 or not me.polygons:
+        return o
+    mat = me.materials[me.polygons[0].material_index]
+    me.materials.clear()
+    me.materials.append(mat)
+    for p in me.polygons:
+        p.material_index = 0
+    me.update()
+    return o
+
+
 def split_single_material(objs):
     """Roblox MeshParts take ONE SurfaceAppearance: split every multi-material object into one object per
     texture set, named <Object>__<TextureSet>. Single-material objects are kept unchanged."""
@@ -570,7 +596,7 @@ def split_single_material(objs):
     for o in objs:
         sets = used_sets(o)
         if len(sets) <= 1:
-            out.append(o)
+            out.append(strip_unused_slots(o))
         else:
             out += split_by_material(o, {f'__{t}': [t] for t in sets})
     return out

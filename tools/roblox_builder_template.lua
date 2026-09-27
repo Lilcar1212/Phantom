@@ -17,6 +17,8 @@
 ]]
 
 local Builder = {}
+-- Set true only for OLD building FBX files whose fronts arrived on +Z (the re-exported HO_Bldg_* face -Z).
+Builder.FLIP_BUILDINGS = false
 
 -- Paste uploaded image ids here (rbxassetid://...). Keys are the texture set names from /textures.
 local TEXTURES = {
@@ -204,7 +206,8 @@ local function building(parent, name, x, y, elev, w, d, facing, storeys, color, 
 	-- w/d are plan (X/Y) extents; the model's own width runs along its front, so swap for E/W facing
 	if facing == "E" or facing == "W" then w, d = d, w end
 	local cf = CFrame.new(W(x, y, elev)) * CFrame.Angles(0, FACING[facing] or 0, 0)
-	if placeAsset(name, cf, parent) then return end
+	local acf = (Builder.FLIP_BUILDINGS and string.sub(name, 1, 8) == "HO_Bldg_") and cf * CFrame.Angles(0, math.pi, 0) or cf
+	if placeAsset(name, acf, parent) then return end
 	local m = Instance.new("Model"); m.Name = name .. "_Placeholder"; m.Parent = parent
 	local h = 9 * storeys
 	part(m, Vector3.new(w + 0.6, 1, d + 0.6), cf * CFrame.new(0, 0.5, 0), COL.stone, Enum.Material.Slate, "Plinth")
@@ -342,6 +345,10 @@ local function buildCastleWalls()
 	for _, g in ipairs(DATA.gates) do
 		local e = elevAt(g.c[1], g.c[2] + 8)
 		building(folders.Castle, "HO_Castle_Gatehouse", g.c[1], g.c[2], e, 28, 12, "S", 1, COL.timber, g.label)
+		for _, sx in ipairs({ -1, 1 }) do         -- nobori banners on the ground in front (south) of the gate
+			local bx, by = g.c[1] + sx * 16, g.c[2] - 9
+			placeAsset("HO_Prop_Banner", CFrame.new(W(bx, by, elevAt(bx, by))), folders.Castle)
+		end
 	end
 	for _, y in ipairs(DATA.yagura) do
 		local e = elevAt(y[1] + 0.1, y[2] + 0.1)
@@ -420,6 +427,12 @@ local function buildHarbour()
 			end
 		end
 	end
+	-- moored boats alongside each pier (bows to the sea = east); keel pivot, sea level = 0
+	for i, p in ipairs(DATA.piers) do
+		local side = (i % 2 == 0) and 1 or -1
+		placeAsset("HO_Harbour_Boat_Small", CFrame.new(W(p.x0 + 36, p.y + side * (p.width / 2 + 4), -1.0)) * CFrame.Angles(0, FACING.E, 0), f)
+		placeAsset("HO_Harbour_Boat_Cargo", CFrame.new(W(p.x0 + 50, p.y - side * (p.width / 2 + 7), -2.2)) * CFrame.Angles(0, FACING.E, 0), f)
+	end
 	-- promenade paving + quay edge
 	part(f, Vector3.new(40, 0.2, 740), CFrame.new(W(752, 410, 4.1)), COL.cobble, Enum.Material.Cobblestone, "Promenade")
 	part(f, Vector3.new(2, 1, 780), CFrame.new(W(771, 430, 4.5)), COL.stone, Enum.Material.Slate, "QuayCap")
@@ -462,6 +475,10 @@ end
 local function torii(parent, x, y, facing)
 	local e = elevAt(x, y)
 	local cf = CFrame.new(W(x, y, e)) * CFrame.Angles(0, (facing == "E" or facing == "W") and math.rad(90) or 0, 0)
+	for _, sx in ipairs({ -1, 1 }) do            -- a stone lantern either side of the passage
+		placeAsset("HO_Prop_StoneLantern", cf * CFrame.new(sx * 9, 0, -4), parent)
+		placeAsset("HO_Prop_StoneLantern", cf * CFrame.new(sx * 9, 0, 4) * CFrame.Angles(0, math.pi, 0), parent)
+	end
 	if placeAsset("HO_Prop_Torii", cf, parent) then return end
 	local m = Instance.new("Model"); m.Name = "Torii_Placeholder"; m.Parent = parent
 	for _, s in ipairs({ -1, 1 }) do
