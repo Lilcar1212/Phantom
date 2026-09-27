@@ -93,6 +93,9 @@ If a lot's size doesn't match a roof exactly, use the closest roof that is **not
   - Add a warm PointLight (Range 14, Brightness 1.5) at the andon lantern in the back room, and one in the doma.
 - Collision: give `_Structure` and `_Interior` `CollisionFidelity = PreciseConvexDecomposition`. That keeps walls, floors and the doorway walkable. Make the other parts non-collidable. Doors: CanCollide on, toggled off while open.
 
+**Special buildings**: `assets/Phase1/Buildings/`. Same pivot and facing rules; see `docs/AI_WORKPLAN.md` Phases D–E for placement and gameplay hookup:
+`HO_Bldg_TidewatchInn` (40×24), `HO_Bldg_Blacksmith` (20×24), `HO_Bldg_Armory` (16×20), `HO_Bldg_GeneralStore` (20×16), `HO_Bldg_MagicStall` (8×12), `HO_Bldg_Kura` (20×24). The `_Glow` meshes (lanterns, embers, orbs) should be Neon with a PointLight.
+
 **Wall kit** (`assets/Phase1/Walls`, `Fronts`, `Foundations`), for custom buildings:
 
 - Every wall is exactly **L × 1 × 9** (L = 4/8/12/16). The pivot is at the bottom-centre of the wall. The **outside face is the front (−Z)**. Put the wall's centre line **0.5 stud inside** the footprint edge. The wall runs along the footprint edge with its full outer length; walls on adjacent sides overlap at the corners.

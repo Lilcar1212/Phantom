@@ -194,3 +194,41 @@ class Builder:
                    (p.co[(fa + 1) % 3] * UVD + uv_seed, p.co[(fa + 2) % 3] * UVD) for p in vs]
             n = Vector((0, 0, 0)); n[fa] = 1 if k[0] == '+' else -1
             self.face(vs, mat, uvs, out=n)
+
+
+def lathe(b, center, profile, segs, mat, smooth=True, uvd=UVD, axis='z', cap_bottom=True, cap_top=True):
+    """Revolve profile [(radius, height)] (bottom -> top) around a vertical axis at `center`.
+    Radius 0 at an end closes it to a point; otherwise the end is capped with a flat n-gon."""
+    c = Vector(center)
+    rings = []
+    for r, h in profile:
+        if r < 1e-6:
+            rings.append([b.bm.verts.new(c + Vector((0, 0, h)))])
+        else:
+            rings.append([b.bm.verts.new(c + Vector((r * math.cos(2 * math.pi * i / segs),
+                                                     r * math.sin(2 * math.pi * i / segs), h))) for i in range(segs)])
+    circ = 2 * math.pi * max(r for r, _ in profile)
+    for k in range(len(rings) - 1):
+        A, B = rings[k], rings[k + 1]
+        hk, hk1 = profile[k][1], profile[k + 1][1]
+        for i in range(segs):
+            j = (i + 1) % segs
+            u0, u1 = i / segs * circ * uvd, (i + 1) / segs * circ * uvd
+            mid_ang = 2 * math.pi * (i + 0.5) / segs
+            outv = Vector((math.cos(mid_ang), math.sin(mid_ang), 0))
+            # tilt the outward hint by the profile slope
+            dr = profile[k + 1][0] - profile[k][0]; dh = hk1 - hk
+            outv = Vector((outv.x * dh, outv.y * dh, -dr)) if abs(dh) + abs(dr) > 1e-9 else outv
+            if outv.length < 1e-9: outv = Vector((0, 0, 1 if dr < 0 else -1))
+            if len(A) == 1:
+                b.face([A[0], B[i], B[j]], mat, [(u0, hk * uvd), (u0, hk1 * uvd), (u1, hk1 * uvd)], out=outv, smooth=smooth)
+            elif len(B) == 1:
+                b.face([A[i], A[j], B[0]], mat, [(u0, hk * uvd), (u1, hk * uvd), (u0, hk1 * uvd)], out=outv, smooth=smooth)
+            else:
+                b.face([A[i], A[j], B[j], B[i]], mat,
+                       [(u0, hk * uvd), (u1, hk * uvd), (u1, hk1 * uvd), (u0, hk1 * uvd)], out=outv, smooth=smooth)
+    for ring, sign, cap in ((rings[0], -1, cap_bottom), (rings[-1], 1, cap_top)):
+        if len(ring) > 2 and cap:
+            b.face(list(ring), mat, [(0.5 + 0.5 * math.cos(2 * math.pi * i / segs), 0.5 + 0.5 * math.sin(2 * math.pi * i / segs))
+                                     for i in range(segs)], out=Vector((0, 0, sign)))
+    return rings

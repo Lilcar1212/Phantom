@@ -342,6 +342,62 @@ def earth():
     save('Earth_Packed', col, h, 0.88, 0.0, 1.6)
 
 
+
+def black_lacquer():
+    m1 = fnoise(161, 2.4); m2 = fnoise(162, 1.0)
+    wear = smooth(0.8, 0.9, fnoise(163, 2.2))
+    col = lerp((22, 20, 22), (38, 34, 36), m1)
+    col = lerp(col, (96, 40, 30), wear * 0.5)            # red undercoat where worn
+    h = m2 * 0.25 + wear * 0.15
+    save('Black_Lacquer', col, h, 0.22 + m1 * 0.08 + wear * 0.3, 0.0, 0.8)
+
+
+def namako():
+    """Namako-kabe: square black tiles set diagonally, raised white plaster joints. One tile = 1x1 stud,
+    texture tile = 4x4 studs (4 diagonal tiles per row)."""
+    u = (xx + yy) * 4.0; v = (xx - yy) * 4.0
+    fu, fv = u % 1.0, v % 1.0
+    d = np.minimum(np.minimum(fu, 1 - fu), np.minimum(fv, 1 - fv))
+    joint = smooth(0.09, 0.05, d)
+    dome = smooth(0.05, 0.12, d)
+    m1 = fnoise(171, 2.4); m2 = fnoise(172, 1.0)
+    tid = (np.floor(u) * 7 + np.floor(v) * 13) % 5 / 5.0
+    tile = lerp((34, 36, 40), (58, 60, 66), m1 * 0.6 + tid * 0.4)
+    plaster = lerp((226, 222, 212), (242, 238, 228), m2)
+    col = lerp(tile, plaster, joint)
+    h = joint * 1.0 + dome * 0.25 + m2 * 0.05
+    save('Namako_Wall', col, h, 0.55 + joint * 0.35, 0.0, 5.0)
+
+
+def straw():
+    """Woven rice straw (tawara bales, sacks, komodaru wrap): fibres along U, binding bands."""
+    fib = fnoise(181, 0.6, aniso=(30.0, 1.0)); m1 = fnoise(182, 2.4)
+    col = lerp((168, 140, 86), (212, 186, 124), fib * 0.6 + m1 * 0.4)
+    col = lerp(col, (120, 96, 56), smooth(0.8, 0.95, fnoise(183, 0.8, aniso=(30.0, 1.0))) * 0.5)
+    h = fib * 0.6
+    save('Straw', col, h, 0.85, 0.0, 2.5)
+
+
+def ember():
+    """Glowing forge coals (use with Neon or a PointLight in Roblox)."""
+    f1, f2, cid, pts = voronoi(191, 0, jitter=0.9, grid=(10, 10))
+    edge = f2 - f1
+    heat = fnoise(192, 1.8)
+    hot = smooth(0.35, 0.8, heat)
+    coal = smooth(0.0, 0.04, edge)
+    col = lerp((30, 18, 14), (255, 120, 30), hot * coal)
+    col = lerp(col, (255, 210, 120), smooth(0.7, 0.95, heat) * coal)
+    save('Ember', col, coal * 0.8, 0.9, 0.0, 4.0)
+
+
+def magic_glow():
+    """Soft swirling glow for magic orbs (near-white so Roblox can tint it; use Neon / PointLight)."""
+    sw = fnoise(201, 2.2); sw2 = fnoise(202, 1.4, aniso=(4.0, 1.0))
+    t = np.sin((xx * 3 + sw * 2.5) * 2 * np.pi) * 0.5 + 0.5
+    col = lerp((190, 226, 255), (255, 255, 255), t * 0.6 + sw2 * 0.4)
+    save('Magic_Glow', col, sw * 0.2, 0.15, 0.0, 0.5)
+
+
 if __name__ == '__main__':
     which = sys.argv[1:] or ['roof_tile', 'timber_dark', 'timber_light', 'plaster', 'granite', 'fitted_stone',
                              'cobble', 'planks', 'gold', 'iron', 'shoji', 'uv_check']

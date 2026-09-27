@@ -15,6 +15,7 @@ Status: ✅ done · 🔨 in progress · ⬜ to do
 ## 2a. Materials (shared texture library)
 - ✅ RoofTile_Clay, Timber_Dark, Timber_Light, Plaster_White, Stone_Granite, Stone_Fitted, Cobblestone, Wood_Planks, Gold_Leaf, Iron_Wrought, Shoji_Paper
 - ✅ Tatami, Cloth (White/Navy/Indigo/Crimson/Ochre), Red_Lacquer, Earth_Packed
+- ✅ Black_Lacquer, Namako_Wall, Straw, Ember, Magic_Glow
 - ⬜ Bamboo, Pine needles / bark, Rope, Sail cloth
 
 ## 2b. Roofs (top priority)
@@ -31,8 +32,9 @@ Status: ✅ done · 🔨 in progress · ⬜ to do
 
 ## 2d. Buildings (kit assemblies, also exported whole)
 - ✅ Machiya A–F (12–24 wide, 1–2 storeys, ground-floor interiors: doma, kamado, shop floor, shelves, tatami room, shoji partition, stair chest)
-- ⬜ Tidewatch Inn (lobby, corridor, 6 rooms)
-- ⬜ Blacksmith, Armory, General Store, Magic Stall, Kura warehouse
+- ✅ Tidewatch Inn (genkan, lobby + reception, dining hall, stair, corridor, 6 furnished rooms with sliding doors)
+- ✅ Blacksmith, Armory, General Store, Magic Stall, Kura warehouse (all with interiors/props)
+- ✅ Props library: futon, low table, andon, tansu, barrels, komodaru, tawara, sacks, jars, crates, shelves, counter, katana, sword racks, samurai armour, spear rack, anvil, forge, bellows, quench trough, tool rack, orbs, crystals, ofuda, chochin
 
 ## 2e. Castle & fortifications
 - ⬜ Ishigaki modules (straight / corner / stepped, fitted stones)

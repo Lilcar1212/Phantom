@@ -199,6 +199,8 @@ end
 
 -- generic building: real asset if present, else plinth + plaster block (+ real roof asset if imported)
 local function building(parent, name, x, y, elev, w, d, facing, storeys, color, text)
+	-- w/d are plan (X/Y) extents; the model's own width runs along its front, so swap for E/W facing
+	if facing == "E" or facing == "W" then w, d = d, w end
 	local cf = CFrame.new(W(x, y, elev)) * CFrame.Angles(0, FACING[facing] or 0, 0)
 	if placeAsset(name, cf, parent) then return end
 	local m = Instance.new("Model"); m.Name = name .. "_Placeholder"; m.Parent = parent

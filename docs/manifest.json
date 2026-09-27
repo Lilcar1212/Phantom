@@ -37,6 +37,1541 @@
   "notes": "Scale/orientation check: must import as Size 1,1,1 with FRONT facing -Z"
  },
  {
+  "name": "HO_Bldg_Armory",
+  "phase": "Phase1",
+  "category": "Buildings",
+  "type": "Mesh group",
+  "file": "assets/Phase1/Buildings/HO_Bldg_Armory.fbx",
+  "tris": 33228,
+  "textures": [
+   "Black_Lacquer",
+   "Cloth_Crimson",
+   "Cloth_Indigo",
+   "Cloth_Navy",
+   "Cloth_Ochre",
+   "Cloth_White",
+   "Earth_Packed",
+   "Ember",
+   "Gold_Leaf",
+   "Iron_Wrought",
+   "Magic_Glow",
+   "Plaster_White",
+   "Red_Lacquer",
+   "RoofTile_Clay",
+   "Shoji_Paper",
+   "Stone_Fitted",
+   "Stone_Granite",
+   "Straw",
+   "Tatami",
+   "Timber_Dark",
+   "Timber_Light",
+   "Wood_Planks"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 1378,
+   "inverted_parts": 0,
+   "dims": [
+    17.539,
+    25.867,
+    30.089
+   ],
+   "meshes": {
+    "HO_Bldg_Armory_Structure": 4768,
+    "HO_Bldg_Armory_Structure_GF": 2352,
+    "HO_Bldg_Armory_Door1": 288,
+    "HO_Bldg_Armory_Door2": 288,
+    "HO_Bldg_Armory_Structure_2F": 2640,
+    "HO_Bldg_Armory_Interior_GF": 9384,
+    "HO_Bldg_Armory_Glow": 12,
+    "HO_Bldg_Armory_Interior_2F": 1170,
+    "HO_Bldg_Armory_Front": 3328,
+    "HO_Bldg_Armory_SignFace": 12,
+    "HO_Bldg_Armory_RoofTiles": 6958,
+    "HO_Bldg_Armory_RoofFrame": 2028
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": true,
+   "grid_ok": true
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Bldg_Armory_Structure",
+    "tris": 4768,
+    "tris_per_material": {
+     "Stone_Granite": 4768
+    },
+    "under_limit": true,
+    "dims": [
+     16.6,
+     20.6,
+     1.0
+    ],
+    "parts": 176,
+    "floating": 0,
+    "closed_parts": 176,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": true,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_Armory_Structure_GF",
+    "tris": 2352,
+    "tris_per_material": {
+     "Timber_Dark": 1152,
+     "Shoji_Paper": 72,
+     "Timber_Light": 672,
+     "Plaster_White": 456
+    },
+    "under_limit": true,
+    "dims": [
+     16.4,
+     20.4,
+     9.0
+    ],
+    "parts": 142,
+    "floating": 0,
+    "closed_parts": 132,
+    "open_parts": 16,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_Armory_Door1",
+    "tris": 288,
+    "tris_per_material": {
+     "Timber_Dark": 156,
+     "Shoji_Paper": 12,
+     "Timber_Light": 120
+    },
+    "under_limit": true,
+    "dims": [
+     3.2,
+     0.32,
+     6.5
+    ],
+    "parts": 18,
+    "floating": 0,
+    "closed_parts": 16,
+    "open_parts": 2,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_Armory_Door2",
+    "tris": 288,
+    "tris_per_material": {
+     "Timber_Dark": 156,
+     "Shoji_Paper": 12,
+     "Timber_Light": 120
+    },
+    "under_limit": true,
+    "dims": [
+     3.2,
+     0.32,
+     6.5
+    ],
+    "parts": 18,
+    "floating": 0,
+    "closed_parts": 16,
+    "open_parts": 2,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_Armory_Structure_2F",
+    "tris": 2640,
+    "tris_per_material": {
+     "Timber_Dark": 888,
+     "Plaster_White": 888,
+     "Shoji_Paper": 96,
+     "Timber_Light": 768
+    },
+    "under_limit": true,
+    "dims": [
+     16.4,
+     20.4,
+     9.0
+    ],
+    "parts": 154,
+    "floating": 0,
+    "closed_parts": 132,
+    "open_parts": 22,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_Armory_Interior_GF",
+    "tris": 9384,
+    "tris_per_material": {
+     "Timber_Dark": 420,
+     "Wood_Planks": 154,
+     "Black_Lacquer": 2298,
+     "Red_Lacquer": 1130,
+     "Cloth_Crimson": 3264,
+     "Gold_Leaf": 994,
+     "Iron_Wrought": 284,
+     "Timber_Light": 300,
+     "Cloth_White": 540
+    },
+    "under_limit": true,
+    "dims": [
+     15.34,
+     18.0,
+     10.75
+    ],
+    "parts": 606,
+    "floating": 31,
+    "closed_parts": 571,
+    "open_parts": 39,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer",
+     "Cloth_Crimson",
+     "Cloth_Indigo",
+     "Cloth_Navy",
+     "Cloth_Ochre",
+     "Cloth_White",
+     "Earth_Packed",
+     "Gold_Leaf",
+     "Iron_Wrought",
+     "Plaster_White",
+     "Red_Lacquer",
+     "RoofTile_Clay",
+     "Shoji_Paper",
+     "Stone_Fitted",
+     "Stone_Granite",
+     "Straw",
+     "Tatami",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": true,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_Armory_Glow",
+    "tris": 12,
+    "tris_per_material": {
+     "Shoji_Paper": 12
+    },
+    "under_limit": true,
+    "dims": [
+     0.86,
+     0.86,
+     0.95
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Ember",
+     "Magic_Glow",
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_Armory_Interior_2F",
+    "tris": 1170,
+    "tris_per_material": {
+     "Timber_Light": 36,
+     "Wood_Planks": 102,
+     "Timber_Dark": 600,
+     "Straw": 216,
+     "Cloth_White": 216
+    },
+    "under_limit": true,
+    "dims": [
+     14.0,
+     18.0,
+     2.5
+    ],
+    "parts": 33,
+    "floating": 0,
+    "closed_parts": 68,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer",
+     "Cloth_Crimson",
+     "Cloth_Indigo",
+     "Cloth_Navy",
+     "Cloth_Ochre",
+     "Cloth_White",
+     "Earth_Packed",
+     "Gold_Leaf",
+     "Iron_Wrought",
+     "Plaster_White",
+     "Red_Lacquer",
+     "RoofTile_Clay",
+     "Shoji_Paper",
+     "Stone_Fitted",
+     "Stone_Granite",
+     "Straw",
+     "Tatami",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_Armory_Front",
+    "tris": 3328,
+    "tris_per_material": {
+     "RoofTile_Clay": 1638,
+     "Timber_Light": 80,
+     "Timber_Dark": 670,
+     "Cloth_Navy": 832,
+     "Iron_Wrought": 108
+    },
+    "under_limit": true,
+    "dims": [
+     16.066,
+     3.549,
+     7.281
+    ],
+    "parts": 86,
+    "floating": 75,
+    "closed_parts": 51,
+    "open_parts": 35,
+    "inverted_parts": 0,
+    "textures": [
+     "Cloth_Navy",
+     "Earth_Packed",
+     "Gold_Leaf",
+     "Iron_Wrought",
+     "Plaster_White",
+     "RoofTile_Clay",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Tatami",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_Armory_SignFace",
+    "tris": 12,
+    "tris_per_material": {
+     "Timber_Light": 12
+    },
+    "under_limit": true,
+    "dims": [
+     0.2,
+     1.0,
+     2.34
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_Armory_RoofTiles",
+    "tris": 6958,
+    "tris_per_material": {
+     "RoofTile_Clay": 6958
+    },
+    "under_limit": true,
+    "dims": [
+     17.539,
+     25.267,
+     9.849
+    ],
+    "parts": 84,
+    "floating": 0,
+    "closed_parts": 61,
+    "open_parts": 39,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_Armory_RoofFrame",
+    "tris": 2028,
+    "tris_per_material": {
+     "Timber_Light": 652,
+     "Timber_Dark": 1256,
+     "Plaster_White": 120
+    },
+    "under_limit": true,
+    "dims": [
+     16.6,
+     24.444,
+     9.394
+    ],
+    "parts": 59,
+    "floating": 0,
+    "closed_parts": 23,
+    "open_parts": 39,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White",
+     "Timber_Dark",
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   }
+  ],
+  "renders": [],
+  "notes": "16x20 footprint. Pivot = footprint centre at ground level; front faces -Z (street). 2 storeys. Four lacquered samurai armour stands, spear rack, katana stands + wall racks, counter; crates upstairs. | meshes: HO_Bldg_Armory_Structure (4768), HO_Bldg_Armory_Structure_GF (2352), HO_Bldg_Armory_Door1 (288), HO_Bldg_Armory_Door2 (288), HO_Bldg_Armory_Structure_2F (2640), HO_Bldg_Armory_Interior_GF (9384), HO_Bldg_Armory_Glow (12), HO_Bldg_Armory_Interior_2F (1170), HO_Bldg_Armory_Front (3328), HO_Bldg_Armory_SignFace (12), HO_Bldg_Armory_RoofTiles (6958), HO_Bldg_Armory_RoofFrame (2028)"
+ },
+ {
+  "name": "HO_Bldg_Blacksmith",
+  "phase": "Phase1",
+  "category": "Buildings",
+  "type": "Mesh group",
+  "file": "assets/Phase1/Buildings/HO_Bldg_Blacksmith.fbx",
+  "tris": 24850,
+  "textures": [
+   "Black_Lacquer",
+   "Cloth_Crimson",
+   "Cloth_Indigo",
+   "Cloth_Navy",
+   "Cloth_Ochre",
+   "Cloth_White",
+   "Earth_Packed",
+   "Ember",
+   "Gold_Leaf",
+   "Iron_Wrought",
+   "Magic_Glow",
+   "Plaster_White",
+   "Red_Lacquer",
+   "RoofTile_Clay",
+   "Shoji_Paper",
+   "Stone_Fitted",
+   "Stone_Granite",
+   "Straw",
+   "Tatami",
+   "Timber_Dark",
+   "Timber_Light",
+   "Wood_Planks"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 744,
+   "inverted_parts": 0,
+   "dims": [
+    23.126,
+    29.743,
+    25.418
+   ],
+   "meshes": {
+    "HO_Bldg_Blacksmith_Structure": 5744,
+    "HO_Bldg_Blacksmith_Structure_GF": 3408,
+    "HO_Bldg_Blacksmith_Interior_GF": 3246,
+    "HO_Bldg_Blacksmith_Glow": 12,
+    "HO_Bldg_Blacksmith_Front": 968,
+    "HO_Bldg_Blacksmith_SignFace": 24,
+    "HO_Bldg_Blacksmith_RoofTiles": 8838,
+    "HO_Bldg_Blacksmith_RoofFrame": 2610
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": true,
+   "grid_ok": true
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Bldg_Blacksmith_Structure",
+    "tris": 5744,
+    "tris_per_material": {
+     "Stone_Granite": 5744
+    },
+    "under_limit": true,
+    "dims": [
+     20.6,
+     24.6,
+     1.0
+    ],
+    "parts": 212,
+    "floating": 0,
+    "closed_parts": 212,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": true,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_Blacksmith_Structure_GF",
+    "tris": 3408,
+    "tris_per_material": {
+     "Timber_Dark": 1680,
+     "Plaster_White": 648,
+     "Shoji_Paper": 120,
+     "Timber_Light": 960
+    },
+    "under_limit": true,
+    "dims": [
+     20.4,
+     24.4,
+     9.0
+    ],
+    "parts": 200,
+    "floating": 0,
+    "closed_parts": 172,
+    "open_parts": 28,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_Blacksmith_Interior_GF",
+    "tris": 3246,
+    "tris_per_material": {
+     "Earth_Packed": 10,
+     "Timber_Dark": 378,
+     "Timber_Light": 396,
+     "Iron_Wrought": 584,
+     "Black_Lacquer": 618,
+     "Cloth_White": 834,
+     "Gold_Leaf": 224,
+     "Wood_Planks": 48,
+     "Stone_Fitted": 24,
+     "Stone_Granite": 70,
+     "Straw": 60
+    },
+    "under_limit": true,
+    "dims": [
+     21.52,
+     23.0,
+     25.418
+    ],
+    "parts": 146,
+    "floating": 57,
+    "closed_parts": 140,
+    "open_parts": 18,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer",
+     "Cloth_Crimson",
+     "Cloth_Indigo",
+     "Cloth_Navy",
+     "Cloth_Ochre",
+     "Cloth_White",
+     "Earth_Packed",
+     "Gold_Leaf",
+     "Iron_Wrought",
+     "Plaster_White",
+     "Red_Lacquer",
+     "RoofTile_Clay",
+     "Shoji_Paper",
+     "Stone_Fitted",
+     "Stone_Granite",
+     "Straw",
+     "Tatami",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_Blacksmith_Glow",
+    "tris": 12,
+    "tris_per_material": {
+     "Ember": 12
+    },
+    "under_limit": true,
+    "dims": [
+     2.0,
+     1.8,
+     0.28
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Ember",
+     "Magic_Glow",
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_Blacksmith_Front",
+    "tris": 968,
+    "tris_per_material": {
+     "Timber_Dark": 88,
+     "Cloth_Crimson": 832,
+     "Iron_Wrought": 48
+    },
+    "under_limit": true,
+    "dims": [
+     16.75,
+     2.92,
+     8.02
+    ],
+    "parts": 16,
+    "floating": 11,
+    "closed_parts": 16,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer",
+     "Cloth_Crimson",
+     "Cloth_Indigo",
+     "Cloth_Navy",
+     "Cloth_Ochre",
+     "Cloth_White",
+     "Earth_Packed",
+     "Gold_Leaf",
+     "Iron_Wrought",
+     "Plaster_White",
+     "Red_Lacquer",
+     "RoofTile_Clay",
+     "Shoji_Paper",
+     "Stone_Fitted",
+     "Stone_Granite",
+     "Straw",
+     "Tatami",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_Blacksmith_SignFace",
+    "tris": 24,
+    "tris_per_material": {
+     "Timber_Light": 24
+    },
+    "under_limit": true,
+    "dims": [
+     0.28,
+     1.16,
+     2.7
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_Blacksmith_RoofTiles",
+    "tris": 8838,
+    "tris_per_material": {
+     "RoofTile_Clay": 8838
+    },
+    "under_limit": true,
+    "dims": [
+     22.552,
+     29.685,
+     11.268
+    ],
+    "parts": 96,
+    "floating": 0,
+    "closed_parts": 69,
+    "open_parts": 47,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_Blacksmith_RoofFrame",
+    "tris": 2610,
+    "tris_per_material": {
+     "Timber_Light": 1000,
+     "Timber_Dark": 1490,
+     "Plaster_White": 120
+    },
+    "under_limit": true,
+    "dims": [
+     21.86,
+     28.844,
+     10.758
+    ],
+    "parts": 71,
+    "floating": 0,
+    "closed_parts": 23,
+    "open_parts": 51,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White",
+     "Timber_Dark",
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   }
+  ],
+  "renders": [],
+  "notes": "20x24 footprint. Pivot = footprint centre at ground level; front faces -Z (street). Open front. Forge + chimney, bellows, anvil, quench trough, wall + standing sword racks, tool rack. Glow mesh = forge embers. | meshes: HO_Bldg_Blacksmith_Structure (5744), HO_Bldg_Blacksmith_Structure_GF (3408), HO_Bldg_Blacksmith_Interior_GF (3246), HO_Bldg_Blacksmith_Glow (12), HO_Bldg_Blacksmith_Front (968), HO_Bldg_Blacksmith_SignFace (24), HO_Bldg_Blacksmith_RoofTiles (8838), HO_Bldg_Blacksmith_RoofFrame (2610)"
+ },
+ {
+  "name": "HO_Bldg_GeneralStore",
+  "phase": "Phase1",
+  "category": "Buildings",
+  "type": "Mesh group",
+  "file": "assets/Phase1/Buildings/HO_Bldg_GeneralStore.fbx",
+  "tris": 34194,
+  "textures": [
+   "Black_Lacquer",
+   "Cloth_Crimson",
+   "Cloth_Indigo",
+   "Cloth_Navy",
+   "Cloth_Ochre",
+   "Cloth_White",
+   "Earth_Packed",
+   "Ember",
+   "Gold_Leaf",
+   "Iron_Wrought",
+   "Magic_Glow",
+   "Plaster_White",
+   "Red_Lacquer",
+   "RoofTile_Clay",
+   "Shoji_Paper",
+   "Stone_Fitted",
+   "Stone_Granite",
+   "Straw",
+   "Tatami",
+   "Timber_Dark",
+   "Timber_Light",
+   "Wood_Planks"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 966,
+   "inverted_parts": 0,
+   "dims": [
+    21.528,
+    22.06,
+    28.929
+   ],
+   "meshes": {
+    "HO_Bldg_GeneralStore_Structure": 4768,
+    "HO_Bldg_GeneralStore_Structure_GF": 1524,
+    "HO_Bldg_GeneralStore_Door1": 144,
+    "HO_Bldg_GeneralStore_Door2": 144,
+    "HO_Bldg_GeneralStore_Door3": 144,
+    "HO_Bldg_GeneralStore_Door4": 144,
+    "HO_Bldg_GeneralStore_Structure_2F": 3744,
+    "HO_Bldg_GeneralStore_Interior_GF": 9318,
+    "HO_Bldg_GeneralStore_Glow": 12,
+    "HO_Bldg_GeneralStore_Interior_2F": 102,
+    "HO_Bldg_GeneralStore_Front": 4564,
+    "HO_Bldg_GeneralStore_SignFace": 12,
+    "HO_Bldg_GeneralStore_RoofTiles": 7406,
+    "HO_Bldg_GeneralStore_RoofFrame": 2168
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": true,
+   "grid_ok": true
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Bldg_GeneralStore_Structure",
+    "tris": 4768,
+    "tris_per_material": {
+     "Stone_Granite": 4768
+    },
+    "under_limit": true,
+    "dims": [
+     20.6,
+     16.6,
+     1.0
+    ],
+    "parts": 176,
+    "floating": 0,
+    "closed_parts": 176,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": true,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_GeneralStore_Structure_GF",
+    "tris": 1524,
+    "tris_per_material": {
+     "Timber_Dark": 900,
+     "Plaster_White": 384,
+     "Timber_Light": 216,
+     "Shoji_Paper": 24
+    },
+    "under_limit": true,
+    "dims": [
+     20.4,
+     16.4,
+     9.0
+    ],
+    "parts": 93,
+    "floating": 0,
+    "closed_parts": 83,
+    "open_parts": 12,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_GeneralStore_Door1",
+    "tris": 144,
+    "tris_per_material": {
+     "Shoji_Paper": 12,
+     "Timber_Light": 132
+    },
+    "under_limit": true,
+    "dims": [
+     0.16,
+     1.65,
+     6.5
+    ],
+    "parts": 9,
+    "floating": 0,
+    "closed_parts": 8,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_GeneralStore_Door2",
+    "tris": 144,
+    "tris_per_material": {
+     "Shoji_Paper": 12,
+     "Timber_Light": 132
+    },
+    "under_limit": true,
+    "dims": [
+     0.16,
+     1.65,
+     6.5
+    ],
+    "parts": 9,
+    "floating": 0,
+    "closed_parts": 8,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_GeneralStore_Door3",
+    "tris": 144,
+    "tris_per_material": {
+     "Shoji_Paper": 12,
+     "Timber_Light": 132
+    },
+    "under_limit": true,
+    "dims": [
+     0.16,
+     1.65,
+     6.5
+    ],
+    "parts": 9,
+    "floating": 0,
+    "closed_parts": 8,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_GeneralStore_Door4",
+    "tris": 144,
+    "tris_per_material": {
+     "Shoji_Paper": 12,
+     "Timber_Light": 132
+    },
+    "under_limit": true,
+    "dims": [
+     0.16,
+     1.65,
+     6.5
+    ],
+    "parts": 9,
+    "floating": 0,
+    "closed_parts": 8,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_GeneralStore_Structure_2F",
+    "tris": 3744,
+    "tris_per_material": {
+     "Timber_Dark": 1032,
+     "Plaster_White": 1092,
+     "Shoji_Paper": 180,
+     "Timber_Light": 1440
+    },
+    "under_limit": true,
+    "dims": [
+     20.4,
+     16.4,
+     9.0
+    ],
+    "parts": 204,
+    "floating": 0,
+    "closed_parts": 168,
+    "open_parts": 36,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_GeneralStore_Interior_GF",
+    "tris": 9318,
+    "tris_per_material": {
+     "Timber_Dark": 1822,
+     "Wood_Planks": 226,
+     "Timber_Light": 416,
+     "Black_Lacquer": 680,
+     "Earth_Packed": 1480,
+     "RoofTile_Clay": 1190,
+     "Cloth_Ochre": 472,
+     "Straw": 1474,
+     "Cloth_White": 1274,
+     "Iron_Wrought": 284
+    },
+    "under_limit": true,
+    "dims": [
+     18.0,
+     14.7,
+     10.0
+    ],
+    "parts": 178,
+    "floating": 11,
+    "closed_parts": 155,
+    "open_parts": 45,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer",
+     "Cloth_Crimson",
+     "Cloth_Indigo",
+     "Cloth_Navy",
+     "Cloth_Ochre",
+     "Cloth_White",
+     "Earth_Packed",
+     "Gold_Leaf",
+     "Iron_Wrought",
+     "Plaster_White",
+     "Red_Lacquer",
+     "RoofTile_Clay",
+     "Shoji_Paper",
+     "Stone_Fitted",
+     "Stone_Granite",
+     "Straw",
+     "Tatami",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_GeneralStore_Glow",
+    "tris": 12,
+    "tris_per_material": {
+     "Shoji_Paper": 12
+    },
+    "under_limit": true,
+    "dims": [
+     0.86,
+     0.86,
+     1.75
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Ember",
+     "Magic_Glow",
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_GeneralStore_Interior_2F",
+    "tris": 102,
+    "tris_per_material": {
+     "Timber_Light": 36,
+     "Wood_Planks": 30,
+     "Timber_Dark": 36
+    },
+    "under_limit": true,
+    "dims": [
+     18.0,
+     14.0,
+     1.3
+    ],
+    "parts": 4,
+    "floating": 0,
+    "closed_parts": 3,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Earth_Packed",
+     "Gold_Leaf",
+     "Iron_Wrought",
+     "Plaster_White",
+     "RoofTile_Clay",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Tatami",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_GeneralStore_Front",
+    "tris": 4564,
+    "tris_per_material": {
+     "RoofTile_Clay": 1862,
+     "Timber_Light": 96,
+     "Timber_Dark": 810,
+     "Cloth_Ochre": 1664,
+     "Iron_Wrought": 132
+    },
+    "under_limit": true,
+    "dims": [
+     20.066,
+     3.549,
+     7.281
+    ],
+    "parts": 110,
+    "floating": 90,
+    "closed_parts": 66,
+    "open_parts": 44,
+    "inverted_parts": 0,
+    "textures": [
+     "Cloth_Ochre",
+     "Earth_Packed",
+     "Gold_Leaf",
+     "Iron_Wrought",
+     "Plaster_White",
+     "RoofTile_Clay",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Tatami",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_GeneralStore_SignFace",
+    "tris": 12,
+    "tris_per_material": {
+     "Timber_Light": 12
+    },
+    "under_limit": true,
+    "dims": [
+     0.2,
+     1.0,
+     2.34
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_GeneralStore_RoofTiles",
+    "tris": 7406,
+    "tris_per_material": {
+     "RoofTile_Clay": 7406
+    },
+    "under_limit": true,
+    "dims": [
+     21.528,
+     21.653,
+     8.689
+    ],
+    "parts": 96,
+    "floating": 0,
+    "closed_parts": 69,
+    "open_parts": 47,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_GeneralStore_RoofFrame",
+    "tris": 2168,
+    "tris_per_material": {
+     "Timber_Light": 684,
+     "Timber_Dark": 1364,
+     "Plaster_White": 120
+    },
+    "under_limit": true,
+    "dims": [
+     20.6,
+     20.844,
+     8.278
+    ],
+    "parts": 67,
+    "floating": 0,
+    "closed_parts": 23,
+    "open_parts": 47,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White",
+     "Timber_Dark",
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   }
+  ],
+  "renders": [],
+  "notes": "20x16 footprint. Pivot = footprint centre at ground level; front faces -Z (street). 2 storeys, open shop front with counter. Shelves of jars, rice bales, sacks, sake casks, barrels, crates, scale + abacus. | meshes: HO_Bldg_GeneralStore_Structure (4768), HO_Bldg_GeneralStore_Structure_GF (1524), HO_Bldg_GeneralStore_Door1 (144), HO_Bldg_GeneralStore_Door2 (144), HO_Bldg_GeneralStore_Door3 (144), HO_Bldg_GeneralStore_Door4 (144), HO_Bldg_GeneralStore_Structure_2F (3744), HO_Bldg_GeneralStore_Interior_GF (9318), HO_Bldg_GeneralStore_Glow (12), HO_Bldg_GeneralStore_Interior_2F (102), HO_Bldg_GeneralStore_Front (4564), HO_Bldg_GeneralStore_SignFace (12), HO_Bldg_GeneralStore_RoofTiles (7406), HO_Bldg_GeneralStore_RoofFrame (2168)"
+ },
+ {
+  "name": "HO_Bldg_Kura",
+  "phase": "Phase1",
+  "category": "Buildings",
+  "type": "Mesh group",
+  "file": "assets/Phase1/Buildings/HO_Bldg_Kura.fbx",
+  "tris": 16672,
+  "textures": [
+   "Black_Lacquer",
+   "Cloth_Crimson",
+   "Cloth_Indigo",
+   "Cloth_Navy",
+   "Cloth_Ochre",
+   "Cloth_White",
+   "Earth_Packed",
+   "Gold_Leaf",
+   "Iron_Wrought",
+   "Namako_Wall",
+   "Plaster_White",
+   "Red_Lacquer",
+   "RoofTile_Clay",
+   "Shoji_Paper",
+   "Stone_Fitted",
+   "Stone_Granite",
+   "Straw",
+   "Tatami",
+   "Timber_Dark",
+   "Timber_Light",
+   "Wood_Planks"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 329,
+   "inverted_parts": 0,
+   "dims": [
+    22.147,
+    29.482,
+    30.72
+   ],
+   "meshes": {
+    "HO_Bldg_Kura_Structure_GF": 1586,
+    "HO_Bldg_Kura_Interior_GF": 3738,
+    "HO_Bldg_Kura_Door1": 132,
+    "HO_Bldg_Kura_RoofTiles": 8734,
+    "HO_Bldg_Kura_RoofFrame": 2482
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": true,
+   "grid_ok": true
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Bldg_Kura_Structure_GF",
+    "tris": 1586,
+    "tris_per_material": {
+     "Stone_Fitted": 12,
+     "Plaster_White": 884,
+     "Namako_Wall": 60,
+     "Iron_Wrought": 488,
+     "Stone_Granite": 12,
+     "Earth_Packed": 10,
+     "Black_Lacquer": 120
+    },
+    "under_limit": true,
+    "dims": [
+     21.2,
+     28.05,
+     25.424
+    ],
+    "parts": 50,
+    "floating": 4,
+    "closed_parts": 47,
+    "open_parts": 10,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer",
+     "Earth_Packed",
+     "Gold_Leaf",
+     "Iron_Wrought",
+     "Namako_Wall",
+     "Plaster_White",
+     "RoofTile_Clay",
+     "Shoji_Paper",
+     "Stone_Fitted",
+     "Stone_Granite",
+     "Tatami",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_Kura_Interior_GF",
+    "tris": 3738,
+    "tris_per_material": {
+     "Straw": 1164,
+     "Cloth_White": 1164,
+     "Timber_Dark": 732,
+     "Wood_Planks": 48,
+     "Earth_Packed": 390,
+     "Timber_Light": 72,
+     "Iron_Wrought": 168
+    },
+    "under_limit": true,
+    "dims": [
+     13.268,
+     17.0,
+     4.2
+    ],
+    "parts": 105,
+    "floating": 0,
+    "closed_parts": 117,
+    "open_parts": 12,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer",
+     "Cloth_Crimson",
+     "Cloth_Indigo",
+     "Cloth_Navy",
+     "Cloth_Ochre",
+     "Cloth_White",
+     "Earth_Packed",
+     "Gold_Leaf",
+     "Iron_Wrought",
+     "Plaster_White",
+     "Red_Lacquer",
+     "RoofTile_Clay",
+     "Shoji_Paper",
+     "Stone_Fitted",
+     "Stone_Granite",
+     "Straw",
+     "Tatami",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_Kura_Door1",
+    "tris": 132,
+    "tris_per_material": {
+     "Timber_Dark": 132
+    },
+    "under_limit": true,
+    "dims": [
+     5.0,
+     0.2,
+     7.2
+    ],
+    "parts": 11,
+    "floating": 0,
+    "closed_parts": 11,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_Kura_RoofTiles",
+    "tris": 8734,
+    "tris_per_material": {
+     "RoofTile_Clay": 8734
+    },
+    "under_limit": true,
+    "dims": [
+     22.147,
+     28.064,
+     10.48
+    ],
+    "parts": 96,
+    "floating": 0,
+    "closed_parts": 69,
+    "open_parts": 47,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_Kura_RoofFrame",
+    "tris": 2482,
+    "tris_per_material": {
+     "Timber_Light": 948,
+     "Timber_Dark": 1414,
+     "Plaster_White": 120
+    },
+    "under_limit": true,
+    "dims": [
+     21.2,
+     27.242,
+     9.99
+    ],
+    "parts": 67,
+    "floating": 0,
+    "closed_parts": 23,
+    "open_parts": 47,
+    "inverted_parts": 0,
+    "textures": [
+     "Plaster_White",
+     "Timber_Dark",
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   }
+  ],
+  "renders": [],
+  "notes": "20x24 footprint. Pivot = footprint centre at ground level; front faces -Z (street). Fire-proof storehouse: 1.6-thick plaster walls, namako tile-lattice lower walls, heavy plaster doors (open) + inner lattice door (Door1), barred windows, crest on gables. | meshes: HO_Bldg_Kura_Structure_GF (1586), HO_Bldg_Kura_Interior_GF (3738), HO_Bldg_Kura_Door1 (132), HO_Bldg_Kura_RoofTiles (8734), HO_Bldg_Kura_RoofFrame (2482)"
+ },
+ {
   "name": "HO_Bldg_Machiya_A",
   "phase": "Phase1",
   "category": "Buildings",
@@ -1955,6 +3490,868 @@
    "renders/Phase1/Buildings/HO_Bldg_Machiya_F_interior.png"
   ],
   "notes": "12x20 footprint, 2 storey(s), koshi front, Indigo noren; ground-floor interior (doma, shop floor, tatami room, stair chest); SignFace mesh = blank board for a SurfaceGui | meshes: HO_Bldg_Machiya_F_Structure (8748), HO_Bldg_Machiya_F_Door1 (288), HO_Bldg_Machiya_F_Door2 (144), HO_Bldg_Machiya_F_Door3 (144), HO_Bldg_Machiya_F_Interior (1940), HO_Bldg_Machiya_F_Front (2530), HO_Bldg_Machiya_F_RoofTiles (5790), HO_Bldg_Machiya_F_RoofFrame (1702)"
+ },
+ {
+  "name": "HO_Bldg_MagicStall",
+  "phase": "Phase1",
+  "category": "Buildings",
+  "type": "Mesh group",
+  "file": "assets/Phase1/Buildings/HO_Bldg_MagicStall.fbx",
+  "tris": 3662,
+  "textures": [
+   "Black_Lacquer",
+   "Cloth_Crimson",
+   "Cloth_Indigo",
+   "Cloth_Navy",
+   "Cloth_Ochre",
+   "Cloth_White",
+   "Earth_Packed",
+   "Ember",
+   "Gold_Leaf",
+   "Iron_Wrought",
+   "Magic_Glow",
+   "Plaster_White",
+   "Red_Lacquer",
+   "RoofTile_Clay",
+   "Shoji_Paper",
+   "Stone_Fitted",
+   "Stone_Granite",
+   "Straw",
+   "Tatami",
+   "Timber_Dark",
+   "Timber_Light",
+   "Wood_Planks"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 78,
+   "inverted_parts": 0,
+   "dims": [
+    8.8,
+    13.63,
+    9.7
+   ],
+   "meshes": {
+    "HO_Bldg_MagicStall_Canopy": 404,
+    "HO_Bldg_MagicStall_Structure_GF": 1824,
+    "HO_Bldg_MagicStall_Glow": 1434
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": true,
+   "grid_ok": true
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Bldg_MagicStall_Canopy",
+    "tris": 404,
+    "tris_per_material": {
+     "Cloth_Indigo": 304,
+     "Cloth_Navy": 100
+    },
+    "under_limit": true,
+    "dims": [
+     8.8,
+     13.63,
+     3.05
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 2,
+    "inverted_parts": 0,
+    "textures": [
+     "Cloth_Indigo",
+     "Cloth_Navy"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_MagicStall_Structure_GF",
+    "tris": 1824,
+    "tris_per_material": {
+     "Timber_Dark": 222,
+     "Wood_Planks": 10,
+     "Stone_Granite": 12,
+     "Red_Lacquer": 96,
+     "Timber_Light": 96,
+     "Black_Lacquer": 1134,
+     "Cloth_Crimson": 40,
+     "Shoji_Paper": 84,
+     "Earth_Packed": 130
+    },
+    "under_limit": true,
+    "dims": [
+     8.0,
+     13.0,
+     9.6
+    ],
+    "parts": 53,
+    "floating": 0,
+    "closed_parts": 49,
+    "open_parts": 4,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer",
+     "Cloth_Crimson",
+     "Cloth_Indigo",
+     "Cloth_Navy",
+     "Cloth_Ochre",
+     "Cloth_White",
+     "Earth_Packed",
+     "Gold_Leaf",
+     "Iron_Wrought",
+     "Plaster_White",
+     "Red_Lacquer",
+     "RoofTile_Clay",
+     "Shoji_Paper",
+     "Stone_Fitted",
+     "Stone_Granite",
+     "Straw",
+     "Tatami",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_MagicStall_Glow",
+    "tris": 1434,
+    "tris_per_material": {
+     "Magic_Glow": 1242,
+     "Shoji_Paper": 192
+    },
+    "under_limit": true,
+    "dims": [
+     8.3,
+     12.027,
+     4.634
+    ],
+    "parts": 23,
+    "floating": 19,
+    "closed_parts": 23,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Ember",
+     "Magic_Glow",
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   }
+  ],
+  "renders": [],
+  "notes": "8x12 footprint. Pivot = footprint centre at ground level; front faces -Z (street). Open market stall: canopy, counter, tiered shelves with glowing orbs + crystals, paper lanterns, charms. Glow mesh = orbs/crystals/lanterns (Neon + PointLight). | meshes: HO_Bldg_MagicStall_Canopy (404), HO_Bldg_MagicStall_Structure_GF (1824), HO_Bldg_MagicStall_Glow (1434)"
+ },
+ {
+  "name": "HO_Bldg_TidewatchInn",
+  "phase": "Phase1",
+  "category": "Buildings",
+  "type": "Mesh group",
+  "file": "assets/Phase1/Buildings/HO_Bldg_TidewatchInn.fbx",
+  "tris": 77562,
+  "textures": [
+   "Black_Lacquer",
+   "Cloth_Crimson",
+   "Cloth_Indigo",
+   "Cloth_Navy",
+   "Cloth_Ochre",
+   "Cloth_White",
+   "Earth_Packed",
+   "Ember",
+   "Gold_Leaf",
+   "Iron_Wrought",
+   "Magic_Glow",
+   "Plaster_White",
+   "Red_Lacquer",
+   "RoofTile_Clay",
+   "Shoji_Paper",
+   "Stone_Fitted",
+   "Stone_Granite",
+   "Straw",
+   "Tatami",
+   "Timber_Dark",
+   "Timber_Light",
+   "Wood_Planks"
+  ],
+  "pivot": "bottom-centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 6,
+   "parts": 2758,
+   "inverted_parts": 0,
+   "dims": [
+    49.054,
+    33.054,
+    33.272
+   ],
+   "meshes": {
+    "HO_Bldg_TidewatchInn_Structure": 8232,
+    "HO_Bldg_TidewatchInn_Structure_GF": 6924,
+    "HO_Bldg_TidewatchInn_Door1": 288,
+    "HO_Bldg_TidewatchInn_Door2": 288,
+    "HO_Bldg_TidewatchInn_Structure_2F": 10200,
+    "HO_Bldg_TidewatchInn_Interior_GF": 3644,
+    "HO_Bldg_TidewatchInn_Glow": 312,
+    "HO_Bldg_TidewatchInn_Interior_2F": 7820,
+    "HO_Bldg_TidewatchInn_Door_Room1": 144,
+    "HO_Bldg_TidewatchInn_Door_Room2": 144,
+    "HO_Bldg_TidewatchInn_Door_Room3": 144,
+    "HO_Bldg_TidewatchInn_Door_Room4": 144,
+    "HO_Bldg_TidewatchInn_Door_Room5": 144,
+    "HO_Bldg_TidewatchInn_Door_Room6": 144,
+    "HO_Bldg_TidewatchInn_Front": 5662,
+    "HO_Bldg_TidewatchInn_SignFace": 12,
+    "HO_Bldg_TidewatchInn_RoofFrame": 10066,
+    "HO_Bldg_TidewatchInn_RoofTilesA": 11673,
+    "HO_Bldg_TidewatchInn_RoofTilesB": 11577
+   },
+   "pivot_bottom_center": true,
+   "pivot_z0": true,
+   "grid_ok": true
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Bldg_TidewatchInn_Structure",
+    "tris": 8232,
+    "tris_per_material": {
+     "Stone_Granite": 8232
+    },
+    "under_limit": true,
+    "dims": [
+     40.6,
+     24.6,
+     1.0
+    ],
+    "parts": 302,
+    "floating": 0,
+    "closed_parts": 302,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": true,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_TidewatchInn_Structure_GF",
+    "tris": 6924,
+    "tris_per_material": {
+     "Timber_Dark": 2760,
+     "Shoji_Paper": 312,
+     "Timber_Light": 2880,
+     "Plaster_White": 972
+    },
+    "under_limit": true,
+    "dims": [
+     40.4,
+     24.4,
+     9.0
+    ],
+    "parts": 391,
+    "floating": 0,
+    "closed_parts": 361,
+    "open_parts": 54,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_TidewatchInn_Door1",
+    "tris": 288,
+    "tris_per_material": {
+     "Timber_Dark": 156,
+     "Shoji_Paper": 12,
+     "Timber_Light": 120
+    },
+    "under_limit": true,
+    "dims": [
+     3.2,
+     0.32,
+     6.5
+    ],
+    "parts": 18,
+    "floating": 0,
+    "closed_parts": 16,
+    "open_parts": 2,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_TidewatchInn_Door2",
+    "tris": 288,
+    "tris_per_material": {
+     "Timber_Dark": 156,
+     "Shoji_Paper": 12,
+     "Timber_Light": 120
+    },
+    "under_limit": true,
+    "dims": [
+     3.2,
+     0.32,
+     6.5
+    ],
+    "parts": 18,
+    "floating": 0,
+    "closed_parts": 16,
+    "open_parts": 2,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_TidewatchInn_Structure_2F",
+    "tris": 10200,
+    "tris_per_material": {
+     "Timber_Dark": 3384,
+     "Plaster_White": 1632,
+     "Shoji_Paper": 576,
+     "Timber_Light": 4608
+    },
+    "under_limit": true,
+    "dims": [
+     40.4,
+     24.4,
+     9.0
+    ],
+    "parts": 532,
+    "floating": 0,
+    "closed_parts": 426,
+    "open_parts": 106,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_TidewatchInn_Interior_GF",
+    "tris": 3644,
+    "tris_per_material": {
+     "Earth_Packed": 140,
+     "Stone_Granite": 12,
+     "Timber_Dark": 996,
+     "Wood_Planks": 186,
+     "Tatami": 10,
+     "Iron_Wrought": 240,
+     "Timber_Light": 1200,
+     "Shoji_Paper": 96,
+     "Plaster_White": 12,
+     "Straw": 136,
+     "Cloth_White": 136,
+     "Cloth_Crimson": 480
+    },
+    "under_limit": true,
+    "dims": [
+     38.0,
+     22.0,
+     10.53
+    ],
+    "parts": 197,
+    "floating": 0,
+    "closed_parts": 196,
+    "open_parts": 17,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer",
+     "Cloth_Crimson",
+     "Cloth_Indigo",
+     "Cloth_Navy",
+     "Cloth_Ochre",
+     "Cloth_White",
+     "Earth_Packed",
+     "Gold_Leaf",
+     "Iron_Wrought",
+     "Plaster_White",
+     "Red_Lacquer",
+     "RoofTile_Clay",
+     "Shoji_Paper",
+     "Stone_Fitted",
+     "Stone_Granite",
+     "Straw",
+     "Tatami",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": true,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_TidewatchInn_Glow",
+    "tris": 312,
+    "tris_per_material": {
+     "Shoji_Paper": 312
+    },
+    "under_limit": true,
+    "dims": [
+     24.98,
+     24.553,
+     9.95
+    ],
+    "parts": 12,
+    "floating": 8,
+    "closed_parts": 12,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Ember",
+     "Magic_Glow",
+     "Shoji_Paper"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_TidewatchInn_Interior_2F",
+    "tris": 7820,
+    "tris_per_material": {
+     "Timber_Light": 2820,
+     "Wood_Planks": 80,
+     "Timber_Dark": 1704,
+     "Tatami": 60,
+     "Plaster_White": 144,
+     "Shoji_Paper": 204,
+     "Iron_Wrought": 864,
+     "Cloth_White": 504,
+     "Cloth_Navy": 360,
+     "Cloth_Crimson": 960,
+     "Cloth_Indigo": 120
+    },
+    "under_limit": true,
+    "dims": [
+     38.0,
+     24.25,
+     10.3
+    ],
+    "parts": 429,
+    "floating": 6,
+    "closed_parts": 426,
+    "open_parts": 27,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer",
+     "Cloth_Crimson",
+     "Cloth_Indigo",
+     "Cloth_Navy",
+     "Cloth_Ochre",
+     "Cloth_White",
+     "Earth_Packed",
+     "Gold_Leaf",
+     "Iron_Wrought",
+     "Plaster_White",
+     "Red_Lacquer",
+     "RoofTile_Clay",
+     "Shoji_Paper",
+     "Stone_Fitted",
+     "Stone_Granite",
+     "Straw",
+     "Tatami",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_TidewatchInn_Door_Room1",
+    "tris": 144,
+    "tris_per_material": {
+     "Shoji_Paper": 12,
+     "Timber_Light": 132
+    },
+    "under_limit": true,
+    "dims": [
+     2.583,
+     0.16,
+     6.6
+    ],
+    "parts": 9,
+    "floating": 0,
+    "closed_parts": 8,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_TidewatchInn_Door_Room2",
+    "tris": 144,
+    "tris_per_material": {
+     "Shoji_Paper": 12,
+     "Timber_Light": 132
+    },
+    "under_limit": true,
+    "dims": [
+     2.583,
+     0.16,
+     6.6
+    ],
+    "parts": 9,
+    "floating": 0,
+    "closed_parts": 8,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_TidewatchInn_Door_Room3",
+    "tris": 144,
+    "tris_per_material": {
+     "Shoji_Paper": 12,
+     "Timber_Light": 132
+    },
+    "under_limit": true,
+    "dims": [
+     2.583,
+     0.16,
+     6.6
+    ],
+    "parts": 9,
+    "floating": 0,
+    "closed_parts": 8,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_TidewatchInn_Door_Room4",
+    "tris": 144,
+    "tris_per_material": {
+     "Shoji_Paper": 12,
+     "Timber_Light": 132
+    },
+    "under_limit": true,
+    "dims": [
+     2.583,
+     0.16,
+     6.6
+    ],
+    "parts": 9,
+    "floating": 0,
+    "closed_parts": 8,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_TidewatchInn_Door_Room5",
+    "tris": 144,
+    "tris_per_material": {
+     "Shoji_Paper": 12,
+     "Timber_Light": 132
+    },
+    "under_limit": true,
+    "dims": [
+     2.583,
+     0.16,
+     6.6
+    ],
+    "parts": 9,
+    "floating": 0,
+    "closed_parts": 8,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_TidewatchInn_Door_Room6",
+    "tris": 144,
+    "tris_per_material": {
+     "Shoji_Paper": 12,
+     "Timber_Light": 132
+    },
+    "under_limit": true,
+    "dims": [
+     2.583,
+     0.16,
+     6.6
+    ],
+    "parts": 9,
+    "floating": 0,
+    "closed_parts": 8,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought",
+     "Plaster_White",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_TidewatchInn_Front",
+    "tris": 5662,
+    "tris_per_material": {
+     "RoofTile_Clay": 3030,
+     "Timber_Light": 200,
+     "Timber_Dark": 1300,
+     "Cloth_Navy": 832,
+     "Iron_Wrought": 132,
+     "Black_Lacquer": 144,
+     "Cloth_Crimson": 24
+    },
+    "under_limit": true,
+    "dims": [
+     40.066,
+     3.549,
+     7.281
+    ],
+    "parts": 181,
+    "floating": 170,
+    "closed_parts": 95,
+    "open_parts": 86,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer",
+     "Cloth_Crimson",
+     "Cloth_Indigo",
+     "Cloth_Navy",
+     "Cloth_Ochre",
+     "Cloth_White",
+     "Earth_Packed",
+     "Gold_Leaf",
+     "Iron_Wrought",
+     "Plaster_White",
+     "Red_Lacquer",
+     "RoofTile_Clay",
+     "Shoji_Paper",
+     "Stone_Fitted",
+     "Stone_Granite",
+     "Straw",
+     "Tatami",
+     "Timber_Dark",
+     "Timber_Light",
+     "Wood_Planks"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_TidewatchInn_SignFace",
+    "tris": 12,
+    "tris_per_material": {
+     "Timber_Light": 12
+    },
+    "under_limit": true,
+    "dims": [
+     0.2,
+     1.0,
+     2.34
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_TidewatchInn_RoofFrame",
+    "tris": 10066,
+    "tris_per_material": {
+     "Timber_Light": 2928,
+     "Timber_Dark": 6770,
+     "Plaster_White": 160,
+     "Gold_Leaf": 208
+    },
+    "under_limit": true,
+    "dims": [
+     49.054,
+     33.054,
+     12.196
+    ],
+    "parts": 299,
+    "floating": 0,
+    "closed_parts": 133,
+    "open_parts": 166,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf",
+     "Plaster_White",
+     "Timber_Dark",
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_TidewatchInn_RoofTilesA",
+    "tris": 11673,
+    "tris_per_material": {
+     "RoofTile_Clay": 11673
+    },
+    "under_limit": true,
+    "dims": [
+     25.141,
+     32.625,
+     12.572
+    ],
+    "parts": 162,
+    "floating": 0,
+    "closed_parts": 97,
+    "open_parts": 82,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Bldg_TidewatchInn_RoofTilesB",
+    "tris": 11577,
+    "tris_per_material": {
+     "RoofTile_Clay": 11577
+    },
+    "under_limit": true,
+    "dims": [
+     24.313,
+     32.625,
+     12.572
+    ],
+    "parts": 162,
+    "floating": 0,
+    "closed_parts": 97,
+    "open_parts": 82,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   }
+  ],
+  "renders": [],
+  "notes": "40x24 footprint. Pivot = footprint centre at ground level; front faces -Z (street). 2 storeys. GF: genkan, lobby w/ reception counter + key board, dining hall, stair. 2F: corridor + 6 guest rooms (tatami, futon, low table, cushions, andon, tansu, sliding door = Door_Room1..6 meshes). Glow mesh = lanterns. | meshes: HO_Bldg_TidewatchInn_Structure (8232), HO_Bldg_TidewatchInn_Structure_GF (6924), HO_Bldg_TidewatchInn_Door1 (288), HO_Bldg_TidewatchInn_Door2 (288), HO_Bldg_TidewatchInn_Structure_2F (10200), HO_Bldg_TidewatchInn_Interior_GF (3644), HO_Bldg_TidewatchInn_Glow (312), HO_Bldg_TidewatchInn_Interior_2F (7820), HO_Bldg_TidewatchInn_Door_Room1 (144), HO_Bldg_TidewatchInn_Door_Room2 (144), HO_Bldg_TidewatchInn_Door_Room3 (144), HO_Bldg_TidewatchInn_Door_Room4 (144), HO_Bldg_TidewatchInn_Door_Room5 (144), HO_Bldg_TidewatchInn_Door_Room6 (144), HO_Bldg_TidewatchInn_Front (5662), HO_Bldg_TidewatchInn_SignFace (12), HO_Bldg_TidewatchInn_RoofFrame (10066), HO_Bldg_TidewatchInn_RoofTilesA (11673), HO_Bldg_TidewatchInn_RoofTilesB (11577)"
  },
  {
   "name": "HO_Found_Plinth_12",

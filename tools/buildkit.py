@@ -53,9 +53,11 @@ def split_len(L):
     return out
 
 
-def wall_run(asm, group, L, z, side, W, D, bay_fn, seed=0):
-    """Place a run of wall modules along one side. bay_fn(module_len, index, x_offset) -> WallBuilder."""
-    mods = split_len(L)
+def wall_run(asm, group, L, z, side, W, D, bay_fn, seed=0, mods=None):
+    """Place a run of wall modules along one side. bay_fn(module_len, index, x_offset) -> WallBuilder.
+    `mods` overrides the module lengths (must sum to L), listed left to right as seen from outside."""
+    mods = mods or split_len(L)
+    assert abs(sum(mods) - L) < 1e-6, (mods, L)
     pos = -L / 2
     rot = {'front': 0.0, 'back': math.pi, 'right': -math.pi / 2, 'left': math.pi / 2}[side]
     for i, m in enumerate(mods):
@@ -295,4 +297,35 @@ def machiya(name, W, D, storeys=2, front='koshi', noren='Navy', sign=True, seed=
     for o in out:
         if ho.tri_count(o) > 18000:
             raise RuntimeError(f'{o.name} has {ho.tri_count(o)} tris')
+    return out
+
+
+def finish(asm, limit=18000):
+    """Join groups, split roofs into tiles/frame, auto-split any mesh over `limit` tris, pivot at footprint centre."""
+    objs = asm.objects()
+    out = []
+    for o in objs:
+        if o.name.endswith('_Roof'):
+            parts = ho.split_by_material(o, {'_Tiles': ['RoofTile_Clay'], '_Frame': None})
+            for p in parts: p.name = p.data.name = p.name.replace('_Roof_', '_Roof')
+            out += parts
+        else:
+            out.append(o)
+    changed = True
+    while changed:
+        changed = False
+        for o in list(out):
+            if ho.tri_count(o) > limit:
+                out.remove(o)
+                lo, hi = ho.world_bbox([o])
+                axis = 0 if (hi.x - lo.x) >= (hi.y - lo.y) else 1
+                # split through the object's own centre on its longest horizontal axis
+                c = (lo + hi) / 2
+                o.data.transform(Matrix.Translation(-Vector((c.x if axis == 0 else 0, c.y if axis == 1 else 0, 0))))
+                parts = ho.split_by_axis(o, axis, ('A', 'B'))
+                for p in parts:
+                    p.data.transform(Matrix.Translation(Vector((c.x if axis == 0 else 0, c.y if axis == 1 else 0, 0))))
+                out += parts
+                changed = True
+    ho.finalize_group(out, pivot=(0, 0, 0))
     return out
