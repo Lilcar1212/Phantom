@@ -452,6 +452,9 @@ def manifest_add(entry):
     if os.path.exists(MANIFEST_JSON):
         with open(MANIFEST_JSON) as f:
             data = json.load(f)
+    old = {d['name']: d for d in data}.get(entry['name'])
+    if old and not entry.get('renders') and old.get('renders'):
+        entry['renders'] = old['renders']
     data = [d for d in data if d['name'] != entry['name']]
     data.append(entry)
     data.sort(key=lambda d: (d.get('phase', ''), d.get('category', ''), d['name']))
@@ -479,6 +482,16 @@ def write_manifest_md(data):
             n=d['name'], t=d.get('type', ''), f=d.get('file', ''), tr=d.get('tris', ''),
             dm=' × '.join(f'{x:g}' for x in dims), tx=', '.join(d.get('textures', [])),
             pv=d.get('pivot', 'bottom-centre'), ck=' '.join(ok), no=d.get('notes', '')))
+    lines += ['', '## Mesh objects and their texture set', '',
+              'Every mesh object uses exactly ONE texture set: give its MeshPart one SurfaceAppearance made from '
+              '`textures/<Set>/HO_T_<Set>_*.png`. Multi-material parts were split and are named `<Object>__<Set>`.', '',
+              '| Asset | Mesh object (= MeshPart name) | Texture set | Tris |', '|---|---|---|---:|']
+    for d in data:
+        meshes = d.get('mesh_checks') or [d.get('checks', {})]
+        for c in meshes:
+            if not c or 'name' not in c: continue
+            tex = ', '.join(c.get('textures', [])) or '-'
+            lines.append(f"| {d['name']} | `{c['name']}` | {tex} | {c.get('tris', '')} |")
     with open(MANIFEST_MD, 'w') as f:
         f.write('\n'.join(lines) + '\n')
 
@@ -486,6 +499,9 @@ def write_manifest_md(data):
 def publish(ob, category, phase='Phase1', grid=None, notes='', type_='Mesh', render=True,
             extra_objs=(), views=('three_quarter', 'front'), samples=64, footprint=None):
     """Finalize-checked export + previews + manifest entry for one asset object."""
+    if len(used_sets(ob)) > 1:
+        return publish_group([ob], ob.name, category, phase=phase, grid=grid, notes=notes, type_=type_,
+                             render=render, views=views, samples=samples, footprint=footprint)
     if footprint:
         ob['ho_footprint'] = footprint
     c = check(ob, grid=grid)
@@ -531,9 +547,28 @@ def split_by_material(ob, groups):
     return out
 
 
+def used_sets(ob):
+    return sorted({(ob.data.materials[p.material_index].get('ho_texset') or 'none') for p in ob.data.polygons})
+
+
+def split_single_material(objs):
+    """Roblox MeshParts take ONE SurfaceAppearance: split every multi-material object into one object per
+    texture set, named <Object>__<TextureSet>. Single-material objects are kept unchanged."""
+    out = []
+    for o in objs:
+        sets = used_sets(o)
+        if len(sets) <= 1:
+            out.append(o)
+        else:
+            out += split_by_material(o, {f'__{t}': [t] for t in sets})
+    return out
+
+
 def publish_group(objs, asset_name, category, phase='Phase1', grid=None, notes='', type_='Mesh group', render=True,
                   views=('three_quarter', 'front'), samples=64, footprint=None, cams=None):
-    """Export several meshes (sharing one pivot) as one FBX asset; each mesh checked against the limits."""
+    """Export several meshes (sharing one pivot) as one FBX asset; each mesh checked against the limits.
+    Every exported mesh object uses exactly one texture set (see split_single_material)."""
+    objs = split_single_material(objs)
     checks = []
     for o in objs:
         if footprint: o['ho_footprint'] = footprint

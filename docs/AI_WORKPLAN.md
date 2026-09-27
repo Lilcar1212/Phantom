@@ -75,7 +75,7 @@ Pivot = footprint centre at ground level, front = −Z. Rotate the front toward 
 
 The model parts are named, so hook them up now:
 
-1. **Doors.** Every `_Door*` MeshPart is a sliding door. Add a ProximityPrompt ("Open") that tweens it along its local X by its own width (0.4 s, Quad Out) and back, with CanCollide off while open.
+1. **Doors.** Every `_Door*` part group is a sliding door (a door is split by material into e.g. `…_Door1__Timber_Light` + `…_Door1__Shoji_Paper`; weld them or tween the whole group). Add a ProximityPrompt ("Open") that tweens it along its local X by its own width (0.4 s, Quad Out) and back, with CanCollide off while open.
 2. **Tidewatch Inn rooms.** For each `Door_Room1…6`, add a ProximityPrompt "Rent room". It opens a rent UI (stub), then unlocks that door for the renting player only (client-side unlock). Put an Attachment `RoomSpawn_n` on each futon for respawn/rest.
 3. **Shops.** Add an Attachment `ShopNPC` behind each counter: the inn reception, blacksmith anvil, armory counter, general store counter, magic stall counter. Add a placeholder R6 NPC and a ProximityPrompt that opens the shop UI stub. Put the shop name on each `_SignFace` with a SurfaceGui (vertical Japanese-style text plus English):
    - 潮見屋 Tidewatch Inn

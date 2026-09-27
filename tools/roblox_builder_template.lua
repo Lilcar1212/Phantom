@@ -27,6 +27,8 @@ local TEXTURES = {
 
 --[[BOUNDS]]
 
+--[[MESHSET]]
+
 local ServerStorage = game:GetService("ServerStorage")
 local Lighting = game:GetService("Lighting")
 local Terrain = workspace.Terrain
@@ -546,26 +548,57 @@ function Builder.Build(opts)
 	return root
 end
 
--- Adds SurfaceAppearances to imported MeshParts whose name (or parent model name) mentions a texture set.
-function Builder.ApplyTextures()
-	local lib = ServerStorage:FindFirstChild("HO_Assets")
-	if not lib then warn("No ServerStorage.HO_Assets folder"); return end
-	local count = 0
-	for _, d in ipairs(lib:GetDescendants()) do
-		if d:IsA("MeshPart") and not d:FindFirstChildOfClass("SurfaceAppearance") then
-			for set, ids in pairs(TEXTURES) do
-				if string.find(d.Name, set, 1, true) then
-					local sa = Instance.new("SurfaceAppearance")
+-- Gives every imported MeshPart its ONE SurfaceAppearance. The texture set comes from the part name
+-- ("<Object>__<Set>") or, for single-material parts, from MESH_SET (generated from the manifest).
+-- Source: ReplicatedStorage.HO_Materials.<Set> (a SurfaceAppearance template) if present, else TEXTURES ids.
+function Builder.ApplyTextures(root)
+	root = root or ServerStorage:FindFirstChild("HO_Assets")
+	if not root then warn("No ServerStorage.HO_Assets folder"); return end
+	local lib = game:GetService("ReplicatedStorage"):FindFirstChild("HO_Materials")
+	local count, missing = 0, {}
+	for _, d in ipairs(root:GetDescendants()) do
+		if d:IsA("MeshPart") then
+			local set = string.match(d.Name, "__([%w_]+)$") or MESH_SET[d.Name]
+			local old = d:FindFirstChildOfClass("SurfaceAppearance")
+			if set then
+				local sa
+				if lib and lib:FindFirstChild(set) then
+					sa = lib[set]:Clone()
+				elseif TEXTURES[set] then
+					local ids = TEXTURES[set]
+					sa = Instance.new("SurfaceAppearance")
 					sa.ColorMap = ids.Color or ""; sa.NormalMap = ids.Normal or ""
 					sa.RoughnessMap = ids.Roughness or ""; sa.MetalnessMap = ids.Metalness or ""
+				end
+				if sa then
+					if old then old:Destroy() end
+					sa.Name = set
 					sa.Parent = d
 					count = count + 1
-					break
+				else
+					missing[set] = true
 				end
+			else
+				missing["(unknown set for " .. d.Name .. ")"] = true
 			end
 		end
 	end
-	print("[HO_CityBuilder] SurfaceAppearances added:", count)
+	print("[HO_CityBuilder] SurfaceAppearances applied:", count)
+	for k in pairs(missing) do warn("[HO_CityBuilder] no texture source for", k) end
+end
+
+-- Parts that belong together (e.g. a sliding door split into Door1__Timber_Light + Door1__Shoji_Paper)
+-- share the name before "__". Returns {baseName = {parts}} for a model, handy for door/glow scripts.
+function Builder.GroupParts(model)
+	local groups = {}
+	for _, d in ipairs(model:GetDescendants()) do
+		if d:IsA("BasePart") then
+			local base = string.match(d.Name, "^(.-)__[%w_]+$") or d.Name
+			groups[base] = groups[base] or {}
+			table.insert(groups[base], d)
+		end
+	end
+	return groups
 end
 
 return Builder

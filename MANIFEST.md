@@ -43,7 +43,7 @@ Textures live in `textures/<Set>/HO_T_<Set>_{Color,Normal,Roughness,Metalness}.p
 | HO_Prop_Signboard_Roof | Mesh group | `assets/Phase1/Props/HO_Prop_Signboard_Roof.fbx` | 96 | 5.1 × 0.95 × 1.85 | Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | Over-door board 4.4 x 1.3 with tiled hood; back mounts flat on the wall face | _Face mesh is the blank writing surface (add a SurfaceGui/Decal in Roblox) | meshes: HO_Prop_Signboard_Roof (84), HO_Prop_Signboard_Roof_Face (12) |
 | HO_Prop_Signboard_Standing | Mesh group | `assets/Phase1/Props/HO_Prop_Signboard_Standing.fbx` | 104 | 2.2 × 1.1 × 4.5 | Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | Free-standing street sign, 4.5 tall, two blank faces | _Face mesh is the blank writing surface (add a SurfaceGui/Decal in Roblox) | meshes: HO_Prop_Signboard_Standing (80), HO_Prop_Signboard_Standing_Face (24) |
 | HO_Roof_Hisashi_12 | Mesh | `assets/Phase1/Roofs/HO_Roof_Hisashi_12.fbx` | 1950 | 12.066 × 3.549 × 3.291 | Gold_Leaf, Plaster_White, RoofTile_Clay, Timber_Dark, Timber_Light | bottom-centre | ✅ grid ✅ | 12 studs wide, projects 3 studs; back (-Z in Roblox = rear) face mounts flush on a wall face, typically 7-8 studs above street level |
-| HO_Roof_Hisashi_4 | Mesh | `assets/Phase1/Roofs/HO_Roof_Hisashi_4.fbx` | 1262 | 4.066 × 3.549 × 3.291 | Gold_Leaf, Plaster_White, RoofTile_Clay, Timber_Dark, Timber_Light | bottom-centre | ✅ grid ✅ | 4 studs wide, projects 3 studs; back (-Z in Roblox = rear) face mounts flush on a wall face, typically 7-8 studs above street level |
+| HO_Roof_Hisashi_4 | Mesh | `assets/Phase1/Roofs/HO_Roof_Hisashi_4.fbx` | 1262 | 4.066 × 3.549 × 3.291 | RoofTile_Clay, Timber_Dark, Timber_Light | bottom-centre | ✅ grid ✅ | 4 studs wide, projects 3 studs; back (-Z in Roblox = rear) face mounts flush on a wall face, typically 7-8 studs above street level | meshes: HO_Roof_Hisashi_4__RoofTile_Clay (950), HO_Roof_Hisashi_4__Timber_Dark (288), HO_Roof_Hisashi_4__Timber_Light (24) |
 | HO_Roof_Hisashi_8 | Mesh | `assets/Phase1/Roofs/HO_Roof_Hisashi_8.fbx` | 1598 | 8.066 × 3.549 × 3.291 | Gold_Leaf, Plaster_White, RoofTile_Clay, Timber_Dark, Timber_Light | bottom-centre | ✅ grid ✅ | 8 studs wide, projects 3 studs; back (-Z in Roblox = rear) face mounts flush on a wall face, typically 7-8 studs above street level |
 | HO_Roof_Irimoya_Large | Mesh group | `assets/Phase1/Roofs/HO_Roof_Irimoya_Large.fbx` | 31084 | 42.144 × 34.144 × 14.371 | Gold_Leaf, Plaster_White, RoofTile_Clay, Timber_Dark, Timber_Light | bottom-centre | ✅ grid ✅ | Footprint 32x24 studs (outer wall faces); place on wall top; eave overhang 3.5 | meshes: HO_Roof_Irimoya_Large_TilesFront (10821), HO_Roof_Irimoya_Large_TilesBack (10773), HO_Roof_Irimoya_Large_Frame (9490) |
 | HO_Roof_Irimoya_Medium | Mesh group | `assets/Phase1/Roofs/HO_Roof_Irimoya_Medium.fbx` | 21508 | 32.334 × 24.334 × 11.495 | Gold_Leaf, Plaster_White, RoofTile_Clay, Timber_Dark, Timber_Light | bottom-centre | ✅ grid ✅ | Footprint 24x16 studs (outer wall faces); place on wall top; eave overhang 3.0 | meshes: HO_Roof_Irimoya_Medium_Tiles (14698), HO_Roof_Irimoya_Medium_Frame (6810) |
@@ -60,3 +60,183 @@ Textures live in `textures/<Set>/HO_T_<Set>_{Color,Normal,Roughness,Metalness}.p
 | HO_Wall_Plaster_Window_8 | Mesh | `assets/Phase1/Walls/HO_Wall_Plaster_Window_8.fbx` | 732 | 8 × 1 × 9 | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | L x 1 x 9 studs; outside face = front (-Z); centre line 0.5 inside the footprint edge; shoji windows |
 | HO_Wall_Upper_Mushiko_12 | Mesh | `assets/Phase1/Walls/HO_Wall_Upper_Mushiko_12.fbx` | 588 | 12 × 1 × 9 | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | L x 1 x 9 studs; outside face = front (-Z); centre line 0.5 inside the footprint edge; upper floor, mushiko slat windows |
 | HO_Wall_Upper_Mushiko_8 | Mesh | `assets/Phase1/Walls/HO_Wall_Upper_Mushiko_8.fbx` | 540 | 8 × 1 × 9 | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | L x 1 x 9 studs; outside face = front (-Z); centre line 0.5 inside the footprint edge; upper floor, mushiko slat windows |
+
+## Mesh objects and their texture set
+
+Every mesh object uses exactly ONE texture set: give its MeshPart one SurfaceAppearance made from `textures/<Set>/HO_T_<Set>_*.png`. Multi-material parts were split and are named `<Object>__<Set>`.
+
+| Asset | Mesh object (= MeshPart name) | Texture set | Tris |
+|---|---|---|---:|
+| HO_Test_ScaleCube_1x1x1 | `HO_Test_ScaleCube_1x1x1` | Debug_Faces | 12 |
+| HO_Bldg_Armory | `HO_Bldg_Armory_Structure` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 4768 |
+| HO_Bldg_Armory | `HO_Bldg_Armory_Structure_GF` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 2352 |
+| HO_Bldg_Armory | `HO_Bldg_Armory_Door1` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 288 |
+| HO_Bldg_Armory | `HO_Bldg_Armory_Door2` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 288 |
+| HO_Bldg_Armory | `HO_Bldg_Armory_Structure_2F` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 2640 |
+| HO_Bldg_Armory | `HO_Bldg_Armory_Interior_GF` | Black_Lacquer, Cloth_Crimson, Cloth_Indigo, Cloth_Navy, Cloth_Ochre, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Straw, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 9384 |
+| HO_Bldg_Armory | `HO_Bldg_Armory_Glow` | Ember, Magic_Glow, Shoji_Paper | 12 |
+| HO_Bldg_Armory | `HO_Bldg_Armory_Interior_2F` | Black_Lacquer, Cloth_Crimson, Cloth_Indigo, Cloth_Navy, Cloth_Ochre, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Straw, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 1170 |
+| HO_Bldg_Armory | `HO_Bldg_Armory_Front` | Cloth_Navy, Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 3328 |
+| HO_Bldg_Armory | `HO_Bldg_Armory_SignFace` | Timber_Light | 12 |
+| HO_Bldg_Armory | `HO_Bldg_Armory_RoofTiles` | RoofTile_Clay | 6958 |
+| HO_Bldg_Armory | `HO_Bldg_Armory_RoofFrame` | Plaster_White, Timber_Dark, Timber_Light | 2028 |
+| HO_Bldg_Blacksmith | `HO_Bldg_Blacksmith_Structure` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 5744 |
+| HO_Bldg_Blacksmith | `HO_Bldg_Blacksmith_Structure_GF` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 3408 |
+| HO_Bldg_Blacksmith | `HO_Bldg_Blacksmith_Interior_GF` | Black_Lacquer, Cloth_Crimson, Cloth_Indigo, Cloth_Navy, Cloth_Ochre, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Straw, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 3246 |
+| HO_Bldg_Blacksmith | `HO_Bldg_Blacksmith_Glow` | Ember, Magic_Glow, Shoji_Paper | 12 |
+| HO_Bldg_Blacksmith | `HO_Bldg_Blacksmith_Front` | Black_Lacquer, Cloth_Crimson, Cloth_Indigo, Cloth_Navy, Cloth_Ochre, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Straw, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 968 |
+| HO_Bldg_Blacksmith | `HO_Bldg_Blacksmith_SignFace` | Timber_Light | 24 |
+| HO_Bldg_Blacksmith | `HO_Bldg_Blacksmith_RoofTiles` | RoofTile_Clay | 8838 |
+| HO_Bldg_Blacksmith | `HO_Bldg_Blacksmith_RoofFrame` | Plaster_White, Timber_Dark, Timber_Light | 2610 |
+| HO_Bldg_GeneralStore | `HO_Bldg_GeneralStore_Structure` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 4768 |
+| HO_Bldg_GeneralStore | `HO_Bldg_GeneralStore_Structure_GF` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 1524 |
+| HO_Bldg_GeneralStore | `HO_Bldg_GeneralStore_Door1` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Bldg_GeneralStore | `HO_Bldg_GeneralStore_Door2` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Bldg_GeneralStore | `HO_Bldg_GeneralStore_Door3` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Bldg_GeneralStore | `HO_Bldg_GeneralStore_Door4` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Bldg_GeneralStore | `HO_Bldg_GeneralStore_Structure_2F` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 3744 |
+| HO_Bldg_GeneralStore | `HO_Bldg_GeneralStore_Interior_GF` | Black_Lacquer, Cloth_Crimson, Cloth_Indigo, Cloth_Navy, Cloth_Ochre, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Straw, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 9318 |
+| HO_Bldg_GeneralStore | `HO_Bldg_GeneralStore_Glow` | Ember, Magic_Glow, Shoji_Paper | 12 |
+| HO_Bldg_GeneralStore | `HO_Bldg_GeneralStore_Interior_2F` | Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 102 |
+| HO_Bldg_GeneralStore | `HO_Bldg_GeneralStore_Front` | Cloth_Ochre, Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 4564 |
+| HO_Bldg_GeneralStore | `HO_Bldg_GeneralStore_SignFace` | Timber_Light | 12 |
+| HO_Bldg_GeneralStore | `HO_Bldg_GeneralStore_RoofTiles` | RoofTile_Clay | 7406 |
+| HO_Bldg_GeneralStore | `HO_Bldg_GeneralStore_RoofFrame` | Plaster_White, Timber_Dark, Timber_Light | 2168 |
+| HO_Bldg_Kura | `HO_Bldg_Kura_Structure_GF` | Black_Lacquer, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 1586 |
+| HO_Bldg_Kura | `HO_Bldg_Kura_Interior_GF` | Black_Lacquer, Cloth_Crimson, Cloth_Indigo, Cloth_Navy, Cloth_Ochre, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Straw, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 3738 |
+| HO_Bldg_Kura | `HO_Bldg_Kura_Door1` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 132 |
+| HO_Bldg_Kura | `HO_Bldg_Kura_RoofTiles` | RoofTile_Clay | 8734 |
+| HO_Bldg_Kura | `HO_Bldg_Kura_RoofFrame` | Plaster_White, Timber_Dark, Timber_Light | 2482 |
+| HO_Bldg_Machiya_A | `HO_Bldg_Machiya_A_Structure` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 4584 |
+| HO_Bldg_Machiya_A | `HO_Bldg_Machiya_A_Door1` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Bldg_Machiya_A | `HO_Bldg_Machiya_A_Door2` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Bldg_Machiya_A | `HO_Bldg_Machiya_A_Interior` | Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 1032 |
+| HO_Bldg_Machiya_A | `HO_Bldg_Machiya_A_Front` | Cloth_Navy, Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 1016 |
+| HO_Bldg_Machiya_A | `HO_Bldg_Machiya_A_SignFace` | Timber_Light | 12 |
+| HO_Bldg_Machiya_A | `HO_Bldg_Machiya_A_RoofTiles` | RoofTile_Clay | 5030 |
+| HO_Bldg_Machiya_A | `HO_Bldg_Machiya_A_RoofFrame` | Plaster_White, Timber_Dark, Timber_Light | 1502 |
+| HO_Bldg_Machiya_B | `HO_Bldg_Machiya_B_Structure` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 10336 |
+| HO_Bldg_Machiya_B | `HO_Bldg_Machiya_B_Door1` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 288 |
+| HO_Bldg_Machiya_B | `HO_Bldg_Machiya_B_Door2` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Bldg_Machiya_B | `HO_Bldg_Machiya_B_Door3` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Bldg_Machiya_B | `HO_Bldg_Machiya_B_Interior` | Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 2228 |
+| HO_Bldg_Machiya_B | `HO_Bldg_Machiya_B_Front` | Cloth_Indigo, Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 3000 |
+| HO_Bldg_Machiya_B | `HO_Bldg_Machiya_B_SignFace` | Timber_Light | 12 |
+| HO_Bldg_Machiya_B | `HO_Bldg_Machiya_B_RoofTiles` | RoofTile_Clay | 6958 |
+| HO_Bldg_Machiya_B | `HO_Bldg_Machiya_B_RoofFrame` | Plaster_White, Timber_Dark, Timber_Light | 2028 |
+| HO_Bldg_Machiya_C | `HO_Bldg_Machiya_C_Structure` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 9532 |
+| HO_Bldg_Machiya_C | `HO_Bldg_Machiya_C_Door1` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Bldg_Machiya_C | `HO_Bldg_Machiya_C_Door2` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Bldg_Machiya_C | `HO_Bldg_Machiya_C_Interior` | Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 2204 |
+| HO_Bldg_Machiya_C | `HO_Bldg_Machiya_C_Front` | Cloth_Crimson, Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 3328 |
+| HO_Bldg_Machiya_C | `HO_Bldg_Machiya_C_SignFace` | Timber_Light | 12 |
+| HO_Bldg_Machiya_C | `HO_Bldg_Machiya_C_RoofTiles` | RoofTile_Clay | 6958 |
+| HO_Bldg_Machiya_C | `HO_Bldg_Machiya_C_RoofFrame` | Plaster_White, Timber_Dark, Timber_Light | 2028 |
+| HO_Bldg_Machiya_D | `HO_Bldg_Machiya_D_Structure` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 11364 |
+| HO_Bldg_Machiya_D | `HO_Bldg_Machiya_D_Door1` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Bldg_Machiya_D | `HO_Bldg_Machiya_D_Door2` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Bldg_Machiya_D | `HO_Bldg_Machiya_D_Interior` | Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 2480 |
+| HO_Bldg_Machiya_D | `HO_Bldg_Machiya_D_Front` | Cloth_Ochre, Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 3352 |
+| HO_Bldg_Machiya_D | `HO_Bldg_Machiya_D_SignFace` | Timber_Light | 12 |
+| HO_Bldg_Machiya_D | `HO_Bldg_Machiya_D_RoofTiles` | RoofTile_Clay | 8094 |
+| HO_Bldg_Machiya_D | `HO_Bldg_Machiya_D_RoofFrame` | Plaster_White, Timber_Dark, Timber_Light | 2348 |
+| HO_Bldg_Machiya_E | `HO_Bldg_Machiya_E_Structure` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 13700 |
+| HO_Bldg_Machiya_E | `HO_Bldg_Machiya_E_Door1` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 288 |
+| HO_Bldg_Machiya_E | `HO_Bldg_Machiya_E_Door2` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Bldg_Machiya_E | `HO_Bldg_Machiya_E_Door3` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Bldg_Machiya_E | `HO_Bldg_Machiya_E_Interior` | Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 2756 |
+| HO_Bldg_Machiya_E | `HO_Bldg_Machiya_E_Front` | Cloth_Navy, Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 3714 |
+| HO_Bldg_Machiya_E | `HO_Bldg_Machiya_E_SignFace` | Timber_Light | 12 |
+| HO_Bldg_Machiya_E | `HO_Bldg_Machiya_E_RoofTiles` | RoofTile_Clay | 9286 |
+| HO_Bldg_Machiya_E | `HO_Bldg_Machiya_E_RoofFrame` | Plaster_White, Timber_Dark, Timber_Light | 2686 |
+| HO_Bldg_Machiya_F | `HO_Bldg_Machiya_F_Structure` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 8748 |
+| HO_Bldg_Machiya_F | `HO_Bldg_Machiya_F_Door1` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 288 |
+| HO_Bldg_Machiya_F | `HO_Bldg_Machiya_F_Door2` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Bldg_Machiya_F | `HO_Bldg_Machiya_F_Door3` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Bldg_Machiya_F | `HO_Bldg_Machiya_F_Interior` | Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 1940 |
+| HO_Bldg_Machiya_F | `HO_Bldg_Machiya_F_Front` | Cloth_Indigo, Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 2530 |
+| HO_Bldg_Machiya_F | `HO_Bldg_Machiya_F_RoofTiles` | RoofTile_Clay | 5790 |
+| HO_Bldg_Machiya_F | `HO_Bldg_Machiya_F_RoofFrame` | Plaster_White, Timber_Dark, Timber_Light | 1702 |
+| HO_Bldg_MagicStall | `HO_Bldg_MagicStall_Canopy` | Cloth_Indigo, Cloth_Navy | 404 |
+| HO_Bldg_MagicStall | `HO_Bldg_MagicStall_Structure_GF` | Black_Lacquer, Cloth_Crimson, Cloth_Indigo, Cloth_Navy, Cloth_Ochre, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Straw, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 1824 |
+| HO_Bldg_MagicStall | `HO_Bldg_MagicStall_Glow` | Ember, Magic_Glow, Shoji_Paper | 1434 |
+| HO_Bldg_TidewatchInn | `HO_Bldg_TidewatchInn_Structure` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 8232 |
+| HO_Bldg_TidewatchInn | `HO_Bldg_TidewatchInn_Structure_GF` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 6924 |
+| HO_Bldg_TidewatchInn | `HO_Bldg_TidewatchInn_Door1` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 288 |
+| HO_Bldg_TidewatchInn | `HO_Bldg_TidewatchInn_Door2` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 288 |
+| HO_Bldg_TidewatchInn | `HO_Bldg_TidewatchInn_Structure_2F` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 10200 |
+| HO_Bldg_TidewatchInn | `HO_Bldg_TidewatchInn_Interior_GF` | Black_Lacquer, Cloth_Crimson, Cloth_Indigo, Cloth_Navy, Cloth_Ochre, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Straw, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 3644 |
+| HO_Bldg_TidewatchInn | `HO_Bldg_TidewatchInn_Glow` | Ember, Magic_Glow, Shoji_Paper | 312 |
+| HO_Bldg_TidewatchInn | `HO_Bldg_TidewatchInn_Interior_2F` | Black_Lacquer, Cloth_Crimson, Cloth_Indigo, Cloth_Navy, Cloth_Ochre, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Straw, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 7820 |
+| HO_Bldg_TidewatchInn | `HO_Bldg_TidewatchInn_Door_Room1` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Bldg_TidewatchInn | `HO_Bldg_TidewatchInn_Door_Room2` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Bldg_TidewatchInn | `HO_Bldg_TidewatchInn_Door_Room3` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Bldg_TidewatchInn | `HO_Bldg_TidewatchInn_Door_Room4` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Bldg_TidewatchInn | `HO_Bldg_TidewatchInn_Door_Room5` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Bldg_TidewatchInn | `HO_Bldg_TidewatchInn_Door_Room6` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Bldg_TidewatchInn | `HO_Bldg_TidewatchInn_Front` | Black_Lacquer, Cloth_Crimson, Cloth_Indigo, Cloth_Navy, Cloth_Ochre, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Stone_Granite, Straw, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 5662 |
+| HO_Bldg_TidewatchInn | `HO_Bldg_TidewatchInn_SignFace` | Timber_Light | 12 |
+| HO_Bldg_TidewatchInn | `HO_Bldg_TidewatchInn_RoofFrame` | Gold_Leaf, Plaster_White, Timber_Dark, Timber_Light | 10066 |
+| HO_Bldg_TidewatchInn | `HO_Bldg_TidewatchInn_RoofTilesA` | RoofTile_Clay | 11673 |
+| HO_Bldg_TidewatchInn | `HO_Bldg_TidewatchInn_RoofTilesB` | RoofTile_Clay | 11577 |
+| HO_Found_Plinth_12 | `HO_Found_Plinth_12` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 740 |
+| HO_Found_Plinth_16 | `HO_Found_Plinth_16` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 1048 |
+| HO_Found_Plinth_4 | `HO_Found_Plinth_4` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 292 |
+| HO_Found_Plinth_8 | `HO_Found_Plinth_8` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 516 |
+| HO_Found_Plinth_Corner | `HO_Found_Plinth_Corner` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 40 |
+| HO_Wall_Balcony_12 | `HO_Wall_Balcony_12` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 564 |
+| HO_Wall_Balcony_8 | `HO_Wall_Balcony_8` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 408 |
+| HO_Wall_Door_Shoji_4 | `HO_Wall_Door_Shoji_4` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 72 |
+| HO_Wall_Door_Shoji_4 | `HO_Wall_Door_Shoji_4_Door1` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Wall_Door_Shoji_4 | `HO_Wall_Door_Shoji_4_Door2` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Wall_Door_Shoji_8 | `HO_Wall_Door_Shoji_8` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 108 |
+| HO_Wall_Door_Shoji_8 | `HO_Wall_Door_Shoji_8_Door1` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Wall_Door_Shoji_8 | `HO_Wall_Door_Shoji_8_Door2` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Wall_Door_Shoji_8 | `HO_Wall_Door_Shoji_8_Door3` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Wall_Door_Shoji_8 | `HO_Wall_Door_Shoji_8_Door4` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Wall_Front_Koshi_12 | `HO_Wall_Front_Koshi_12` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 720 |
+| HO_Wall_Front_Koshi_12 | `HO_Wall_Front_Koshi_12_Door` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 288 |
+| HO_Wall_Front_Koshi_8 | `HO_Wall_Front_Koshi_8` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 396 |
+| HO_Wall_Front_Koshi_8 | `HO_Wall_Front_Koshi_8_Door` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 288 |
+| HO_Wall_Front_OpenShop_12 | `HO_Wall_Front_OpenShop_12` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 192 |
+| HO_Wall_Front_OpenShop_8 | `HO_Wall_Front_OpenShop_8` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 144 |
+| HO_Prop_Noren_4_Crimson | `HO_Prop_Noren_4_Crimson` | Cloth_Crimson, Timber_Dark | 532 |
+| HO_Prop_Noren_4_Indigo | `HO_Prop_Noren_4_Indigo` | Cloth_Indigo, Timber_Dark | 532 |
+| HO_Prop_Noren_4_Navy | `HO_Prop_Noren_4_Navy` | Cloth_Navy, Timber_Dark | 532 |
+| HO_Prop_Noren_4_Ochre | `HO_Prop_Noren_4_Ochre` | Cloth_Ochre, Timber_Dark | 532 |
+| HO_Prop_Noren_8_Crimson | `HO_Prop_Noren_8_Crimson` | Cloth_Crimson, Timber_Dark | 860 |
+| HO_Prop_Noren_8_Indigo | `HO_Prop_Noren_8_Indigo` | Cloth_Indigo, Timber_Dark | 860 |
+| HO_Prop_Noren_8_Navy | `HO_Prop_Noren_8_Navy` | Cloth_Navy, Timber_Dark | 860 |
+| HO_Prop_Noren_8_Ochre | `HO_Prop_Noren_8_Ochre` | Cloth_Ochre, Timber_Dark | 860 |
+| HO_Prop_Signboard_Hanging | `HO_Prop_Signboard_Hanging` | Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 108 |
+| HO_Prop_Signboard_Hanging | `HO_Prop_Signboard_Hanging_Face` | Timber_Light | 12 |
+| HO_Prop_Signboard_Roof | `HO_Prop_Signboard_Roof` | Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 84 |
+| HO_Prop_Signboard_Roof | `HO_Prop_Signboard_Roof_Face` | Timber_Light | 12 |
+| HO_Prop_Signboard_Standing | `HO_Prop_Signboard_Standing` | Earth_Packed, Gold_Leaf, Iron_Wrought, Plaster_White, RoofTile_Clay, Shoji_Paper, Stone_Granite, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 80 |
+| HO_Prop_Signboard_Standing | `HO_Prop_Signboard_Standing_Face` | Timber_Light | 24 |
+| HO_Roof_Hisashi_12 | `HO_Roof_Hisashi_12` | Gold_Leaf, Plaster_White, RoofTile_Clay, Timber_Dark, Timber_Light | 1950 |
+| HO_Roof_Hisashi_4 | `HO_Roof_Hisashi_4__RoofTile_Clay` | RoofTile_Clay | 950 |
+| HO_Roof_Hisashi_4 | `HO_Roof_Hisashi_4__Timber_Dark` | Timber_Dark | 288 |
+| HO_Roof_Hisashi_4 | `HO_Roof_Hisashi_4__Timber_Light` | Timber_Light | 24 |
+| HO_Roof_Hisashi_8 | `HO_Roof_Hisashi_8` | Gold_Leaf, Plaster_White, RoofTile_Clay, Timber_Dark, Timber_Light | 1598 |
+| HO_Roof_Irimoya_Large | `HO_Roof_Irimoya_Large_TilesFront` | RoofTile_Clay | 10821 |
+| HO_Roof_Irimoya_Large | `HO_Roof_Irimoya_Large_TilesBack` | RoofTile_Clay | 10773 |
+| HO_Roof_Irimoya_Large | `HO_Roof_Irimoya_Large_Frame` | Gold_Leaf, Plaster_White, Timber_Dark, Timber_Light | 9490 |
+| HO_Roof_Irimoya_Medium | `HO_Roof_Irimoya_Medium_Tiles` | RoofTile_Clay | 14698 |
+| HO_Roof_Irimoya_Medium | `HO_Roof_Irimoya_Medium_Frame` | Gold_Leaf, Plaster_White, Timber_Dark, Timber_Light | 6810 |
+| HO_Roof_Irimoya_Small | `HO_Roof_Irimoya_Small_Tiles` | RoofTile_Clay | 10786 |
+| HO_Roof_Irimoya_Small | `HO_Roof_Irimoya_Small_Frame` | Gold_Leaf, Plaster_White, Timber_Dark, Timber_Light | 5114 |
+| HO_Roof_Kirizuma_Large | `HO_Roof_Kirizuma_Large_Tiles` | RoofTile_Clay | 7870 |
+| HO_Roof_Kirizuma_Large | `HO_Roof_Kirizuma_Large_Frame` | Plaster_White, Timber_Dark, Timber_Light | 2290 |
+| HO_Roof_Kirizuma_Small | `HO_Roof_Kirizuma_Small_Tiles` | RoofTile_Clay | 5118 |
+| HO_Roof_Kirizuma_Small | `HO_Roof_Kirizuma_Small_Frame` | Plaster_White, Timber_Dark, Timber_Light | 1548 |
+| HO_Wall_CornerPost | `HO_Wall_CornerPost` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 36 |
+| HO_Wall_Plaster_Lattice_12 | `HO_Wall_Plaster_Lattice_12` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 576 |
+| HO_Wall_Plaster_Lattice_8 | `HO_Wall_Plaster_Lattice_8` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 924 |
+| HO_Wall_Plaster_Solid_12 | `HO_Wall_Plaster_Solid_12` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 180 |
+| HO_Wall_Plaster_Solid_16 | `HO_Wall_Plaster_Solid_16` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 228 |
+| HO_Wall_Plaster_Solid_8 | `HO_Wall_Plaster_Solid_8` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 132 |
+| HO_Wall_Plaster_Window_12 | `HO_Wall_Plaster_Window_12` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 480 |
+| HO_Wall_Plaster_Window_8 | `HO_Wall_Plaster_Window_8` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 732 |
+| HO_Wall_Upper_Mushiko_12 | `HO_Wall_Upper_Mushiko_12` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 588 |
+| HO_Wall_Upper_Mushiko_8 | `HO_Wall_Upper_Mushiko_8` | Iron_Wrought, Plaster_White, Shoji_Paper, Stone_Granite, Timber_Dark, Timber_Light, Wood_Planks | 540 |

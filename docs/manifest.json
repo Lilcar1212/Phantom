@@ -6103,49 +6103,110 @@
   "file": "assets/Phase1/Roofs/HO_Roof_Hisashi_4.fbx",
   "tris": 1262,
   "textures": [
-   "Gold_Leaf",
-   "Plaster_White",
    "RoofTile_Clay",
    "Timber_Dark",
    "Timber_Light"
   ],
   "pivot": "bottom-centre",
   "checks": {
-   "name": "HO_Roof_Hisashi_4",
-   "tris": 1262,
-   "tris_per_material": {
-    "RoofTile_Clay": 950,
-    "Timber_Light": 24,
-    "Timber_Dark": 288
-   },
    "under_limit": true,
+   "floating": 0,
+   "parts": 28,
+   "inverted_parts": 0,
    "dims": [
     4.066,
     3.549,
     3.291
    ],
-   "parts": 26,
-   "floating": 0,
-   "closed_parts": 17,
-   "open_parts": 9,
-   "inverted_parts": 0,
-   "textures": [
-    "Gold_Leaf",
-    "Plaster_White",
-    "RoofTile_Clay",
-    "Timber_Dark",
-    "Timber_Light"
-   ],
-   "textures_ok": true,
-   "pivot_bottom_center": false,
+   "meshes": {
+    "HO_Roof_Hisashi_4__RoofTile_Clay": 950,
+    "HO_Roof_Hisashi_4__Timber_Dark": 288,
+    "HO_Roof_Hisashi_4__Timber_Light": 24
+   },
+   "pivot_bottom_center": true,
+   "pivot_z0": true,
    "grid_ok": true
   },
+  "mesh_checks": [
+   {
+    "name": "HO_Roof_Hisashi_4__RoofTile_Clay",
+    "tris": 950,
+    "tris_per_material": {
+     "RoofTile_Clay": 950
+    },
+    "under_limit": true,
+    "dims": [
+     4.066,
+     3.549,
+     3.291
+    ],
+    "parts": 12,
+    "floating": 0,
+    "closed_parts": 7,
+    "open_parts": 5,
+    "inverted_parts": 0,
+    "textures": [
+     "RoofTile_Clay"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Roof_Hisashi_4__Timber_Dark",
+    "tris": 288,
+    "tris_per_material": {
+     "Timber_Dark": 288
+    },
+    "under_limit": true,
+    "dims": [
+     4.066,
+     3.549,
+     3.291
+    ],
+    "parts": 15,
+    "floating": 0,
+    "closed_parts": 9,
+    "open_parts": 6,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   },
+   {
+    "name": "HO_Roof_Hisashi_4__Timber_Light",
+    "tris": 24,
+    "tris_per_material": {
+     "Timber_Light": 24
+    },
+    "under_limit": true,
+    "dims": [
+     4.066,
+     3.549,
+     3.291
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false,
+    "grid_ok": true
+   }
+  ],
   "renders": [
    "renders/Phase1/Roofs/HO_Roof_Hisashi_4_three_quarter.png",
    "renders/Phase1/Roofs/HO_Roof_Hisashi_4_front.png",
    "renders/Phase1/Roofs/HO_Roof_Hisashi_4_under.png"
   ],
-  "notes": "4 studs wide, projects 3 studs; back (-Z in Roblox = rear) face mounts flush on a wall face, typically 7-8 studs above street level"
+  "notes": "4 studs wide, projects 3 studs; back (-Z in Roblox = rear) face mounts flush on a wall face, typically 7-8 studs above street level | meshes: HO_Roof_Hisashi_4__RoofTile_Clay (950), HO_Roof_Hisashi_4__Timber_Dark (288), HO_Roof_Hisashi_4__Timber_Light (24)"
  },
  {
   "name": "HO_Roof_Hisashi_8",

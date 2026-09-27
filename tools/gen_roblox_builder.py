@@ -44,7 +44,15 @@ data = dict(
     trees=layout['trees'],
 )
 src = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'roblox_builder_template.lua')).read()
+# mesh object -> texture set, for single-material parts whose names carry no "__<Set>" suffix
+mesh_set = {}
+man = json.load(open(os.path.join(ROOT, 'docs', 'manifest.json')))
+for e in man:
+    for c in (e.get('mesh_checks') or [e.get('checks', {})]):
+        if c.get('name') and len(c.get('textures', [])) == 1 and '__' not in c['name']:
+            mesh_set[c['name']] = c['textures'][0]
 src = src.replace('--[[DATA]]', 'local DATA = ' + lua(data)).replace('--[[BOUNDS]]', 'local BOUNDS = ' + lua(bounds))
+src = src.replace('--[[MESHSET]]', 'local MESH_SET = ' + lua(mesh_set))
 with open(os.path.join(OUT, 'HO_CityBuilder.lua'), 'w') as f:
     f.write(src)
 print('wrote roblox/HO_CityBuilder.lua', len(src), 'chars;', len(bounds), 'asset bounds')

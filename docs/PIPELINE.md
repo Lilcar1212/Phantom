@@ -50,7 +50,8 @@ If the cube comes in at any other size, tell me the Size Roblox shows and I'll c
 * **Footprints** snap to the 4-stud grid (walls 8/12/16 wide). Roofs cover exactly the building footprint: the outer faces of the walls.
 * **Roofs:** the roof's lowest point (z = 0) is the wall top. Place the roof at *wall height* and it seats correctly. The eaves overhang beyond the footprint.
 * **Naming:** `HO_<Category>_<Name>_<Variant>`. Multi-mesh assets get suffixes such as `_Tiles` and `_Frame`, all sharing one pivot.
-* **Triangles:** max 20,000 per mesh, and per material, because the Roblox importer creates one MeshPart per material. Every asset is triangulated on export, and the manifest lists per-mesh and per-material counts.
+* **One texture set per mesh object.** A Roblox MeshPart holds only one SurfaceAppearance, so every exported mesh object uses exactly one material. Any object that used several materials is split on export into `<Object>__<TextureSet>` (e.g. `HO_Bldg_Machiya_C_Structure__Plaster_White`, `…__Timber_Dark`). Single-material objects keep their name. `MANIFEST.md → Mesh objects and their texture set` lists the set for every mesh object.
+* **Triangles:** max 20,000 per mesh object. Every asset is triangulated on export.
 * **Normals:** exported as face-smoothing groups. Curved tiles are smooth; boxes and edges are hard.
 
 ## 3. Textures (shared PBR library)
