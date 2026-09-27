@@ -42,7 +42,7 @@
   "category": "Buildings",
   "type": "Mesh group",
   "file": "assets/Phase1/Buildings/HO_Bldg_Machiya_A.fbx",
-  "tris": 13362,
+  "tris": 13464,
   "textures": [
    "Cloth_Navy",
    "Earth_Packed",
@@ -60,8 +60,9 @@
   "pivot": "bottom-centre",
   "checks": {
    "under_limit": true,
-   "floating": 59,
-   "inverted_parts": 5,
+   "floating": 0,
+   "parts": 428,
+   "inverted_parts": 0,
    "dims": [
     13.514,
     16.834,
@@ -71,13 +72,14 @@
     "HO_Bldg_Machiya_A_Structure": 4584,
     "HO_Bldg_Machiya_A_Door1": 144,
     "HO_Bldg_Machiya_A_Door2": 144,
-    "HO_Bldg_Machiya_A_Interior": 978,
-    "HO_Bldg_Machiya_A_Front": 968,
+    "HO_Bldg_Machiya_A_Interior": 1032,
+    "HO_Bldg_Machiya_A_Front": 1016,
     "HO_Bldg_Machiya_A_SignFace": 12,
     "HO_Bldg_Machiya_A_RoofTiles": 5030,
     "HO_Bldg_Machiya_A_RoofFrame": 1502
    },
    "pivot_bottom_center": true,
+   "pivot_z0": true,
    "grid_ok": true
   },
   "mesh_checks": [
@@ -179,25 +181,28 @@
    },
    {
     "name": "HO_Bldg_Machiya_A_Interior",
-    "tris": 978,
+    "tris": 1032,
     "tris_per_material": {
      "Tatami": 10,
+     "Earth_Packed": 10,
+     "Timber_Dark": 258,
+     "Wood_Planks": 10,
+     "Stone_Granite": 12,
      "Shoji_Paper": 132,
      "Timber_Light": 480,
-     "Timber_Dark": 236,
      "Plaster_White": 24,
      "Iron_Wrought": 96
     },
     "under_limit": true,
     "dims": [
-     9.7,
-     9.283,
-     8.4
+     10.0,
+     10.0,
+     9.4
     ],
-    "parts": 66,
-    "floating": 59,
-    "closed_parts": 62,
-    "open_parts": 4,
+    "parts": 69,
+    "floating": 0,
+    "closed_parts": 64,
+    "open_parts": 5,
     "inverted_parts": 0,
     "textures": [
      "Earth_Packed",
@@ -213,16 +218,16 @@
      "Wood_Planks"
     ],
     "textures_ok": true,
-    "pivot_bottom_center": false,
+    "pivot_bottom_center": true,
     "grid_ok": true
    },
    {
     "name": "HO_Bldg_Machiya_A_Front",
-    "tris": 968,
+    "tris": 1016,
     "tris_per_material": {
      "Timber_Dark": 76,
      "Cloth_Navy": 832,
-     "Iron_Wrought": 60
+     "Iron_Wrought": 108
     },
     "under_limit": true,
     "dims": [
@@ -230,9 +235,9 @@
      1.936,
      4.14
     ],
-    "parts": 13,
+    "parts": 17,
     "floating": 0,
-    "closed_parts": 12,
+    "closed_parts": 16,
     "open_parts": 1,
     "inverted_parts": 0,
     "textures": [
@@ -293,7 +298,7 @@
     "floating": 0,
     "closed_parts": 53,
     "open_parts": 31,
-    "inverted_parts": 5,
+    "inverted_parts": 0,
     "textures": [
      "RoofTile_Clay"
     ],
@@ -330,8 +335,12 @@
     "grid_ok": true
    }
   ],
-  "renders": [],
-  "notes": "12x12 footprint, 1 storey(s), open front, Navy noren; ground-floor interior (doma, shop floor, tatami room); SignFace mesh = blank board for a SurfaceGui | meshes: HO_Bldg_Machiya_A_Structure (4584), HO_Bldg_Machiya_A_Door1 (144), HO_Bldg_Machiya_A_Door2 (144), HO_Bldg_Machiya_A_Interior (978), HO_Bldg_Machiya_A_Front (968), HO_Bldg_Machiya_A_SignFace (12), HO_Bldg_Machiya_A_RoofTiles (5030), HO_Bldg_Machiya_A_RoofFrame (1502)"
+  "renders": [
+   "renders/Phase1/Buildings/HO_Bldg_Machiya_A_three_quarter.png",
+   "renders/Phase1/Buildings/HO_Bldg_Machiya_A_front.png",
+   "renders/Phase1/Buildings/HO_Bldg_Machiya_A_interior.png"
+  ],
+  "notes": "12x12 footprint, 1 storey(s), open front, Navy noren; ground-floor interior (doma, shop floor, tatami room); SignFace mesh = blank board for a SurfaceGui | meshes: HO_Bldg_Machiya_A_Structure (4584), HO_Bldg_Machiya_A_Door1 (144), HO_Bldg_Machiya_A_Door2 (144), HO_Bldg_Machiya_A_Interior (1032), HO_Bldg_Machiya_A_Front (1016), HO_Bldg_Machiya_A_SignFace (12), HO_Bldg_Machiya_A_RoofTiles (5030), HO_Bldg_Machiya_A_RoofFrame (1502)"
  },
  {
   "name": "HO_Bldg_Machiya_B",
@@ -339,7 +348,7 @@
   "category": "Buildings",
   "type": "Mesh group",
   "file": "assets/Phase1/Buildings/HO_Bldg_Machiya_B.fbx",
-  "tris": 25036,
+  "tris": 25138,
   "textures": [
    "Cloth_Indigo",
    "Earth_Packed",
@@ -357,8 +366,8 @@
   "pivot": "bottom-centre",
   "checks": {
    "under_limit": true,
-   "floating": 5,
-   "parts": 914,
+   "floating": 0,
+   "parts": 921,
    "inverted_parts": 0,
    "dims": [
     17.538,
@@ -370,13 +379,14 @@
     "HO_Bldg_Machiya_B_Door1": 288,
     "HO_Bldg_Machiya_B_Door2": 144,
     "HO_Bldg_Machiya_B_Door3": 144,
-    "HO_Bldg_Machiya_B_Interior": 2174,
-    "HO_Bldg_Machiya_B_Front": 2952,
+    "HO_Bldg_Machiya_B_Interior": 2228,
+    "HO_Bldg_Machiya_B_Front": 3000,
     "HO_Bldg_Machiya_B_SignFace": 12,
     "HO_Bldg_Machiya_B_RoofTiles": 6958,
     "HO_Bldg_Machiya_B_RoofFrame": 2028
    },
-   "pivot_bottom_center": true,
+   "pivot_bottom_center": false,
+   "pivot_z0": true,
    "grid_ok": true
   },
   "mesh_checks": [
@@ -510,26 +520,28 @@
    },
    {
     "name": "HO_Bldg_Machiya_B_Interior",
-    "tris": 2174,
+    "tris": 2228,
     "tris_per_material": {
      "Tatami": 10,
+     "Earth_Packed": 10,
+     "Timber_Dark": 474,
+     "Wood_Planks": 20,
+     "Stone_Granite": 12,
      "Shoji_Paper": 228,
      "Timber_Light": 1102,
-     "Timber_Dark": 452,
      "Plaster_White": 24,
-     "Iron_Wrought": 348,
-     "Wood_Planks": 10
+     "Iron_Wrought": 348
     },
     "under_limit": true,
     "dims": [
      14.0,
      18.0,
-     9.0
+     10.0
     ],
-    "parts": 152,
-    "floating": 145,
-    "closed_parts": 144,
-    "open_parts": 8,
+    "parts": 155,
+    "floating": 0,
+    "closed_parts": 146,
+    "open_parts": 9,
     "inverted_parts": 0,
     "textures": [
      "Earth_Packed",
@@ -545,18 +557,18 @@
      "Wood_Planks"
     ],
     "textures_ok": true,
-    "pivot_bottom_center": false,
+    "pivot_bottom_center": true,
     "grid_ok": true
    },
    {
     "name": "HO_Bldg_Machiya_B_Front",
-    "tris": 2952,
+    "tris": 3000,
     "tris_per_material": {
      "RoofTile_Clay": 1638,
      "Timber_Light": 80,
      "Timber_Dark": 670,
      "Cloth_Indigo": 504,
-     "Iron_Wrought": 60
+     "Iron_Wrought": 108
     },
     "under_limit": true,
     "dims": [
@@ -564,9 +576,9 @@
      3.549,
      7.281
     ],
-    "parts": 80,
+    "parts": 84,
     "floating": 75,
-    "closed_parts": 45,
+    "closed_parts": 49,
     "open_parts": 35,
     "inverted_parts": 0,
     "textures": [
@@ -664,8 +676,12 @@
     "grid_ok": true
    }
   ],
-  "renders": [],
-  "notes": "16x20 footprint, 2 storey(s), koshi front, Indigo noren; ground-floor interior (doma, shop floor, tatami room, stair chest); SignFace mesh = blank board for a SurfaceGui | meshes: HO_Bldg_Machiya_B_Structure (10336), HO_Bldg_Machiya_B_Door1 (288), HO_Bldg_Machiya_B_Door2 (144), HO_Bldg_Machiya_B_Door3 (144), HO_Bldg_Machiya_B_Interior (2174), HO_Bldg_Machiya_B_Front (2952), HO_Bldg_Machiya_B_SignFace (12), HO_Bldg_Machiya_B_RoofTiles (6958), HO_Bldg_Machiya_B_RoofFrame (2028)"
+  "renders": [
+   "renders/Phase1/Buildings/HO_Bldg_Machiya_B_three_quarter.png",
+   "renders/Phase1/Buildings/HO_Bldg_Machiya_B_front.png",
+   "renders/Phase1/Buildings/HO_Bldg_Machiya_B_interior.png"
+  ],
+  "notes": "16x20 footprint, 2 storey(s), koshi front, Indigo noren; ground-floor interior (doma, shop floor, tatami room, stair chest); SignFace mesh = blank board for a SurfaceGui | meshes: HO_Bldg_Machiya_B_Structure (10336), HO_Bldg_Machiya_B_Door1 (288), HO_Bldg_Machiya_B_Door2 (144), HO_Bldg_Machiya_B_Door3 (144), HO_Bldg_Machiya_B_Interior (2228), HO_Bldg_Machiya_B_Front (3000), HO_Bldg_Machiya_B_SignFace (12), HO_Bldg_Machiya_B_RoofTiles (6958), HO_Bldg_Machiya_B_RoofFrame (2028)"
  },
  {
   "name": "HO_Bldg_Machiya_C",
@@ -673,7 +689,7 @@
   "category": "Buildings",
   "type": "Mesh group",
   "file": "assets/Phase1/Buildings/HO_Bldg_Machiya_C.fbx",
-  "tris": 24248,
+  "tris": 24350,
   "textures": [
    "Cloth_Crimson",
    "Earth_Packed",
@@ -691,8 +707,9 @@
   "pivot": "bottom-centre",
   "checks": {
    "under_limit": true,
-   "floating": 218,
-   "inverted_parts": 8,
+   "floating": 0,
+   "parts": 852,
+   "inverted_parts": 0,
    "dims": [
     17.538,
     25.667,
@@ -702,13 +719,14 @@
     "HO_Bldg_Machiya_C_Structure": 9532,
     "HO_Bldg_Machiya_C_Door1": 144,
     "HO_Bldg_Machiya_C_Door2": 144,
-    "HO_Bldg_Machiya_C_Interior": 2150,
-    "HO_Bldg_Machiya_C_Front": 3280,
+    "HO_Bldg_Machiya_C_Interior": 2204,
+    "HO_Bldg_Machiya_C_Front": 3328,
     "HO_Bldg_Machiya_C_SignFace": 12,
     "HO_Bldg_Machiya_C_RoofTiles": 6958,
     "HO_Bldg_Machiya_C_RoofFrame": 2028
    },
-   "pivot_bottom_center": true,
+   "pivot_bottom_center": false,
+   "pivot_z0": true,
    "grid_ok": true
   },
   "mesh_checks": [
@@ -810,26 +828,28 @@
    },
    {
     "name": "HO_Bldg_Machiya_C_Interior",
-    "tris": 2150,
+    "tris": 2204,
     "tris_per_material": {
      "Tatami": 10,
+     "Earth_Packed": 10,
+     "Timber_Dark": 486,
+     "Wood_Planks": 20,
+     "Stone_Granite": 12,
      "Shoji_Paper": 204,
      "Timber_Light": 1090,
-     "Timber_Dark": 464,
      "Plaster_White": 24,
-     "Iron_Wrought": 348,
-     "Wood_Planks": 10
+     "Iron_Wrought": 348
     },
     "under_limit": true,
     "dims": [
      14.0,
      18.0,
-     9.0
+     10.0
     ],
-    "parts": 150,
-    "floating": 143,
-    "closed_parts": 142,
-    "open_parts": 8,
+    "parts": 153,
+    "floating": 0,
+    "closed_parts": 144,
+    "open_parts": 9,
     "inverted_parts": 0,
     "textures": [
      "Earth_Packed",
@@ -845,18 +865,18 @@
      "Wood_Planks"
     ],
     "textures_ok": true,
-    "pivot_bottom_center": false,
+    "pivot_bottom_center": true,
     "grid_ok": true
    },
    {
     "name": "HO_Bldg_Machiya_C_Front",
-    "tris": 3280,
+    "tris": 3328,
     "tris_per_material": {
      "RoofTile_Clay": 1638,
      "Timber_Light": 80,
      "Timber_Dark": 670,
      "Cloth_Crimson": 832,
-     "Iron_Wrought": 60
+     "Iron_Wrought": 108
     },
     "under_limit": true,
     "dims": [
@@ -864,11 +884,11 @@
      3.549,
      7.281
     ],
-    "parts": 82,
+    "parts": 86,
     "floating": 75,
-    "closed_parts": 47,
+    "closed_parts": 51,
     "open_parts": 35,
-    "inverted_parts": 3,
+    "inverted_parts": 0,
     "textures": [
      "Cloth_Crimson",
      "Earth_Packed",
@@ -927,7 +947,7 @@
     "floating": 0,
     "closed_parts": 61,
     "open_parts": 39,
-    "inverted_parts": 5,
+    "inverted_parts": 0,
     "textures": [
      "RoofTile_Clay"
     ],
@@ -964,8 +984,12 @@
     "grid_ok": true
    }
   ],
-  "renders": [],
-  "notes": "16x20 footprint, 2 storey(s), open front, Crimson noren; ground-floor interior (doma, shop floor, tatami room, stair chest); SignFace mesh = blank board for a SurfaceGui | meshes: HO_Bldg_Machiya_C_Structure (9532), HO_Bldg_Machiya_C_Door1 (144), HO_Bldg_Machiya_C_Door2 (144), HO_Bldg_Machiya_C_Interior (2150), HO_Bldg_Machiya_C_Front (3280), HO_Bldg_Machiya_C_SignFace (12), HO_Bldg_Machiya_C_RoofTiles (6958), HO_Bldg_Machiya_C_RoofFrame (2028)"
+  "renders": [
+   "renders/Phase1/Buildings/HO_Bldg_Machiya_C_three_quarter.png",
+   "renders/Phase1/Buildings/HO_Bldg_Machiya_C_front.png",
+   "renders/Phase1/Buildings/HO_Bldg_Machiya_C_interior.png"
+  ],
+  "notes": "16x20 footprint, 2 storey(s), open front, Crimson noren; ground-floor interior (doma, shop floor, tatami room, stair chest); SignFace mesh = blank board for a SurfaceGui | meshes: HO_Bldg_Machiya_C_Structure (9532), HO_Bldg_Machiya_C_Door1 (144), HO_Bldg_Machiya_C_Door2 (144), HO_Bldg_Machiya_C_Interior (2204), HO_Bldg_Machiya_C_Front (3328), HO_Bldg_Machiya_C_SignFace (12), HO_Bldg_Machiya_C_RoofTiles (6958), HO_Bldg_Machiya_C_RoofFrame (2028)"
  },
  {
   "name": "HO_Bldg_Machiya_D",
@@ -973,7 +997,7 @@
   "category": "Buildings",
   "type": "Mesh group",
   "file": "assets/Phase1/Buildings/HO_Bldg_Machiya_D.fbx",
-  "tris": 27836,
+  "tris": 27938,
   "textures": [
    "Cloth_Ochre",
    "Earth_Packed",
@@ -991,8 +1015,9 @@
   "pivot": "bottom-centre",
   "checks": {
    "under_limit": true,
-   "floating": 250,
-   "inverted_parts": 8,
+   "floating": 0,
+   "parts": 988,
+   "inverted_parts": 0,
    "dims": [
     21.54,
     26.068,
@@ -1002,13 +1027,14 @@
     "HO_Bldg_Machiya_D_Structure": 11364,
     "HO_Bldg_Machiya_D_Door1": 144,
     "HO_Bldg_Machiya_D_Door2": 144,
-    "HO_Bldg_Machiya_D_Interior": 2426,
-    "HO_Bldg_Machiya_D_Front": 3304,
+    "HO_Bldg_Machiya_D_Interior": 2480,
+    "HO_Bldg_Machiya_D_Front": 3352,
     "HO_Bldg_Machiya_D_SignFace": 12,
     "HO_Bldg_Machiya_D_RoofTiles": 8094,
     "HO_Bldg_Machiya_D_RoofFrame": 2348
    },
-   "pivot_bottom_center": true,
+   "pivot_bottom_center": false,
+   "pivot_z0": true,
    "grid_ok": true
   },
   "mesh_checks": [
@@ -1110,26 +1136,28 @@
    },
    {
     "name": "HO_Bldg_Machiya_D_Interior",
-    "tris": 2426,
+    "tris": 2480,
     "tris_per_material": {
      "Tatami": 10,
+     "Earth_Packed": 10,
+     "Timber_Dark": 474,
+     "Wood_Planks": 20,
+     "Stone_Granite": 12,
      "Shoji_Paper": 252,
      "Timber_Light": 1330,
-     "Timber_Dark": 452,
      "Plaster_White": 24,
-     "Iron_Wrought": 348,
-     "Wood_Planks": 10
+     "Iron_Wrought": 348
     },
     "under_limit": true,
     "dims": [
      18.0,
      18.0,
-     9.0
+     10.0
     ],
-    "parts": 167,
-    "floating": 160,
-    "closed_parts": 157,
-    "open_parts": 10,
+    "parts": 170,
+    "floating": 0,
+    "closed_parts": 159,
+    "open_parts": 11,
     "inverted_parts": 0,
     "textures": [
      "Earth_Packed",
@@ -1145,18 +1173,18 @@
      "Wood_Planks"
     ],
     "textures_ok": true,
-    "pivot_bottom_center": false,
+    "pivot_bottom_center": true,
     "grid_ok": true
    },
    {
     "name": "HO_Bldg_Machiya_D_Front",
-    "tris": 3304,
+    "tris": 3352,
     "tris_per_material": {
      "RoofTile_Clay": 1862,
      "Timber_Light": 96,
      "Timber_Dark": 782,
      "Cloth_Ochre": 504,
-     "Iron_Wrought": 60
+     "Iron_Wrought": 108
     },
     "under_limit": true,
     "dims": [
@@ -1164,11 +1192,11 @@
      3.549,
      7.281
     ],
-    "parts": 95,
+    "parts": 99,
     "floating": 90,
-    "closed_parts": 51,
+    "closed_parts": 55,
     "open_parts": 44,
-    "inverted_parts": 3,
+    "inverted_parts": 0,
     "textures": [
      "Cloth_Ochre",
      "Earth_Packed",
@@ -1227,7 +1255,7 @@
     "floating": 0,
     "closed_parts": 69,
     "open_parts": 47,
-    "inverted_parts": 5,
+    "inverted_parts": 0,
     "textures": [
      "RoofTile_Clay"
     ],
@@ -1264,8 +1292,12 @@
     "grid_ok": true
    }
   ],
-  "renders": [],
-  "notes": "20x20 footprint, 2 storey(s), mixed front, Ochre noren; ground-floor interior (doma, shop floor, tatami room, stair chest); SignFace mesh = blank board for a SurfaceGui | meshes: HO_Bldg_Machiya_D_Structure (11364), HO_Bldg_Machiya_D_Door1 (144), HO_Bldg_Machiya_D_Door2 (144), HO_Bldg_Machiya_D_Interior (2426), HO_Bldg_Machiya_D_Front (3304), HO_Bldg_Machiya_D_SignFace (12), HO_Bldg_Machiya_D_RoofTiles (8094), HO_Bldg_Machiya_D_RoofFrame (2348)"
+  "renders": [
+   "renders/Phase1/Buildings/HO_Bldg_Machiya_D_three_quarter.png",
+   "renders/Phase1/Buildings/HO_Bldg_Machiya_D_front.png",
+   "renders/Phase1/Buildings/HO_Bldg_Machiya_D_interior.png"
+  ],
+  "notes": "20x20 footprint, 2 storey(s), mixed front, Ochre noren; ground-floor interior (doma, shop floor, tatami room, stair chest); SignFace mesh = blank board for a SurfaceGui | meshes: HO_Bldg_Machiya_D_Structure (11364), HO_Bldg_Machiya_D_Door1 (144), HO_Bldg_Machiya_D_Door2 (144), HO_Bldg_Machiya_D_Interior (2480), HO_Bldg_Machiya_D_Front (3352), HO_Bldg_Machiya_D_SignFace (12), HO_Bldg_Machiya_D_RoofTiles (8094), HO_Bldg_Machiya_D_RoofFrame (2348)"
  },
  {
   "name": "HO_Bldg_Machiya_E",
@@ -1273,7 +1305,7 @@
   "category": "Buildings",
   "type": "Mesh group",
   "file": "assets/Phase1/Buildings/HO_Bldg_Machiya_E.fbx",
-  "tris": 32628,
+  "tris": 32730,
   "textures": [
    "Cloth_Navy",
    "Earth_Packed",
@@ -1291,8 +1323,9 @@
   "pivot": "bottom-centre",
   "checks": {
    "under_limit": true,
-   "floating": 281,
-   "inverted_parts": 8,
+   "floating": 0,
+   "parts": 1185,
+   "inverted_parts": 0,
    "dims": [
     25.54,
     26.068,
@@ -1303,13 +1336,14 @@
     "HO_Bldg_Machiya_E_Door1": 288,
     "HO_Bldg_Machiya_E_Door2": 144,
     "HO_Bldg_Machiya_E_Door3": 144,
-    "HO_Bldg_Machiya_E_Interior": 2702,
-    "HO_Bldg_Machiya_E_Front": 3666,
+    "HO_Bldg_Machiya_E_Interior": 2756,
+    "HO_Bldg_Machiya_E_Front": 3714,
     "HO_Bldg_Machiya_E_SignFace": 12,
     "HO_Bldg_Machiya_E_RoofTiles": 9286,
     "HO_Bldg_Machiya_E_RoofFrame": 2686
    },
-   "pivot_bottom_center": true,
+   "pivot_bottom_center": false,
+   "pivot_z0": true,
    "grid_ok": true
   },
   "mesh_checks": [
@@ -1443,26 +1477,28 @@
    },
    {
     "name": "HO_Bldg_Machiya_E_Interior",
-    "tris": 2702,
+    "tris": 2756,
     "tris_per_material": {
      "Tatami": 10,
+     "Earth_Packed": 10,
+     "Timber_Dark": 498,
+     "Wood_Planks": 20,
+     "Stone_Granite": 12,
      "Shoji_Paper": 252,
      "Timber_Light": 1582,
-     "Timber_Dark": 476,
      "Plaster_White": 24,
-     "Iron_Wrought": 348,
-     "Wood_Planks": 10
+     "Iron_Wrought": 348
     },
     "under_limit": true,
     "dims": [
      22.0,
      18.0,
-     9.0
+     10.0
     ],
-    "parts": 184,
-    "floating": 177,
-    "closed_parts": 172,
-    "open_parts": 12,
+    "parts": 187,
+    "floating": 0,
+    "closed_parts": 174,
+    "open_parts": 13,
     "inverted_parts": 0,
     "textures": [
      "Earth_Packed",
@@ -1478,18 +1514,18 @@
      "Wood_Planks"
     ],
     "textures_ok": true,
-    "pivot_bottom_center": false,
+    "pivot_bottom_center": true,
     "grid_ok": true
    },
    {
     "name": "HO_Bldg_Machiya_E_Front",
-    "tris": 3666,
+    "tris": 3714,
     "tris_per_material": {
      "RoofTile_Clay": 2102,
      "Timber_Light": 120,
      "Timber_Dark": 880,
      "Cloth_Navy": 504,
-     "Iron_Wrought": 60
+     "Iron_Wrought": 108
     },
     "under_limit": true,
     "dims": [
@@ -1497,11 +1533,11 @@
      3.549,
      7.281
     ],
-    "parts": 109,
+    "parts": 113,
     "floating": 104,
-    "closed_parts": 57,
+    "closed_parts": 61,
     "open_parts": 52,
-    "inverted_parts": 3,
+    "inverted_parts": 0,
     "textures": [
      "Cloth_Navy",
      "Earth_Packed",
@@ -1560,7 +1596,7 @@
     "floating": 0,
     "closed_parts": 77,
     "open_parts": 55,
-    "inverted_parts": 5,
+    "inverted_parts": 0,
     "textures": [
      "RoofTile_Clay"
     ],
@@ -1597,8 +1633,12 @@
     "grid_ok": true
    }
   ],
-  "renders": [],
-  "notes": "24x20 footprint, 2 storey(s), koshi front, Navy noren; ground-floor interior (doma, shop floor, tatami room, stair chest); SignFace mesh = blank board for a SurfaceGui | meshes: HO_Bldg_Machiya_E_Structure (13700), HO_Bldg_Machiya_E_Door1 (288), HO_Bldg_Machiya_E_Door2 (144), HO_Bldg_Machiya_E_Door3 (144), HO_Bldg_Machiya_E_Interior (2702), HO_Bldg_Machiya_E_Front (3666), HO_Bldg_Machiya_E_SignFace (12), HO_Bldg_Machiya_E_RoofTiles (9286), HO_Bldg_Machiya_E_RoofFrame (2686)"
+  "renders": [
+   "renders/Phase1/Buildings/HO_Bldg_Machiya_E_three_quarter.png",
+   "renders/Phase1/Buildings/HO_Bldg_Machiya_E_front.png",
+   "renders/Phase1/Buildings/HO_Bldg_Machiya_E_interior.png"
+  ],
+  "notes": "24x20 footprint, 2 storey(s), koshi front, Navy noren; ground-floor interior (doma, shop floor, tatami room, stair chest); SignFace mesh = blank board for a SurfaceGui | meshes: HO_Bldg_Machiya_E_Structure (13700), HO_Bldg_Machiya_E_Door1 (288), HO_Bldg_Machiya_E_Door2 (144), HO_Bldg_Machiya_E_Door3 (144), HO_Bldg_Machiya_E_Interior (2756), HO_Bldg_Machiya_E_Front (3714), HO_Bldg_Machiya_E_SignFace (12), HO_Bldg_Machiya_E_RoofTiles (9286), HO_Bldg_Machiya_E_RoofFrame (2686)"
  },
  {
   "name": "HO_Bldg_Machiya_F",
@@ -1606,7 +1646,7 @@
   "category": "Buildings",
   "type": "Mesh group",
   "file": "assets/Phase1/Buildings/HO_Bldg_Machiya_F.fbx",
-  "tris": 21184,
+  "tris": 21286,
   "textures": [
    "Cloth_Indigo",
    "Earth_Packed",
@@ -1624,8 +1664,9 @@
   "pivot": "bottom-centre",
   "checks": {
    "under_limit": true,
-   "floating": 182,
-   "inverted_parts": 8,
+   "floating": 0,
+   "parts": 783,
+   "inverted_parts": 0,
    "dims": [
     13.538,
     25.667,
@@ -1636,12 +1677,13 @@
     "HO_Bldg_Machiya_F_Door1": 288,
     "HO_Bldg_Machiya_F_Door2": 144,
     "HO_Bldg_Machiya_F_Door3": 144,
-    "HO_Bldg_Machiya_F_Interior": 1886,
-    "HO_Bldg_Machiya_F_Front": 2482,
+    "HO_Bldg_Machiya_F_Interior": 1940,
+    "HO_Bldg_Machiya_F_Front": 2530,
     "HO_Bldg_Machiya_F_RoofTiles": 5790,
     "HO_Bldg_Machiya_F_RoofFrame": 1702
    },
-   "pivot_bottom_center": true,
+   "pivot_bottom_center": false,
+   "pivot_z0": true,
    "grid_ok": true
   },
   "mesh_checks": [
@@ -1775,26 +1817,28 @@
    },
    {
     "name": "HO_Bldg_Machiya_F_Interior",
-    "tris": 1886,
+    "tris": 1940,
     "tris_per_material": {
      "Tatami": 10,
+     "Earth_Packed": 10,
+     "Timber_Dark": 450,
+     "Wood_Planks": 20,
+     "Stone_Granite": 12,
      "Shoji_Paper": 204,
      "Timber_Light": 862,
-     "Timber_Dark": 428,
      "Plaster_White": 24,
-     "Iron_Wrought": 348,
-     "Wood_Planks": 10
+     "Iron_Wrought": 348
     },
     "under_limit": true,
     "dims": [
      10.0,
      18.0,
-     9.0
+     10.0
     ],
-    "parts": 134,
-    "floating": 127,
-    "closed_parts": 128,
-    "open_parts": 6,
+    "parts": 137,
+    "floating": 0,
+    "closed_parts": 130,
+    "open_parts": 7,
     "inverted_parts": 0,
     "textures": [
      "Earth_Packed",
@@ -1810,17 +1854,18 @@
      "Wood_Planks"
     ],
     "textures_ok": true,
-    "pivot_bottom_center": false,
+    "pivot_bottom_center": true,
     "grid_ok": true
    },
    {
     "name": "HO_Bldg_Machiya_F_Front",
-    "tris": 2482,
+    "tris": 2530,
     "tris_per_material": {
      "RoofTile_Clay": 1398,
      "Timber_Light": 56,
      "Timber_Dark": 524,
-     "Cloth_Indigo": 504
+     "Cloth_Indigo": 504,
+     "Iron_Wrought": 48
     },
     "under_limit": true,
     "dims": [
@@ -1828,18 +1873,24 @@
      3.549,
      7.281
     ],
-    "parts": 60,
+    "parts": 64,
     "floating": 55,
-    "closed_parts": 34,
+    "closed_parts": 38,
     "open_parts": 26,
-    "inverted_parts": 3,
+    "inverted_parts": 0,
     "textures": [
      "Cloth_Indigo",
+     "Earth_Packed",
      "Gold_Leaf",
+     "Iron_Wrought",
      "Plaster_White",
      "RoofTile_Clay",
+     "Shoji_Paper",
+     "Stone_Granite",
+     "Tatami",
      "Timber_Dark",
-     "Timber_Light"
+     "Timber_Light",
+     "Wood_Planks"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false,
@@ -1861,7 +1912,7 @@
     "floating": 0,
     "closed_parts": 53,
     "open_parts": 31,
-    "inverted_parts": 5,
+    "inverted_parts": 0,
     "textures": [
      "RoofTile_Clay"
     ],
@@ -1898,8 +1949,12 @@
     "grid_ok": true
    }
   ],
-  "renders": [],
-  "notes": "12x20 footprint, 2 storey(s), koshi front, Indigo noren; ground-floor interior (doma, shop floor, tatami room, stair chest); SignFace mesh = blank board for a SurfaceGui | meshes: HO_Bldg_Machiya_F_Structure (8748), HO_Bldg_Machiya_F_Door1 (288), HO_Bldg_Machiya_F_Door2 (144), HO_Bldg_Machiya_F_Door3 (144), HO_Bldg_Machiya_F_Interior (1886), HO_Bldg_Machiya_F_Front (2482), HO_Bldg_Machiya_F_RoofTiles (5790), HO_Bldg_Machiya_F_RoofFrame (1702)"
+  "renders": [
+   "renders/Phase1/Buildings/HO_Bldg_Machiya_F_three_quarter.png",
+   "renders/Phase1/Buildings/HO_Bldg_Machiya_F_front.png",
+   "renders/Phase1/Buildings/HO_Bldg_Machiya_F_interior.png"
+  ],
+  "notes": "12x20 footprint, 2 storey(s), koshi front, Indigo noren; ground-floor interior (doma, shop floor, tatami room, stair chest); SignFace mesh = blank board for a SurfaceGui | meshes: HO_Bldg_Machiya_F_Structure (8748), HO_Bldg_Machiya_F_Door1 (288), HO_Bldg_Machiya_F_Door2 (144), HO_Bldg_Machiya_F_Door3 (144), HO_Bldg_Machiya_F_Interior (1940), HO_Bldg_Machiya_F_Front (2530), HO_Bldg_Machiya_F_RoofTiles (5790), HO_Bldg_Machiya_F_RoofFrame (1702)"
  },
  {
   "name": "HO_Found_Plinth_12",
@@ -1947,7 +2002,10 @@
    "textures_ok": true,
    "pivot_bottom_center": true
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Foundations/HO_Found_Plinth_12_three_quarter.png",
+   "renders/Phase1/Foundations/HO_Found_Plinth_12_front.png"
+  ],
   "notes": "L x 1.6 x 1 stone plinth under walls (walls start at z = 1); centred on the wall centre line"
  },
  {
@@ -1996,7 +2054,10 @@
    "textures_ok": true,
    "pivot_bottom_center": true
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Foundations/HO_Found_Plinth_16_three_quarter.png",
+   "renders/Phase1/Foundations/HO_Found_Plinth_16_front.png"
+  ],
   "notes": "L x 1.6 x 1 stone plinth under walls (walls start at z = 1); centred on the wall centre line"
  },
  {
@@ -2045,7 +2106,10 @@
    "textures_ok": true,
    "pivot_bottom_center": true
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Foundations/HO_Found_Plinth_4_three_quarter.png",
+   "renders/Phase1/Foundations/HO_Found_Plinth_4_front.png"
+  ],
   "notes": "L x 1.6 x 1 stone plinth under walls (walls start at z = 1); centred on the wall centre line"
  },
  {
@@ -2094,7 +2158,10 @@
    "textures_ok": true,
    "pivot_bottom_center": true
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Foundations/HO_Found_Plinth_8_three_quarter.png",
+   "renders/Phase1/Foundations/HO_Found_Plinth_8_front.png"
+  ],
   "notes": "L x 1.6 x 1 stone plinth under walls (walls start at z = 1); centred on the wall centre line"
  },
  {
@@ -2143,7 +2210,10 @@
    "textures_ok": true,
    "pivot_bottom_center": true
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Foundations/HO_Found_Plinth_Corner_three_quarter.png",
+   "renders/Phase1/Foundations/HO_Found_Plinth_Corner_front.png"
+  ],
   "notes": "1.6 x 1.6 x 1 corner block"
  },
  {
@@ -2194,7 +2264,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Fronts/HO_Wall_Balcony_12_three_quarter.png",
+   "renders/Phase1/Fronts/HO_Wall_Balcony_12_front.png"
+  ],
   "notes": "12 wide, projects 2.5; back face mounts on the wall; deck top = pivot + 1.6 (put the deck at the 2nd-floor level)"
  },
  {
@@ -2245,7 +2318,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Fronts/HO_Wall_Balcony_8_three_quarter.png",
+   "renders/Phase1/Fronts/HO_Wall_Balcony_8_front.png"
+  ],
   "notes": "8 wide, projects 2.5; back face mounts on the wall; deck top = pivot + 1.6 (put the deck at the 2nd-floor level)"
  },
  {
@@ -2268,6 +2344,7 @@
   "checks": {
    "under_limit": true,
    "floating": 0,
+   "parts": 21,
    "inverted_parts": 0,
    "dims": [
     4.0,
@@ -2279,7 +2356,8 @@
     "HO_Wall_Door_Shoji_4_Door1": 144,
     "HO_Wall_Door_Shoji_4_Door2": 144
    },
-   "pivot_bottom_center": true
+   "pivot_bottom_center": true,
+   "pivot_z0": true
   },
   "mesh_checks": [
    {
@@ -2373,7 +2451,10 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Fronts/HO_Wall_Door_Shoji_4_three_quarter.png",
+   "renders/Phase1/Fronts/HO_Wall_Door_Shoji_4_front.png"
+  ],
   "notes": "L x 1 x 9 studs; outside face = front (-Z); centre line 0.5 inside the footprint edge; sliding shoji doors (interior or exterior) | door panels are separate meshes (slide along local X to open) | meshes: HO_Wall_Door_Shoji_4 (72), HO_Wall_Door_Shoji_4_Door1 (144), HO_Wall_Door_Shoji_4_Door2 (144)"
  },
  {
@@ -2396,6 +2477,7 @@
   "checks": {
    "under_limit": true,
    "floating": 0,
+   "parts": 42,
    "inverted_parts": 0,
    "dims": [
     8.0,
@@ -2409,7 +2491,8 @@
     "HO_Wall_Door_Shoji_8_Door3": 144,
     "HO_Wall_Door_Shoji_8_Door4": 144
    },
-   "pivot_bottom_center": true
+   "pivot_bottom_center": true,
+   "pivot_z0": true
   },
   "mesh_checks": [
    {
@@ -2563,7 +2646,10 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Fronts/HO_Wall_Door_Shoji_8_three_quarter.png",
+   "renders/Phase1/Fronts/HO_Wall_Door_Shoji_8_front.png"
+  ],
   "notes": "L x 1 x 9 studs; outside face = front (-Z); centre line 0.5 inside the footprint edge; sliding shoji doors (interior or exterior) | door panels are separate meshes (slide along local X to open) | meshes: HO_Wall_Door_Shoji_8 (108), HO_Wall_Door_Shoji_8_Door1 (144), HO_Wall_Door_Shoji_8_Door2 (144), HO_Wall_Door_Shoji_8_Door3 (144), HO_Wall_Door_Shoji_8_Door4 (144)"
  },
  {
@@ -2586,6 +2672,7 @@
   "checks": {
    "under_limit": true,
    "floating": 0,
+   "parts": 63,
    "inverted_parts": 0,
    "dims": [
     12.0,
@@ -2596,7 +2683,8 @@
     "HO_Wall_Front_Koshi_12": 720,
     "HO_Wall_Front_Koshi_12_Door": 288
    },
-   "pivot_bottom_center": true
+   "pivot_bottom_center": true,
+   "pivot_z0": true
   },
   "mesh_checks": [
    {
@@ -2663,7 +2751,10 @@
     "pivot_bottom_center": false
    }
   ],
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Fronts/HO_Wall_Front_Koshi_12_three_quarter.png",
+   "renders/Phase1/Fronts/HO_Wall_Front_Koshi_12_front.png"
+  ],
   "notes": "L x 1 x 9 studs; outside face = front (-Z); centre line 0.5 inside the footprint edge; koshi lattice shop front with sliding lattice door (7-stud opening) | door panels are separate meshes (slide along local X to open) | meshes: HO_Wall_Front_Koshi_12 (720), HO_Wall_Front_Koshi_12_Door (288)"
  },
  {
@@ -2819,7 +2910,10 @@
    "textures_ok": true,
    "pivot_bottom_center": true
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Fronts/HO_Wall_Front_OpenShop_12_three_quarter.png",
+   "renders/Phase1/Fronts/HO_Wall_Front_OpenShop_12_front.png"
+  ],
   "notes": "L x 1 x 9 studs; outside face = front (-Z); centre line 0.5 inside the footprint edge; open shop front with counter; hang noren under the door band (z = 7)"
  },
  {
@@ -2913,7 +3007,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Props/HO_Prop_Noren_4_Crimson_three_quarter.png",
+   "renders/Phase1/Props/HO_Prop_Noren_4_Crimson_front.png"
+  ],
   "notes": "4 wide curtain, 3.55 tall; hang so the rod sits just under the door band (rod top at z = 7 above floor)"
  },
  {
@@ -2953,7 +3050,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Props/HO_Prop_Noren_4_Indigo_three_quarter.png",
+   "renders/Phase1/Props/HO_Prop_Noren_4_Indigo_front.png"
+  ],
   "notes": "4 wide curtain, 3.55 tall; hang so the rod sits just under the door band (rod top at z = 7 above floor)"
  },
  {
@@ -2993,7 +3093,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Props/HO_Prop_Noren_4_Navy_three_quarter.png",
+   "renders/Phase1/Props/HO_Prop_Noren_4_Navy_front.png"
+  ],
   "notes": "4 wide curtain, 3.55 tall; hang so the rod sits just under the door band (rod top at z = 7 above floor)"
  },
  {
@@ -3033,7 +3136,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Props/HO_Prop_Noren_4_Ochre_three_quarter.png",
+   "renders/Phase1/Props/HO_Prop_Noren_4_Ochre_front.png"
+  ],
   "notes": "4 wide curtain, 3.55 tall; hang so the rod sits just under the door band (rod top at z = 7 above floor)"
  },
  {
@@ -3073,7 +3179,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Props/HO_Prop_Noren_8_Crimson_three_quarter.png",
+   "renders/Phase1/Props/HO_Prop_Noren_8_Crimson_front.png"
+  ],
   "notes": "8 wide curtain, 3.55 tall; hang so the rod sits just under the door band (rod top at z = 7 above floor)"
  },
  {
@@ -3113,7 +3222,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Props/HO_Prop_Noren_8_Indigo_three_quarter.png",
+   "renders/Phase1/Props/HO_Prop_Noren_8_Indigo_front.png"
+  ],
   "notes": "8 wide curtain, 3.55 tall; hang so the rod sits just under the door band (rod top at z = 7 above floor)"
  },
  {
@@ -3153,7 +3265,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Props/HO_Prop_Noren_8_Navy_three_quarter.png",
+   "renders/Phase1/Props/HO_Prop_Noren_8_Navy_front.png"
+  ],
   "notes": "8 wide curtain, 3.55 tall; hang so the rod sits just under the door band (rod top at z = 7 above floor)"
  },
  {
@@ -3193,7 +3308,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Props/HO_Prop_Noren_8_Ochre_three_quarter.png",
+   "renders/Phase1/Props/HO_Prop_Noren_8_Ochre_front.png"
+  ],
   "notes": "8 wide curtain, 3.55 tall; hang so the rod sits just under the door band (rod top at z = 7 above floor)"
  },
  {
@@ -3892,7 +4010,10 @@
    "textures_ok": true,
    "pivot_bottom_center": true
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Walls/HO_Wall_CornerPost_three_quarter.png",
+   "renders/Phase1/Walls/HO_Wall_CornerPost_front.png"
+  ],
   "notes": "1.3 x 1.3 x 9; place centred on each building corner, 0.5 inside both footprint edges"
  },
  {
@@ -3944,7 +4065,10 @@
    "textures_ok": true,
    "pivot_bottom_center": true
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Walls/HO_Wall_Plaster_Lattice_12_three_quarter.png",
+   "renders/Phase1/Walls/HO_Wall_Plaster_Lattice_12_front.png"
+  ],
   "notes": "L x 1 x 9 studs; outside face = front (-Z); centre line 0.5 inside the footprint edge; lattice windows"
  },
  {
@@ -4320,7 +4444,10 @@
    "textures_ok": true,
    "pivot_bottom_center": true
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Walls/HO_Wall_Upper_Mushiko_12_three_quarter.png",
+   "renders/Phase1/Walls/HO_Wall_Upper_Mushiko_12_front.png"
+  ],
   "notes": "L x 1 x 9 studs; outside face = front (-Z); centre line 0.5 inside the footprint edge; upper floor, mushiko slat windows"
  },
  {
