@@ -19236,7 +19236,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Nature/HO_Rock_Cliff_L_three_quarter.png",
+   "renders/Phase1/Nature/HO_Rock_Cliff_L_front.png"
+  ],
   "notes": "Rock ~28 across. Origin = base centre."
  },
  {
@@ -19323,7 +19326,10 @@
    "textures_ok": true,
    "pivot_bottom_center": false
   },
-  "renders": [],
+  "renders": [
+   "renders/Phase1/Nature/HO_Rock_Cliff_M_three_quarter.png",
+   "renders/Phase1/Nature/HO_Rock_Cliff_M_front.png"
+  ],
   "notes": "Rock ~14 across. Origin = base centre."
  },
  {
