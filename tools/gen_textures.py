@@ -398,6 +398,127 @@ def magic_glow():
     save('Magic_Glow', col, sw * 0.2, 0.15, 0.0, 0.5)
 
 
+
+def bamboo():
+    """Bamboo culm surface along V (culm axis): green-gold with node rings every 1.5 studs (texture tile = 4 studs)."""
+    fib = fnoise(211, 0.8, aniso=(1.0, 30.0)); m1 = fnoise(212, 2.4)
+    col = lerp((150, 150, 70), (190, 176, 96), fib * 0.5 + m1 * 0.5)
+    v = yy * 4 / 1.5
+    node = smooth(0.06, 0.0, np.minimum(v % 1.0, 1 - (v % 1.0)))
+    col = lerp(col, (110, 100, 50), node * 0.8)
+    col = lerp(col, (120, 140, 60), smooth(0.6, 0.85, fnoise(213, 2.0)) * 0.35)
+    h = fib * 0.3 + node * 0.8
+    save('Bamboo', col, h, 0.4 + node * 0.2, 0.0, 2.0)
+
+
+def pine_bark():
+    """Plated pine bark: reddish-grey plates with deep fissures running along V."""
+    f1, f2, cid, pts = voronoi(221, 0, jitter=0.9, grid=(6, 14))
+    edge = f2 - f1
+    tone = rng(222).random(len(pts))[cid]
+    m1 = fnoise(223, 2.4)
+    col = lerp((70, 52, 44), (128, 96, 76), tone * 0.5 + m1 * 0.5)
+    fiss = smooth(0.025, 0.0, edge)
+    col = lerp(col, (30, 24, 20), fiss)
+    h = smooth(0.0, 0.05, edge) * 0.9 + m1 * 0.1
+    save('Pine_Bark', col, h, 0.85, 0.0, 6.0)
+
+
+def pine_needles():
+    """Dense needle clumps for sculpted foliage pads (solid, no alpha): dark green tufts with lighter tips."""
+    f1, f2, cid, pts = voronoi(231, 0, jitter=1.0, grid=(16, 16))
+    tuft = smooth(0.06, 0.0, f1)
+    streak = fnoise(232, 0.6, aniso=(1.0, 6.0))
+    m1 = fnoise(233, 2.2)
+    col = lerp((28, 52, 32), (60, 96, 52), streak * 0.6 + m1 * 0.4)
+    col = lerp(col, (104, 132, 70), tuft * 0.45)
+    h = streak * 0.6 + tuft * 0.4
+    save('Pine_Needles', col, h, 0.8, 0.0, 4.0)
+
+
+def rope():
+    """Twisted hemp rope along U: diagonal strands."""
+    t = ((xx * 8 + yy * 3) % 1.0)
+    strand = np.sin(t * np.pi) ** 0.6
+    m1 = fnoise(241, 2.0)
+    col = lerp((120, 96, 60), (190, 160, 110), strand * 0.7 + m1 * 0.3)
+    save('Rope', col, strand, 0.9, 0.0, 3.0)
+
+
+def sail_canvas():
+    """Sail cloth: off-white cotton with vertical seams every 1 stud (texture 4 studs), weathering."""
+    m1 = fnoise(251, 2.4); m2 = fnoise(252, 1.2)
+    seam = smooth(0.012, 0.0, np.minimum((xx * 4) % 1.0, 1 - (xx * 4) % 1.0))
+    col = lerp((232, 224, 204), (206, 196, 172), m1 * 0.7 + m2 * 0.3)
+    col = lerp(col, (170, 160, 140), seam * 0.7)
+    col = lerp(col, (180, 170, 150), smooth(0.7, 0.9, fnoise(253, 2.0, aniso=(1.0, 6.0))) * 0.3)
+    save('Sail_Canvas', col, m2 * 0.3 + seam * 0.5, 0.9, 0.0, 1.5)
+
+
+
+def steel_blade():
+    """Polished blade steel. UV: U along the blade, V across (V = 0 cutting edge, 1 spine). Wavy hamon temper line
+    separates the bright edge steel from the darker body; fine polishing streaks along U."""
+    streak = fnoise(261, 0.8, aniso=(40.0, 1.0)); m1 = fnoise(262, 2.2)
+    v = 1 - yy
+    wave = 0.32 + 0.06 * np.sin(xx * 2 * np.pi * 9) + 0.03 * np.sin(xx * 2 * np.pi * 23 + 1.3) + (fnoise(263, 2.0) - 0.5) * 0.06
+    hamon = smooth(wave + 0.03, wave - 0.03, v)            # 1 on the edge side
+    body = lerp((120, 124, 130), (150, 154, 160), streak * 0.6 + m1 * 0.4)
+    edge = lerp((200, 204, 210), (232, 236, 240), streak)
+    col = lerp(body, edge, hamon)
+    col = lerp(col, (250, 250, 252), smooth(0.03, 0.0, np.abs(v - wave)) * 0.5)   # frosty hamon boundary
+    rough = 0.28 - hamon * 0.12 + streak * 0.06
+    save('Steel_Blade', col, streak * 0.2, rough, 1.0, 0.6)
+
+
+
+def steel_dark():
+    """Ash-dark blade steel for the Ashfall Sword (same UV layout as Steel_Blade), faint ember-orange hamon."""
+    streak = fnoise(265, 0.8, aniso=(40.0, 1.0)); m1 = fnoise(266, 2.2)
+    v = 1 - yy
+    wave = 0.3 + 0.05 * np.sin(xx * 2 * np.pi * 7) + (fnoise(267, 2.0) - 0.5) * 0.08
+    hamon = smooth(wave + 0.04, wave - 0.04, v)
+    body = lerp((46, 44, 46), (70, 66, 66), streak * 0.6 + m1 * 0.4)
+    edge = lerp((120, 116, 112), (150, 144, 136), streak)
+    col = lerp(body, edge, hamon)
+    col = lerp(col, (200, 90, 40), smooth(0.025, 0.0, np.abs(v - wave)) * 0.6)
+    save('Steel_Dark', col, streak * 0.2, 0.4 - hamon * 0.12, 0.9, 0.6)
+
+
+def tsuka_wrap():
+    """Katana grip: black silk ito wrapped in a diamond pattern over white ray skin (samegawa). Tile = 4 diamonds."""
+    u = xx * 4; v = yy * 2
+    du = np.abs((u % 1.0) - 0.5); dv = np.abs((v % 1.0) - 0.5)
+    diamond = (du + dv) < 0.34
+    samegawa = fnoise(271, 0.0)
+    fib = fnoise(272, 0.6, aniso=(1.0, 10.0))
+    col = np.where(diamond[..., None], lerp((226, 222, 206), (246, 242, 230), samegawa)[...,],
+                   lerp((18, 18, 22), (46, 44, 52), fib))
+    h = np.where(diamond, samegawa * 0.3, 0.6 + fib * 0.4)
+    save('Tsuka_Wrap', col, h, np.where(diamond, 0.7, 0.55), 0.0, 2.5)
+
+
+def shadow_black():
+    """The Hollow's skin: near-black with a slow smoky violet sheen."""
+    m1 = fnoise(281, 2.4); m2 = fnoise(282, 1.2, aniso=(1.0, 4.0))
+    col = lerp((6, 5, 9), (26, 18, 34), smooth(0.5, 0.95, m1 * 0.6 + m2 * 0.4))
+    save('Shadow_Black', col, m2 * 0.4, 0.55 + m1 * 0.3, 0.0, 1.5)
+
+
+def navy_lacquer():
+    m1 = fnoise(291, 2.4); wear = smooth(0.8, 0.9, fnoise(292, 2.2))
+    col = lerp((22, 32, 64), (34, 48, 92), m1)
+    col = lerp(col, (120, 90, 40), wear * 0.4)
+    save('Navy_Lacquer', col, m1 * 0.2, 0.25 + m1 * 0.08 + wear * 0.3, 0.0, 0.8)
+
+
+def glow(name, rgb, seed):
+    """Emissive-style colour (use Material = Neon in Roblox) with a soft hot/cool variation."""
+    m1 = fnoise(seed, 2.2)
+    col = lerp(np.array(rgb) * 0.75, np.minimum(np.array(rgb) * 1.15 + 30, 255), m1)
+    save(name, col, np.zeros((N, N)), 0.3, 0.0)
+
+
 if __name__ == '__main__':
     which = sys.argv[1:] or ['roof_tile', 'timber_dark', 'timber_light', 'plaster', 'granite', 'fitted_stone',
                              'cobble', 'planks', 'gold', 'iron', 'shoji', 'uv_check']
@@ -406,6 +527,9 @@ if __name__ == '__main__':
             timber('Timber_Dark', (34, 24, 18), (80, 58, 42), 101, 0.62)
         elif w == 'timber_light':
             timber('Timber_Light', (128, 96, 64), (196, 160, 116), 111, 0.68)
+        elif w == 'glows':
+            glow('Glow_Red', (230, 40, 40), 301); glow('Glow_Blue', (150, 200, 255), 302)
+            glow('Glow_Amber', (255, 150, 40), 303); glow('Glow_Yellow', (255, 220, 60), 304)
         elif w == 'cloths':
             cloth('Cloth_White', (236, 232, 222), 121); cloth('Cloth_Navy', (30, 44, 82), 122)
             cloth('Cloth_Indigo', (44, 62, 108), 123); cloth('Cloth_Crimson', (140, 32, 34), 124)

@@ -97,21 +97,13 @@ The model parts are named, so hook them up now:
   - forge hammering at the blacksmith (3D, range 60)
   - a temple bell every few minutes from the Hill Shrine
 - ParticleEmitters: smoke from the blacksmith chimney (top of the chimney); a faint sparkle around the Magic Stall orbs.
-- Moored boats will come as models (`HO_Harbour_Boat_Small`, `HO_Harbour_Boat_Cargo`). Until then, place simple hull placeholders along the piers with a gentle bobbing tween.
+- Moored boats: place `HO_Harbour_Boat_Small` / `HO_Harbour_Boat_Cargo` along the piers (keel pivot, waterline +1.0 / +2.2) with a gentle bobbing tween.
 
-## Phase G: placeholders to keep (models still in production; swap by name)
+## Phase G: all models are delivered
 
-| Coming model | Placeholder the script makes now |
-|---|---|
-| `HO_Castle_Keep` (5 tiers, per-tier parts) | stacked white blocks with dark skirts and gold ornaments |
-| `HO_Castle_Yagura`, `HO_Castle_Gatehouse` | white/dark blocks with roofs |
-| `HO_Castle_AcademyHall` | labelled block in Ni-no-maru |
-| `HO_Wall_Ishigaki_*`, castle wall modules | terrain slate faces + white wall parts |
-| `HO_Harbour_Pier`, `HO_Harbour_ArchBridge`, `HO_Harbour_Lighthouse` | plank/part versions |
-| `HO_Prop_Torii`, `HO_Prop_Well`, `HO_Prop_StoneLantern`, `HO_Prop_Chochin`, `HO_Prop_Banner` | part versions |
-| `HO_Tree_Pine_S/M/L`, rocks | trunk + disc pines |
+Every model the placeholders stood in for is now in `MANIFEST.md` (castle, walls, harbour, props, trees, rocks). Import them into `HO_Assets` with the same names and run `Build()` again, then `ApplyTextures()`.
 
-When a new FBX arrives, import it into `HO_Assets` with the same name and run `Build()` again. Don't edit the placeholders by hand; changes would be lost on rebuild. Put hand-made additions (lights, prompts, sounds, NPCs) in a separate folder `Workspace/HO_Gameplay` so rebuilds never delete them.
+For animations, VFX, weapons, armour, the Earth Golem and the Hollow, follow `docs/PHASES_2_4_GUIDE.md`. Put hand-made additions (lights, prompts, sounds, NPCs) in a separate folder `Workspace/HO_Gameplay` so rebuilds never delete them.
 
 ## Phase H: report back after each session
 

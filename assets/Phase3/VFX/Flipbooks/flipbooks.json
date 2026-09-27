@@ -1,0 +1,191 @@
+[
+ {
+  "name": "HO_VFX_Fire_Loop",
+  "file": "assets/Phase3/VFX/Flipbooks/HO_VFX_Fire_Loop.png",
+  "layout": "Grid8x8",
+  "frames": 64,
+  "loop": true,
+  "tint": false,
+  "description": "Looping flame (pre-coloured). Rate ~30 fps."
+ },
+ {
+  "name": "HO_VFX_Fire_Burst",
+  "file": "assets/Phase3/VFX/Flipbooks/HO_VFX_Fire_Burst.png",
+  "layout": "Grid8x8",
+  "frames": 64,
+  "loop": false,
+  "tint": false,
+  "description": "Fire burst / flare-up, turns to smoke at the end (pre-coloured)."
+ },
+ {
+  "name": "HO_VFX_Fireball_Core",
+  "file": "assets/Phase3/VFX/Flipbooks/HO_VFX_Fireball_Core.png",
+  "layout": "Grid4x4",
+  "frames": 16,
+  "loop": true,
+  "tint": false,
+  "description": "Swirling fireball core (pre-coloured, loop)."
+ },
+ {
+  "name": "HO_VFX_Embers",
+  "file": "assets/Phase3/VFX/Flipbooks/HO_VFX_Embers.png",
+  "layout": "Grid4x4",
+  "frames": 16,
+  "loop": true,
+  "tint": false,
+  "description": "Single flickering ember sprite (pre-coloured, loop) - emit many."
+ },
+ {
+  "name": "HO_VFX_Smoke_Puff",
+  "file": "assets/Phase3/VFX/Flipbooks/HO_VFX_Smoke_Puff.png",
+  "layout": "Grid8x8",
+  "frames": 64,
+  "loop": false,
+  "tint": true,
+  "description": "Soft smoke puff expanding and fading (greyscale)."
+ },
+ {
+  "name": "HO_VFX_Smoke_DarkBurst",
+  "file": "assets/Phase3/VFX/Flipbooks/HO_VFX_Smoke_DarkBurst.png",
+  "layout": "Grid8x8",
+  "frames": 64,
+  "loop": false,
+  "tint": true,
+  "description": "Dense dark smoke burst (greyscale, dark)."
+ },
+ {
+  "name": "HO_VFX_Dust_Cloud",
+  "file": "assets/Phase3/VFX/Flipbooks/HO_VFX_Dust_Cloud.png",
+  "layout": "Grid8x8",
+  "frames": 64,
+  "loop": false,
+  "tint": true,
+  "description": "Low, wide dust cloud for earth impacts (tint brown)."
+ },
+ {
+  "name": "HO_VFX_Explosion",
+  "file": "assets/Phase3/VFX/Flipbooks/HO_VFX_Explosion.png",
+  "layout": "Grid8x8",
+  "frames": 64,
+  "loop": false,
+  "tint": false,
+  "description": "Stylized explosion: flash, rolling fire, smoke (pre-coloured)."
+ },
+ {
+  "name": "HO_VFX_Water_Splash",
+  "file": "assets/Phase3/VFX/Flipbooks/HO_VFX_Water_Splash.png",
+  "layout": "Grid8x8",
+  "frames": 64,
+  "loop": false,
+  "tint": true,
+  "description": "Crown splash burst with droplets (white - tint blue)."
+ },
+ {
+  "name": "HO_VFX_Water_Spray",
+  "file": "assets/Phase3/VFX/Flipbooks/HO_VFX_Water_Spray.png",
+  "layout": "Grid4x4",
+  "frames": 16,
+  "loop": true,
+  "tint": true,
+  "description": "Fine upward spray (loop)."
+ },
+ {
+  "name": "HO_VFX_Water_Droplets",
+  "file": "assets/Phase3/VFX/Flipbooks/HO_VFX_Water_Droplets.png",
+  "layout": "Grid4x4",
+  "frames": 16,
+  "loop": false,
+  "tint": true,
+  "description": "16 droplet sprite variants (use random frame)."
+ },
+ {
+  "name": "HO_VFX_Ripple_Ring",
+  "file": "assets/Phase3/VFX/Flipbooks/HO_VFX_Ripple_Ring.png",
+  "layout": "Grid8x8",
+  "frames": 64,
+  "loop": false,
+  "tint": true,
+  "description": "Expanding triple ripple rings (place flat on the water)."
+ },
+ {
+  "name": "HO_VFX_Mist",
+  "file": "assets/Phase3/VFX/Flipbooks/HO_VFX_Mist.png",
+  "layout": "Grid4x4",
+  "frames": 16,
+  "loop": true,
+  "tint": true,
+  "description": "Soft drifting mist (loop, low alpha)."
+ },
+ {
+  "name": "HO_VFX_Lightning_Arc",
+  "file": "assets/Phase3/VFX/Flipbooks/HO_VFX_Lightning_Arc.png",
+  "layout": "Grid4x4",
+  "frames": 16,
+  "loop": true,
+  "tint": true,
+  "description": "16 jagged lightning arcs with branches (flicker through frames)."
+ },
+ {
+  "name": "HO_VFX_Electric_Crackle",
+  "file": "assets/Phase3/VFX/Flipbooks/HO_VFX_Electric_Crackle.png",
+  "layout": "Grid4x4",
+  "frames": 16,
+  "loop": true,
+  "tint": true,
+  "description": "Small crackling sparks (random frames)."
+ },
+ {
+  "name": "HO_VFX_Magic_Glow",
+  "file": "assets/Phase3/VFX/Flipbooks/HO_VFX_Magic_Glow.png",
+  "layout": "Grid4x4",
+  "frames": 16,
+  "loop": true,
+  "tint": true,
+  "description": "Pulsing glow with a rotating rune ring (loop)."
+ },
+ {
+  "name": "HO_VFX_Sparkles",
+  "file": "assets/Phase3/VFX/Flipbooks/HO_VFX_Sparkles.png",
+  "layout": "Grid4x4",
+  "frames": 16,
+  "loop": true,
+  "tint": true,
+  "description": "Twinkling 4-point star (loop)."
+ },
+ {
+  "name": "HO_VFX_Hit_Spark",
+  "file": "assets/Phase3/VFX/Flipbooks/HO_VFX_Hit_Spark.png",
+  "layout": "Grid4x4",
+  "frames": 16,
+  "loop": false,
+  "tint": true,
+  "description": "Radial hit spark burst."
+ },
+ {
+  "name": "HO_VFX_Shockwave_Ring",
+  "file": "assets/Phase3/VFX/Flipbooks/HO_VFX_Shockwave_Ring.png",
+  "layout": "Grid8x8",
+  "frames": 64,
+  "loop": false,
+  "tint": true,
+  "description": "Expanding shockwave ring (place flat or facing camera)."
+ },
+ {
+  "name": "HO_VFX_Ground_Crack",
+  "file": "assets/Phase3/VFX/Flipbooks/HO_VFX_Ground_Crack.png",
+  "layout": "Grid4x4",
+  "frames": 16,
+  "loop": false,
+  "tint": false,
+  "description": "Ground crack decal growing over 16 frames (dark, use as flipbook or last frame as decal)."
+ },
+ {
+  "name": "HO_VFX_Ground_Crack_Decal",
+  "file": "assets/Phase3/VFX/Flipbooks/HO_VFX_Ground_Crack_Decal.png",
+  "layout": "single",
+  "frames": 1,
+  "loop": false,
+  "tint": false,
+  "description": "Single 1024 ground crack decal (Decal on the ground)."
+ }
+]

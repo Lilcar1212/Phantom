@@ -6,6 +6,8 @@ Game-ready Blender assets for **Hollow Oath**, an Edo-inspired anime action RPG 
 * `docs/PIPELINE.md`: FBX export settings, Roblox import steps, conventions and checks. **Start with the scale test cube.**
 * `docs/PHASE1_PLAN.md`: build order and status.
 * `docs/layout/`: city layout plan (image + JSON).
+* `docs/ASSEMBLY_BRIEF.md`: Roblox assembly of the city, buildings and castle; `docs/PHASES_2_4_GUIDE.md`: harbour/props, animations, VFX, hero models.
+* `roblox/HO_CityBuilder.lua` (places the whole city) and `roblox/HO_RigBuilder.lua` (golem/Hollow rigs, armour, katana tools, stone fists).
 
 ```
 assets/<Phase>/<Category>/HO_*.fbx     exported meshes

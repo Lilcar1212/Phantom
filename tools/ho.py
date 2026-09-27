@@ -565,7 +565,8 @@ def split_single_material(objs):
 
 
 def publish_group(objs, asset_name, category, phase='Phase1', grid=None, notes='', type_='Mesh group', render=True,
-                  views=('three_quarter', 'front'), samples=64, footprint=None, cams=None):
+                  views=('three_quarter', 'front'), samples=64, footprint=None, cams=None, pivot='bottom-centre',
+                  render_objs=None):
     """Export several meshes (sharing one pivot) as one FBX asset; each mesh checked against the limits.
     Every exported mesh object uses exactly one texture set (see split_single_material)."""
     objs = split_single_material(objs)
@@ -574,8 +575,8 @@ def publish_group(objs, asset_name, category, phase='Phase1', grid=None, notes='
         if footprint: o['ho_footprint'] = footprint
         checks.append(check(o, grid=grid))
     rel = export_fbx(objs, f'{phase}/{category}/{asset_name}.fbx')
-    renders = render_previews(objs, asset_name, subdir=f'{phase}/{category}', views=views, samples=samples,
-                              cams=cams) if render else []
+    renders = render_previews(render_objs or objs, asset_name, subdir=f'{phase}/{category}', views=views,
+                              samples=samples, cams=cams) if render else []
     lo, hi = world_bbox(objs)
     # floating parts are judged on the whole assembly (a part may rest on geometry in another mesh)
     tmp = [o.copy() for o in objs]
@@ -593,7 +594,7 @@ def publish_group(objs, asset_name, category, phase='Phase1', grid=None, notes='
         agg['grid_ok'] = all(c.get('grid_ok', True) for c in checks)
     tex = sorted({t for c in checks for t in c['textures']})
     entry = dict(name=asset_name, phase=phase, category=category, type=type_, file=rel,
-                 tris=sum(c['tris'] for c in checks), textures=tex, pivot='bottom-centre', checks=agg,
+                 tris=sum(c['tris'] for c in checks), textures=tex, pivot=pivot, checks=agg,
                  mesh_checks=checks, renders=renders,
                  notes=notes + ' | meshes: ' + ', '.join(f"{c['name']} ({c['tris']})" for c in checks))
     manifest_add(entry)

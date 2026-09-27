@@ -1,0 +1,11 @@
+{
+ "name": "HO_Anim_Run",
+ "fps": 30,
+ "frames": 20,
+ "seconds": 0.667,
+ "loop": true,
+ "priority": "Movement",
+ "rig": "R6",
+ "markers": {},
+ "notes": "Anime sprint: forward lean, big arm swing."
+}

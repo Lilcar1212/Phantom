@@ -1,0 +1,11 @@
+{
+ "name": "HO_Anim_Hollow_HitReaction",
+ "fps": 30,
+ "frames": 14,
+ "seconds": 0.467,
+ "loop": false,
+ "priority": "Action2",
+ "rig": "R6",
+ "markers": {},
+ "notes": "Snapped back by a hit."
+}

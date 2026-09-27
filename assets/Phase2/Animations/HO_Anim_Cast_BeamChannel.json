@@ -1,0 +1,16 @@
+{
+ "name": "HO_Anim_Cast_BeamChannel",
+ "fps": 30,
+ "frames": 24,
+ "seconds": 0.8,
+ "loop": true,
+ "priority": "Action",
+ "rig": "R6",
+ "markers": {
+  "Hit": {
+   "frame": 0,
+   "time": 0.0
+  }
+ },
+ "notes": "Two-handed beam channel (loop); Hit at 0 = beam start."
+}

@@ -43,4 +43,9 @@ Status: ✅ done · 🔨 in progress · ⬜ to do
 - ✅ Academy Hall (raised dojo, veranda, shoji doors; interior: kamidana, weapon racks, taiko, lanterns)
 
 ## 2f. Harbour & props
-- ⬜ Quay wall + steps, pier modules, 2 boats, lighthouse, arched bridge, stone stairs, torii, tōrō, chōchin, banner poles, carts, barrels, crates, sake jars, sacks, market stalls, benches, well, bamboo fences, pines ×3, cliff rocks ×3
+- ✅ Quay wall + steps, pier modules, 2 boats, lighthouse, arched bridge, stone stairs, torii, tōrō, chōchin, banner poles, carts, barrels, crates, sake jars, sacks, market stalls, benches, well, bamboo fences, pines ×3, cliff rocks ×3
+
+## Phases 2–4 (see `docs/PHASES_2_4_GUIDE.md`)
+- ✅ Phase 2: 42 R6 animations (30 fps, Hit/Hit2/Hit3 markers): `.rbxmx` KeyframeSequences + FBX + JSON, preview strips
+- ✅ Phase 3: 21 flipbook sheets + ground-crack decal (1024², 4×4/8×8, alpha); 14 VFX meshes with scrollable UVs + 4 scroll textures
+- ✅ Phase 4: 5 katanas + scabbards, 3 armour sets (R6), stone fists L/R, Earth Golem + Hollow rigs (`roblox/HO_RigBuilder.lua`), 3 magic icons

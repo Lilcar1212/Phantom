@@ -1,0 +1,16 @@
+{
+ "name": "HO_Anim_Golem_Punch1",
+ "fps": 30,
+ "frames": 30,
+ "seconds": 1.0,
+ "loop": false,
+ "priority": "Action",
+ "rig": "Golem",
+ "markers": {
+  "Hit": {
+   "frame": 15,
+   "time": 0.5
+  }
+ },
+ "notes": "Right straight punch."
+}

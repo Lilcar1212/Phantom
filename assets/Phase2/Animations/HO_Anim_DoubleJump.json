@@ -1,0 +1,11 @@
+{
+ "name": "HO_Anim_DoubleJump",
+ "fps": 30,
+ "frames": 24,
+ "seconds": 0.8,
+ "loop": false,
+ "priority": "Action",
+ "rig": "R6",
+ "markers": {},
+ "notes": "Tucked front flip (full 360 torso rotation about the root)."
+}

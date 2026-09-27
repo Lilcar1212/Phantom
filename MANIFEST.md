@@ -49,6 +49,32 @@ Textures live in `textures/<Set>/HO_T_<Set>_{Color,Normal,Roughness,Metalness}.p
 | HO_Wall_Front_Koshi_8 | Mesh group | `assets/Phase1/Fronts/HO_Wall_Front_Koshi_8.fbx` | 684 | 8 × 1 × 9 | Plaster_White, Shoji_Paper, Timber_Dark, Timber_Light | bottom-centre | ✅ | L x 1 x 9 studs; outside face = front (-Z); centre line 0.5 inside the footprint edge; koshi lattice shop front with sliding lattice door (7-stud opening) | door panels are separate meshes (slide along local X to open) | meshes: HO_Wall_Front_Koshi_8__Plaster_White (24), HO_Wall_Front_Koshi_8__Shoji_Paper (12), HO_Wall_Front_Koshi_8__Timber_Dark (216), HO_Wall_Front_Koshi_8__Timber_Light (144), HO_Wall_Front_Koshi_8_Door__Shoji_Paper (12), HO_Wall_Front_Koshi_8_Door__Timber_Dark (156), HO_Wall_Front_Koshi_8_Door__Timber_Light (120) |
 | HO_Wall_Front_OpenShop_12 | Mesh | `assets/Phase1/Fronts/HO_Wall_Front_OpenShop_12.fbx` | 192 | 12 × 1 × 9 | Plaster_White, Timber_Dark, Timber_Light | bottom-centre | ✅ | L x 1 x 9 studs; outside face = front (-Z); centre line 0.5 inside the footprint edge; open shop front with counter; hang noren under the door band (z = 7) | meshes: HO_Wall_Front_OpenShop_12__Plaster_White (36), HO_Wall_Front_OpenShop_12__Timber_Dark (144), HO_Wall_Front_OpenShop_12__Timber_Light (12) |
 | HO_Wall_Front_OpenShop_8 | Mesh | `assets/Phase1/Fronts/HO_Wall_Front_OpenShop_8.fbx` | 144 | 8 × 1 × 9 | Plaster_White, Timber_Dark, Timber_Light | bottom-centre | ✅ | L x 1 x 9 studs; outside face = front (-Z); centre line 0.5 inside the footprint edge; open shop front with counter; hang noren under the door band (z = 7) | meshes: HO_Wall_Front_OpenShop_8__Plaster_White (24), HO_Wall_Front_OpenShop_8__Timber_Dark (108), HO_Wall_Front_OpenShop_8__Timber_Light (12) |
+| HO_Harbour_ArchBridge | Mesh | `assets/Phase1/Harbour/HO_Harbour_ArchBridge.fbx` | 2556 | 12.2 × 64.8 × 20.05 | Gold_Leaf, Red_Lacquer, Timber_Dark, Wood_Planks | bottom-centre | ✅ | Arched wooden bridge, span 64 along the front axis, 12 wide, rise 6, vermilion rails with gold finials, pile bents. Origin = centre at DECK-END level (both ends at z = 0); piles to -10. | meshes: HO_Harbour_ArchBridge__Gold_Leaf (372), HO_Harbour_ArchBridge__Red_Lacquer (1096), HO_Harbour_ArchBridge__Timber_Dark (872), HO_Harbour_ArchBridge__Wood_Planks (216) |
+| HO_Harbour_Boat_Cargo | Mesh | `assets/Phase1/Harbour/HO_Harbour_Boat_Cargo.fbx` | 4252 | 18 × 37.8 × 35.5 | Bamboo, Cloth_White, RoofTile_Clay, Rope, Sail_Canvas, Shoji_Paper, Straw, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | Cargo ship ~36 long: deck house, 30-tall mast, big stitched sail, rudder, cargo. Origin = keel bottom centre; waterline about +2.2; bow = front. | meshes: HO_Harbour_Boat_Cargo__Bamboo (612), HO_Harbour_Boat_Cargo__Cloth_White (1056), HO_Harbour_Boat_Cargo__RoofTile_Clay (8), HO_Harbour_Boat_Cargo__Rope (330), HO_Harbour_Boat_Cargo__Sail_Canvas (248), HO_Harbour_Boat_Cargo__Shoji_Paper (24), HO_Harbour_Boat_Cargo__Straw (1056), HO_Harbour_Boat_Cargo__Timber_Dark (606), HO_Harbour_Boat_Cargo__Timber_Light (52), HO_Harbour_Boat_Cargo__Wood_Planks (260) |
+| HO_Harbour_Boat_Small | Mesh | `assets/Phase1/Harbour/HO_Harbour_Boat_Small.fbx` | 1322 | 7.2 × 18.9 × 12.6 | Bamboo, Rope, Sail_Canvas, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | Small sailing/fishing boat ~16 long, square sail, oar. Origin = keel bottom centre; waterline about +1.0; bow = front. | meshes: HO_Harbour_Boat_Small__Bamboo (352), HO_Harbour_Boat_Small__Rope (198), HO_Harbour_Boat_Small__Sail_Canvas (248), HO_Harbour_Boat_Small__Timber_Dark (200), HO_Harbour_Boat_Small__Timber_Light (88), HO_Harbour_Boat_Small__Wood_Planks (236) |
+| HO_Harbour_Lighthouse | Mesh group | `assets/Phase1/Harbour/HO_Harbour_Lighthouse.fbx` | 820 | 10.8 × 10.8 × 34.4 | Black_Lacquer, Ember, Gold_Leaf, Magic_Glow, Plaster_White, Red_Lacquer, RoofTile_Clay, Shoji_Paper, Stone_Fitted, Timber_Dark, Wood_Planks | bottom-centre | ✅ | Lighthouse ~34 tall: stone base, white tower, red-railed gallery, glowing lantern room (_Glow), tiled roof, gold finial. Origin = base centre (stand it on the sea rock at +12). | meshes: HO_Harbour_Lighthouse__Black_Lacquer (72), HO_Harbour_Lighthouse__Gold_Leaf (62), HO_Harbour_Lighthouse__Plaster_White (60), HO_Harbour_Lighthouse__Red_Lacquer (288), HO_Harbour_Lighthouse__RoofTile_Clay (78), HO_Harbour_Lighthouse__Stone_Fitted (92), HO_Harbour_Lighthouse__Timber_Dark (108), HO_Harbour_Lighthouse__Wood_Planks (30), HO_Harbour_Lighthouse_Glow (30) |
+| HO_Harbour_Pier | Mesh | `assets/Phase1/Harbour/HO_Harbour_Pier.fbx` | 7266 | 28 × 92 × 14.44 | Cloth_White, Iron_Wrought, Rope, Straw, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | Whole pier 92 long x 12 wide with a 28x16 T-head, rope rails, bollards, cargo. Origin = shore end centre at SEA LEVEL; deck top +4; extends toward the front (-Z); piles to -8. | meshes: HO_Harbour_Pier__Cloth_White (136), HO_Harbour_Pier__Iron_Wrought (112), HO_Harbour_Pier__Rope (3044), HO_Harbour_Pier__Straw (136), HO_Harbour_Pier__Timber_Dark (3654), HO_Harbour_Pier__Timber_Light (136), HO_Harbour_Pier__Wood_Planks (48) |
+| HO_Harbour_Pier_Deck_8 | Mesh | `assets/Phase1/Harbour/HO_Harbour_Pier_Deck_8.fbx` | 624 | 12 × 8 × 14.2 | Rope, Timber_Dark, Wood_Planks | bottom-centre | ✅ | Pier segment 8 long x 12 wide (tile along the front axis). Origin = segment start centre at sea level; deck top +4. | meshes: HO_Harbour_Pier_Deck_8__Rope (264), HO_Harbour_Pier_Deck_8__Timber_Dark (348), HO_Harbour_Pier_Deck_8__Wood_Planks (12) |
+| HO_Harbour_Quay_16 | Mesh | `assets/Phase1/Harbour/HO_Harbour_Quay_16.fbx` | 1276 | 16 × 3.925 × 8.6 | Stone_Fitted, Stone_Granite | bottom-centre | ✅ | Quay wall 16 long, 8 tall fitted stone + cap stones (top at +8.6). Origin = bottom of the wall under the top face edge; put the origin at z = -4.6 so the cap meets the +4 promenade; the face looks out to sea (-Z). | meshes: HO_Harbour_Quay_16__Stone_Fitted (84), HO_Harbour_Quay_16__Stone_Granite (1192) |
+| HO_Harbour_Quay_Steps_16 | Mesh | `assets/Phase1/Harbour/HO_Harbour_Quay_Steps_16.fbx` | 1376 | 16 × 6.3 × 8.6 | Stone_Fitted, Stone_Granite | bottom-centre | ✅ | Quay wall with a flight of stone steps down the face to the water (same origin as Quay_16). | meshes: HO_Harbour_Quay_Steps_16__Stone_Fitted (204), HO_Harbour_Quay_Steps_16__Stone_Granite (1172) |
+| HO_Rock_Cliff_L | Mesh | `assets/Phase1/Nature/HO_Rock_Cliff_L.fbx` | 6400 | 30.943 × 26.528 × 19.983 | Bamboo, Black_Lacquer, Cloth_Crimson, Cloth_Indigo, Cloth_Navy, Cloth_Ochre, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Pine_Bark, Pine_Needles, Plaster_White, Red_Lacquer, RoofTile_Clay, Rope, Sail_Canvas, Shoji_Paper, Stone_Fitted, Stone_Granite, Straw, Tatami, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | Rock ~28 across. Origin = base centre. |
+| HO_Rock_Cliff_M | Mesh | `assets/Phase1/Nature/HO_Rock_Cliff_M.fbx` | 1600 | 16.169 × 13.065 × 10.093 | Bamboo, Black_Lacquer, Cloth_Crimson, Cloth_Indigo, Cloth_Navy, Cloth_Ochre, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Pine_Bark, Pine_Needles, Plaster_White, Red_Lacquer, RoofTile_Clay, Rope, Sail_Canvas, Shoji_Paper, Stone_Fitted, Stone_Granite, Straw, Tatami, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | Rock ~14 across. Origin = base centre. |
+| HO_Rock_Cliff_S | Mesh | `assets/Phase1/Nature/HO_Rock_Cliff_S.fbx` | 1600 | 7.247 × 5.191 × 4.397 | Bamboo, Black_Lacquer, Cloth_Crimson, Cloth_Indigo, Cloth_Navy, Cloth_Ochre, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Pine_Bark, Pine_Needles, Plaster_White, Red_Lacquer, RoofTile_Clay, Rope, Sail_Canvas, Shoji_Paper, Stone_Fitted, Stone_Granite, Straw, Tatami, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | Rock ~6 across. Origin = base centre (sink it a little into the ground). |
+| HO_Tree_Pine_L | Mesh | `assets/Phase1/Nature/HO_Tree_Pine_L.fbx` | 4860 | 18.473 × 14.649 × 23.207 | Pine_Bark, Pine_Needles | bottom-centre | ✅ | Sculpted pine ~24 tall. Origin = trunk base. | meshes: HO_Tree_Pine_L__Pine_Bark (460), HO_Tree_Pine_L__Pine_Needles (4400) |
+| HO_Tree_Pine_M | Mesh | `assets/Phase1/Nature/HO_Tree_Pine_M.fbx` | 3564 | 12.537 × 10.483 × 15.454 | Pine_Bark, Pine_Needles | bottom-centre | ✅ | Sculpted pine ~16 tall. Origin = trunk base. | meshes: HO_Tree_Pine_M__Pine_Bark (364), HO_Tree_Pine_M__Pine_Needles (3200) |
+| HO_Tree_Pine_S | Mesh | `assets/Phase1/Nature/HO_Tree_Pine_S.fbx` | 2268 | 6.899 × 7.422 × 9.553 | Pine_Bark, Pine_Needles | bottom-centre | ✅ | Sculpted pine ~10 tall. Origin = trunk base. | meshes: HO_Tree_Pine_S__Pine_Bark (268), HO_Tree_Pine_S__Pine_Needles (2000) |
+| HO_Prop_BambooFence_8 | Mesh | `assets/Phase1/Props/HO_Prop_BambooFence_8.fbx` | 680 | 8 × 0.65 × 4.3 | Bamboo, Rope, Timber_Dark | bottom-centre | ✅ | Bamboo fence module 8 long x 4 tall (tiles along X). Origin = centre at ground level; front faces -Z. | meshes: HO_Prop_BambooFence_8__Bamboo (240), HO_Prop_BambooFence_8__Rope (384), HO_Prop_BambooFence_8__Timber_Dark (56) |
+| HO_Prop_Banner | Mesh | `assets/Phase1/Props/HO_Prop_Banner.fbx` | 292 | 2.34 × 0.28 × 12 | Black_Lacquer, Cloth_Navy, Cloth_White | bottom-centre | ✅ | Nobori banner pole 12 tall, navy cloth with white crest. Origin = centre at ground level; front faces -Z. | meshes: HO_Prop_Banner__Black_Lacquer (40), HO_Prop_Banner__Cloth_Navy (132), HO_Prop_Banner__Cloth_White (120) |
+| HO_Prop_Barrel | Mesh | `assets/Phase1/Props/HO_Prop_Barrel.fbx` | 290 | 1.832 × 1.786 × 2.44 | Iron_Wrought, Timber_Dark, Timber_Light | bottom-centre | ✅ | Stave barrel. Origin = centre at ground level; front faces -Z. | meshes: HO_Prop_Barrel__Iron_Wrought (112), HO_Prop_Barrel__Timber_Dark (42), HO_Prop_Barrel__Timber_Light (136) |
+| HO_Prop_Bench | Mesh | `assets/Phase1/Props/HO_Prop_Bench.fbx` | 84 | 6 × 1.8 × 1.85 | Timber_Dark, Wood_Planks | bottom-centre | ✅ | Plank bench 6 long. Origin = centre at ground level; front faces -Z. | meshes: HO_Prop_Bench__Timber_Dark (72), HO_Prop_Bench__Wood_Planks (12) |
+| HO_Prop_Bench_Tea | Mesh | `assets/Phase1/Props/HO_Prop_Bench_Tea.fbx` | 454 | 11 × 8.4 × 8.65 | Bamboo, Cloth_Crimson, Timber_Dark, Wood_Planks | bottom-centre | ✅ | Tea-house bench with red felt and a big red parasol. Origin = centre at ground level; front faces -Z. | meshes: HO_Prop_Bench_Tea__Bamboo (220), HO_Prop_Bench_Tea__Cloth_Crimson (150), HO_Prop_Bench_Tea__Timber_Dark (72), HO_Prop_Bench_Tea__Wood_Planks (12) |
+| HO_Prop_Cart | Mesh | `assets/Phase1/Props/HO_Prop_Cart.fbx` | 720 | 4.4 × 10.1 × 3.616 | Iron_Wrought, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | Two-wheeled handcart, handles toward the front. Origin = centre at ground level; front faces -Z. | meshes: HO_Prop_Cart__Iron_Wrought (100), HO_Prop_Cart__Timber_Dark (384), HO_Prop_Cart__Timber_Light (224), HO_Prop_Cart__Wood_Planks (12) |
+| HO_Prop_Cart_Loaded | Mesh | `assets/Phase1/Props/HO_Prop_Cart_Loaded.fbx` | 1644 | 4.4 × 10.1 × 3.616 | Cloth_Ochre, Cloth_White, Iron_Wrought, Straw, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | Handcart loaded with rice bales and sacks. Origin = centre at ground level; front faces -Z. | meshes: HO_Prop_Cart_Loaded__Cloth_Ochre (118), HO_Prop_Cart_Loaded__Cloth_White (442), HO_Prop_Cart_Loaded__Iron_Wrought (100), HO_Prop_Cart_Loaded__Straw (364), HO_Prop_Cart_Loaded__Timber_Dark (384), HO_Prop_Cart_Loaded__Timber_Light (224), HO_Prop_Cart_Loaded__Wood_Planks (12) |
+| HO_Prop_Chochin_Black | Mesh group | `assets/Phase1/Props/HO_Prop_Chochin_Black.fbx` | 240 | 1.2 × 1.9 × 3.02 | Black_Lacquer, Ember, Iron_Wrought, Magic_Glow, Rope, Shoji_Paper | bottom-centre | ✅ | As Chochin_Red with black caps. | meshes: HO_Prop_Chochin_Black__Black_Lacquer (88), HO_Prop_Chochin_Black__Iron_Wrought (24), HO_Prop_Chochin_Black__Rope (12), HO_Prop_Chochin_Black_Glow (116) |
+| HO_Prop_Chochin_Red | Mesh group | `assets/Phase1/Props/HO_Prop_Chochin_Red.fbx` | 240 | 1.2 × 1.9 × 3.02 | Ember, Iron_Wrought, Magic_Glow, Red_Lacquer, Rope, Shoji_Paper | bottom-centre | ✅ | Hanging paper lantern on a wall bracket (back = rear, on the wall); body = _Glow. Origin = bracket foot. | meshes: HO_Prop_Chochin_Red__Iron_Wrought (24), HO_Prop_Chochin_Red__Red_Lacquer (88), HO_Prop_Chochin_Red__Rope (12), HO_Prop_Chochin_Red_Glow (116) |
+| HO_Prop_Crate | Mesh | `assets/Phase1/Props/HO_Prop_Crate.fbx` | 108 | 1.6 × 1.4 × 1.2 | Timber_Dark, Wood_Planks | bottom-centre | ✅ | Wooden crate. Origin = centre at ground level; front faces -Z. | meshes: HO_Prop_Crate__Timber_Dark (96), HO_Prop_Crate__Wood_Planks (12) |
+| HO_Prop_MarketStall_A | Mesh | `assets/Phase1/Props/HO_Prop_MarketStall_A.fbx` | 1498 | 8.8 × 6.2 × 7.93 | Black_Lacquer, Cloth_Crimson, Cloth_Ochre, Cloth_White, Earth_Packed, Red_Lacquer, RoofTile_Clay, Straw, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | Market stall 8x5, crimson canopy, produce baskets, jars. Origin = centre at ground level; front faces -Z. | meshes: HO_Prop_MarketStall_A__Black_Lacquer (130), HO_Prop_MarketStall_A__Cloth_Crimson (4), HO_Prop_MarketStall_A__Cloth_Ochre (216), HO_Prop_MarketStall_A__Cloth_White (72), HO_Prop_MarketStall_A__Earth_Packed (130), HO_Prop_MarketStall_A__Red_Lacquer (252), HO_Prop_MarketStall_A__RoofTile_Clay (130), HO_Prop_MarketStall_A__Straw (174), HO_Prop_MarketStall_A__Timber_Dark (270), HO_Prop_MarketStall_A__Timber_Light (108), HO_Prop_MarketStall_A__Wood_Planks (12) |
+| HO_Prop_MarketStall_B | Mesh | `assets/Phase1/Props/HO_Prop_MarketStall_B.fbx` | 1498 | 8.8 × 6.2 × 7.93 | Black_Lacquer, Cloth_Indigo, Cloth_Ochre, Cloth_White, Earth_Packed, Red_Lacquer, RoofTile_Clay, Straw, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | Market stall 8x5, indigo canopy. Origin = centre at ground level; front faces -Z. | meshes: HO_Prop_MarketStall_B__Black_Lacquer (130), HO_Prop_MarketStall_B__Cloth_Indigo (4), HO_Prop_MarketStall_B__Cloth_Ochre (216), HO_Prop_MarketStall_B__Cloth_White (216), HO_Prop_MarketStall_B__Earth_Packed (130), HO_Prop_MarketStall_B__Red_Lacquer (108), HO_Prop_MarketStall_B__RoofTile_Clay (130), HO_Prop_MarketStall_B__Straw (174), HO_Prop_MarketStall_B__Timber_Dark (270), HO_Prop_MarketStall_B__Timber_Light (108), HO_Prop_MarketStall_B__Wood_Planks (12) |
 | HO_Prop_Noren_4_Crimson | Mesh | `assets/Phase1/Props/HO_Prop_Noren_4_Crimson.fbx` | 532 | 4.5 × 0.25 × 3.44 | Cloth_Crimson, Timber_Dark | bottom-centre | ✅ | 4 wide curtain, 3.55 tall; hang so the rod sits just under the door band (rod top at z = 7 above floor) | meshes: HO_Prop_Noren_4_Crimson__Cloth_Crimson (504), HO_Prop_Noren_4_Crimson__Timber_Dark (28) |
 | HO_Prop_Noren_4_Indigo | Mesh | `assets/Phase1/Props/HO_Prop_Noren_4_Indigo.fbx` | 532 | 4.5 × 0.25 × 3.44 | Cloth_Indigo, Timber_Dark | bottom-centre | ✅ | 4 wide curtain, 3.55 tall; hang so the rod sits just under the door band (rod top at z = 7 above floor) | meshes: HO_Prop_Noren_4_Indigo__Cloth_Indigo (504), HO_Prop_Noren_4_Indigo__Timber_Dark (28) |
 | HO_Prop_Noren_4_Navy | Mesh | `assets/Phase1/Props/HO_Prop_Noren_4_Navy.fbx` | 532 | 4.5 × 0.25 × 3.44 | Cloth_Navy, Timber_Dark | bottom-centre | ✅ | 4 wide curtain, 3.55 tall; hang so the rod sits just under the door band (rod top at z = 7 above floor) | meshes: HO_Prop_Noren_4_Navy__Cloth_Navy (504), HO_Prop_Noren_4_Navy__Timber_Dark (28) |
@@ -57,9 +83,18 @@ Textures live in `textures/<Set>/HO_T_<Set>_{Color,Normal,Roughness,Metalness}.p
 | HO_Prop_Noren_8_Indigo | Mesh | `assets/Phase1/Props/HO_Prop_Noren_8_Indigo.fbx` | 860 | 8.5 × 0.25 × 3.44 | Cloth_Indigo, Timber_Dark | bottom-centre | ✅ | 8 wide curtain, 3.55 tall; hang so the rod sits just under the door band (rod top at z = 7 above floor) | meshes: HO_Prop_Noren_8_Indigo__Cloth_Indigo (832), HO_Prop_Noren_8_Indigo__Timber_Dark (28) |
 | HO_Prop_Noren_8_Navy | Mesh | `assets/Phase1/Props/HO_Prop_Noren_8_Navy.fbx` | 860 | 8.5 × 0.25 × 3.44 | Cloth_Navy, Timber_Dark | bottom-centre | ✅ | 8 wide curtain, 3.55 tall; hang so the rod sits just under the door band (rod top at z = 7 above floor) | meshes: HO_Prop_Noren_8_Navy__Cloth_Navy (832), HO_Prop_Noren_8_Navy__Timber_Dark (28) |
 | HO_Prop_Noren_8_Ochre | Mesh | `assets/Phase1/Props/HO_Prop_Noren_8_Ochre.fbx` | 860 | 8.5 × 0.25 × 3.44 | Cloth_Ochre, Timber_Dark | bottom-centre | ✅ | 8 wide curtain, 3.55 tall; hang so the rod sits just under the door band (rod top at z = 7 above floor) | meshes: HO_Prop_Noren_8_Ochre__Cloth_Ochre (832), HO_Prop_Noren_8_Ochre__Timber_Dark (28) |
+| HO_Prop_RiceBale | Mesh | `assets/Phase1/Props/HO_Prop_RiceBale.fbx` | 216 | 2.4 × 1.248 × 1.187 | Cloth_White, Straw | bottom-centre | ✅ | Straw rice bale (tawara), lying along X. Origin = centre at ground level; front faces -Z. | meshes: HO_Prop_RiceBale__Cloth_White (108), HO_Prop_RiceBale__Straw (108) |
+| HO_Prop_Sack | Mesh | `assets/Phase1/Props/HO_Prop_Sack.fbx` | 138 | 1.224 × 1.164 × 1.85 | Cloth_White, Straw | bottom-centre | ✅ | Cloth sack. Origin = centre at ground level; front faces -Z. | meshes: HO_Prop_Sack__Cloth_White (118), HO_Prop_Sack__Straw (20) |
+| HO_Prop_SakeCask | Mesh | `assets/Phase1/Props/HO_Prop_SakeCask.fbx` | 314 | 1.936 × 1.936 × 2.44 | Cloth_White, Straw, Timber_Dark | bottom-centre | ✅ | Straw-wrapped sake cask (komodaru). Origin = centre at ground level; front faces -Z. | meshes: HO_Prop_SakeCask__Cloth_White (136), HO_Prop_SakeCask__Straw (136), HO_Prop_SakeCask__Timber_Dark (42) |
+| HO_Prop_SakeJar | Mesh | `assets/Phase1/Props/HO_Prop_SakeJar.fbx` | 200 | 1.6 × 1.6 × 2 | Earth_Packed, Timber_Dark | bottom-centre | ✅ | Ceramic sake / storage jar with lid. Origin = centre at ground level; front faces -Z. | meshes: HO_Prop_SakeJar__Earth_Packed (130), HO_Prop_SakeJar__Timber_Dark (70) |
 | HO_Prop_Signboard_Hanging | Mesh group | `assets/Phase1/Props/HO_Prop_Signboard_Hanging.fbx` | 120 | 0.4 × 1.936 × 3.3 | Iron_Wrought, Timber_Dark, Timber_Light | bottom-centre | ✅ | Wall bracket + hanging board perpendicular to the wall; back (rear) plate mounts on the wall face; board faces +-X | _Face mesh is the blank writing surface (add a SurfaceGui/Decal in Roblox) | meshes: HO_Prop_Signboard_Hanging__Iron_Wrought (60), HO_Prop_Signboard_Hanging__Timber_Dark (48), HO_Prop_Signboard_Hanging_Face (12) |
 | HO_Prop_Signboard_Roof | Mesh group | `assets/Phase1/Props/HO_Prop_Signboard_Roof.fbx` | 96 | 5.1 × 0.95 × 1.85 | RoofTile_Clay, Timber_Dark, Timber_Light | bottom-centre | ✅ | Over-door board 4.4 x 1.3 with tiled hood; back mounts flat on the wall face | _Face mesh is the blank writing surface (add a SurfaceGui/Decal in Roblox) | meshes: HO_Prop_Signboard_Roof__RoofTile_Clay (12), HO_Prop_Signboard_Roof__Timber_Dark (72), HO_Prop_Signboard_Roof_Face (12) |
 | HO_Prop_Signboard_Standing | Mesh group | `assets/Phase1/Props/HO_Prop_Signboard_Standing.fbx` | 104 | 2.2 × 1.1 × 4.5 | RoofTile_Clay, Timber_Dark, Timber_Light | bottom-centre | ✅ | Free-standing street sign, 4.5 tall, two blank faces | _Face mesh is the blank writing surface (add a SurfaceGui/Decal in Roblox) | meshes: HO_Prop_Signboard_Standing__RoofTile_Clay (8), HO_Prop_Signboard_Standing__Timber_Dark (72), HO_Prop_Signboard_Standing_Face (24) |
+| HO_Prop_StoneLantern | Mesh group | `assets/Phase1/Props/HO_Prop_StoneLantern.fbx` | 248 | 2.5 × 2.165 × 5.4 | Bamboo, Black_Lacquer, Cloth_Crimson, Cloth_Indigo, Cloth_Navy, Cloth_Ochre, Cloth_White, Earth_Packed, Ember, Gold_Leaf, Iron_Wrought, Magic_Glow, Namako_Wall, Pine_Bark, Pine_Needles, Plaster_White, Red_Lacquer, RoofTile_Clay, Rope, Sail_Canvas, Shoji_Paper, Stone_Fitted, Stone_Granite, Straw, Tatami, Timber_Dark, Timber_Light, Wood_Planks | bottom-centre | ✅ | Kasuga stone lantern 5.4 tall; fire-box windows glow (_Glow). Origin = centre at ground level; front faces -Z. | meshes: HO_Prop_StoneLantern (224), HO_Prop_StoneLantern_Glow (24) |
+| HO_Prop_StoneStairs_Straight | Mesh | `assets/Phase1/Props/HO_Prop_StoneStairs_Straight.fbx` | 166 | 10 × 6 × 5 | Stone_Fitted, Stone_Granite | bottom-centre | ✅ | 8 wide, 5 steps (rise 0.8, run 1.2): climbs away from the front. Origin = centre at ground level; front faces -Z. | meshes: HO_Prop_StoneStairs_Straight__Stone_Fitted (60), HO_Prop_StoneStairs_Straight__Stone_Granite (106) |
+| HO_Prop_StoneStairs_Turning | Mesh | `assets/Phase1/Props/HO_Prop_StoneStairs_Turning.fbx` | 262 | 15 × 15 × 9 | Stone_Fitted, Stone_Granite | bottom-centre | ✅ | 8 wide: 5 steps up to an 8x8 landing, then 5 more turning 90 deg. Origin = centre at ground level; front faces -Z. | meshes: HO_Prop_StoneStairs_Turning__Stone_Fitted (130), HO_Prop_StoneStairs_Turning__Stone_Granite (132) |
+| HO_Prop_Torii | Mesh group | `assets/Phase1/Props/HO_Prop_Torii.fbx` | 544 | 15.035 × 2.092 × 13.48 | Black_Lacquer, Red_Lacquer, Stone_Granite, Timber_Light | bottom-centre | ✅ | Red torii 12 wide x 13 tall, passage along the front axis; _Face = blank plaque. Origin = centre at ground level; front faces -Z. | meshes: HO_Prop_Torii__Black_Lacquer (184), HO_Prop_Torii__Red_Lacquer (220), HO_Prop_Torii__Stone_Granite (116), HO_Prop_Torii_Face (24) |
+| HO_Prop_Well | Mesh | `assets/Phase1/Props/HO_Prop_Well.fbx` | 314 | 6 × 3.8 × 7.2 | Black_Lacquer, Iron_Wrought, RoofTile_Clay, Rope, Stone_Granite, Timber_Dark, Timber_Light | bottom-centre | ✅ | Village well: stone ring, water, A-frame with tiled roof, pulley, bucket. Origin = centre at ground level; front faces -Z. | meshes: HO_Prop_Well__Black_Lacquer (60), HO_Prop_Well__Iron_Wrought (12), HO_Prop_Well__RoofTile_Clay (8), HO_Prop_Well__Rope (12), HO_Prop_Well__Stone_Granite (112), HO_Prop_Well__Timber_Dark (36), HO_Prop_Well__Timber_Light (74) |
 | HO_Roof_Hisashi_12 | Mesh | `assets/Phase1/Roofs/HO_Roof_Hisashi_12.fbx` | 1950 | 12.066 × 3.549 × 3.291 | RoofTile_Clay, Timber_Dark, Timber_Light | bottom-centre | ✅ grid ✅ | 12 studs wide, projects 3 studs; back (-Z in Roblox = rear) face mounts flush on a wall face, typically 7-8 studs above street level | meshes: HO_Roof_Hisashi_12__RoofTile_Clay (1398), HO_Roof_Hisashi_12__Timber_Dark (496), HO_Roof_Hisashi_12__Timber_Light (56) |
 | HO_Roof_Hisashi_4 | Mesh | `assets/Phase1/Roofs/HO_Roof_Hisashi_4.fbx` | 1262 | 4.066 × 3.549 × 3.291 | RoofTile_Clay, Timber_Dark, Timber_Light | bottom-centre | ✅ grid ✅ | 4 studs wide, projects 3 studs; back (-Z in Roblox = rear) face mounts flush on a wall face, typically 7-8 studs above street level | meshes: HO_Roof_Hisashi_4__RoofTile_Clay (950), HO_Roof_Hisashi_4__Timber_Dark (288), HO_Roof_Hisashi_4__Timber_Light (24) |
 | HO_Roof_Hisashi_8 | Mesh | `assets/Phase1/Roofs/HO_Roof_Hisashi_8.fbx` | 1598 | 8.066 × 3.549 × 3.291 | RoofTile_Clay, Timber_Dark, Timber_Light | bottom-centre | ✅ grid ✅ | 8 studs wide, projects 3 studs; back (-Z in Roblox = rear) face mounts flush on a wall face, typically 7-8 studs above street level | meshes: HO_Roof_Hisashi_8__RoofTile_Clay (1174), HO_Roof_Hisashi_8__Timber_Dark (384), HO_Roof_Hisashi_8__Timber_Light (40) |
@@ -78,6 +113,57 @@ Textures live in `textures/<Set>/HO_T_<Set>_{Color,Normal,Roughness,Metalness}.p
 | HO_Wall_Plaster_Window_8 | Mesh | `assets/Phase1/Walls/HO_Wall_Plaster_Window_8.fbx` | 732 | 8 × 1 × 9 | Plaster_White, Shoji_Paper, Timber_Dark, Timber_Light | bottom-centre | ✅ | L x 1 x 9 studs; outside face = front (-Z); centre line 0.5 inside the footprint edge; shoji windows | meshes: HO_Wall_Plaster_Window_8__Plaster_White (120), HO_Wall_Plaster_Window_8__Shoji_Paper (48), HO_Wall_Plaster_Window_8__Timber_Dark (180), HO_Wall_Plaster_Window_8__Timber_Light (384) |
 | HO_Wall_Upper_Mushiko_12 | Mesh | `assets/Phase1/Walls/HO_Wall_Upper_Mushiko_12.fbx` | 588 | 12 × 1 × 9 | Plaster_White, Shoji_Paper, Timber_Dark, Timber_Light | bottom-centre | ✅ | L x 1 x 9 studs; outside face = front (-Z); centre line 0.5 inside the footprint edge; upper floor, mushiko slat windows | meshes: HO_Wall_Upper_Mushiko_12__Plaster_White (264), HO_Wall_Upper_Mushiko_12__Shoji_Paper (24), HO_Wall_Upper_Mushiko_12__Timber_Dark (108), HO_Wall_Upper_Mushiko_12__Timber_Light (192) |
 | HO_Wall_Upper_Mushiko_8 | Mesh | `assets/Phase1/Walls/HO_Wall_Upper_Mushiko_8.fbx` | 540 | 8 × 1 × 9 | Plaster_White, Shoji_Paper, Timber_Dark, Timber_Light | bottom-centre | ✅ | L x 1 x 9 studs; outside face = front (-Z); centre line 0.5 inside the footprint edge; upper floor, mushiko slat windows | meshes: HO_Wall_Upper_Mushiko_8__Plaster_White (240), HO_Wall_Upper_Mushiko_8__Shoji_Paper (24), HO_Wall_Upper_Mushiko_8__Timber_Dark (84), HO_Wall_Upper_Mushiko_8__Timber_Light (192) |
+| HO_VFX_Dust_Cloud | Flipbook Grid8x8 | `assets/Phase3/VFX/Flipbooks/HO_VFX_Dust_Cloud.png` |  |  |  | - |  | Low, wide dust cloud for earth impacts (tint brown). Loop: False; tintable: True. |
+| HO_VFX_Electric_Crackle | Flipbook Grid4x4 | `assets/Phase3/VFX/Flipbooks/HO_VFX_Electric_Crackle.png` |  |  |  | - |  | Small crackling sparks (random frames). Loop: True; tintable: True. |
+| HO_VFX_Embers | Flipbook Grid4x4 | `assets/Phase3/VFX/Flipbooks/HO_VFX_Embers.png` |  |  |  | - |  | Single flickering ember sprite (pre-coloured, loop) - emit many. Loop: True; tintable: False. |
+| HO_VFX_Explosion | Flipbook Grid8x8 | `assets/Phase3/VFX/Flipbooks/HO_VFX_Explosion.png` |  |  |  | - |  | Stylized explosion: flash, rolling fire, smoke (pre-coloured). Loop: False; tintable: False. |
+| HO_VFX_Fire_Burst | Flipbook Grid8x8 | `assets/Phase3/VFX/Flipbooks/HO_VFX_Fire_Burst.png` |  |  |  | - |  | Fire burst / flare-up, turns to smoke at the end (pre-coloured). Loop: False; tintable: False. |
+| HO_VFX_Fire_Loop | Flipbook Grid8x8 | `assets/Phase3/VFX/Flipbooks/HO_VFX_Fire_Loop.png` |  |  |  | - |  | Looping flame (pre-coloured). Rate ~30 fps. Loop: True; tintable: False. |
+| HO_VFX_Fireball_Core | Flipbook Grid4x4 | `assets/Phase3/VFX/Flipbooks/HO_VFX_Fireball_Core.png` |  |  |  | - |  | Swirling fireball core (pre-coloured, loop). Loop: True; tintable: False. |
+| HO_VFX_Ground_Crack | Flipbook Grid4x4 | `assets/Phase3/VFX/Flipbooks/HO_VFX_Ground_Crack.png` |  |  |  | - |  | Ground crack decal growing over 16 frames (dark, use as flipbook or last frame as decal). Loop: False; tintable: False. |
+| HO_VFX_Ground_Crack_Decal | Flipbook single | `assets/Phase3/VFX/Flipbooks/HO_VFX_Ground_Crack_Decal.png` |  |  |  | - |  | Single 1024 ground crack decal (Decal on the ground). Loop: False; tintable: False. |
+| HO_VFX_Hit_Spark | Flipbook Grid4x4 | `assets/Phase3/VFX/Flipbooks/HO_VFX_Hit_Spark.png` |  |  |  | - |  | Radial hit spark burst. Loop: False; tintable: True. |
+| HO_VFX_Lightning_Arc | Flipbook Grid4x4 | `assets/Phase3/VFX/Flipbooks/HO_VFX_Lightning_Arc.png` |  |  |  | - |  | 16 jagged lightning arcs with branches (flicker through frames). Loop: True; tintable: True. |
+| HO_VFX_Magic_Glow | Flipbook Grid4x4 | `assets/Phase3/VFX/Flipbooks/HO_VFX_Magic_Glow.png` |  |  |  | - |  | Pulsing glow with a rotating rune ring (loop). Loop: True; tintable: True. |
+| HO_VFX_Mist | Flipbook Grid4x4 | `assets/Phase3/VFX/Flipbooks/HO_VFX_Mist.png` |  |  |  | - |  | Soft drifting mist (loop, low alpha). Loop: True; tintable: True. |
+| HO_VFX_Ripple_Ring | Flipbook Grid8x8 | `assets/Phase3/VFX/Flipbooks/HO_VFX_Ripple_Ring.png` |  |  |  | - |  | Expanding triple ripple rings (place flat on the water). Loop: False; tintable: True. |
+| HO_VFX_Shockwave_Ring | Flipbook Grid8x8 | `assets/Phase3/VFX/Flipbooks/HO_VFX_Shockwave_Ring.png` |  |  |  | - |  | Expanding shockwave ring (place flat or facing camera). Loop: False; tintable: True. |
+| HO_VFX_Smoke_DarkBurst | Flipbook Grid8x8 | `assets/Phase3/VFX/Flipbooks/HO_VFX_Smoke_DarkBurst.png` |  |  |  | - |  | Dense dark smoke burst (greyscale, dark). Loop: False; tintable: True. |
+| HO_VFX_Smoke_Puff | Flipbook Grid8x8 | `assets/Phase3/VFX/Flipbooks/HO_VFX_Smoke_Puff.png` |  |  |  | - |  | Soft smoke puff expanding and fading (greyscale). Loop: False; tintable: True. |
+| HO_VFX_Sparkles | Flipbook Grid4x4 | `assets/Phase3/VFX/Flipbooks/HO_VFX_Sparkles.png` |  |  |  | - |  | Twinkling 4-point star (loop). Loop: True; tintable: True. |
+| HO_VFX_Water_Droplets | Flipbook Grid4x4 | `assets/Phase3/VFX/Flipbooks/HO_VFX_Water_Droplets.png` |  |  |  | - |  | 16 droplet sprite variants (use random frame). Loop: False; tintable: True. |
+| HO_VFX_Water_Splash | Flipbook Grid8x8 | `assets/Phase3/VFX/Flipbooks/HO_VFX_Water_Splash.png` |  |  |  | - |  | Crown splash burst with droplets (white - tint blue). Loop: False; tintable: True. |
+| HO_VFX_Water_Spray | Flipbook Grid4x4 | `assets/Phase3/VFX/Flipbooks/HO_VFX_Water_Spray.png` |  |  |  | - |  | Fine upward spray (loop). Loop: True; tintable: True. |
+| HO_VFX_EnergySphere | Mesh group | `assets/Phase3/VFX/HO_VFX_EnergySphere.fbx` | 1320 | 8 × 8 × 8 | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | bottom-centre | ✅ | UV: U along the effect (scroll this for motion), V across (0 inner/bottom, 1 outer/top). Double-sided. Texture: HO_VFXT_Energy.png. Three nested shells (Outer r4, Middle r2.8, Core r1.6) sharing one centre; rotate them in opposite directions. | meshes: HO_VFX_EnergySphere_Outer (528), HO_VFX_EnergySphere_Middle (440), HO_VFX_EnergySphere_Core (352) |
+| HO_VFX_FirePillar | Mesh | `assets/Phase3/VFX/HO_VFX_FirePillar.fbx` | 768 | 6.262 × 6.183 × 18.8 | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | bottom-centre | ✅ | UV: U along the effect (scroll this for motion), V across (0 inner/bottom, 1 outer/top). Double-sided. Texture: HO_VFXT_Fire.png scrolling along V (up). Open tapered cylinder 18 tall. |
+| HO_VFX_FireRing_Segment | Mesh | `assets/Phase3/VFX/HO_VFX_FireRing_Segment.fbx` | 160 | 0.761 × 7.654 × 4.939 | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | bottom-centre | ✅ | UV: U along the effect (scroll this for motion), V across (0 inner/bottom, 1 outer/top). Double-sided. Texture: HO_VFXT_Fire.png. 45-deg flame wall segment of a radius-10 ring (8 = full ring; rotate each by 45 deg). |
+| HO_VFX_RockShards | Mesh group | `assets/Phase3/VFX/HO_VFX_RockShards.fbx` | 200 | 18.274 × 6.378 × 4.702 | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | bottom-centre | ✅ ⚠ 9 floating | 10 rock shards/chunks (Stone_Granite), sizes 0.6-1.7, laid out on a grid - use each MeshPart on its own (debris, earth spikes). | meshes: HO_VFX_RockShard_01 (20), HO_VFX_RockShard_02 (20), HO_VFX_RockShard_03 (20), HO_VFX_RockShard_04 (20), HO_VFX_RockShard_05 (20), HO_VFX_RockShard_06 (20), HO_VFX_RockShard_07 (20), HO_VFX_RockShard_08 (20), HO_VFX_RockShard_09 (20), HO_VFX_RockShard_10 (20) |
+| HO_VFX_Shockwave_Dome | Mesh | `assets/Phase3/VFX/HO_VFX_Shockwave_Dome.fbx` | 1280 | 12 × 12 × 5.1 | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | bottom-centre | ✅ | UV: U along the effect (scroll this for motion), V across (0 inner/bottom, 1 outer/top). Double-sided. Texture: HO_VFXT_Energy.png. Hemisphere shell R 6. |
+| HO_VFX_Shockwave_Flat | Mesh | `assets/Phase3/VFX/HO_VFX_Shockwave_Flat.fbx` | 384 | 18 × 18 × 0.02 | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | bottom-centre | ✅ | UV: U along the effect (scroll this for motion), V across (0 inner/bottom, 1 outer/top). Double-sided. Texture: HO_VFXT_Energy.png. Flat ring R 8 (scale it up over time). |
+| HO_VFX_Slash_Heavy | Mesh | `assets/Phase3/VFX/HO_VFX_Slash_Heavy.fbx` | 512 | 14.302 × 19.255 × 0.942 | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | bottom-centre | ✅ | UV: U along the effect (scroll this for motion), V across (0 inner/bottom, 1 outer/top). Double-sided. Texture: HO_VFXT_Slash.png. Radius 8.5, wide 3.4, sweep 230 deg. |
+| HO_VFX_Slash_Medium | Mesh | `assets/Phase3/VFX/HO_VFX_Slash_Medium.fbx` | 512 | 8.799 × 13.822 × 0.417 | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | bottom-centre | ✅ | UV: U along the effect (scroll this for motion), V across (0 inner/bottom, 1 outer/top). Double-sided. Texture: HO_VFXT_Slash.png. Radius 6.5, sweep 200 deg. |
+| HO_VFX_Slash_Thin | Mesh | `assets/Phase3/VFX/HO_VFX_Slash_Thin.fbx` | 512 | 5.084 × 10.04 × 0.156 | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | bottom-centre | ✅ | UV: U along the effect (scroll this for motion), V across (0 inner/bottom, 1 outer/top). Double-sided. Texture: HO_VFXT_Slash.png. Crescent radius 5, sweep 170 deg, lies flat (XY) around the origin (= the character). |
+| HO_VFX_SpiralCone | Mesh | `assets/Phase3/VFX/HO_VFX_SpiralCone.fbx` | 768 | 7.433 × 6.867 × 11.2 | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | bottom-centre | ✅ | UV: U along the effect (scroll this for motion), V across (0 inner/bottom, 1 outer/top). Double-sided. Texture: HO_VFXT_Energy.png. Helical ribbon winding up a cone, 10 tall. |
+| HO_VFX_StoneDrill | Mesh | `assets/Phase3/VFX/HO_VFX_StoneDrill.fbx` | 692 | 3.411 × 3.306 × 6.235 | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | bottom-centre | ✅ | Stone drill cone with raised spiral ridges (Stone_Granite), 6 tall; spin it about its axis. |
+| HO_VFX_Vortex | Mesh | `assets/Phase3/VFX/HO_VFX_Vortex.fbx` | 1536 | 12 × 12 × 16 | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | bottom-centre | ✅ | UV: U along the effect (scroll this for motion), V across (0 inner/bottom, 1 outer/top). Double-sided. Texture: HO_VFXT_Energy.png (or Water/Fire). Twisted flaring tornado shell, 16 tall. |
+| HO_VFX_WaterDragon | Mesh | `assets/Phase3/VFX/HO_VFX_WaterDragon.fbx` | 1044 | 7.982 × 43.216 × 7.819 | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | bottom-centre | ✅ | Serpentine water dragon (~40 long) for Twin Dragons: body U runs tail->neck (0..4) - scroll HO_VFXT_Water.png along U; head with horns, whiskers, dorsal fins. Head faces front (-Z). |
+| HO_Armor_Ashigaru | Mesh group | `assets/Phase4/Armour/HO_Armor_Ashigaru.fbx` | 1598 | 2.64 × 2.64 × 2.88 | Black_Lacquer, Cloth_Navy, Iron_Wrought | body-part centre | ✅ | Ashigaru foot-soldier set: black lacquer lames, navy lacing, iron trim, conical jingasa hat. One mesh per R6 body part, each modelled in that part's local space (part centre = origin). Weld each MeshPart to its body part with the offset listed in roblox/HO_RigBuilder.lua (ARMOUR table) - HO_RigBuilder.EquipArmor(character, "Ashigaru") does it. | meshes: HO_Armor_Ashigaru_Torso__Black_Lacquer (592), HO_Armor_Ashigaru_Torso__Cloth_Navy (180), HO_Armor_Ashigaru_Torso__Iron_Wrought (12), HO_Armor_Ashigaru_RightArm__Black_Lacquer (108), HO_Armor_Ashigaru_RightArm__Cloth_Navy (60), HO_Armor_Ashigaru_RightArm__Iron_Wrought (24), HO_Armor_Ashigaru_LeftArm__Black_Lacquer (108), HO_Armor_Ashigaru_LeftArm__Cloth_Navy (60), HO_Armor_Ashigaru_LeftArm__Iron_Wrought (24), HO_Armor_Ashigaru_RightLeg__Black_Lacquer (108), HO_Armor_Ashigaru_RightLeg__Iron_Wrought (12), HO_Armor_Ashigaru_LeftLeg__Black_Lacquer (108), HO_Armor_Ashigaru_LeftLeg__Iron_Wrought (12), HO_Armor_Ashigaru_Helmet__Black_Lacquer (94), HO_Armor_Ashigaru_Helmet__Iron_Wrought (96) |
+| HO_Armor_Oathguard | Mesh group | `assets/Phase4/Armour/HO_Armor_Oathguard.fbx` | 1926 | 2.32 × 2.32 × 2.88 | Cloth_White, Gold_Leaf, Navy_Lacquer | body-part centre | ✅ | Oathguard (elite) set: navy lacquer, white lacing, gold trim, kabuto with gold ring crest. One mesh per R6 body part, each modelled in that part's local space (part centre = origin). Weld each MeshPart to its body part with the offset listed in roblox/HO_RigBuilder.lua (ARMOUR table) - HO_RigBuilder.EquipArmor(character, "Oathguard") does it. | meshes: HO_Armor_Oathguard_Torso__Cloth_White (180), HO_Armor_Oathguard_Torso__Gold_Leaf (88), HO_Armor_Oathguard_Torso__Navy_Lacquer (668), HO_Armor_Oathguard_RightArm__Cloth_White (60), HO_Armor_Oathguard_RightArm__Gold_Leaf (24), HO_Armor_Oathguard_RightArm__Navy_Lacquer (108), HO_Armor_Oathguard_LeftArm__Cloth_White (60), HO_Armor_Oathguard_LeftArm__Gold_Leaf (24), HO_Armor_Oathguard_LeftArm__Navy_Lacquer (108), HO_Armor_Oathguard_RightLeg__Gold_Leaf (12), HO_Armor_Oathguard_RightLeg__Navy_Lacquer (108), HO_Armor_Oathguard_LeftLeg__Gold_Leaf (12), HO_Armor_Oathguard_LeftLeg__Navy_Lacquer (108), HO_Armor_Oathguard_Helmet__Gold_Leaf (88), HO_Armor_Oathguard_Helmet__Navy_Lacquer (278) |
+| HO_Armor_Samurai | Mesh group | `assets/Phase4/Armour/HO_Armor_Samurai.fbx` | 1786 | 2.32 × 2.32 × 3.205 | Black_Lacquer, Cloth_Crimson, Gold_Leaf, Red_Lacquer | body-part centre | ✅ | Samurai set: red lacquer plates, black lames, crimson lacing, gold trim, kabuto with kuwagata horns. One mesh per R6 body part, each modelled in that part's local space (part centre = origin). Weld each MeshPart to its body part with the offset listed in roblox/HO_RigBuilder.lua (ARMOUR table) - HO_RigBuilder.EquipArmor(character, "Samurai") does it. | meshes: HO_Armor_Samurai_Torso__Black_Lacquer (232), HO_Armor_Samurai_Torso__Cloth_Crimson (180), HO_Armor_Samurai_Torso__Gold_Leaf (48), HO_Armor_Samurai_Torso__Red_Lacquer (360), HO_Armor_Samurai_RightArm__Black_Lacquer (48), HO_Armor_Samurai_RightArm__Cloth_Crimson (60), HO_Armor_Samurai_RightArm__Gold_Leaf (24), HO_Armor_Samurai_RightArm__Red_Lacquer (60), HO_Armor_Samurai_LeftArm__Black_Lacquer (48), HO_Armor_Samurai_LeftArm__Cloth_Crimson (60), HO_Armor_Samurai_LeftArm__Gold_Leaf (24), HO_Armor_Samurai_LeftArm__Red_Lacquer (60), HO_Armor_Samurai_RightLeg__Black_Lacquer (48), HO_Armor_Samurai_RightLeg__Gold_Leaf (12), HO_Armor_Samurai_RightLeg__Red_Lacquer (60), HO_Armor_Samurai_LeftLeg__Black_Lacquer (48), HO_Armor_Samurai_LeftLeg__Gold_Leaf (12), HO_Armor_Samurai_LeftLeg__Red_Lacquer (60), HO_Armor_Samurai_Helmet__Black_Lacquer (190), HO_Armor_Samurai_Helmet__Gold_Leaf (64), HO_Armor_Samurai_Helmet__Red_Lacquer (88) |
+| HO_Char_EarthGolem | Mesh group | `assets/Phase4/Characters/HO_Char_EarthGolem.fbx` | 3240 | 11.438 × 3.871 × 12.414 | Black_Lacquer, Cloth_Crimson, Cloth_Navy, Cloth_White, Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow, Gold_Leaf, Iron_Wrought, Navy_Lacquer, Red_Lacquer, Shadow_Black, Steel_Blade, Steel_Dark, Stone_Fitted, Stone_Granite, Timber_Dark, Tsuka_Wrap | feet (ground) centre | ✅ ⚠ 5 floating | Earth Golem at rig scale 2.4 (about 12 studs tall): stacked granite blocks, boulder shoulders, huge block fists, glowing yellow eyes and amber chest cracks. Meshes are in character space (feet at y=0, HumanoidRootPart centre at y=7.2). HO_RigBuilder.BuildCharacter(model, "HO_Char_EarthGolem") adds a HumanoidRootPart, invisible R6 body parts with Motor6Ds (classic R6 C0/C1 x scale) and welds the meshes on, so the Phase 2 KeyframeSequences (Golem_* / Hollow_*) play directly. | meshes: HO_Char_EarthGolem_Torso (480), HO_Char_EarthGolem_Torso_Glow (48), HO_Char_EarthGolem_Head (240), HO_Char_EarthGolem_Head_Glow (72), HO_Char_EarthGolem_RightArm (880), HO_Char_EarthGolem_LeftArm (880), HO_Char_EarthGolem_RightLeg (320), HO_Char_EarthGolem_LeftLeg (320) |
+| HO_Char_Hollow | Mesh group | `assets/Phase4/Characters/HO_Char_Hollow.fbx` | 1752 | 3.986 × 1.566 × 5.727 | Black_Lacquer, Cloth_Crimson, Cloth_Navy, Cloth_White, Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow, Gold_Leaf, Iron_Wrought, Navy_Lacquer, Red_Lacquer, Shadow_Black, Steel_Blade, Steel_Dark, Stone_Fitted, Stone_Granite, Timber_Dark, Tsuka_Wrap | feet (ground) centre | ✅ ⚠ 8 floating | The Hollow (R6 size): black shadow body, glowing red slit-pupil eye in the chest with red cracks, swept horns, clawed hands, tattered shadow wisps. Meshes are in character space (feet at y=0, HumanoidRootPart centre at y=3). HO_RigBuilder.BuildCharacter(model, "HO_Char_Hollow") adds a HumanoidRootPart, invisible R6 body parts with Motor6Ds (classic R6 C0/C1 x scale) and welds the meshes on, so the Phase 2 KeyframeSequences (Golem_* / Hollow_*) play directly. | meshes: HO_Char_Hollow_Torso (452), HO_Char_Hollow_Torso_Glow (316), HO_Char_Hollow_Head (384), HO_Char_Hollow_Head_Glow (40), HO_Char_Hollow_RightArm (184), HO_Char_Hollow_RightArm_Glow (20), HO_Char_Hollow_LeftArm (184), HO_Char_Hollow_LeftArm_Glow (20), HO_Char_Hollow_RightLeg (76), HO_Char_Hollow_LeftLeg (76) |
+| HO_Hero_StoneFist_Left | Mesh group | `assets/Phase4/Heroes/HO_Hero_StoneFist_Left.fbx` | 2264 | 2.349 × 4.301 × 1.775 | Black_Lacquer, Cloth_Crimson, Cloth_Navy, Cloth_White, Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow, Gold_Leaf, Iron_Wrought, Navy_Lacquer, Red_Lacquer, Shadow_Black, Steel_Blade, Steel_Dark, Stone_Fitted, Stone_Granite, Timber_Dark, Tsuka_Wrap | fist centre | ✅ | Floating carved-stone left fist punching toward FRONT (-Z), glowing amber cracks and knuckle joints (_Glow, set Material Neon or a PointLight). Origin = centre of the fist; broken forearm stump trails behind (+Z). ~2.6 wide x 4.7 long. | meshes: HO_Hero_StoneFist_Left (1840), HO_Hero_StoneFist_Left_Glow (424) |
+| HO_Hero_StoneFist_Right | Mesh group | `assets/Phase4/Heroes/HO_Hero_StoneFist_Right.fbx` | 2264 | 2.347 × 4.301 × 1.78 | Black_Lacquer, Cloth_Crimson, Cloth_Navy, Cloth_White, Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow, Gold_Leaf, Iron_Wrought, Navy_Lacquer, Red_Lacquer, Shadow_Black, Steel_Blade, Steel_Dark, Stone_Fitted, Stone_Granite, Timber_Dark, Tsuka_Wrap | fist centre | ✅ | Floating carved-stone right fist punching toward FRONT (-Z), glowing amber cracks and knuckle joints (_Glow, set Material Neon or a PointLight). Origin = centre of the fist; broken forearm stump trails behind (+Z). ~2.6 wide x 4.7 long. | meshes: HO_Hero_StoneFist_Right (1840), HO_Hero_StoneFist_Right_Glow (424) |
+| HO_Weapon_AshfallSword | Mesh group | `assets/Phase4/Weapons/HO_Weapon_AshfallSword.fbx` | 576 | 0.776 × 3.98 × 0.665 | Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow, Gold_Leaf, Iron_Wrought, Steel_Dark, Tsuka_Wrap | grip centre | ✅ ⚠ 1 inverted | Ashfall Sword: broad dark-steel blade, heavy octagonal tsuba, smouldering amber edge (_Glow). Origin = centre of the grip (hand position). Blade points FRONT (-Z), cutting edge DOWN (-Y); as a Tool handle it works with Tool.Grip = identity. Blade 2.8 long. Scabbard = HO_Weapon_AshfallSword_Saya. | meshes: HO_Weapon_AshfallSword__Gold_Leaf (46), HO_Weapon_AshfallSword__Iron_Wrought (144), HO_Weapon_AshfallSword__Steel_Dark (206), HO_Weapon_AshfallSword__Tsuka_Wrap (44), HO_Weapon_AshfallSword_Glow (136) |
+| HO_Weapon_AshfallSword_Saya | Mesh group | `assets/Phase4/Weapons/HO_Weapon_AshfallSword_Saya.fbx` | 458 | 0.37 × 2.916 × 0.773 | Black_Lacquer, Cloth_Crimson, Iron_Wrought | grip centre | ✅ | Scabbard for HO_Weapon_AshfallSword, same origin frame: at the same CFrame as the sword the blade sits inside it (sheathed). Weld to the Torso/hip for the sheathed look. | meshes: HO_Weapon_AshfallSword_Saya__Black_Lacquer (336), HO_Weapon_AshfallSword_Saya__Cloth_Crimson (36), HO_Weapon_AshfallSword_Saya__Iron_Wrought (86) |
+| HO_Weapon_CrimsonOath | Mesh group | `assets/Phase4/Weapons/HO_Weapon_CrimsonOath.fbx` | 910 | 0.857 × 3.88 × 0.796 | Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow, Gold_Leaf, Steel_Blade, Tsuka_Wrap | grip centre | ✅ ⚠ 1 inverted | Crimson Oath: ornate gold mokko (flower) tsuba, red lacquer saya, glowing red edge (_Glow). Origin = centre of the grip (hand position). Blade points FRONT (-Z), cutting edge DOWN (-Y); as a Tool handle it works with Tool.Grip = identity. Blade 2.7 long. Scabbard = HO_Weapon_CrimsonOath_Saya. | meshes: HO_Weapon_CrimsonOath__Gold_Leaf (538), HO_Weapon_CrimsonOath__Steel_Blade (206), HO_Weapon_CrimsonOath__Tsuka_Wrap (44), HO_Weapon_CrimsonOath_Glow (122) |
+| HO_Weapon_CrimsonOath_Saya | Mesh group | `assets/Phase4/Weapons/HO_Weapon_CrimsonOath_Saya.fbx` | 458 | 0.37 × 2.819 × 0.84 | Gold_Leaf, Red_Lacquer | grip centre | ✅ | Scabbard for HO_Weapon_CrimsonOath, same origin frame: at the same CFrame as the sword the blade sits inside it (sheathed). Weld to the Torso/hip for the sheathed look. | meshes: HO_Weapon_CrimsonOath_Saya__Gold_Leaf (122), HO_Weapon_CrimsonOath_Saya__Red_Lacquer (336) |
+| HO_Weapon_IronKatana | Mesh group | `assets/Phase4/Weapons/HO_Weapon_IronKatana.fbx` | 488 | 0.68 × 3.68 × 0.6 | Gold_Leaf, Iron_Wrought, Steel_Blade, Tsuka_Wrap | grip centre | ✅ ⚠ 1 inverted | Iron Katana (starter): plain round iron tsuba, black saya. Origin = centre of the grip (hand position). Blade points FRONT (-Z), cutting edge DOWN (-Y); as a Tool handle it works with Tool.Grip = identity. Blade 2.5 long. Scabbard = HO_Weapon_IronKatana_Saya. | meshes: HO_Weapon_IronKatana__Gold_Leaf (46), HO_Weapon_IronKatana__Iron_Wrought (192), HO_Weapon_IronKatana__Steel_Blade (206), HO_Weapon_IronKatana__Tsuka_Wrap (44) |
+| HO_Weapon_IronKatana_Saya | Mesh group | `assets/Phase4/Weapons/HO_Weapon_IronKatana_Saya.fbx` | 458 | 0.37 × 2.625 × 0.775 | Black_Lacquer, Cloth_Crimson, Iron_Wrought | grip centre | ✅ | Scabbard for HO_Weapon_IronKatana, same origin frame: at the same CFrame as the sword the blade sits inside it (sheathed). Weld to the Torso/hip for the sheathed look. | meshes: HO_Weapon_IronKatana_Saya__Black_Lacquer (336), HO_Weapon_IronKatana_Saya__Cloth_Crimson (36), HO_Weapon_IronKatana_Saya__Iron_Wrought (86) |
+| HO_Weapon_MoonlitEdge | Mesh group | `assets/Phase4/Weapons/HO_Weapon_MoonlitEdge.fbx` | 750 | 0.694 × 3.88 × 0.624 | Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow, Gold_Leaf, Iron_Wrought, Steel_Blade, Tsuka_Wrap | grip centre | ✅ ⚠ 1 inverted | Moonlit Edge: crescent-notched tsuba, navy saya, pale blue glowing edge (_Glow). Origin = centre of the grip (hand position). Blade points FRONT (-Z), cutting edge DOWN (-Y); as a Tool handle it works with Tool.Grip = identity. Blade 2.7 long. Scabbard = HO_Weapon_MoonlitEdge_Saya. | meshes: HO_Weapon_MoonlitEdge__Gold_Leaf (46), HO_Weapon_MoonlitEdge__Iron_Wrought (332), HO_Weapon_MoonlitEdge__Steel_Blade (206), HO_Weapon_MoonlitEdge__Tsuka_Wrap (44), HO_Weapon_MoonlitEdge_Glow (122) |
+| HO_Weapon_MoonlitEdge_Saya | Mesh group | `assets/Phase4/Weapons/HO_Weapon_MoonlitEdge_Saya.fbx` | 458 | 0.37 × 2.819 × 0.803 | Cloth_Crimson, Iron_Wrought, Navy_Lacquer | grip centre | ✅ | Scabbard for HO_Weapon_MoonlitEdge, same origin frame: at the same CFrame as the sword the blade sits inside it (sheathed). Weld to the Torso/hip for the sheathed look. | meshes: HO_Weapon_MoonlitEdge_Saya__Cloth_Crimson (36), HO_Weapon_MoonlitEdge_Saya__Iron_Wrought (86), HO_Weapon_MoonlitEdge_Saya__Navy_Lacquer (336) |
+| HO_Weapon_TemperedKatana | Mesh group | `assets/Phase4/Weapons/HO_Weapon_TemperedKatana.fbx` | 504 | 0.646 × 3.78 × 0.578 | Gold_Leaf, Iron_Wrought, Steel_Blade, Tsuka_Wrap | grip centre | ✅ ⚠ 1 inverted | Tempered Katana: longer, deeper curve, squared tsuba with gold fittings. Origin = centre of the grip (hand position). Blade points FRONT (-Z), cutting edge DOWN (-Y); as a Tool handle it works with Tool.Grip = identity. Blade 2.6 long. Scabbard = HO_Weapon_TemperedKatana_Saya. | meshes: HO_Weapon_TemperedKatana__Gold_Leaf (162), HO_Weapon_TemperedKatana__Iron_Wrought (92), HO_Weapon_TemperedKatana__Steel_Blade (206), HO_Weapon_TemperedKatana__Tsuka_Wrap (44) |
+| HO_Weapon_TemperedKatana_Saya | Mesh group | `assets/Phase4/Weapons/HO_Weapon_TemperedKatana_Saya.fbx` | 458 | 0.37 × 2.722 × 0.817 | Black_Lacquer, Cloth_Crimson, Gold_Leaf | grip centre | ✅ | Scabbard for HO_Weapon_TemperedKatana, same origin frame: at the same CFrame as the sword the blade sits inside it (sheathed). Weld to the Torso/hip for the sheathed look. | meshes: HO_Weapon_TemperedKatana_Saya__Black_Lacquer (336), HO_Weapon_TemperedKatana_Saya__Cloth_Crimson (36), HO_Weapon_TemperedKatana_Saya__Gold_Leaf (86) |
 
 ## Mesh objects and their texture set
 
@@ -729,6 +815,116 @@ Every mesh object uses exactly ONE texture set: give its MeshPart one SurfaceApp
 | HO_Wall_Front_OpenShop_8 | `HO_Wall_Front_OpenShop_8__Plaster_White` | Plaster_White | 24 |
 | HO_Wall_Front_OpenShop_8 | `HO_Wall_Front_OpenShop_8__Timber_Dark` | Timber_Dark | 108 |
 | HO_Wall_Front_OpenShop_8 | `HO_Wall_Front_OpenShop_8__Timber_Light` | Timber_Light | 12 |
+| HO_Harbour_ArchBridge | `HO_Harbour_ArchBridge__Gold_Leaf` | Gold_Leaf | 372 |
+| HO_Harbour_ArchBridge | `HO_Harbour_ArchBridge__Red_Lacquer` | Red_Lacquer | 1096 |
+| HO_Harbour_ArchBridge | `HO_Harbour_ArchBridge__Timber_Dark` | Timber_Dark | 872 |
+| HO_Harbour_ArchBridge | `HO_Harbour_ArchBridge__Wood_Planks` | Wood_Planks | 216 |
+| HO_Harbour_Boat_Cargo | `HO_Harbour_Boat_Cargo__Bamboo` | Bamboo | 612 |
+| HO_Harbour_Boat_Cargo | `HO_Harbour_Boat_Cargo__Cloth_White` | Cloth_White | 1056 |
+| HO_Harbour_Boat_Cargo | `HO_Harbour_Boat_Cargo__RoofTile_Clay` | RoofTile_Clay | 8 |
+| HO_Harbour_Boat_Cargo | `HO_Harbour_Boat_Cargo__Rope` | Rope | 330 |
+| HO_Harbour_Boat_Cargo | `HO_Harbour_Boat_Cargo__Sail_Canvas` | Sail_Canvas | 248 |
+| HO_Harbour_Boat_Cargo | `HO_Harbour_Boat_Cargo__Shoji_Paper` | Shoji_Paper | 24 |
+| HO_Harbour_Boat_Cargo | `HO_Harbour_Boat_Cargo__Straw` | Straw | 1056 |
+| HO_Harbour_Boat_Cargo | `HO_Harbour_Boat_Cargo__Timber_Dark` | Timber_Dark | 606 |
+| HO_Harbour_Boat_Cargo | `HO_Harbour_Boat_Cargo__Timber_Light` | Timber_Light | 52 |
+| HO_Harbour_Boat_Cargo | `HO_Harbour_Boat_Cargo__Wood_Planks` | Wood_Planks | 260 |
+| HO_Harbour_Boat_Small | `HO_Harbour_Boat_Small__Bamboo` | Bamboo | 352 |
+| HO_Harbour_Boat_Small | `HO_Harbour_Boat_Small__Rope` | Rope | 198 |
+| HO_Harbour_Boat_Small | `HO_Harbour_Boat_Small__Sail_Canvas` | Sail_Canvas | 248 |
+| HO_Harbour_Boat_Small | `HO_Harbour_Boat_Small__Timber_Dark` | Timber_Dark | 200 |
+| HO_Harbour_Boat_Small | `HO_Harbour_Boat_Small__Timber_Light` | Timber_Light | 88 |
+| HO_Harbour_Boat_Small | `HO_Harbour_Boat_Small__Wood_Planks` | Wood_Planks | 236 |
+| HO_Harbour_Lighthouse | `HO_Harbour_Lighthouse__Black_Lacquer` | Black_Lacquer | 72 |
+| HO_Harbour_Lighthouse | `HO_Harbour_Lighthouse__Gold_Leaf` | Gold_Leaf | 62 |
+| HO_Harbour_Lighthouse | `HO_Harbour_Lighthouse__Plaster_White` | Plaster_White | 60 |
+| HO_Harbour_Lighthouse | `HO_Harbour_Lighthouse__Red_Lacquer` | Red_Lacquer | 288 |
+| HO_Harbour_Lighthouse | `HO_Harbour_Lighthouse__RoofTile_Clay` | RoofTile_Clay | 78 |
+| HO_Harbour_Lighthouse | `HO_Harbour_Lighthouse__Stone_Fitted` | Stone_Fitted | 92 |
+| HO_Harbour_Lighthouse | `HO_Harbour_Lighthouse__Timber_Dark` | Timber_Dark | 108 |
+| HO_Harbour_Lighthouse | `HO_Harbour_Lighthouse__Wood_Planks` | Wood_Planks | 30 |
+| HO_Harbour_Lighthouse | `HO_Harbour_Lighthouse_Glow` | Ember, Magic_Glow, Shoji_Paper | 30 |
+| HO_Harbour_Pier | `HO_Harbour_Pier__Cloth_White` | Cloth_White | 136 |
+| HO_Harbour_Pier | `HO_Harbour_Pier__Iron_Wrought` | Iron_Wrought | 112 |
+| HO_Harbour_Pier | `HO_Harbour_Pier__Rope` | Rope | 3044 |
+| HO_Harbour_Pier | `HO_Harbour_Pier__Straw` | Straw | 136 |
+| HO_Harbour_Pier | `HO_Harbour_Pier__Timber_Dark` | Timber_Dark | 3654 |
+| HO_Harbour_Pier | `HO_Harbour_Pier__Timber_Light` | Timber_Light | 136 |
+| HO_Harbour_Pier | `HO_Harbour_Pier__Wood_Planks` | Wood_Planks | 48 |
+| HO_Harbour_Pier_Deck_8 | `HO_Harbour_Pier_Deck_8__Rope` | Rope | 264 |
+| HO_Harbour_Pier_Deck_8 | `HO_Harbour_Pier_Deck_8__Timber_Dark` | Timber_Dark | 348 |
+| HO_Harbour_Pier_Deck_8 | `HO_Harbour_Pier_Deck_8__Wood_Planks` | Wood_Planks | 12 |
+| HO_Harbour_Quay_16 | `HO_Harbour_Quay_16__Stone_Fitted` | Stone_Fitted | 84 |
+| HO_Harbour_Quay_16 | `HO_Harbour_Quay_16__Stone_Granite` | Stone_Granite | 1192 |
+| HO_Harbour_Quay_Steps_16 | `HO_Harbour_Quay_Steps_16__Stone_Fitted` | Stone_Fitted | 204 |
+| HO_Harbour_Quay_Steps_16 | `HO_Harbour_Quay_Steps_16__Stone_Granite` | Stone_Granite | 1172 |
+| HO_Rock_Cliff_L | `HO_Rock_Cliff_L` | Bamboo, Black_Lacquer, Cloth_Crimson, Cloth_Indigo, Cloth_Navy, Cloth_Ochre, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Pine_Bark, Pine_Needles, Plaster_White, Red_Lacquer, RoofTile_Clay, Rope, Sail_Canvas, Shoji_Paper, Stone_Fitted, Stone_Granite, Straw, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 6400 |
+| HO_Rock_Cliff_M | `HO_Rock_Cliff_M` | Bamboo, Black_Lacquer, Cloth_Crimson, Cloth_Indigo, Cloth_Navy, Cloth_Ochre, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Pine_Bark, Pine_Needles, Plaster_White, Red_Lacquer, RoofTile_Clay, Rope, Sail_Canvas, Shoji_Paper, Stone_Fitted, Stone_Granite, Straw, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 1600 |
+| HO_Rock_Cliff_S | `HO_Rock_Cliff_S` | Bamboo, Black_Lacquer, Cloth_Crimson, Cloth_Indigo, Cloth_Navy, Cloth_Ochre, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Pine_Bark, Pine_Needles, Plaster_White, Red_Lacquer, RoofTile_Clay, Rope, Sail_Canvas, Shoji_Paper, Stone_Fitted, Stone_Granite, Straw, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 1600 |
+| HO_Tree_Pine_L | `HO_Tree_Pine_L__Pine_Bark` | Pine_Bark | 460 |
+| HO_Tree_Pine_L | `HO_Tree_Pine_L__Pine_Needles` | Pine_Needles | 4400 |
+| HO_Tree_Pine_M | `HO_Tree_Pine_M__Pine_Bark` | Pine_Bark | 364 |
+| HO_Tree_Pine_M | `HO_Tree_Pine_M__Pine_Needles` | Pine_Needles | 3200 |
+| HO_Tree_Pine_S | `HO_Tree_Pine_S__Pine_Bark` | Pine_Bark | 268 |
+| HO_Tree_Pine_S | `HO_Tree_Pine_S__Pine_Needles` | Pine_Needles | 2000 |
+| HO_Prop_BambooFence_8 | `HO_Prop_BambooFence_8__Bamboo` | Bamboo | 240 |
+| HO_Prop_BambooFence_8 | `HO_Prop_BambooFence_8__Rope` | Rope | 384 |
+| HO_Prop_BambooFence_8 | `HO_Prop_BambooFence_8__Timber_Dark` | Timber_Dark | 56 |
+| HO_Prop_Banner | `HO_Prop_Banner__Black_Lacquer` | Black_Lacquer | 40 |
+| HO_Prop_Banner | `HO_Prop_Banner__Cloth_Navy` | Cloth_Navy | 132 |
+| HO_Prop_Banner | `HO_Prop_Banner__Cloth_White` | Cloth_White | 120 |
+| HO_Prop_Barrel | `HO_Prop_Barrel__Iron_Wrought` | Iron_Wrought | 112 |
+| HO_Prop_Barrel | `HO_Prop_Barrel__Timber_Dark` | Timber_Dark | 42 |
+| HO_Prop_Barrel | `HO_Prop_Barrel__Timber_Light` | Timber_Light | 136 |
+| HO_Prop_Bench | `HO_Prop_Bench__Timber_Dark` | Timber_Dark | 72 |
+| HO_Prop_Bench | `HO_Prop_Bench__Wood_Planks` | Wood_Planks | 12 |
+| HO_Prop_Bench_Tea | `HO_Prop_Bench_Tea__Bamboo` | Bamboo | 220 |
+| HO_Prop_Bench_Tea | `HO_Prop_Bench_Tea__Cloth_Crimson` | Cloth_Crimson | 150 |
+| HO_Prop_Bench_Tea | `HO_Prop_Bench_Tea__Timber_Dark` | Timber_Dark | 72 |
+| HO_Prop_Bench_Tea | `HO_Prop_Bench_Tea__Wood_Planks` | Wood_Planks | 12 |
+| HO_Prop_Cart | `HO_Prop_Cart__Iron_Wrought` | Iron_Wrought | 100 |
+| HO_Prop_Cart | `HO_Prop_Cart__Timber_Dark` | Timber_Dark | 384 |
+| HO_Prop_Cart | `HO_Prop_Cart__Timber_Light` | Timber_Light | 224 |
+| HO_Prop_Cart | `HO_Prop_Cart__Wood_Planks` | Wood_Planks | 12 |
+| HO_Prop_Cart_Loaded | `HO_Prop_Cart_Loaded__Cloth_Ochre` | Cloth_Ochre | 118 |
+| HO_Prop_Cart_Loaded | `HO_Prop_Cart_Loaded__Cloth_White` | Cloth_White | 442 |
+| HO_Prop_Cart_Loaded | `HO_Prop_Cart_Loaded__Iron_Wrought` | Iron_Wrought | 100 |
+| HO_Prop_Cart_Loaded | `HO_Prop_Cart_Loaded__Straw` | Straw | 364 |
+| HO_Prop_Cart_Loaded | `HO_Prop_Cart_Loaded__Timber_Dark` | Timber_Dark | 384 |
+| HO_Prop_Cart_Loaded | `HO_Prop_Cart_Loaded__Timber_Light` | Timber_Light | 224 |
+| HO_Prop_Cart_Loaded | `HO_Prop_Cart_Loaded__Wood_Planks` | Wood_Planks | 12 |
+| HO_Prop_Chochin_Black | `HO_Prop_Chochin_Black__Black_Lacquer` | Black_Lacquer | 88 |
+| HO_Prop_Chochin_Black | `HO_Prop_Chochin_Black__Iron_Wrought` | Iron_Wrought | 24 |
+| HO_Prop_Chochin_Black | `HO_Prop_Chochin_Black__Rope` | Rope | 12 |
+| HO_Prop_Chochin_Black | `HO_Prop_Chochin_Black_Glow` | Ember, Magic_Glow, Shoji_Paper | 116 |
+| HO_Prop_Chochin_Red | `HO_Prop_Chochin_Red__Iron_Wrought` | Iron_Wrought | 24 |
+| HO_Prop_Chochin_Red | `HO_Prop_Chochin_Red__Red_Lacquer` | Red_Lacquer | 88 |
+| HO_Prop_Chochin_Red | `HO_Prop_Chochin_Red__Rope` | Rope | 12 |
+| HO_Prop_Chochin_Red | `HO_Prop_Chochin_Red_Glow` | Ember, Magic_Glow, Shoji_Paper | 116 |
+| HO_Prop_Crate | `HO_Prop_Crate__Timber_Dark` | Timber_Dark | 96 |
+| HO_Prop_Crate | `HO_Prop_Crate__Wood_Planks` | Wood_Planks | 12 |
+| HO_Prop_MarketStall_A | `HO_Prop_MarketStall_A__Black_Lacquer` | Black_Lacquer | 130 |
+| HO_Prop_MarketStall_A | `HO_Prop_MarketStall_A__Cloth_Crimson` | Cloth_Crimson | 4 |
+| HO_Prop_MarketStall_A | `HO_Prop_MarketStall_A__Cloth_Ochre` | Cloth_Ochre | 216 |
+| HO_Prop_MarketStall_A | `HO_Prop_MarketStall_A__Cloth_White` | Cloth_White | 72 |
+| HO_Prop_MarketStall_A | `HO_Prop_MarketStall_A__Earth_Packed` | Earth_Packed | 130 |
+| HO_Prop_MarketStall_A | `HO_Prop_MarketStall_A__Red_Lacquer` | Red_Lacquer | 252 |
+| HO_Prop_MarketStall_A | `HO_Prop_MarketStall_A__RoofTile_Clay` | RoofTile_Clay | 130 |
+| HO_Prop_MarketStall_A | `HO_Prop_MarketStall_A__Straw` | Straw | 174 |
+| HO_Prop_MarketStall_A | `HO_Prop_MarketStall_A__Timber_Dark` | Timber_Dark | 270 |
+| HO_Prop_MarketStall_A | `HO_Prop_MarketStall_A__Timber_Light` | Timber_Light | 108 |
+| HO_Prop_MarketStall_A | `HO_Prop_MarketStall_A__Wood_Planks` | Wood_Planks | 12 |
+| HO_Prop_MarketStall_B | `HO_Prop_MarketStall_B__Black_Lacquer` | Black_Lacquer | 130 |
+| HO_Prop_MarketStall_B | `HO_Prop_MarketStall_B__Cloth_Indigo` | Cloth_Indigo | 4 |
+| HO_Prop_MarketStall_B | `HO_Prop_MarketStall_B__Cloth_Ochre` | Cloth_Ochre | 216 |
+| HO_Prop_MarketStall_B | `HO_Prop_MarketStall_B__Cloth_White` | Cloth_White | 216 |
+| HO_Prop_MarketStall_B | `HO_Prop_MarketStall_B__Earth_Packed` | Earth_Packed | 130 |
+| HO_Prop_MarketStall_B | `HO_Prop_MarketStall_B__Red_Lacquer` | Red_Lacquer | 108 |
+| HO_Prop_MarketStall_B | `HO_Prop_MarketStall_B__RoofTile_Clay` | RoofTile_Clay | 130 |
+| HO_Prop_MarketStall_B | `HO_Prop_MarketStall_B__Straw` | Straw | 174 |
+| HO_Prop_MarketStall_B | `HO_Prop_MarketStall_B__Timber_Dark` | Timber_Dark | 270 |
+| HO_Prop_MarketStall_B | `HO_Prop_MarketStall_B__Timber_Light` | Timber_Light | 108 |
+| HO_Prop_MarketStall_B | `HO_Prop_MarketStall_B__Wood_Planks` | Wood_Planks | 12 |
 | HO_Prop_Noren_4_Crimson | `HO_Prop_Noren_4_Crimson__Cloth_Crimson` | Cloth_Crimson | 504 |
 | HO_Prop_Noren_4_Crimson | `HO_Prop_Noren_4_Crimson__Timber_Dark` | Timber_Dark | 28 |
 | HO_Prop_Noren_4_Indigo | `HO_Prop_Noren_4_Indigo__Cloth_Indigo` | Cloth_Indigo | 504 |
@@ -745,6 +941,15 @@ Every mesh object uses exactly ONE texture set: give its MeshPart one SurfaceApp
 | HO_Prop_Noren_8_Navy | `HO_Prop_Noren_8_Navy__Timber_Dark` | Timber_Dark | 28 |
 | HO_Prop_Noren_8_Ochre | `HO_Prop_Noren_8_Ochre__Cloth_Ochre` | Cloth_Ochre | 832 |
 | HO_Prop_Noren_8_Ochre | `HO_Prop_Noren_8_Ochre__Timber_Dark` | Timber_Dark | 28 |
+| HO_Prop_RiceBale | `HO_Prop_RiceBale__Cloth_White` | Cloth_White | 108 |
+| HO_Prop_RiceBale | `HO_Prop_RiceBale__Straw` | Straw | 108 |
+| HO_Prop_Sack | `HO_Prop_Sack__Cloth_White` | Cloth_White | 118 |
+| HO_Prop_Sack | `HO_Prop_Sack__Straw` | Straw | 20 |
+| HO_Prop_SakeCask | `HO_Prop_SakeCask__Cloth_White` | Cloth_White | 136 |
+| HO_Prop_SakeCask | `HO_Prop_SakeCask__Straw` | Straw | 136 |
+| HO_Prop_SakeCask | `HO_Prop_SakeCask__Timber_Dark` | Timber_Dark | 42 |
+| HO_Prop_SakeJar | `HO_Prop_SakeJar__Earth_Packed` | Earth_Packed | 130 |
+| HO_Prop_SakeJar | `HO_Prop_SakeJar__Timber_Dark` | Timber_Dark | 70 |
 | HO_Prop_Signboard_Hanging | `HO_Prop_Signboard_Hanging__Iron_Wrought` | Iron_Wrought | 60 |
 | HO_Prop_Signboard_Hanging | `HO_Prop_Signboard_Hanging__Timber_Dark` | Timber_Dark | 48 |
 | HO_Prop_Signboard_Hanging | `HO_Prop_Signboard_Hanging_Face` | Timber_Light | 12 |
@@ -754,6 +959,23 @@ Every mesh object uses exactly ONE texture set: give its MeshPart one SurfaceApp
 | HO_Prop_Signboard_Standing | `HO_Prop_Signboard_Standing__RoofTile_Clay` | RoofTile_Clay | 8 |
 | HO_Prop_Signboard_Standing | `HO_Prop_Signboard_Standing__Timber_Dark` | Timber_Dark | 72 |
 | HO_Prop_Signboard_Standing | `HO_Prop_Signboard_Standing_Face` | Timber_Light | 24 |
+| HO_Prop_StoneLantern | `HO_Prop_StoneLantern` | Bamboo, Black_Lacquer, Cloth_Crimson, Cloth_Indigo, Cloth_Navy, Cloth_Ochre, Cloth_White, Earth_Packed, Gold_Leaf, Iron_Wrought, Namako_Wall, Pine_Bark, Pine_Needles, Plaster_White, Red_Lacquer, RoofTile_Clay, Rope, Sail_Canvas, Shoji_Paper, Stone_Fitted, Stone_Granite, Straw, Tatami, Timber_Dark, Timber_Light, Wood_Planks | 224 |
+| HO_Prop_StoneLantern | `HO_Prop_StoneLantern_Glow` | Ember, Magic_Glow, Shoji_Paper | 24 |
+| HO_Prop_StoneStairs_Straight | `HO_Prop_StoneStairs_Straight__Stone_Fitted` | Stone_Fitted | 60 |
+| HO_Prop_StoneStairs_Straight | `HO_Prop_StoneStairs_Straight__Stone_Granite` | Stone_Granite | 106 |
+| HO_Prop_StoneStairs_Turning | `HO_Prop_StoneStairs_Turning__Stone_Fitted` | Stone_Fitted | 130 |
+| HO_Prop_StoneStairs_Turning | `HO_Prop_StoneStairs_Turning__Stone_Granite` | Stone_Granite | 132 |
+| HO_Prop_Torii | `HO_Prop_Torii__Black_Lacquer` | Black_Lacquer | 184 |
+| HO_Prop_Torii | `HO_Prop_Torii__Red_Lacquer` | Red_Lacquer | 220 |
+| HO_Prop_Torii | `HO_Prop_Torii__Stone_Granite` | Stone_Granite | 116 |
+| HO_Prop_Torii | `HO_Prop_Torii_Face` | Timber_Light | 24 |
+| HO_Prop_Well | `HO_Prop_Well__Black_Lacquer` | Black_Lacquer | 60 |
+| HO_Prop_Well | `HO_Prop_Well__Iron_Wrought` | Iron_Wrought | 12 |
+| HO_Prop_Well | `HO_Prop_Well__RoofTile_Clay` | RoofTile_Clay | 8 |
+| HO_Prop_Well | `HO_Prop_Well__Rope` | Rope | 12 |
+| HO_Prop_Well | `HO_Prop_Well__Stone_Granite` | Stone_Granite | 112 |
+| HO_Prop_Well | `HO_Prop_Well__Timber_Dark` | Timber_Dark | 36 |
+| HO_Prop_Well | `HO_Prop_Well__Timber_Light` | Timber_Light | 74 |
 | HO_Roof_Hisashi_12 | `HO_Roof_Hisashi_12__RoofTile_Clay` | RoofTile_Clay | 1398 |
 | HO_Roof_Hisashi_12 | `HO_Roof_Hisashi_12__Timber_Dark` | Timber_Dark | 496 |
 | HO_Roof_Hisashi_12 | `HO_Roof_Hisashi_12__Timber_Light` | Timber_Light | 56 |
@@ -818,3 +1040,136 @@ Every mesh object uses exactly ONE texture set: give its MeshPart one SurfaceApp
 | HO_Wall_Upper_Mushiko_8 | `HO_Wall_Upper_Mushiko_8__Shoji_Paper` | Shoji_Paper | 24 |
 | HO_Wall_Upper_Mushiko_8 | `HO_Wall_Upper_Mushiko_8__Timber_Dark` | Timber_Dark | 84 |
 | HO_Wall_Upper_Mushiko_8 | `HO_Wall_Upper_Mushiko_8__Timber_Light` | Timber_Light | 192 |
+| HO_VFX_EnergySphere | `HO_VFX_EnergySphere_Outer` | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | 528 |
+| HO_VFX_EnergySphere | `HO_VFX_EnergySphere_Middle` | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | 440 |
+| HO_VFX_EnergySphere | `HO_VFX_EnergySphere_Core` | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | 352 |
+| HO_VFX_FirePillar | `HO_VFX_FirePillar` | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | 768 |
+| HO_VFX_FireRing_Segment | `HO_VFX_FireRing_Segment` | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | 160 |
+| HO_VFX_RockShards | `HO_VFX_RockShard_01` | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | 20 |
+| HO_VFX_RockShards | `HO_VFX_RockShard_02` | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | 20 |
+| HO_VFX_RockShards | `HO_VFX_RockShard_03` | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | 20 |
+| HO_VFX_RockShards | `HO_VFX_RockShard_04` | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | 20 |
+| HO_VFX_RockShards | `HO_VFX_RockShard_05` | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | 20 |
+| HO_VFX_RockShards | `HO_VFX_RockShard_06` | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | 20 |
+| HO_VFX_RockShards | `HO_VFX_RockShard_07` | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | 20 |
+| HO_VFX_RockShards | `HO_VFX_RockShard_08` | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | 20 |
+| HO_VFX_RockShards | `HO_VFX_RockShard_09` | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | 20 |
+| HO_VFX_RockShards | `HO_VFX_RockShard_10` | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | 20 |
+| HO_VFX_Shockwave_Dome | `HO_VFX_Shockwave_Dome` | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | 1280 |
+| HO_VFX_Shockwave_Flat | `HO_VFX_Shockwave_Flat` | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | 384 |
+| HO_VFX_Slash_Heavy | `HO_VFX_Slash_Heavy` | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | 512 |
+| HO_VFX_Slash_Medium | `HO_VFX_Slash_Medium` | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | 512 |
+| HO_VFX_Slash_Thin | `HO_VFX_Slash_Thin` | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | 512 |
+| HO_VFX_SpiralCone | `HO_VFX_SpiralCone` | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | 768 |
+| HO_VFX_StoneDrill | `HO_VFX_StoneDrill` | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | 692 |
+| HO_VFX_Vortex | `HO_VFX_Vortex` | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | 1536 |
+| HO_VFX_WaterDragon | `HO_VFX_WaterDragon` | Stone_Granite, VFX_Energy, VFX_Fire, VFX_Slash, VFX_Water | 1044 |
+| HO_Armor_Ashigaru | `HO_Armor_Ashigaru_Torso__Black_Lacquer` | Black_Lacquer | 592 |
+| HO_Armor_Ashigaru | `HO_Armor_Ashigaru_Torso__Cloth_Navy` | Cloth_Navy | 180 |
+| HO_Armor_Ashigaru | `HO_Armor_Ashigaru_Torso__Iron_Wrought` | Iron_Wrought | 12 |
+| HO_Armor_Ashigaru | `HO_Armor_Ashigaru_RightArm__Black_Lacquer` | Black_Lacquer | 108 |
+| HO_Armor_Ashigaru | `HO_Armor_Ashigaru_RightArm__Cloth_Navy` | Cloth_Navy | 60 |
+| HO_Armor_Ashigaru | `HO_Armor_Ashigaru_RightArm__Iron_Wrought` | Iron_Wrought | 24 |
+| HO_Armor_Ashigaru | `HO_Armor_Ashigaru_LeftArm__Black_Lacquer` | Black_Lacquer | 108 |
+| HO_Armor_Ashigaru | `HO_Armor_Ashigaru_LeftArm__Cloth_Navy` | Cloth_Navy | 60 |
+| HO_Armor_Ashigaru | `HO_Armor_Ashigaru_LeftArm__Iron_Wrought` | Iron_Wrought | 24 |
+| HO_Armor_Ashigaru | `HO_Armor_Ashigaru_RightLeg__Black_Lacquer` | Black_Lacquer | 108 |
+| HO_Armor_Ashigaru | `HO_Armor_Ashigaru_RightLeg__Iron_Wrought` | Iron_Wrought | 12 |
+| HO_Armor_Ashigaru | `HO_Armor_Ashigaru_LeftLeg__Black_Lacquer` | Black_Lacquer | 108 |
+| HO_Armor_Ashigaru | `HO_Armor_Ashigaru_LeftLeg__Iron_Wrought` | Iron_Wrought | 12 |
+| HO_Armor_Ashigaru | `HO_Armor_Ashigaru_Helmet__Black_Lacquer` | Black_Lacquer | 94 |
+| HO_Armor_Ashigaru | `HO_Armor_Ashigaru_Helmet__Iron_Wrought` | Iron_Wrought | 96 |
+| HO_Armor_Oathguard | `HO_Armor_Oathguard_Torso__Cloth_White` | Cloth_White | 180 |
+| HO_Armor_Oathguard | `HO_Armor_Oathguard_Torso__Gold_Leaf` | Gold_Leaf | 88 |
+| HO_Armor_Oathguard | `HO_Armor_Oathguard_Torso__Navy_Lacquer` | Navy_Lacquer | 668 |
+| HO_Armor_Oathguard | `HO_Armor_Oathguard_RightArm__Cloth_White` | Cloth_White | 60 |
+| HO_Armor_Oathguard | `HO_Armor_Oathguard_RightArm__Gold_Leaf` | Gold_Leaf | 24 |
+| HO_Armor_Oathguard | `HO_Armor_Oathguard_RightArm__Navy_Lacquer` | Navy_Lacquer | 108 |
+| HO_Armor_Oathguard | `HO_Armor_Oathguard_LeftArm__Cloth_White` | Cloth_White | 60 |
+| HO_Armor_Oathguard | `HO_Armor_Oathguard_LeftArm__Gold_Leaf` | Gold_Leaf | 24 |
+| HO_Armor_Oathguard | `HO_Armor_Oathguard_LeftArm__Navy_Lacquer` | Navy_Lacquer | 108 |
+| HO_Armor_Oathguard | `HO_Armor_Oathguard_RightLeg__Gold_Leaf` | Gold_Leaf | 12 |
+| HO_Armor_Oathguard | `HO_Armor_Oathguard_RightLeg__Navy_Lacquer` | Navy_Lacquer | 108 |
+| HO_Armor_Oathguard | `HO_Armor_Oathguard_LeftLeg__Gold_Leaf` | Gold_Leaf | 12 |
+| HO_Armor_Oathguard | `HO_Armor_Oathguard_LeftLeg__Navy_Lacquer` | Navy_Lacquer | 108 |
+| HO_Armor_Oathguard | `HO_Armor_Oathguard_Helmet__Gold_Leaf` | Gold_Leaf | 88 |
+| HO_Armor_Oathguard | `HO_Armor_Oathguard_Helmet__Navy_Lacquer` | Navy_Lacquer | 278 |
+| HO_Armor_Samurai | `HO_Armor_Samurai_Torso__Black_Lacquer` | Black_Lacquer | 232 |
+| HO_Armor_Samurai | `HO_Armor_Samurai_Torso__Cloth_Crimson` | Cloth_Crimson | 180 |
+| HO_Armor_Samurai | `HO_Armor_Samurai_Torso__Gold_Leaf` | Gold_Leaf | 48 |
+| HO_Armor_Samurai | `HO_Armor_Samurai_Torso__Red_Lacquer` | Red_Lacquer | 360 |
+| HO_Armor_Samurai | `HO_Armor_Samurai_RightArm__Black_Lacquer` | Black_Lacquer | 48 |
+| HO_Armor_Samurai | `HO_Armor_Samurai_RightArm__Cloth_Crimson` | Cloth_Crimson | 60 |
+| HO_Armor_Samurai | `HO_Armor_Samurai_RightArm__Gold_Leaf` | Gold_Leaf | 24 |
+| HO_Armor_Samurai | `HO_Armor_Samurai_RightArm__Red_Lacquer` | Red_Lacquer | 60 |
+| HO_Armor_Samurai | `HO_Armor_Samurai_LeftArm__Black_Lacquer` | Black_Lacquer | 48 |
+| HO_Armor_Samurai | `HO_Armor_Samurai_LeftArm__Cloth_Crimson` | Cloth_Crimson | 60 |
+| HO_Armor_Samurai | `HO_Armor_Samurai_LeftArm__Gold_Leaf` | Gold_Leaf | 24 |
+| HO_Armor_Samurai | `HO_Armor_Samurai_LeftArm__Red_Lacquer` | Red_Lacquer | 60 |
+| HO_Armor_Samurai | `HO_Armor_Samurai_RightLeg__Black_Lacquer` | Black_Lacquer | 48 |
+| HO_Armor_Samurai | `HO_Armor_Samurai_RightLeg__Gold_Leaf` | Gold_Leaf | 12 |
+| HO_Armor_Samurai | `HO_Armor_Samurai_RightLeg__Red_Lacquer` | Red_Lacquer | 60 |
+| HO_Armor_Samurai | `HO_Armor_Samurai_LeftLeg__Black_Lacquer` | Black_Lacquer | 48 |
+| HO_Armor_Samurai | `HO_Armor_Samurai_LeftLeg__Gold_Leaf` | Gold_Leaf | 12 |
+| HO_Armor_Samurai | `HO_Armor_Samurai_LeftLeg__Red_Lacquer` | Red_Lacquer | 60 |
+| HO_Armor_Samurai | `HO_Armor_Samurai_Helmet__Black_Lacquer` | Black_Lacquer | 190 |
+| HO_Armor_Samurai | `HO_Armor_Samurai_Helmet__Gold_Leaf` | Gold_Leaf | 64 |
+| HO_Armor_Samurai | `HO_Armor_Samurai_Helmet__Red_Lacquer` | Red_Lacquer | 88 |
+| HO_Char_EarthGolem | `HO_Char_EarthGolem_Torso` | Black_Lacquer, Cloth_Crimson, Cloth_Navy, Cloth_White, Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow, Gold_Leaf, Iron_Wrought, Navy_Lacquer, Red_Lacquer, Shadow_Black, Steel_Blade, Steel_Dark, Stone_Fitted, Stone_Granite, Timber_Dark, Tsuka_Wrap | 480 |
+| HO_Char_EarthGolem | `HO_Char_EarthGolem_Torso_Glow` | Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow | 48 |
+| HO_Char_EarthGolem | `HO_Char_EarthGolem_Head` | Black_Lacquer, Cloth_Crimson, Cloth_Navy, Cloth_White, Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow, Gold_Leaf, Iron_Wrought, Navy_Lacquer, Red_Lacquer, Shadow_Black, Steel_Blade, Steel_Dark, Stone_Fitted, Stone_Granite, Timber_Dark, Tsuka_Wrap | 240 |
+| HO_Char_EarthGolem | `HO_Char_EarthGolem_Head_Glow` | Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow | 72 |
+| HO_Char_EarthGolem | `HO_Char_EarthGolem_RightArm` | Black_Lacquer, Cloth_Crimson, Cloth_Navy, Cloth_White, Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow, Gold_Leaf, Iron_Wrought, Navy_Lacquer, Red_Lacquer, Shadow_Black, Steel_Blade, Steel_Dark, Stone_Fitted, Stone_Granite, Timber_Dark, Tsuka_Wrap | 880 |
+| HO_Char_EarthGolem | `HO_Char_EarthGolem_LeftArm` | Black_Lacquer, Cloth_Crimson, Cloth_Navy, Cloth_White, Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow, Gold_Leaf, Iron_Wrought, Navy_Lacquer, Red_Lacquer, Shadow_Black, Steel_Blade, Steel_Dark, Stone_Fitted, Stone_Granite, Timber_Dark, Tsuka_Wrap | 880 |
+| HO_Char_EarthGolem | `HO_Char_EarthGolem_RightLeg` | Black_Lacquer, Cloth_Crimson, Cloth_Navy, Cloth_White, Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow, Gold_Leaf, Iron_Wrought, Navy_Lacquer, Red_Lacquer, Shadow_Black, Steel_Blade, Steel_Dark, Stone_Fitted, Stone_Granite, Timber_Dark, Tsuka_Wrap | 320 |
+| HO_Char_EarthGolem | `HO_Char_EarthGolem_LeftLeg` | Black_Lacquer, Cloth_Crimson, Cloth_Navy, Cloth_White, Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow, Gold_Leaf, Iron_Wrought, Navy_Lacquer, Red_Lacquer, Shadow_Black, Steel_Blade, Steel_Dark, Stone_Fitted, Stone_Granite, Timber_Dark, Tsuka_Wrap | 320 |
+| HO_Char_Hollow | `HO_Char_Hollow_Torso` | Black_Lacquer, Cloth_Crimson, Cloth_Navy, Cloth_White, Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow, Gold_Leaf, Iron_Wrought, Navy_Lacquer, Red_Lacquer, Shadow_Black, Steel_Blade, Steel_Dark, Stone_Fitted, Stone_Granite, Timber_Dark, Tsuka_Wrap | 452 |
+| HO_Char_Hollow | `HO_Char_Hollow_Torso_Glow` | Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow | 316 |
+| HO_Char_Hollow | `HO_Char_Hollow_Head` | Black_Lacquer, Cloth_Crimson, Cloth_Navy, Cloth_White, Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow, Gold_Leaf, Iron_Wrought, Navy_Lacquer, Red_Lacquer, Shadow_Black, Steel_Blade, Steel_Dark, Stone_Fitted, Stone_Granite, Timber_Dark, Tsuka_Wrap | 384 |
+| HO_Char_Hollow | `HO_Char_Hollow_Head_Glow` | Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow | 40 |
+| HO_Char_Hollow | `HO_Char_Hollow_RightArm` | Black_Lacquer, Cloth_Crimson, Cloth_Navy, Cloth_White, Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow, Gold_Leaf, Iron_Wrought, Navy_Lacquer, Red_Lacquer, Shadow_Black, Steel_Blade, Steel_Dark, Stone_Fitted, Stone_Granite, Timber_Dark, Tsuka_Wrap | 184 |
+| HO_Char_Hollow | `HO_Char_Hollow_RightArm_Glow` | Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow | 20 |
+| HO_Char_Hollow | `HO_Char_Hollow_LeftArm` | Black_Lacquer, Cloth_Crimson, Cloth_Navy, Cloth_White, Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow, Gold_Leaf, Iron_Wrought, Navy_Lacquer, Red_Lacquer, Shadow_Black, Steel_Blade, Steel_Dark, Stone_Fitted, Stone_Granite, Timber_Dark, Tsuka_Wrap | 184 |
+| HO_Char_Hollow | `HO_Char_Hollow_LeftArm_Glow` | Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow | 20 |
+| HO_Char_Hollow | `HO_Char_Hollow_RightLeg` | Black_Lacquer, Cloth_Crimson, Cloth_Navy, Cloth_White, Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow, Gold_Leaf, Iron_Wrought, Navy_Lacquer, Red_Lacquer, Shadow_Black, Steel_Blade, Steel_Dark, Stone_Fitted, Stone_Granite, Timber_Dark, Tsuka_Wrap | 76 |
+| HO_Char_Hollow | `HO_Char_Hollow_LeftLeg` | Black_Lacquer, Cloth_Crimson, Cloth_Navy, Cloth_White, Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow, Gold_Leaf, Iron_Wrought, Navy_Lacquer, Red_Lacquer, Shadow_Black, Steel_Blade, Steel_Dark, Stone_Fitted, Stone_Granite, Timber_Dark, Tsuka_Wrap | 76 |
+| HO_Hero_StoneFist_Left | `HO_Hero_StoneFist_Left` | Black_Lacquer, Cloth_Crimson, Cloth_Navy, Cloth_White, Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow, Gold_Leaf, Iron_Wrought, Navy_Lacquer, Red_Lacquer, Shadow_Black, Steel_Blade, Steel_Dark, Stone_Fitted, Stone_Granite, Timber_Dark, Tsuka_Wrap | 1840 |
+| HO_Hero_StoneFist_Left | `HO_Hero_StoneFist_Left_Glow` | Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow | 424 |
+| HO_Hero_StoneFist_Right | `HO_Hero_StoneFist_Right` | Black_Lacquer, Cloth_Crimson, Cloth_Navy, Cloth_White, Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow, Gold_Leaf, Iron_Wrought, Navy_Lacquer, Red_Lacquer, Shadow_Black, Steel_Blade, Steel_Dark, Stone_Fitted, Stone_Granite, Timber_Dark, Tsuka_Wrap | 1840 |
+| HO_Hero_StoneFist_Right | `HO_Hero_StoneFist_Right_Glow` | Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow | 424 |
+| HO_Weapon_AshfallSword | `HO_Weapon_AshfallSword__Gold_Leaf` | Gold_Leaf | 46 |
+| HO_Weapon_AshfallSword | `HO_Weapon_AshfallSword__Iron_Wrought` | Iron_Wrought | 144 |
+| HO_Weapon_AshfallSword | `HO_Weapon_AshfallSword__Steel_Dark` | Steel_Dark | 206 |
+| HO_Weapon_AshfallSword | `HO_Weapon_AshfallSword__Tsuka_Wrap` | Tsuka_Wrap | 44 |
+| HO_Weapon_AshfallSword | `HO_Weapon_AshfallSword_Glow` | Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow | 136 |
+| HO_Weapon_AshfallSword_Saya | `HO_Weapon_AshfallSword_Saya__Black_Lacquer` | Black_Lacquer | 336 |
+| HO_Weapon_AshfallSword_Saya | `HO_Weapon_AshfallSword_Saya__Cloth_Crimson` | Cloth_Crimson | 36 |
+| HO_Weapon_AshfallSword_Saya | `HO_Weapon_AshfallSword_Saya__Iron_Wrought` | Iron_Wrought | 86 |
+| HO_Weapon_CrimsonOath | `HO_Weapon_CrimsonOath__Gold_Leaf` | Gold_Leaf | 538 |
+| HO_Weapon_CrimsonOath | `HO_Weapon_CrimsonOath__Steel_Blade` | Steel_Blade | 206 |
+| HO_Weapon_CrimsonOath | `HO_Weapon_CrimsonOath__Tsuka_Wrap` | Tsuka_Wrap | 44 |
+| HO_Weapon_CrimsonOath | `HO_Weapon_CrimsonOath_Glow` | Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow | 122 |
+| HO_Weapon_CrimsonOath_Saya | `HO_Weapon_CrimsonOath_Saya__Gold_Leaf` | Gold_Leaf | 122 |
+| HO_Weapon_CrimsonOath_Saya | `HO_Weapon_CrimsonOath_Saya__Red_Lacquer` | Red_Lacquer | 336 |
+| HO_Weapon_IronKatana | `HO_Weapon_IronKatana__Gold_Leaf` | Gold_Leaf | 46 |
+| HO_Weapon_IronKatana | `HO_Weapon_IronKatana__Iron_Wrought` | Iron_Wrought | 192 |
+| HO_Weapon_IronKatana | `HO_Weapon_IronKatana__Steel_Blade` | Steel_Blade | 206 |
+| HO_Weapon_IronKatana | `HO_Weapon_IronKatana__Tsuka_Wrap` | Tsuka_Wrap | 44 |
+| HO_Weapon_IronKatana_Saya | `HO_Weapon_IronKatana_Saya__Black_Lacquer` | Black_Lacquer | 336 |
+| HO_Weapon_IronKatana_Saya | `HO_Weapon_IronKatana_Saya__Cloth_Crimson` | Cloth_Crimson | 36 |
+| HO_Weapon_IronKatana_Saya | `HO_Weapon_IronKatana_Saya__Iron_Wrought` | Iron_Wrought | 86 |
+| HO_Weapon_MoonlitEdge | `HO_Weapon_MoonlitEdge__Gold_Leaf` | Gold_Leaf | 46 |
+| HO_Weapon_MoonlitEdge | `HO_Weapon_MoonlitEdge__Iron_Wrought` | Iron_Wrought | 332 |
+| HO_Weapon_MoonlitEdge | `HO_Weapon_MoonlitEdge__Steel_Blade` | Steel_Blade | 206 |
+| HO_Weapon_MoonlitEdge | `HO_Weapon_MoonlitEdge__Tsuka_Wrap` | Tsuka_Wrap | 44 |
+| HO_Weapon_MoonlitEdge | `HO_Weapon_MoonlitEdge_Glow` | Glow_Amber, Glow_Blue, Glow_Red, Glow_Yellow | 122 |
+| HO_Weapon_MoonlitEdge_Saya | `HO_Weapon_MoonlitEdge_Saya__Cloth_Crimson` | Cloth_Crimson | 36 |
+| HO_Weapon_MoonlitEdge_Saya | `HO_Weapon_MoonlitEdge_Saya__Iron_Wrought` | Iron_Wrought | 86 |
+| HO_Weapon_MoonlitEdge_Saya | `HO_Weapon_MoonlitEdge_Saya__Navy_Lacquer` | Navy_Lacquer | 336 |
+| HO_Weapon_TemperedKatana | `HO_Weapon_TemperedKatana__Gold_Leaf` | Gold_Leaf | 162 |
+| HO_Weapon_TemperedKatana | `HO_Weapon_TemperedKatana__Iron_Wrought` | Iron_Wrought | 92 |
+| HO_Weapon_TemperedKatana | `HO_Weapon_TemperedKatana__Steel_Blade` | Steel_Blade | 206 |
+| HO_Weapon_TemperedKatana | `HO_Weapon_TemperedKatana__Tsuka_Wrap` | Tsuka_Wrap | 44 |
+| HO_Weapon_TemperedKatana_Saya | `HO_Weapon_TemperedKatana_Saya__Black_Lacquer` | Black_Lacquer | 336 |
+| HO_Weapon_TemperedKatana_Saya | `HO_Weapon_TemperedKatana_Saya__Cloth_Crimson` | Cloth_Crimson | 36 |
+| HO_Weapon_TemperedKatana_Saya | `HO_Weapon_TemperedKatana_Saya__Gold_Leaf` | Gold_Leaf | 86 |

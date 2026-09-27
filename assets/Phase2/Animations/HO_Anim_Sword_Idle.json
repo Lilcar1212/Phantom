@@ -1,0 +1,11 @@
+{
+ "name": "HO_Anim_Sword_Idle",
+ "fps": 30,
+ "frames": 60,
+ "seconds": 2.0,
+ "loop": true,
+ "priority": "Idle",
+ "rig": "R6",
+ "markers": {},
+ "notes": "Bladed stance, slow breathing."
+}

@@ -1,0 +1,16 @@
+{
+ "name": "HO_Anim_Golem_Roar",
+ "fps": 30,
+ "frames": 50,
+ "seconds": 1.667,
+ "loop": false,
+ "priority": "Action",
+ "rig": "Golem",
+ "markers": {
+  "Hit": {
+   "frame": 18,
+   "time": 0.6
+  }
+ },
+ "notes": "Gather and roar with body shake; Hit = roar start (screen shake / VFX)."
+}

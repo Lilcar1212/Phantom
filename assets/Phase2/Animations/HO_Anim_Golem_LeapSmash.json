@@ -1,0 +1,16 @@
+{
+ "name": "HO_Anim_Golem_LeapSmash",
+ "fps": 30,
+ "frames": 60,
+ "seconds": 2.0,
+ "loop": false,
+ "priority": "Action",
+ "rig": "Golem",
+ "markers": {
+  "Hit": {
+   "frame": 38,
+   "time": 1.2667
+  }
+ },
+ "notes": "Crouch, leap (tuck), landing smash; Hit = landing impact (game moves the root)."
+}

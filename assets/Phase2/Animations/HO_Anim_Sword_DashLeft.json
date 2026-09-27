@@ -1,0 +1,11 @@
+{
+ "name": "HO_Anim_Sword_DashLeft",
+ "fps": 30,
+ "frames": 14,
+ "seconds": 0.467,
+ "loop": false,
+ "priority": "Action",
+ "rig": "R6",
+ "markers": {},
+ "notes": "Dash left (movement itself is done by game code)."
+}

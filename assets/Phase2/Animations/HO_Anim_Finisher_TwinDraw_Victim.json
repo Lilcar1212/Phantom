@@ -1,0 +1,24 @@
+{
+ "name": "HO_Anim_Finisher_TwinDraw_Victim",
+ "fps": 30,
+ "frames": 105,
+ "seconds": 3.5,
+ "loop": false,
+ "priority": "Action4",
+ "rig": "R6",
+ "markers": {
+  "Hit": {
+   "frame": 12,
+   "time": 0.4
+  },
+  "Hit2": {
+   "frame": 34,
+   "time": 1.1333
+  },
+  "Hit3": {
+   "frame": 52,
+   "time": 1.7333
+  }
+ },
+ "notes": "Launched, cut in the air, slammed down; ends lying."
+}

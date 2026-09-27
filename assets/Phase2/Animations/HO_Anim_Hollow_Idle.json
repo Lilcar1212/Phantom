@@ -1,0 +1,11 @@
+{
+ "name": "HO_Anim_Hollow_Idle",
+ "fps": 30,
+ "frames": 48,
+ "seconds": 1.6,
+ "loop": true,
+ "priority": "Idle",
+ "rig": "R6",
+ "markers": {},
+ "notes": "Hunched, breathing, sudden twitches."
+}

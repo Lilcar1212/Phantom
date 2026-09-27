@@ -1,0 +1,707 @@
+[
+ {
+  "name": "HO_Anim_Sword_Idle",
+  "frames": 60,
+  "seconds": 2.0,
+  "loop": true,
+  "priority": "Idle",
+  "rig": "R6",
+  "markers": {},
+  "notes": "Bladed stance, slow breathing.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Sword_Idle.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Sword_Idle.fbx",
+   "assets/Phase2/Animations/HO_Anim_Sword_Idle.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Sword_Combo1",
+  "frames": 18,
+  "seconds": 0.6,
+  "loop": false,
+  "priority": "Action",
+  "rig": "R6",
+  "markers": {
+   "Hit": 8
+  },
+  "notes": "Horizontal slash right-to-left.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Sword_Combo1.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Sword_Combo1.fbx",
+   "assets/Phase2/Animations/HO_Anim_Sword_Combo1.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Sword_Combo2",
+  "frames": 18,
+  "seconds": 0.6,
+  "loop": false,
+  "priority": "Action",
+  "rig": "R6",
+  "markers": {
+   "Hit": 7
+  },
+  "notes": "Rising backhand left-to-right.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Sword_Combo2.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Sword_Combo2.fbx",
+   "assets/Phase2/Animations/HO_Anim_Sword_Combo2.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Sword_Combo3",
+  "frames": 22,
+  "seconds": 0.73,
+  "loop": false,
+  "priority": "Action",
+  "rig": "R6",
+  "markers": {
+   "Hit": 11
+  },
+  "notes": "Overhead vertical cut into a lunge.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Sword_Combo3.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Sword_Combo3.fbx",
+   "assets/Phase2/Animations/HO_Anim_Sword_Combo3.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Sword_Finisher",
+  "frames": 46,
+  "seconds": 1.53,
+  "loop": false,
+  "priority": "Action",
+  "rig": "R6",
+  "markers": {
+   "Hit": 16,
+   "Hit2": 24
+  },
+  "notes": "Heavy 4th hit: coil, full spin cut (Hit), final heavy slash (Hit2) held for 10 frames.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Sword_Finisher.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Sword_Finisher.fbx",
+   "assets/Phase2/Animations/HO_Anim_Sword_Finisher.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Sword_Block",
+  "frames": 20,
+  "seconds": 0.67,
+  "loop": true,
+  "priority": "Action",
+  "rig": "R6",
+  "markers": {},
+  "notes": "Blade held horizontal across the body (loop while blocking).",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Sword_Block.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Sword_Block.fbx",
+   "assets/Phase2/Animations/HO_Anim_Sword_Block.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Sword_Parry",
+  "frames": 14,
+  "seconds": 0.47,
+  "loop": false,
+  "priority": "Action",
+  "rig": "R6",
+  "markers": {
+   "Hit": 3
+  },
+  "notes": "Snap deflect; Hit = parry window frame.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Sword_Parry.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Sword_Parry.fbx",
+   "assets/Phase2/Animations/HO_Anim_Sword_Parry.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Sword_ClashLock",
+  "frames": 24,
+  "seconds": 0.8,
+  "loop": true,
+  "priority": "Action2",
+  "rig": "R6",
+  "markers": {},
+  "notes": "Blades locked, straining tremble (loop).",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Sword_ClashLock.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Sword_ClashLock.fbx",
+   "assets/Phase2/Animations/HO_Anim_Sword_ClashLock.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Sword_DashForward",
+  "frames": 14,
+  "seconds": 0.47,
+  "loop": false,
+  "priority": "Action",
+  "rig": "R6",
+  "markers": {},
+  "notes": "Dash forward (movement itself is done by game code).",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Sword_DashForward.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Sword_DashForward.fbx",
+   "assets/Phase2/Animations/HO_Anim_Sword_DashForward.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Sword_DashBack",
+  "frames": 14,
+  "seconds": 0.47,
+  "loop": false,
+  "priority": "Action",
+  "rig": "R6",
+  "markers": {},
+  "notes": "Dash back (movement itself is done by game code).",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Sword_DashBack.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Sword_DashBack.fbx",
+   "assets/Phase2/Animations/HO_Anim_Sword_DashBack.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Sword_DashLeft",
+  "frames": 14,
+  "seconds": 0.47,
+  "loop": false,
+  "priority": "Action",
+  "rig": "R6",
+  "markers": {},
+  "notes": "Dash left (movement itself is done by game code).",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Sword_DashLeft.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Sword_DashLeft.fbx",
+   "assets/Phase2/Animations/HO_Anim_Sword_DashLeft.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Sword_DashRight",
+  "frames": 14,
+  "seconds": 0.47,
+  "loop": false,
+  "priority": "Action",
+  "rig": "R6",
+  "markers": {},
+  "notes": "Dash right (movement itself is done by game code).",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Sword_DashRight.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Sword_DashRight.fbx",
+   "assets/Phase2/Animations/HO_Anim_Sword_DashRight.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Fist_Idle",
+  "frames": 40,
+  "seconds": 1.33,
+  "loop": true,
+  "priority": "Idle",
+  "rig": "R6",
+  "markers": {},
+  "notes": "Boxing guard with a bounce.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Fist_Idle.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Fist_Idle.fbx",
+   "assets/Phase2/Animations/HO_Anim_Fist_Idle.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Fist_Combo1",
+  "frames": 12,
+  "seconds": 0.4,
+  "loop": false,
+  "priority": "Action",
+  "rig": "R6",
+  "markers": {
+   "Hit": 4
+  },
+  "notes": "Left jab.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Fist_Combo1.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Fist_Combo1.fbx",
+   "assets/Phase2/Animations/HO_Anim_Fist_Combo1.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Fist_Combo2",
+  "frames": 14,
+  "seconds": 0.47,
+  "loop": false,
+  "priority": "Action",
+  "rig": "R6",
+  "markers": {
+   "Hit": 5
+  },
+  "notes": "Right cross.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Fist_Combo2.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Fist_Combo2.fbx",
+   "assets/Phase2/Animations/HO_Anim_Fist_Combo2.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Fist_Combo3",
+  "frames": 16,
+  "seconds": 0.53,
+  "loop": false,
+  "priority": "Action",
+  "rig": "R6",
+  "markers": {
+   "Hit": 7
+  },
+  "notes": "Left hook.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Fist_Combo3.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Fist_Combo3.fbx",
+   "assets/Phase2/Animations/HO_Anim_Fist_Combo3.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Fist_Combo4",
+  "frames": 22,
+  "seconds": 0.73,
+  "loop": false,
+  "priority": "Action",
+  "rig": "R6",
+  "markers": {
+   "Hit": 10
+  },
+  "notes": "Right roundhouse kick finisher.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Fist_Combo4.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Fist_Combo4.fbx",
+   "assets/Phase2/Animations/HO_Anim_Fist_Combo4.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Fist_Block",
+  "frames": 20,
+  "seconds": 0.67,
+  "loop": true,
+  "priority": "Action",
+  "rig": "R6",
+  "markers": {},
+  "notes": "Forearms crossed before the face.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Fist_Block.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Fist_Block.fbx",
+   "assets/Phase2/Animations/HO_Anim_Fist_Block.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Run",
+  "frames": 20,
+  "seconds": 0.67,
+  "loop": true,
+  "priority": "Movement",
+  "rig": "R6",
+  "markers": {},
+  "notes": "Anime sprint: forward lean, big arm swing.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Run.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Run.fbx",
+   "assets/Phase2/Animations/HO_Anim_Run.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Jump",
+  "frames": 14,
+  "seconds": 0.47,
+  "loop": false,
+  "priority": "Movement",
+  "rig": "R6",
+  "markers": {},
+  "notes": "Crouch, launch (arms up), settle into the airborne pose.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Jump.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Jump.fbx",
+   "assets/Phase2/Animations/HO_Anim_Jump.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_DoubleJump",
+  "frames": 24,
+  "seconds": 0.8,
+  "loop": false,
+  "priority": "Action",
+  "rig": "R6",
+  "markers": {},
+  "notes": "Tucked front flip (full 360 torso rotation about the root).",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_DoubleJump.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_DoubleJump.fbx",
+   "assets/Phase2/Animations/HO_Anim_DoubleJump.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Landing",
+  "frames": 12,
+  "seconds": 0.4,
+  "loop": false,
+  "priority": "Movement",
+  "rig": "R6",
+  "markers": {},
+  "notes": "Impact crouch (legs spread to keep the feet on the ground) and recover.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Landing.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Landing.fbx",
+   "assets/Phase2/Animations/HO_Anim_Landing.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Cast_Projectile",
+  "frames": 20,
+  "seconds": 0.67,
+  "loop": false,
+  "priority": "Action",
+  "rig": "R6",
+  "markers": {
+   "Hit": 9
+  },
+  "notes": "Wind-up and throw; Hit = release frame (spawn the projectile).",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Cast_Projectile.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Cast_Projectile.fbx",
+   "assets/Phase2/Animations/HO_Anim_Cast_Projectile.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Cast_BeamChannel",
+  "frames": 24,
+  "seconds": 0.8,
+  "loop": true,
+  "priority": "Action",
+  "rig": "R6",
+  "markers": {
+   "Hit": 0
+  },
+  "notes": "Two-handed beam channel (loop); Hit at 0 = beam start.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Cast_BeamChannel.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Cast_BeamChannel.fbx",
+   "assets/Phase2/Animations/HO_Anim_Cast_BeamChannel.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Cast_GroundSlam",
+  "frames": 30,
+  "seconds": 1.0,
+  "loop": false,
+  "priority": "Action",
+  "rig": "R6",
+  "markers": {
+   "Hit": 16
+  },
+  "notes": "Raise both fists and slam the ground; Hit = impact (spawn shockwave / rock shards).",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Cast_GroundSlam.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Cast_GroundSlam.fbx",
+   "assets/Phase2/Animations/HO_Anim_Cast_GroundSlam.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Cast_Summon",
+  "frames": 36,
+  "seconds": 1.2,
+  "loop": false,
+  "priority": "Action",
+  "rig": "R6",
+  "markers": {
+   "Hit": 18
+  },
+  "notes": "Gather low, then arms raised to summon; Hit = summon moment.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Cast_Summon.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Cast_Summon.fbx",
+   "assets/Phase2/Animations/HO_Anim_Cast_Summon.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Cast_GrabThrow",
+  "frames": 34,
+  "seconds": 1.13,
+  "loop": false,
+  "priority": "Action",
+  "rig": "R6",
+  "markers": {
+   "Hit": 8,
+   "Hit2": 24
+  },
+  "notes": "Grab (Hit = catch), lift, spin, throw (Hit2 = release).",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Cast_GrabThrow.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Cast_GrabThrow.fbx",
+   "assets/Phase2/Animations/HO_Anim_Cast_GrabThrow.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Golem_Walk",
+  "frames": 48,
+  "seconds": 1.6,
+  "loop": true,
+  "priority": "Movement",
+  "rig": "Golem",
+  "markers": {},
+  "notes": "Heavy, swaying walk.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Golem_Walk.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Golem_Walk.fbx",
+   "assets/Phase2/Animations/HO_Anim_Golem_Walk.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Golem_Punch1",
+  "frames": 30,
+  "seconds": 1.0,
+  "loop": false,
+  "priority": "Action",
+  "rig": "Golem",
+  "markers": {
+   "Hit": 15
+  },
+  "notes": "Right straight punch.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Golem_Punch1.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Golem_Punch1.fbx",
+   "assets/Phase2/Animations/HO_Anim_Golem_Punch1.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Golem_Punch2",
+  "frames": 30,
+  "seconds": 1.0,
+  "loop": false,
+  "priority": "Action",
+  "rig": "Golem",
+  "markers": {
+   "Hit": 15
+  },
+  "notes": "Left straight punch.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Golem_Punch2.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Golem_Punch2.fbx",
+   "assets/Phase2/Animations/HO_Anim_Golem_Punch2.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Golem_Punch3",
+  "frames": 34,
+  "seconds": 1.13,
+  "loop": false,
+  "priority": "Action",
+  "rig": "Golem",
+  "markers": {
+   "Hit": 16
+  },
+  "notes": "Right uppercut (3rd hit).",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Golem_Punch3.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Golem_Punch3.fbx",
+   "assets/Phase2/Animations/HO_Anim_Golem_Punch3.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Golem_Slam",
+  "frames": 44,
+  "seconds": 1.47,
+  "loop": false,
+  "priority": "Action",
+  "rig": "Golem",
+  "markers": {
+   "Hit": 22
+  },
+  "notes": "Two-handed overhead slam; Hit = impact.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Golem_Slam.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Golem_Slam.fbx",
+   "assets/Phase2/Animations/HO_Anim_Golem_Slam.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Golem_LeapSmash",
+  "frames": 60,
+  "seconds": 2.0,
+  "loop": false,
+  "priority": "Action",
+  "rig": "Golem",
+  "markers": {
+   "Hit": 38
+  },
+  "notes": "Crouch, leap (tuck), landing smash; Hit = landing impact (game moves the root).",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Golem_LeapSmash.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Golem_LeapSmash.fbx",
+   "assets/Phase2/Animations/HO_Anim_Golem_LeapSmash.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Golem_Roar",
+  "frames": 50,
+  "seconds": 1.67,
+  "loop": false,
+  "priority": "Action",
+  "rig": "Golem",
+  "markers": {
+   "Hit": 18
+  },
+  "notes": "Gather and roar with body shake; Hit = roar start (screen shake / VFX).",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Golem_Roar.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Golem_Roar.fbx",
+   "assets/Phase2/Animations/HO_Anim_Golem_Roar.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Hollow_Idle",
+  "frames": 48,
+  "seconds": 1.6,
+  "loop": true,
+  "priority": "Idle",
+  "rig": "R6",
+  "markers": {},
+  "notes": "Hunched, breathing, sudden twitches.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Hollow_Idle.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Hollow_Idle.fbx",
+   "assets/Phase2/Animations/HO_Anim_Hollow_Idle.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Hollow_Stalk",
+  "frames": 32,
+  "seconds": 1.07,
+  "loop": true,
+  "priority": "Movement",
+  "rig": "R6",
+  "markers": {},
+  "notes": "Hunched stalking walk.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Hollow_Stalk.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Hollow_Stalk.fbx",
+   "assets/Phase2/Animations/HO_Anim_Hollow_Stalk.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Hollow_Lunge",
+  "frames": 22,
+  "seconds": 0.73,
+  "loop": false,
+  "priority": "Action",
+  "rig": "R6",
+  "markers": {
+   "Hit": 10
+  },
+  "notes": "Coiled lunge with both claws; Hit = claws connect.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Hollow_Lunge.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Hollow_Lunge.fbx",
+   "assets/Phase2/Animations/HO_Anim_Hollow_Lunge.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Hollow_HitReaction",
+  "frames": 14,
+  "seconds": 0.47,
+  "loop": false,
+  "priority": "Action2",
+  "rig": "R6",
+  "markers": {},
+  "notes": "Snapped back by a hit.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Hollow_HitReaction.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Hollow_HitReaction.fbx",
+   "assets/Phase2/Animations/HO_Anim_Hollow_HitReaction.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Hollow_Death",
+  "frames": 50,
+  "seconds": 1.67,
+  "loop": false,
+  "priority": "Action4",
+  "rig": "R6",
+  "markers": {},
+  "notes": "Stagger, fall to the knees, collapse face down (ends lying; keep the last frame).",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Hollow_Death.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Hollow_Death.fbx",
+   "assets/Phase2/Animations/HO_Anim_Hollow_Death.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Finisher_OathCut_Attacker",
+  "frames": 90,
+  "seconds": 3.0,
+  "loop": false,
+  "priority": "Action4",
+  "rig": "R6",
+  "markers": {
+   "Hit": 16,
+   "Hit2": 46,
+   "Hit3": 56
+  },
+  "notes": "Paired with Finisher_OathCut_Victim (victim 5 studs in front, facing the attacker). Stab (held), twist, rip-out slash.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Finisher_OathCut_Attacker.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Finisher_OathCut_Attacker.fbx",
+   "assets/Phase2/Animations/HO_Anim_Finisher_OathCut_Attacker.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Finisher_OathCut_Victim",
+  "frames": 90,
+  "seconds": 3.0,
+  "loop": false,
+  "priority": "Action4",
+  "rig": "R6",
+  "markers": {
+   "Hit": 16,
+   "Hit2": 46,
+   "Hit3": 56
+  },
+  "notes": "Paired victim of OathCut; ends lying face down.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Finisher_OathCut_Victim.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Finisher_OathCut_Victim.fbx",
+   "assets/Phase2/Animations/HO_Anim_Finisher_OathCut_Victim.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Finisher_TwinDraw_Attacker",
+  "frames": 105,
+  "seconds": 3.5,
+  "loop": false,
+  "priority": "Action4",
+  "rig": "R6",
+  "markers": {
+   "Hit": 12,
+   "Hit2": 34,
+   "Hit3": 52
+  },
+  "notes": "Paired with Finisher_TwinDraw_Victim: launching kick, aerial slash, downward finishing cut held (game moves roots).",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Finisher_TwinDraw_Attacker.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Finisher_TwinDraw_Attacker.fbx",
+   "assets/Phase2/Animations/HO_Anim_Finisher_TwinDraw_Attacker.json"
+  ]
+ },
+ {
+  "name": "HO_Anim_Finisher_TwinDraw_Victim",
+  "frames": 105,
+  "seconds": 3.5,
+  "loop": false,
+  "priority": "Action4",
+  "rig": "R6",
+  "markers": {
+   "Hit": 12,
+   "Hit2": 34,
+   "Hit3": 52
+  },
+  "notes": "Launched, cut in the air, slammed down; ends lying.",
+  "files": [
+   "assets/Phase2/Animations/HO_Anim_Finisher_TwinDraw_Victim.rbxmx",
+   "assets/Phase2/Animations/HO_Anim_Finisher_TwinDraw_Victim.fbx",
+   "assets/Phase2/Animations/HO_Anim_Finisher_TwinDraw_Victim.json"
+  ]
+ }
+]

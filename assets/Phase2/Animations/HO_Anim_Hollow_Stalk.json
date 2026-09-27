@@ -1,0 +1,11 @@
+{
+ "name": "HO_Anim_Hollow_Stalk",
+ "fps": 30,
+ "frames": 32,
+ "seconds": 1.067,
+ "loop": true,
+ "priority": "Movement",
+ "rig": "R6",
+ "markers": {},
+ "notes": "Hunched stalking walk."
+}

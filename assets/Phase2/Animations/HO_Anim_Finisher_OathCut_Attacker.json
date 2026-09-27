@@ -1,0 +1,24 @@
+{
+ "name": "HO_Anim_Finisher_OathCut_Attacker",
+ "fps": 30,
+ "frames": 90,
+ "seconds": 3.0,
+ "loop": false,
+ "priority": "Action4",
+ "rig": "R6",
+ "markers": {
+  "Hit": {
+   "frame": 16,
+   "time": 0.5333
+  },
+  "Hit2": {
+   "frame": 46,
+   "time": 1.5333
+  },
+  "Hit3": {
+   "frame": 56,
+   "time": 1.8667
+  }
+ },
+ "notes": "Paired with Finisher_OathCut_Victim (victim 5 studs in front, facing the attacker). Stab (held), twist, rip-out slash."
+}

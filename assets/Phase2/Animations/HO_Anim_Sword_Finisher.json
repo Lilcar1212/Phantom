@@ -1,0 +1,20 @@
+{
+ "name": "HO_Anim_Sword_Finisher",
+ "fps": 30,
+ "frames": 46,
+ "seconds": 1.533,
+ "loop": false,
+ "priority": "Action",
+ "rig": "R6",
+ "markers": {
+  "Hit": {
+   "frame": 16,
+   "time": 0.5333
+  },
+  "Hit2": {
+   "frame": 24,
+   "time": 0.8
+  }
+ },
+ "notes": "Heavy 4th hit: coil, full spin cut (Hit), final heavy slash (Hit2) held for 10 frames."
+}
