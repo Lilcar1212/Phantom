@@ -25755,6 +25755,651 @@
   "notes": "L x 1 x 9 studs; outside face = front (-Z); centre line 0.5 inside the footprint edge; upper floor, mushiko slat windows | meshes: HO_Wall_Upper_Mushiko_8__Plaster_White (240), HO_Wall_Upper_Mushiko_8__Shoji_Paper (24), HO_Wall_Upper_Mushiko_8__Timber_Dark (84), HO_Wall_Upper_Mushiko_8__Timber_Light (192)"
  },
  {
+  "name": "HO_Anim_Cast_BeamChannel",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Cast_BeamChannel.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Cast_BeamChannel.png"
+  ],
+  "notes": "Two-handed beam channel (loop); Hit at 0 = beam start. 24 frames (0.80 s), loop=True, priority=Action, markers={'Hit': 0}. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Cast_GrabThrow",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Cast_GrabThrow.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Cast_GrabThrow.png"
+  ],
+  "notes": "Grab (Hit = catch), lift, spin, throw (Hit2 = release). 34 frames (1.13 s), loop=False, priority=Action, markers={'Hit': 8, 'Hit2': 24}. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Cast_GroundSlam",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Cast_GroundSlam.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Cast_GroundSlam.png"
+  ],
+  "notes": "Raise both fists and slam the ground; Hit = impact (spawn shockwave / rock shards). 30 frames (1.00 s), loop=False, priority=Action, markers={'Hit': 16}. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Cast_Projectile",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Cast_Projectile.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Cast_Projectile.png"
+  ],
+  "notes": "Wind-up and throw; Hit = release frame (spawn the projectile). 20 frames (0.67 s), loop=False, priority=Action, markers={'Hit': 9}. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Cast_Summon",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Cast_Summon.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Cast_Summon.png"
+  ],
+  "notes": "Gather low, then arms raised to summon; Hit = summon moment. 36 frames (1.20 s), loop=False, priority=Action, markers={'Hit': 18}. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_DoubleJump",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_DoubleJump.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_DoubleJump.png"
+  ],
+  "notes": "Tucked front flip (full 360 torso rotation about the root). 24 frames (0.80 s), loop=False, priority=Action, markers=none. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Finisher_OathCut_Attacker",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Finisher_OathCut_Attacker.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Finisher_OathCut_Attacker.png"
+  ],
+  "notes": "Paired with Finisher_OathCut_Victim (victim 5 studs in front, facing the attacker). Stab (held), twist, rip-out slash. 90 frames (3.00 s), loop=False, priority=Action4, markers={'Hit': 16, 'Hit2': 46, 'Hit3': 56}. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Finisher_OathCut_Victim",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Finisher_OathCut_Victim.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Finisher_OathCut_Victim.png"
+  ],
+  "notes": "Paired victim of OathCut; ends lying face down. 90 frames (3.00 s), loop=False, priority=Action4, markers={'Hit': 16, 'Hit2': 46, 'Hit3': 56}. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Finisher_TwinDraw_Attacker",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Finisher_TwinDraw_Attacker.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Finisher_TwinDraw_Attacker.png"
+  ],
+  "notes": "Paired with Finisher_TwinDraw_Victim: launching kick, aerial slash, downward finishing cut held (game moves roots). 105 frames (3.50 s), loop=False, priority=Action4, markers={'Hit': 12, 'Hit2': 34, 'Hit3': 52}. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Finisher_TwinDraw_Victim",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Finisher_TwinDraw_Victim.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Finisher_TwinDraw_Victim.png"
+  ],
+  "notes": "Launched, cut in the air, slammed down; ends lying. 105 frames (3.50 s), loop=False, priority=Action4, markers={'Hit': 12, 'Hit2': 34, 'Hit3': 52}. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Fist_Block",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Fist_Block.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Fist_Block.png"
+  ],
+  "notes": "Forearms crossed before the face. 20 frames (0.67 s), loop=True, priority=Action, markers=none. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Fist_Combo1",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Fist_Combo1.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Fist_Combo1.png"
+  ],
+  "notes": "Left jab. 12 frames (0.40 s), loop=False, priority=Action, markers={'Hit': 4}. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Fist_Combo2",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Fist_Combo2.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Fist_Combo2.png"
+  ],
+  "notes": "Right cross. 14 frames (0.47 s), loop=False, priority=Action, markers={'Hit': 5}. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Fist_Combo3",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Fist_Combo3.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Fist_Combo3.png"
+  ],
+  "notes": "Left hook. 16 frames (0.53 s), loop=False, priority=Action, markers={'Hit': 7}. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Fist_Combo4",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Fist_Combo4.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Fist_Combo4.png"
+  ],
+  "notes": "Right roundhouse kick finisher. 22 frames (0.73 s), loop=False, priority=Action, markers={'Hit': 10}. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Fist_Idle",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Fist_Idle.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Fist_Idle.png"
+  ],
+  "notes": "Boxing guard with a bounce. 40 frames (1.33 s), loop=True, priority=Idle, markers=none. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Golem_LeapSmash",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Golem_LeapSmash.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Golem_LeapSmash.png"
+  ],
+  "notes": "Crouch, leap (tuck), landing smash; Hit = landing impact (game moves the root). 60 frames (2.00 s), loop=False, priority=Action, markers={'Hit': 38}. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Golem_Punch1",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Golem_Punch1.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Golem_Punch1.png"
+  ],
+  "notes": "Right straight punch. 30 frames (1.00 s), loop=False, priority=Action, markers={'Hit': 15}. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Golem_Punch2",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Golem_Punch2.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Golem_Punch2.png"
+  ],
+  "notes": "Left straight punch. 30 frames (1.00 s), loop=False, priority=Action, markers={'Hit': 15}. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Golem_Punch3",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Golem_Punch3.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Golem_Punch3.png"
+  ],
+  "notes": "Right uppercut (3rd hit). 34 frames (1.13 s), loop=False, priority=Action, markers={'Hit': 16}. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Golem_Roar",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Golem_Roar.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Golem_Roar.png"
+  ],
+  "notes": "Gather and roar with body shake; Hit = roar start (screen shake / VFX). 50 frames (1.67 s), loop=False, priority=Action, markers={'Hit': 18}. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Golem_Slam",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Golem_Slam.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Golem_Slam.png"
+  ],
+  "notes": "Two-handed overhead slam; Hit = impact. 44 frames (1.47 s), loop=False, priority=Action, markers={'Hit': 22}. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Golem_Walk",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Golem_Walk.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Golem_Walk.png"
+  ],
+  "notes": "Heavy, swaying walk. 48 frames (1.60 s), loop=True, priority=Movement, markers=none. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Hollow_Death",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Hollow_Death.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Hollow_Death.png"
+  ],
+  "notes": "Stagger, fall to the knees, collapse face down (ends lying; keep the last frame). 50 frames (1.67 s), loop=False, priority=Action4, markers=none. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Hollow_HitReaction",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Hollow_HitReaction.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Hollow_HitReaction.png"
+  ],
+  "notes": "Snapped back by a hit. 14 frames (0.47 s), loop=False, priority=Action2, markers=none. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Hollow_Idle",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Hollow_Idle.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Hollow_Idle.png"
+  ],
+  "notes": "Hunched, breathing, sudden twitches. 48 frames (1.60 s), loop=True, priority=Idle, markers=none. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Hollow_Lunge",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Hollow_Lunge.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Hollow_Lunge.png"
+  ],
+  "notes": "Coiled lunge with both claws; Hit = claws connect. 22 frames (0.73 s), loop=False, priority=Action, markers={'Hit': 10}. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Hollow_Stalk",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Hollow_Stalk.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Hollow_Stalk.png"
+  ],
+  "notes": "Hunched stalking walk. 32 frames (1.07 s), loop=True, priority=Movement, markers=none. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Jump",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Jump.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Jump.png"
+  ],
+  "notes": "Crouch, launch (arms up), settle into the airborne pose. 14 frames (0.47 s), loop=False, priority=Movement, markers=none. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Landing",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Landing.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Landing.png"
+  ],
+  "notes": "Impact crouch (legs spread to keep the feet on the ground) and recover. 12 frames (0.40 s), loop=False, priority=Movement, markers=none. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Run",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Run.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Run.png"
+  ],
+  "notes": "Anime sprint: forward lean, big arm swing. 20 frames (0.67 s), loop=True, priority=Movement, markers=none. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Sword_Block",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Sword_Block.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Sword_Block.png"
+  ],
+  "notes": "Blade held horizontal across the body (loop while blocking). 20 frames (0.67 s), loop=True, priority=Action, markers=none. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Sword_ClashLock",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Sword_ClashLock.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Sword_ClashLock.png"
+  ],
+  "notes": "Blades locked, straining tremble (loop). 24 frames (0.80 s), loop=True, priority=Action2, markers=none. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Sword_Combo1",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Sword_Combo1.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Sword_Combo1.png"
+  ],
+  "notes": "Horizontal slash right-to-left. 18 frames (0.60 s), loop=False, priority=Action, markers={'Hit': 8}. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Sword_Combo2",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Sword_Combo2.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Sword_Combo2.png"
+  ],
+  "notes": "Rising backhand left-to-right. 18 frames (0.60 s), loop=False, priority=Action, markers={'Hit': 7}. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Sword_Combo3",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Sword_Combo3.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Sword_Combo3.png"
+  ],
+  "notes": "Overhead vertical cut into a lunge. 22 frames (0.73 s), loop=False, priority=Action, markers={'Hit': 11}. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Sword_DashBack",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Sword_DashBack.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Sword_DashBack.png"
+  ],
+  "notes": "Dash back (movement itself is done by game code). 14 frames (0.47 s), loop=False, priority=Action, markers=none. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Sword_DashForward",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Sword_DashForward.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Sword_DashForward.png"
+  ],
+  "notes": "Dash forward (movement itself is done by game code). 14 frames (0.47 s), loop=False, priority=Action, markers=none. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Sword_DashLeft",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Sword_DashLeft.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Sword_DashLeft.png"
+  ],
+  "notes": "Dash left (movement itself is done by game code). 14 frames (0.47 s), loop=False, priority=Action, markers=none. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Sword_DashRight",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Sword_DashRight.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Sword_DashRight.png"
+  ],
+  "notes": "Dash right (movement itself is done by game code). 14 frames (0.47 s), loop=False, priority=Action, markers=none. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Sword_Finisher",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Sword_Finisher.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Sword_Finisher.png"
+  ],
+  "notes": "Heavy 4th hit: coil, full spin cut (Hit), final heavy slash (Hit2) held for 10 frames. 46 frames (1.53 s), loop=False, priority=Action, markers={'Hit': 16, 'Hit2': 24}. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Sword_Idle",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Sword_Idle.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Sword_Idle.png"
+  ],
+  "notes": "Bladed stance, slow breathing. 60 frames (2.00 s), loop=True, priority=Idle, markers=none. Also .fbx + .json."
+ },
+ {
+  "name": "HO_Anim_Sword_Parry",
+  "phase": "Phase2",
+  "category": "Animations",
+  "type": "Animation (R6, 30 fps)",
+  "file": "assets/Phase2/Animations/HO_Anim_Sword_Parry.rbxmx",
+  "tris": "",
+  "textures": [],
+  "pivot": "-",
+  "checks": {},
+  "renders": [
+   "renders/Phase2/Animations/HO_Anim_Sword_Parry.png"
+  ],
+  "notes": "Snap deflect; Hit = parry window frame. 14 frames (0.47 s), loop=False, priority=Action, markers={'Hit': 3}. Also .fbx + .json."
+ },
+ {
   "name": "HO_VFX_Dust_Cloud",
   "phase": "Phase3",
   "category": "Flipbooks",
