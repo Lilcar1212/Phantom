@@ -211,3 +211,27 @@ An ancient Eastern water dragon built as a real game creature. It's a solid PBR 
 * **Import:** Rig Type = Custom, then run ApplyTextures.
 * **Animate:** `roblox/HO_PhoenixRig.lua`: `Fly(model)` flaps the wings, `Glide(model)` soars, and `Screech(model)` plays a one-shot screech.
 * **Effects:** add fire and ember ParticleEmitters on the wing tips and tail, plus an orange PointLight in the chest.
+
+## 8. Hero unit: giant iron samurai mech (`assets/Phase4/Mechs/HO_Mech_Tetsujin.fbx`)
+
+* **Size and pose:** about 41 studs to the horn tips (46 with the back banner). It faces −Z with its feet on the ground at the origin.
+* **Look:** a riveted iron war machine dressed as a samurai:
+  * kabuto helmet with gold kuwagata horns and a crest
+  * iron menpo face mask with a glowing red eye slit
+  * layered red and black sode shoulder plates
+  * laced dō chest plates and a kusazuri skirt
+  * pistons on the arms and legs
+  * smoke stacks and a crimson banner on the back
+* **Cannon** in the middle of the chest, with a glowing amber core. The muzzle is at (0, 27.2, −13.0) studs from the origin.
+* **Nodachi:** a giant dark-steel sword with a glowing amber edge, in the right hand.
+* **Textures:** Mech_Plate (new riveted iron), Black/Red_Lacquer, Gold_Leaf, Cloth_Crimson, Steel_Dark, Iron_Wrought, Tsuka_Wrap, Glow_Red and Glow_Amber (set the Glow parts to Neon).
+* **Rig:** 20 bones, and every piece is rigid (it moves like machinery):
+  * Root, Pelvis, Torso, Head, Cannon
+  * L/R_UpperArm, L/R_Forearm, L/R_Hand, Sword
+  * L/R_Thigh, L/R_Shin, L/R_Foot
+* **Import:** Rig Type = Custom, then run ApplyTextures.
+* **Animate:** `roblox/HO_MechRig.lua`:
+  * `Idle(model)` breathes and scans with its head.
+  * `Swing(model)` does an overhead sword cut.
+  * `FireCannon(model)` recoils and returns the muzzle CFrame for your projectile or VFX.
+  * `Stomp(model, "R"/"L")` stomps a foot.

@@ -811,6 +811,32 @@ def phoenix_all():
     phoenix_body_sets(); phoenix_feather(); phoenix_plume(); phoenix_beak(); fire_flame()
 
 
+def mech_plate():
+    """Riveted war-machine iron: 4x4 panels per tile with seams, rivet rows along the seams, scratches, rust
+    streaks running down (V), lighter worn edges. Tile = 8 studs."""
+    U, V = xx, 1 - yy
+    P = 4
+    fu, fv = (U * P) % 1.0, (V * P) % 1.0
+    du = np.minimum(fu, 1 - fu); dv = np.minimum(fv, 1 - fv)
+    seam = smooth(0.012, 0.0, np.minimum(du, dv))
+    edge = smooth(0.05, 0.015, np.minimum(du, dv)) * (1 - seam)
+    # rivets: every 1/8 panel along both seam directions, 0.03 panel in from the seam
+    ru = ((U * P * 8) % 1.0 - 0.5) / 8; rv = ((V * P * 8) % 1.0 - 0.5) / 8
+    rivet = np.maximum(smooth(0.011, 0.006, np.sqrt(ru ** 2 + (dv - 0.045) ** 2)),
+                       smooth(0.011, 0.006, np.sqrt(rv ** 2 + (du - 0.045) ** 2)))
+    n1 = fnoise(901, 2.2); n2 = fnoise(902, 1.1, aniso=(1.0, 12.0)); n3 = fnoise(903, 0.9, aniso=(14.0, 1.0))
+    pid = (np.floor(U * P) * 7 + np.floor(V * P) * 3) % 5 / 5.0
+    col = lerp((70, 70, 76), (104, 102, 104), n1 * 0.7 + pid * 0.3)
+    rust = smooth(0.62, 0.8, n2) * smooth(0.3, 0.7, n1)
+    col = lerp(col, (96, 52, 30), rust * 0.55)
+    scratch = smooth(0.8, 0.9, n3) * 0.35
+    col = lerp(col, (130, 128, 128), scratch + edge * 0.35)
+    col = lerp(col, (18, 18, 20), seam * 0.9)
+    col = lerp(col, (110, 106, 102), rivet * 0.6)
+    h = rivet * 1.0 - seam * 0.8 + n1 * 0.05
+    save('Mech_Plate', col, h, 0.42 + rust * 0.3 - edge * 0.15 - scratch * 0.2, 0.85 - rust * 0.6, 6.0)
+
+
 if __name__ == '__main__':
     which = sys.argv[1:] or ['roof_tile', 'timber_dark', 'timber_light', 'plaster', 'granite', 'fitted_stone',
                              'cobble', 'planks', 'gold', 'iron', 'shoji', 'uv_check']

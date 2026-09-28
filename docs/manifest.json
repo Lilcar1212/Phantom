@@ -31514,6 +31514,1964 @@
   "notes": "Water magic emblem: navy disc, gold rims, 16-rune band, glowing droplet over waves. Upload as an Image/Decal for ImageLabels (transparent outside the circle)."
  },
  {
+  "name": "HO_Mech_Tetsujin",
+  "phase": "Phase4",
+  "category": "Mechs",
+  "type": "Skinned mesh group + armature",
+  "file": "assets/Phase4/Mechs/HO_Mech_Tetsujin.fbx",
+  "tris": 10026,
+  "textures": [
+   "Black_Lacquer",
+   "Cloth_Crimson",
+   "Glow_Amber",
+   "Glow_Red",
+   "Gold_Leaf",
+   "Iron_Wrought",
+   "Mech_Plate",
+   "Red_Lacquer",
+   "Shadow_Black",
+   "Steel_Dark",
+   "Timber_Dark",
+   "Tsuka_Wrap"
+  ],
+  "pivot": "ground between the feet",
+  "renders": [],
+  "mesh_checks": [
+   {
+    "name": "HO_Mech_Tetsujin_Head__Black_Lacquer",
+    "tris": 402,
+    "tris_per_material": {
+     "Black_Lacquer": 402
+    },
+    "under_limit": true,
+    "dims": [
+     10.5,
+     10.5,
+     6.1
+    ],
+    "parts": 6,
+    "floating": 5,
+    "closed_parts": 4,
+    "open_parts": 2,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Head__Glow_Red",
+    "tris": 12,
+    "tris_per_material": {
+     "Glow_Red": 12
+    },
+    "under_limit": true,
+    "dims": [
+     3.2,
+     0.08,
+     0.45
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Glow_Red"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Head__Gold_Leaf",
+    "tris": 256,
+    "tris_per_material": {
+     "Gold_Leaf": 256
+    },
+    "under_limit": true,
+    "dims": [
+     8.496,
+     2.496,
+     9.418
+    ],
+    "parts": 5,
+    "floating": 3,
+    "closed_parts": 5,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Head__Iron_Wrought",
+    "tris": 736,
+    "tris_per_material": {
+     "Iron_Wrought": 736
+    },
+    "under_limit": true,
+    "dims": [
+     6.211,
+     6.211,
+     3.425
+    ],
+    "parts": 16,
+    "floating": 0,
+    "closed_parts": 16,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Head__Mech_Plate",
+    "tris": 124,
+    "tris_per_material": {
+     "Mech_Plate": 124
+    },
+    "under_limit": true,
+    "dims": [
+     9.4,
+     9.4,
+     2.6
+    ],
+    "parts": 3,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 2,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Plate"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Head__Red_Lacquer",
+    "tris": 80,
+    "tris_per_material": {
+     "Red_Lacquer": 80
+    },
+    "under_limit": true,
+    "dims": [
+     0.856,
+     0.2,
+     0.9
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Red_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Head__Steel_Dark",
+    "tris": 120,
+    "tris_per_material": {
+     "Steel_Dark": 120
+    },
+    "under_limit": true,
+    "dims": [
+     3.2,
+     5.25,
+     2.6
+    ],
+    "parts": 6,
+    "floating": 5,
+    "closed_parts": 6,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Steel_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Torso__Black_Lacquer",
+    "tris": 544,
+    "tris_per_material": {
+     "Black_Lacquer": 544
+    },
+    "under_limit": true,
+    "dims": [
+     14.8,
+     1.376,
+     8.72
+    ],
+    "parts": 8,
+    "floating": 7,
+    "closed_parts": 8,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Torso__Cloth_Crimson",
+    "tris": 144,
+    "tris_per_material": {
+     "Cloth_Crimson": 144
+    },
+    "under_limit": true,
+    "dims": [
+     13.8,
+     10.3,
+     24.3
+    ],
+    "parts": 12,
+    "floating": 7,
+    "closed_parts": 12,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Cloth_Crimson"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Torso__Gold_Leaf",
+    "tris": 92,
+    "tris_per_material": {
+     "Gold_Leaf": 92
+    },
+    "under_limit": true,
+    "dims": [
+     16.4,
+     10.02,
+     11.5
+    ],
+    "parts": 2,
+    "floating": 1,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Torso__Iron_Wrought",
+    "tris": 208,
+    "tris_per_material": {
+     "Iron_Wrought": 208
+    },
+    "under_limit": true,
+    "dims": [
+     15.815,
+     12.018,
+     8.602
+    ],
+    "parts": 8,
+    "floating": 6,
+    "closed_parts": 8,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Torso__Mech_Plate",
+    "tris": 508,
+    "tris_per_material": {
+     "Mech_Plate": 508
+    },
+    "under_limit": true,
+    "dims": [
+     16.0,
+     10.2,
+     11.9
+    ],
+    "parts": 4,
+    "floating": 0,
+    "closed_parts": 3,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Plate"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Torso__Red_Lacquer",
+    "tris": 544,
+    "tris_per_material": {
+     "Red_Lacquer": 544
+    },
+    "under_limit": true,
+    "dims": [
+     14.8,
+     1.376,
+     8.77
+    ],
+    "parts": 8,
+    "floating": 7,
+    "closed_parts": 8,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Red_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Torso__Steel_Dark",
+    "tris": 88,
+    "tris_per_material": {
+     "Steel_Dark": 88
+    },
+    "under_limit": true,
+    "dims": [
+     9.395,
+     3.365,
+     8.37
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Steel_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Torso__Timber_Dark",
+    "tris": 40,
+    "tris_per_material": {
+     "Timber_Dark": 40
+    },
+    "under_limit": true,
+    "dims": [
+     0.5,
+     1.0,
+     22.011
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Cannon__Glow_Amber",
+    "tris": 444,
+    "tris_per_material": {
+     "Glow_Amber": 444
+    },
+    "under_limit": true,
+    "dims": [
+     5.638,
+     7.37,
+     5.64
+    ],
+    "parts": 2,
+    "floating": 1,
+    "closed_parts": 1,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Glow_Amber"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Cannon__Iron_Wrought",
+    "tris": 544,
+    "tris_per_material": {
+     "Iron_Wrought": 544
+    },
+    "under_limit": true,
+    "dims": [
+     5.986,
+     5.566,
+     6.02
+    ],
+    "parts": 16,
+    "floating": 15,
+    "closed_parts": 16,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Cannon__Mech_Plate",
+    "tris": 120,
+    "tris_per_material": {
+     "Mech_Plate": 120
+    },
+    "under_limit": true,
+    "dims": [
+     6.2,
+     9.2,
+     6.2
+    ],
+    "parts": 2,
+    "floating": 1,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Plate"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Cannon__Shadow_Black",
+    "tris": 32,
+    "tris_per_material": {
+     "Shadow_Black": 32
+    },
+    "under_limit": true,
+    "dims": [
+     2.1,
+     0.62,
+     2.1
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Shadow_Black"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Cannon__Steel_Dark",
+    "tris": 188,
+    "tris_per_material": {
+     "Steel_Dark": 188
+    },
+    "under_limit": true,
+    "dims": [
+     3.328,
+     7.15,
+     3.328
+    ],
+    "parts": 5,
+    "floating": 0,
+    "closed_parts": 5,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Steel_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Pelvis__Black_Lacquer",
+    "tris": 168,
+    "tris_per_material": {
+     "Black_Lacquer": 168
+    },
+    "under_limit": true,
+    "dims": [
+     13.346,
+     9.087,
+     3.808
+    ],
+    "parts": 14,
+    "floating": 7,
+    "closed_parts": 14,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Pelvis__Cloth_Crimson",
+    "tris": 496,
+    "tris_per_material": {
+     "Cloth_Crimson": 496
+    },
+    "under_limit": true,
+    "dims": [
+     12.963,
+     11.5,
+     6.19
+    ],
+    "parts": 30,
+    "floating": 23,
+    "closed_parts": 29,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Cloth_Crimson"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Pelvis__Gold_Leaf",
+    "tris": 84,
+    "tris_per_material": {
+     "Gold_Leaf": 84
+    },
+    "under_limit": true,
+    "dims": [
+     13.62,
+     9.355,
+     0.436
+    ],
+    "parts": 7,
+    "floating": 0,
+    "closed_parts": 7,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Pelvis__Mech_Plate",
+    "tris": 28,
+    "tris_per_material": {
+     "Mech_Plate": 28
+    },
+    "under_limit": true,
+    "dims": [
+     8.8,
+     6.4,
+     3.6
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Plate"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Pelvis__Red_Lacquer",
+    "tris": 168,
+    "tris_per_material": {
+     "Red_Lacquer": 168
+    },
+    "under_limit": true,
+    "dims": [
+     12.727,
+     8.615,
+     3.808
+    ],
+    "parts": 14,
+    "floating": 7,
+    "closed_parts": 14,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Red_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_UpperArm__Black_Lacquer",
+    "tris": 36,
+    "tris_per_material": {
+     "Black_Lacquer": 36
+    },
+    "under_limit": true,
+    "dims": [
+     2.179,
+     6.4,
+     6.074
+    ],
+    "parts": 3,
+    "floating": 2,
+    "closed_parts": 3,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_UpperArm__Cloth_Crimson",
+    "tris": 216,
+    "tris_per_material": {
+     "Cloth_Crimson": 216
+    },
+    "under_limit": true,
+    "dims": [
+     2.028,
+     4.6,
+     7.176
+    ],
+    "parts": 18,
+    "floating": 15,
+    "closed_parts": 18,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Cloth_Crimson"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_UpperArm__Gold_Leaf",
+    "tris": 12,
+    "tris_per_material": {
+     "Gold_Leaf": 12
+    },
+    "under_limit": true,
+    "dims": [
+     1.051,
+     6.6,
+     0.55
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_UpperArm__Iron_Wrought",
+    "tris": 28,
+    "tris_per_material": {
+     "Iron_Wrought": 28
+    },
+    "under_limit": true,
+    "dims": [
+     1.904,
+     2.995,
+     4.804
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_UpperArm__Mech_Plate",
+    "tris": 28,
+    "tris_per_material": {
+     "Mech_Plate": 28
+    },
+    "under_limit": true,
+    "dims": [
+     4.52,
+     5.33,
+     6.087
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Plate"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_UpperArm__Red_Lacquer",
+    "tris": 36,
+    "tris_per_material": {
+     "Red_Lacquer": 36
+    },
+    "under_limit": true,
+    "dims": [
+     2.179,
+     6.4,
+     6.074
+    ],
+    "parts": 3,
+    "floating": 2,
+    "closed_parts": 3,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Red_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_UpperArm__Steel_Dark",
+    "tris": 140,
+    "tris_per_material": {
+     "Steel_Dark": 140
+    },
+    "under_limit": true,
+    "dims": [
+     5.186,
+     6.585,
+     8.611
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Steel_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_Forearm__Black_Lacquer",
+    "tris": 56,
+    "tris_per_material": {
+     "Black_Lacquer": 56
+    },
+    "under_limit": true,
+    "dims": [
+     3.226,
+     4.636,
+     4.287
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_Forearm__Gold_Leaf",
+    "tris": 12,
+    "tris_per_material": {
+     "Gold_Leaf": 12
+    },
+    "under_limit": true,
+    "dims": [
+     0.442,
+     4.622,
+     2.317
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_Forearm__Iron_Wrought",
+    "tris": 60,
+    "tris_per_material": {
+     "Iron_Wrought": 60
+    },
+    "under_limit": true,
+    "dims": [
+     3.2,
+     2.8,
+     2.8
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_Forearm__Mech_Plate",
+    "tris": 56,
+    "tris_per_material": {
+     "Mech_Plate": 56
+    },
+    "under_limit": true,
+    "dims": [
+     3.226,
+     4.636,
+     4.287
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Plate"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_Forearm__Steel_Dark",
+    "tris": 60,
+    "tris_per_material": {
+     "Steel_Dark": 60
+    },
+    "under_limit": true,
+    "dims": [
+     2.843,
+     5.929,
+     4.531
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Steel_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_Hand__Mech_Plate",
+    "tris": 28,
+    "tris_per_material": {
+     "Mech_Plate": 28
+    },
+    "under_limit": true,
+    "dims": [
+     2.4,
+     2.237,
+     2.605
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Plate"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_Hand__Steel_Dark",
+    "tris": 156,
+    "tris_per_material": {
+     "Steel_Dark": 156
+    },
+    "under_limit": true,
+    "dims": [
+     2.69,
+     1.77,
+     2.35
+    ],
+    "parts": 13,
+    "floating": 0,
+    "closed_parts": 13,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Steel_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_UpperArm__Black_Lacquer",
+    "tris": 36,
+    "tris_per_material": {
+     "Black_Lacquer": 36
+    },
+    "under_limit": true,
+    "dims": [
+     2.179,
+     6.4,
+     6.074
+    ],
+    "parts": 3,
+    "floating": 2,
+    "closed_parts": 3,
+    "open_parts": 0,
+    "inverted_parts": 3,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_UpperArm__Cloth_Crimson",
+    "tris": 216,
+    "tris_per_material": {
+     "Cloth_Crimson": 216
+    },
+    "under_limit": true,
+    "dims": [
+     2.028,
+     4.6,
+     7.176
+    ],
+    "parts": 18,
+    "floating": 15,
+    "closed_parts": 18,
+    "open_parts": 0,
+    "inverted_parts": 18,
+    "textures": [
+     "Cloth_Crimson"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_UpperArm__Gold_Leaf",
+    "tris": 12,
+    "tris_per_material": {
+     "Gold_Leaf": 12
+    },
+    "under_limit": true,
+    "dims": [
+     1.051,
+     6.6,
+     0.55
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 1,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_UpperArm__Iron_Wrought",
+    "tris": 28,
+    "tris_per_material": {
+     "Iron_Wrought": 28
+    },
+    "under_limit": true,
+    "dims": [
+     2.003,
+     1.052,
+     4.872
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_UpperArm__Mech_Plate",
+    "tris": 28,
+    "tris_per_material": {
+     "Mech_Plate": 28
+    },
+    "under_limit": true,
+    "dims": [
+     4.601,
+     3.76,
+     5.506
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Plate"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_UpperArm__Red_Lacquer",
+    "tris": 36,
+    "tris_per_material": {
+     "Red_Lacquer": 36
+    },
+    "under_limit": true,
+    "dims": [
+     2.179,
+     6.4,
+     6.074
+    ],
+    "parts": 3,
+    "floating": 2,
+    "closed_parts": 3,
+    "open_parts": 0,
+    "inverted_parts": 3,
+    "textures": [
+     "Red_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_UpperArm__Steel_Dark",
+    "tris": 140,
+    "tris_per_material": {
+     "Steel_Dark": 140
+    },
+    "under_limit": true,
+    "dims": [
+     5.333,
+     4.251,
+     8.615
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Steel_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_Forearm__Black_Lacquer",
+    "tris": 56,
+    "tris_per_material": {
+     "Black_Lacquer": 56
+    },
+    "under_limit": true,
+    "dims": [
+     3.345,
+     3.698,
+     4.642
+    ],
+    "parts": 2,
+    "floating": 1,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_Forearm__Gold_Leaf",
+    "tris": 12,
+    "tris_per_material": {
+     "Gold_Leaf": 12
+    },
+    "under_limit": true,
+    "dims": [
+     0.613,
+     1.224,
+     5.478
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_Forearm__Iron_Wrought",
+    "tris": 60,
+    "tris_per_material": {
+     "Iron_Wrought": 60
+    },
+    "under_limit": true,
+    "dims": [
+     3.2,
+     2.8,
+     2.8
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_Forearm__Mech_Plate",
+    "tris": 56,
+    "tris_per_material": {
+     "Mech_Plate": 56
+    },
+    "under_limit": true,
+    "dims": [
+     3.345,
+     3.698,
+     4.642
+    ],
+    "parts": 2,
+    "floating": 1,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Plate"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_Forearm__Steel_Dark",
+    "tris": 60,
+    "tris_per_material": {
+     "Steel_Dark": 60
+    },
+    "under_limit": true,
+    "dims": [
+     3.019,
+     3.517,
+     6.313
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Steel_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_Hand__Mech_Plate",
+    "tris": 28,
+    "tris_per_material": {
+     "Mech_Plate": 28
+    },
+    "under_limit": true,
+    "dims": [
+     2.586,
+     1.993,
+     2.591
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Plate"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_Hand__Steel_Dark",
+    "tris": 108,
+    "tris_per_material": {
+     "Steel_Dark": 108
+    },
+    "under_limit": true,
+    "dims": [
+     2.617,
+     1.499,
+     3.818
+    ],
+    "parts": 9,
+    "floating": 1,
+    "closed_parts": 9,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Steel_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Sword__Glow_Amber",
+    "tris": 136,
+    "tris_per_material": {
+     "Glow_Amber": 136
+    },
+    "under_limit": true,
+    "dims": [
+     2.365,
+     17.573,
+     5.78
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Glow_Amber"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Sword__Gold_Leaf",
+    "tris": 46,
+    "tris_per_material": {
+     "Gold_Leaf": 46
+    },
+    "under_limit": true,
+    "dims": [
+     1.076,
+     0.982,
+     1.16
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Sword__Iron_Wrought",
+    "tris": 144,
+    "tris_per_material": {
+     "Iron_Wrought": 144
+    },
+    "under_limit": true,
+    "dims": [
+     7.057,
+     11.271,
+     6.698
+    ],
+    "parts": 3,
+    "floating": 1,
+    "closed_parts": 3,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Sword__Steel_Dark",
+    "tris": 206,
+    "tris_per_material": {
+     "Steel_Dark": 206
+    },
+    "under_limit": true,
+    "dims": [
+     2.39,
+     24.839,
+     8.406
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Steel_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_Sword__Tsuka_Wrap",
+    "tris": 44,
+    "tris_per_material": {
+     "Tsuka_Wrap": 44
+    },
+    "under_limit": true,
+    "dims": [
+     2.031,
+     8.65,
+     4.117
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Tsuka_Wrap"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_Thigh__Black_Lacquer",
+    "tris": 24,
+    "tris_per_material": {
+     "Black_Lacquer": 24
+    },
+    "under_limit": true,
+    "dims": [
+     4.077,
+     0.946,
+     4.833
+    ],
+    "parts": 2,
+    "floating": 1,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_Thigh__Mech_Plate",
+    "tris": 40,
+    "tris_per_material": {
+     "Mech_Plate": 40
+    },
+    "under_limit": true,
+    "dims": [
+     4.342,
+     4.545,
+     6.243
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Plate"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_Thigh__Steel_Dark",
+    "tris": 140,
+    "tris_per_material": {
+     "Steel_Dark": 140
+    },
+    "under_limit": true,
+    "dims": [
+     4.458,
+     5.023,
+     9.967
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Steel_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_Shin__Black_Lacquer",
+    "tris": 60,
+    "tris_per_material": {
+     "Black_Lacquer": 60
+    },
+    "under_limit": true,
+    "dims": [
+     3.4,
+     1.264,
+     6.271
+    ],
+    "parts": 5,
+    "floating": 0,
+    "closed_parts": 5,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_Shin__Iron_Wrought",
+    "tris": 136,
+    "tris_per_material": {
+     "Iron_Wrought": 136
+    },
+    "under_limit": true,
+    "dims": [
+     3.614,
+     4.952,
+     8.313
+    ],
+    "parts": 3,
+    "floating": 0,
+    "closed_parts": 3,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_Shin__Mech_Plate",
+    "tris": 108,
+    "tris_per_material": {
+     "Mech_Plate": 108
+    },
+    "under_limit": true,
+    "dims": [
+     3.6,
+     4.612,
+     8.218
+    ],
+    "parts": 2,
+    "floating": 1,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Plate"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_Shin__Steel_Dark",
+    "tris": 60,
+    "tris_per_material": {
+     "Steel_Dark": 60
+    },
+    "under_limit": true,
+    "dims": [
+     3.2,
+     4.094,
+     7.423
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Steel_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_Foot__Black_Lacquer",
+    "tris": 28,
+    "tris_per_material": {
+     "Black_Lacquer": 28
+    },
+    "under_limit": true,
+    "dims": [
+     4.2,
+     1.6,
+     1.4
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_Foot__Iron_Wrought",
+    "tris": 52,
+    "tris_per_material": {
+     "Iron_Wrought": 52
+    },
+    "under_limit": true,
+    "dims": [
+     2.4,
+     2.6,
+     2.535
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_Foot__Mech_Plate",
+    "tris": 56,
+    "tris_per_material": {
+     "Mech_Plate": 56
+    },
+    "under_limit": true,
+    "dims": [
+     4.0,
+     7.7,
+     2.2
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Plate"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_R_Foot__Steel_Dark",
+    "tris": 36,
+    "tris_per_material": {
+     "Steel_Dark": 36
+    },
+    "under_limit": true,
+    "dims": [
+     3.4,
+     0.6,
+     0.6
+    ],
+    "parts": 3,
+    "floating": 0,
+    "closed_parts": 3,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Steel_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_Thigh__Black_Lacquer",
+    "tris": 24,
+    "tris_per_material": {
+     "Black_Lacquer": 24
+    },
+    "under_limit": true,
+    "dims": [
+     4.077,
+     0.946,
+     4.833
+    ],
+    "parts": 2,
+    "floating": 1,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_Thigh__Mech_Plate",
+    "tris": 40,
+    "tris_per_material": {
+     "Mech_Plate": 40
+    },
+    "under_limit": true,
+    "dims": [
+     4.342,
+     4.615,
+     6.243
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Plate"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_Thigh__Steel_Dark",
+    "tris": 140,
+    "tris_per_material": {
+     "Steel_Dark": 140
+    },
+    "under_limit": true,
+    "dims": [
+     4.458,
+     5.023,
+     9.967
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Steel_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_Shin__Black_Lacquer",
+    "tris": 60,
+    "tris_per_material": {
+     "Black_Lacquer": 60
+    },
+    "under_limit": true,
+    "dims": [
+     3.4,
+     1.264,
+     6.271
+    ],
+    "parts": 5,
+    "floating": 0,
+    "closed_parts": 5,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_Shin__Iron_Wrought",
+    "tris": 136,
+    "tris_per_material": {
+     "Iron_Wrought": 136
+    },
+    "under_limit": true,
+    "dims": [
+     3.614,
+     4.0,
+     8.782
+    ],
+    "parts": 3,
+    "floating": 0,
+    "closed_parts": 3,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_Shin__Mech_Plate",
+    "tris": 108,
+    "tris_per_material": {
+     "Mech_Plate": 108
+    },
+    "under_limit": true,
+    "dims": [
+     3.6,
+     5.009,
+     8.166
+    ],
+    "parts": 2,
+    "floating": 1,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Plate"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_Shin__Steel_Dark",
+    "tris": 60,
+    "tris_per_material": {
+     "Steel_Dark": 60
+    },
+    "under_limit": true,
+    "dims": [
+     3.2,
+     4.094,
+     7.423
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Steel_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_Foot__Black_Lacquer",
+    "tris": 28,
+    "tris_per_material": {
+     "Black_Lacquer": 28
+    },
+    "under_limit": true,
+    "dims": [
+     4.2,
+     1.6,
+     1.4
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_Foot__Iron_Wrought",
+    "tris": 52,
+    "tris_per_material": {
+     "Iron_Wrought": 52
+    },
+    "under_limit": true,
+    "dims": [
+     2.4,
+     2.6,
+     2.535
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_Foot__Mech_Plate",
+    "tris": 56,
+    "tris_per_material": {
+     "Mech_Plate": 56
+    },
+    "under_limit": true,
+    "dims": [
+     4.0,
+     7.7,
+     2.2
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Plate"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Tetsujin_L_Foot__Steel_Dark",
+    "tris": 36,
+    "tris_per_material": {
+     "Steel_Dark": 36
+    },
+    "under_limit": true,
+    "dims": [
+     3.4,
+     0.6,
+     0.6
+    ],
+    "parts": 3,
+    "floating": 0,
+    "closed_parts": 3,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Steel_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "checks": {
+   "under_limit": true,
+   "dims": [
+    27.27,
+    46.47,
+    46.01
+   ],
+   "meshes": {
+    "HO_Mech_Tetsujin_Head__Black_Lacquer": 402,
+    "HO_Mech_Tetsujin_Head__Glow_Red": 12,
+    "HO_Mech_Tetsujin_Head__Gold_Leaf": 256,
+    "HO_Mech_Tetsujin_Head__Iron_Wrought": 736,
+    "HO_Mech_Tetsujin_Head__Mech_Plate": 124,
+    "HO_Mech_Tetsujin_Head__Red_Lacquer": 80,
+    "HO_Mech_Tetsujin_Head__Steel_Dark": 120,
+    "HO_Mech_Tetsujin_Torso__Black_Lacquer": 544,
+    "HO_Mech_Tetsujin_Torso__Cloth_Crimson": 144,
+    "HO_Mech_Tetsujin_Torso__Gold_Leaf": 92,
+    "HO_Mech_Tetsujin_Torso__Iron_Wrought": 208,
+    "HO_Mech_Tetsujin_Torso__Mech_Plate": 508,
+    "HO_Mech_Tetsujin_Torso__Red_Lacquer": 544,
+    "HO_Mech_Tetsujin_Torso__Steel_Dark": 88,
+    "HO_Mech_Tetsujin_Torso__Timber_Dark": 40,
+    "HO_Mech_Tetsujin_Cannon__Glow_Amber": 444,
+    "HO_Mech_Tetsujin_Cannon__Iron_Wrought": 544,
+    "HO_Mech_Tetsujin_Cannon__Mech_Plate": 120,
+    "HO_Mech_Tetsujin_Cannon__Shadow_Black": 32,
+    "HO_Mech_Tetsujin_Cannon__Steel_Dark": 188,
+    "HO_Mech_Tetsujin_Pelvis__Black_Lacquer": 168,
+    "HO_Mech_Tetsujin_Pelvis__Cloth_Crimson": 496,
+    "HO_Mech_Tetsujin_Pelvis__Gold_Leaf": 84,
+    "HO_Mech_Tetsujin_Pelvis__Mech_Plate": 28,
+    "HO_Mech_Tetsujin_Pelvis__Red_Lacquer": 168,
+    "HO_Mech_Tetsujin_R_UpperArm__Black_Lacquer": 36,
+    "HO_Mech_Tetsujin_R_UpperArm__Cloth_Crimson": 216,
+    "HO_Mech_Tetsujin_R_UpperArm__Gold_Leaf": 12,
+    "HO_Mech_Tetsujin_R_UpperArm__Iron_Wrought": 28,
+    "HO_Mech_Tetsujin_R_UpperArm__Mech_Plate": 28,
+    "HO_Mech_Tetsujin_R_UpperArm__Red_Lacquer": 36,
+    "HO_Mech_Tetsujin_R_UpperArm__Steel_Dark": 140,
+    "HO_Mech_Tetsujin_R_Forearm__Black_Lacquer": 56,
+    "HO_Mech_Tetsujin_R_Forearm__Gold_Leaf": 12,
+    "HO_Mech_Tetsujin_R_Forearm__Iron_Wrought": 60,
+    "HO_Mech_Tetsujin_R_Forearm__Mech_Plate": 56,
+    "HO_Mech_Tetsujin_R_Forearm__Steel_Dark": 60,
+    "HO_Mech_Tetsujin_R_Hand__Mech_Plate": 28,
+    "HO_Mech_Tetsujin_R_Hand__Steel_Dark": 156,
+    "HO_Mech_Tetsujin_L_UpperArm__Black_Lacquer": 36,
+    "HO_Mech_Tetsujin_L_UpperArm__Cloth_Crimson": 216,
+    "HO_Mech_Tetsujin_L_UpperArm__Gold_Leaf": 12,
+    "HO_Mech_Tetsujin_L_UpperArm__Iron_Wrought": 28,
+    "HO_Mech_Tetsujin_L_UpperArm__Mech_Plate": 28,
+    "HO_Mech_Tetsujin_L_UpperArm__Red_Lacquer": 36,
+    "HO_Mech_Tetsujin_L_UpperArm__Steel_Dark": 140,
+    "HO_Mech_Tetsujin_L_Forearm__Black_Lacquer": 56,
+    "HO_Mech_Tetsujin_L_Forearm__Gold_Leaf": 12,
+    "HO_Mech_Tetsujin_L_Forearm__Iron_Wrought": 60,
+    "HO_Mech_Tetsujin_L_Forearm__Mech_Plate": 56,
+    "HO_Mech_Tetsujin_L_Forearm__Steel_Dark": 60,
+    "HO_Mech_Tetsujin_L_Hand__Mech_Plate": 28,
+    "HO_Mech_Tetsujin_L_Hand__Steel_Dark": 108,
+    "HO_Mech_Tetsujin_Sword__Glow_Amber": 136,
+    "HO_Mech_Tetsujin_Sword__Gold_Leaf": 46,
+    "HO_Mech_Tetsujin_Sword__Iron_Wrought": 144,
+    "HO_Mech_Tetsujin_Sword__Steel_Dark": 206,
+    "HO_Mech_Tetsujin_Sword__Tsuka_Wrap": 44,
+    "HO_Mech_Tetsujin_R_Thigh__Black_Lacquer": 24,
+    "HO_Mech_Tetsujin_R_Thigh__Mech_Plate": 40,
+    "HO_Mech_Tetsujin_R_Thigh__Steel_Dark": 140,
+    "HO_Mech_Tetsujin_R_Shin__Black_Lacquer": 60,
+    "HO_Mech_Tetsujin_R_Shin__Iron_Wrought": 136,
+    "HO_Mech_Tetsujin_R_Shin__Mech_Plate": 108,
+    "HO_Mech_Tetsujin_R_Shin__Steel_Dark": 60,
+    "HO_Mech_Tetsujin_R_Foot__Black_Lacquer": 28,
+    "HO_Mech_Tetsujin_R_Foot__Iron_Wrought": 52,
+    "HO_Mech_Tetsujin_R_Foot__Mech_Plate": 56,
+    "HO_Mech_Tetsujin_R_Foot__Steel_Dark": 36,
+    "HO_Mech_Tetsujin_L_Thigh__Black_Lacquer": 24,
+    "HO_Mech_Tetsujin_L_Thigh__Mech_Plate": 40,
+    "HO_Mech_Tetsujin_L_Thigh__Steel_Dark": 140,
+    "HO_Mech_Tetsujin_L_Shin__Black_Lacquer": 60,
+    "HO_Mech_Tetsujin_L_Shin__Iron_Wrought": 136,
+    "HO_Mech_Tetsujin_L_Shin__Mech_Plate": 108,
+    "HO_Mech_Tetsujin_L_Shin__Steel_Dark": 60,
+    "HO_Mech_Tetsujin_L_Foot__Black_Lacquer": 28,
+    "HO_Mech_Tetsujin_L_Foot__Iron_Wrought": 52,
+    "HO_Mech_Tetsujin_L_Foot__Mech_Plate": 56,
+    "HO_Mech_Tetsujin_L_Foot__Steel_Dark": 36
+   },
+   "bones": 18
+  },
+  "notes": "Giant iron samurai mech \"Tetsujin\" (~46 tall incl. banner, horns at ~41). Faces FRONT (-Z), feet on the ground at the origin. Riveted Mech_Plate iron with Black/Red lacquer lames, crimson lacing, gold trim; kabuto with gold kuwagata horns + crest, menpo with glowing eye slit (Glow_Red -> Neon); sode shoulder plates, kusazuri skirt, pistons; chest cannon with glowing core (Glow_Amber -> Neon), muzzle at (0.0, 27.2, -13.0) (Roblox studs from the origin); smoke stacks + crimson sashimono banner on the back; giant nodachi (Steel_Dark, glowing amber edge) in the right hand, tip at (12.6, 10.6, -38.7). 18 bones, every piece rigid (100% to one bone): Root, Pelvis, Torso, Head, Cannon, L/R_UpperArm/Forearm/Hand, Sword, L/R_Thigh/Shin/Foot. Import with File > Import 3D (Scale Unit = Stud, Rig Type = Custom). roblox/HO_MechRig.lua: Idle, Swing, FireCannon, Stomp."
+ },
+ {
   "name": "HO_Prop_FishCreel",
   "phase": "Phase4",
   "category": "Props",

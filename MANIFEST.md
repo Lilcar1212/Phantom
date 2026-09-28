@@ -213,6 +213,7 @@ Textures live in `textures/<Set>/HO_T_<Set>_{Color,Normal,Roughness,Metalness}.p
 | HO_Icon_Magic_Earth | Image 512x512 PNG (alpha) | `assets/Phase4/Icons/HO_Icon_Magic_Earth.png` |  |  |  | - |  | Earth magic emblem: navy disc, gold rims, 16-rune band, glowing mountain peaks over a cracked slab. Upload as an Image/Decal for ImageLabels (transparent outside the circle). |
 | HO_Icon_Magic_Fire | Image 512x512 PNG (alpha) | `assets/Phase4/Icons/HO_Icon_Magic_Fire.png` |  |  |  | - |  | Fire magic emblem: navy disc, gold rims, 16-rune band, glowing three-tongue flame. Upload as an Image/Decal for ImageLabels (transparent outside the circle). |
 | HO_Icon_Magic_Water | Image 512x512 PNG (alpha) | `assets/Phase4/Icons/HO_Icon_Magic_Water.png` |  |  |  | - |  | Water magic emblem: navy disc, gold rims, 16-rune band, glowing droplet over waves. Upload as an Image/Decal for ImageLabels (transparent outside the circle). |
+| HO_Mech_Tetsujin | Skinned mesh group + armature | `assets/Phase4/Mechs/HO_Mech_Tetsujin.fbx` | 10026 | 27.27 × 46.47 × 46.01 | Black_Lacquer, Cloth_Crimson, Glow_Amber, Glow_Red, Gold_Leaf, Iron_Wrought, Mech_Plate, Red_Lacquer, Shadow_Black, Steel_Dark, Timber_Dark, Tsuka_Wrap | ground between the feet | ✅ | Giant iron samurai mech "Tetsujin" (~46 tall incl. banner, horns at ~41). Faces FRONT (-Z), feet on the ground at the origin. Riveted Mech_Plate iron with Black/Red lacquer lames, crimson lacing, gold trim; kabuto with gold kuwagata horns + crest, menpo with glowing eye slit (Glow_Red -> Neon); sode shoulder plates, kusazuri skirt, pistons; chest cannon with glowing core (Glow_Amber -> Neon), muzzle at (0.0, 27.2, -13.0) (Roblox studs from the origin); smoke stacks + crimson sashimono banner on the back; giant nodachi (Steel_Dark, glowing amber edge) in the right hand, tip at (12.6, 10.6, -38.7). 18 bones, every piece rigid (100% to one bone): Root, Pelvis, Torso, Head, Cannon, L/R_UpperArm/Forearm/Hand, Sword, L/R_Thigh/Shin/Foot. Import with File > Import 3D (Scale Unit = Stud, Rig Type = Custom). roblox/HO_MechRig.lua: Idle, Swing, FireCannon, Stomp. |
 | HO_Prop_FishCreel | Mesh group | `assets/Phase4/Props/HO_Prop_FishCreel.fbx` | 1090 | 1.27 × 1.27 × 1.83 | Bamboo, Rope, Straw | see notes | ✅ | Woven bamboo fish creel (biku) 1.4 tall with lid and rope strap; origin = bottom centre. Wear it on the hip or put caught fish in it. | meshes: HO_Prop_FishCreel__Bamboo (718), HO_Prop_FishCreel__Rope (152), HO_Prop_FishCreel__Straw (220) |
 | HO_Tool_FishingRod_Bamboo | Mesh group | `assets/Phase4/Tools/HO_Tool_FishingRod_Bamboo.fbx` | 1818 | 0.2 × 7.08 × 0.46 | Bamboo, Cloth_White, Rope | grip centre | ✅ | Starter rod (takezao): one natural bamboo pole ~7 long with nodes, rope-bound grip and a white line tie at the tip. Origin = centre of the grip (the hand). The rod points FRONT (-Z) and droops at the tip; line-tie point (tip) in Roblox studs relative to the origin: (0.00, -0.35, -6.40) - put an Attachment there and hang HO_Tool_Fishing_Float / _Hook on a RopeConstraint or Beam. As a Tool: Handle at the grip, Tool.Grip = CFrame.Angles(math.rad(-30), 0, 0) to hold it raised. | meshes: HO_Tool_FishingRod_Bamboo__Bamboo (1434), HO_Tool_FishingRod_Bamboo__Cloth_White (56), HO_Tool_FishingRod_Bamboo__Rope (328) |
 | HO_Tool_FishingRod_Lacquered | Mesh group | `assets/Phase4/Tools/HO_Tool_FishingRod_Lacquered.fbx` | 3110 | 0.21 × 9.141 × 0.563 | Black_Lacquer, Cloth_White, Gold_Leaf, Red_Lacquer, Tsuka_Wrap | grip centre | ✅ | Edo jointed rod (wazao) ~9 long: four bamboo sections in black lacquer, red lacquer bands, silk-wrapped ferrules with gold rings, braided silk grip, gold butt cap, red tip. Origin = centre of the grip (the hand). The rod points FRONT (-Z) and droops at the tip; line-tie point (tip) in Roblox studs relative to the origin: (0.00, -0.45, -8.20) - put an Attachment there and hang HO_Tool_Fishing_Float / _Hook on a RopeConstraint or Beam. As a Tool: Handle at the grip, Tool.Grip = CFrame.Angles(math.rad(-30), 0, 0) to hold it raised. | meshes: HO_Tool_FishingRod_Lacquered__Black_Lacquer (1616), HO_Tool_FishingRod_Lacquered__Cloth_White (56), HO_Tool_FishingRod_Lacquered__Gold_Leaf (462), HO_Tool_FishingRod_Lacquered__Red_Lacquer (432), HO_Tool_FishingRod_Lacquered__Tsuka_Wrap (544) |
@@ -1291,6 +1292,86 @@ Every mesh object uses exactly ONE texture set: give its MeshPart one SurfaceApp
 | HO_Hero_StoneFist_Left | `HO_Hero_StoneFist_Left_Glow` | Glow_Amber | 424 |
 | HO_Hero_StoneFist_Right | `HO_Hero_StoneFist_Right` | Stone_Granite | 1840 |
 | HO_Hero_StoneFist_Right | `HO_Hero_StoneFist_Right_Glow` | Glow_Amber | 424 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Head__Black_Lacquer` | Black_Lacquer | 402 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Head__Glow_Red` | Glow_Red | 12 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Head__Gold_Leaf` | Gold_Leaf | 256 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Head__Iron_Wrought` | Iron_Wrought | 736 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Head__Mech_Plate` | Mech_Plate | 124 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Head__Red_Lacquer` | Red_Lacquer | 80 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Head__Steel_Dark` | Steel_Dark | 120 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Torso__Black_Lacquer` | Black_Lacquer | 544 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Torso__Cloth_Crimson` | Cloth_Crimson | 144 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Torso__Gold_Leaf` | Gold_Leaf | 92 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Torso__Iron_Wrought` | Iron_Wrought | 208 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Torso__Mech_Plate` | Mech_Plate | 508 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Torso__Red_Lacquer` | Red_Lacquer | 544 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Torso__Steel_Dark` | Steel_Dark | 88 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Torso__Timber_Dark` | Timber_Dark | 40 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Cannon__Glow_Amber` | Glow_Amber | 444 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Cannon__Iron_Wrought` | Iron_Wrought | 544 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Cannon__Mech_Plate` | Mech_Plate | 120 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Cannon__Shadow_Black` | Shadow_Black | 32 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Cannon__Steel_Dark` | Steel_Dark | 188 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Pelvis__Black_Lacquer` | Black_Lacquer | 168 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Pelvis__Cloth_Crimson` | Cloth_Crimson | 496 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Pelvis__Gold_Leaf` | Gold_Leaf | 84 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Pelvis__Mech_Plate` | Mech_Plate | 28 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Pelvis__Red_Lacquer` | Red_Lacquer | 168 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_UpperArm__Black_Lacquer` | Black_Lacquer | 36 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_UpperArm__Cloth_Crimson` | Cloth_Crimson | 216 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_UpperArm__Gold_Leaf` | Gold_Leaf | 12 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_UpperArm__Iron_Wrought` | Iron_Wrought | 28 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_UpperArm__Mech_Plate` | Mech_Plate | 28 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_UpperArm__Red_Lacquer` | Red_Lacquer | 36 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_UpperArm__Steel_Dark` | Steel_Dark | 140 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_Forearm__Black_Lacquer` | Black_Lacquer | 56 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_Forearm__Gold_Leaf` | Gold_Leaf | 12 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_Forearm__Iron_Wrought` | Iron_Wrought | 60 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_Forearm__Mech_Plate` | Mech_Plate | 56 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_Forearm__Steel_Dark` | Steel_Dark | 60 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_Hand__Mech_Plate` | Mech_Plate | 28 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_Hand__Steel_Dark` | Steel_Dark | 156 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_UpperArm__Black_Lacquer` | Black_Lacquer | 36 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_UpperArm__Cloth_Crimson` | Cloth_Crimson | 216 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_UpperArm__Gold_Leaf` | Gold_Leaf | 12 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_UpperArm__Iron_Wrought` | Iron_Wrought | 28 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_UpperArm__Mech_Plate` | Mech_Plate | 28 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_UpperArm__Red_Lacquer` | Red_Lacquer | 36 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_UpperArm__Steel_Dark` | Steel_Dark | 140 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_Forearm__Black_Lacquer` | Black_Lacquer | 56 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_Forearm__Gold_Leaf` | Gold_Leaf | 12 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_Forearm__Iron_Wrought` | Iron_Wrought | 60 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_Forearm__Mech_Plate` | Mech_Plate | 56 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_Forearm__Steel_Dark` | Steel_Dark | 60 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_Hand__Mech_Plate` | Mech_Plate | 28 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_Hand__Steel_Dark` | Steel_Dark | 108 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Sword__Glow_Amber` | Glow_Amber | 136 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Sword__Gold_Leaf` | Gold_Leaf | 46 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Sword__Iron_Wrought` | Iron_Wrought | 144 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Sword__Steel_Dark` | Steel_Dark | 206 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Sword__Tsuka_Wrap` | Tsuka_Wrap | 44 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_Thigh__Black_Lacquer` | Black_Lacquer | 24 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_Thigh__Mech_Plate` | Mech_Plate | 40 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_Thigh__Steel_Dark` | Steel_Dark | 140 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_Shin__Black_Lacquer` | Black_Lacquer | 60 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_Shin__Iron_Wrought` | Iron_Wrought | 136 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_Shin__Mech_Plate` | Mech_Plate | 108 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_Shin__Steel_Dark` | Steel_Dark | 60 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_Foot__Black_Lacquer` | Black_Lacquer | 28 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_Foot__Iron_Wrought` | Iron_Wrought | 52 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_Foot__Mech_Plate` | Mech_Plate | 56 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_R_Foot__Steel_Dark` | Steel_Dark | 36 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_Thigh__Black_Lacquer` | Black_Lacquer | 24 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_Thigh__Mech_Plate` | Mech_Plate | 40 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_Thigh__Steel_Dark` | Steel_Dark | 140 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_Shin__Black_Lacquer` | Black_Lacquer | 60 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_Shin__Iron_Wrought` | Iron_Wrought | 136 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_Shin__Mech_Plate` | Mech_Plate | 108 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_Shin__Steel_Dark` | Steel_Dark | 60 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_Foot__Black_Lacquer` | Black_Lacquer | 28 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_Foot__Iron_Wrought` | Iron_Wrought | 52 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_Foot__Mech_Plate` | Mech_Plate | 56 |
+| HO_Mech_Tetsujin | `HO_Mech_Tetsujin_L_Foot__Steel_Dark` | Steel_Dark | 36 |
 | HO_Prop_FishCreel | `HO_Prop_FishCreel__Bamboo` | Bamboo | 718 |
 | HO_Prop_FishCreel | `HO_Prop_FishCreel__Rope` | Rope | 152 |
 | HO_Prop_FishCreel | `HO_Prop_FishCreel__Straw` | Straw | 220 |
