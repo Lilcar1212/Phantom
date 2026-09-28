@@ -196,3 +196,18 @@ An ancient Eastern water dragon built as a real game creature. It's a solid PBR 
 | Tai | 1.6 | rare, sea |
 | Koi_Gold | 1.8 | very rare, moat |
 | Maguro | 5.0 | legendary, deep sea (show it held overhead or on the pier) |
+
+## 7. Hero creature: phoenix fire bird (`assets/Phase4/Characters/HO_Creature_Phoenix.fbx`)
+
+* **Size and pose:** a rigged phoenix in a soaring bind pose, with its wings spread (about a 40-stud wingspan) and long streamer tail plumes (about 42 studs nose to plume tip). It faces −Z, and the origin is the centre of its body.
+* **Pieces** (each split per texture set, all small): Head, Beak, Crest, Eyes, Neck, Body, Wings, Tail, Legs, Talons, FireFX. The feathers are real geometry: fanned primaries, secondaries, tertials, two rows of coverts, contour feathers over the back, tail fan feathers and streamer plumes with eye spots.
+* **Textures:** Phoenix_Body (crimson), Phoenix_Breast (gold), Phoenix_Feather (crimson → gold → white-hot tip), Phoenix_Plume (eye-spot streamers), Phoenix_Beak (gold beak and talons), Glow_Amber (eyes; set to Neon). FireFX uses Fire_Flame; set `AlphaMode = Transparency`.
+* **Rig:**
+  * Root
+  * Spine01–03, Neck01–02, then Head and Beak
+  * L/R_Wing1–3
+  * Tail01–06
+  * L/R_Thigh/Shin/Foot
+* **Import:** Rig Type = Custom, then run ApplyTextures.
+* **Animate:** `roblox/HO_PhoenixRig.lua`: `Fly(model)` flaps the wings, `Glide(model)` soars, and `Screech(model)` plays a one-shot screech.
+* **Effects:** add fire and ember ParticleEmitters on the wing tips and tail, plus an orange PointLight in the chest.

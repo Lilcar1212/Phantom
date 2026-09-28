@@ -710,6 +710,107 @@ def fish_all():
     save('Fish_Eye', col, np.zeros((N, N)), 0.03, 0.2)
 
 
+# ----------------------------------------------------------------------------------------------- phoenix
+def _feather_scales(R=16, C=16, elong=1.3):
+    """Overlapping rounded contour feathers (same layout as the dragon scales, softer and longer).
+    Returns height, edge distance (0 centre .. 1 rim) and a per-feather random value."""
+    U, V = xx, 1 - yy
+    h = np.zeros((N, N)); edge = np.ones((N, N)); cid = np.zeros((N, N))
+    rad = 0.78 / C * 1.3
+    for r in range(R):
+        cu = (r + 0.5) / R
+        du = (U - cu + 0.5) % 1.0 - 0.5
+        off = 0.5 * (r % 2)
+        cv = np.floor(V * C - off + 0.5)
+        dv = (V * C - off - cv) / C
+        du_s = du * (R / C) / elong
+        d = np.sqrt(du_s ** 2 + dv ** 2) / rad
+        m = (d < 1.0) & (du < 0.35 / R)
+        h[m] = np.sqrt(1 - d[m] ** 2) * 0.7 + 0.3 * (-du[m] * R)
+        edge[m] = d[m]
+        cid[m] = (r * 131 + cv[m] * 17) % 97
+    return h, edge, (np.sin(cid * 12.9898) * 43758.5453) % 1.0
+
+
+def phoenix_body_sets():
+    U, V = xx, 1 - yy
+    h, edge, var = _feather_scales()
+    barbs = np.abs(np.sin((U * 16 * 9 + V * 16 * 3) * np.pi)) ** 4
+    n1 = fnoise(801, 2.2)
+    for name, c0, c1, rim, seam in (('Phoenix_Body', (150, 18, 20), (206, 44, 26), (255, 150, 40), (60, 6, 8)),
+                                    ('Phoenix_Breast', (214, 100, 20), (246, 160, 40), (255, 226, 120), (120, 40, 8))):
+        col = lerp(c0, c1, var * 0.6 + n1 * 0.4)
+        col = lerp(col, rim, smooth(0.55, 0.95, edge) * 0.85)               # glowing feather tips
+        col = lerp(col, seam, smooth(0.96, 1.0, edge))
+        col = lerp(col, np.array(c0) * 0.7, barbs * 0.15)
+        save(name, col, h * 0.8 + barbs * 0.08, 0.45 - smooth(0.6, 1.0, edge) * 0.15, 0.1, 4.0)
+
+
+def phoenix_feather():
+    """Flight feathers: U across the vane (0..1, rachis at 0.5), V root (0) -> tip (1).
+    Crimson root -> orange -> gold -> white-hot tip, with diagonal barbs and a pale shaft."""
+    U, V = xx, 1 - yy
+    n1 = fnoise(811, 1.6, aniso=(1.0, 6.0))
+    a = np.abs(U - 0.5) * 2
+    barbs = np.abs(np.sin((V * 60 - a * 18 + n1 * 2) * np.pi)) ** 3
+    col = lerp((140, 12, 18), (226, 60, 20), smooth(0.0, 0.4, V))
+    col = lerp(col, (252, 150, 30), smooth(0.35, 0.7, V))
+    col = lerp(col, (255, 222, 110), smooth(0.68, 0.92, V))
+    col = lerp(col, (255, 248, 220), smooth(0.9, 1.0, V) * 0.8)
+    col = lerp(col, np.array((90, 8, 10)), barbs * 0.22 * (1 - V * 0.5))
+    shaft = smooth(0.035, 0.0, np.abs(U - 0.5))
+    col = lerp(col, (255, 236, 190), shaft * 0.8)
+    edge = smooth(0.85, 1.0, a)
+    col = lerp(col, (255, 200, 90), edge * 0.5)
+    save('Phoenix_Feather', col, barbs * 0.3 + shaft * 0.5, 0.4, 0.05, 3.0)
+
+
+def phoenix_plume():
+    """Tail streamer: slender gold-orange shaft that opens into a peacock-style eye spot near the tip (V ~ 0.86)."""
+    U, V = xx, 1 - yy
+    a = np.abs(U - 0.5) * 2
+    n1 = fnoise(821, 1.5, aniso=(1.0, 8.0))
+    col = lerp((180, 30, 20), (246, 130, 30), smooth(0.0, 0.6, V))
+    col = lerp(col, (255, 200, 70), smooth(0.6, 0.8, V))
+    r = np.sqrt((a * 0.55) ** 2 + ((V - 0.86) / 0.1) ** 2)
+    col = lerp(col, (255, 236, 150), smooth(1.0, 0.8, r))
+    col = lerp(col, (200, 40, 30), smooth(0.75, 0.55, r))
+    col = lerp(col, (30, 150, 170), smooth(0.5, 0.35, r))                  # teal eye
+    col = lerp(col, (20, 20, 60), smooth(0.28, 0.15, r))
+    barbs = np.abs(np.sin((V * 70 - a * 20 + n1 * 2) * np.pi)) ** 3
+    col = lerp(col, np.array((110, 20, 10)), barbs * 0.15)
+    shaft = smooth(0.03, 0.0, np.abs(U - 0.5))
+    col = lerp(col, (255, 230, 180), shaft * 0.7)
+    save('Phoenix_Plume', col, barbs * 0.3 + shaft * 0.4, 0.35, 0.1, 3.0)
+
+
+def phoenix_beak():
+    """Beak and talons: polished gold-amber horn, dark at the base, bright at the tip (V along)."""
+    V = 1 - yy
+    n1 = fnoise(831, 1.3, aniso=(1.0, 8.0)); n2 = fnoise(832, 2.3)
+    col = lerp((150, 80, 20), (250, 196, 70), smooth(0.0, 0.9, V) * 0.8 + n1 * 0.2)
+    col = lerp(col, (255, 236, 170), smooth(0.85, 1.0, V) * 0.6)
+    save('Phoenix_Beak', col, n1 * 0.3, 0.2 + n2 * 0.1, 0.7, 2.0)
+
+
+def fire_flame():
+    """Living fire plumes (translucent): V root (0) -> tip (1): deep red -> orange -> yellow-white, streaks along V."""
+    U, V = xx, 1 - yy
+    s1 = fnoise(841, 1.3, aniso=(1.0, 10.0)); s2 = fnoise(842, 2.2, aniso=(1.0, 4.0)); n = fnoise(843, 2.4)
+    t = np.clip(V * 0.85 + (s1 - 0.5) * 0.35 + (n - 0.5) * 0.15, 0, 1)
+    col = lerp((150, 14, 6), (240, 70, 10), smooth(0.0, 0.4, t))
+    col = lerp(col, (255, 160, 30), smooth(0.35, 0.7, t))
+    col = lerp(col, (255, 246, 190), smooth(0.72, 0.95, t))
+    streak = smooth(0.7, 0.95, s2) * smooth(0.2, 0.6, V)
+    col = lerp(col, (255, 230, 150), streak * 0.5)
+    alpha = np.clip(0.55 + 0.3 * smooth(0.2, 0.8, t) + streak * 0.3 - smooth(0.9, 1.0, V) * 0.4, 0, 1)
+    save('Fire_Flame', col, t * 0.3 + streak * 0.3, 0.3, 0.0, 2.0, alpha=alpha)
+
+
+def phoenix_all():
+    phoenix_body_sets(); phoenix_feather(); phoenix_plume(); phoenix_beak(); fire_flame()
+
+
 if __name__ == '__main__':
     which = sys.argv[1:] or ['roof_tile', 'timber_dark', 'timber_light', 'plaster', 'granite', 'fitted_stone',
                              'cobble', 'planks', 'gold', 'iron', 'shoji', 'uv_check']

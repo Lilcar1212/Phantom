@@ -29226,6 +29226,567 @@
   "notes": "The Hollow (R6 size): black shadow body, glowing red slit-pupil eye in the chest with red cracks, swept horns, clawed hands, tattered shadow wisps. Meshes are in character space (feet at y=0, HumanoidRootPart centre at y=3). HO_RigBuilder.BuildCharacter(model, \"HO_Char_Hollow\") adds a HumanoidRootPart, invisible R6 body parts with Motor6Ds (classic R6 C0/C1 x scale) and welds the meshes on, so the Phase 2 KeyframeSequences (Golem_* / Hollow_*) play directly. | meshes: HO_Char_Hollow_Torso (836), HO_Char_Hollow_Torso_Glow (316), HO_Char_Hollow_Head (384), HO_Char_Hollow_Head_Glow (40), HO_Char_Hollow_RightArm (424), HO_Char_Hollow_RightArm_Glow (20), HO_Char_Hollow_LeftArm (424), HO_Char_Hollow_LeftArm_Glow (20), HO_Char_Hollow_RightLeg (394), HO_Char_Hollow_LeftLeg (394)"
  },
  {
+  "name": "HO_Creature_Phoenix",
+  "phase": "Phase4",
+  "category": "Characters",
+  "type": "Skinned mesh group + armature",
+  "file": "assets/Phase4/Characters/HO_Creature_Phoenix.fbx",
+  "tris": 28996,
+  "textures": [
+   "Fire_Flame",
+   "Glow_Amber",
+   "Phoenix_Beak",
+   "Phoenix_Body",
+   "Phoenix_Breast",
+   "Phoenix_Feather",
+   "Phoenix_Plume"
+  ],
+  "pivot": "centre of the body",
+  "renders": [],
+  "mesh_checks": [
+   {
+    "name": "HO_Creature_Phoenix_Head__Phoenix_Beak",
+    "tris": 204,
+    "tris_per_material": {
+     "Phoenix_Beak": 204
+    },
+    "under_limit": true,
+    "dims": [
+     2.239,
+     2.684,
+     1.561
+    ],
+    "parts": 3,
+    "floating": 2,
+    "closed_parts": 3,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Phoenix_Beak"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_Phoenix_Head__Phoenix_Body",
+    "tris": 144,
+    "tris_per_material": {
+     "Phoenix_Body": 144
+    },
+    "under_limit": true,
+    "dims": [
+     2.2,
+     2.413,
+     1.578
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Phoenix_Body"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_Phoenix_Head__Phoenix_Breast",
+    "tris": 80,
+    "tris_per_material": {
+     "Phoenix_Breast": 80
+    },
+    "under_limit": true,
+    "dims": [
+     1.982,
+     2.382,
+     0.764
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Phoenix_Breast"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_Phoenix_Head__Phoenix_Feather",
+    "tris": 384,
+    "tris_per_material": {
+     "Phoenix_Feather": 384
+    },
+    "under_limit": true,
+    "dims": [
+     3.974,
+     2.887,
+     0.685
+    ],
+    "parts": 16,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 16,
+    "inverted_parts": 0,
+    "textures": [
+     "Phoenix_Feather"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_Phoenix_Beak",
+    "tris": 56,
+    "tris_per_material": {
+     "Phoenix_Beak": 56
+    },
+    "under_limit": true,
+    "dims": [
+     0.8,
+     1.251,
+     0.629
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Phoenix_Beak"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_Phoenix_Crest__Phoenix_Feather",
+    "tris": 288,
+    "tris_per_material": {
+     "Phoenix_Feather": 288
+    },
+    "under_limit": true,
+    "dims": [
+     0.315,
+     1.987,
+     1.405
+    ],
+    "parts": 12,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 12,
+    "inverted_parts": 0,
+    "textures": [
+     "Phoenix_Feather"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_Phoenix_Crest__Phoenix_Plume",
+    "tris": 640,
+    "tris_per_material": {
+     "Phoenix_Plume": 640
+    },
+    "under_limit": true,
+    "dims": [
+     4.323,
+     2.893,
+     2.713
+    ],
+    "parts": 10,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 10,
+    "inverted_parts": 0,
+    "textures": [
+     "Phoenix_Plume"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_Phoenix_Eyes",
+    "tris": 160,
+    "tris_per_material": {
+     "Glow_Amber": 160
+    },
+    "under_limit": true,
+    "dims": [
+     2.218,
+     0.24,
+     0.32
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Glow_Amber"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_Phoenix_Neck__Phoenix_Body",
+    "tris": 1104,
+    "tris_per_material": {
+     "Phoenix_Body": 1104
+    },
+    "under_limit": true,
+    "dims": [
+     3.395,
+     4.565,
+     4.266
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Phoenix_Body"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_Phoenix_Neck__Phoenix_Breast",
+    "tris": 736,
+    "tris_per_material": {
+     "Phoenix_Breast": 736
+    },
+    "under_limit": true,
+    "dims": [
+     3.284,
+     4.003,
+     4.39
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Phoenix_Breast"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_Phoenix_Neck__Phoenix_Feather",
+    "tris": 1440,
+    "tris_per_material": {
+     "Phoenix_Feather": 1440
+    },
+    "under_limit": true,
+    "dims": [
+     2.753,
+     5.006,
+     2.85
+    ],
+    "parts": 60,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 60,
+    "inverted_parts": 0,
+    "textures": [
+     "Phoenix_Feather"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_Phoenix_Body__Phoenix_Body",
+    "tris": 2632,
+    "tris_per_material": {
+     "Phoenix_Body": 2632
+    },
+    "under_limit": true,
+    "dims": [
+     5.517,
+     11.139,
+     4.051
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Phoenix_Body"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_Phoenix_Body__Phoenix_Breast",
+    "tris": 1728,
+    "tris_per_material": {
+     "Phoenix_Breast": 1728
+    },
+    "under_limit": true,
+    "dims": [
+     5.335,
+     11.442,
+     3.509
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Phoenix_Breast"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_Phoenix_Body__Phoenix_Feather",
+    "tris": 3456,
+    "tris_per_material": {
+     "Phoenix_Feather": 3456
+    },
+    "under_limit": true,
+    "dims": [
+     4.27,
+     10.829,
+     3.317
+    ],
+    "parts": 144,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 144,
+    "inverted_parts": 0,
+    "textures": [
+     "Phoenix_Feather"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_Phoenix_Wings__Phoenix_Body",
+    "tris": 2056,
+    "tris_per_material": {
+     "Phoenix_Body": 2056
+    },
+    "under_limit": true,
+    "dims": [
+     38.067,
+     3.022,
+     3.456
+    ],
+    "parts": 74,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 72,
+    "inverted_parts": 0,
+    "textures": [
+     "Phoenix_Body"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_Phoenix_Wings__Phoenix_Feather",
+    "tris": 6272,
+    "tris_per_material": {
+     "Phoenix_Feather": 6272
+    },
+    "under_limit": true,
+    "dims": [
+     58.495,
+     7.652,
+     2.525
+    ],
+    "parts": 196,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 196,
+    "inverted_parts": 0,
+    "textures": [
+     "Phoenix_Feather"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_Phoenix_Tail__Phoenix_Feather",
+    "tris": 720,
+    "tris_per_material": {
+     "Phoenix_Feather": 720
+    },
+    "under_limit": true,
+    "dims": [
+     8.712,
+     8.75,
+     0.648
+    ],
+    "parts": 18,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 18,
+    "inverted_parts": 0,
+    "textures": [
+     "Phoenix_Feather"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_Phoenix_Tail__Phoenix_Plume",
+    "tris": 1200,
+    "tris_per_material": {
+     "Phoenix_Plume": 1200
+    },
+    "under_limit": true,
+    "dims": [
+     13.343,
+     27.077,
+     7.6
+    ],
+    "parts": 10,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 10,
+    "inverted_parts": 0,
+    "textures": [
+     "Phoenix_Plume"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_Phoenix_Legs__Phoenix_Beak",
+    "tris": 312,
+    "tris_per_material": {
+     "Phoenix_Beak": 312
+    },
+    "under_limit": true,
+    "dims": [
+     3.556,
+     2.49,
+     0.699
+    ],
+    "parts": 8,
+    "floating": 0,
+    "closed_parts": 10,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Phoenix_Beak"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_Phoenix_Legs__Phoenix_Breast",
+    "tris": 72,
+    "tris_per_material": {
+     "Phoenix_Breast": 72
+    },
+    "under_limit": true,
+    "dims": [
+     3.581,
+     1.943,
+     1.845
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Phoenix_Breast"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_Phoenix_Talons",
+    "tris": 256,
+    "tris_per_material": {
+     "Phoenix_Beak": 256
+    },
+    "under_limit": true,
+    "dims": [
+     3.567,
+     1.843,
+     0.444
+    ],
+    "parts": 8,
+    "floating": 0,
+    "closed_parts": 8,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Phoenix_Beak"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_Phoenix_FireFX",
+    "tris": 5056,
+    "tris_per_material": {
+     "Fire_Flame": 5056
+    },
+    "under_limit": true,
+    "dims": [
+     50.81,
+     27.563,
+     8.445
+    ],
+    "parts": 114,
+    "floating": 86,
+    "closed_parts": 0,
+    "open_parts": 130,
+    "inverted_parts": 0,
+    "textures": [
+     "Fire_Flame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "checks": {
+   "under_limit": true,
+   "dims": [
+    58.5,
+    43.83,
+    13.32
+   ],
+   "meshes": {
+    "HO_Creature_Phoenix_Head__Phoenix_Beak": 204,
+    "HO_Creature_Phoenix_Head__Phoenix_Body": 144,
+    "HO_Creature_Phoenix_Head__Phoenix_Breast": 80,
+    "HO_Creature_Phoenix_Head__Phoenix_Feather": 384,
+    "HO_Creature_Phoenix_Beak": 56,
+    "HO_Creature_Phoenix_Crest__Phoenix_Feather": 288,
+    "HO_Creature_Phoenix_Crest__Phoenix_Plume": 640,
+    "HO_Creature_Phoenix_Eyes": 160,
+    "HO_Creature_Phoenix_Neck__Phoenix_Body": 1104,
+    "HO_Creature_Phoenix_Neck__Phoenix_Breast": 736,
+    "HO_Creature_Phoenix_Neck__Phoenix_Feather": 1440,
+    "HO_Creature_Phoenix_Body__Phoenix_Body": 2632,
+    "HO_Creature_Phoenix_Body__Phoenix_Breast": 1728,
+    "HO_Creature_Phoenix_Body__Phoenix_Feather": 3456,
+    "HO_Creature_Phoenix_Wings__Phoenix_Body": 2056,
+    "HO_Creature_Phoenix_Wings__Phoenix_Feather": 6272,
+    "HO_Creature_Phoenix_Tail__Phoenix_Feather": 720,
+    "HO_Creature_Phoenix_Tail__Phoenix_Plume": 1200,
+    "HO_Creature_Phoenix_Legs__Phoenix_Beak": 312,
+    "HO_Creature_Phoenix_Legs__Phoenix_Breast": 72,
+    "HO_Creature_Phoenix_Talons": 256,
+    "HO_Creature_Phoenix_FireFX": 5056
+   },
+   "bones": 26
+  },
+  "notes": "Rigged phoenix fire bird (wingspan ~58, length ~44 with tail plumes). Soaring bind pose: wings spread, faces FRONT (-Z), origin = centre of the body. Pieces: Head, Beak, Crest, Eyes, Neck, Body, Wings, Tail, Legs, Talons, FireFX (each split per texture set). Solid feathers (Phoenix_Body, Phoenix_Breast, Phoenix_Feather, Phoenix_Plume, Phoenix_Beak; eyes Glow_Amber -> Neon); FireFX = Fire_Flame (AlphaMode Transparency, glow). 26 bones: Root, Spine01-03, Neck01-02, Head, Beak, L/R_Wing1-3, Tail01-06, L/R_Thigh/Shin/Foot (max 4 weights). Import with File > Import 3D (Scale Unit = Stud, Rig Type = Custom). roblox/HO_PhoenixRig.lua animates it (wing flap / glide, tail sway, head, beak)."
+ },
+ {
   "name": "HO_Creature_WaterDragon",
   "phase": "Phase4",
   "category": "Characters",
