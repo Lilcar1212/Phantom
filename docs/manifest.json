@@ -29231,7 +29231,7 @@
   "category": "Characters",
   "type": "Skinned mesh group + armature",
   "file": "assets/Phase4/Characters/HO_Creature_Phoenix.fbx",
-  "tris": 28996,
+  "tris": 29028,
   "textures": [
    "Fire_Flame",
    "Glow_Amber",
@@ -29249,7 +29249,6 @@
    "renders/Phase4/Characters/HO_Creature_Phoenix_back.png",
    "renders/Phase4/Characters/HO_Creature_Phoenix_head.png",
    "renders/Phase4/Characters/HO_Creature_Phoenix_hero.png",
-   "renders/Phase4/Characters/HO_Creature_Phoenix_below.png",
    "renders/Phase4/Characters/HO_Creature_Phoenix_PoseTest_three_quarter.png"
   ],
   "mesh_checks": [
@@ -29393,20 +29392,20 @@
    },
    {
     "name": "HO_Creature_Phoenix_Crest__Phoenix_Plume",
-    "tris": 640,
+    "tris": 672,
     "tris_per_material": {
-     "Phoenix_Plume": 640
+     "Phoenix_Plume": 672
     },
     "under_limit": true,
     "dims": [
-     4.323,
-     2.893,
-     2.713
+     3.053,
+     3.3,
+     1.967
     ],
-    "parts": 10,
+    "parts": 14,
     "floating": 0,
     "closed_parts": 0,
-    "open_parts": 10,
+    "open_parts": 14,
     "inverted_parts": 0,
     "textures": [
      "Phoenix_Plume"
@@ -29491,9 +29490,9 @@
     },
     "under_limit": true,
     "dims": [
-     2.811,
-     5.227,
-     2.833
+     2.801,
+     5.14,
+     2.866
     ],
     "parts": 60,
     "floating": 0,
@@ -29560,9 +29559,9 @@
     },
     "under_limit": true,
     "dims": [
-     4.18,
-     10.844,
-     3.259
+     4.21,
+     10.965,
+     3.282
     ],
     "parts": 144,
     "floating": 0,
@@ -29765,7 +29764,7 @@
    "dims": [
     57.51,
     44.57,
-    16.59
+    15.95
    ],
    "meshes": {
     "HO_Creature_Phoenix_Head__Phoenix_Beak": 204,
@@ -29774,7 +29773,7 @@
     "HO_Creature_Phoenix_Head__Phoenix_Feather": 384,
     "HO_Creature_Phoenix_Beak": 56,
     "HO_Creature_Phoenix_Crest__Phoenix_Feather": 288,
-    "HO_Creature_Phoenix_Crest__Phoenix_Plume": 640,
+    "HO_Creature_Phoenix_Crest__Phoenix_Plume": 672,
     "HO_Creature_Phoenix_Eyes": 160,
     "HO_Creature_Phoenix_Neck__Phoenix_Body": 1104,
     "HO_Creature_Phoenix_Neck__Phoenix_Breast": 736,
