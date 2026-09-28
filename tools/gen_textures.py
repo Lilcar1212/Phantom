@@ -837,6 +837,79 @@ def mech_plate():
     save('Mech_Plate', col, h, 0.42 + rust * 0.3 - edge * 0.15 - scratch * 0.2, 0.85 - rust * 0.6, 6.0)
 
 
+def _panel_lines(seed, P=4):
+    """Hard-surface panelling for anime-style mech armour: irregular panel seams, small access hatches,
+    screw dots and occasional caution stripes / decal blocks. Returns (seam, detail, caution) masks."""
+    U, V = xx, 1 - yy
+    r = rng(seed)
+    seam = np.zeros((N, N))
+    # main grid + randomly offset secondary cuts
+    for k in range(P):
+        for coord, other in ((U, V), (V, U)):
+            pos = (k + 0.5 + r.uniform(-0.35, 0.35)) / P
+            span0, span1 = sorted(r.uniform(0, 1, 2))
+            if r.random() < 0.6: span0, span1 = 0.0, 1.0
+            m = (other >= span0) & (other <= span1)
+            seam = np.maximum(seam, smooth(0.0022, 0.0, np.abs(coord - pos)) * m)
+    detail = np.zeros((N, N)); caution = np.zeros((N, N))
+    for k in range(10):                                      # hatches (rectangles), screw dots, caution strips
+        cx, cy = r.uniform(0.05, 0.95, 2); w, h = r.uniform(0.03, 0.09), r.uniform(0.02, 0.06)
+        box = (np.abs(U - cx) < w) & (np.abs(V - cy) < h)
+        edge = box & ((np.abs(np.abs(U - cx) - w) < 0.002) | (np.abs(np.abs(V - cy) - h) < 0.002))
+        seam = np.maximum(seam, edge * 0.8)
+        for sx in (-1, 1):
+            for sy in (-1, 1):
+                d = np.sqrt((U - cx - sx * (w - 0.008)) ** 2 + (V - cy - sy * (h - 0.008)) ** 2)
+                detail = np.maximum(detail, smooth(0.004, 0.002, d))
+        if k < 3:
+            cx, cy = r.uniform(0.1, 0.9, 2)
+            strip = (np.abs(U - cx) < 0.06) & (np.abs(V - cy) < 0.008)
+            caution = np.maximum(caution, strip * (np.sin((U + V) * 400) > 0))
+    return seam, detail, caution
+
+
+def mech_panel(name, base, line, seed, rough=0.35, metal=0.15, caution_col=(200, 40, 40)):
+    seam, detail, caution = _panel_lines(seed)
+    n1 = fnoise(seed + 5, 2.3); n2 = fnoise(seed + 6, 1.2)
+    col = lerp(base, np.array(base) * 0.92, n1 * 0.6)
+    col = lerp(col, line, seam * 0.85)
+    col = lerp(col, np.array(line) * 1.1, detail * 0.7)
+    col = lerp(col, caution_col, caution * 0.9)
+    col = lerp(col, np.array(base) * 0.8, smooth(0.75, 0.95, n2) * 0.12)          # subtle grime
+    h = -seam * 0.9 + detail * 0.5 + n1 * 0.02
+    save(name, col, h, rough + n1 * 0.08, metal, 5.0)
+
+
+def mech_frame():
+    """Inner frame: dark gunmetal with machined grooves and bolt heads."""
+    U, V = xx, 1 - yy
+    grooves = np.abs(np.sin(V * 48 * np.pi)) ** 12
+    n1 = fnoise(951, 2.2)
+    bolts = smooth(0.012, 0.006, np.sqrt(((U * 8) % 1 - 0.5) ** 2 / 64 + ((V * 8) % 1 - 0.5) ** 2 / 64))
+    col = lerp((44, 46, 52), (64, 66, 72), n1)
+    col = lerp(col, (22, 22, 26), grooves * 0.7)
+    col = lerp(col, (120, 122, 126), bolts)
+    save('Mech_Frame', col, bolts - grooves * 0.5, 0.35 + n1 * 0.1, 0.85, 4.0)
+
+
+def mech_vent():
+    """Yellow intake vents: horizontal slats with dark gaps (V across the slats)."""
+    U, V = xx, 1 - yy
+    k = (V * 10) % 1.0
+    slat = smooth(0.15, 0.3, k) * smooth(0.85, 0.7, k)
+    col = lerp((30, 26, 16), (236, 186, 40), slat)
+    col = lerp(col, (255, 222, 110), smooth(0.4, 0.5, k) * smooth(0.6, 0.5, k) * 0.5)
+    save('Mech_Vent', col, slat, 0.3, 0.3, 4.0)
+
+
+def mech_all():
+    mech_panel('Mech_White', (232, 234, 236), (150, 156, 164), 961, caution_col=(170, 172, 180))
+    mech_panel('Mech_Blue', (40, 72, 160), (20, 34, 80), 962, caution_col=(240, 240, 240))
+    mech_panel('Mech_Red', (200, 38, 48), (110, 18, 24), 963, caution_col=(250, 250, 250))
+    mech_panel('Mech_Grey', (120, 126, 136), (70, 74, 82), 964)
+    mech_frame(); mech_vent()
+
+
 if __name__ == '__main__':
     which = sys.argv[1:] or ['roof_tile', 'timber_dark', 'timber_light', 'plaster', 'granite', 'fitted_stone',
                              'cobble', 'planks', 'gold', 'iron', 'shoji', 'uv_check']

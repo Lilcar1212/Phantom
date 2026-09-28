@@ -1,5 +1,5 @@
 --[[
-	HOLLOW OATH - Iron samurai mech driver (HO_Mech_Tetsujin)
+	HOLLOW OATH - Mech driver (HO_Mech_Tetsujin iron samurai mech, HO_Mech_Raijin anime real-robot mech)
 
 	Import assets/Phase4/Mechs/HO_Mech_Tetsujin.fbx with File > Import 3D:
 	  * Scale Unit = Stud, Rig General > Rig Type = Custom (keeps the bones; every piece is rigid on one bone).
@@ -21,8 +21,12 @@
 local RunService = game:GetService("RunService")
 local Mech = {}
 
--- muzzle position relative to the model origin (Roblox studs), from the FBX
-Mech.MUZZLE_OFFSET = CFrame.new(0, 27.2, -13.0)
+-- muzzle position relative to the model origin (Roblox studs), from the FBX, per mech
+Mech.MUZZLE = {
+	HO_Mech_Tetsujin = CFrame.new(0, 27.2, -13.0),
+	HO_Mech_Raijin = CFrame.new(0, 33.0, -10.5),
+}
+Mech.MUZZLE_OFFSET = Mech.MUZZLE.HO_Mech_Tetsujin   -- fallback for renamed models
 
 local function bones(model)
 	local out = {}
@@ -72,6 +76,8 @@ function Mech.Idle(model)
 		if B.Head then B.Head.Transform = rot(ax, "Head", "up", math.sin(t * 0.45) * math.rad(18)) end
 		if B.R_UpperArm then B.R_UpperArm.Transform = rot(ax, "R_UpperArm", "right", breathe * math.rad(2)) end
 		if B.L_UpperArm then B.L_UpperArm.Transform = rot(ax, "L_UpperArm", "right", -breathe * math.rad(2)) end
+		if B.R_Wing then B.R_Wing.Transform = rot(ax, "R_Wing", "right", math.sin(t * 0.7) * math.rad(4)) end   -- Raijin wing plates
+		if B.L_Wing then B.L_Wing.Transform = rot(ax, "L_Wing", "right", math.sin(t * 0.7) * math.rad(4)) end
 	end)
 	return function()
 		conn:Disconnect()
@@ -94,7 +100,7 @@ function Mech.Swing(model)
 end
 
 function Mech.FireCannon(model)
-	local muzzle = model:GetPivot() * Mech.MUZZLE_OFFSET
+	local muzzle = model:GetPivot() * (Mech.MUZZLE[model.Name] or Mech.MUZZLE_OFFSET)
 	task.spawn(function()
 		play(model, 0.9, function(B, ax, k)
 			local kick = (k < 0.12) and (k / 0.12) or math.max(0, 1 - (k - 0.12) / 0.88)
