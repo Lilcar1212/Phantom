@@ -29231,7 +29231,7 @@
   "category": "Characters",
   "type": "Skinned mesh group + armature",
   "file": "assets/Phase4/Characters/HO_Creature_WaterDragon.fbx",
-  "tris": 67676,
+  "tris": 69232,
   "textures": [
    "Dragon_Belly",
    "Dragon_Claw",
@@ -29468,8 +29468,8 @@
     "under_limit": true,
     "dims": [
      9.471,
-     11.738,
-     19.542
+     21.413,
+     6.416
     ],
     "parts": 108,
     "floating": 0,
@@ -29484,15 +29484,15 @@
    },
    {
     "name": "HO_Creature_WaterDragon_Neck__Dragon_Belly",
-    "tris": 2844,
+    "tris": 2880,
     "tris_per_material": {
-     "Dragon_Belly": 2844
+     "Dragon_Belly": 2880
     },
     "under_limit": true,
     "dims": [
-     4.943,
-     9.778,
-     17.332
+     4.67,
+     19.198,
+     5.337
     ],
     "parts": 1,
     "floating": 0,
@@ -29507,20 +29507,20 @@
    },
    {
     "name": "HO_Creature_WaterDragon_Neck__Dragon_Fin",
-    "tris": 96,
+    "tris": 100,
     "tris_per_material": {
-     "Dragon_Fin": 96
+     "Dragon_Fin": 100
     },
     "under_limit": true,
     "dims": [
-     1.83,
-     7.673,
-     12.987
+     1.22,
+     18.68,
+     2.703
     ],
-    "parts": 24,
-    "floating": 1,
+    "parts": 25,
+    "floating": 0,
     "closed_parts": 0,
-    "open_parts": 24,
+    "open_parts": 25,
     "inverted_parts": 0,
     "textures": [
      "Dragon_Fin"
@@ -29530,15 +29530,15 @@
    },
    {
     "name": "HO_Creature_WaterDragon_Neck__Dragon_Scales",
-    "tris": 6004,
+    "tris": 6080,
     "tris_per_material": {
-     "Dragon_Scales": 6004
+     "Dragon_Scales": 6080
     },
     "under_limit": true,
     "dims": [
-     5.591,
-     9.747,
-     17.703
+     5.404,
+     19.232,
+     6.362
     ],
     "parts": 1,
     "floating": 0,
@@ -29559,9 +29559,9 @@
     },
     "under_limit": true,
     "dims": [
-     7.251,
-     18.685,
-     2.033
+     4.67,
+     18.105,
+     1.452
     ],
     "parts": 1,
     "floating": 0,
@@ -29582,9 +29582,9 @@
     },
     "under_limit": true,
     "dims": [
-     4.445,
-     18.818,
-     2.745
+     1.22,
+     19.121,
+     1.707
     ],
     "parts": 25,
     "floating": 0,
@@ -29605,9 +29605,9 @@
     },
     "under_limit": true,
     "dims": [
-     7.916,
-     18.958,
-     4.985
+     5.404,
+     18.099,
+     4.165
     ],
     "parts": 1,
     "floating": 0,
@@ -29622,15 +29622,15 @@
    },
    {
     "name": "HO_Creature_WaterDragon_Tail__Dragon_Belly",
-    "tris": 6516,
+    "tris": 6876,
     "tris_per_material": {
-     "Dragon_Belly": 6516
+     "Dragon_Belly": 6876
     },
     "under_limit": true,
     "dims": [
-     15.514,
-     11.364,
-     20.516
+     3.752,
+     46.029,
+     1.451
     ],
     "parts": 1,
     "floating": 0,
@@ -29645,20 +29645,20 @@
    },
    {
     "name": "HO_Creature_WaterDragon_Tail__Dragon_Fin",
-    "tris": 224,
+    "tris": 240,
     "tris_per_material": {
-     "Dragon_Fin": 224
+     "Dragon_Fin": 240
     },
     "under_limit": true,
     "dims": [
-     13.152,
-     10.304,
-     16.906
+     0.999,
+     44.78,
+     3.419
     ],
-    "parts": 56,
-    "floating": 28,
+    "parts": 60,
+    "floating": 58,
     "closed_parts": 0,
-    "open_parts": 56,
+    "open_parts": 60,
     "inverted_parts": 0,
     "textures": [
      "Dragon_Fin"
@@ -29668,15 +29668,15 @@
    },
    {
     "name": "HO_Creature_WaterDragon_Tail__Dragon_Scales",
-    "tris": 13812,
+    "tris": 14572,
     "tris_per_material": {
-     "Dragon_Scales": 13812
+     "Dragon_Scales": 14572
     },
     "under_limit": true,
     "dims": [
-     15.953,
-     11.971,
-     19.99
+     4.343,
+     46.215,
+     3.334
     ],
     "parts": 1,
     "floating": 0,
@@ -29697,12 +29697,12 @@
     },
     "under_limit": true,
     "dims": [
-     13.825,
-     15.345,
-     1.985
+     11.252,
+     15.093,
+     1.583
     ],
     "parts": 12,
-    "floating": 6,
+    "floating": 0,
     "closed_parts": 12,
     "open_parts": 0,
     "inverted_parts": 0,
@@ -29720,9 +29720,9 @@
     },
     "under_limit": true,
     "dims": [
-     15.312,
-     24.439,
-     9.004
+     12.516,
+     24.228,
+     9.165
     ],
     "parts": 36,
     "floating": 0,
@@ -29743,8 +29743,8 @@
     },
     "under_limit": true,
     "dims": [
-     16.24,
-     24.005,
+     13.444,
+     23.754,
      0.902
     ],
     "parts": 20,
@@ -29760,20 +29760,20 @@
    },
    {
     "name": "HO_Creature_WaterDragon_Fins",
-    "tris": 6304,
+    "tris": 6544,
     "tris_per_material": {
-     "Dragon_Fin": 6304
+     "Dragon_Fin": 6544
     },
     "under_limit": true,
     "dims": [
-     22.057,
-     31.563,
-     24.971
+     11.651,
+     82.58,
+     10.082
     ],
-    "parts": 154,
-    "floating": 150,
+    "parts": 160,
+    "floating": 152,
     "closed_parts": 0,
-    "open_parts": 154,
+    "open_parts": 160,
     "inverted_parts": 0,
     "textures": [
      "Dragon_Fin"
@@ -29783,20 +29783,20 @@
    },
    {
     "name": "HO_Creature_WaterDragon_WaterFX",
-    "tris": 7168,
+    "tris": 7232,
     "tris_per_material": {
-     "Water_Flame": 7168
+     "Water_Flame": 7232
     },
     "under_limit": true,
     "dims": [
-     25.595,
-     39.112,
-     28.652
+     15.628,
+     89.159,
+     15.761
     ],
-    "parts": 210,
-    "floating": 130,
+    "parts": 212,
+    "floating": 132,
     "closed_parts": 0,
-    "open_parts": 210,
+    "open_parts": 212,
     "inverted_parts": 0,
     "textures": [
      "Water_Flame"
@@ -29808,9 +29808,9 @@
   "checks": {
    "under_limit": true,
    "dims": [
-    26.92,
-    36.21,
-    29.15
+    32.87,
+    85.97,
+    18.68
    ],
    "meshes": {
     "HO_Creature_WaterDragon_Head__Dragon_Belly": 600,
@@ -29823,24 +29823,24 @@
     "HO_Creature_WaterDragon_Eyes": 160,
     "HO_Creature_WaterDragon_Whiskers": 1164,
     "HO_Creature_WaterDragon_Mane": 4544,
-    "HO_Creature_WaterDragon_Neck__Dragon_Belly": 2844,
-    "HO_Creature_WaterDragon_Neck__Dragon_Fin": 96,
-    "HO_Creature_WaterDragon_Neck__Dragon_Scales": 6004,
+    "HO_Creature_WaterDragon_Neck__Dragon_Belly": 2880,
+    "HO_Creature_WaterDragon_Neck__Dragon_Fin": 100,
+    "HO_Creature_WaterDragon_Neck__Dragon_Scales": 6080,
     "HO_Creature_WaterDragon_Body__Dragon_Belly": 2700,
     "HO_Creature_WaterDragon_Body__Dragon_Fin": 100,
     "HO_Creature_WaterDragon_Body__Dragon_Scales": 5700,
-    "HO_Creature_WaterDragon_Tail__Dragon_Belly": 6516,
-    "HO_Creature_WaterDragon_Tail__Dragon_Fin": 224,
-    "HO_Creature_WaterDragon_Tail__Dragon_Scales": 13812,
+    "HO_Creature_WaterDragon_Tail__Dragon_Belly": 6876,
+    "HO_Creature_WaterDragon_Tail__Dragon_Fin": 240,
+    "HO_Creature_WaterDragon_Tail__Dragon_Scales": 14572,
     "HO_Creature_WaterDragon_Limbs__Dragon_Horn": 384,
     "HO_Creature_WaterDragon_Limbs__Dragon_Scales": 2896,
     "HO_Creature_WaterDragon_Claws": 1392,
-    "HO_Creature_WaterDragon_Fins": 6304,
-    "HO_Creature_WaterDragon_WaterFX": 7168
+    "HO_Creature_WaterDragon_Fins": 6544,
+    "HO_Creature_WaterDragon_WaterFX": 7232
    },
-   "bones": 35
+   "bones": 39
   },
-  "notes": "Rigged Eastern water dragon, the hero creature (~36 long, head at ~29 studs). Standing bind pose, faces FRONT (-Z), feet on the ground at the origin. Pieces: Head, Jaw, Horns, Eyes, Whiskers, Mane, Neck, Body, Tail, Limbs, Claws, Fins, WaterFX (each split per texture set). Solid PBR creature (Dragon_Scales, Dragon_Belly, Dragon_Horn, Dragon_Fin, Dragon_Claw, Dragon_Eye = Neon); only WaterFX is translucent (Water_Flame, AlphaMode Transparency). 35 bones: Root, Spine01-04, Neck01-04, Head, Jaw, Tail01-12, FL/FR/RL/RR_Upper/_Lower/_Foot; skinned (max 4 weights). Import with File > Import 3D (Scale Unit = Stud, Rig General > Rig Type = Custom). roblox/HO_DragonRig.lua animates it (tail wave, breathing, neck sway, jaw)."
+  "notes": "Rigged Eastern water dragon, the hero creature (~86 long, head at ~19 studs). Long straight bind pose, faces FRONT (-Z), feet on the ground at the origin. Pieces: Head, Jaw, Horns, Eyes, Whiskers, Mane, Neck, Body, Tail, Limbs, Claws, Fins, WaterFX (each split per texture set). Solid PBR creature (Dragon_Scales, Dragon_Belly, Dragon_Horn, Dragon_Fin, Dragon_Claw, Dragon_Eye = Neon); only WaterFX is translucent (Water_Flame, AlphaMode Transparency). 39 bones: Root, Spine01-04, Neck01-04, Head, Jaw, Tail01-16, FL/FR/RL/RR_Upper/_Lower/_Foot; skinned (max 4 weights). Import with File > Import 3D (Scale Unit = Stud, Rig General > Rig Type = Custom). roblox/HO_DragonRig.lua animates it (tail wave, breathing, neck sway, jaw)."
  },
  {
   "name": "HO_Fish_Ayu",

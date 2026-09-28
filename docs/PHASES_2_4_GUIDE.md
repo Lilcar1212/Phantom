@@ -150,14 +150,14 @@ After `BuildCharacter`:
 
 An ancient Eastern water dragon built as a real game creature. It's a solid PBR animal; only the separate WaterFX mesh is translucent.
 
-* **Size and pose:** about 50 studs long, head at about 25 studs. The standing bind pose faces −Z, with the feet on the ground at the origin (between the front feet).
+* **Size and pose:** about 83 studs long in a long, straight bind pose (body and tail on one line, neck reaching forward, head at about 14 studs). It faces −Z, with the feet on the ground at the origin (between the front feet). The rig bends it into waves at runtime.
 * **Pieces** (each its own MeshPart, split per texture set, all under 20k triangles; about 60k in total): Head, Jaw, Horns, Eyes, Whiskers, Mane, Neck, Body, Tail, Limbs, Claws, Fins, WaterFX.
 * **Textures:** Dragon_Scales (fine scale normal map; geometry carries the ridge plates and belly plates), Dragon_Belly (silver-blue plates), Dragon_Horn (dark steel-blue), Dragon_Fin (solid crystal fins, mane and whiskers), Dragon_Claw (polished silver), Dragon_Eye (set to Neon), and Water_Flame (WaterFX only; set `AlphaMode = Transparency`).
-* **Rig (35 bones, max 4 weights per vertex):**
+* **Rig (39 bones, max 4 weights per vertex):**
   * Root
   * Spine01–04, hips → shoulders
   * Neck01–04, then Head and Jaw
-  * Tail01–12, hips → tip
+  * Tail01–16, hips → tip
   * FL/FR/RL/RR legs, each with `_Upper`, `_Lower` and `_Foot`
 * **Import:** File → Import 3D, Scale Unit = Stud, Rig Type = Custom. Then run `ApplyTextures(<model>)`.
 * **Animate:** `roblox/HO_DragonRig.lua`:
