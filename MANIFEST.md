@@ -213,6 +213,7 @@ Textures live in `textures/<Set>/HO_T_<Set>_{Color,Normal,Roughness,Metalness}.p
 | HO_Icon_Magic_Earth | Image 512x512 PNG (alpha) | `assets/Phase4/Icons/HO_Icon_Magic_Earth.png` |  |  |  | - |  | Earth magic emblem: navy disc, gold rims, 16-rune band, glowing mountain peaks over a cracked slab. Upload as an Image/Decal for ImageLabels (transparent outside the circle). |
 | HO_Icon_Magic_Fire | Image 512x512 PNG (alpha) | `assets/Phase4/Icons/HO_Icon_Magic_Fire.png` |  |  |  | - |  | Fire magic emblem: navy disc, gold rims, 16-rune band, glowing three-tongue flame. Upload as an Image/Decal for ImageLabels (transparent outside the circle). |
 | HO_Icon_Magic_Water | Image 512x512 PNG (alpha) | `assets/Phase4/Icons/HO_Icon_Magic_Water.png` |  |  |  | - |  | Water magic emblem: navy disc, gold rims, 16-rune band, glowing droplet over waves. Upload as an Image/Decal for ImageLabels (transparent outside the circle). |
+| HO_Mech_Raijin | Skinned mesh group + armature | `assets/Phase4/Mechs/HO_Mech_Raijin.fbx` | 4018 | 32.38 × 46.25 × 48.47 | Glow_Amber, Glow_Blue, Glow_Yellow, Gold_Leaf, Iron_Wrought, Mech_Blue, Mech_Frame, Mech_Grey, Mech_Red, Mech_Vent, Mech_White, Shadow_Black, Steel_Blade, Tsuka_Wrap | ground between the feet | ✅ | Original anime real-robot style mech "Raijin" (~48 tall to the crest). Faces FRONT (-Z), feet on the ground at the origin. White panelled armour (Mech_White) with Mech_Blue / Mech_Red / Mech_Grey accents over a dark frame (Mech_Frame), yellow vents (Mech_Vent), faceted helmet with an original three-blade gold crest, twin glowing eyes (Glow_Yellow -> Neon) and forehead sensor (Glow_Blue); broad shoulders with upswept red fins, front/side skirts, heavy knees and feet, four wing plates on the back (L/R_Wing bones). Chest cannon with glowing core (Glow_Amber), muzzle at (0.0, 33.0, -10.5) (Roblox studs from the origin). Huge katana (steel, pale blue glowing edge) in the right hand, tip at (12.6, 6.3, -33.0). 20 bones, every piece rigid: Root, Pelvis, Torso, Head, Cannon, L/R_Wing, L/R_UpperArm/Forearm/Hand, Sword, L/R_Thigh/Shin/Foot. Import with File > Import 3D (Scale Unit = Stud, Rig Type = Custom). roblox/HO_MechRig.lua drives it (Idle, Swing, FireCannon, Stomp) - set Mech.MUZZLE_OFFSET to the muzzle above. |
 | HO_Mech_Tetsujin | Skinned mesh group + armature | `assets/Phase4/Mechs/HO_Mech_Tetsujin.fbx` | 10026 | 23.8 × 43.28 × 46.01 | Black_Lacquer, Cloth_Crimson, Glow_Amber, Glow_Red, Gold_Leaf, Iron_Wrought, Mech_Plate, Red_Lacquer, Shadow_Black, Steel_Dark, Timber_Dark, Tsuka_Wrap | ground between the feet | ✅ | Giant iron samurai mech "Tetsujin" (~46 tall incl. banner, horns at ~41). Faces FRONT (-Z), feet on the ground at the origin. Riveted Mech_Plate iron with Black/Red lacquer lames, crimson lacing, gold trim; kabuto with gold kuwagata horns + crest, menpo with glowing eye slit (Glow_Red -> Neon); sode shoulder plates, kusazuri skirt, pistons; chest cannon with glowing core (Glow_Amber -> Neon), muzzle at (0.0, 27.2, -13.0) (Roblox studs from the origin); smoke stacks + crimson sashimono banner on the back; giant nodachi (Steel_Dark, glowing amber edge) in the right hand, tip at (12.6, 10.6, -38.7). 18 bones, every piece rigid (100% to one bone): Root, Pelvis, Torso, Head, Cannon, L/R_UpperArm/Forearm/Hand, Sword, L/R_Thigh/Shin/Foot. Import with File > Import 3D (Scale Unit = Stud, Rig Type = Custom). roblox/HO_MechRig.lua: Idle, Swing, FireCannon, Stomp. |
 | HO_Prop_FishCreel | Mesh group | `assets/Phase4/Props/HO_Prop_FishCreel.fbx` | 1090 | 1.27 × 1.27 × 1.83 | Bamboo, Rope, Straw | see notes | ✅ | Woven bamboo fish creel (biku) 1.4 tall with lid and rope strap; origin = bottom centre. Wear it on the hip or put caught fish in it. | meshes: HO_Prop_FishCreel__Bamboo (718), HO_Prop_FishCreel__Rope (152), HO_Prop_FishCreel__Straw (220) |
 | HO_Tool_FishingRod_Bamboo | Mesh group | `assets/Phase4/Tools/HO_Tool_FishingRod_Bamboo.fbx` | 1818 | 0.2 × 7.08 × 0.46 | Bamboo, Cloth_White, Rope | grip centre | ✅ | Starter rod (takezao): one natural bamboo pole ~7 long with nodes, rope-bound grip and a white line tie at the tip. Origin = centre of the grip (the hand). The rod points FRONT (-Z) and droops at the tip; line-tie point (tip) in Roblox studs relative to the origin: (0.00, -0.35, -6.40) - put an Attachment there and hang HO_Tool_Fishing_Float / _Hook on a RopeConstraint or Beam. As a Tool: Handle at the grip, Tool.Grip = CFrame.Angles(math.rad(-30), 0, 0) to hold it raised. | meshes: HO_Tool_FishingRod_Bamboo__Bamboo (1434), HO_Tool_FishingRod_Bamboo__Cloth_White (56), HO_Tool_FishingRod_Bamboo__Rope (328) |
@@ -1292,6 +1293,87 @@ Every mesh object uses exactly ONE texture set: give its MeshPart one SurfaceApp
 | HO_Hero_StoneFist_Left | `HO_Hero_StoneFist_Left_Glow` | Glow_Amber | 424 |
 | HO_Hero_StoneFist_Right | `HO_Hero_StoneFist_Right` | Stone_Granite | 1840 |
 | HO_Hero_StoneFist_Right | `HO_Hero_StoneFist_Right_Glow` | Glow_Amber | 424 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Head__Glow_Blue` | Glow_Blue | 80 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Head__Glow_Yellow` | Glow_Yellow | 24 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Head__Gold_Leaf` | Gold_Leaf | 24 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Head__Mech_Blue` | Mech_Blue | 24 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Head__Mech_Frame` | Mech_Frame | 44 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Head__Mech_Grey` | Mech_Grey | 84 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Head__Mech_Red` | Mech_Red | 24 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Head__Mech_White` | Mech_White | 24 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Torso__Mech_Blue` | Mech_Blue | 24 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Torso__Mech_Frame` | Mech_Frame | 36 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Torso__Mech_Grey` | Mech_Grey | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Torso__Mech_Red` | Mech_Red | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Torso__Mech_Vent` | Mech_Vent | 24 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Torso__Mech_White` | Mech_White | 36 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Cannon__Glow_Amber` | Glow_Amber | 428 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Cannon__Mech_Blue` | Mech_Blue | 60 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Cannon__Mech_Grey` | Mech_Grey | 76 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Cannon__Mech_Red` | Mech_Red | 28 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Cannon__Mech_White` | Mech_White | 60 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Cannon__Shadow_Black` | Shadow_Black | 24 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Pelvis__Mech_Blue` | Mech_Blue | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Pelvis__Mech_Frame` | Mech_Frame | 60 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Pelvis__Mech_Red` | Mech_Red | 60 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Pelvis__Mech_White` | Mech_White | 60 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_Wing__Mech_Blue` | Mech_Blue | 24 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_Wing__Mech_Frame` | Mech_Frame | 44 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_Wing__Mech_Red` | Mech_Red | 24 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_Wing__Mech_White` | Mech_White | 24 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_Wing__Mech_Blue` | Mech_Blue | 24 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_Wing__Mech_Frame` | Mech_Frame | 44 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_Wing__Mech_Red` | Mech_Red | 24 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_Wing__Mech_White` | Mech_White | 24 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_UpperArm__Mech_Blue` | Mech_Blue | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_UpperArm__Mech_Frame` | Mech_Frame | 124 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_UpperArm__Mech_Red` | Mech_Red | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_UpperArm__Mech_White` | Mech_White | 24 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_Forearm__Mech_Blue` | Mech_Blue | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_Forearm__Mech_Frame` | Mech_Frame | 96 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_Forearm__Mech_Red` | Mech_Red | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_Forearm__Mech_White` | Mech_White | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_Hand__Mech_Frame` | Mech_Frame | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_Hand__Mech_Grey` | Mech_Grey | 108 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_UpperArm__Mech_Blue` | Mech_Blue | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_UpperArm__Mech_Frame` | Mech_Frame | 124 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_UpperArm__Mech_Red` | Mech_Red | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_UpperArm__Mech_White` | Mech_White | 24 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_Forearm__Mech_Blue` | Mech_Blue | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_Forearm__Mech_Frame` | Mech_Frame | 96 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_Forearm__Mech_Red` | Mech_Red | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_Forearm__Mech_White` | Mech_White | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_Hand__Mech_Frame` | Mech_Frame | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_Hand__Mech_Grey` | Mech_Grey | 108 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Sword__Glow_Blue` | Glow_Blue | 122 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Sword__Gold_Leaf` | Gold_Leaf | 46 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Sword__Iron_Wrought` | Iron_Wrought | 332 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Sword__Steel_Blade` | Steel_Blade | 206 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_Sword__Tsuka_Wrap` | Tsuka_Wrap | 44 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_Thigh__Mech_Frame` | Mech_Frame | 124 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_Thigh__Mech_Grey` | Mech_Grey | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_Thigh__Mech_White` | Mech_White | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_Shin__Mech_Blue` | Mech_Blue | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_Shin__Mech_Frame` | Mech_Frame | 124 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_Shin__Mech_Red` | Mech_Red | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_Shin__Mech_Vent` | Mech_Vent | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_Shin__Mech_White` | Mech_White | 24 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_Foot__Mech_Blue` | Mech_Blue | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_Foot__Mech_Frame` | Mech_Frame | 56 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_Foot__Mech_Red` | Mech_Red | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_R_Foot__Mech_White` | Mech_White | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_Thigh__Mech_Frame` | Mech_Frame | 124 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_Thigh__Mech_Grey` | Mech_Grey | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_Thigh__Mech_White` | Mech_White | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_Shin__Mech_Blue` | Mech_Blue | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_Shin__Mech_Frame` | Mech_Frame | 124 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_Shin__Mech_Red` | Mech_Red | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_Shin__Mech_Vent` | Mech_Vent | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_Shin__Mech_White` | Mech_White | 24 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_Foot__Mech_Blue` | Mech_Blue | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_Foot__Mech_Frame` | Mech_Frame | 56 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_Foot__Mech_Red` | Mech_Red | 12 |
+| HO_Mech_Raijin | `HO_Mech_Raijin_L_Foot__Mech_White` | Mech_White | 12 |
 | HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Head__Black_Lacquer` | Black_Lacquer | 402 |
 | HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Head__Glow_Red` | Glow_Red | 12 |
 | HO_Mech_Tetsujin | `HO_Mech_Tetsujin_Head__Gold_Leaf` | Gold_Leaf | 256 |

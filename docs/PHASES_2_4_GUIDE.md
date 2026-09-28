@@ -235,3 +235,21 @@ An ancient Eastern water dragon built as a real game creature. It's a solid PBR 
   * `Swing(model)` does an overhead sword cut.
   * `FireCannon(model)` recoils and returns the muzzle CFrame for your projectile or VFX.
   * `Stomp(model, "R"/"L")` stomps a foot.
+
+## 9. Hero unit: anime real-robot mech (`assets/Phase4/Mechs/HO_Mech_Raijin.fbx`)
+
+An original design in the white-armour anime "real robot" style. It is not a copy of any existing mecha, so it's safe to ship.
+
+* **Size and pose:** about 48 studs to the crest tips. It faces −Z with its feet on the ground at the origin.
+* **Look:**
+  * faceted helmet with a three-blade gold crest, twin glowing eyes (Glow_Yellow; set to Neon), a blue forehead sensor, a red chin and vulcan pods
+  * blue chest with yellow vents
+  * broad shoulders with upswept red fins
+  * front and side skirt armour
+  * heavy knee armour and feet
+  * four wing plates on the back
+* **Cannon:** in the middle of the chest, with a glowing core. The muzzle is at (0, 33.0, −10.5) studs from the origin.
+* **Sword:** a huge katana with a pale blue glowing edge, in the right hand.
+* **Textures:** Mech_White, Mech_Blue, Mech_Red, Mech_Grey (panel lines, hatches and caution markings), Mech_Frame (inner frame) and Mech_Vent.
+* **Rig:** 20 rigid bones, the same as Tetsujin plus L/R_Wing.
+* **Animate:** `roblox/HO_MechRig.lua` works for both mechs; it looks up each one's muzzle by model name, and `Idle` also flexes the wings.

@@ -31514,6 +31514,1999 @@
   "notes": "Water magic emblem: navy disc, gold rims, 16-rune band, glowing droplet over waves. Upload as an Image/Decal for ImageLabels (transparent outside the circle)."
  },
  {
+  "name": "HO_Mech_Raijin",
+  "phase": "Phase4",
+  "category": "Mechs",
+  "type": "Skinned mesh group + armature",
+  "file": "assets/Phase4/Mechs/HO_Mech_Raijin.fbx",
+  "tris": 4018,
+  "textures": [
+   "Glow_Amber",
+   "Glow_Blue",
+   "Glow_Yellow",
+   "Gold_Leaf",
+   "Iron_Wrought",
+   "Mech_Blue",
+   "Mech_Frame",
+   "Mech_Grey",
+   "Mech_Red",
+   "Mech_Vent",
+   "Mech_White",
+   "Shadow_Black",
+   "Steel_Blade",
+   "Tsuka_Wrap"
+  ],
+  "pivot": "ground between the feet",
+  "renders": [
+   "renders/Phase4/Mechs/HO_Mech_Raijin_three_quarter.png",
+   "renders/Phase4/Mechs/HO_Mech_Raijin_front.png",
+   "renders/Phase4/Mechs/HO_Mech_Raijin_side.png",
+   "renders/Phase4/Mechs/HO_Mech_Raijin_back.png",
+   "renders/Phase4/Mechs/HO_Mech_Raijin_head.png",
+   "renders/Phase4/Mechs/HO_Mech_Raijin_hero.png",
+   "renders/Phase4/Mechs/HO_Mech_Raijin_cannon.png",
+   "renders/Phase4/Mechs/HO_Mech_Raijin_PoseTest_three_quarter.png"
+  ],
+  "mesh_checks": [
+   {
+    "name": "HO_Mech_Raijin_Head__Glow_Blue",
+    "tris": 80,
+    "tris_per_material": {
+     "Glow_Blue": 80
+    },
+    "under_limit": true,
+    "dims": [
+     0.746,
+     0.336,
+     0.784
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Glow_Blue"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Head__Glow_Yellow",
+    "tris": 24,
+    "tris_per_material": {
+     "Glow_Yellow": 24
+    },
+    "under_limit": true,
+    "dims": [
+     3.36,
+     0.49,
+     0.7
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Glow_Yellow"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Head__Gold_Leaf",
+    "tris": 24,
+    "tris_per_material": {
+     "Gold_Leaf": 24
+    },
+    "under_limit": true,
+    "dims": [
+     11.004,
+     0.98,
+     5.18
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Head__Mech_Blue",
+    "tris": 24,
+    "tris_per_material": {
+     "Mech_Blue": 24
+    },
+    "under_limit": true,
+    "dims": [
+     5.18,
+     3.92,
+     3.64
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Blue"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Head__Mech_Frame",
+    "tris": 44,
+    "tris_per_material": {
+     "Mech_Frame": 44
+    },
+    "under_limit": true,
+    "dims": [
+     3.36,
+     3.36,
+     1.96
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Frame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Head__Mech_Grey",
+    "tris": 84,
+    "tris_per_material": {
+     "Mech_Grey": 84
+    },
+    "under_limit": true,
+    "dims": [
+     5.824,
+     2.17,
+     3.453
+    ],
+    "parts": 3,
+    "floating": 2,
+    "closed_parts": 3,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Grey"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Head__Mech_Red",
+    "tris": 24,
+    "tris_per_material": {
+     "Mech_Red": 24
+    },
+    "under_limit": true,
+    "dims": [
+     1.96,
+     1.26,
+     6.86
+    ],
+    "parts": 2,
+    "floating": 1,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Red"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Head__Mech_White",
+    "tris": 24,
+    "tris_per_material": {
+     "Mech_White": 24
+    },
+    "under_limit": true,
+    "dims": [
+     4.76,
+     5.32,
+     5.6
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Torso__Mech_Blue",
+    "tris": 24,
+    "tris_per_material": {
+     "Mech_Blue": 24
+    },
+    "under_limit": true,
+    "dims": [
+     12.8,
+     7.1,
+     9.6
+    ],
+    "parts": 2,
+    "floating": 1,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Blue"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Torso__Mech_Frame",
+    "tris": 36,
+    "tris_per_material": {
+     "Mech_Frame": 36
+    },
+    "under_limit": true,
+    "dims": [
+     5.2,
+     0.7,
+     2.7
+    ],
+    "parts": 3,
+    "floating": 2,
+    "closed_parts": 3,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Frame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Torso__Mech_Grey",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Grey": 12
+    },
+    "under_limit": true,
+    "dims": [
+     7.8,
+     3.4,
+     7.5
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Grey"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Torso__Mech_Red",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Red": 12
+    },
+    "under_limit": true,
+    "dims": [
+     7.6,
+     5.4,
+     1.6
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Red"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Torso__Mech_Vent",
+    "tris": 24,
+    "tris_per_material": {
+     "Mech_Vent": 24
+    },
+    "under_limit": true,
+    "dims": [
+     11.0,
+     0.4,
+     3.0
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Vent"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Torso__Mech_White",
+    "tris": 36,
+    "tris_per_material": {
+     "Mech_White": 36
+    },
+    "under_limit": true,
+    "dims": [
+     14.4,
+     7.8,
+     7.6
+    ],
+    "parts": 3,
+    "floating": 0,
+    "closed_parts": 3,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Cannon__Glow_Amber",
+    "tris": 428,
+    "tris_per_material": {
+     "Glow_Amber": 428
+    },
+    "under_limit": true,
+    "dims": [
+     3.419,
+     5.51,
+     3.42
+    ],
+    "parts": 2,
+    "floating": 1,
+    "closed_parts": 1,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Glow_Amber"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Cannon__Mech_Blue",
+    "tris": 60,
+    "tris_per_material": {
+     "Mech_Blue": 60
+    },
+    "under_limit": true,
+    "dims": [
+     2.4,
+     0.4,
+     2.4
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Blue"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Cannon__Mech_Grey",
+    "tris": 76,
+    "tris_per_material": {
+     "Mech_Grey": 76
+    },
+    "under_limit": true,
+    "dims": [
+     3.8,
+     1.3,
+     3.8
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Grey"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Cannon__Mech_Red",
+    "tris": 28,
+    "tris_per_material": {
+     "Mech_Red": 28
+    },
+    "under_limit": true,
+    "dims": [
+     2.6,
+     1.2,
+     2.6
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Red"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Cannon__Mech_White",
+    "tris": 60,
+    "tris_per_material": {
+     "Mech_White": 60
+    },
+    "under_limit": true,
+    "dims": [
+     2.1,
+     5.6,
+     2.1
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Cannon__Shadow_Black",
+    "tris": 24,
+    "tris_per_material": {
+     "Shadow_Black": 24
+    },
+    "under_limit": true,
+    "dims": [
+     1.4,
+     0.52,
+     1.4
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Shadow_Black"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Pelvis__Mech_Blue",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Blue": 12
+    },
+    "under_limit": true,
+    "dims": [
+     7.0,
+     5.8,
+     3.6
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Blue"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Pelvis__Mech_Frame",
+    "tris": 60,
+    "tris_per_material": {
+     "Mech_Frame": 60
+    },
+    "under_limit": true,
+    "dims": [
+     5.8,
+     5.8,
+     3.2
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Frame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Pelvis__Mech_Red",
+    "tris": 60,
+    "tris_per_material": {
+     "Mech_Red": 60
+    },
+    "under_limit": true,
+    "dims": [
+     11.6,
+     5.2,
+     4.2
+    ],
+    "parts": 5,
+    "floating": 3,
+    "closed_parts": 5,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Red"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Pelvis__Mech_White",
+    "tris": 60,
+    "tris_per_material": {
+     "Mech_White": 60
+    },
+    "under_limit": true,
+    "dims": [
+     12.0,
+     8.8,
+     8.2
+    ],
+    "parts": 5,
+    "floating": 3,
+    "closed_parts": 5,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_Wing__Mech_Blue",
+    "tris": 24,
+    "tris_per_material": {
+     "Mech_Blue": 24
+    },
+    "under_limit": true,
+    "dims": [
+     10.732,
+     3.447,
+     11.326
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Blue"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_Wing__Mech_Frame",
+    "tris": 44,
+    "tris_per_material": {
+     "Mech_Frame": 44
+    },
+    "under_limit": true,
+    "dims": [
+     1.0,
+     2.0,
+     2.0
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Frame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_Wing__Mech_Red",
+    "tris": 24,
+    "tris_per_material": {
+     "Mech_Red": 24
+    },
+    "under_limit": true,
+    "dims": [
+     4.315,
+     1.347,
+     9.714
+    ],
+    "parts": 2,
+    "floating": 1,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Red"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_Wing__Mech_White",
+    "tris": 24,
+    "tris_per_material": {
+     "Mech_White": 24
+    },
+    "under_limit": true,
+    "dims": [
+     13.395,
+     4.232,
+     13.752
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_Wing__Mech_Blue",
+    "tris": 24,
+    "tris_per_material": {
+     "Mech_Blue": 24
+    },
+    "under_limit": true,
+    "dims": [
+     10.679,
+     3.447,
+     11.47
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Blue"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_Wing__Mech_Frame",
+    "tris": 44,
+    "tris_per_material": {
+     "Mech_Frame": 44
+    },
+    "under_limit": true,
+    "dims": [
+     1.0,
+     2.0,
+     2.0
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Frame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_Wing__Mech_Red",
+    "tris": 24,
+    "tris_per_material": {
+     "Mech_Red": 24
+    },
+    "under_limit": true,
+    "dims": [
+     4.417,
+     1.347,
+     10.093
+    ],
+    "parts": 2,
+    "floating": 1,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Red"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_Wing__Mech_White",
+    "tris": 24,
+    "tris_per_material": {
+     "Mech_White": 24
+    },
+    "under_limit": true,
+    "dims": [
+     13.238,
+     4.232,
+     14.183
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_UpperArm__Mech_Blue",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Blue": 12
+    },
+    "under_limit": true,
+    "dims": [
+     0.8,
+     5.2,
+     5.2
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Blue"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_UpperArm__Mech_Frame",
+    "tris": 124,
+    "tris_per_material": {
+     "Mech_Frame": 124
+    },
+    "under_limit": true,
+    "dims": [
+     5.026,
+     4.591,
+     9.432
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Frame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_UpperArm__Mech_Red",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Red": 12
+    },
+    "under_limit": true,
+    "dims": [
+     6.6,
+     0.9,
+     3.3
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Red"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_UpperArm__Mech_White",
+    "tris": 24,
+    "tris_per_material": {
+     "Mech_White": 24
+    },
+    "under_limit": true,
+    "dims": [
+     5.2,
+     6.4,
+     10.82
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_Forearm__Mech_Blue",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Blue": 12
+    },
+    "under_limit": true,
+    "dims": [
+     5.093,
+     4.35,
+     2.802
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Blue"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_Forearm__Mech_Frame",
+    "tris": 96,
+    "tris_per_material": {
+     "Mech_Frame": 96
+    },
+    "under_limit": true,
+    "dims": [
+     3.182,
+     5.857,
+     8.291
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Frame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_Forearm__Mech_Red",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Red": 12
+    },
+    "under_limit": true,
+    "dims": [
+     0.271,
+     4.083,
+     4.882
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Red"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_Forearm__Mech_White",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_White": 12
+    },
+    "under_limit": true,
+    "dims": [
+     4.993,
+     6.693,
+     7.542
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_Hand__Mech_Frame",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Frame": 12
+    },
+    "under_limit": true,
+    "dims": [
+     3.24,
+     2.29,
+     2.873
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Frame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_Hand__Mech_Grey",
+    "tris": 108,
+    "tris_per_material": {
+     "Mech_Grey": 108
+    },
+    "under_limit": true,
+    "dims": [
+     3.557,
+     2.158,
+     2.899
+    ],
+    "parts": 5,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 4,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Grey"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_UpperArm__Mech_Blue",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Blue": 12
+    },
+    "under_limit": true,
+    "dims": [
+     0.8,
+     5.2,
+     5.2
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Blue"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_UpperArm__Mech_Frame",
+    "tris": 124,
+    "tris_per_material": {
+     "Mech_Frame": 124
+    },
+    "under_limit": true,
+    "dims": [
+     5.295,
+     4.0,
+     9.61
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Frame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_UpperArm__Mech_Red",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Red": 12
+    },
+    "under_limit": true,
+    "dims": [
+     6.6,
+     0.9,
+     3.3
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Red"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_UpperArm__Mech_White",
+    "tris": 24,
+    "tris_per_material": {
+     "Mech_White": 24
+    },
+    "under_limit": true,
+    "dims": [
+     5.205,
+     6.4,
+     10.891
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_Forearm__Mech_Blue",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Blue": 12
+    },
+    "under_limit": true,
+    "dims": [
+     5.077,
+     4.716,
+     1.777
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Blue"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_Forearm__Mech_Frame",
+    "tris": 96,
+    "tris_per_material": {
+     "Mech_Frame": 96
+    },
+    "under_limit": true,
+    "dims": [
+     3.465,
+     3.882,
+     8.487
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Frame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_Forearm__Mech_Red",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Red": 12
+    },
+    "under_limit": true,
+    "dims": [
+     0.195,
+     3.052,
+     4.5
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Red"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_Forearm__Mech_White",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_White": 12
+    },
+    "under_limit": true,
+    "dims": [
+     5.046,
+     5.283,
+     6.956
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_Hand__Mech_Frame",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Frame": 12
+    },
+    "under_limit": true,
+    "dims": [
+     3.336,
+     2.266,
+     3.111
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Frame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_Hand__Mech_Grey",
+    "tris": 108,
+    "tris_per_material": {
+     "Mech_Grey": 108
+    },
+    "under_limit": true,
+    "dims": [
+     3.528,
+     2.007,
+     4.807
+    ],
+    "parts": 9,
+    "floating": 1,
+    "closed_parts": 9,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Grey"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Sword__Glow_Blue",
+    "tris": 122,
+    "tris_per_material": {
+     "Glow_Blue": 122
+    },
+    "under_limit": true,
+    "dims": [
+     1.739,
+     24.511,
+     9.259
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Glow_Blue"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Sword__Gold_Leaf",
+    "tris": 46,
+    "tris_per_material": {
+     "Gold_Leaf": 46
+    },
+    "under_limit": true,
+    "dims": [
+     1.138,
+     1.135,
+     1.27
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Sword__Iron_Wrought",
+    "tris": 332,
+    "tris_per_material": {
+     "Iron_Wrought": 332
+    },
+    "under_limit": true,
+    "dims": [
+     6.586,
+     11.475,
+     7.996
+    ],
+    "parts": 4,
+    "floating": 1,
+    "closed_parts": 4,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Sword__Steel_Blade",
+    "tris": 206,
+    "tris_per_material": {
+     "Steel_Blade": 206
+    },
+    "under_limit": true,
+    "dims": [
+     1.711,
+     24.431,
+     10.287
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Steel_Blade"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_Sword__Tsuka_Wrap",
+    "tris": 44,
+    "tris_per_material": {
+     "Tsuka_Wrap": 44
+    },
+    "under_limit": true,
+    "dims": [
+     1.876,
+     8.934,
+     5.437
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Tsuka_Wrap"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_Thigh__Mech_Frame",
+    "tris": 124,
+    "tris_per_material": {
+     "Mech_Frame": 124
+    },
+    "under_limit": true,
+    "dims": [
+     3.977,
+     4.357,
+     10.573
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Frame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_Thigh__Mech_Grey",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Grey": 12
+    },
+    "under_limit": true,
+    "dims": [
+     0.367,
+     3.098,
+     1.482
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Grey"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_Thigh__Mech_White",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_White": 12
+    },
+    "under_limit": true,
+    "dims": [
+     5.878,
+     6.125,
+     7.583
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_Shin__Mech_Blue",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Blue": 12
+    },
+    "under_limit": true,
+    "dims": [
+     6.8,
+     6.385,
+     1.224
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Blue"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_Shin__Mech_Frame",
+    "tris": 124,
+    "tris_per_material": {
+     "Mech_Frame": 124
+    },
+    "under_limit": true,
+    "dims": [
+     3.234,
+     3.977,
+     13.295
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Frame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_Shin__Mech_Red",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Red": 12
+    },
+    "under_limit": true,
+    "dims": [
+     0.8,
+     0.85,
+     3.6
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Red"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_Shin__Mech_Vent",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Vent": 12
+    },
+    "under_limit": true,
+    "dims": [
+     0.6,
+     2.298,
+     3.135
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Vent"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_Shin__Mech_White",
+    "tris": 24,
+    "tris_per_material": {
+     "Mech_White": 24
+    },
+    "under_limit": true,
+    "dims": [
+     6.6,
+     7.165,
+     13.39
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_Foot__Mech_Blue",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Blue": 12
+    },
+    "under_limit": true,
+    "dims": [
+     4.8,
+     2.2,
+     1.7
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Blue"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_Foot__Mech_Frame",
+    "tris": 56,
+    "tris_per_material": {
+     "Mech_Frame": 56
+    },
+    "under_limit": true,
+    "dims": [
+     5.4,
+     10.0,
+     4.6
+    ],
+    "parts": 2,
+    "floating": 1,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Frame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_Foot__Mech_Red",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Red": 12
+    },
+    "under_limit": true,
+    "dims": [
+     3.2,
+     1.4,
+     1.8
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Red"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_R_Foot__Mech_White",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_White": 12
+    },
+    "under_limit": true,
+    "dims": [
+     5.0,
+     8.6,
+     2.2
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_Thigh__Mech_Frame",
+    "tris": 124,
+    "tris_per_material": {
+     "Mech_Frame": 124
+    },
+    "under_limit": true,
+    "dims": [
+     3.977,
+     4.357,
+     10.573
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Frame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_Thigh__Mech_Grey",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Grey": 12
+    },
+    "under_limit": true,
+    "dims": [
+     0.367,
+     3.098,
+     1.482
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Grey"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_Thigh__Mech_White",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_White": 12
+    },
+    "under_limit": true,
+    "dims": [
+     5.878,
+     5.726,
+     7.619
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_Shin__Mech_Blue",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Blue": 12
+    },
+    "under_limit": true,
+    "dims": [
+     6.8,
+     6.385,
+     1.224
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Blue"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_Shin__Mech_Frame",
+    "tris": 124,
+    "tris_per_material": {
+     "Mech_Frame": 124
+    },
+    "under_limit": true,
+    "dims": [
+     3.234,
+     3.977,
+     13.295
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Frame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_Shin__Mech_Red",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Red": 12
+    },
+    "under_limit": true,
+    "dims": [
+     0.8,
+     0.85,
+     3.6
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Red"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_Shin__Mech_Vent",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Vent": 12
+    },
+    "under_limit": true,
+    "dims": [
+     0.6,
+     2.298,
+     3.135
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Vent"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_Shin__Mech_White",
+    "tris": 24,
+    "tris_per_material": {
+     "Mech_White": 24
+    },
+    "under_limit": true,
+    "dims": [
+     6.6,
+     6.567,
+     13.431
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_Foot__Mech_Blue",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Blue": 12
+    },
+    "under_limit": true,
+    "dims": [
+     4.8,
+     2.2,
+     1.7
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Blue"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_Foot__Mech_Frame",
+    "tris": 56,
+    "tris_per_material": {
+     "Mech_Frame": 56
+    },
+    "under_limit": true,
+    "dims": [
+     5.4,
+     10.0,
+     4.6
+    ],
+    "parts": 2,
+    "floating": 1,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Frame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_Foot__Mech_Red",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_Red": 12
+    },
+    "under_limit": true,
+    "dims": [
+     3.2,
+     1.4,
+     1.8
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_Red"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Mech_Raijin_L_Foot__Mech_White",
+    "tris": 12,
+    "tris_per_material": {
+     "Mech_White": 12
+    },
+    "under_limit": true,
+    "dims": [
+     5.0,
+     8.6,
+     2.2
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Mech_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "checks": {
+   "under_limit": true,
+   "dims": [
+    32.38,
+    46.25,
+    48.47
+   ],
+   "meshes": {
+    "HO_Mech_Raijin_Head__Glow_Blue": 80,
+    "HO_Mech_Raijin_Head__Glow_Yellow": 24,
+    "HO_Mech_Raijin_Head__Gold_Leaf": 24,
+    "HO_Mech_Raijin_Head__Mech_Blue": 24,
+    "HO_Mech_Raijin_Head__Mech_Frame": 44,
+    "HO_Mech_Raijin_Head__Mech_Grey": 84,
+    "HO_Mech_Raijin_Head__Mech_Red": 24,
+    "HO_Mech_Raijin_Head__Mech_White": 24,
+    "HO_Mech_Raijin_Torso__Mech_Blue": 24,
+    "HO_Mech_Raijin_Torso__Mech_Frame": 36,
+    "HO_Mech_Raijin_Torso__Mech_Grey": 12,
+    "HO_Mech_Raijin_Torso__Mech_Red": 12,
+    "HO_Mech_Raijin_Torso__Mech_Vent": 24,
+    "HO_Mech_Raijin_Torso__Mech_White": 36,
+    "HO_Mech_Raijin_Cannon__Glow_Amber": 428,
+    "HO_Mech_Raijin_Cannon__Mech_Blue": 60,
+    "HO_Mech_Raijin_Cannon__Mech_Grey": 76,
+    "HO_Mech_Raijin_Cannon__Mech_Red": 28,
+    "HO_Mech_Raijin_Cannon__Mech_White": 60,
+    "HO_Mech_Raijin_Cannon__Shadow_Black": 24,
+    "HO_Mech_Raijin_Pelvis__Mech_Blue": 12,
+    "HO_Mech_Raijin_Pelvis__Mech_Frame": 60,
+    "HO_Mech_Raijin_Pelvis__Mech_Red": 60,
+    "HO_Mech_Raijin_Pelvis__Mech_White": 60,
+    "HO_Mech_Raijin_R_Wing__Mech_Blue": 24,
+    "HO_Mech_Raijin_R_Wing__Mech_Frame": 44,
+    "HO_Mech_Raijin_R_Wing__Mech_Red": 24,
+    "HO_Mech_Raijin_R_Wing__Mech_White": 24,
+    "HO_Mech_Raijin_L_Wing__Mech_Blue": 24,
+    "HO_Mech_Raijin_L_Wing__Mech_Frame": 44,
+    "HO_Mech_Raijin_L_Wing__Mech_Red": 24,
+    "HO_Mech_Raijin_L_Wing__Mech_White": 24,
+    "HO_Mech_Raijin_R_UpperArm__Mech_Blue": 12,
+    "HO_Mech_Raijin_R_UpperArm__Mech_Frame": 124,
+    "HO_Mech_Raijin_R_UpperArm__Mech_Red": 12,
+    "HO_Mech_Raijin_R_UpperArm__Mech_White": 24,
+    "HO_Mech_Raijin_R_Forearm__Mech_Blue": 12,
+    "HO_Mech_Raijin_R_Forearm__Mech_Frame": 96,
+    "HO_Mech_Raijin_R_Forearm__Mech_Red": 12,
+    "HO_Mech_Raijin_R_Forearm__Mech_White": 12,
+    "HO_Mech_Raijin_R_Hand__Mech_Frame": 12,
+    "HO_Mech_Raijin_R_Hand__Mech_Grey": 108,
+    "HO_Mech_Raijin_L_UpperArm__Mech_Blue": 12,
+    "HO_Mech_Raijin_L_UpperArm__Mech_Frame": 124,
+    "HO_Mech_Raijin_L_UpperArm__Mech_Red": 12,
+    "HO_Mech_Raijin_L_UpperArm__Mech_White": 24,
+    "HO_Mech_Raijin_L_Forearm__Mech_Blue": 12,
+    "HO_Mech_Raijin_L_Forearm__Mech_Frame": 96,
+    "HO_Mech_Raijin_L_Forearm__Mech_Red": 12,
+    "HO_Mech_Raijin_L_Forearm__Mech_White": 12,
+    "HO_Mech_Raijin_L_Hand__Mech_Frame": 12,
+    "HO_Mech_Raijin_L_Hand__Mech_Grey": 108,
+    "HO_Mech_Raijin_Sword__Glow_Blue": 122,
+    "HO_Mech_Raijin_Sword__Gold_Leaf": 46,
+    "HO_Mech_Raijin_Sword__Iron_Wrought": 332,
+    "HO_Mech_Raijin_Sword__Steel_Blade": 206,
+    "HO_Mech_Raijin_Sword__Tsuka_Wrap": 44,
+    "HO_Mech_Raijin_R_Thigh__Mech_Frame": 124,
+    "HO_Mech_Raijin_R_Thigh__Mech_Grey": 12,
+    "HO_Mech_Raijin_R_Thigh__Mech_White": 12,
+    "HO_Mech_Raijin_R_Shin__Mech_Blue": 12,
+    "HO_Mech_Raijin_R_Shin__Mech_Frame": 124,
+    "HO_Mech_Raijin_R_Shin__Mech_Red": 12,
+    "HO_Mech_Raijin_R_Shin__Mech_Vent": 12,
+    "HO_Mech_Raijin_R_Shin__Mech_White": 24,
+    "HO_Mech_Raijin_R_Foot__Mech_Blue": 12,
+    "HO_Mech_Raijin_R_Foot__Mech_Frame": 56,
+    "HO_Mech_Raijin_R_Foot__Mech_Red": 12,
+    "HO_Mech_Raijin_R_Foot__Mech_White": 12,
+    "HO_Mech_Raijin_L_Thigh__Mech_Frame": 124,
+    "HO_Mech_Raijin_L_Thigh__Mech_Grey": 12,
+    "HO_Mech_Raijin_L_Thigh__Mech_White": 12,
+    "HO_Mech_Raijin_L_Shin__Mech_Blue": 12,
+    "HO_Mech_Raijin_L_Shin__Mech_Frame": 124,
+    "HO_Mech_Raijin_L_Shin__Mech_Red": 12,
+    "HO_Mech_Raijin_L_Shin__Mech_Vent": 12,
+    "HO_Mech_Raijin_L_Shin__Mech_White": 24,
+    "HO_Mech_Raijin_L_Foot__Mech_Blue": 12,
+    "HO_Mech_Raijin_L_Foot__Mech_Frame": 56,
+    "HO_Mech_Raijin_L_Foot__Mech_Red": 12,
+    "HO_Mech_Raijin_L_Foot__Mech_White": 12
+   },
+   "bones": 20
+  },
+  "notes": "Original anime real-robot style mech \"Raijin\" (~48 tall to the crest). Faces FRONT (-Z), feet on the ground at the origin. White panelled armour (Mech_White) with Mech_Blue / Mech_Red / Mech_Grey accents over a dark frame (Mech_Frame), yellow vents (Mech_Vent), faceted helmet with an original three-blade gold crest, twin glowing eyes (Glow_Yellow -> Neon) and forehead sensor (Glow_Blue); broad shoulders with upswept red fins, front/side skirts, heavy knees and feet, four wing plates on the back (L/R_Wing bones). Chest cannon with glowing core (Glow_Amber), muzzle at (0.0, 33.0, -10.5) (Roblox studs from the origin). Huge katana (steel, pale blue glowing edge) in the right hand, tip at (12.6, 6.3, -33.0). 20 bones, every piece rigid: Root, Pelvis, Torso, Head, Cannon, L/R_Wing, L/R_UpperArm/Forearm/Hand, Sword, L/R_Thigh/Shin/Foot. Import with File > Import 3D (Scale Unit = Stud, Rig Type = Custom). roblox/HO_MechRig.lua drives it (Idle, Swing, FireCannon, Stomp) - set Mech.MUZZLE_OFFSET to the muzzle above."
+ },
+ {
   "name": "HO_Mech_Tetsujin",
   "phase": "Phase4",
   "category": "Mechs",
