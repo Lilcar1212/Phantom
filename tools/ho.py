@@ -160,6 +160,14 @@ def material(name, emission=None, emission_strength=0.0, tint=None):
     nm = N.new('ShaderNodeNormalMap')
     L.new(img('Normal', True).outputs['Color'], nm.inputs['Color'])
     L.new(nm.outputs['Normal'], bsdf.inputs['Normal'])
+    if name == 'Water_Flame':                   # living water: see-through with a soft inner glow
+        L.new(col.outputs['Alpha'], bsdf.inputs['Alpha'])
+        L.new(col.outputs['Color'], bsdf.inputs['Emission Color'])
+        bsdf.inputs['Emission Strength'].default_value = 0.9
+        if hasattr(m, 'blend_method'): m.blend_method = 'BLEND'
+    if name.startswith('Glow_'):
+        L.new(col.outputs['Color'], bsdf.inputs['Emission Color'])
+        bsdf.inputs['Emission Strength'].default_value = 3.0
     if name.startswith('VFX_'):                  # scrolling effect textures: glow, see-through where dark
         glow = {'VFX_Energy': (0.35, 0.75, 1.0), 'VFX_Slash': (0.75, 0.88, 1.0), 'VFX_Water': (0.3, 0.62, 1.0)}.get(name, (1, 1, 1))
         gm = N.new('ShaderNodeMix'); gm.data_type = 'RGBA'; gm.blend_type = 'MULTIPLY'; gm.inputs['Factor'].default_value = 1.0

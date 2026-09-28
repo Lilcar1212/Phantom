@@ -75,10 +75,12 @@ def smooth(e0, e1, x):
     return t * t * (3 - 2 * t)
 
 
-def save(name, color, height, rough, metal, nstrength=4.0, normal=None):
+def save(name, color, height, rough, metal, nstrength=4.0, normal=None, alpha=None):
     d = os.path.join(OUT, name); os.makedirs(d, exist_ok=True)
     c = np.clip(color, 0, 255).astype(np.uint8)
-    Image.fromarray(c, 'RGB').save(os.path.join(d, f'HO_T_{name}_Color.png'), optimize=True)
+    if alpha is not None:                                  # RGBA colour map (SurfaceAppearance AlphaMode)
+        c = np.dstack([c, (np.clip(alpha, 0, 1) * 255).astype(np.uint8)])
+    Image.fromarray(c, 'RGBA' if alpha is not None else 'RGB').save(os.path.join(d, f'HO_T_{name}_Color.png'), optimize=True)
     nm = normal if normal is not None else normal_from_height(height, nstrength * N / 256)
     Image.fromarray((nm * 255 + 0.5).astype(np.uint8), 'RGB').save(os.path.join(d, f'HO_T_{name}_Normal.png'))
     rough = rough if np.ndim(rough) else np.full((N, N), rough)
@@ -544,13 +546,14 @@ def dragon_scales():
         cid[m] = (r * 131 + cv[m] * 17) % 97
     var = (np.sin(cid * 12.9898) * 43758.5453) % 1.0
     n1 = fnoise(601, 2.2); n2 = fnoise(602, 1.4, aniso=(1.0, 3.0))
-    base = lerp((22, 112, 170), (38, 168, 206), var * 0.6 + n1 * 0.4)
-    col = lerp(base, (120, 220, 240), smooth(0.35, 0.0, edge) * 0.55)       # sheen toward the scale centre
-    col = lerp(col, (170, 240, 255), smooth(0.78, 0.92, edge) * smooth(1.0, 0.95, edge) * 0.8)   # pale rim
-    col = lerp(col, (8, 30, 64), smooth(0.93, 1.0, edge))                  # dark seam
+    base = lerp((16, 62, 158), (36, 140, 228), var * 0.6 + n1 * 0.4)
+    col = lerp(base, (110, 206, 255), smooth(0.35, 0.0, edge) * 0.55)       # sheen toward the scale centre
+    col = lerp(col, (205, 246, 255), smooth(0.78, 0.92, edge) * smooth(1.0, 0.95, edge) * 0.85)   # pale rim
+    col = lerp(col, (4, 16, 46), smooth(0.93, 1.0, edge))                  # dark seam
     col = lerp(col, (60, 90, 190), n2 * 0.18)                              # violet-blue drift
-    hh = h + n1 * 0.05
-    save('Dragon_Scales', col, hh, 0.22 + 0.25 * smooth(0.9, 1.0, edge) + n1 * 0.08, 0.12, 5.0)
+    micro = fnoise(603, 1.0)
+    hh = h + n1 * 0.05 + micro * 0.03
+    save('Dragon_Scales', col, hh, 0.12 + 0.3 * smooth(0.9, 1.0, edge) + n1 * 0.06, 0.28, 6.5)
 
 
 def dragon_belly():
@@ -561,10 +564,10 @@ def dragon_belly():
     prof = smooth(0.0, 0.25, k) * smooth(1.0, 0.8, k)      # rounded plate
     ridge = np.abs(np.sin((V + n1 * 0.02) * np.pi * 2)) ** 8 * 0.0
     h = prof * 0.8 + n2 * 0.1 + ridge
-    col = lerp((104, 118, 196), (182, 196, 236), prof * 0.8 + n1 * 0.2)
-    col = lerp(col, (50, 56, 120), smooth(0.12, 0.0, k) + smooth(0.92, 1.0, k))       # seams between plates
-    col = lerp(col, (230, 236, 255), smooth(0.5, 0.75, k) * smooth(0.95, 0.8, k) * 0.35)
-    save('Dragon_Belly', col, h, 0.3 + (1 - prof) * 0.3, 0.05, 4.0)
+    col = lerp((128, 150, 190), (222, 232, 248), prof * 0.8 + n1 * 0.2)                # silvery plates
+    col = lerp(col, (70, 92, 136), (smooth(0.07, 0.0, k) + smooth(0.95, 1.0, k)) * 0.8)   # seams between plates
+    col = lerp(col, (248, 252, 255), smooth(0.5, 0.75, k) * smooth(0.95, 0.8, k) * 0.45)
+    save('Dragon_Belly', col, h, 0.16 + (1 - prof) * 0.25, 0.55, 5.0)
 
 
 def dragon_horn():
@@ -572,8 +575,8 @@ def dragon_horn():
     V = 1 - yy
     n1 = fnoise(621, 1.3, aniso=(1.0, 8.0)); n2 = fnoise(622, 2.4)
     rings = np.sin((V * 22 + n2 * 1.5) * np.pi * 2) * 0.5 + 0.5
-    col = lerp((196, 204, 212), (236, 240, 244), n1 * 0.6 + rings * 0.2)
-    col = lerp(col, (120, 170, 214), smooth(0.55, 1.0, V) * 0.6)
+    col = lerp((168, 196, 224), (228, 238, 250), n1 * 0.6 + rings * 0.2)
+    col = lerp(col, (70, 140, 222), smooth(0.45, 1.0, V) * 0.7)
     col = lerp(col, (90, 94, 110), smooth(0.7, 1.0, rings) * 0.15)
     save('Dragon_Horn', col, rings * 0.4 + n1 * 0.2, 0.35 + n2 * 0.2, 0.0, 3.0)
 
@@ -589,7 +592,8 @@ def water_flame():
     col = lerp(col, (245, 252, 255), smooth(0.78, 0.95, t))
     streak = smooth(0.7, 0.95, s2) * smooth(0.2, 0.6, V)
     col = lerp(col, (220, 246, 255), streak * 0.5)
-    save('Water_Flame', col, t * 0.3 + streak * 0.3, 0.12, 0.0, 2.0)
+    alpha = np.clip(0.45 + 0.35 * smooth(0.3, 0.9, t) + streak * 0.3 + smooth(0.8, 0.95, t) * 0.3, 0, 1)
+    save('Water_Flame', col, t * 0.3 + streak * 0.3, 0.06, 0.0, 2.0, alpha=alpha)
 
 
 if __name__ == '__main__':

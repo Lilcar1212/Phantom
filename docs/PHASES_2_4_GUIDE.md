@@ -103,11 +103,13 @@ track:Play(0.05)
   * **Slashes** (Thin, Medium, Heavy) lie flat around their origin. Weld one to the HumanoidRootPart at the swing height, rotate it to the swing plane, and fade Transparency 0 → 1 over 0.25 s while scaling 0.9 → 1.1.
   * **Shockwave_Flat / Dome** and **FireRing_Segment**: 8 segments rotated by 45° make a full ring. For **FirePillar**, **Vortex** and **SpiralCone**: spawn them at the ground, scale them up and fade them out.
   * **EnergySphere**: the Outer, Middle and Core shells share one centre. Spin them in opposite directions.
-  * **WaterDragon** (detailed, ~44 long, about 25k triangles split over 6 MeshParts, none over 11k): the head faces −Z and the origin is the centre of the model. It's textured with its own sets (`Dragon_Scales`, `Dragon_Belly`, `Dragon_Horn`, `Water_Flame`), so run ApplyTextures on it.
-    * Set the eyes (`__Glow_Yellow`) to Neon.
-    * Give the `__Water_Flame` fins and mane Transparency 0.1–0.2 for a wet look.
-    * `HO_VFX_WaterDragon_Droplets` are loose water drops; delete them if you don't want them.
-    * Move the dragon along a path with CFrame lerps (two dragons = Twin Dragons).
+  * **WaterDragon**: a detailed, realistic water dragon in two poses. The origin is the centre of the model for Flight, and the water line under the chest for Rearing.
+    * `HO_VFX_WaterDragon` is the flight pose, about 44 long, for Twin Dragons. The head faces −Z. Move it along a path with CFrame lerps.
+    * `HO_VFX_WaterDragon_Rearing` is coiled on the water with the chest and head raised, about 45 wide and 34 tall. Place its origin at the water surface. Use it for the summon or boss reveal, rising out of the whirlpool.
+    * **Parts:** the body mesh is split per texture set (scales, silver belly, horn, glowing eyes). `_Fins` holds the spine crest, elbow tufts and tail. `_Mane` holds the head mane, splash tendrils, whiskers and splash crowns. `_Droplets` holds loose drops; delete them if you don't want them.
+    * **Textures:** ApplyTextures handles all of them.
+    * **Glowing eyes:** set the eyes (`__Glow_Blue`) to Neon.
+    * **See-through water:** the `Water_Flame` colour map has alpha. Set `SurfaceAppearance.AlphaMode = Transparency` on the `_Fins`, `_Mane` and `_Droplets` parts so the water is see-through, and add a blue PointLight in the chest for the glow.
   * **Whirlpool** (`HO_VFX_Whirlpool`): a funnel with radius 10. Scroll U to spin it, and have the dragon rise out of it.
 
 ## 4. Hero models (`assets/Phase4`) and `roblox/HO_RigBuilder.lua`

@@ -26916,32 +26916,33 @@
   "category": "VFX",
   "type": "Mesh group",
   "file": "assets/Phase3/VFX/HO_VFX_WaterDragon.fbx",
-  "tris": 25528,
+  "tris": 41024,
   "textures": [
    "Dragon_Belly",
    "Dragon_Horn",
    "Dragon_Scales",
-   "Glow_Yellow",
+   "Glow_Blue",
    "Water_Flame"
   ],
   "pivot": "bounding-box centre",
   "checks": {
    "under_limit": true,
-   "floating": 22,
-   "parts": 291,
+   "floating": 41,
+   "parts": 621,
    "inverted_parts": 0,
    "dims": [
-    13.042,
-    45.865,
+    12.847,
+    45.868,
     16.443
    ],
    "meshes": {
     "HO_VFX_WaterDragon__Dragon_Belly": 4620,
     "HO_VFX_WaterDragon__Dragon_Horn": 1592,
     "HO_VFX_WaterDragon__Dragon_Scales": 10044,
-    "HO_VFX_WaterDragon__Glow_Yellow": 160,
-    "HO_VFX_WaterDragon__Water_Flame": 8192,
-    "HO_VFX_WaterDragon_Droplets": 920
+    "HO_VFX_WaterDragon__Glow_Blue": 160,
+    "HO_VFX_WaterDragon_Fins": 12640,
+    "HO_VFX_WaterDragon_Mane": 4768,
+    "HO_VFX_WaterDragon_Droplets": 7200
    },
    "pivot_bottom_center": false,
    "pivot_z0": false
@@ -26955,7 +26956,7 @@
     },
     "under_limit": true,
     "dims": [
-     10.844,
+     10.875,
      43.386,
      11.446
     ],
@@ -26978,12 +26979,12 @@
     },
     "under_limit": true,
     "dims": [
-     9.765,
-     28.494,
-     11.794
+     9.774,
+     28.448,
+     11.844
     ],
     "parts": 48,
-    "floating": 44,
+    "floating": 46,
     "closed_parts": 48,
     "open_parts": 0,
     "inverted_parts": 0,
@@ -27001,9 +27002,9 @@
     },
     "under_limit": true,
     "dims": [
-     11.497,
+     11.501,
      43.435,
-     12.547
+     12.554
     ],
     "parts": 35,
     "floating": 0,
@@ -27017,10 +27018,10 @@
     "pivot_bottom_center": false
    },
    {
-    "name": "HO_VFX_WaterDragon__Glow_Yellow",
+    "name": "HO_VFX_WaterDragon__Glow_Blue",
     "tris": 160,
     "tris_per_material": {
-     "Glow_Yellow": 160
+     "Glow_Blue": 160
     },
     "under_limit": true,
     "dims": [
@@ -27034,27 +27035,50 @@
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
-     "Glow_Yellow"
+     "Glow_Blue"
     ],
     "textures_ok": true,
     "pivot_bottom_center": false
    },
    {
-    "name": "HO_VFX_WaterDragon__Water_Flame",
-    "tris": 8192,
+    "name": "HO_VFX_WaterDragon_Fins",
+    "tris": 12640,
     "tris_per_material": {
-     "Water_Flame": 8192
+     "Water_Flame": 12640
     },
     "under_limit": true,
     "dims": [
-     11.964,
-     45.523,
-     15.794
+     12.192,
+     39.446,
+     12.832
     ],
-    "parts": 156,
+    "parts": 346,
     "floating": 34,
+    "closed_parts": 0,
+    "open_parts": 350,
+    "inverted_parts": 0,
+    "textures": [
+     "Water_Flame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_VFX_WaterDragon_Mane",
+    "tris": 4768,
+    "tris_per_material": {
+     "Water_Flame": 4768
+    },
+    "under_limit": true,
+    "dims": [
+     9.941,
+     14.228,
+     9.993
+    ],
+    "parts": 96,
+    "floating": 0,
     "closed_parts": 4,
-    "open_parts": 156,
+    "open_parts": 92,
     "inverted_parts": 0,
     "textures": [
      "Water_Flame"
@@ -27064,19 +27088,19 @@
    },
    {
     "name": "HO_VFX_WaterDragon_Droplets",
-    "tris": 920,
+    "tris": 7200,
     "tris_per_material": {
-     "Water_Flame": 920
+     "Water_Flame": 7200
     },
     "under_limit": true,
     "dims": [
-     12.992,
-     33.018,
-     13.228
+     12.715,
+     36.194,
+     13.261
     ],
-    "parts": 46,
-    "floating": 44,
-    "closed_parts": 46,
+    "parts": 90,
+    "floating": 87,
+    "closed_parts": 90,
     "open_parts": 0,
     "inverted_parts": 0,
     "textures": [
@@ -27089,11 +27113,218 @@
   "renders": [
    "renders/Phase3/VFX/HO_VFX_WaterDragon_three_quarter.png",
    "renders/Phase3/VFX/HO_VFX_WaterDragon_side.png",
-   "renders/Phase3/VFX/HO_VFX_WaterDragon_front.png",
    "renders/Phase3/VFX/HO_VFX_WaterDragon_head.png",
    "renders/Phase3/VFX/HO_VFX_WaterDragon_hero.png"
   ],
-  "notes": "Detailed Eastern water dragon for Twin Dragons, about 44 long (head faces FRONT, -Z; origin = centre of its bounding box). Scaled body (Dragon_Scales) with a plated belly (Dragon_Belly); horned head with open jaws, teeth, forked tongue, glowing eyes (Glow_Yellow -> Neon), long whiskers and a water-flame mane; flowing water fins along the spine, four clawed legs with water tufts at the elbows, splashing tail plume (Water_Flame: V root -> tip, looks best at Transparency 0.1-0.2), plus loose droplets (_Droplets, delete if not wanted). Horns/claws/teeth = Dragon_Horn. Move it along a path with CFrame lerps; 2 of them = Twin Dragons. | meshes: HO_VFX_WaterDragon__Dragon_Belly (4620), HO_VFX_WaterDragon__Dragon_Horn (1592), HO_VFX_WaterDragon__Dragon_Scales (10044), HO_VFX_WaterDragon__Glow_Yellow (160), HO_VFX_WaterDragon__Water_Flame (8192), HO_VFX_WaterDragon_Droplets (920)"
+  "notes": "Flight pose (~44 long) for Twin Dragons: head faces FRONT (-Z), origin = centre of its bounding box. Move it along a path with CFrame lerps; 2 of them = Twin Dragons. Fine glossy scales (Dragon_Scales), silver belly plates (Dragon_Belly), horned head with open jaws, teeth, tongue, glowing blue-white eyes (Glow_Blue -> Neon), long whiskers. Living-water parts use Water_Flame, whose colour map has ALPHA: set the SurfaceAppearance AlphaMode = Transparency (or MeshPart Transparency 0.2) so the water looks see-through. Meshes: <name> (body/head/legs, split per texture set), <name>_Fins (spine crest, elbow tufts, tail plume), <name>_Mane (head mane, splash tendrils, whiskers, water crowns), <name>_Droplets (loose drops; delete if not wanted). Horns/claws/teeth = Dragon_Horn. | meshes: HO_VFX_WaterDragon__Dragon_Belly (4620), HO_VFX_WaterDragon__Dragon_Horn (1592), HO_VFX_WaterDragon__Dragon_Scales (10044), HO_VFX_WaterDragon__Glow_Blue (160), HO_VFX_WaterDragon_Fins (12640), HO_VFX_WaterDragon_Mane (4768), HO_VFX_WaterDragon_Droplets (7200)"
+ },
+ {
+  "name": "HO_VFX_WaterDragon_Rearing",
+  "phase": "Phase3",
+  "category": "VFX",
+  "type": "Mesh group",
+  "file": "assets/Phase3/VFX/HO_VFX_WaterDragon_Rearing.fbx",
+  "tris": 63232,
+  "textures": [
+   "Dragon_Belly",
+   "Dragon_Horn",
+   "Dragon_Scales",
+   "Glow_Blue",
+   "Water_Flame"
+  ],
+  "pivot": "water line under the chest",
+  "checks": {
+   "under_limit": true,
+   "floating": 3,
+   "parts": 845,
+   "inverted_parts": 0,
+   "dims": [
+    46.773,
+    32.741,
+    35.108
+   ],
+   "meshes": {
+    "HO_VFX_WaterDragon_Rearing__Dragon_Belly": 8620,
+    "HO_VFX_WaterDragon_Rearing__Dragon_Horn": 1592,
+    "HO_VFX_WaterDragon_Rearing__Dragon_Scales": 17244,
+    "HO_VFX_WaterDragon_Rearing__Glow_Blue": 160,
+    "HO_VFX_WaterDragon_Rearing_Fins": 12640,
+    "HO_VFX_WaterDragon_Rearing_Mane": 9376,
+    "HO_VFX_WaterDragon_Rearing_Droplets": 13600
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": false
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_VFX_WaterDragon_Rearing__Dragon_Belly",
+    "tris": 8620,
+    "tris_per_material": {
+     "Dragon_Belly": 8620
+    },
+    "under_limit": true,
+    "dims": [
+     38.616,
+     32.47,
+     24.157
+    ],
+    "parts": 4,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 3,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Belly"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_VFX_WaterDragon_Rearing__Dragon_Horn",
+    "tris": 1592,
+    "tris_per_material": {
+     "Dragon_Horn": 1592
+    },
+    "under_limit": true,
+    "dims": [
+     34.226,
+     23.911,
+     30.953
+    ],
+    "parts": 48,
+    "floating": 47,
+    "closed_parts": 48,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Horn"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_VFX_WaterDragon_Rearing__Dragon_Scales",
+    "tris": 17244,
+    "tris_per_material": {
+     "Dragon_Scales": 17244
+    },
+    "under_limit": true,
+    "dims": [
+     44.777,
+     32.666,
+     26.301
+    ],
+    "parts": 35,
+    "floating": 0,
+    "closed_parts": 32,
+    "open_parts": 3,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Scales"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_VFX_WaterDragon_Rearing__Glow_Blue",
+    "tris": 160,
+    "tris_per_material": {
+     "Glow_Blue": 160
+    },
+    "under_limit": true,
+    "dims": [
+     5.037,
+     1.109,
+     0.785
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Glow_Blue"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_VFX_WaterDragon_Rearing_Fins",
+    "tris": 12640,
+    "tris_per_material": {
+     "Water_Flame": 12640
+    },
+    "under_limit": true,
+    "dims": [
+     42.096,
+     22.759,
+     20.293
+    ],
+    "parts": 346,
+    "floating": 334,
+    "closed_parts": 0,
+    "open_parts": 350,
+    "inverted_parts": 0,
+    "textures": [
+     "Water_Flame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_VFX_WaterDragon_Rearing_Mane",
+    "tris": 9376,
+    "tris_per_material": {
+     "Water_Flame": 9376
+    },
+    "under_limit": true,
+    "dims": [
+     28.944,
+     30.607,
+     34.978
+    ],
+    "parts": 240,
+    "floating": 96,
+    "closed_parts": 4,
+    "open_parts": 236,
+    "inverted_parts": 0,
+    "textures": [
+     "Water_Flame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_VFX_WaterDragon_Rearing_Droplets",
+    "tris": 13600,
+    "tris_per_material": {
+     "Water_Flame": 13600
+    },
+    "under_limit": true,
+    "dims": [
+     41.271,
+     18.467,
+     22.644
+    ],
+    "parts": 170,
+    "floating": 169,
+    "closed_parts": 170,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Water_Flame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [
+   "renders/Phase3/VFX/HO_VFX_WaterDragon_Rearing_three_quarter.png",
+   "renders/Phase3/VFX/HO_VFX_WaterDragon_Rearing_side.png",
+   "renders/Phase3/VFX/HO_VFX_WaterDragon_Rearing_head.png",
+   "renders/Phase3/VFX/HO_VFX_WaterDragon_Rearing_hero.png"
+  ],
+  "notes": "Rearing pose (~45 wide, ~34 tall): coiled on the water with chest and head raised, front claws reaching forward, splash crowns where it touches the water. Origin = water line under the chest (place it at the water surface); faces FRONT (-Z). Use for the summon / boss reveal, rising out of HO_VFX_Whirlpool. Fine glossy scales (Dragon_Scales), silver belly plates (Dragon_Belly), horned head with open jaws, teeth, tongue, glowing blue-white eyes (Glow_Blue -> Neon), long whiskers. Living-water parts use Water_Flame, whose colour map has ALPHA: set the SurfaceAppearance AlphaMode = Transparency (or MeshPart Transparency 0.2) so the water looks see-through. Meshes: <name> (body/head/legs, split per texture set), <name>_Fins (spine crest, elbow tufts, tail plume), <name>_Mane (head mane, splash tendrils, whiskers, water crowns), <name>_Droplets (loose drops; delete if not wanted). Horns/claws/teeth = Dragon_Horn. | meshes: HO_VFX_WaterDragon_Rearing__Dragon_Belly (8620), HO_VFX_WaterDragon_Rearing__Dragon_Horn (1592), HO_VFX_WaterDragon_Rearing__Dragon_Scales (17244), HO_VFX_WaterDragon_Rearing__Glow_Blue (160), HO_VFX_WaterDragon_Rearing_Fins (12640), HO_VFX_WaterDragon_Rearing_Mane (9376), HO_VFX_WaterDragon_Rearing_Droplets (13600)"
  },
  {
   "name": "HO_VFX_Whirlpool",
