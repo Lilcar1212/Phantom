@@ -225,7 +225,7 @@ An ancient Eastern water dragon built as a real game creature. It's a solid PBR 
 * **Cannon** in the middle of the chest, with a glowing amber core. The muzzle is at (0, 27.2, −13.0) studs from the origin.
 * **Nodachi:** a giant dark-steel sword with a glowing amber edge, in the right hand.
 * **Textures:** Mech_Plate (new riveted iron), Black/Red_Lacquer, Gold_Leaf, Cloth_Crimson, Steel_Dark, Iron_Wrought, Tsuka_Wrap, Glow_Red and Glow_Amber (set the Glow parts to Neon).
-* **Rig:** 20 bones, and every piece is rigid (it moves like machinery):
+* **Rig:** 18 bones, and every piece is rigid (it moves like machinery):
   * Root, Pelvis, Torso, Head, Cannon
   * L/R_UpperArm, L/R_Forearm, L/R_Hand, Sword
   * L/R_Thigh, L/R_Shin, L/R_Foot
