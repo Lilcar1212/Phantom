@@ -31535,7 +31535,16 @@
    "Tsuka_Wrap"
   ],
   "pivot": "ground between the feet",
-  "renders": [],
+  "renders": [
+   "renders/Phase4/Mechs/HO_Mech_Tetsujin_three_quarter.png",
+   "renders/Phase4/Mechs/HO_Mech_Tetsujin_front.png",
+   "renders/Phase4/Mechs/HO_Mech_Tetsujin_side.png",
+   "renders/Phase4/Mechs/HO_Mech_Tetsujin_back.png",
+   "renders/Phase4/Mechs/HO_Mech_Tetsujin_head.png",
+   "renders/Phase4/Mechs/HO_Mech_Tetsujin_hero.png",
+   "renders/Phase4/Mechs/HO_Mech_Tetsujin_cannon.png",
+   "renders/Phase4/Mechs/HO_Mech_Tetsujin_PoseTest_three_quarter.png"
+  ],
   "mesh_checks": [
    {
     "name": "HO_Mech_Tetsujin_Head__Black_Lacquer",
@@ -33381,8 +33390,8 @@
   "checks": {
    "under_limit": true,
    "dims": [
-    27.27,
-    46.47,
+    23.8,
+    43.28,
     46.01
    ],
    "meshes": {
