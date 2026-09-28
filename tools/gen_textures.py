@@ -564,7 +564,7 @@ def dragon_belly():
     prof = smooth(0.0, 0.25, k) * smooth(1.0, 0.8, k)      # rounded plate
     ridge = np.abs(np.sin((V + n1 * 0.02) * np.pi * 2)) ** 8 * 0.0
     h = prof * 0.8 + n2 * 0.1 + ridge
-    col = lerp((128, 150, 190), (222, 232, 248), prof * 0.8 + n1 * 0.2)                # silvery plates
+    col = lerp((96, 120, 168), (190, 206, 232), prof * 0.8 + n1 * 0.2)                 # silver-blue plates
     col = lerp(col, (70, 92, 136), (smooth(0.07, 0.0, k) + smooth(0.95, 1.0, k)) * 0.8)   # seams between plates
     col = lerp(col, (248, 252, 255), smooth(0.5, 0.75, k) * smooth(0.95, 0.8, k) * 0.45)
     save('Dragon_Belly', col, h, 0.16 + (1 - prof) * 0.25, 0.55, 5.0)
@@ -575,8 +575,8 @@ def dragon_horn():
     V = 1 - yy
     n1 = fnoise(621, 1.3, aniso=(1.0, 8.0)); n2 = fnoise(622, 2.4)
     rings = np.sin((V * 22 + n2 * 1.5) * np.pi * 2) * 0.5 + 0.5
-    col = lerp((168, 196, 224), (228, 238, 250), n1 * 0.6 + rings * 0.2)
-    col = lerp(col, (70, 140, 222), smooth(0.45, 1.0, V) * 0.7)
+    col = lerp((38, 52, 78), (92, 116, 150), n1 * 0.6 + rings * 0.2)                 # dark steel-blue horn
+    col = lerp(col, (150, 196, 236), smooth(0.55, 1.0, V) * 0.7)
     col = lerp(col, (90, 94, 110), smooth(0.7, 1.0, rings) * 0.15)
     save('Dragon_Horn', col, rings * 0.4 + n1 * 0.2, 0.35 + n2 * 0.2, 0.0, 3.0)
 
@@ -594,6 +594,37 @@ def water_flame():
     col = lerp(col, (220, 246, 255), streak * 0.5)
     alpha = np.clip(0.45 + 0.35 * smooth(0.3, 0.9, t) + streak * 0.3 + smooth(0.8, 0.95, t) * 0.3, 0, 1)
     save('Water_Flame', col, t * 0.3 + streak * 0.3, 0.06, 0.0, 2.0, alpha=alpha)
+
+
+def dragon_fin():
+    """Solid crystalline fins, mane strands and whiskers: deep blue at the root (V=0) to icy cyan at the edge (V=1),
+    fine radiating ribs along V, glassy. Opaque - the creature reads as a solid animal."""
+    U, V = xx, 1 - yy
+    n1 = fnoise(641, 1.2, aniso=(1.0, 12.0)); n2 = fnoise(642, 2.3)
+    ribs = np.abs(np.sin((U * 24 + n1 * 1.4) * np.pi)) ** 6
+    col = lerp((10, 44, 120), (34, 130, 214), smooth(0.0, 0.55, V + (n2 - 0.5) * 0.2))
+    col = lerp(col, (150, 226, 255), smooth(0.55, 1.0, V))
+    col = lerp(col, (6, 30, 90), ribs * 0.45 * (1 - V * 0.6))
+    col = lerp(col, (230, 250, 255), smooth(0.93, 1.0, V) * 0.8)
+    save('Dragon_Fin', col, ribs * 0.5 + n2 * 0.1, 0.08 + ribs * 0.12, 0.2, 4.0)
+
+
+def dragon_claw():
+    """Claws: polished blue-silver, darker at the base, bright at the tip (V along the claw)."""
+    V = 1 - yy
+    n1 = fnoise(651, 1.3, aniso=(1.0, 10.0)); n2 = fnoise(652, 2.4)
+    col = lerp((70, 86, 110), (210, 222, 236), smooth(0.1, 0.9, V) * 0.8 + n1 * 0.2)
+    col = lerp(col, (40, 70, 120), n2 * 0.2)
+    save('Dragon_Claw', col, n1 * 0.3, 0.12 + n2 * 0.1, 0.85, 2.0)
+
+
+def dragon_eye():
+    """Narrow glowing eye: intense cyan with a white-hot core (use Material Neon / high emission)."""
+    r = np.sqrt((xx - 0.5) ** 2 + (yy - 0.5) ** 2) * 2
+    n1 = fnoise(661, 2.0)
+    col = lerp((20, 160, 230), (120, 240, 255), smooth(1.0, 0.3, r) * 0.8 + n1 * 0.2)
+    col = lerp(col, (245, 255, 255), smooth(0.35, 0.0, r))
+    save('Dragon_Eye', col, np.zeros((N, N)), 0.05, 0.0)
 
 
 if __name__ == '__main__':

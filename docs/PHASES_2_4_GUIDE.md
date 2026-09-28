@@ -144,3 +144,24 @@ After `BuildCharacter`:
 * The NPC is a normal R6 Humanoid model, so `Humanoid:MoveTo`, `PathfindingService` and `Animator:LoadAnimation` all work.
 * The golem's invisible Torso and Head collide. The visual meshes are massless and non-collidable.
 * Give the golem `WalkSpeed` ≈ 8 and `HipHeight` 0 (R6 uses its leg length). If it sinks or floats, set `Humanoid.HipHeight` to 0 and check that nothing is Anchored.
+
+
+## 5. Hero creature: rigged water dragon (`assets/Phase4/Characters/HO_Creature_WaterDragon.fbx`)
+
+An ancient Eastern water dragon built as a real game creature. It's a solid PBR animal; only the separate WaterFX mesh is translucent.
+
+* **Size and pose:** about 50 studs long, head at about 25 studs. The standing bind pose faces −Z, with the feet on the ground at the origin (between the front feet).
+* **Pieces** (each its own MeshPart, split per texture set, all under 20k triangles; about 60k in total): Head, Jaw, Horns, Eyes, Whiskers, Mane, Neck, Body, Tail, Limbs, Claws, Fins, WaterFX.
+* **Textures:** Dragon_Scales (fine scale normal map; geometry carries the ridge plates and belly plates), Dragon_Belly (silver-blue plates), Dragon_Horn (dark steel-blue), Dragon_Fin (solid crystal fins, mane and whiskers), Dragon_Claw (polished silver), Dragon_Eye (set to Neon), and Water_Flame (WaterFX only; set `AlphaMode = Transparency`).
+* **Rig (35 bones, max 4 weights per vertex):**
+  * Root
+  * Spine01–04, hips → shoulders
+  * Neck01–04, then Head and Jaw
+  * Tail01–12, hips → tip
+  * FL/FR/RL/RR legs, each with `_Upper`, `_Lower` and `_Foot`
+* **Import:** File → Import 3D, Scale Unit = Stud, Rig Type = Custom. Then run `ApplyTextures(<model>)`.
+* **Animate:** `roblox/HO_DragonRig.lua`:
+  * `Idle(model)` gives a serpentine tail wave, breathing, neck and head sway, and jaw movement. It returns a stop function.
+  * `Roar(model)` plays a one-shot roar.
+  * Or animate the bones in the Animation Editor.
+* **Effects:** add your own particles (mist, spray, drips) and a blue PointLight in the chest. Nothing environmental is baked into the model.

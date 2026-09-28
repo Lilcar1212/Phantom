@@ -29226,6 +29226,623 @@
   "notes": "The Hollow (R6 size): black shadow body, glowing red slit-pupil eye in the chest with red cracks, swept horns, clawed hands, tattered shadow wisps. Meshes are in character space (feet at y=0, HumanoidRootPart centre at y=3). HO_RigBuilder.BuildCharacter(model, \"HO_Char_Hollow\") adds a HumanoidRootPart, invisible R6 body parts with Motor6Ds (classic R6 C0/C1 x scale) and welds the meshes on, so the Phase 2 KeyframeSequences (Golem_* / Hollow_*) play directly. | meshes: HO_Char_Hollow_Torso (836), HO_Char_Hollow_Torso_Glow (316), HO_Char_Hollow_Head (384), HO_Char_Hollow_Head_Glow (40), HO_Char_Hollow_RightArm (424), HO_Char_Hollow_RightArm_Glow (20), HO_Char_Hollow_LeftArm (424), HO_Char_Hollow_LeftArm_Glow (20), HO_Char_Hollow_RightLeg (394), HO_Char_Hollow_LeftLeg (394)"
  },
  {
+  "name": "HO_Creature_WaterDragon",
+  "phase": "Phase4",
+  "category": "Characters",
+  "type": "Skinned mesh group + armature",
+  "file": "assets/Phase4/Characters/HO_Creature_WaterDragon.fbx",
+  "tris": 67676,
+  "textures": [
+   "Dragon_Belly",
+   "Dragon_Claw",
+   "Dragon_Eye",
+   "Dragon_Fin",
+   "Dragon_Horn",
+   "Dragon_Scales",
+   "Water_Flame"
+  ],
+  "pivot": "ground between the front feet",
+  "renders": [
+   "renders/Phase4/Characters/HO_Creature_WaterDragon_three_quarter.png",
+   "renders/Phase4/Characters/HO_Creature_WaterDragon_front.png",
+   "renders/Phase4/Characters/HO_Creature_WaterDragon_side.png",
+   "renders/Phase4/Characters/HO_Creature_WaterDragon_back.png",
+   "renders/Phase4/Characters/HO_Creature_WaterDragon_head.png",
+   "renders/Phase4/Characters/HO_Creature_WaterDragon_hero.png",
+   "renders/Phase4/Characters/HO_Creature_WaterDragon_PoseTest_three_quarter.png"
+  ],
+  "mesh_checks": [
+   {
+    "name": "HO_Creature_WaterDragon_Head__Dragon_Belly",
+    "tris": 600,
+    "tris_per_material": {
+     "Dragon_Belly": 600
+    },
+    "under_limit": true,
+    "dims": [
+     3.566,
+     8.972,
+     1.391
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Belly"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_WaterDragon_Head__Dragon_Horn",
+    "tris": 576,
+    "tris_per_material": {
+     "Dragon_Horn": 576
+    },
+    "under_limit": true,
+    "dims": [
+     4.468,
+     4.814,
+     1.798
+    ],
+    "parts": 18,
+    "floating": 16,
+    "closed_parts": 18,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Horn"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_WaterDragon_Head__Dragon_Scales",
+    "tris": 1936,
+    "tris_per_material": {
+     "Dragon_Scales": 1936
+    },
+    "under_limit": true,
+    "dims": [
+     5.338,
+     9.205,
+     4.289
+    ],
+    "parts": 3,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Scales"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_WaterDragon_Jaw__Dragon_Belly",
+    "tris": 164,
+    "tris_per_material": {
+     "Dragon_Belly": 164
+    },
+    "under_limit": true,
+    "dims": [
+     3.585,
+     6.413,
+     3.047
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Belly"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_WaterDragon_Jaw__Dragon_Horn",
+    "tris": 576,
+    "tris_per_material": {
+     "Dragon_Horn": 576
+    },
+    "under_limit": true,
+    "dims": [
+     4.328,
+     5.787,
+     2.529
+    ],
+    "parts": 18,
+    "floating": 10,
+    "closed_parts": 18,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Horn"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_WaterDragon_Jaw__Dragon_Scales",
+    "tris": 192,
+    "tris_per_material": {
+     "Dragon_Scales": 192
+    },
+    "under_limit": true,
+    "dims": [
+     4.14,
+     6.168,
+     3.678
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Scales"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_WaterDragon_Horns",
+    "tris": 1624,
+    "tris_per_material": {
+     "Dragon_Horn": 1624
+    },
+    "under_limit": true,
+    "dims": [
+     5.975,
+     10.531,
+     6.192
+    ],
+    "parts": 25,
+    "floating": 15,
+    "closed_parts": 25,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Horn"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_WaterDragon_Eyes",
+    "tris": 160,
+    "tris_per_material": {
+     "Dragon_Eye": 160
+    },
+    "under_limit": true,
+    "dims": [
+     4.309,
+     1.142,
+     0.38
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 1,
+    "textures": [
+     "Dragon_Eye"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_WaterDragon_Whiskers",
+    "tris": 1164,
+    "tris_per_material": {
+     "Dragon_Fin": 1164
+    },
+    "under_limit": true,
+    "dims": [
+     11.621,
+     21.78,
+     5.048
+    ],
+    "parts": 4,
+    "floating": 0,
+    "closed_parts": 4,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Fin"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_WaterDragon_Mane",
+    "tris": 4544,
+    "tris_per_material": {
+     "Dragon_Fin": 4544
+    },
+    "under_limit": true,
+    "dims": [
+     9.471,
+     11.738,
+     19.542
+    ],
+    "parts": 108,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 108,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Fin"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_WaterDragon_Neck__Dragon_Belly",
+    "tris": 2844,
+    "tris_per_material": {
+     "Dragon_Belly": 2844
+    },
+    "under_limit": true,
+    "dims": [
+     4.943,
+     9.778,
+     17.332
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Belly"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_WaterDragon_Neck__Dragon_Fin",
+    "tris": 96,
+    "tris_per_material": {
+     "Dragon_Fin": 96
+    },
+    "under_limit": true,
+    "dims": [
+     1.83,
+     7.673,
+     12.987
+    ],
+    "parts": 24,
+    "floating": 1,
+    "closed_parts": 0,
+    "open_parts": 24,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Fin"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_WaterDragon_Neck__Dragon_Scales",
+    "tris": 6004,
+    "tris_per_material": {
+     "Dragon_Scales": 6004
+    },
+    "under_limit": true,
+    "dims": [
+     5.591,
+     9.747,
+     17.703
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Scales"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_WaterDragon_Body__Dragon_Belly",
+    "tris": 2700,
+    "tris_per_material": {
+     "Dragon_Belly": 2700
+    },
+    "under_limit": true,
+    "dims": [
+     7.251,
+     18.685,
+     2.033
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Belly"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_WaterDragon_Body__Dragon_Fin",
+    "tris": 100,
+    "tris_per_material": {
+     "Dragon_Fin": 100
+    },
+    "under_limit": true,
+    "dims": [
+     4.445,
+     18.818,
+     2.745
+    ],
+    "parts": 25,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 25,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Fin"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_WaterDragon_Body__Dragon_Scales",
+    "tris": 5700,
+    "tris_per_material": {
+     "Dragon_Scales": 5700
+    },
+    "under_limit": true,
+    "dims": [
+     7.916,
+     18.958,
+     4.985
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Scales"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_WaterDragon_Tail__Dragon_Belly",
+    "tris": 6516,
+    "tris_per_material": {
+     "Dragon_Belly": 6516
+    },
+    "under_limit": true,
+    "dims": [
+     15.514,
+     11.364,
+     20.516
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Belly"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_WaterDragon_Tail__Dragon_Fin",
+    "tris": 224,
+    "tris_per_material": {
+     "Dragon_Fin": 224
+    },
+    "under_limit": true,
+    "dims": [
+     13.152,
+     10.304,
+     16.906
+    ],
+    "parts": 56,
+    "floating": 28,
+    "closed_parts": 0,
+    "open_parts": 56,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Fin"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_WaterDragon_Tail__Dragon_Scales",
+    "tris": 13812,
+    "tris_per_material": {
+     "Dragon_Scales": 13812
+    },
+    "under_limit": true,
+    "dims": [
+     15.953,
+     11.971,
+     19.99
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Scales"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_WaterDragon_Limbs__Dragon_Horn",
+    "tris": 384,
+    "tris_per_material": {
+     "Dragon_Horn": 384
+    },
+    "under_limit": true,
+    "dims": [
+     13.825,
+     15.345,
+     1.985
+    ],
+    "parts": 12,
+    "floating": 6,
+    "closed_parts": 12,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Horn"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_WaterDragon_Limbs__Dragon_Scales",
+    "tris": 2896,
+    "tris_per_material": {
+     "Dragon_Scales": 2896
+    },
+    "under_limit": true,
+    "dims": [
+     15.312,
+     24.439,
+     9.004
+    ],
+    "parts": 36,
+    "floating": 0,
+    "closed_parts": 36,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Scales"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_WaterDragon_Claws",
+    "tris": 1392,
+    "tris_per_material": {
+     "Dragon_Claw": 1392
+    },
+    "under_limit": true,
+    "dims": [
+     16.24,
+     24.005,
+     0.902
+    ],
+    "parts": 20,
+    "floating": 4,
+    "closed_parts": 20,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Claw"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_WaterDragon_Fins",
+    "tris": 6304,
+    "tris_per_material": {
+     "Dragon_Fin": 6304
+    },
+    "under_limit": true,
+    "dims": [
+     22.057,
+     31.563,
+     24.971
+    ],
+    "parts": 154,
+    "floating": 150,
+    "closed_parts": 0,
+    "open_parts": 154,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Fin"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Creature_WaterDragon_WaterFX",
+    "tris": 7168,
+    "tris_per_material": {
+     "Water_Flame": 7168
+    },
+    "under_limit": true,
+    "dims": [
+     25.595,
+     39.112,
+     28.652
+    ],
+    "parts": 210,
+    "floating": 130,
+    "closed_parts": 0,
+    "open_parts": 210,
+    "inverted_parts": 0,
+    "textures": [
+     "Water_Flame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "checks": {
+   "under_limit": true,
+   "dims": [
+    26.92,
+    36.21,
+    29.15
+   ],
+   "meshes": {
+    "HO_Creature_WaterDragon_Head__Dragon_Belly": 600,
+    "HO_Creature_WaterDragon_Head__Dragon_Horn": 576,
+    "HO_Creature_WaterDragon_Head__Dragon_Scales": 1936,
+    "HO_Creature_WaterDragon_Jaw__Dragon_Belly": 164,
+    "HO_Creature_WaterDragon_Jaw__Dragon_Horn": 576,
+    "HO_Creature_WaterDragon_Jaw__Dragon_Scales": 192,
+    "HO_Creature_WaterDragon_Horns": 1624,
+    "HO_Creature_WaterDragon_Eyes": 160,
+    "HO_Creature_WaterDragon_Whiskers": 1164,
+    "HO_Creature_WaterDragon_Mane": 4544,
+    "HO_Creature_WaterDragon_Neck__Dragon_Belly": 2844,
+    "HO_Creature_WaterDragon_Neck__Dragon_Fin": 96,
+    "HO_Creature_WaterDragon_Neck__Dragon_Scales": 6004,
+    "HO_Creature_WaterDragon_Body__Dragon_Belly": 2700,
+    "HO_Creature_WaterDragon_Body__Dragon_Fin": 100,
+    "HO_Creature_WaterDragon_Body__Dragon_Scales": 5700,
+    "HO_Creature_WaterDragon_Tail__Dragon_Belly": 6516,
+    "HO_Creature_WaterDragon_Tail__Dragon_Fin": 224,
+    "HO_Creature_WaterDragon_Tail__Dragon_Scales": 13812,
+    "HO_Creature_WaterDragon_Limbs__Dragon_Horn": 384,
+    "HO_Creature_WaterDragon_Limbs__Dragon_Scales": 2896,
+    "HO_Creature_WaterDragon_Claws": 1392,
+    "HO_Creature_WaterDragon_Fins": 6304,
+    "HO_Creature_WaterDragon_WaterFX": 7168
+   },
+   "bones": 35
+  },
+  "notes": "Rigged Eastern water dragon, the hero creature (~36 long, head at ~29 studs). Standing bind pose, faces FRONT (-Z), feet on the ground at the origin. Pieces: Head, Jaw, Horns, Eyes, Whiskers, Mane, Neck, Body, Tail, Limbs, Claws, Fins, WaterFX (each split per texture set). Solid PBR creature (Dragon_Scales, Dragon_Belly, Dragon_Horn, Dragon_Fin, Dragon_Claw, Dragon_Eye = Neon); only WaterFX is translucent (Water_Flame, AlphaMode Transparency). 35 bones: Root, Spine01-04, Neck01-04, Head, Jaw, Tail01-12, FL/FR/RL/RR_Upper/_Lower/_Foot; skinned (max 4 weights). Import with File > Import 3D (Scale Unit = Stud, Rig General > Rig Type = Custom). roblox/HO_DragonRig.lua animates it (tail wave, breathing, neck sway, jaw)."
+ },
+ {
   "name": "HO_Hero_StoneFist_Left",
   "phase": "Phase4",
   "category": "Heroes",
