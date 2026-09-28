@@ -4,6 +4,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'tools'))
 import ho, bpy
 import vfx_flipbooks as vf
 import vfx_meshes as vm
+# the water dragon + whirlpool have their own script: scripts/p3_water_dragon.py
 
 render = os.environ.get('HO_RENDER', '1') == '1'
 vf.build_all()
@@ -20,7 +21,6 @@ JOBS = [
     ('HO_VFX_Shockwave_Dome', vm.shock_dome, UV + 'HO_VFXT_Energy.png. Hemisphere shell R 6.'),
     ('HO_VFX_Vortex', vm.vortex, UV + 'HO_VFXT_Energy.png (or Water/Fire). Twisted flaring tornado shell, 16 tall.'),
     ('HO_VFX_SpiralCone', vm.spiral_cone, UV + 'HO_VFXT_Energy.png. Helical ribbon winding up a cone, 10 tall.'),
-    ('HO_VFX_WaterDragon', vm.water_dragon, 'Serpentine water dragon (~40 long) for Twin Dragons: body U runs tail->neck (0..4) - scroll HO_VFXT_Water.png along U; head with horns, whiskers, dorsal fins. Head faces front (-Z).'),
     ('HO_VFX_StoneDrill', vm.stone_drill, 'Stone drill cone with raised spiral ridges (Stone_Granite), 6 tall; spin it about its axis.'),
     ('HO_VFX_FirePillar', vm.fire_pillar, UV + 'HO_VFXT_Fire.png scrolling along V (up). Open tapered cylinder 18 tall.'),
     ('HO_VFX_FireRing_Segment', vm.fire_ring_segment, UV + 'HO_VFXT_Fire.png. 45-deg flame wall segment of a radius-10 ring (8 = full ring; rotate each by 45 deg).'),

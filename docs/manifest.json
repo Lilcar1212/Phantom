@@ -26914,41 +26914,244 @@
   "name": "HO_VFX_WaterDragon",
   "phase": "Phase3",
   "category": "VFX",
-  "type": "Mesh",
+  "type": "Mesh group",
   "file": "assets/Phase3/VFX/HO_VFX_WaterDragon.fbx",
-  "tris": 2040,
+  "tris": 25528,
+  "textures": [
+   "Dragon_Belly",
+   "Dragon_Horn",
+   "Dragon_Scales",
+   "Glow_Yellow",
+   "Water_Flame"
+  ],
+  "pivot": "bounding-box centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 22,
+   "parts": 291,
+   "inverted_parts": 0,
+   "dims": [
+    13.042,
+    45.865,
+    16.443
+   ],
+   "meshes": {
+    "HO_VFX_WaterDragon__Dragon_Belly": 4620,
+    "HO_VFX_WaterDragon__Dragon_Horn": 1592,
+    "HO_VFX_WaterDragon__Dragon_Scales": 10044,
+    "HO_VFX_WaterDragon__Glow_Yellow": 160,
+    "HO_VFX_WaterDragon__Water_Flame": 8192,
+    "HO_VFX_WaterDragon_Droplets": 920
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": false
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_VFX_WaterDragon__Dragon_Belly",
+    "tris": 4620,
+    "tris_per_material": {
+     "Dragon_Belly": 4620
+    },
+    "under_limit": true,
+    "dims": [
+     10.844,
+     43.386,
+     11.446
+    ],
+    "parts": 4,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 3,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Belly"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_VFX_WaterDragon__Dragon_Horn",
+    "tris": 1592,
+    "tris_per_material": {
+     "Dragon_Horn": 1592
+    },
+    "under_limit": true,
+    "dims": [
+     9.765,
+     28.494,
+     11.794
+    ],
+    "parts": 48,
+    "floating": 44,
+    "closed_parts": 48,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Horn"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_VFX_WaterDragon__Dragon_Scales",
+    "tris": 10044,
+    "tris_per_material": {
+     "Dragon_Scales": 10044
+    },
+    "under_limit": true,
+    "dims": [
+     11.497,
+     43.435,
+     12.547
+    ],
+    "parts": 35,
+    "floating": 0,
+    "closed_parts": 32,
+    "open_parts": 3,
+    "inverted_parts": 0,
+    "textures": [
+     "Dragon_Scales"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_VFX_WaterDragon__Glow_Yellow",
+    "tris": 160,
+    "tris_per_material": {
+     "Glow_Yellow": 160
+    },
+    "under_limit": true,
+    "dims": [
+     2.779,
+     1.813,
+     0.476
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Glow_Yellow"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_VFX_WaterDragon__Water_Flame",
+    "tris": 8192,
+    "tris_per_material": {
+     "Water_Flame": 8192
+    },
+    "under_limit": true,
+    "dims": [
+     11.964,
+     45.523,
+     15.794
+    ],
+    "parts": 156,
+    "floating": 34,
+    "closed_parts": 4,
+    "open_parts": 156,
+    "inverted_parts": 0,
+    "textures": [
+     "Water_Flame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_VFX_WaterDragon_Droplets",
+    "tris": 920,
+    "tris_per_material": {
+     "Water_Flame": 920
+    },
+    "under_limit": true,
+    "dims": [
+     12.992,
+     33.018,
+     13.228
+    ],
+    "parts": 46,
+    "floating": 44,
+    "closed_parts": 46,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Water_Flame"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [
+   "renders/Phase3/VFX/HO_VFX_WaterDragon_three_quarter.png",
+   "renders/Phase3/VFX/HO_VFX_WaterDragon_side.png",
+   "renders/Phase3/VFX/HO_VFX_WaterDragon_front.png",
+   "renders/Phase3/VFX/HO_VFX_WaterDragon_head.png",
+   "renders/Phase3/VFX/HO_VFX_WaterDragon_hero.png"
+  ],
+  "notes": "Detailed Eastern water dragon for Twin Dragons, about 44 long (head faces FRONT, -Z; origin = centre of its bounding box). Scaled body (Dragon_Scales) with a plated belly (Dragon_Belly); horned head with open jaws, teeth, forked tongue, glowing eyes (Glow_Yellow -> Neon), long whiskers and a water-flame mane; flowing water fins along the spine, four clawed legs with water tufts at the elbows, splashing tail plume (Water_Flame: V root -> tip, looks best at Transparency 0.1-0.2), plus loose droplets (_Droplets, delete if not wanted). Horns/claws/teeth = Dragon_Horn. Move it along a path with CFrame lerps; 2 of them = Twin Dragons. | meshes: HO_VFX_WaterDragon__Dragon_Belly (4620), HO_VFX_WaterDragon__Dragon_Horn (1592), HO_VFX_WaterDragon__Dragon_Scales (10044), HO_VFX_WaterDragon__Glow_Yellow (160), HO_VFX_WaterDragon__Water_Flame (8192), HO_VFX_WaterDragon_Droplets (920)"
+ },
+ {
+  "name": "HO_VFX_Whirlpool",
+  "phase": "Phase3",
+  "category": "VFX",
+  "type": "Mesh group",
+  "file": "assets/Phase3/VFX/HO_VFX_Whirlpool.fbx",
+  "tris": 1792,
   "textures": [
    "VFX_Water"
   ],
-  "pivot": "bottom-centre",
+  "pivot": "rim centre",
   "checks": {
-   "name": "HO_VFX_WaterDragon",
-   "tris": 2040,
-   "tris_per_material": {
-    "VFX_Water": 2040
-   },
    "under_limit": true,
-   "dims": [
-    7.997,
-    43.221,
-    7.865
-   ],
-   "parts": 35,
    "floating": 0,
-   "closed_parts": 6,
-   "open_parts": 29,
+   "parts": 1,
    "inverted_parts": 0,
-   "textures": [
-    "VFX_Water"
+   "dims": [
+    20.0,
+    20.0,
+    2.6
    ],
-   "textures_ok": true,
-   "pivot_bottom_center": false
+   "meshes": {
+    "HO_VFX_Whirlpool": 1792
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": false
   },
-  "renders": [
-   "renders/Phase3/VFX/HO_VFX_WaterDragon_three_quarter.png",
-   "renders/Phase3/VFX/HO_VFX_WaterDragon_front.png"
+  "mesh_checks": [
+   {
+    "name": "HO_VFX_Whirlpool",
+    "tris": 1792,
+    "tris_per_material": {
+     "VFX_Water": 1792
+    },
+    "under_limit": true,
+    "dims": [
+     20.0,
+     20.0,
+     2.6
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "VFX_Water"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
   ],
-  "notes": "Serpentine water dragon (~40 long) for Twin Dragons: body U runs tail->neck (0..4) - scroll HO_VFXT_Water.png along U; head with horns, whiskers, dorsal fins. Head faces front (-Z)."
+  "renders": [
+   "renders/Phase3/VFX/HO_VFX_Whirlpool_three_quarter.png",
+   "renders/Phase3/VFX/HO_VFX_Whirlpool_front.png"
+  ],
+  "notes": "Whirlpool funnel R 10, 2.6 deep (VFX_Water / HO_VFXT_Water.png). U spirals around - scroll OffsetStudsU to spin it; V centre -> rim. Origin = rim centre at water level; the dragon can rise out of it. | meshes: HO_VFX_Whirlpool (1792)"
  },
  {
   "name": "HO_Armor_Ashigaru",

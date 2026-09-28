@@ -103,7 +103,12 @@ track:Play(0.05)
   * **Slashes** (Thin, Medium, Heavy) lie flat around their origin. Weld one to the HumanoidRootPart at the swing height, rotate it to the swing plane, and fade Transparency 0 → 1 over 0.25 s while scaling 0.9 → 1.1.
   * **Shockwave_Flat / Dome** and **FireRing_Segment**: 8 segments rotated by 45° make a full ring. For **FirePillar**, **Vortex** and **SpiralCone**: spawn them at the ground, scale them up and fade them out.
   * **EnergySphere**: the Outer, Middle and Core shells share one centre. Spin them in opposite directions.
-  * **WaterDragon**: the head faces −Z. Scroll `HO_VFXT_Water.png` along U so the water flows tail → head. Move it along a path with CFrame lerps.
+  * **WaterDragon** (detailed, ~44 long, about 25k triangles split over 6 MeshParts, none over 11k): the head faces −Z and the origin is the centre of the model. It's textured with its own sets (`Dragon_Scales`, `Dragon_Belly`, `Dragon_Horn`, `Water_Flame`), so run ApplyTextures on it.
+    * Set the eyes (`__Glow_Yellow`) to Neon.
+    * Give the `__Water_Flame` fins and mane Transparency 0.1–0.2 for a wet look.
+    * `HO_VFX_WaterDragon_Droplets` are loose water drops; delete them if you don't want them.
+    * Move the dragon along a path with CFrame lerps (two dragons = Twin Dragons).
+  * **Whirlpool** (`HO_VFX_Whirlpool`): a funnel with radius 10. Scroll U to spin it, and have the dragon rise out of it.
 
 ## 4. Hero models (`assets/Phase4`) and `roblox/HO_RigBuilder.lua`
 

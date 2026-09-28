@@ -519,6 +519,79 @@ def glow(name, rgb, seed):
     save(name, col, np.zeros((N, N)), 0.3, 0.0)
 
 
+def dragon_scales():
+    """Water-dragon body scales. U runs along the body (tail -> head, 16 rows / tile = 8 studs), V around it
+    (16 scales per tile = one lap). Rows nearer the head overlap the ones behind; free rounded edges face the
+    tail (-U). Teal-blue with dark navy seams and pale cyan rims, like a glossy wet hide."""
+    R, C = 16, 16
+    U, V = xx, 1 - yy
+    h = np.zeros((N, N)); edge = np.ones((N, N)); cid = np.zeros((N, N)); inner = np.zeros((N, N))
+    rad = 0.78 / C * 1.25
+    for r in range(R):                                     # painter's order: later (head-ward) rows on top
+        cu = (r + 0.5) / R
+        du = (U - cu + 0.5) % 1.0 - 0.5
+        off = 0.5 * (r % 2)
+        cv = np.floor(V * C - off + 0.5)
+        dv = (V * C - off - cv) / C
+        du_s = du * (R / C) * 1.15                         # scales a bit longer than wide
+        d = np.sqrt(du_s ** 2 + dv ** 2) / rad
+        dv2 = dv - np.where(dv >= 0, 1.0, -1.0) / C                         # neighbour in the same row (the other nearest)
+        d2 = np.sqrt(du_s ** 2 + dv2 ** 2) / rad
+        seam = smooth(0.16, 0.0, d2 - d)                    # where two scales of a row meet
+        m = (d < 1.0) & (du < 0.35 / R)                    # the head-side end is tucked under the row ahead
+        h[m] = (np.sqrt(1 - d[m] ** 2) * 0.8 + 0.2 * (-du[m] * R)) * (1 - 0.7 * seam[m])
+        edge[m] = np.maximum(d[m], np.where(seam[m] > 0.3, 0.9 + 0.1 * seam[m], 0.0)); inner[m] = 1 - d[m]
+        cid[m] = (r * 131 + cv[m] * 17) % 97
+    var = (np.sin(cid * 12.9898) * 43758.5453) % 1.0
+    n1 = fnoise(601, 2.2); n2 = fnoise(602, 1.4, aniso=(1.0, 3.0))
+    base = lerp((22, 112, 170), (38, 168, 206), var * 0.6 + n1 * 0.4)
+    col = lerp(base, (120, 220, 240), smooth(0.35, 0.0, edge) * 0.55)       # sheen toward the scale centre
+    col = lerp(col, (170, 240, 255), smooth(0.78, 0.92, edge) * smooth(1.0, 0.95, edge) * 0.8)   # pale rim
+    col = lerp(col, (8, 30, 64), smooth(0.93, 1.0, edge))                  # dark seam
+    col = lerp(col, (60, 90, 190), n2 * 0.18)                              # violet-blue drift
+    hh = h + n1 * 0.05
+    save('Dragon_Scales', col, hh, 0.22 + 0.25 * smooth(0.9, 1.0, edge) + n1 * 0.08, 0.12, 5.0)
+
+
+def dragon_belly():
+    """Belly scutes: broad plates across the body, 8 per tile along U (1 stud each), pale blue-lavender."""
+    U, V = xx, 1 - yy
+    k = (U * 8) % 1.0                                      # 0 at the tail edge of a plate, 1 at its head edge
+    n1 = fnoise(611, 2.2); n2 = fnoise(612, 1.3, aniso=(1.0, 6.0))
+    prof = smooth(0.0, 0.25, k) * smooth(1.0, 0.8, k)      # rounded plate
+    ridge = np.abs(np.sin((V + n1 * 0.02) * np.pi * 2)) ** 8 * 0.0
+    h = prof * 0.8 + n2 * 0.1 + ridge
+    col = lerp((104, 118, 196), (182, 196, 236), prof * 0.8 + n1 * 0.2)
+    col = lerp(col, (50, 56, 120), smooth(0.12, 0.0, k) + smooth(0.92, 1.0, k))       # seams between plates
+    col = lerp(col, (230, 236, 255), smooth(0.5, 0.75, k) * smooth(0.95, 0.8, k) * 0.35)
+    save('Dragon_Belly', col, h, 0.3 + (1 - prof) * 0.3, 0.05, 4.0)
+
+
+def dragon_horn():
+    """Horns, claws, teeth: ivory with a cold blue tint toward the tips (V = 0 base .. 1 tip on tubes)."""
+    V = 1 - yy
+    n1 = fnoise(621, 1.3, aniso=(1.0, 8.0)); n2 = fnoise(622, 2.4)
+    rings = np.sin((V * 22 + n2 * 1.5) * np.pi * 2) * 0.5 + 0.5
+    col = lerp((196, 204, 212), (236, 240, 244), n1 * 0.6 + rings * 0.2)
+    col = lerp(col, (120, 170, 214), smooth(0.55, 1.0, V) * 0.6)
+    col = lerp(col, (90, 94, 110), smooth(0.7, 1.0, rings) * 0.15)
+    save('Dragon_Horn', col, rings * 0.4 + n1 * 0.2, 0.35 + n2 * 0.2, 0.0, 3.0)
+
+
+def water_flame():
+    """Stylised living-water fins / mane / splashes: V runs root (0) -> tip (1) along each plume, U across it.
+    Deep blue at the root, bright cyan body, white foam at the tips, flowing streaks along V."""
+    U, V = xx, 1 - yy
+    s1 = fnoise(631, 1.3, aniso=(1.0, 10.0)); s2 = fnoise(632, 2.2, aniso=(1.0, 4.0)); n = fnoise(633, 2.4)
+    t = np.clip(V * 0.85 + (s1 - 0.5) * 0.35 + (n - 0.5) * 0.15, 0, 1)
+    col = lerp((12, 60, 150), (30, 150, 225), smooth(0.0, 0.45, t))
+    col = lerp(col, (120, 220, 250), smooth(0.4, 0.75, t))
+    col = lerp(col, (245, 252, 255), smooth(0.78, 0.95, t))
+    streak = smooth(0.7, 0.95, s2) * smooth(0.2, 0.6, V)
+    col = lerp(col, (220, 246, 255), streak * 0.5)
+    save('Water_Flame', col, t * 0.3 + streak * 0.3, 0.12, 0.0, 2.0)
+
+
 if __name__ == '__main__':
     which = sys.argv[1:] or ['roof_tile', 'timber_dark', 'timber_light', 'plaster', 'granite', 'fitted_stone',
                              'cobble', 'planks', 'gold', 'iron', 'shoji', 'uv_check']
