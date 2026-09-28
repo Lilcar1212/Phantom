@@ -154,16 +154,11 @@ def head(pieces, P, f):
                     bend=0.1, n=6)
     # crest: curling plumes crowning the head, plus a comb of short feathers
     cr = pieces['Crest']
-    for k in range(5):
-        a = (k - 2) * 0.28
-        base = L(0.2 - 0.15 * abs(k - 2), a * 1.2, 0.95)
-        pts = []
-        for i in range(17):
-            t = i / 16
-            ang = 1.1 + 2.2 * t
-            pts.append(base + (-f * math.cos(ang) * 0.1 + u * 0.1) * 0 + (-f * (3.2 * t) + u * (2.4 * math.sin(math.pi * t * 0.8)) +
-                       s * (a * 2.2 * t)) + (-f * 0.4 * math.sin(ang * 1.5) * t))
-        streamer(cr, pts, 0.9 - 0.12 * abs(k - 2), mat='Phoenix_Plume')
+    for k in range(7):                                          # sweeping crest plumes curling back over the head
+        a = (k - 3) * 0.22
+        base = L(0.3 - 0.12 * abs(k - 3), a * 1.1, 0.95)
+        feather(cr, base, -f * 0.9 + u * 0.8 + s * a * 0.6, s, 3.6 - 0.35 * abs(k - 3), 0.75, bend=-0.35, n=12,
+                mat='Phoenix_Plume', twist=0.2 * (k - 3))
     for k in range(6):
         feather(cr, L(0.9 - 0.25 * k, 0, 1.0), u * 1.0 - f * 0.6, s, 0.9 + 0.1 * k, 0.35, bend=-0.15, n=6)
     return f, s, u, L
@@ -258,8 +253,8 @@ def fire(pieces, wings, tail_base, head_L):
     for (S, E, W, H), side in wings:                           # flames trailing off the flight-feather tips
         for k in range(16):
             t = k / 15
-            root = (E.lerp(W, t * 2) if t < 0.5 else W.lerp(H, (t - 0.5) * 2)) + Vector((side * 2.0 * t, -5.5 - 2.5 * t, -0.3))
-            ribbon(b, root, Vector((side * 0.3 * t, -1.0, 0.2)), Vector((1, 0, 0)), rnd.uniform(2.5, 5.0), rnd.uniform(0.6, 1.1),
+            root = (E.lerp(W, t * 2) if t < 0.5 else W.lerp(H, (t - 0.5) * 2)) + Vector((side * 1.6 * t, -5.2 - 2.2 * t, -0.35))
+            ribbon(b, root, Vector((side * 0.3 * t, -1.0, 0.08)), Vector((1, 0, 0)), rnd.uniform(2.5, 5.0), rnd.uniform(0.6, 1.1),
                    bend=Z, curl=0.35, wobble=0.18, phase=k, n=10, mat='Fire_Flame')
         tip = H + Vector((side * 3.5, -2.0, 0))
         for k in range(5):

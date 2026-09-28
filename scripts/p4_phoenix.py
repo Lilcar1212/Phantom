@@ -81,8 +81,7 @@ if render:
     H = Vector(rig['bones'][[bb[0] for bb in rig['bones']].index('Head')][1]) + Vector((0, 0, lift))
     size = (hi - lo).length
     cams = {'head': (H + Vector((5.0, 7.5, 1.2)), H + Vector((0, 1.6, 0.2)), 45),
-            'hero': (ctr + Vector((0.55, 0.8, 0.35)).normalized() * size * 1.0, ctr, 38),
-            'below': (ctr + Vector((0.3, 0.6, -0.1)).normalized() * size * 0.95 + Vector((0, 0, -lift * 0.3)), ctr, 38)}
+            'hero': (ctr + Vector((0.55, 0.8, 0.35)).normalized() * size * 1.0, ctr, 38)}
     renders = ho.render_previews(objs, NAME, subdir=f'{PH}/{CAT}', views=('front', 'side', 'top', 'back'), samples=32, cams=cams)
     # wing-flap test pose: wings raised, tail fanned, head turned, beak open
     pb = arm.pose.bones

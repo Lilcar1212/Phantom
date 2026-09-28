@@ -29242,7 +29242,16 @@
    "Phoenix_Plume"
   ],
   "pivot": "centre of the body",
-  "renders": [],
+  "renders": [
+   "renders/Phase4/Characters/HO_Creature_Phoenix_front.png",
+   "renders/Phase4/Characters/HO_Creature_Phoenix_side.png",
+   "renders/Phase4/Characters/HO_Creature_Phoenix_top.png",
+   "renders/Phase4/Characters/HO_Creature_Phoenix_back.png",
+   "renders/Phase4/Characters/HO_Creature_Phoenix_head.png",
+   "renders/Phase4/Characters/HO_Creature_Phoenix_hero.png",
+   "renders/Phase4/Characters/HO_Creature_Phoenix_below.png",
+   "renders/Phase4/Characters/HO_Creature_Phoenix_PoseTest_three_quarter.png"
+  ],
   "mesh_checks": [
    {
     "name": "HO_Creature_Phoenix_Head__Phoenix_Beak",
@@ -29482,9 +29491,9 @@
     },
     "under_limit": true,
     "dims": [
-     2.753,
-     5.006,
-     2.85
+     2.811,
+     5.227,
+     2.833
     ],
     "parts": 60,
     "floating": 0,
@@ -29551,9 +29560,9 @@
     },
     "under_limit": true,
     "dims": [
-     4.27,
-     10.829,
-     3.317
+     4.18,
+     10.844,
+     3.259
     ],
     "parts": 144,
     "floating": 0,
@@ -29754,9 +29763,9 @@
   "checks": {
    "under_limit": true,
    "dims": [
-    58.5,
-    43.83,
-    13.32
+    57.51,
+    44.57,
+    16.59
    ],
    "meshes": {
     "HO_Creature_Phoenix_Head__Phoenix_Beak": 204,
@@ -29784,7 +29793,7 @@
    },
    "bones": 26
   },
-  "notes": "Rigged phoenix fire bird (wingspan ~58, length ~44 with tail plumes). Soaring bind pose: wings spread, faces FRONT (-Z), origin = centre of the body. Pieces: Head, Beak, Crest, Eyes, Neck, Body, Wings, Tail, Legs, Talons, FireFX (each split per texture set). Solid feathers (Phoenix_Body, Phoenix_Breast, Phoenix_Feather, Phoenix_Plume, Phoenix_Beak; eyes Glow_Amber -> Neon); FireFX = Fire_Flame (AlphaMode Transparency, glow). 26 bones: Root, Spine01-03, Neck01-02, Head, Beak, L/R_Wing1-3, Tail01-06, L/R_Thigh/Shin/Foot (max 4 weights). Import with File > Import 3D (Scale Unit = Stud, Rig Type = Custom). roblox/HO_PhoenixRig.lua animates it (wing flap / glide, tail sway, head, beak)."
+  "notes": "Rigged phoenix fire bird (wingspan ~58, length ~45 with tail plumes). Soaring bind pose: wings spread, faces FRONT (-Z), origin = centre of the body. Pieces: Head, Beak, Crest, Eyes, Neck, Body, Wings, Tail, Legs, Talons, FireFX (each split per texture set). Solid feathers (Phoenix_Body, Phoenix_Breast, Phoenix_Feather, Phoenix_Plume, Phoenix_Beak; eyes Glow_Amber -> Neon); FireFX = Fire_Flame (AlphaMode Transparency, glow). 26 bones: Root, Spine01-03, Neck01-02, Head, Beak, L/R_Wing1-3, Tail01-06, L/R_Thigh/Shin/Foot (max 4 weights). Import with File > Import 3D (Scale Unit = Stud, Rig Type = Custom). roblox/HO_PhoenixRig.lua animates it (wing flap / glide, tail sway, head, beak)."
  },
  {
   "name": "HO_Creature_WaterDragon",
