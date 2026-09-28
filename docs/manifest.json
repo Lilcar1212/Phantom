@@ -29843,6 +29843,438 @@
   "notes": "Rigged Eastern water dragon, the hero creature (~36 long, head at ~29 studs). Standing bind pose, faces FRONT (-Z), feet on the ground at the origin. Pieces: Head, Jaw, Horns, Eyes, Whiskers, Mane, Neck, Body, Tail, Limbs, Claws, Fins, WaterFX (each split per texture set). Solid PBR creature (Dragon_Scales, Dragon_Belly, Dragon_Horn, Dragon_Fin, Dragon_Claw, Dragon_Eye = Neon); only WaterFX is translucent (Water_Flame, AlphaMode Transparency). 35 bones: Root, Spine01-04, Neck01-04, Head, Jaw, Tail01-12, FL/FR/RL/RR_Upper/_Lower/_Foot; skinned (max 4 weights). Import with File > Import 3D (Scale Unit = Stud, Rig General > Rig Type = Custom). roblox/HO_DragonRig.lua animates it (tail wave, breathing, neck sway, jaw)."
  },
  {
+  "name": "HO_Fish_Ayu",
+  "phase": "Phase4",
+  "category": "Fish",
+  "type": "Mesh group",
+  "file": "assets/Phase4/Fish/HO_Fish_Ayu.fbx",
+  "tris": 2040,
+  "textures": [
+   "Fish_Ayu",
+   "Fish_Eye",
+   "Fish_Fin"
+  ],
+  "pivot": "body centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 17,
+   "inverted_parts": 0,
+   "dims": [
+    0.23,
+    1.342,
+    0.419
+   ],
+   "meshes": {
+    "HO_Fish_Ayu__Fish_Ayu": 1728,
+    "HO_Fish_Ayu__Fish_Eye": 160,
+    "HO_Fish_Ayu__Fish_Fin": 152
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": false
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Fish_Ayu__Fish_Ayu",
+    "tris": 1728,
+    "tris_per_material": {
+     "Fish_Ayu": 1728
+    },
+    "under_limit": true,
+    "dims": [
+     0.11,
+     1.111,
+     0.201
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Ayu"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Fish_Ayu__Fish_Eye",
+    "tris": 160,
+    "tris_per_material": {
+     "Fish_Eye": 160
+    },
+    "under_limit": true,
+    "dims": [
+     0.105,
+     0.044,
+     0.044
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Eye"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Fish_Ayu__Fish_Fin",
+    "tris": 152,
+    "tris_per_material": {
+     "Fish_Fin": 152
+    },
+    "under_limit": true,
+    "dims": [
+     0.23,
+     1.072,
+     0.419
+    ],
+    "parts": 14,
+    "floating": 2,
+    "closed_parts": 0,
+    "open_parts": 14,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Fin"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [
+   "renders/Phase4/Fish/HO_Fish_Ayu_three_quarter.png",
+   "renders/Phase4/Fish/HO_Fish_Ayu_side.png"
+  ],
+  "notes": "Ayu (sweetfish), 1.1 long: olive back, silver flanks, yellow gill spot. Common river catch. Origin = centre of the body; head FRONT (-Z), back up. Fins use Fish_Fin* sets (colour map has alpha: SurfaceAppearance AlphaMode = Transparency). Eyes = Fish_Eye. | meshes: HO_Fish_Ayu__Fish_Ayu (1728), HO_Fish_Ayu__Fish_Eye (160), HO_Fish_Ayu__Fish_Fin (152)"
+ },
+ {
+  "name": "HO_Fish_Koi",
+  "phase": "Phase4",
+  "category": "Fish",
+  "type": "Mesh group",
+  "file": "assets/Phase4/Fish/HO_Fish_Koi.fbx",
+  "tris": 2092,
+  "textures": [
+   "Fish_Eye",
+   "Fish_Fin_Red",
+   "Fish_Koi"
+  ],
+  "pivot": "body centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 19,
+   "inverted_parts": 0,
+   "dims": [
+    0.473,
+    2.16,
+    0.682
+   ],
+   "meshes": {
+    "HO_Fish_Koi__Fish_Eye": 160,
+    "HO_Fish_Koi__Fish_Fin_Red": 152,
+    "HO_Fish_Koi__Fish_Koi": 1780
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": false
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Fish_Koi__Fish_Eye",
+    "tris": 160,
+    "tris_per_material": {
+     "Fish_Eye": 160
+    },
+    "under_limit": true,
+    "dims": [
+     0.241,
+     0.072,
+     0.072
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Eye"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Fish_Koi__Fish_Fin_Red",
+    "tris": 152,
+    "tris_per_material": {
+     "Fish_Fin_Red": 152
+    },
+    "under_limit": true,
+    "dims": [
+     0.473,
+     1.719,
+     0.682
+    ],
+    "parts": 14,
+    "floating": 6,
+    "closed_parts": 0,
+    "open_parts": 14,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Fin_Red"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Fish_Koi__Fish_Koi",
+    "tris": 1780,
+    "tris_per_material": {
+     "Fish_Koi": 1780
+    },
+    "under_limit": true,
+    "dims": [
+     0.288,
+     1.818,
+     0.432
+    ],
+    "parts": 3,
+    "floating": 0,
+    "closed_parts": 3,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Koi"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [
+   "renders/Phase4/Fish/HO_Fish_Koi_three_quarter.png",
+   "renders/Phase4/Fish/HO_Fish_Koi_side.png"
+  ],
+  "notes": "Koi, 1.8 long: white with red-orange patches, barbels, red fins. Pond / castle moat. Origin = centre of the body; head FRONT (-Z), back up. Fins use Fish_Fin* sets (colour map has alpha: SurfaceAppearance AlphaMode = Transparency). Eyes = Fish_Eye. | meshes: HO_Fish_Koi__Fish_Eye (160), HO_Fish_Koi__Fish_Fin_Red (152), HO_Fish_Koi__Fish_Koi (1780)"
+ },
+ {
+  "name": "HO_Fish_Koi_Gold",
+  "phase": "Phase4",
+  "category": "Fish",
+  "type": "Mesh group",
+  "file": "assets/Phase4/Fish/HO_Fish_Koi_Gold.fbx",
+  "tris": 2092,
+  "textures": [
+   "Fish_Eye",
+   "Fish_Fin_Gold",
+   "Fish_Koi_Gold"
+  ],
+  "pivot": "body centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 19,
+   "inverted_parts": 0,
+   "dims": [
+    0.473,
+    2.16,
+    0.682
+   ],
+   "meshes": {
+    "HO_Fish_Koi_Gold__Fish_Eye": 160,
+    "HO_Fish_Koi_Gold__Fish_Fin_Gold": 152,
+    "HO_Fish_Koi_Gold__Fish_Koi_Gold": 1780
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": false
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Fish_Koi_Gold__Fish_Eye",
+    "tris": 160,
+    "tris_per_material": {
+     "Fish_Eye": 160
+    },
+    "under_limit": true,
+    "dims": [
+     0.241,
+     0.072,
+     0.072
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Eye"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Fish_Koi_Gold__Fish_Fin_Gold",
+    "tris": 152,
+    "tris_per_material": {
+     "Fish_Fin_Gold": 152
+    },
+    "under_limit": true,
+    "dims": [
+     0.473,
+     1.719,
+     0.682
+    ],
+    "parts": 14,
+    "floating": 6,
+    "closed_parts": 0,
+    "open_parts": 14,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Fin_Gold"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Fish_Koi_Gold__Fish_Koi_Gold",
+    "tris": 1780,
+    "tris_per_material": {
+     "Fish_Koi_Gold": 1780
+    },
+    "under_limit": true,
+    "dims": [
+     0.288,
+     1.818,
+     0.432
+    ],
+    "parts": 3,
+    "floating": 0,
+    "closed_parts": 3,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Koi_Gold"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [
+   "renders/Phase4/Fish/HO_Fish_Koi_Gold_three_quarter.png",
+   "renders/Phase4/Fish/HO_Fish_Koi_Gold_side.png"
+  ],
+  "notes": "Golden koi (ogon), 1.8 long: metallic gold body and fins. Rare catch. Origin = centre of the body; head FRONT (-Z), back up. Fins use Fish_Fin* sets (colour map has alpha: SurfaceAppearance AlphaMode = Transparency). Eyes = Fish_Eye. | meshes: HO_Fish_Koi_Gold__Fish_Eye (160), HO_Fish_Koi_Gold__Fish_Fin_Gold (152), HO_Fish_Koi_Gold__Fish_Koi_Gold (1780)"
+ },
+ {
+  "name": "HO_Fish_Tai",
+  "phase": "Phase4",
+  "category": "Fish",
+  "type": "Mesh group",
+  "file": "assets/Phase4/Fish/HO_Fish_Tai.fbx",
+  "tris": 2040,
+  "textures": [
+   "Fish_Eye",
+   "Fish_Fin_Red",
+   "Fish_Tai"
+  ],
+  "pivot": "body centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 17,
+   "inverted_parts": 0,
+   "dims": [
+    0.393,
+    1.952,
+    0.915
+   ],
+   "meshes": {
+    "HO_Fish_Tai__Fish_Eye": 160,
+    "HO_Fish_Tai__Fish_Fin_Red": 152,
+    "HO_Fish_Tai__Fish_Tai": 1728
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": false
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Fish_Tai__Fish_Eye",
+    "tris": 160,
+    "tris_per_material": {
+     "Fish_Eye": 160
+    },
+    "under_limit": true,
+    "dims": [
+     0.214,
+     0.064,
+     0.064
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Eye"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Fish_Tai__Fish_Fin_Red",
+    "tris": 152,
+    "tris_per_material": {
+     "Fish_Fin_Red": 152
+    },
+    "under_limit": true,
+    "dims": [
+     0.393,
+     1.56,
+     0.915
+    ],
+    "parts": 14,
+    "floating": 6,
+    "closed_parts": 0,
+    "open_parts": 14,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Fin_Red"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Fish_Tai__Fish_Tai",
+    "tris": 1728,
+    "tris_per_material": {
+     "Fish_Tai": 1728
+    },
+    "under_limit": true,
+    "dims": [
+     0.224,
+     1.616,
+     0.594
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Tai"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [
+   "renders/Phase4/Fish/HO_Fish_Tai_three_quarter.png",
+   "renders/Phase4/Fish/HO_Fish_Tai_side.png"
+  ],
+  "notes": "Tai (red sea bream), 1.6 long: deep red body with blue spots, spiny dorsal, red fins. Prized sea catch. Origin = centre of the body; head FRONT (-Z), back up. Fins use Fish_Fin* sets (colour map has alpha: SurfaceAppearance AlphaMode = Transparency). Eyes = Fish_Eye. | meshes: HO_Fish_Tai__Fish_Eye (160), HO_Fish_Tai__Fish_Fin_Red (152), HO_Fish_Tai__Fish_Tai (1728)"
+ },
+ {
   "name": "HO_Hero_StoneFist_Left",
   "phase": "Phase4",
   "category": "Heroes",
@@ -30054,6 +30486,779 @@
    "renders/Phase4/Icons/HO_Icon_Magic_sheet.png"
   ],
   "notes": "Water magic emblem: navy disc, gold rims, 16-rune band, glowing droplet over waves. Upload as an Image/Decal for ImageLabels (transparent outside the circle)."
+ },
+ {
+  "name": "HO_Prop_FishCreel",
+  "phase": "Phase4",
+  "category": "Props",
+  "type": "Mesh group",
+  "file": "assets/Phase4/Props/HO_Prop_FishCreel.fbx",
+  "tris": 1090,
+  "textures": [
+   "Bamboo",
+   "Rope",
+   "Straw"
+  ],
+  "pivot": "see notes",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 6,
+   "inverted_parts": 0,
+   "dims": [
+    1.27,
+    1.27,
+    1.83
+   ],
+   "meshes": {
+    "HO_Prop_FishCreel__Bamboo": 718,
+    "HO_Prop_FishCreel__Rope": 152,
+    "HO_Prop_FishCreel__Straw": 220
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": false
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Prop_FishCreel__Bamboo",
+    "tris": 718,
+    "tris_per_material": {
+     "Bamboo": 718
+    },
+    "under_limit": true,
+    "dims": [
+     1.27,
+     1.27,
+     1.344
+    ],
+    "parts": 4,
+    "floating": 3,
+    "closed_parts": 1,
+    "open_parts": 3,
+    "inverted_parts": 0,
+    "textures": [
+     "Bamboo"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Prop_FishCreel__Rope",
+    "tris": 152,
+    "tris_per_material": {
+     "Rope": 152
+    },
+    "under_limit": true,
+    "dims": [
+     1.252,
+     0.06,
+     1.128
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Rope"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Prop_FishCreel__Straw",
+    "tris": 220,
+    "tris_per_material": {
+     "Straw": 220
+    },
+    "under_limit": true,
+    "dims": [
+     1.2,
+     1.2,
+     1.2
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Straw"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": true
+   }
+  ],
+  "renders": [
+   "renders/Phase4/Props/HO_Prop_FishCreel_three_quarter.png",
+   "renders/Phase4/Props/HO_Prop_FishCreel_front.png"
+  ],
+  "notes": "Woven bamboo fish creel (biku) 1.4 tall with lid and rope strap; origin = bottom centre. Wear it on the hip or put caught fish in it. | meshes: HO_Prop_FishCreel__Bamboo (718), HO_Prop_FishCreel__Rope (152), HO_Prop_FishCreel__Straw (220)"
+ },
+ {
+  "name": "HO_Tool_FishingRod_Bamboo",
+  "phase": "Phase4",
+  "category": "Tools",
+  "type": "Mesh group",
+  "file": "assets/Phase4/Tools/HO_Tool_FishingRod_Bamboo.fbx",
+  "tris": 1818,
+  "textures": [
+   "Bamboo",
+   "Cloth_White",
+   "Rope"
+  ],
+  "pivot": "grip centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 6,
+   "inverted_parts": 0,
+   "dims": [
+    0.2,
+    7.08,
+    0.46
+   ],
+   "meshes": {
+    "HO_Tool_FishingRod_Bamboo__Bamboo": 1434,
+    "HO_Tool_FishingRod_Bamboo__Cloth_White": 56,
+    "HO_Tool_FishingRod_Bamboo__Rope": 328
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": false
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Tool_FishingRod_Bamboo__Bamboo",
+    "tris": 1434,
+    "tris_per_material": {
+     "Bamboo": 1434
+    },
+    "under_limit": true,
+    "dims": [
+     0.175,
+     7.08,
+     0.448
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Bamboo"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Tool_FishingRod_Bamboo__Cloth_White",
+    "tris": 56,
+    "tris_per_material": {
+     "Cloth_White": 56
+    },
+    "under_limit": true,
+    "dims": [
+     0.044,
+     0.104,
+     0.052
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Cloth_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Tool_FishingRod_Bamboo__Rope",
+    "tris": 328,
+    "tris_per_material": {
+     "Rope": 328
+    },
+    "under_limit": true,
+    "dims": [
+     0.2,
+     1.091,
+     0.193
+    ],
+    "parts": 3,
+    "floating": 0,
+    "closed_parts": 3,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Rope"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [
+   "renders/Phase4/Tools/HO_Tool_FishingRod_Bamboo_three_quarter.png",
+   "renders/Phase4/Tools/HO_Tool_FishingRod_Bamboo_side.png"
+  ],
+  "notes": "Starter rod (takezao): one natural bamboo pole ~7 long with nodes, rope-bound grip and a white line tie at the tip. Origin = centre of the grip (the hand). The rod points FRONT (-Z) and droops at the tip; line-tie point (tip) in Roblox studs relative to the origin: (0.00, -0.35, -6.40) - put an Attachment there and hang HO_Tool_Fishing_Float / _Hook on a RopeConstraint or Beam. As a Tool: Handle at the grip, Tool.Grip = CFrame.Angles(math.rad(-30), 0, 0) to hold it raised. | meshes: HO_Tool_FishingRod_Bamboo__Bamboo (1434), HO_Tool_FishingRod_Bamboo__Cloth_White (56), HO_Tool_FishingRod_Bamboo__Rope (328)"
+ },
+ {
+  "name": "HO_Tool_FishingRod_Lacquered",
+  "phase": "Phase4",
+  "category": "Tools",
+  "type": "Mesh group",
+  "file": "assets/Phase4/Tools/HO_Tool_FishingRod_Lacquered.fbx",
+  "tris": 3110,
+  "textures": [
+   "Black_Lacquer",
+   "Cloth_White",
+   "Gold_Leaf",
+   "Red_Lacquer",
+   "Tsuka_Wrap"
+  ],
+  "pivot": "grip centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 21,
+   "inverted_parts": 0,
+   "dims": [
+    0.21,
+    9.141,
+    0.563
+   ],
+   "meshes": {
+    "HO_Tool_FishingRod_Lacquered__Black_Lacquer": 1616,
+    "HO_Tool_FishingRod_Lacquered__Cloth_White": 56,
+    "HO_Tool_FishingRod_Lacquered__Gold_Leaf": 462,
+    "HO_Tool_FishingRod_Lacquered__Red_Lacquer": 432,
+    "HO_Tool_FishingRod_Lacquered__Tsuka_Wrap": 544
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": false
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Tool_FishingRod_Lacquered__Black_Lacquer",
+    "tris": 1616,
+    "tris_per_material": {
+     "Black_Lacquer": 1616
+    },
+    "under_limit": true,
+    "dims": [
+     0.17,
+     9.001,
+     0.543
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Tool_FishingRod_Lacquered__Cloth_White",
+    "tris": 56,
+    "tris_per_material": {
+     "Cloth_White": 56
+    },
+    "under_limit": true,
+    "dims": [
+     0.044,
+     0.065,
+     0.048
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Cloth_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Tool_FishingRod_Lacquered__Gold_Leaf",
+    "tris": 462,
+    "tris_per_material": {
+     "Gold_Leaf": 462
+    },
+    "under_limit": true,
+    "dims": [
+     0.21,
+     7.113,
+     0.39
+    ],
+    "parts": 8,
+    "floating": 6,
+    "closed_parts": 8,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Tool_FishingRod_Lacquered__Red_Lacquer",
+    "tris": 432,
+    "tris_per_material": {
+     "Red_Lacquer": 432
+    },
+    "under_limit": true,
+    "dims": [
+     0.142,
+     7.242,
+     0.525
+    ],
+    "parts": 7,
+    "floating": 6,
+    "closed_parts": 7,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Red_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Tool_FishingRod_Lacquered__Tsuka_Wrap",
+    "tris": 544,
+    "tris_per_material": {
+     "Tsuka_Wrap": 544
+    },
+    "under_limit": true,
+    "dims": [
+     0.2,
+     6.833,
+     0.379
+    ],
+    "parts": 4,
+    "floating": 3,
+    "closed_parts": 4,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Tsuka_Wrap"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [
+   "renders/Phase4/Tools/HO_Tool_FishingRod_Lacquered_three_quarter.png",
+   "renders/Phase4/Tools/HO_Tool_FishingRod_Lacquered_side.png"
+  ],
+  "notes": "Edo jointed rod (wazao) ~9 long: four bamboo sections in black lacquer, red lacquer bands, silk-wrapped ferrules with gold rings, braided silk grip, gold butt cap, red tip. Origin = centre of the grip (the hand). The rod points FRONT (-Z) and droops at the tip; line-tie point (tip) in Roblox studs relative to the origin: (0.00, -0.45, -8.20) - put an Attachment there and hang HO_Tool_Fishing_Float / _Hook on a RopeConstraint or Beam. As a Tool: Handle at the grip, Tool.Grip = CFrame.Angles(math.rad(-30), 0, 0) to hold it raised. | meshes: HO_Tool_FishingRod_Lacquered__Black_Lacquer (1616), HO_Tool_FishingRod_Lacquered__Cloth_White (56), HO_Tool_FishingRod_Lacquered__Gold_Leaf (462), HO_Tool_FishingRod_Lacquered__Red_Lacquer (432), HO_Tool_FishingRod_Lacquered__Tsuka_Wrap (544)"
+ },
+ {
+  "name": "HO_Tool_FishingRod_Master",
+  "phase": "Phase4",
+  "category": "Tools",
+  "type": "Mesh group",
+  "file": "assets/Phase4/Tools/HO_Tool_FishingRod_Master.fbx",
+  "tris": 4386,
+  "textures": [
+   "Black_Lacquer",
+   "Cloth_White",
+   "Gold_Leaf",
+   "Red_Lacquer",
+   "Timber_Dark",
+   "Timber_Light"
+  ],
+  "pivot": "grip centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 41,
+   "inverted_parts": 0,
+   "dims": [
+    0.48,
+    10.061,
+    0.875
+   ],
+   "meshes": {
+    "HO_Tool_FishingRod_Master__Black_Lacquer": 508,
+    "HO_Tool_FishingRod_Master__Cloth_White": 128,
+    "HO_Tool_FishingRod_Master__Gold_Leaf": 1498,
+    "HO_Tool_FishingRod_Master__Red_Lacquer": 1816,
+    "HO_Tool_FishingRod_Master__Timber_Dark": 408,
+    "HO_Tool_FishingRod_Master__Timber_Light": 28
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": false
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Tool_FishingRod_Master__Black_Lacquer",
+    "tris": 508,
+    "tris_per_material": {
+     "Black_Lacquer": 508
+    },
+    "under_limit": true,
+    "dims": [
+     0.358,
+     7.003,
+     0.478
+    ],
+    "parts": 6,
+    "floating": 5,
+    "closed_parts": 6,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Tool_FishingRod_Master__Cloth_White",
+    "tris": 128,
+    "tris_per_material": {
+     "Cloth_White": 128
+    },
+    "under_limit": true,
+    "dims": [
+     0.2,
+     8.171,
+     0.47
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Cloth_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Tool_FishingRod_Master__Gold_Leaf",
+    "tris": 1498,
+    "tris_per_material": {
+     "Gold_Leaf": 1498
+    },
+    "under_limit": true,
+    "dims": [
+     0.28,
+     9.97,
+     0.713
+    ],
+    "parts": 28,
+    "floating": 26,
+    "closed_parts": 22,
+    "open_parts": 6,
+    "inverted_parts": 0,
+    "textures": [
+     "Gold_Leaf"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Tool_FishingRod_Master__Red_Lacquer",
+    "tris": 1816,
+    "tris_per_material": {
+     "Red_Lacquer": 1816
+    },
+    "under_limit": true,
+    "dims": [
+     0.18,
+     9.901,
+     0.599
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Red_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Tool_FishingRod_Master__Timber_Dark",
+    "tris": 408,
+    "tris_per_material": {
+     "Timber_Dark": 408
+    },
+    "under_limit": true,
+    "dims": [
+     0.26,
+     2.09,
+     0.863
+    ],
+    "parts": 3,
+    "floating": 1,
+    "closed_parts": 3,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Dark"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Tool_FishingRod_Master__Timber_Light",
+    "tris": 28,
+    "tris_per_material": {
+     "Timber_Light": 28
+    },
+    "under_limit": true,
+    "dims": [
+     0.4,
+     0.1,
+     0.1
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Timber_Light"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [
+   "renders/Phase4/Tools/HO_Tool_FishingRod_Master_three_quarter.png",
+   "renders/Phase4/Tools/HO_Tool_FishingRod_Master_side.png"
+  ],
+  "notes": "Master rod ~10 long: red lacquer with black bands and gold-leaf rings, cherry-bark grip, gold guide rings and a wooden hand reel (tebata) with wound line and crank. Origin = centre of the grip (the hand). The rod points FRONT (-Z) and droops at the tip; line-tie point (tip) in Roblox studs relative to the origin: (0.00, -0.50, -9.00) - put an Attachment there and hang HO_Tool_Fishing_Float / _Hook on a RopeConstraint or Beam. As a Tool: Handle at the grip, Tool.Grip = CFrame.Angles(math.rad(-30), 0, 0) to hold it raised. | meshes: HO_Tool_FishingRod_Master__Black_Lacquer (508), HO_Tool_FishingRod_Master__Cloth_White (128), HO_Tool_FishingRod_Master__Gold_Leaf (1498), HO_Tool_FishingRod_Master__Red_Lacquer (1816), HO_Tool_FishingRod_Master__Timber_Dark (408), HO_Tool_FishingRod_Master__Timber_Light (28)"
+ },
+ {
+  "name": "HO_Tool_Fishing_Float",
+  "phase": "Phase4",
+  "category": "Tools",
+  "type": "Mesh group",
+  "file": "assets/Phase4/Tools/HO_Tool_Fishing_Float.fbx",
+  "tris": 248,
+  "textures": [
+   "Black_Lacquer",
+   "Cloth_White",
+   "Iron_Wrought",
+   "Red_Lacquer"
+  ],
+  "pivot": "see notes",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 4,
+   "inverted_parts": 0,
+   "dims": [
+    0.2,
+    0.2,
+    0.665
+   ],
+   "meshes": {
+    "HO_Tool_Fishing_Float__Black_Lacquer": 16,
+    "HO_Tool_Fishing_Float__Cloth_White": 84,
+    "HO_Tool_Fishing_Float__Iron_Wrought": 64,
+    "HO_Tool_Fishing_Float__Red_Lacquer": 84
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": false
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Tool_Fishing_Float__Black_Lacquer",
+    "tris": 16,
+    "tris_per_material": {
+     "Black_Lacquer": 16
+    },
+    "under_limit": true,
+    "dims": [
+     0.014,
+     0.015,
+     0.17
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Black_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Tool_Fishing_Float__Cloth_White",
+    "tris": 84,
+    "tris_per_material": {
+     "Cloth_White": 84
+    },
+    "under_limit": true,
+    "dims": [
+     0.2,
+     0.2,
+     0.23
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Cloth_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Tool_Fishing_Float__Iron_Wrought",
+    "tris": 64,
+    "tris_per_material": {
+     "Iron_Wrought": 64
+    },
+    "under_limit": true,
+    "dims": [
+     0.05,
+     0.01,
+     0.05
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Tool_Fishing_Float__Red_Lacquer",
+    "tris": 84,
+    "tris_per_material": {
+     "Red_Lacquer": 84
+    },
+    "under_limit": true,
+    "dims": [
+     0.2,
+     0.2,
+     0.24
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Red_Lacquer"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": true
+   }
+  ],
+  "renders": [
+   "renders/Phase4/Tools/HO_Tool_Fishing_Float_three_quarter.png",
+   "renders/Phase4/Tools/HO_Tool_Fishing_Float_front.png"
+  ],
+  "notes": "Red-and-white float (uki) 0.6 tall with antenna; origin = line eye at the bottom. | meshes: HO_Tool_Fishing_Float__Black_Lacquer (16), HO_Tool_Fishing_Float__Cloth_White (84), HO_Tool_Fishing_Float__Iron_Wrought (64), HO_Tool_Fishing_Float__Red_Lacquer (84)"
+ },
+ {
+  "name": "HO_Tool_Fishing_Hook",
+  "phase": "Phase4",
+  "category": "Tools",
+  "type": "Mesh group",
+  "file": "assets/Phase4/Tools/HO_Tool_Fishing_Hook.fbx",
+  "tris": 308,
+  "textures": [
+   "Cloth_White",
+   "Iron_Wrought"
+  ],
+  "pivot": "see notes",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 5,
+   "inverted_parts": 0,
+   "dims": [
+    0.067,
+    0.164,
+    0.464
+   ],
+   "meshes": {
+    "HO_Tool_Fishing_Hook__Cloth_White": 12,
+    "HO_Tool_Fishing_Hook__Iron_Wrought": 296
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": false
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Tool_Fishing_Hook__Cloth_White",
+    "tris": 12,
+    "tris_per_material": {
+     "Cloth_White": 12
+    },
+    "under_limit": true,
+    "dims": [
+     0.006,
+     0.006,
+     0.11
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Cloth_White"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Tool_Fishing_Hook__Iron_Wrought",
+    "tris": 296,
+    "tris_per_material": {
+     "Iron_Wrought": 296
+    },
+    "under_limit": true,
+    "dims": [
+     0.067,
+     0.164,
+     0.464
+    ],
+    "parts": 4,
+    "floating": 1,
+    "closed_parts": 3,
+    "open_parts": 1,
+    "inverted_parts": 0,
+    "textures": [
+     "Iron_Wrought"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [
+   "renders/Phase4/Tools/HO_Tool_Fishing_Hook_three_quarter.png",
+   "renders/Phase4/Tools/HO_Tool_Fishing_Hook_front.png"
+  ],
+  "notes": "Hand-forged iron J hook with barb and eye, lead sinker and a short snood; origin = hook eye. | meshes: HO_Tool_Fishing_Hook__Cloth_White (12), HO_Tool_Fishing_Hook__Iron_Wrought (296)"
  },
  {
   "name": "HO_Weapon_AshfallSword",

@@ -165,3 +165,34 @@ An ancient Eastern water dragon built as a real game creature. It's a solid PBR 
   * `Roar(model)` plays a one-shot roar.
   * Or animate the bones in the Animation Editor.
 * **Effects:** add your own particles (mist, spray, drips) and a blue PointLight in the chest. Nothing environmental is baked into the model.
+
+## 6. Fishing (`assets/Phase4/Tools`, `Props`, `Fish`)
+
+**Rods.** Each rod's origin is the centre of the grip. The rod points −Z and droops at the tip. The manifest lists each rod's tip position for the line Attachment.
+
+| Rod | Look | Tip (studs from the grip) |
+|---|---|---|
+| `HO_Tool_FishingRod_Bamboo` | Starter: natural bamboo pole with a rope-bound grip, ~7 long | (0, −0.35, −6.4) |
+| `HO_Tool_FishingRod_Lacquered` | Edo jointed rod in black lacquer with red bands and silk ferrules, ~9 long | (0, −0.45, −8.2) |
+| `HO_Tool_FishingRod_Master` | Red lacquer with gold fittings, guide rings and a wooden hand reel, ~10 long | (0, −0.5, −9.0) |
+
+**Using a rod as a Tool:**
+1. Make an invisible Handle at the grip and weld the rod MeshParts to it.
+2. Set `Tool.Grip = CFrame.Angles(math.rad(-30), 0, 0)` so the rod is held raised.
+3. Put an Attachment at the tip.
+4. Hang `HO_Tool_Fishing_Float` and `HO_Tool_Fishing_Hook` from the tip with a RopeConstraint (or a Beam for the line), and set the float's `Buoyancy`-style bobbing in code.
+
+**Extras:** `HO_Prop_FishCreel` is a woven bamboo basket to wear on the hip or keep caught fish in.
+
+**Fish** (`HO_Fish_*`): the origin is the centre of the body, the head faces −Z and the back is up. Each fish has its own painted texture (`Fish_<Name>`). The fins use `Fish_Fin`, `Fish_Fin_Red`, `Fish_Fin_Yellow` or `Fish_Fin_Gold`, whose colour maps have alpha, so set `AlphaMode = Transparency`. The eyes use `Fish_Eye`.
+
+| Fish | Length | Suggested rarity / place |
+|---|---|---|
+| Ayu | 1.1 | common, river |
+| Fugu | 0.9 | common, sea |
+| Saba | 1.4 | common, sea / pier |
+| Koi | 1.8 | uncommon, pond / moat |
+| Unagi | 3.0 | uncommon, river mouth at night |
+| Tai | 1.6 | rare, sea |
+| Koi_Gold | 1.8 | very rare, moat |
+| Maguro | 5.0 | legendary, deep sea (show it held overhead or on the pier) |

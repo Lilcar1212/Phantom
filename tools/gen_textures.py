@@ -627,6 +627,89 @@ def dragon_eye():
     save('Dragon_Eye', col, np.zeros((N, N)), 0.05, 0.0)
 
 
+# ----------------------------------------------------------------------------------------------- fish
+# Fish body sets: U = snout (0) -> tail (1) along the fish, V = back (0) -> belly (1), mirrored on both flanks.
+
+def _scale_net(U, V, rows=34, cols=14):
+    """Overlapping-scale net (darker scale edges) for fish flanks."""
+    a = U * rows
+    b = V * cols + 0.5 * (np.floor(a) % 2)
+    fu, fv = a % 1.0, b % 1.0
+    d = np.sqrt(((fu - 0.15) * 1.0) ** 2 + ((fv - 0.5) * 1.1) ** 2)
+    return smooth(0.48, 0.62, d)
+
+
+def fish(name, back, side, belly, pattern=None, rough=0.3, metal=0.35, scales=True, seed=700):
+    U, V = xx, 1 - yy
+    n1 = fnoise(seed, 2.2); n2 = fnoise(seed + 1, 1.4, aniso=(4.0, 1.0))
+    col = lerp(back, side, smooth(0.08, 0.5, V + (n1 - 0.5) * 0.08))
+    col = lerp(col, belly, smooth(0.55, 0.85, V + (n2 - 0.5) * 0.05))
+    h = np.zeros((N, N))
+    if scales:
+        net = _scale_net(U, V)
+        col = lerp(col, np.array(back) * 0.55, net * 0.35 * (1 - smooth(0.6, 0.9, V)))
+        col = lerp(col, (255, 255, 255), (1 - net) * 0.06)
+        h = 1 - net
+    if pattern: col = pattern(U, V, col, n1, n2)
+    # gill-plate arc and darker snout
+    gill = np.exp(-((U - 0.2 - 0.03 * np.sin((V - 0.5) * 3)) / 0.006) ** 2) * smooth(0.95, 0.2, V)
+    col = lerp(col, np.array(back) * 0.45, gill * 0.7)
+    col = lerp(col, np.array(back) * 0.7, smooth(0.06, 0.0, U) * 0.6)
+    save(name, col, h * 0.5 + n1 * 0.1, rough + (1 - smooth(0.4, 0.8, V)) * 0.1, metal * smooth(0.2, 0.7, V) + 0.05, 2.5)
+
+
+def fish_fin(name, root, edge, alpha_root=0.95, alpha_edge=0.55, seed=760):
+    """Fin membrane: rays along V (root 0 -> edge 1), translucent toward the edge (RGBA)."""
+    U, V = xx, 1 - yy
+    n1 = fnoise(seed, 1.2, aniso=(1.0, 10.0))
+    rays = np.abs(np.sin((U * 22 + n1 * 0.8) * np.pi)) ** 8
+    col = lerp(root, edge, smooth(0.0, 1.0, V))
+    col = lerp(col, np.array(root) * 0.6, rays * 0.5)
+    alpha = np.clip(alpha_root + (alpha_edge - alpha_root) * V + rays * 0.25, 0, 1)
+    save(name, col, rays * 0.5, 0.35, 0.0, 2.0, alpha=alpha)
+
+
+def fish_all():
+    def ayu(U, V, col, n1, n2):
+        spot = np.exp(-(((U - 0.3) / 0.04) ** 2 + ((V - 0.42) / 0.06) ** 2))
+        return lerp(col, (230, 196, 60), spot * 0.9)
+    fish('Fish_Ayu', (70, 84, 60), (170, 176, 160), (232, 232, 222), ayu, seed=701)
+
+    def koi(U, V, col, n1, n2):
+        blot = smooth(0.6, 0.66, fnoise(711, 2.6) * 0.8 + (1 - V) * 0.3)
+        return lerp(col, (224, 70, 30), blot * smooth(0.95, 0.5, V))
+    fish('Fish_Koi', (236, 232, 222), (240, 236, 228), (244, 242, 236), koi, rough=0.25, metal=0.15, seed=710)
+    fish('Fish_Koi_Gold', (196, 140, 30), (236, 190, 60), (250, 224, 130), None, rough=0.18, metal=0.85, seed=715)
+
+    def tai(U, V, col, n1, n2):
+        dots = smooth(0.965, 0.99, fnoise(721, 0.3)) * smooth(0.7, 0.2, V)
+        return lerp(col, (90, 170, 240), dots)
+    fish('Fish_Tai', (196, 60, 70), (226, 120, 120), (244, 214, 210), tai, rough=0.25, metal=0.4, seed=720)
+
+    def saba(U, V, col, n1, n2):
+        w = np.sin((U * 26 + np.sin(V * 20 + U * 8) * 0.9 + n1 * 1.5) * np.pi)
+        stripes = smooth(0.4, 0.8, w) * smooth(0.42, 0.25, V)
+        return lerp(col, (16, 30, 30), stripes * 0.85)
+    fish('Fish_Saba', (40, 110, 110), (150, 180, 180), (236, 240, 238), saba, rough=0.22, metal=0.6, seed=730)
+    fish('Fish_Maguro', (18, 28, 64), (90, 106, 130), (206, 214, 222), None, rough=0.25, metal=0.55, scales=False, seed=740)
+
+    def fugu(U, V, col, n1, n2):
+        spots = smooth(0.6, 0.66, fnoise(751, 2.8)) * smooth(0.6, 0.3, V)
+        blotch = np.exp(-(((U - 0.4) / 0.07) ** 2 + ((V - 0.45) / 0.08) ** 2))
+        col = lerp(col, (40, 34, 24), spots * 0.8)
+        return lerp(col, (22, 18, 14), blotch * 0.9)
+    fish('Fish_Fugu', (120, 112, 70), (170, 160, 110), (244, 242, 232), fugu, rough=0.5, metal=0.05, scales=False, seed=750)
+    fish('Fish_Unagi', (26, 32, 22), (70, 76, 50), (200, 186, 120), None, rough=0.2, metal=0.1, scales=False, seed=760)
+
+    fish_fin('Fish_Fin', (170, 172, 166), (226, 226, 218), seed=770)
+    fish_fin('Fish_Fin_Red', (190, 60, 60), (240, 150, 140), seed=771)
+    fish_fin('Fish_Fin_Yellow', (200, 170, 40), (245, 220, 110), alpha_edge=0.8, seed=772)
+    fish_fin('Fish_Fin_Gold', (210, 150, 40), (250, 220, 140), alpha_edge=0.75, seed=773)
+    r = np.sqrt((xx - 0.5) ** 2 + (yy - 0.5) ** 2) * 2
+    col = lerp((10, 10, 12), (190, 160, 90), smooth(0.45, 0.55, r))
+    save('Fish_Eye', col, np.zeros((N, N)), 0.05, 0.3)
+
+
 if __name__ == '__main__':
     which = sys.argv[1:] or ['roof_tile', 'timber_dark', 'timber_light', 'plaster', 'granite', 'fitted_stone',
                              'cobble', 'planks', 'gold', 'iron', 'shoji', 'uv_check']
