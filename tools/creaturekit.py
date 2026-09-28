@@ -1,14 +1,14 @@
 """Hero creature: ancient Eastern water dragon (Roblox-ready, rigged).
 
-Standing pose (bind pose): four clawed legs planted, long muscular body, neck rising to a large sculpted head, very
-long tail curling up into an S that ends in crystalline water fins.
+Long, straight bind pose: four clawed legs planted, body and very long tail on one straight line, neck reaching
+forward to a large sculpted head, crystalline water fins at the tail tip.
 
 Pieces (each its own mesh, each split per texture set on export, each < 20k tris):
   Head, Jaw, Horns, Eyes, Whiskers, Mane, Neck, Body, Tail, Limbs, Claws, Fins, WaterFX
 Solid creature materials: Dragon_Scales, Dragon_Belly, Dragon_Horn, Dragon_Fin (crystal), Dragon_Claw, Dragon_Eye.
 Only WaterFX uses the translucent Water_Flame set.
 
-Rig (bones): Root; Spine01-04 (hips -> shoulders); Neck01-04; Head; Jaw; Tail01-12 (hips -> tip);
+Rig (bones): Root; Spine01-04 (hips -> shoulders); Neck01-04; Head; Jaw; Tail01-16 (hips -> tip);
 FL/FR/RL/RR _Upper/_Lower/_Foot.  Skin weights are computed from each vertex's position along the spine
 (neck/body/tail/fins/water/mane), rigidly for head pieces and the jaw, and by nearest segment for limbs and claws.
 
@@ -31,11 +31,12 @@ def B():
 
 # ------------------------------------------------------------------------------------------------ spine
 # control points tail tip -> head base: (x, y, z, radius)
-CTRL = [(13.0, -25.0, 24.0, 0.14), (11.2, -22.6, 21.2, 0.42), (10.8, -19.5, 17.4, 0.64), (13.2, -16.8, 13.6, 0.88),
-        (16.2, -18.6, 9.8, 1.10), (15.6, -23.6, 6.4, 1.32), (11.6, -26.4, 5.0, 1.55), (6.6, -23.8, 5.6, 1.85),
-        (3.6, -18.2, 6.6, 2.25), (2.2, -12.0, 7.4, 2.55), (1.2, -6.0, 7.8, 2.72), (0.4, -0.6, 7.6, 2.8),
-        (0.0, 3.2, 9.4, 2.6), (0.0, 4.6, 13.4, 2.2), (0.0, 5.0, 17.6, 1.92), (0.0, 6.2, 21.0, 1.74),
-        (0.0, 8.0, 22.8, 1.62)]
+# long, straight bind pose: body and tail on one line along Y, neck reaching forward with a gentle rise
+CTRL = [(0.0, -62.0, 6.9, 0.14), (0.0, -56.0, 7.0, 0.36), (0.0, -50.0, 7.1, 0.56), (0.0, -44.0, 7.2, 0.78),
+        (0.0, -38.0, 7.3, 1.0), (0.0, -32.0, 7.4, 1.25), (0.0, -26.0, 7.5, 1.55), (0.0, -21.0, 7.55, 1.85),
+        (0.0, -16.0, 7.6, 2.25), (0.0, -10.0, 7.7, 2.55), (0.0, -4.0, 7.8, 2.72), (0.0, 2.0, 7.8, 2.8),
+        (0.0, 6.0, 8.2, 2.6), (0.0, 10.0, 8.9, 2.25), (0.0, 14.0, 9.8, 1.95), (0.0, 17.5, 10.6, 1.75),
+        (0.0, 21.0, 11.2, 1.62)]
 HIP_I, SHOULDER_I = 8, 11          # control indices of the hips (rear legs) and shoulders (front legs)
 
 
@@ -491,7 +492,7 @@ def make_rig(sp, H, legs, s_hip, s_sh):
     L = sp.length
     bones, chain = [], []                      # chain: (name, s0, s1) along the spine arc, tail tip -> head
     bones.append(('Root', Vector((0, 0, 0)), Vector((0, 1.5, 0)), None))
-    tail_n, spine_n, neck_n = 12, 4, 4
+    tail_n, spine_n, neck_n = 16, 4, 4
     for i in range(spine_n):
         s0 = s_hip + (s_sh - s_hip) * i / spine_n; s1 = s_hip + (s_sh - s_hip) * (i + 1) / spine_n
         bones.append((f'Spine{i + 1:02d}', sp.at(s0)[0], sp.at(s1)[0], 'Root' if i == 0 else f'Spine{i:02d}'))

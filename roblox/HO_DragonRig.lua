@@ -2,7 +2,7 @@
 	HOLLOW OATH - Water dragon rig driver (HO_Creature_WaterDragon)
 
 	Import assets/Phase4/Characters/HO_Creature_WaterDragon.fbx with File > Import 3D:
-	  * Scale Unit = Stud, Rig General > Rig Type = Custom (keeps the 35 bones and the skinning).
+	  * Scale Unit = Stud, Rig General > Rig Type = Custom (keeps the 39 bones and the skinning).
 	  * Run require(game.ServerStorage.HO_CityBuilder).ApplyTextures(<the imported model>) for the SurfaceAppearances.
 	  * Eyes (..._Eyes) -> Material Neon. WaterFX -> SurfaceAppearance.AlphaMode = Transparency (it is the only
 	    translucent piece; everything else is the solid creature).
@@ -13,7 +13,7 @@
 	    DragonRig.Roar(workspace.HO_Creature_WaterDragon)                -- one-shot: head up, jaw wide, tail lash
 	    stop()                                                           -- stop the idle
 
-	Bones: Root, Spine01-04 (hips -> shoulders), Neck01-04, Head, Jaw, Tail01-12 (hips -> tip),
+	Bones: Root, Spine01-04 (hips -> shoulders), Neck01-04, Head, Jaw, Tail01-16 (hips -> tip),
 	FL/FR/RL/RR _Upper/_Lower/_Foot. You can also animate them in the Animation Editor (the model gets an
 	AnimationController + Animator) - Bone.Transform is what both drive.
 ]]
@@ -54,11 +54,11 @@ function DragonRig.Idle(model, opts)
 	local t = 0
 	local conn = RunService.Heartbeat:Connect(function(dt)
 		t = t + dt * speed
-		for i = 1, 12 do                                   -- travelling wave down the tail, growing toward the tip
+		for i = 1, 16 do                                   -- travelling wave down the tail, growing toward the tip
 			local n = string.format("Tail%02d", i)
 			if B[n] then
 				local a = ax[n]
-				B[n].Transform = rot(a[1], a[2], math.sin(t * 1.3 - i * 0.45) * tailAmp * (0.4 + i / 12),
+				B[n].Transform = rot(a[1], a[2], math.sin(t * 1.3 - i * 0.4) * tailAmp * (0.4 + i / 16),
 					math.sin(t * 0.9 - i * 0.35) * tailAmp * 0.35)
 			end
 		end
@@ -96,7 +96,7 @@ function DragonRig.Roar(model)
 			local _, right = axes(model, B.Jaw)
 			B.Jaw.Transform = CFrame.fromAxisAngle(right, -e * math.rad(32))
 		end
-		for i = 1, 12 do
+		for i = 1, 16 do
 			local n = string.format("Tail%02d", i)
 			if B[n] then
 				local up = axes(model, B[n])

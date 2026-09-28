@@ -77,15 +77,15 @@ if render:
     ctr = (lo + hi) / 2
     H = Vector(rig['bones'][[b[0] for b in rig['bones']].index('Head')][1])
     cams = {'head': (H + Vector((10.5, 13.5, -1.2)), H + Vector((0, 2.6, -0.4)), 45),
-            'hero': (ctr + Vector((-38, 46, 6)), ctr + Vector((0, 0, -1.5)), 38)}
+            'hero': (ctr + Vector((-0.62, 0.72, 0.2)).normalized() * (hi - lo).length * 1.05, ctr + Vector((0, 0, -1.5)), 38)}
     renders = ho.render_previews(objs, NAME, subdir=f'{PH}/{CAT}', views=('three_quarter', 'front', 'side', 'back'), samples=32,
                                  cams=cams)
     # bent test pose: neck turned, jaw open, tail swept - proves the skinning
     bpy.context.view_layer.objects.active = arm
     pb = arm.pose.bones
     for b in pb: b.rotation_mode = 'XYZ'
-    for i in range(1, 13):
-        pb[f'Tail{i:02d}'].rotation_euler = (0, 0, math.radians(14 * math.sin(i * 0.55)))
+    for i in range(1, 17):
+        pb[f'Tail{i:02d}'].rotation_euler = (0, 0, math.radians(10 * math.sin(i * 0.45)))
     for i in range(1, 5):
         pb[f'Neck{i:02d}'].rotation_euler = (math.radians(6), 0, math.radians(-11))
     pb['Jaw'].rotation_euler = (math.radians(26), 0, 0)
@@ -104,11 +104,11 @@ entry = dict(name=NAME, phase=PH, category=CAT, type='Skinned mesh group + armat
              pivot='ground between the front feet', renders=renders, mesh_checks=checks,
              checks=dict(under_limit=all(c['tris'] <= 20000 for c in checks), dims=[round(d, 2) for d in (hi - lo)],
                          meshes={c['name']: c['tris'] for c in checks}, bones=len(rig['bones'])),
-             notes=('Rigged Eastern water dragon, the hero creature (~%.0f long, head at ~%.0f studs). Standing bind pose, faces '
+             notes=('Rigged Eastern water dragon, the hero creature (~%.0f long, head at ~%.0f studs). Long straight bind pose, faces '
                     'FRONT (-Z), feet on the ground at the origin. Pieces: Head, Jaw, Horns, Eyes, Whiskers, Mane, Neck, Body, '
                     'Tail, Limbs, Claws, Fins, WaterFX (each split per texture set). Solid PBR creature (Dragon_Scales, '
                     'Dragon_Belly, Dragon_Horn, Dragon_Fin, Dragon_Claw, Dragon_Eye = Neon); only WaterFX is translucent '
-                    '(Water_Flame, AlphaMode Transparency). %d bones: Root, Spine01-04, Neck01-04, Head, Jaw, Tail01-12, '
+                    '(Water_Flame, AlphaMode Transparency). %d bones: Root, Spine01-04, Neck01-04, Head, Jaw, Tail01-16, '
                     'FL/FR/RL/RR_Upper/_Lower/_Foot; skinned (max 4 weights). Import with File > Import 3D (Scale Unit = Stud, '
                     'Rig General > Rig Type = Custom). roblox/HO_DragonRig.lua animates it (tail wave, breathing, neck sway, jaw).'
                     % (max(hi.x - lo.x, hi.y - lo.y), hi.z, len(rig['bones']))))
