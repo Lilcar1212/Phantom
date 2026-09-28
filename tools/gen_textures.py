@@ -706,8 +706,8 @@ def fish_all():
     fish_fin('Fish_Fin_Yellow', (200, 170, 40), (245, 220, 110), alpha_edge=0.8, seed=772)
     fish_fin('Fish_Fin_Gold', (210, 150, 40), (250, 220, 140), alpha_edge=0.75, seed=773)
     r = np.sqrt((xx - 0.5) ** 2 + (yy - 0.5) ** 2) * 2
-    col = lerp((10, 10, 12), (190, 160, 90), smooth(0.45, 0.55, r))
-    save('Fish_Eye', col, np.zeros((N, N)), 0.05, 0.3)
+    col = lerp((6, 6, 8), (40, 34, 24), smooth(0.6, 1.2, r) + fnoise(781, 2.0) * 0.2)          # glossy dark eye
+    save('Fish_Eye', col, np.zeros((N, N)), 0.03, 0.2)
 
 
 if __name__ == '__main__':

@@ -29951,6 +29951,114 @@
   "notes": "Ayu (sweetfish), 1.1 long: olive back, silver flanks, yellow gill spot. Common river catch. Origin = centre of the body; head FRONT (-Z), back up. Fins use Fish_Fin* sets (colour map has alpha: SurfaceAppearance AlphaMode = Transparency). Eyes = Fish_Eye. | meshes: HO_Fish_Ayu__Fish_Ayu (1728), HO_Fish_Ayu__Fish_Eye (160), HO_Fish_Ayu__Fish_Fin (152)"
  },
  {
+  "name": "HO_Fish_Fugu",
+  "phase": "Phase4",
+  "category": "Fish",
+  "type": "Mesh group",
+  "file": "assets/Phase4/Fish/HO_Fish_Fugu.fbx",
+  "tris": 2016,
+  "textures": [
+   "Fish_Eye",
+   "Fish_Fin",
+   "Fish_Fugu"
+  ],
+  "pivot": "body centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 13,
+   "inverted_parts": 0,
+   "dims": [
+    0.421,
+    1.08,
+    0.4
+   ],
+   "meshes": {
+    "HO_Fish_Fugu__Fish_Eye": 160,
+    "HO_Fish_Fugu__Fish_Fin": 128,
+    "HO_Fish_Fugu__Fish_Fugu": 1728
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": false
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Fish_Fugu__Fish_Eye",
+    "tris": 160,
+    "tris_per_material": {
+     "Fish_Eye": 160
+    },
+    "under_limit": true,
+    "dims": [
+     0.329,
+     0.064,
+     0.064
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Eye"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Fish_Fugu__Fish_Fin",
+    "tris": 128,
+    "tris_per_material": {
+     "Fish_Fin": 128
+    },
+    "under_limit": true,
+    "dims": [
+     0.421,
+     0.859,
+     0.388
+    ],
+    "parts": 10,
+    "floating": 6,
+    "closed_parts": 0,
+    "open_parts": 10,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Fin"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Fish_Fugu__Fish_Fugu",
+    "tris": 1728,
+    "tris_per_material": {
+     "Fish_Fugu": 1728
+    },
+    "under_limit": true,
+    "dims": [
+     0.378,
+     0.909,
+     0.397
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Fugu"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [
+   "renders/Phase4/Fish/HO_Fish_Fugu_three_quarter.png",
+   "renders/Phase4/Fish/HO_Fish_Fugu_side.png"
+  ],
+  "notes": "Fugu (pufferfish), 0.9 long: round spotted body, dark blotch behind the fins, white belly, big eyes. Origin = centre of the body; head FRONT (-Z), back up. Fins use Fish_Fin* sets (colour map has alpha: SurfaceAppearance AlphaMode = Transparency). Eyes = Fish_Eye. | meshes: HO_Fish_Fugu__Fish_Eye (160), HO_Fish_Fugu__Fish_Fin (128), HO_Fish_Fugu__Fish_Fugu (1728)"
+ },
+ {
   "name": "HO_Fish_Koi",
   "phase": "Phase4",
   "category": "Fish",
@@ -30167,6 +30275,247 @@
   "notes": "Golden koi (ogon), 1.8 long: metallic gold body and fins. Rare catch. Origin = centre of the body; head FRONT (-Z), back up. Fins use Fish_Fin* sets (colour map has alpha: SurfaceAppearance AlphaMode = Transparency). Eyes = Fish_Eye. | meshes: HO_Fish_Koi_Gold__Fish_Eye (160), HO_Fish_Koi_Gold__Fish_Fin_Gold (152), HO_Fish_Koi_Gold__Fish_Koi_Gold (1780)"
  },
  {
+  "name": "HO_Fish_Maguro",
+  "phase": "Phase4",
+  "category": "Fish",
+  "type": "Mesh group",
+  "file": "assets/Phase4/Fish/HO_Fish_Maguro.fbx",
+  "tris": 2096,
+  "textures": [
+   "Fish_Eye",
+   "Fish_Fin",
+   "Fish_Fin_Yellow",
+   "Fish_Maguro"
+  ],
+  "pivot": "body centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 51,
+   "inverted_parts": 0,
+   "dims": [
+    1.505,
+    6.5,
+    3.6
+   ],
+   "meshes": {
+    "HO_Fish_Maguro__Fish_Eye": 160,
+    "HO_Fish_Maguro__Fish_Fin": 144,
+    "HO_Fish_Maguro__Fish_Fin_Yellow": 64,
+    "HO_Fish_Maguro__Fish_Maguro": 1728
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": false
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Fish_Maguro__Fish_Eye",
+    "tris": 160,
+    "tris_per_material": {
+     "Fish_Eye": 160
+    },
+    "under_limit": true,
+    "dims": [
+     0.785,
+     0.11,
+     0.11
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Eye"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Fish_Maguro__Fish_Fin",
+    "tris": 144,
+    "tris_per_material": {
+     "Fish_Fin": 144
+    },
+    "under_limit": true,
+    "dims": [
+     1.505,
+     5.275,
+     3.6
+    ],
+    "parts": 16,
+    "floating": 14,
+    "closed_parts": 0,
+    "open_parts": 16,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Fin"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Fish_Maguro__Fish_Fin_Yellow",
+    "tris": 64,
+    "tris_per_material": {
+     "Fish_Fin_Yellow": 64
+    },
+    "under_limit": true,
+    "dims": [
+     0.008,
+     1.51,
+     0.928
+    ],
+    "parts": 32,
+    "floating": 16,
+    "closed_parts": 0,
+    "open_parts": 32,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Fin_Yellow"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Fish_Maguro__Fish_Maguro",
+    "tris": 1728,
+    "tris_per_material": {
+     "Fish_Maguro": 1728
+    },
+    "under_limit": true,
+    "dims": [
+     1.0,
+     5.05,
+     1.297
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Maguro"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [
+   "renders/Phase4/Fish/HO_Fish_Maguro_three_quarter.png",
+   "renders/Phase4/Fish/HO_Fish_Maguro_side.png"
+  ],
+  "notes": "Maguro (bluefin tuna), 5 long: navy back, silver belly, yellow finlets, crescent tail. Legendary big catch. Origin = centre of the body; head FRONT (-Z), back up. Fins use Fish_Fin* sets (colour map has alpha: SurfaceAppearance AlphaMode = Transparency). Eyes = Fish_Eye. | meshes: HO_Fish_Maguro__Fish_Eye (160), HO_Fish_Maguro__Fish_Fin (144), HO_Fish_Maguro__Fish_Fin_Yellow (64), HO_Fish_Maguro__Fish_Maguro (1728)"
+ },
+ {
+  "name": "HO_Fish_Saba",
+  "phase": "Phase4",
+  "category": "Fish",
+  "type": "Mesh group",
+  "file": "assets/Phase4/Fish/HO_Fish_Saba.fbx",
+  "tris": 2072,
+  "textures": [
+   "Fish_Eye",
+   "Fish_Fin",
+   "Fish_Saba"
+  ],
+  "pivot": "body centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 39,
+   "inverted_parts": 0,
+   "dims": [
+    0.331,
+    1.764,
+    0.728
+   ],
+   "meshes": {
+    "HO_Fish_Saba__Fish_Eye": 160,
+    "HO_Fish_Saba__Fish_Fin": 184,
+    "HO_Fish_Saba__Fish_Saba": 1728
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": false
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Fish_Saba__Fish_Eye",
+    "tris": 160,
+    "tris_per_material": {
+     "Fish_Eye": 160
+    },
+    "under_limit": true,
+    "dims": [
+     0.16,
+     0.056,
+     0.056
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Eye"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Fish_Saba__Fish_Fin",
+    "tris": 184,
+    "tris_per_material": {
+     "Fish_Fin": 184
+    },
+    "under_limit": true,
+    "dims": [
+     0.331,
+     1.421,
+     0.728
+    ],
+    "parts": 36,
+    "floating": 6,
+    "closed_parts": 0,
+    "open_parts": 36,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Fin"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Fish_Saba__Fish_Saba",
+    "tris": 1728,
+    "tris_per_material": {
+     "Fish_Saba": 1728
+    },
+    "under_limit": true,
+    "dims": [
+     0.182,
+     1.414,
+     0.269
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Saba"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [
+   "renders/Phase4/Fish/HO_Fish_Saba_three_quarter.png",
+   "renders/Phase4/Fish/HO_Fish_Saba_side.png"
+  ],
+  "notes": "Saba (mackerel), 1.4 long: blue-green back with black wavy stripes, silver belly, finlets, deep forked tail. Origin = centre of the body; head FRONT (-Z), back up. Fins use Fish_Fin* sets (colour map has alpha: SurfaceAppearance AlphaMode = Transparency). Eyes = Fish_Eye. | meshes: HO_Fish_Saba__Fish_Eye (160), HO_Fish_Saba__Fish_Fin (184), HO_Fish_Saba__Fish_Saba (1728)"
+ },
+ {
   "name": "HO_Fish_Tai",
   "phase": "Phase4",
   "category": "Fish",
@@ -30273,6 +30622,114 @@
    "renders/Phase4/Fish/HO_Fish_Tai_side.png"
   ],
   "notes": "Tai (red sea bream), 1.6 long: deep red body with blue spots, spiny dorsal, red fins. Prized sea catch. Origin = centre of the body; head FRONT (-Z), back up. Fins use Fish_Fin* sets (colour map has alpha: SurfaceAppearance AlphaMode = Transparency). Eyes = Fish_Eye. | meshes: HO_Fish_Tai__Fish_Eye (160), HO_Fish_Tai__Fish_Fin_Red (152), HO_Fish_Tai__Fish_Tai (1728)"
+ },
+ {
+  "name": "HO_Fish_Unagi",
+  "phase": "Phase4",
+  "category": "Fish",
+  "type": "Mesh group",
+  "file": "assets/Phase4/Fish/HO_Fish_Unagi.fbx",
+  "tris": 4136,
+  "textures": [
+   "Fish_Eye",
+   "Fish_Fin",
+   "Fish_Unagi"
+  ],
+  "pivot": "body centre",
+  "checks": {
+   "under_limit": true,
+   "floating": 0,
+   "parts": 7,
+   "inverted_parts": 0,
+   "dims": [
+    0.884,
+    3.03,
+    0.282
+   ],
+   "meshes": {
+    "HO_Fish_Unagi__Fish_Eye": 160,
+    "HO_Fish_Unagi__Fish_Fin": 136,
+    "HO_Fish_Unagi__Fish_Unagi": 3840
+   },
+   "pivot_bottom_center": false,
+   "pivot_z0": false
+  },
+  "mesh_checks": [
+   {
+    "name": "HO_Fish_Unagi__Fish_Eye",
+    "tris": 160,
+    "tris_per_material": {
+     "Fish_Eye": 160
+    },
+    "under_limit": true,
+    "dims": [
+     0.197,
+     0.12,
+     0.12
+    ],
+    "parts": 2,
+    "floating": 0,
+    "closed_parts": 2,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Eye"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Fish_Unagi__Fish_Fin",
+    "tris": 136,
+    "tris_per_material": {
+     "Fish_Fin": 136
+    },
+    "under_limit": true,
+    "dims": [
+     0.709,
+     1.95,
+     0.282
+    ],
+    "parts": 4,
+    "floating": 0,
+    "closed_parts": 0,
+    "open_parts": 4,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Fin"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   },
+   {
+    "name": "HO_Fish_Unagi__Fish_Unagi",
+    "tris": 3840,
+    "tris_per_material": {
+     "Fish_Unagi": 3840
+    },
+    "under_limit": true,
+    "dims": [
+     0.884,
+     3.03,
+     0.202
+    ],
+    "parts": 1,
+    "floating": 0,
+    "closed_parts": 1,
+    "open_parts": 0,
+    "inverted_parts": 0,
+    "textures": [
+     "Fish_Unagi"
+    ],
+    "textures_ok": true,
+    "pivot_bottom_center": false
+   }
+  ],
+  "renders": [
+   "renders/Phase4/Fish/HO_Fish_Unagi_three_quarter.png",
+   "renders/Phase4/Fish/HO_Fish_Unagi_side.png"
+  ],
+  "notes": "Unagi (eel), 3 long: dark olive back, yellow belly, long ribbon fins; S-curved body. Origin = centre of the body; head FRONT (-Z), back up. Fins use Fish_Fin* sets (colour map has alpha: SurfaceAppearance AlphaMode = Transparency). Eyes = Fish_Eye. | meshes: HO_Fish_Unagi__Fish_Eye (160), HO_Fish_Unagi__Fish_Fin (136), HO_Fish_Unagi__Fish_Unagi (3840)"
  },
  {
   "name": "HO_Hero_StoneFist_Left",
